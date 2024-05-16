@@ -1,0 +1,52 @@
+ncsc_run: *N,TBDEP: Test will be regenerated due to changes in
+          command line ld_test options
+$CDSROOT = /home/project/eda/pkgs/cadence/ius/v15.20
+$TESTDIR = /NOBACKUP/atcpcw10/jasonli/sc/uvmc-2.3.3/examples/connections
+
+TOOL:	ncsc	15.20-s058
+ncsc C++ parameters: 
+	ncsc -COMPILER $CDSROOT/tools/cdsgcc/gcc/4.8/bin/g++ 
+	-f ./INCA_libs/irun.lnx86.15.20.nc/ncsc_run/ncsc_obj/ncsc.args
+	-MANUAL 
+	-CFLAGS "-DNCSC
+		-I$CDSROOT/tools/systemc/include_pch
+		-I$CDSROOT/tools/tbsc/include
+		-I$CDSROOT/tools/vic/include
+		-I$CDSROOT/tools/methodology/OVM/CDNS-2.1.2/sc/src
+		-I/home/project/eda/pkgs/cadence/ius/default/tools/methodology/UVM/CDNS-1.2/sv/sc/sc
+		-I/home/project/eda/pkgs/cadence/ius/default/tools/methodology/UVM/CDNS-1.2/sv/ml/sc
+		-I$CDSROOT/tools/systemc/include/cci
+		-I$CDSROOT/tools/systemc/include/factory
+		-I$CDSROOT/tools/systemc/include/tlm2
+		-c
+		-x c++ -m32  -Wall 
+		-O0 -g
+		-fPIC
+		-I/home/project/eda/pkgs/cadence/ius/default/tools/systemc/include/tlm2/tlm_utils
+		-I/NOBACKUP/atcpcw10/jasonli/sc/uvmc-2.3.3/src/connect/sc
+		-I$TESTDIR/.
+		-I/NOBACKUP/atcpcw10/jasonli/sc/uvmc-2.3.3/src/connect/sc
+		-I$TESTDIR/common
+		-DSC_INCLUDE_DYNAMIC_PROCESSES
+		-DINCA
+		-I$CDSROOT/tools/include
+		-I$CDSROOT/tools/inca/include
+		-fPIC
+		-I$CDSROOT/tools/include"
+
+make[2]: Entering directory `/NOBACKUP/atcpcw10/jasonli/sc/uvmc-2.3.3/examples/connections'
+ncsc: compiling $/NOBACKUP/atcpcw10/jasonli/sc/uvmc-2.3.3/src/connect/sc/uvmc.cpp
+make[2]: Leaving directory `/NOBACKUP/atcpcw10/jasonli/sc/uvmc-2.3.3/examples/connections'
+$CDSROOT/tools/include/svdpi_compatibility.h:48:2: warning: #warning "INCISIV is currently compliant with DPI header file svdpi.h as per IEEE 1800-2005. Starting IUS16.10, the default header file will be as per IEEE 1800-2012. DPI applications which need to continue complying with IEEE 1800-2005 will need to compile with the macro DPI_COMPATIBILITY_VERSION_1800v2005 starting in 16.1. The difference in the two header files is in the declaration of the struct t_vpi_vecval." [-Wcpp]
+ #warning "INCISIV is currently compliant with DPI header file svdpi.h as per IEEE 1800-2005. Starting IUS16.10, the default header file will be as per IEEE 1800-2012. DPI applications which need to continue complying with IEEE 1800-2005 will need to compile with the macro DPI_COMPATIBILITY_VERSION_1800v2005 starting in 16.1. The difference in the two header files is in the declaration of the struct t_vpi_vecval."
+
+make[2]: Entering directory `/NOBACKUP/atcpcw10/jasonli/sc/uvmc-2.3.3/examples/connections'
+ncsc: compiling $TESTDIR/sc2sv.cpp
+make[2]: Leaving directory `/NOBACKUP/atcpcw10/jasonli/sc/uvmc-2.3.3/examples/connections'
+$CDSROOT/tools/include/svdpi_compatibility.h:48:2: warning: #warning "INCISIV is currently compliant with DPI header file svdpi.h as per IEEE 1800-2005. Starting IUS16.10, the default header file will be as per IEEE 1800-2012. DPI applications which need to continue complying with IEEE 1800-2005 will need to compile with the macro DPI_COMPATIBILITY_VERSION_1800v2005 starting in 16.1. The difference in the two header files is in the declaration of the struct t_vpi_vecval." [-Wcpp]
+ #warning "INCISIV is currently compliant with DPI header file svdpi.h as per IEEE 1800-2005. Starting IUS16.10, the default header file will be as per IEEE 1800-2012. DPI applications which need to continue complying with IEEE 1800-2005 will need to compile with the macro DPI_COMPATIBILITY_VERSION_1800v2005 starting in 16.1. The difference in the two header files is in the declaration of the struct t_vpi_vecval."
+$TESTDIR/common/producer.h:108:41: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+
+make[2]: Entering directory `/NOBACKUP/atcpcw10/jasonli/sc/uvmc-2.3.3/examples/connections'
+building library run.so
+make[2]: Leaving directory `/NOBACKUP/atcpcw10/jasonli/sc/uvmc-2.3.3/examples/connections'

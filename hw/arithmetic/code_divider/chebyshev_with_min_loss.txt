@@ -1,0 +1,68 @@
+#method chebyshev2poly with minimial loss interpolation
+import matplotlib.pyplot as plt
+import numpy as np
+from numpy.polynomial.chebyshev import chebfit
+from numpy import polynomial as P
+
+x_min = 0
+x_max = 256
+node = 10240
+deg = 2
+
+def Fun(x):
+    return x**(1/2)
+    #return 256/x
+    #return x/3
+    #return np.arctan(x)
+    #return np.sin(x)
+    #return 1.0 / (1+np.exp(-x))
+    #return np.exp(x)
+
+def GetChebyZeroFun (x_min, x_max, node):
+    chebyzero = np.linspace(x_min, x_max, node)
+    
+    for i in range(1, node+1):
+        chebyzero[i-1] = (x_max+x_min)/2 + (x_max-x_min)/2 * np.cos((2*i-1)*np.pi/(2*node))
+        i += 1
+    return chebyzero
+
+# initial line and chart
+fig, ax = plt.subplots()
+
+# initial original function
+x = np.array(range(x_min, x_max+1))
+y = Fun(x);
+
+# get Chebyshev zero
+smp_x = GetChebyZeroFun(x_min, x_max, node)
+smp_y = Fun(smp_x);
+
+# get Chebyshev coefficients
+cheby_coeffs = chebfit(smp_x, smp_y, deg)
+
+# compute approximation with Chebyshev coefficients
+ty = np.polynomial.chebyshev.chebval(x, cheby_coeffs)
+
+# print function
+ax.plot(x,  y, color= "red", label = "func")
+ax.plot(x, ty, color= "blue",label = "Cheby func")
+ax.legend();
+plt.show()
+plt.close()
+
+# print loss function
+plt.figure()
+plt.plot(x, abs(ty-y), color= "blue", label = "loss func")
+plt.legend();
+plt.show()
+plt.close()
+
+# print max loss
+print("max loss: ", max(abs(ty-y)))
+
+# print polynomial function and coefficients
+c = P.Chebyshev(cheby_coeffs)
+p = c.convert(kind=P.Polynomial)
+print("polynomial function:", p)
+pep_coeffs = np.polynomial.chebyshev.cheb2poly(cheby_coeffs)
+print("polynomial coefficients: ", pep_coeffs)

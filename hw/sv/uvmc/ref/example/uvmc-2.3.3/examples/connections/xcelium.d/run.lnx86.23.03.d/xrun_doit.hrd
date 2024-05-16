@@ -1,0 +1,9 @@
+//
+// File created by:  xrun
+// Do not modify this file
+//
+-sysc
+-uvmnocdnsextra
+-uvmhome
+/home/project/eda/pkgs/cadence/ius/default/tools/methodology/UVM/CDNS-1.2/sv
+-sysc

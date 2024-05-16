@@ -1,0 +1,69 @@
+$CDSROOT = /home/project/eda/pkgs/cadence/xcelium/v23.03
+$TESTDIR = /NOBACKUP/atcpcw10/jasonli/sc/uvmc-2.3.3/examples/connections
+
+TOOL:	xmsc	23.03-s003
+xmsc C++ parameters: 
+	xmsc -COMPILER $CDSROOT/tools/cdsgcc/gcc/9.3/bin/g++ 
+	-f ./xcelium.d/run.lnx86.23.03.d/xmsc_run/xmsc_obj/xmsc.args
+	-MANUAL 
+	-CFLAGS "-DXMSC
+		-DNCSC
+		-I$CDSROOT/tools/systemc/include_pch
+		-I$CDSROOT/tools/tbsc/include
+		-I$CDSROOT/tools/vic/include
+		-I$CDSROOT/tools/methodology/OVM/CDNS-2.1.2/sc/src
+		-I/home/project/eda/pkgs/cadence/ius/default/tools/methodology/UVM/CDNS-1.2/sv/sc/sc
+		-I/home/project/eda/pkgs/cadence/ius/default/tools/methodology/UVM/CDNS-1.2/sv/ml/sc
+		-I$CDSROOT/tools/systemc/include/cci
+		-I$CDSROOT/tools/systemc/include/factory
+		-I$CDSROOT/tools/systemc/include/tlm2
+		-D_GLIBCXX_USE_CXX11_ABI=1 -c
+		-x c++ -m32  -Wall 
+		-O0 -g
+		-fPIC
+		-I/home/project/eda/pkgs/cadence/ius/default/tools/systemc/include/tlm2/tlm_utils
+		-I/NOBACKUP/atcpcw10/jasonli/sc/uvmc-2.3.3/src/connect/sc
+		-I$TESTDIR/.
+		-I/NOBACKUP/atcpcw10/jasonli/sc/uvmc-2.3.3/src/connect/sc
+		-I$TESTDIR/common
+		-DSC_INCLUDE_DYNAMIC_PROCESSES
+		-DINCA
+		-I$CDSROOT/tools/include
+		-I$CDSROOT/tools/inca/include
+		-fPIC
+		-I$CDSROOT/tools/include"
+
+make[2]: Entering directory `/NOBACKUP/atcpcw10/jasonli/sc/uvmc-2.3.3/examples/connections'
+xmsc: compiling $/NOBACKUP/atcpcw10/jasonli/sc/uvmc-2.3.3/src/connect/sc/uvmc.cpp
+make[2]: Leaving directory `/NOBACKUP/atcpcw10/jasonli/sc/uvmc-2.3.3/examples/connections'
+/NOBACKUP/atcpcw10/jasonli/sc/uvmc-2.3.3/src/connect/sc/uvmc_xl_converter.cpp:104:57: warning: 'chandle_caster.UVMC_XL_CONV_SV2C_convert_array_ref_to_chandle(svOpenArrayHandle, svBitVecVal*)::<unnamed union>::bitVecRep[1]' may be used uninitialized in this function [-Wmaybe-uninitialized]
+/NOBACKUP/atcpcw10/jasonli/sc/uvmc-2.3.3/src/connect/sc/uvmc_xl_converter.cpp:119:57: warning: 'chandle_caster.UVMC_XL_CONV_SV2C_convert_int_array_ref_to_chandle(svOpenArrayHandle, svBitVecVal*)::<unnamed union>::bitVecRep[1]' may be used uninitialized in this function [-Wmaybe-uninitialized]
+/NOBACKUP/atcpcw10/jasonli/sc/uvmc-2.3.3/src/connect/sc/uvmc_tlm_gp_converter.cpp:81:57: warning: 'chandle_caster.UVMC_CONV_SV2C_convert_array_ref_to_chandle(svOpenArrayHandle, svBitVecVal*)::<unnamed union>::bitVecRep[1]' may be used uninitialized in this function [-Wmaybe-uninitialized]
+/NOBACKUP/atcpcw10/jasonli/sc/uvmc-2.3.3/src/connect/sc/uvmc_xl_converter.cpp:158:57: warning: 'chandle_caster.UVMC_XL_CONV_SV2C_duplicate_array_ref_to_chandle(svOpenArrayHandle, svBitVecVal*)::<unnamed union>::bitVecRep[1]' may be used uninitialized in this function [-Wmaybe-uninitialized]
+/NOBACKUP/atcpcw10/jasonli/sc/uvmc-2.3.3/src/connect/sc/uvmc_xl_converter.cpp:180:57: warning: 'chandle_caster.UVMC_XL_CONV_SV2C_duplicate_int_array_ref_to_chandle(svOpenArrayHandle, svBitVecVal*)::<unnamed union>::bitVecRep[1]' may be used uninitialized in this function [-Wmaybe-uninitialized]
+/NOBACKUP/atcpcw10/jasonli/sc/uvmc-2.3.3/src/connect/sc/uvmc_tlm_gp_converter.cpp:108:57: warning: 'chandle_caster.UVMC_CONV_SV2C_duplicate_array_ref_to_chandle(svOpenArrayHandle, svBitVecVal*)::<unnamed union>::bitVecRep[1]' may be used uninitialized in this function [-Wmaybe-uninitialized]
+
+make[2]: Entering directory `/NOBACKUP/atcpcw10/jasonli/sc/uvmc-2.3.3/examples/connections'
+xmsc: compiling $TESTDIR/sc2sv.cpp
+make[2]: Leaving directory `/NOBACKUP/atcpcw10/jasonli/sc/uvmc-2.3.3/examples/connections'
+/home/project/eda/pkgs/cadence/ius/default/tools/systemc/include/tlm2/tlm_utils/simple_initiator_socket.h:57:63: warning: 'bool sc_core::ncsc_hidden_section_begin()' is deprecated [-Wdeprecated-declarations]
+/home/project/eda/pkgs/cadence/ius/default/tools/systemc/include/tlm2/tlm_utils/simple_initiator_socket.h:61:29: warning: 'bool sc_core::ncsc_hidden_section_end()' is deprecated [-Wdeprecated-declarations]
+/home/project/eda/pkgs/cadence/ius/default/tools/systemc/include/tlm2/tlm_utils/simple_initiator_socket.h:66:63: warning: 'bool sc_core::ncsc_hidden_section_begin()' is deprecated [-Wdeprecated-declarations]
+/home/project/eda/pkgs/cadence/ius/default/tools/systemc/include/tlm2/tlm_utils/simple_initiator_socket.h:70:29: warning: 'bool sc_core::ncsc_hidden_section_end()' is deprecated [-Wdeprecated-declarations]
+/home/project/eda/pkgs/cadence/ius/default/tools/systemc/include/tlm2/tlm_utils/simple_initiator_socket.h:194:70: warning: 'bool sc_core::ncsc_hidden_section_begin()' is deprecated [-Wdeprecated-declarations]
+/home/project/eda/pkgs/cadence/ius/default/tools/systemc/include/tlm2/tlm_utils/simple_initiator_socket.h:198:29: warning: 'bool sc_core::ncsc_hidden_section_end()' is deprecated [-Wdeprecated-declarations]
+/home/project/eda/pkgs/cadence/ius/default/tools/systemc/include/tlm2/tlm_utils/simple_initiator_socket.h:203:70: warning: 'bool sc_core::ncsc_hidden_section_begin()' is deprecated [-Wdeprecated-declarations]
+/home/project/eda/pkgs/cadence/ius/default/tools/systemc/include/tlm2/tlm_utils/simple_initiator_socket.h:207:29: warning: 'bool sc_core::ncsc_hidden_section_end()' is deprecated [-Wdeprecated-declarations]
+$TESTDIR/common/producer.h:108:21: warning: comparison of integer expressions of different signedness: 'int' and 'unsigned int' [-Wsign-compare]
+/home/project/eda/pkgs/cadence/ius/default/tools/systemc/include/tlm2/tlm_utils/simple_initiator_socket.h:66:62: warning: 'bool sc_core::ncsc_hidden_section_begin()' is deprecated [-Wdeprecated-declarations]
+/home/project/eda/pkgs/cadence/ius/default/tools/systemc/include/tlm2/tlm_utils/simple_initiator_socket.h:66:62: warning: 'bool sc_core::ncsc_hidden_section_begin()' is deprecated [-Wdeprecated-declarations]
+/home/project/eda/pkgs/cadence/ius/default/tools/systemc/include/tlm2/tlm_utils/simple_initiator_socket.h:66:62: warning: 'bool sc_core::ncsc_hidden_section_begin()' is deprecated [-Wdeprecated-declarations]
+/home/project/eda/pkgs/cadence/ius/default/tools/systemc/include/tlm2/tlm_utils/simple_initiator_socket.h:66:62: warning: 'bool sc_core::ncsc_hidden_section_begin()' is deprecated [-Wdeprecated-declarations]
+/home/project/eda/pkgs/cadence/ius/default/tools/systemc/include/tlm2/tlm_utils/simple_initiator_socket.h:70:28: warning: 'bool sc_core::ncsc_hidden_section_end()' is deprecated [-Wdeprecated-declarations]
+/home/project/eda/pkgs/cadence/ius/default/tools/systemc/include/tlm2/tlm_utils/simple_initiator_socket.h:70:28: warning: 'bool sc_core::ncsc_hidden_section_end()' is deprecated [-Wdeprecated-declarations]
+/home/project/eda/pkgs/cadence/ius/default/tools/systemc/include/tlm2/tlm_utils/simple_initiator_socket.h:70:28: warning: 'bool sc_core::ncsc_hidden_section_end()' is deprecated [-Wdeprecated-declarations]
+/home/project/eda/pkgs/cadence/ius/default/tools/systemc/include/tlm2/tlm_utils/simple_initiator_socket.h:70:28: warning: 'bool sc_core::ncsc_hidden_section_end()' is deprecated [-Wdeprecated-declarations]
+
+make[2]: Entering directory `/NOBACKUP/atcpcw10/jasonli/sc/uvmc-2.3.3/examples/connections'
+building library run.so
+make[2]: Leaving directory `/NOBACKUP/atcpcw10/jasonli/sc/uvmc-2.3.3/examples/connections'

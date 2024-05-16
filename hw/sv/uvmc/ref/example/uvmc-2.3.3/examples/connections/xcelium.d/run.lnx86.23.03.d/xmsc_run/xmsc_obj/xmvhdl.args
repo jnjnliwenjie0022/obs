@@ -1,0 +1,4 @@
+-nocopyright
+-cdslib /NOBACKUP/atcpcw10/jasonli/sc/uvmc-2.3.3/examples/connections/./xcelium.d/run.lnx86.23.03.d/cdsrun.lib
+-hdlvar /NOBACKUP/atcpcw10/jasonli/sc/uvmc-2.3.3/examples/connections/./xcelium.d/run.lnx86.23.03.d/hdlrun.var
+-work worklib

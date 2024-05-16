@@ -1,0 +1,21 @@
+//
+// File created by:  xrun
+// Do not modify this file
+//
+-uvmnocdnsextra
+-DEFINE
+INCA
+-INCDIR
+/NOBACKUP/atcpcw10/jasonli/sc/uvmc-2.3.3/src/connect/sv
+-DEFINE
+UVM_NO_DPI
+-DEFINE
+UVM_FIX_REV=undefined
+-INCDIR
+./common
+-DEFINE
+NCSC
+-I_INCDIR
+/home/project/eda/pkgs/cadence/ius/default/tools/methodology/UVM/CDNS-1.2/sv/src
+-DEFINE
+USE_PARAMETERIZED_WRAPPER

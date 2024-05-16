@@ -1,0 +1,3 @@
+-O0 -g
+-L${NCSC_CDS_ROOT}/tools/cdsgcc/gcc/9.3/install/lib -lstdc++ -lgcc_s -L${NCSC_CDS_ROOT}/tools/lib -L${NCSC_CDS_ROOT}/tools/tbsc/lib/gnu/9.3 -Wl,-rpath,${NCSC_CDS_ROOT}/tools/lib:${NCSC_CDS_ROOT}/tools/tbsc/lib/gnu/9.3:${SYSC_GNU_LIB} -ltbsc -lscv -lbfd
+-L/home/project/eda/pkgs/cadence/xcelium/v23.03/tools/systemc/lib/gnu/9.3 -lsystemc_sh -lscBootstrap_sh -lxmscCoroutines_sh -lovm -lxmsccci_sh -lxmscfactory_sh -lxml_parser -lxmsctlm2_sh -L/home/project/eda/pkgs/cadence/xcelium/v23.03/tools/methodology/UVM/CDNS-1.1d/sc/lib -luvm

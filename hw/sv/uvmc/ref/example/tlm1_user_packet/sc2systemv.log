@@ -1,0 +1,65 @@
+irun: 15.20-s058: (c) Copyright 1995-2018 Cadence Design Systems, Inc.
+irun: *W,UVMDPI: UVM dpi code will not be loaded because of define UVM_NO_DPI.
+Compiling UVM package (uvm_pkg.sv) using uvmhome location /home/project/eda/pkgs/cadence/ius/default/tools/methodology/UVM/CDNS-1.2/sv
+ncvlog: *W,NOTIND: unable to access -INCDIR ./common (No such file or directory).
+ncvlog: *W,NOTIND: unable to access -INCDIR ./common (No such file or directory).
+file: /NOBACKUP/atcpcw10/jasonli/sc/uvmc-2.3.3/src/connect/sv/uvmc_pkg.sv
+            t = trans_preservation_map[ trans_chandle ];
+                                                    |
+ncvlog: *W,BIGWBS (/NOBACKUP/atcpcw10/jasonli/sc/uvmc-2.3.3/src/connect/sv/uvmc_tlm2.sv,297|52): Bit-select index truncation.
+        trans_preservation_map[ trans_chandle ] = null;
+                                            |
+ncvlog: *W,BIGWBS (/NOBACKUP/atcpcw10/jasonli/sc/uvmc-2.3.3/src/connect/sv/uvmc_tlm2.sv,328|44): Bit-select index truncation.
+        trans_preservation_map[ trans_chandle ] = t;
+                                            |
+ncvlog: *W,BIGWBS (/NOBACKUP/atcpcw10/jasonli/sc/uvmc-2.3.3/src/connect/sv/uvmc_tlm2.sv,403|44): Bit-select index truncation.
+        trans_preservation_map[ trans_chandle ] = null;
+                                            |
+ncvlog: *W,BIGWBS (/NOBACKUP/atcpcw10/jasonli/sc/uvmc-2.3.3/src/connect/sv/uvmc_tlm2.sv,413|44): Bit-select index truncation.
+	package worklib.uvmc_pkg:sv
+		errors: 0, warnings: 4
+file: sc2systemv.sv
+	package worklib.user_pkg:sv
+		errors: 0, warnings: 0
+	module worklib.sv_main:sv
+		errors: 0, warnings: 0
+	Total errors/warnings found outside modules and primitives:
+		errors: 0, warnings: 1
+ncsc_run: *N,TBDEP: Test will be regenerated due to changes in the
+          command line.
+$CDSROOT = /home/project/eda/pkgs/cadence/ius/v15.20
+$TESTDIR = /NOBACKUP/atcpcw10/jasonli/sc/tlm1_user_packet
+
+TOOL:	ncsc	15.20-s058
+ncsc C++ parameters: 
+	ncsc -COMPILER $CDSROOT/tools/cdsgcc/gcc/4.8/bin/g++ 
+	-f ./INCA_libs/irun.lnx86.15.20.nc/ncsc_run/ncsc_obj/ncsc.args
+	-MANUAL 
+	-CFLAGS "-DNCSC
+		-I$CDSROOT/tools/systemc/include_pch
+		-I$CDSROOT/tools/tbsc/include
+		-I$CDSROOT/tools/vic/include
+		-I$CDSROOT/tools/methodology/OVM/CDNS-2.1.2/sc/src
+		-I/home/project/eda/pkgs/cadence/ius/default/tools/methodology/UVM/CDNS-1.2/sv/sc/sc
+		-I/home/project/eda/pkgs/cadence/ius/default/tools/methodology/UVM/CDNS-1.2/sv/ml/sc
+		-I$CDSROOT/tools/systemc/include/cci
+		-I$CDSROOT/tools/systemc/include/factory
+		-I$CDSROOT/tools/systemc/include/tlm2
+		-c
+		-x c++ -m32  -Wall 
+		-O0 -g
+		-fPIC
+		-I/home/project/eda/pkgs/cadence/ius/default/tools/systemc/include/tlm2/tlm_utils
+		-I/NOBACKUP/atcpcw10/jasonli/sc/uvmc-2.3.3/src/connect/sc
+		-I$TESTDIR/.
+		-I/NOBACKUP/atcpcw10/jasonli/sc/uvmc-2.3.3/src/connect/sc
+		-I$TESTDIR/common
+		-DSC_INCLUDE_DYNAMIC_PROCESSES
+		-DINCA
+		-I$CDSROOT/tools/include
+		-I$CDSROOT/tools/inca/include
+		-fPIC
+		-I$CDSROOT/tools/include"
+
+make[2]: Entering directory `/NOBACKUP/atcpcw10/jasonli/sc/tlm1_user_packet'
+ncsc: compiling $/NOBACKUP/atcpcw10/jasonli/sc/uvmc-2.3.3/src/connect/sc/uvmc.cpp

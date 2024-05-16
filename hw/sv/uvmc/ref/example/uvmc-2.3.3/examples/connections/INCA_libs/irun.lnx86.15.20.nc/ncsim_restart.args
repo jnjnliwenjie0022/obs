@@ -1,0 +1,36 @@
+//
+// File created by:  irun
+// Do not modify this file
+//
+-INPUT
+"@source /home/project/eda/pkgs/cadence/ius/default/tools/methodology/UVM/CDNS-1.2/sv/files/tcl/uvm_sim.tcl"
++UVMC_COMMAND_TRACE
++define+UVM_NO_DPI
++define+UVM_FIX_REV=undefined
+-uvmhome
+/home/project/eda/pkgs/cadence/ius/default/tools/methodology/UVM/CDNS-1.2/sv
+-sv_lib
+/home/project/eda/pkgs/cadence/ius/default/tools/methodology/UVM/CDNS-1.2/sv/lib/libuvmpli.so
+-LICQUEUE
+-SCSYNCEVERYDELTA
+on
+-MESSAGES
+-RUN
++EMGRLOG
+irun.log
+-XLSTIME
+1715181859
+-XLKEEP
+-XLMODE
+./INCA_libs/irun.lnx86.15.20.nc
+-RUNMODE
+-CDSLIB
+./INCA_libs/irun.lnx86.15.20.nc/cds.lib
+-HDLVAR
+./INCA_libs/irun.lnx86.15.20.nc/hdl.var
+-XLNAME
+irun
+-XLVERSION
+"TOOL:	irun	15.20-s058"
+-XLNAME
+./INCA_libs/irun.lnx86.15.20.nc/atcpcw10_2918

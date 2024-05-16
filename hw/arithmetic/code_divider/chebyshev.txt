@@ -1,0 +1,117 @@
+# Computational imports
+import numpy as np
+# Graphics imports
+import matplotlib.pyplot as plt
+# Chebyshev imports
+from numpy import polynomial as P
+
+
+
+def f(x):
+    
+    return x**(1/2)
+
+
+def scale_up(z,x_min,x_max):
+    """
+    Scales up z \in [-1,1] to x \in [x_min,x_max]
+    where z = (2 * (x - x_min) / (x_max - x_min)) - 1
+    """
+    
+    return x_min + (z + 1) * (x_max - x_min) / 2
+
+
+def scale_down(x,x_min,x_max):
+    """
+    Scales down x \in [x_min,x_max] to z \in [-1,1]
+    where z = f(x) = (2 * (x - x_min) / (x_max - x_min)) - 1
+    """    
+    
+    return (2 * (x - x_min) / (x_max - x_min)) - 1
+
+x_min = 1
+x_max = 255
+x_grid = np.linspace(x_min,x_max,100)
+
+plt.figure()
+plt.plot(x_grid,f(x_grid))
+plt.show()
+plt.close()
+
+n = 3 # order (degree, highest power) of the approximating polynomial
+m = 1024 # number of Chebyshev nodes (having m > n doesn't matter for the approximation it seems)
+
+# generate chebyshev nodes (the roots of Chebyshev polynomials, a Chebyshev polynomial of degree m-1 has m roots)
+r_k = -np.cos((2*np.arange(1,m+1) - 1) * np.pi / (2*m))
+
+# or using numpy's routine
+#r_k = np.polynomial.chebyshev.chebpts1(m)
+
+
+# builds the Vandermonde matrix of Chebyshev polynomial expansion at the r_k nodes
+# using the recurrence relation
+T = np.zeros((m,n+1))
+
+T[:,0] = np.ones((m,1)).T
+
+T[:,1] = r_k.T
+
+for i in range(1,n):
+    T[:,i+1] = 2 * r_k * T[:,i] - T[:,i-1]
+
+# or numpy's routine
+#T = np.polynomial.chebyshev.chebvander(r_k,n) 
+
+# calculate the Chebyshev coefficients
+x_k = scale_up(r_k,x_min,x_max)
+y_k = f(x_k)
+α = np.linalg.inv(T.T @ T) @ T.T @ y_k
+α
+
+# evaluate the Chebyshev series with coefficients α_k at the points r_k
+T @ α
+
+# or with numpy's routine
+#np.polynomial.chebyshev.chebval(r_k,α)
+
+# Use coefficients to compute an approximation of $f(x)$ over the grid of $x$:
+T = np.zeros((len(x_grid),n+1))
+
+T[:,0] = np.ones((len(x_grid),1)).T
+
+z_grid = scale_down(x_grid,x_min,x_max)
+
+T[:,1] = z_grid.T
+
+for i in range(1,n):
+    T[:,i+1] = 2 * z_grid * T[:,i] - T[:,i-1]
+
+# Chebyshev coefficients convert to polynomial coefficients
+c = P.Chebyshev(α)
+p = c.convert(kind=P.Polynomial)
+
+
+coeffs = np.polynomial.chebyshev.cheb2poly(α)
+print(coeffs)
+# print Polynomial coefficients
+print("Polynomial: ", p);
+
+# compute approximation
+Tf = T @ α
+print (Tf)
+print (z_grid)
+# make sure to use the scaled down grid inside the Chebyshev expansion
+plt.figure()
+plt.plot(x_grid,f(x_grid))
+plt.plot(x_grid, Tf)
+plt.show()
+plt.close()
+
+# plot approximation error
+plt.figure()
+plt.plot(x_grid,f(x_grid) - Tf)
+plt.show()
+plt.close()
+
+# print maximal abs error
+print("max abs error: ", max(abs(f(x_grid) - Tf)))

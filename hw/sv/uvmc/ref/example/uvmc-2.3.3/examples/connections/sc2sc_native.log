@@ -1,0 +1,66 @@
+irun: 15.20-s058: (c) Copyright 1995-2018 Cadence Design Systems, Inc.
+Compiling UVM packages (uvm_pkg.sv cdns_uvm_pkg.sv) using uvmhome location /home/project/eda/pkgs/cadence/ius/default/tools/methodology/UVM/CDNS-1.2/sv
+ncsc_run: *N,TBDEP: Test will be regenerated due to changes in
+          command line ld_test options
+$CDSROOT = /home/project/eda/pkgs/cadence/ius/v15.20
+$TESTDIR = /NOBACKUP/atcpcw10/jasonli/sc/uvmc-2.3.3/examples/connections
+
+TOOL:	ncsc	15.20-s058
+ncsc C++ parameters: 
+	ncsc -COMPILER $CDSROOT/tools/cdsgcc/gcc/4.8/bin/g++ 
+	-f ./INCA_libs/irun.lnx86.15.20.nc/ncsc_run/ncsc_obj/ncsc.args
+	-MANUAL 
+	-CFLAGS "-DNCSC
+		-I$CDSROOT/tools/systemc/include_pch
+		-I$CDSROOT/tools/tbsc/include
+		-I$CDSROOT/tools/vic/include
+		-I$CDSROOT/tools/methodology/OVM/CDNS-2.1.2/sc/src
+		-I/home/project/eda/pkgs/cadence/ius/default/tools/methodology/UVM/CDNS-1.2/sv/sc/sc
+		-I/home/project/eda/pkgs/cadence/ius/default/tools/methodology/UVM/CDNS-1.2/sv/ml/sc
+		-I$CDSROOT/tools/systemc/include/cci
+		-I$CDSROOT/tools/systemc/include/factory
+		-I$CDSROOT/tools/systemc/include/tlm2
+		-c
+		-x c++ -m32  -Wall 
+		-I$TESTDIR/common
+		-I/home/project/eda/pkgs/cadence/ius/default/tools/systemc/include/tlm2/tlm_utils
+		-DSC_INCLUDE_DYNAMIC_PROCESSES
+		-I$CDSROOT/tools/include
+		-I$CDSROOT/tools/inca/include
+		-fPIC
+		-I$CDSROOT/tools/include"
+
+make[1]: Entering directory `/NOBACKUP/atcpcw10/jasonli/sc/uvmc-2.3.3/examples/connections'
+ncsc: compiling $TESTDIR/sc2sc_native.cpp
+make[1]: Leaving directory `/NOBACKUP/atcpcw10/jasonli/sc/uvmc-2.3.3/examples/connections'
+$TESTDIR/common/producer.h:108:41: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+
+make[1]: Entering directory `/NOBACKUP/atcpcw10/jasonli/sc/uvmc-2.3.3/examples/connections'
+building library run.so
+make[1]: Leaving directory `/NOBACKUP/atcpcw10/jasonli/sc/uvmc-2.3.3/examples/connections'
+
+	Elaborating the design hierarchy:
+	Top level design units:
+		sc_main
+	Building instance specific data structures.
+	Design hierarchy summary:
+		                 Instances  Unique
+		Simulation timescale:  1ps
+
+	SystemC Design Summary:
+		                 Instances
+		sc_modules:              3
+		sc_threads:              1
+		sc_events:               1
+		tlm2_initiator_sockets:  1
+		tlm2_target_sockets:     1
+		sc other objects:        2
+	Writing initial simulation snapshot: worklib.sv_main:sv
+Loading snapshot worklib.sv_main:sv .................... Done
+ncsim> source /home/project/eda/pkgs/cadence/ius/default/tools/methodology/UVM/CDNS-1.2/sv/files/tcl/uvm_sim.tcl
+ncsim> run
+0 s [PRODUCER/GP/SEND] cmd:1 addr:f39d373 data:{ 7f fe 74 28 85 63 73 6c }
+0 s [CONSUMER/GP/RECV] cmd:1 addr:f39d373 data:{ 7f fe 74 28 85 63 73 6c }
+10 ns [PRODUCER/GP/SEND] cmd:1 addr:345d445f data:{ 50 92 4e 9b aa 9f }
+10 ns [CONSUMER/GP/RECV] cmd:1 addr:345d445f data:{ 50 92 4e 9b aa 9f }
+20 ns [PRODUCER/ENDING] Ending test

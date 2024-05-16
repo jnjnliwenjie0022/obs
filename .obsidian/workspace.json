@@ -1,0 +1,211 @@
+{
+  "main": {
+    "id": "9f14a9d0986ad474",
+    "type": "split",
+    "children": [
+      {
+        "id": "d656459fcd29824a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "46083df00b806f77",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "workflow/github.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "ce4ec9048f124f62",
+    "type": "split",
+    "children": [
+      {
+        "id": "afadd362b9dadcb6",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e659ba5d1cf0724d",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": true,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "8c4a1b3518c70847",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          },
+          {
+            "id": "19a60b1e44f4e87a",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "187192ed1f4570c8",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "workflow/github.md"
+              }
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "horizontal",
+    "width": 276.5
+  },
+  "right": {
+    "id": "cb661d0a10776c07",
+    "type": "split",
+    "children": [
+      {
+        "id": "72919cc9ed24fe32",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "270ea8edfe0efc65",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "workflow/github.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "62c943b78ff555ad",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "workflow/github.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "ce4fe214b6d283ba",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "3cea08796a77b42c",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 334.5,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": true,
+      "graph:Open graph view": true,
+      "canvas:Create new canvas": true,
+      "daily-notes:Open today's daily note": true,
+      "templates:Insert template": true,
+      "command-palette:Open command palette": true
+    }
+  },
+  "active": "46083df00b806f77",
+  "lastOpenFiles": [
+    "workflow/git.md",
+    "workflow/github.md",
+    "workflow/tnv.md",
+    "hw/sv/harness.md",
+    "hw/fpu/f16macksa.md",
+    "hw/fpu/f16mac.md",
+    "hw/fpu/f16dsu.md",
+    "hw/arithmetic/booth.md",
+    "hw/sv/uvmc/uvmc.md",
+    "hw/sv",
+    "sw/ld.md",
+    "hw/sc/sc.md",
+    "hw/_unorganized/cosim.md",
+    "workflow/synopsys.md",
+    "hw/sc/include/Pasted image 20240510155959.png",
+    "hw/sc/include/Pasted image 20240510170505.png",
+    "hw/sc/include/Pasted image 20240510170535.png",
+    "ToDoList.md",
+    "workflow/include/git.svg",
+    "workflow/include/workflow.svg",
+    "workflow/include/axi4.0.svg",
+    "workflow/include",
+    "workflow/New folder",
+    "workflow/tmux.md",
+    "workflow/nvim.md",
+    "workflow/tnv_wo.md",
+    "hw/sc/ref/Lecture7_SystemC_Part1.pdf",
+    "sw/script.md",
+    "hw/fpu/spec/IEEE754-2008.pdf",
+    "hw/fpu/ref_f16mac/(FMA)Binary Floating Point Fused Multiply Add Unit.pdf",
+    "hw/fpu/ref_f16mac/(FMA)Floating-Point Multiply-Add-Fused with Reduced Latency.pdf",
+    "hw/fpu/ref_f16mac/(FMA)Comparison of Single- and Dual-Pass Multiply-Add Fused Floating-Point Units.pdf",
+    "hw/sc/include",
+    "hw/sc/Untitled.md",
+    "hw/sc/include/Pasted image 20240510155639.png",
+    "hw/sc",
+    "hw/arbiter/arbiter.md",
+    "mgmt/mgmt.md",
+    "hw/sv/uvmc/include/Pasted image 20240509010353.png",
+    "hw/sv/uvmc/include/Pasted image 20240509010048.png",
+    "hw/sv/uvmc/include/ac_tlm2_user_packet.svg",
+    "hw/fpu/f16div.md",
+    "hw/fctrl/fctrl.md",
+    "hw/amba_axi/axi.md",
+    "hw/fifo/fifo.md",
+    "3C ranking.md",
+    "Untitled.canvas",
+    "Untitled 1.canvas",
+    "債券/債券.canvas"
+  ]
+}

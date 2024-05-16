@@ -1,0 +1,33 @@
+#!/bin/sh
+
+# This script assumes you've properly set up your $UVMC_HOME and $UVM_LIB areas
+# as recommended in the "Quickstart 1-2-3 to running examples" section of the
+# documentation. In this particular case assume $UVM_LIB is set to
+# one of Questa's pre-built UVM libraries and $UVMC_HOME points to
+# the UVM-Connect area under Questa's 'verilog_src/' area.
+
+# NOTE ! This script is just a quick "go/no-go" test that just runs one basic
+# test (the 'sc2sv' test in this case) to demonstrate full flow of building
+# a UVMC library to the local 'work' lib then running a single test. The more
+# common practice is to build the UVMC library to a global area such as
+# $UVMC_HOME/lib/uvmc_lib then to have all tests refer to it. Run 'make help'
+# for more info.
+
+# Establish new 'work' library ...
+rm -rf work
+vlib work
+
+# Compile example ...
+vlog -sv -L $UVM_LIB -L $UVMC_LIB +define+QUESTA +incdir+common sc2sv.sv
+sccom -DSC_INCLUDE_DYNAMIC_PROCESSES -DQUESTA -I$UVMC_HOME/src/connect/sc -Icommon sc2sv.cpp
+
+# We take out the -uvmc option so as to allow more modern versions of UVMC
+# than what exist as builtins to Questa can be used.
+#sccom -uvmc -link -lib $UVMC_LIB -lib work
+sccom -link -lib $UVMC_LIB -lib work
+
+# Run example ...
+vsim -c -do "run -all; quit -f" -t 1ps -L $UVM_LIB -L $UVMC_LIB -l questa.log sc_main sv_main
+
+# Check results ...
+test \( `grep -c 'UVM_ERROR :    0' questa.log` -eq 1 \) -a \( `grep -c 'UVM_FATAL :    0' questa.log` -eq 1 \)

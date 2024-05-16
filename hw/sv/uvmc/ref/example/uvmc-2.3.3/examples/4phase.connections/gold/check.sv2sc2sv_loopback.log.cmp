@@ -1,0 +1,61 @@
+# UVM_INFO common/producer_loopback.svh @ 0: prod [producer::run_phase()] [PRODUCER/GP/SEND] NUM_TRANSACTIONS=128 PAYLOAD_NUM_BYTES=2048 ...
+# UVM_WARNING uvmc_tlm2.sv called with a non-matching trans object
+# UVM_WARNING uvmc_tlm2.sv called with a non-matching trans object
+# UVM_WARNING uvmc_tlm2.sv called with a non-matching trans object
+# UVM_WARNING uvmc_tlm2.sv called with a non-matching trans object
+# UVM_WARNING uvmc_tlm2.sv called with a non-matching trans object
+# UVM_WARNING uvmc_tlm2.sv called with a non-matching trans object
+# UVM_WARNING uvmc_tlm2.sv called with a non-matching trans object
+# UVM_WARNING uvmc_tlm2.sv called with a non-matching trans object
+# UVM_WARNING uvmc_tlm2.sv called with a non-matching trans object
+# UVM_WARNING uvmc_tlm2.sv called with a non-matching trans object
+# UVM_WARNING uvmc_tlm2.sv called with a non-matching trans object
+# UVM_WARNING uvmc_tlm2.sv called with a non-matching trans object
+# UVM_WARNING uvmc_tlm2.sv called with a non-matching trans object
+# UVM_WARNING uvmc_tlm2.sv called with a non-matching trans object
+# UVM_WARNING uvmc_tlm2.sv called with a non-matching trans object
+# UVM_WARNING uvmc_tlm2.sv called with a non-matching trans object
+# UVM_WARNING uvmc_tlm2.sv called with a non-matching trans object
+# UVM_WARNING uvmc_tlm2.sv called with a non-matching trans object
+# UVM_WARNING uvmc_tlm2.sv called with a non-matching trans object
+# UVM_WARNING uvmc_tlm2.sv called with a non-matching trans object
+# UVM_WARNING uvmc_tlm2.sv called with a non-matching trans object
+# UVM_WARNING uvmc_tlm2.sv called with a non-matching trans object
+# UVM_WARNING uvmc_tlm2.sv called with a non-matching trans object
+# UVM_WARNING uvmc_tlm2.sv called with a non-matching trans object
+# UVM_WARNING uvmc_tlm2.sv called with a non-matching trans object
+# UVM_WARNING uvmc_tlm2.sv called with a non-matching trans object
+# UVM_WARNING uvmc_tlm2.sv called with a non-matching trans object
+# UVM_WARNING uvmc_tlm2.sv called with a non-matching trans object
+# UVM_WARNING uvmc_tlm2.sv called with a non-matching trans object
+# UVM_WARNING uvmc_tlm2.sv called with a non-matching trans object
+# UVM_WARNING uvmc_tlm2.sv called with a non-matching trans object
+# UVM_WARNING uvmc_tlm2.sv called with a non-matching trans object
+# UVM_INFO common/producer_loopback.svh @ 1280000: prod [producer::run_phase()] ... done producing transactions, expected_checksum=1fe0000 == actual_checksum=1fe0000 Test PASSED !
+# UVM_INFO common/producer_loopback.svh @ 1280000: prod [PRODUCER/END_TEST] Dropping objection to ending the test
+# UVM_INFO uvm_objection.svh @ 1280000: reporter [TEST_DONE] 'run' phase is ready to proceed to the 'extract' phase
+# --- UVM Report catcher Summary ---
+# Number of demoted UVM_FATAL reports  :    0
+# Number of demoted UVM_ERROR reports  :    0
+# Number of demoted UVM_WARNING reports:    0
+# Number of caught UVM_FATAL reports   :    0
+# Number of caught UVM_ERROR reports   :    0
+# Number of caught UVM_WARNING reports :    0
+# --- UVM Report Summary ---
+# ** Report counts by severity
+# UVM_INFO :
+# UVM_WARNING :
+# UVM_ERROR :    0
+# UVM_FATAL :    0
+# ** Report counts by id
+# [PRODUCER/END_TEST]     1
+# [RNTST]     1
+# [TEST_DONE]     1
+# [UVM/TLM/UNMATCHEDTRANS]    32
+# [producer::run_phase()]     2
+# ** Note: $finish    : uvm_root.svh
+# uvmc_tlm_gp_mm::printStats() heapId=loopback::dTlmGpMemoryManager totalNumAllocs=64 totalNumFrees=64 numFreePoolEntries=1
+# uvmc_trans_mm::printStats() heapId=sc_main/top/loop/in.proxy_mm totalNumAllocs=95 totalNumFrees=64 numFreePoolEntries=1
+# uvmc_trans_mm::printStats() heapId=uvmc_xl_converter_mm totalNumAllocs=0 totalNumFrees=0 numFreePoolEntries=0
+# uvmc_tlm_gp_mm::printStats() heapId=loopback::dTlmGpMemoryManager totalNumAllocs=64 totalNumFrees=64 numFreePoolEntries=1
+# Errors: 0, Warnings: 

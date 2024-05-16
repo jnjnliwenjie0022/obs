@@ -1,0 +1,117 @@
+# ============================================================================
+#  @(#) $Id: xlsc2sv2sc_loopback.sv 1254 2014-11-21 20:12:17Z jstickle $
+# ============================================================================
+
+#//-----------------------------------------------------------//
+#//   Copyright 2021 Siemens EDA                              //
+#//                                                           //
+#//   Licensed under the Apache License, Version 2.0 (the     //
+#//   "License"); you may not use this file except in         //
+#//   compliance with the License.  You may obtain a copy of  //
+#//   the License at                                          //
+#//                                                           //
+#//       http://www.apache.org/licenses/LICENSE-2.0          //
+#//                                                           //
+#//   Unless required by applicable law or agreed to in       //
+#//   writing, software distributed under the License is      //
+#//   distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR  //
+#//   CONDITIONS OF ANY KIND, either express or implied.      //
+#//   See the License for the specific language governing     //
+#//   permissions and limitations under the License.          //
+#//-----------------------------------------------------------//
+
+# This Makefile fixes UVM-Connect to create a cleaner way of building the
+# UVMC-SystemC portion of the infrastructure and, more importantly, to be able
+# to use it by itself without the SV-UVM HVL portion of the infrastructure as
+# would be the case of UVMC SC is used in conjunction with remote TLM fabric
+# clients and/or XRTL transactor connections (XL-UVM-Connect).
+#
+# As such, a separate uvmc.so is created for a simpler linking scheme than
+# the original that came with the uvmc-2.1.4 release.
+#
+# Also, support was added for an OSCI SystemC version of UVM-Connect SC for
+# uses with a non-Questa OSCI SystemC kernel (see
+# Makefile.uvmc_sysc_standalone_osci)
+#
+# Also, support was added for a Vista SystemC version of UVM-Connect SC for
+# uses with a non-Questa Vista SystemC kernel (see
+# Makefile.uvmc_sysc_standalone_vista)
+
+all: build
+
+include common.mk
+
+# NOTE: -DQUESTA is needed below for the benefit of uvm-1.2/src/dpi/uvm_hdl.c
+# which distinguishes vendor dependent implementation options for this DPI
+# dependant portion of the UVM library.
+CFLAGS += -Wall -fPIC -DSC_INCLUDE_DYNAMIC_PROCESSES -DQUESTA
+INCL += \
+    -I$(MTI_HOME)/include/systemc -I$(MTI_HOME)/include -I$(UVM_HOME)/src/dpi
+
+SRCDIR = ../src/connect/sc
+
+UVMC_SC_SRCS = \
+    $(SRCDIR)/uvmc.cpp \
+    $(SRCDIR)/uvmc_export_stubs.cpp
+
+# The TBX-specific DPI register access C layer is created as a separate .o
+# which can be directly linked by applications requiring back-door register
+# access to HDL-side registers.
+UVM_DPI_SRCS_WITH_PATH = \
+    $(SRCDIR)/uvm_dpi.cpp \
+    $(SRCDIR)/uvm_dpi_tbx.cpp
+
+LIB = ../lib
+LIBOBJ = $(LIB)/questa/$(UVMC_BUILD_PLATFORM)
+
+SRCS=$(subst $(SRCDIR)/,,$(UVMC_SC_SRCS))
+OBJS=$(SRCS:%.cpp=$(LIBOBJ)/%.o)
+DEPS=$(SRCS:%.cpp=$(LIBOBJ)/%.d)
+
+UVM_DPI_SRCS=$(subst $(SRCDIR)/,,$(UVM_DPI_SRCS_WITH_PATH))
+UVM_DPI_OBJS=$(UVM_DPI_SRCS:%.cpp=$(LIBOBJ)/%.o)
+UVM_DPI_DEPS=$(UVM_DPI_SRCS:%.cpp=$(LIBOBJ)/%.d)
+
+# This is used to override the GLIBC intrinsic to the build
+# host in favor of explicitly supported (usually older) one.
+# Can specify something like this:
+#  OVERRIDE_GLIBC = -nodefaultlibs glibc/lib64/libc-2.12.so
+OVERRIDE_GLIBC =
+
+build: $(LIBOBJ)/uvmc.so $(LIBOBJ)/uvmc_stubs.so $(UVM_DPI_OBJS)
+	@echo "Target '$@:' produced these byproducts: $^"
+
+$(LIBOBJ)/uvmc.so: $(OBJS)
+	$(CXX) -shared -o $@ $(LIBOBJ)/uvmc.o $(OVERRIDE_GLIBC)
+	rm -f $(LIBOBJ)/libuvmc.so
+	cd $(LIBOBJ); ln -s uvmc.so libuvmc.so
+
+$(LIBOBJ)/uvmc_stubs.so: $(OBJS)
+	$(CXX) -shared -o $@ $(LIBOBJ)/uvmc_export_stubs.o $(OVERRIDE_GLIBC)
+	rm -f $(LIBOBJ)/libuvmc_stubs.so
+	cd $(LIBOBJ); ln -s uvmc_stubs.so libuvmc_stubs.so
+
+$(LIBOBJ)/%.d: $(SRCDIR)/%.cpp
+	\rm -rf $@
+	mkdir -p $(LIBOBJ)
+	$(CXX) -M $(CFLAGS) $(INCL) -c $< | sed -e 's+^\(.*\)\.o: \(.*\).cpp+$(LIBOBJ)\/\1.o: \2.cpp+' > $@
+
+$(LIBOBJ)/%.o: $(SRCDIR)/%.cpp
+	$(CXX) $(CFLAGS) $(INCL) -c $< -o $@
+
+# This file is needed by the UVM infrastructure that uses DPI functions.
+$(SRCDIR)/uvm_dpi.cpp: $(UVM_HOME)/src/dpi/uvm_dpi.cc
+	\rm -f $@
+	\cp $^ $@
+
+# This file provides the TBX specific implementation of the uvm_dpi register
+# access API layer
+$(SRCDIR)/uvm_dpi_tbx.cpp: $(SRCDIR)/../../uvm_dpi_tbx/uvm_dpi_tbx.cc
+	\rm -f $@
+	\cp $^ $@
+
+clean:
+	\rm -rf $(DEPS) $(OBJS) $(UVM_DPI_DEPS) $(UVM_DPI_OBJS) \
+		$(LIBOBJ) $(SRCDIR)/uvm_dpi*.cpp
+
+include $(DEPS) $(UVM_DPI_DEPS)

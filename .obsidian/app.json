@@ -1,0 +1,25 @@
+{
+  "promptDelete": true,
+  "showLineNumber": true,
+  "vimMode": false,
+  "strictLineBreaks": false,
+  "readableLineLength": false,
+  "livePreview": true,
+  "defaultViewMode": "preview",
+  "propertiesInDocument": "visible",
+  "showInlineTitle": true,
+  "alwaysUpdateLinks": true,
+  "showUnsupportedFiles": true,
+  "smartIndentList": true,
+  "focusNewTab": true,
+  "foldHeading": true,
+  "foldIndent": true,
+  "pdfExportSettings": {
+    "includeName": true,
+    "pageSize": "Letter",
+    "landscape": false,
+    "margin": "0",
+    "downscalePercent": 100
+  },
+  "rightToLeft": false
+}

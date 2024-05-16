@@ -1,0 +1,110 @@
+#method multiple chebyshev2poly with minimial loss interpolation
+import matplotlib.pyplot as plt
+import numpy as np
+from numpy.polynomial.chebyshev import chebfit
+from numpy import polynomial as P
+
+x_min = -128
+x_max = 127
+node = 1024
+deg = 3
+
+def Fun (x):
+    #return x**(1/2)
+    #return 256/x
+    #return np.arctan(x)
+    #return np.sin(x)
+    return 1.0 / (1+np.exp(-x))
+
+def GetChebyZeroFun (x_min, x_max, node):
+    chebyzero = np.linspace(x_min, x_max, node)
+    for i in range(1, node+1):
+        chebyzero[i-1] = (x_max+x_min)/2 + (x_max-x_min)/2 * np.cos((2*i-1)*np.pi/(2*node))
+        i += 1
+    return chebyzero
+
+def Cheby2Poly (x_min, x_max, node, deg):    
+    # initial original function
+    x = np.array(range(x_min, x_max+1))
+    y = Fun(x);
+    
+    # get Chebyshev zero
+    smp_x = GetChebyZeroFun(x_min, x_max, node)
+    smp_y = Fun(smp_x);
+    
+    # get Chebyshev coefficients
+    cheby_coeffs = chebfit(smp_x, smp_y, deg)
+    
+    # compute approximation with Chebyshev coefficients
+    ty = np.polynomial.chebyshev.chebval(x, cheby_coeffs)
+    
+    # return max loss
+    return max(abs(ty-y))
+
+def Get4MinLossCheby (x_min, x_max, node, deg):
+    ti = 0;
+    tj = 0;
+    tk = 0;
+    tloss = 100000;
+    tloss1 = 0
+    tloss2 = 0
+    tloss3 = 0
+    tloss4 = 0
+    for i in range(x_min, x_max+1):
+        for j in range(i, x_max+1):
+            for k in range(j, x_max+1):
+                if i == x_min or i == x_max+1: continue
+                if j == i     or j == x_max+1: continue
+                if k == j     or k == x_max+1: continue
+                print ("i: ", i, "j: ", j, "k: ", k)
+                loss1 = Cheby2Poly(x_min, i, node, deg)
+                loss2 = Cheby2Poly(i, j, node, deg)
+                loss3 = Cheby2Poly(j, k, node, deg)
+                loss4 = Cheby2Poly(k, x_max, node, deg)
+            
+                if loss1 + loss2 + loss3 + loss4 < tloss:
+                    tloss = loss1 + loss2 + loss3 + loss4
+                    tloss1 = loss1
+                    tloss2 = loss2
+                    tloss3 = loss3
+                    tloss4 = loss4
+                    ti = i;
+                    tj = j;
+                    tk = k;
+                print("ti: ", ti, "tj: ", tj, "tk: ", tk)
+                print("max loss1: ",tloss1) 
+                print("max loss2: ",tloss2) 
+                print("max loss3: ",tloss3) 
+                print("max loss4: ",tloss4) 
+                print("total max loss: ",tloss)
+                
+def Get3MinLossCheby (x_min, x_max, node, deg):
+    ti = 0;
+    tj = 0;
+    tloss = 100000;
+    tloss1 = 0
+    tloss2 = 0
+    tloss3 = 0
+    for i in range(x_min, x_max+1):
+        for j in range(i, x_max+1):
+                if i == x_min or i == x_max+1: continue
+                if j == i     or j == x_max+1: continue
+                print ("i: ", i, "j: ", j)
+                loss1 = Cheby2Poly(x_min, i, node, deg)
+                loss2 = Cheby2Poly(i, j, node, deg)
+                loss3 = Cheby2Poly(j, x_max+1, node, deg)
+            
+                if loss1 + loss2 + loss3 < tloss:
+                    tloss = loss1 + loss2 + loss3
+                    tloss1 = loss1
+                    tloss2 = loss2
+                    tloss3 = loss3
+                    ti = i;
+                    tj = j;
+                print("ti: ", ti, "tj: ", tj)
+                print("max loss1: ",tloss1) 
+                print("max loss2: ",tloss2) 
+                print("max loss3: ",tloss3) 
+                print("total max loss: ",tloss)   
+#Get3MinLossCheby(x_min, x_max, node, deg)
+Get4MinLossCheby(x_min, x_max, node, deg)

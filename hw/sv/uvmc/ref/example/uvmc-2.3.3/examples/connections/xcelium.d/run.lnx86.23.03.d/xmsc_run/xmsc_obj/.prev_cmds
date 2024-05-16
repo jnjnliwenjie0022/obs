@@ -1,0 +1,6 @@
+xmsc: -nocopyright -cdslib /NOBACKUP/atcpcw10/jasonli/sc/uvmc-2.3.3/examples/connections/./xcelium.d/run.lnx86.23.03.d/cdsrun.lib -hdlvar /NOBACKUP/atcpcw10/jasonli/sc/uvmc-2.3.3/examples/connections/./xcelium.d/run.lnx86.23.03.d/hdlrun.var -work worklib
+xmvlog: -nocopyright -cdslib /NOBACKUP/atcpcw10/jasonli/sc/uvmc-2.3.3/examples/connections/./xcelium.d/run.lnx86.23.03.d/cdsrun.lib -hdlvar /NOBACKUP/atcpcw10/jasonli/sc/uvmc-2.3.3/examples/connections/./xcelium.d/run.lnx86.23.03.d/hdlrun.var -work worklib
+xmvhdl: -nocopyright -cdslib /NOBACKUP/atcpcw10/jasonli/sc/uvmc-2.3.3/examples/connections/./xcelium.d/run.lnx86.23.03.d/cdsrun.lib -hdlvar /NOBACKUP/atcpcw10/jasonli/sc/uvmc-2.3.3/examples/connections/./xcelium.d/run.lnx86.23.03.d/hdlrun.var -work worklib
+xmelab: -nocopyright -cdslib /NOBACKUP/atcpcw10/jasonli/sc/uvmc-2.3.3/examples/connections/./xcelium.d/run.lnx86.23.03.d/cdsrun.lib -hdlvar /NOBACKUP/atcpcw10/jasonli/sc/uvmc-2.3.3/examples/connections/./xcelium.d/run.lnx86.23.03.d/hdlrun.var -work worklib
+simplus: +tb_rc_dir+./xcelium.d/run.lnx86.23.03.d/xmsc_run +tb_run_dir+/NOBACKUP/atcpcw10/jasonli/sc/uvmc-2.3.3/examples/connections +tb_trans_record
+vspsim: -nocopyright

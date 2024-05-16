@@ -1,0 +1,528 @@
+irun: 15.20-s058: (c) Copyright 1995-2018 Cadence Design Systems, Inc.
+TOOL:	irun	15.20-s058: Started on May 09, 2024 at 02:58:49 CST
+/home/project/eda/pkgs/cadence/ius/v15.20/tools.lnx86/bin/irun
+	-licqueue
+	-Wcxx -fPIC
+	-dpi
+	-g
+	-sysc
+	-scsynceverydelta on
+	-uvmnocndsextra
+	-tlm2
+	-access rw
+	-DSC_INCLUDE_DYNAMIC_PROCESSES
+	-DINCA
+	-define INCA
+	-uvmhome /home/project/eda/pkgs/cadence/ius/default/tools/methodology/UVM/CDNS-1.2/sv
+	-incdir /NOBACKUP/atcpcw10/jasonli/sc/uvmc-2.3.3/src/connect/sv
+	/NOBACKUP/atcpcw10/jasonli/sc/uvmc-2.3.3/src/connect/sv/uvmc_pkg.sv
+	-I/home/project/eda/pkgs/cadence/ius/default/tools/systemc/include/tlm2/tlm_utils
+	-I/NOBACKUP/atcpcw10/jasonli/sc/uvmc-2.3.3/src/connect/sc /NOBACKUP/atcpcw10/jasonli/sc/uvmc-2.3.3/src/connect/sc/uvmc.cpp
+	-I.
+	+define+UVM_NO_DPI
+	+define+UVM_FIX_REV=undefined
+	-sc_main
+	-I/NOBACKUP/atcpcw10/jasonli/sc/uvmc-2.3.3/src/connect/sc
+	-I./common sv2sc.cpp
+	-incdir ./common
+	sv2sc.sv
+irun: *W,UVMDPI: UVM dpi code will not be loaded because of define UVM_NO_DPI.
+Compiling UVM package (uvm_pkg.sv) using uvmhome location /home/project/eda/pkgs/cadence/ius/default/tools/methodology/UVM/CDNS-1.2/sv
+ncvlog: *W,NOTIND: unable to access -INCDIR ./common (No such file or directory).
+ncvlog: *W,NOTIND: unable to access -INCDIR ./common (No such file or directory).
+file: /NOBACKUP/atcpcw10/jasonli/sc/uvmc-2.3.3/src/connect/sv/uvmc_pkg.sv
+            t = trans_preservation_map[ trans_chandle ];
+                                                    |
+ncvlog: *W,BIGWBS (/NOBACKUP/atcpcw10/jasonli/sc/uvmc-2.3.3/src/connect/sv/uvmc_tlm2.sv,297|52): Bit-select index truncation.
+        trans_preservation_map[ trans_chandle ] = null;
+                                            |
+ncvlog: *W,BIGWBS (/NOBACKUP/atcpcw10/jasonli/sc/uvmc-2.3.3/src/connect/sv/uvmc_tlm2.sv,328|44): Bit-select index truncation.
+        trans_preservation_map[ trans_chandle ] = t;
+                                            |
+ncvlog: *W,BIGWBS (/NOBACKUP/atcpcw10/jasonli/sc/uvmc-2.3.3/src/connect/sv/uvmc_tlm2.sv,403|44): Bit-select index truncation.
+        trans_preservation_map[ trans_chandle ] = null;
+                                            |
+ncvlog: *W,BIGWBS (/NOBACKUP/atcpcw10/jasonli/sc/uvmc-2.3.3/src/connect/sv/uvmc_tlm2.sv,413|44): Bit-select index truncation.
+	package worklib.uvmc_pkg:sv
+		errors: 0, warnings: 4
+file: sv2sc.sv
+	module worklib.sv_main:sv
+		errors: 0, warnings: 0
+	Total errors/warnings found outside modules and primitives:
+		errors: 0, warnings: 1
+ncsc_run: *N,TBDEP: Test will be regenerated due to changes in the
+          command line.
+ncsc_run: *N,TBDEP: Test will be regenerated due to changes in
+          command line ld_test options
+$CDSROOT = /home/project/eda/pkgs/cadence/ius/v15.20
+$TESTDIR = /NOBACKUP/atcpcw10/jasonli/sc/tlm2_gp
+
+TOOL:	ncsc	15.20-s058
+ncsc C++ parameters: 
+	ncsc -COMPILER $CDSROOT/tools/cdsgcc/gcc/4.8/bin/g++ 
+	-f ./INCA_libs/irun.lnx86.15.20.nc/ncsc_run/ncsc_obj/ncsc.args
+	-MANUAL 
+	-CFLAGS "-DNCSC
+		-I$CDSROOT/tools/systemc/include_pch
+		-I$CDSROOT/tools/tbsc/include
+		-I$CDSROOT/tools/vic/include
+		-I$CDSROOT/tools/methodology/OVM/CDNS-2.1.2/sc/src
+		-I/home/project/eda/pkgs/cadence/ius/default/tools/methodology/UVM/CDNS-1.2/sv/sc/sc
+		-I/home/project/eda/pkgs/cadence/ius/default/tools/methodology/UVM/CDNS-1.2/sv/ml/sc
+		-I$CDSROOT/tools/systemc/include/cci
+		-I$CDSROOT/tools/systemc/include/factory
+		-I$CDSROOT/tools/systemc/include/tlm2
+		-c
+		-x c++ -m32  -Wall 
+		-O0 -g
+		-fPIC
+		-I/home/project/eda/pkgs/cadence/ius/default/tools/systemc/include/tlm2/tlm_utils
+		-I/NOBACKUP/atcpcw10/jasonli/sc/uvmc-2.3.3/src/connect/sc
+		-I$TESTDIR/.
+		-I/NOBACKUP/atcpcw10/jasonli/sc/uvmc-2.3.3/src/connect/sc
+		-I$TESTDIR/common
+		-DSC_INCLUDE_DYNAMIC_PROCESSES
+		-DINCA
+		-I$CDSROOT/tools/include
+		-I$CDSROOT/tools/inca/include
+		-fPIC
+		-I$CDSROOT/tools/include"
+
+make[2]: Entering directory `/NOBACKUP/atcpcw10/jasonli/sc/tlm2_gp'
+ncsc: compiling $/NOBACKUP/atcpcw10/jasonli/sc/uvmc-2.3.3/src/connect/sc/uvmc.cpp
+make[2]: Leaving directory `/NOBACKUP/atcpcw10/jasonli/sc/tlm2_gp'
+$CDSROOT/tools/include/svdpi_compatibility.h:48:2: warning: #warning "INCISIV is currently compliant with DPI header file svdpi.h as per IEEE 1800-2005. Starting IUS16.10, the default header file will be as per IEEE 1800-2012. DPI applications which need to continue complying with IEEE 1800-2005 will need to compile with the macro DPI_COMPATIBILITY_VERSION_1800v2005 starting in 16.1. The difference in the two header files is in the declaration of the struct t_vpi_vecval." [-Wcpp]
+ #warning "INCISIV is currently compliant with DPI header file svdpi.h as per IEEE 1800-2005. Starting IUS16.10, the default header file will be as per IEEE 1800-2012. DPI applications which need to continue complying with IEEE 1800-2005 will need to compile with the macro DPI_COMPATIBILITY_VERSION_1800v2005 starting in 16.1. The difference in the two header files is in the declaration of the struct t_vpi_vecval."
+
+make[2]: Entering directory `/NOBACKUP/atcpcw10/jasonli/sc/tlm2_gp'
+ncsc: compiling $TESTDIR/sv2sc.cpp
+make[2]: Leaving directory `/NOBACKUP/atcpcw10/jasonli/sc/tlm2_gp'
+$CDSROOT/tools/include/svdpi_compatibility.h:48:2: warning: #warning "INCISIV is currently compliant with DPI header file svdpi.h as per IEEE 1800-2005. Starting IUS16.10, the default header file will be as per IEEE 1800-2012. DPI applications which need to continue complying with IEEE 1800-2005 will need to compile with the macro DPI_COMPATIBILITY_VERSION_1800v2005 starting in 16.1. The difference in the two header files is in the declaration of the struct t_vpi_vecval." [-Wcpp]
+ #warning "INCISIV is currently compliant with DPI header file svdpi.h as per IEEE 1800-2005. Starting IUS16.10, the default header file will be as per IEEE 1800-2012. DPI applications which need to continue complying with IEEE 1800-2005 will need to compile with the macro DPI_COMPATIBILITY_VERSION_1800v2005 starting in 16.1. The difference in the two header files is in the declaration of the struct t_vpi_vecval."
+
+make[2]: Entering directory `/NOBACKUP/atcpcw10/jasonli/sc/tlm2_gp'
+building library run.so
+make[2]: Leaving directory `/NOBACKUP/atcpcw10/jasonli/sc/tlm2_gp'
+
+		Caching library 'worklib' ....... Done
+Connecting an SC-side proxy chan for 'sv2sc.inr_socket' with lookup string 'sv2sc' for later connection with SV
+Connecting an SC-side proxy chan for 'sc2sv.inr_socket' with lookup string 'sc2sv' for later connection with SV
+	Elaborating the design hierarchy:
+	Top level design units:
+		uvm_pkg
+		uvmc_pkg
+		$unit_0x51db5e2d
+		sc_main
+		sv_main
+ncelab: *W,DSEMEL: This SystemVerilog design will be simulated as per IEEE 1800-2009 SystemVerilog simulation semantics. Use -disable_sem2009 option for turning off SV 2009 simulation semantics.
+            t = trans_preservation_map[ trans_chandle ];
+                                                    |
+ncelab: *W,BIGWIX (../uvmc-2.3.3/src/connect/sv/uvmc_tlm2.sv,297|52): Memory index truncation.
+        trans_preservation_map[ trans_chandle ] = null;
+                                            |
+ncelab: *W,BIGWIX (../uvmc-2.3.3/src/connect/sv/uvmc_tlm2.sv,328|44): Memory index truncation.
+        trans_preservation_map[ trans_chandle ] = t;
+                                            |
+ncelab: *W,BIGWIX (../uvmc-2.3.3/src/connect/sv/uvmc_tlm2.sv,403|44): Memory index truncation.
+        trans_preservation_map[ trans_chandle ] = null;
+                                            |
+ncelab: *W,BIGWIX (../uvmc-2.3.3/src/connect/sv/uvmc_tlm2.sv,413|44): Memory index truncation.
+	Building instance overlay tables: .................... Done
+	Generating native compiled code:
+		worklib.\$unit_0x51db5e2d :compilation_unit <0x68aa0414>
+			streams:   0, words:     0
+		worklib.sv_main:sv <0x4ff68178>
+			streams:   1, words:   777
+		worklib.uvm_pkg:sv <0x023e8695>
+			streams:  25, words: 61084
+		worklib.uvm_pkg:sv <0x0b05fac4>
+			streams:  26, words: 35493
+		worklib.uvm_pkg:sv <0x0c67c9dd>
+			streams:  25, words: 58277
+		worklib.uvm_pkg:sv <0x0d689f22>
+			streams:  29, words: 27708
+		worklib.uvm_pkg:sv <0x10dcb373>
+			streams:  27, words: 40864
+		worklib.uvm_pkg:sv <0x11369826>
+			streams:  25, words: 60566
+		worklib.uvm_pkg:sv <0x1495c1f3>
+			streams:  25, words: 57406
+		worklib.uvm_pkg:sv <0x17320ce3>
+			streams:  16, words: 24340
+		worklib.uvm_pkg:sv <0x1b80c6b4>
+			streams:   7, words:  1965
+		worklib.uvm_pkg:sv <0x1f738330>
+			streams:  29, words: 104478
+		worklib.uvm_pkg:sv <0x20a69893>
+			streams:   7, words:  2697
+		worklib.uvm_pkg:sv <0x212d12c8>
+			streams:  26, words: 52859
+		worklib.uvm_pkg:sv <0x21e59d87>
+			streams:   7, words:  2697
+		worklib.uvm_pkg:sv <0x24b66abb>
+			streams:  27, words: 37946
+		worklib.uvm_pkg:sv <0x254800ba>
+			streams:   7, words:  1509
+		worklib.uvm_pkg:sv <0x25a86898>
+			streams:  25, words: 55773
+		worklib.uvm_pkg:sv <0x30b8cbf8>
+			streams:  17, words: 17563
+		worklib.uvm_pkg:sv <0x30de9d86>
+			streams: 5576, words: 10520769
+		worklib.uvm_pkg:sv <0x37db30e9>
+			streams:  72, words: 140022
+		worklib.uvm_pkg:sv <0x3b1ac407>
+			streams:  18, words: 16272
+		worklib.uvm_pkg:sv <0x447fa8c4>
+			streams:  25, words: 63959
+		worklib.uvm_pkg:sv <0x4518628f>
+			streams:  23, words: 23314
+		worklib.uvm_pkg:sv <0x459cef85>
+			streams:  27, words: 42828
+		worklib.uvm_pkg:sv <0x4e2ee587>
+			streams:  23, words: 28161
+		worklib.uvm_pkg:sv <0x5102e1b4>
+			streams:  30, words: 34717
+		worklib.uvm_pkg:sv <0x52897efc>
+			streams:   7, words:  7065
+		worklib.uvm_pkg:sv <0x5b05b351>
+			streams:  26, words: 39491
+		worklib.uvm_pkg:sv <0x5e30b355>
+			streams:   8, words:  7928
+		worklib.uvm_pkg:sv <0x5e8a3bcf>
+			streams:   7, words:  1509
+		worklib.uvm_pkg:sv <0x61af6f78>
+			streams: 245, words: 334771
+		worklib.uvm_pkg:sv <0x6296882e>
+			streams:  23, words: 25033
+		worklib.uvm_pkg:sv <0x64e8fc06>
+			streams:  28, words: 32267
+		worklib.uvm_pkg:sv <0x64eaabda>
+			streams:  44, words: 39406
+		worklib.uvm_pkg:sv <0x66286d50>
+			streams:   8, words:  7556
+		worklib.uvm_pkg:sv <0x68d50ca1>
+			streams:  22, words: 60452
+		worklib.uvm_pkg:sv <0x696588c0>
+			streams:   7, words:  2697
+		worklib.uvm_pkg:sv <0x6b03be78>
+			streams:  27, words: 29982
+		worklib.uvm_pkg:sv <0x78990b27>
+			streams:  24, words: 26695
+		worklib.uvm_pkg:sv <0x789c6a18>
+			streams: 161, words: 283130
+		worklib.uvm_pkg:sv <0x7ecf118d>
+			streams:  27, words: 48640
+		worklib.uvm_pkg:sv <0x7f0cbead>
+			streams:  27, words: 39866
+		worklib.uvmc_pkg:sv <0x0245a897>
+			streams:  13, words: 65103
+		worklib.uvmc_pkg:sv <0x3710b9d6>
+			streams:  10, words: 10973
+		worklib.uvmc_pkg:sv <0x3d23a45b>
+			streams:   7, words:  2788
+		worklib.uvmc_pkg:sv <0x45c2bada>
+			streams: 107, words: 232050
+		worklib.uvmc_pkg:sv <0x6675c223>
+			streams:  13, words: 29321
+	Building instance specific data structures.
+	Loading native compiled code:     .................... Done
+	Design hierarchy summary:
+		                       Instances  Unique
+		Modules:                       1       1
+		Verilog packages:              2       2
+		Registers:                 16048   11779
+		Named events:                  2      12
+		Initial blocks:              300     152
+		Parallel blocks:              28      30
+		Assertions:                    6       6
+		Compilation units:             1       1
+		SV Class declarations:       251     353
+		SV Class specializations:    441     441
+		Simulation timescale:        1ps
+
+	SystemC Design Summary:
+		                  Instances
+		sc_modules:               4
+		sc_semaphores:            2
+		sc_threads:               2
+		sc_events:                4
+		tlm2_initiator_sockets:   2
+		tlm2_target_sockets:      2
+		sc other objects:         2
+	Writing initial simulation snapshot: worklib.sv_main:sv
+Loading snapshot worklib.sv_main:sv .................... Done
+SVSEED default: 1
+Connecting an SC-side proxy chan for 'sv2sc.inr_socket' with lookup string 'sv2sc' for later connection with SV
+Connecting an SC-side proxy chan for 'sc2sv.inr_socket' with lookup string 'sc2sv' for later connection with SV
+ncsim: *W,DSEM2009: This SystemVerilog design is simulated as per IEEE 1800-2009 SystemVerilog simulation semantics. Use -disable_sem2009 option for turning off SV 2009 simulation semantics.
+ncsim> source /home/project/eda/pkgs/cadence/ius/v15.20/tools/inca/files/ncsimrc
+ncsim> source /home/project/eda/pkgs/cadence/ius/default/tools/methodology/UVM/CDNS-1.2/sv/files/tcl/uvm_sim.tcl
+ncsim> run
+UVM_INFO /home/project/eda/pkgs/cadence/ius/default/tools/methodology/UVM/CDNS-1.2/sv/src/base/uvm_root.svh(412) @ 0: reporter [UVM/RELNOTES] 
+----------------------------------------------------------------
+CDNS-UVM-1.2undefined (15.20-s058)
+(C) 2007-2014 Mentor Graphics Corporation
+(C) 2007-2014 Cadence Design Systems, Inc.
+(C) 2006-2014 Synopsys, Inc.
+(C) 2011-2013 Cypress Semiconductor Corp.
+(C) 2013-2014 NVIDIA Corporation
+----------------------------------------------------------------
+
+  ***********       IMPORTANT RELEASE NOTES         ************
+
+  You are using a version of the UVM library that has been compiled
+  with `UVM_NO_DEPRECATED undefined.
+  See http://www.eda.org/svdb/view.php?id=3313 for more details.
+
+  You are using a version of the UVM library that has been compiled
+  with `UVM_OBJECT_DO_NOT_NEED_CONSTRUCTOR undefined.
+  See http://www.eda.org/svdb/view.php?id=3770 for more details.
+
+      (Specify +UVM_NO_RELNOTES to turn off this notice)
+
+UVM_INFO @ 0: reporter [RNTST] Running test user_enviroment...
+0 s [sc2systemv/SEND] cmd:1 addr:1155331a data:{ 96 fe a 2f 4a }
+----------------------------------------------------------------
+UVMC-2.3
+(C) 2009-2014 Mentor Graphics Corporation
+----------------------------------------------------------------
+Registering SV-side 'uvm_test_top.sv2sc.tar_socket' and lookup string 'sv2sc' for later connection with SC
+Registering SV-side 'uvm_test_top.sc2sv.tar_socket' and lookup string 'sc2sv' for later connection with SC
+Connected SC-side 'sc2sv.inr_socket' to SV-side 'uvm_test_top.sc2sv.tar_socket'
+Connected SC-side 'sv2sc.inr_socket' to SV-side 'uvm_test_top.sv2sc.tar_socket'
+UVM_INFO /home/project/eda/pkgs/cadence/ius/default/tools/methodology/UVM/CDNS-1.2/sv/src/base/uvm_traversal.svh(279) @ 0: reporter [UVM/COMP/NAMECHECK] This implementation of the component name checks requires DPI to be enabled
+UVM_INFO sv2sc.sv(74) @ 0: uvm_test_top.sv2sc_comp [sv2systemc/SEND] 
+--------------------------------------------------------------------------------
+Name               Type                       Size  Value                       
+--------------------------------------------------------------------------------
+<unnamed>          uvm_tlm_generic_payload    -     @3060                       
+  address          integral                   64    'h546f317669dfd5af          
+  command          uvm_tlm_command_e          32    UVM_TLM_READ_COMMAND        
+  response_status  uvm_tlm_response_status_e  32    UVM_TLM_BURST_ERROR_RESPONSE
+  streaming_width  integral                   32    'h6d3cb98f                  
+  data             darray(byte)               2     -                           
+    [0]            byte                       8     'h73                        
+    [1]            byte                       8     'h2b                        
+  extensions       aa(obj,obj)                0     -                           
+--------------------------------------------------------------------------------
+
+UVM_INFO sv2sc.sv(95) @ 0: uvm_test_top.sc2sv_comp [sv2systemc/GET] 
+-------------------------------------------------------------------------------
+Name               Type                       Size  Value                      
+-------------------------------------------------------------------------------
+<unnamed>          uvm_tlm_generic_payload    -     @3011                      
+  address          integral                   64    'h1155331a                 
+  command          uvm_tlm_command_e          32    UVM_TLM_WRITE_COMMAND      
+  response_status  uvm_tlm_response_status_e  32    UVM_TLM_INCOMPLETE_RESPONSE
+  streaming_width  integral                   32    'h0                        
+  data             darray(byte)               5     -                          
+    [0]            byte                       8     'h96                       
+    [1]            byte                       8     'hfe                       
+    [2]            byte                       8     'h0a                       
+    [3]            byte                       8     'h2f                       
+    [4]            byte                       8     'h4a                       
+  extensions       aa(obj,obj)                0     -                          
+-------------------------------------------------------------------------------
+
+10 ns [sc2systemv/SEND] cmd:1 addr:77c46f82 data:{ 5 ff f3 1 e6 3f e2 }
+10 ns [sv2systemc/GET] cmd:2 addr:546f317669dfd5af data:{ 73 2b }
+UVM_INFO sv2sc.sv(95) @ 10000: uvm_test_top.sc2sv_comp [sv2systemc/GET] 
+-------------------------------------------------------------------------------
+Name               Type                       Size  Value                      
+-------------------------------------------------------------------------------
+<unnamed>          uvm_tlm_generic_payload    -     @3138                      
+  address          integral                   64    'h77c46f82                 
+  command          uvm_tlm_command_e          32    UVM_TLM_WRITE_COMMAND      
+  response_status  uvm_tlm_response_status_e  32    UVM_TLM_INCOMPLETE_RESPONSE
+  streaming_width  integral                   32    'h0                        
+  data             darray(byte)               7     -                          
+    [0]            byte                       8     'h05                       
+    [1]            byte                       8     'hff                       
+    [2]            byte                       8     'hf3                       
+    [3]            byte                       8     'h01                       
+    [4]            byte                       8     'he6                       
+    [5]            byte                       8     'h3f                       
+    [6]            byte                       8     'he2                       
+  extensions       aa(obj,obj)                0     -                          
+-------------------------------------------------------------------------------
+
+20 ns [sc2systemv/SEND] cmd:1 addr:4ae6f6c0 data:{ 5f 6e 63 e5 e 60 51 }
+UVM_INFO sv2sc.sv(95) @ 20000: uvm_test_top.sc2sv_comp [sv2systemc/GET] 
+-------------------------------------------------------------------------------
+Name               Type                       Size  Value                      
+-------------------------------------------------------------------------------
+<unnamed>          uvm_tlm_generic_payload    -     @3154                      
+  address          integral                   64    'h4ae6f6c0                 
+  command          uvm_tlm_command_e          32    UVM_TLM_WRITE_COMMAND      
+  response_status  uvm_tlm_response_status_e  32    UVM_TLM_INCOMPLETE_RESPONSE
+  streaming_width  integral                   32    'h0                        
+  data             darray(byte)               7     -                          
+    [0]            byte                       8     'h5f                       
+    [1]            byte                       8     'h6e                       
+    [2]            byte                       8     'h63                       
+    [3]            byte                       8     'he5                       
+    [4]            byte                       8     'h0e                       
+    [5]            byte                       8     'h60                       
+    [6]            byte                       8     'h51                       
+  extensions       aa(obj,obj)                0     -                          
+-------------------------------------------------------------------------------
+
+30 ns [sc2systemv/SEND] cmd:1 addr:3822daee data:{ f2 }
+UVM_INFO sv2sc.sv(95) @ 30000: uvm_test_top.sc2sv_comp [sv2systemc/GET] 
+-------------------------------------------------------------------------------
+Name               Type                       Size  Value                      
+-------------------------------------------------------------------------------
+<unnamed>          uvm_tlm_generic_payload    -     @3159                      
+  address          integral                   64    'h3822daee                 
+  command          uvm_tlm_command_e          32    UVM_TLM_WRITE_COMMAND      
+  response_status  uvm_tlm_response_status_e  32    UVM_TLM_INCOMPLETE_RESPONSE
+  streaming_width  integral                   32    'h0                        
+  data             darray(byte)               1     -                          
+    [0]            byte                       8     'hf2                       
+  extensions       aa(obj,obj)                0     -                          
+-------------------------------------------------------------------------------
+
+40 ns [sc2systemv/SEND] cmd:1 addr:6acba783 data:{ 8d 9d 74 23 9b 7e 52 e6 }
+UVM_INFO sv2sc.sv(95) @ 40000: uvm_test_top.sc2sv_comp [sv2systemc/GET] 
+-------------------------------------------------------------------------------
+Name               Type                       Size  Value                      
+-------------------------------------------------------------------------------
+<unnamed>          uvm_tlm_generic_payload    -     @3103                      
+  address          integral                   64    'h6acba783                 
+  command          uvm_tlm_command_e          32    UVM_TLM_WRITE_COMMAND      
+  response_status  uvm_tlm_response_status_e  32    UVM_TLM_INCOMPLETE_RESPONSE
+  streaming_width  integral                   32    'h0                        
+  data             darray(byte)               8     -                          
+    [0]            byte                       8     'h8d                       
+    [1]            byte                       8     'h9d                       
+    [2]            byte                       8     'h74                       
+    [3]            byte                       8     'h23                       
+    [4]            byte                       8     'h9b                       
+    [5]            byte                       8     'h7e                       
+    [6]            byte                       8     'h52                       
+    [7]            byte                       8     'he6                       
+  extensions       aa(obj,obj)                0     -                          
+-------------------------------------------------------------------------------
+
+50 ns [sc2systemv/SEND] cmd:1 addr:28bc6c00 data:{ eb }
+UVM_INFO sv2sc.sv(95) @ 50000: uvm_test_top.sc2sv_comp [sv2systemc/GET] 
+-------------------------------------------------------------------------------
+Name               Type                       Size  Value                      
+-------------------------------------------------------------------------------
+<unnamed>          uvm_tlm_generic_payload    -     @3046                      
+  address          integral                   64    'h28bc6c00                 
+  command          uvm_tlm_command_e          32    UVM_TLM_WRITE_COMMAND      
+  response_status  uvm_tlm_response_status_e  32    UVM_TLM_INCOMPLETE_RESPONSE
+  streaming_width  integral                   32    'h0                        
+  data             darray(byte)               1     -                          
+    [0]            byte                       8     'heb                       
+  extensions       aa(obj,obj)                0     -                          
+-------------------------------------------------------------------------------
+
+60 ns [sc2systemv/SEND] cmd:1 addr:10ec6600 data:{ ec e6 3a ce }
+UVM_INFO sv2sc.sv(95) @ 60000: uvm_test_top.sc2sv_comp [sv2systemc/GET] 
+-------------------------------------------------------------------------------
+Name               Type                       Size  Value                      
+-------------------------------------------------------------------------------
+<unnamed>          uvm_tlm_generic_payload    -     @3163                      
+  address          integral                   64    'h10ec6600                 
+  command          uvm_tlm_command_e          32    UVM_TLM_WRITE_COMMAND      
+  response_status  uvm_tlm_response_status_e  32    UVM_TLM_INCOMPLETE_RESPONSE
+  streaming_width  integral                   32    'h0                        
+  data             darray(byte)               4     -                          
+    [0]            byte                       8     'hec                       
+    [1]            byte                       8     'he6                       
+    [2]            byte                       8     'h3a                       
+    [3]            byte                       8     'hce                       
+  extensions       aa(obj,obj)                0     -                          
+-------------------------------------------------------------------------------
+
+70 ns [sc2systemv/SEND] cmd:1 addr:664e3aa6 data:{ 2d 14 }
+UVM_INFO sv2sc.sv(95) @ 70000: uvm_test_top.sc2sv_comp [sv2systemc/GET] 
+-------------------------------------------------------------------------------
+Name               Type                       Size  Value                      
+-------------------------------------------------------------------------------
+<unnamed>          uvm_tlm_generic_payload    -     @3156                      
+  address          integral                   64    'h664e3aa6                 
+  command          uvm_tlm_command_e          32    UVM_TLM_WRITE_COMMAND      
+  response_status  uvm_tlm_response_status_e  32    UVM_TLM_INCOMPLETE_RESPONSE
+  streaming_width  integral                   32    'h0                        
+  data             darray(byte)               2     -                          
+    [0]            byte                       8     'h2d                       
+    [1]            byte                       8     'h14                       
+  extensions       aa(obj,obj)                0     -                          
+-------------------------------------------------------------------------------
+
+80 ns [sc2systemv/SEND] cmd:1 addr:100a941c data:{ 22 7c 64 11 }
+UVM_INFO sv2sc.sv(95) @ 80000: uvm_test_top.sc2sv_comp [sv2systemc/GET] 
+-------------------------------------------------------------------------------
+Name               Type                       Size  Value                      
+-------------------------------------------------------------------------------
+<unnamed>          uvm_tlm_generic_payload    -     @3129                      
+  address          integral                   64    'h100a941c                 
+  command          uvm_tlm_command_e          32    UVM_TLM_WRITE_COMMAND      
+  response_status  uvm_tlm_response_status_e  32    UVM_TLM_INCOMPLETE_RESPONSE
+  streaming_width  integral                   32    'h0                        
+  data             darray(byte)               4     -                          
+    [0]            byte                       8     'h22                       
+    [1]            byte                       8     'h7c                       
+    [2]            byte                       8     'h64                       
+    [3]            byte                       8     'h11                       
+  extensions       aa(obj,obj)                0     -                          
+-------------------------------------------------------------------------------
+
+90 ns [sc2systemv/SEND] cmd:1 addr:7dba4d5c data:{ 94 1c e3 32 90 6 cd }
+UVM_INFO sv2sc.sv(95) @ 90000: uvm_test_top.sc2sv_comp [sv2systemc/GET] 
+-------------------------------------------------------------------------------
+Name               Type                       Size  Value                      
+-------------------------------------------------------------------------------
+<unnamed>          uvm_tlm_generic_payload    -     @3150                      
+  address          integral                   64    'h7dba4d5c                 
+  command          uvm_tlm_command_e          32    UVM_TLM_WRITE_COMMAND      
+  response_status  uvm_tlm_response_status_e  32    UVM_TLM_INCOMPLETE_RESPONSE
+  streaming_width  integral                   32    'h0                        
+  data             darray(byte)               7     -                          
+    [0]            byte                       8     'h94                       
+    [1]            byte                       8     'h1c                       
+    [2]            byte                       8     'he3                       
+    [3]            byte                       8     'h32                       
+    [4]            byte                       8     'h90                       
+    [5]            byte                       8     'h06                       
+    [6]            byte                       8     'hcd                       
+  extensions       aa(obj,obj)                0     -                          
+-------------------------------------------------------------------------------
+
+UVM_INFO /home/project/eda/pkgs/cadence/ius/default/tools/methodology/UVM/CDNS-1.2/sv/src/base/uvm_objection.svh(1271) @ 100000: reporter [TEST_DONE] 'run' phase is ready to proceed to the 'extract' phase
+UVM_INFO /home/project/eda/pkgs/cadence/ius/default/tools/methodology/UVM/CDNS-1.2/sv/src/base/uvm_report_catcher.svh(705) @ 100000: reporter [UVM/REPORT/CATCHER] 
+--- UVM Report catcher Summary ---
+
+
+Number of demoted UVM_FATAL reports  :    0
+Number of demoted UVM_ERROR reports  :    0
+Number of demoted UVM_WARNING reports:    0
+Number of caught UVM_FATAL reports   :    4
+Number of caught UVM_ERROR reports   :    0
+Number of caught UVM_WARNING reports :    0
+
+UVM_INFO /home/project/eda/pkgs/cadence/ius/default/tools/methodology/UVM/CDNS-1.2/sv/src/base/uvm_report_server.svh(847) @ 100000: reporter [UVM/REPORT/SERVER] 
+--- UVM Report Summary ---
+
+** Report counts by severity
+UVM_INFO :   16
+UVM_WARNING :    0
+UVM_ERROR :    0
+UVM_FATAL :    0
+** Report counts by id
+[RNTST]     1
+[TEST_DONE]     1
+[UVM/COMP/NAMECHECK]     1
+[UVM/RELNOTES]     1
+[UVM/REPORT/CATCHER]     1
+[sv2systemc/GET]    10
+[sv2systemc/SEND]     1
+
+Simulation complete via $finish(1) at time 100 NS + 58
+/home/project/eda/pkgs/cadence/ius/default/tools/methodology/UVM/CDNS-1.2/sv/src/base/uvm_root.svh:543     $finish;
+ncsim> exit
+TOOL:	irun	15.20-s058: Exiting on May 09, 2024 at 02:59:01 CST  (total: 00:00:12)

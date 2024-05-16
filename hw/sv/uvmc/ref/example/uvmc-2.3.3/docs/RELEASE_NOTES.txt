@@ -1,0 +1,541 @@
+================================================================================
+
+Title: Release Notes - UVM Connect
+
+================================================================================
+
+These notes provide information about version updates, bugfixes, known
+issues, changes to supported platforms, etc. Updates and changes made prior to
+public release are not included.
+
+================================================================================
+Group: UVM Connect v2.3.3 - July 2023
+================================================================================
+
+| ----------
+| 7-21-23: Enhanced 4-phase connection support
+| M       src/connect/sc/uvmc_channels.h
+| M       src/connect/sc/uvmc_common.cpp
+| M       src/connect/sc/uvmc_common.h
+| M       src/connect/sc/uvmc_ports.cpp
+| M       src/connect/sc/uvmc_ports.h
+| M       src/connect/sc/uvmc_xl_converter.cpp
+| M       src/connect/sv/uvmc_common.sv
+| M       src/connect/sv/uvmc_tlm2.sv
+
+  - Added support for better compliance of TLM-2.0 specification for the
+    4-phase transactions of the TLM-2.0 base protocol.
+
+| A       src/connect/sc/uvmc_tlm_gp_mm.cpp
+| A       src/connect/sc/uvmc_tlm_gp_mm.h
+| A       src/connect/sc/uvmc_trans_mm.cpp
+| A       src/connect/sc/uvmc_trans_mm.h
+
+  - Added new dedicated, more efficient memory management support for TLM GP
+    transactions and ~uvmc_xl_config~ objects
+
+| ----------
+| 7-21-23: Improved compile option for sanity checks
+| M       src/connect/sv/uvmc_xl_converter.svh
+
+  - Improved sanity checks that happen in ~class uvmc_xl_converter~ when the
+    compile-time ~UVMC_XL_CONV_CHECK_SANITY~ switch is enabled.
+
+| ----------
+| 7-21-23: Added support for cloning uvmc_xl_config objects
+| M       src/connect/sc/uvmc_xl_config.cpp
+
+  - Changed the ~uvmc_xl_config_base::clone()~ function from being unsupported
+    to actually creating a cloned object as it was intended.
+
+---------------------------------------
+Topic: Enhanced support 4-phase transactions and the TLM-2.0 base protocol
+
+The uvmc-2.3.3 release adds better support for the semantics of the TLM-2.0
+base protocol and how it is used in the context of 4-phase transactions.
+
+Please see the section <4-phase connections> for details on this.
+
+================================================================================
+Group: UVM Connect v2.3.2 - Nov 2019
+================================================================================
+
+| ----------
+| 11-2-19: Updates after VCS, UVM-1.2 testing; UVM-Connect forum feedbabck
+
+| M       examples/config_exts/common/producer_loopback_dual_ports.svh
+| M       examples/config_exts/common/producer_loopback.svh
+
+  - Changed gp.clear_extension( configExt ) to gp.clear_extensions() due to
+    apparent problem with how UVM TLM GP extensions are cleared in UVM library.
+
+| A       examples/osci_tests/
+
+  - Added new examples/osci_tests/ suite for testing on OSCI SystemC 2.3.2
+
+| M       examples/commands/ex_config.cpp
+| M       examples/commands/ex_factory.cpp
+| M       examples/commands/ex_phase_control.cpp
+| M       examples/commands/ex_print_topology.cpp
+| M       examples/commands/ex_reporting.cpp
+
+  - Changed top module naming to match instance labels rather than module name
+    in better accordance with convention.
+
+| M       examples/*/gold/*
+
+  - General Improvements to gold file filtering and associated updates to gold
+    files.
+
+| M       examples/commands/run_questa
+| M       examples/connections/run_questa
+| M       examples/converters/run_questa
+| M       examples/field_types/run_questa
+
+  - Simplification of basic go_nogo test 'run_questa' script to simply use
+    Questa UVM and UVMC pre-built libraries and default gcc compiler.
+
+| M       examples/common/Makefile.questa
+| M       examples/converters/Makefile.questa
+
+  - Added fixes for new USE_AMBIENT_GCC usage mode. The purpose here is to
+    distinguish between Questa compile/run use models to either depend on
+    default GCC version and pre-built UVM and UVMC libraries for native Questa
+    release, or, to override the GCC version some supported version different
+    from the default one, and to override UVMC library to be one that is
+    explicitly built up outside the Questa install area rather than the
+    pre-built one.
+
+    "Ambient gcc" refers to the gcc/g++ found in the shell environment
+    (i.e. stipulated by $PATH variable) rather than Questa's default gcc/g++.
+
+| M       examples/common/Makefile.vcs
+
+  - Updates and cleanups after qualifying UVMC examples/ on VCS L-2016.06
+
+| M       examples/connections/common/producer2.sv
+| M       examples/connections/common/producer.sv
+| M       examples/connections/common/scoreboard.sv
+| M       lib/Makefile.uvmc_sysc_standalone
+| M       src/connect/sv/uvmc_commands.sv
+
+  - Updates, fixes after qualification on UVM-1.2.
+
+  - Fixes to examples to make compatible with UVM-1.2. raise_objection() and
+    drop_objection() methods of phase objects cannot be called unless it is
+    pre-determined that that phase is not yet done.
+
+  - For uvmc_commands.sv the way of calling the report() function with
+    specific severities had to be made more rigid with stronger type checking
+    in the case of uvm-1.2 usage vs uvm-1.1d.
+
+| M       lib/.toolsrc
+
+  - Brought .toolsrc template settings up to date. This is the helper script
+    referenced in each of the Env.script ENV setup files for each test.
+
+| M       src/connect/sc/uvmc_tlm_gp_converter.cpp
+| M       src/connect/sc/uvmc_xl_converter.cpp
+
+  - Improvements in response to input from users on UVM-Connect forum of
+    Verification Academy
+
+    - Replaced use of std::map with std::set to avoid memory leak for
+      VCS_OR_NCSC mode. The logic for the duplicated_storage_map was causing
+      map entries to grow without bound and not be trimmed after entries were
+      done being used.
+
+    - Cleaned up manner of handling VCS vendor-specific way of copying data
+      payloads to/from C "chandles". For newer versions of VCS this logic broke.
+      New VCS way of handling vendor-specific data representation is now more
+      straightforward and consistent with other vendors.
+
+| M       src/connect/sv/uvmc_converter.svh
+| M       src/connect/sv/uvmc_xl_converter.svh
+
+  - Changed optimization in the "fast packer" converters to check for
+    !t.is_read() rather than the former t.is_write(). This allows for usage
+    of the TLM_IGNORE_COMMAND command type in conjunction with fast packers
+    which proves to useful in certain usage scenarios.
+
+    - This optimization was put in in the first place because fast packers take
+      great care to avoid extra data copies of payloads, byte enables, etc.
+      where not necesary.
+
+| ----------
+| =+= 9-7-19: UVM-Connect misc fixes, improvements.
+
+| M       src/connect/sc/uvmc_channels.h
+
+  - Fix from Bugzilla 77644 to play const_cast trick for non const
+    ::wait_connected() method (see comments in this source file).
+
+| M       lib/Makefile.uvmc_sysc_standalone
+| M       lib/Makefile.uvmc_sysc_standalone_osci
+| M       lib/Makefile.uvmc_sysc_standalone_vista
+
+  - Modifications to UVMC build scripts to add SNPS Virtualizer support
+
+  - Upgraded OSCI libraries to support for SystemC 2.3.2
+
+| ----------
+| =+= 4-4-18: Improvements to UVM-Connect library
+ 
+| M       xl_uvmc/uvmc-2.3/src/connect/sc/uvmc_xl_config.cpp
+| M       xl_uvmc/uvmc-2.3/src/connect/sc/uvmc_xl_config.h
+| M       xl_uvmc/xl-uvmc-2.3/src/connect/sc/uvmc_xl_config.cpp
+| M       xl_uvmc/xl-uvmc-2.3/src/connect/sc/uvmc_xl_config.h
+ 
+  - Documentation improvements
+  - Efficiency improvements to get_partsel_bit(), put_partsel_bit() functions
+    in class uvmc_xl_config.
+  - Fixes so that both static and sideband config payloads can be
+    independently overriden with external payload storage. And that the
+    deletion operators are made cognizant of this option.
+
+| ----------
+| =+= 1-8-18: Added new UVM example and documentation section 
+ 
+| A       shared/xl_uvmc/uvmc-2.3/examples/config_exts/
+|             common/loopback_dual_ports.h
+|             common/producer_loopback_dual_ports.svh
+|             common/producer_loopback.h
+|             sv2sc2sv_xl_gp_converter_loopback_dual_ports.cpp
+|             sv2sc2sv_xl_gp_converter_loopback_dual_ports.sv
+ 
+  - Added new UVM example and documentation section showing technique to
+    create 2 instances of UVM TLM target ports each with their own dedicated
+    b_transport() callbacks.
+
+| ----------
+| =+= 10-10-17: Bug fixes and general improvements to UVM-Connect and XL-UVM-Connect
+ 
+| trunk/shared/xl_uvmc/
+| 
+| A       uvmc-2.3/examples/converters/consumer.sv
+| A       uvmc-2.3/examples/converters/producer.h
+| A       uvmc-2.3/examples/converters/sc_converter_bidir_trans.cpp
+| A       uvmc-2.3/examples/converters/sv_converter_bidir_trans.sv
+| A       xl-uvmc-2.3/examples/converters/consumer.sv
+| A       xl-uvmc-2.3/examples/converters/producer.h
+| A       xl-uvmc-2.3/examples/converters/sc_converter_bidir_trans.cpp
+| A       xl-uvmc-2.3/examples/converters/sv_converter_bidir_trans.sv
+ 
+  - Added new test for checking UVMC connections in 2 directions as received
+    from user on UVMC forum on Verification Academy
+
+  - Fixed up UVMC and XL-UVMC regressions so that they can easily be run
+    recursively in root area using test_drive.csh methodology as is deployed
+    under examples/xl_vip/Makefile. This required tweaks of the UVMC
+    env scripts and some other minor adjustments to Makefile's.
+
+| M       uvmc-2.3/src/connect/sc/uvmc_common.cpp
+| M       xl-uvmc-2.3/src/connect/sc/uvmc_connect.cpp
+| M       uvmc-2.3/src/connect/sv/uvmc_tlm2.sv
+| M       xl-uvmc-2.3/src/connect/sv/uvmc_tlm2.sv
+ 
+  - Fixed bug as received from user on UVMC forum on
+    Verification Academy where masking and checking for compatible port
+    connections was not being done correctly. See changes above for new
+    regression test added to examples/converters/ to test for this issue.
+
+  - Fixed issue found in uvmc_tlm2.sv where
+    nb_transport_fw,bw() calls were not properly checking return status for
+    UVM_TLM_COMPLETED.
+ 
+| M       uvmc-2.3/src/connect/sc/uvmc_connect.cpp
+| M       xl-uvmc-2.3/src/connect/sc/uvmc_connect.cpp
+
+  - Fixed bug from user on UVMC forum where 'filename' was being incorrectly
+    referenced as 'file' in error message.
+ 
+| M       xl-uvmc-2.3/src/connect/sc/uvmc_export_stubs.cpp
+
+================================================================================
+Group: UVM Connect v2.3.1 - May 2015
+================================================================================
+
+Notes for release v2.3.1
+
+---------------------------------------
+Topic: Feature summary
+
+- Added 'run_questa' scripts in several of the examples/ tests to
+  illustrate quickly to users how to compile UVMC libraries and
+  run examples as an alternative flow to the 'Makefile' driven flow
+  documented in the <Quickstart 1-2-3 to running examples> section
+  of the UVMC documentation package.
+
+---------------------------------------
+Topic: Bugzilla fixes
+
+- 37689: Set byte_enable ptr to NULL if byte_en_length is zero
+- 77177: SC compile error on UVMC TLM1 transport connections
+- 77205: Indexing bug in uvmc_packer ::pack_sc_bv_base()
+- 77457: UVMC package compile error when UVM package compiled with
+         +define+UVM_NO_DEPRECATED 
+- 77644: UVM Connect needs wait() before first peek()
+- 77720: Customer reports that unqualified references to int64 and uint64
+         in UVM-Connect clash with customer defined typedefs 
+
+================================================================================
+Group: UVM Connect v2.3.0 - March 2015
+================================================================================
+
+Notes for release v2.3.0
+
+---------------------------------------
+Topic: Feature summary
+
+This ~uvmc-2.3.0/~ library is a variation of the original ~uvmc-2.2/~ library
+that has had the following additional features added:
+
+- Support for "fast packers"
+- Support for SC <-> SC peer UVM-Connect'ions
+- Support for SystemC standalone libraries
+- Support for "configuration extensions"
+- Support for order-independent rendezvous
+
+---------------------------------------
+Topic: Support for "fast packers"
+
+The uvmc-2.3.0 release adds support for "fast packers" for the specific case of
+passing TLM generic payloads (class *uvm_tlm_generic_payload*) across
+UVM-Connect'ed sockets.
+
+These "fast packers" add two features,
+
+- Improved performance
+- Support for TLM generic payloads with no fixed limitations on data
+  payload sizes (i.e. unlimited data payloads)
+
+There are two flavors of fast packers,
+
+|   1. class uvmc_xl_converter
+|   2. class uvmc_tlm_gp_converter
+
+The two new classes have both been enhanced for better performance than
+the default packers, and both support unlimited payloads. But there
+are slightly differing semantics for each of the two.
+
+- The class *uvmc_xl_converter* conforms in the strictest sense to the required
+  semantics of the _TLM-2.0 base protocol_ specifically with respect to
+  _modifiability of attributes_ (see IEEE 1666-2011 section on TLM-2.0 base
+  protocol), and thus does not indiscriminately transfer all fields of the
+  generic payload in both directions across the language boundary.
+  Rather it decides, depending on the mode of the transaction (_READ_ or
+  _WRITE_), and whether it is being transferred along the _forward_,
+  _backward_, or _return_ paths, which fields to transfer and which to
+  leave alone.
+
+- The class *uvmc_tlm_gp_converter* has the same features of unlimited
+  payload size and efficient data payload passing techniques that use
+  "C assist" and "pass by reference" that version #1 above does, but it
+  is unconditionally transferring all fields of the generic payload along
+  all paths without regard to _modifiability of attributes_ which is
+  more semantically compatible with the slower, size limited default
+  packer.
+
+- For the packers themselves see,
+
+|   src/connect/
+|     sc/uvmc_tlm_gp_converter.*
+|     sc/uvmc_xl_converter.*
+|     sv/uvmc_converter.svh
+|     sv/uvmc_xl_converter.svh
+
+- Specifically see sc/uvmc_tlm_gp_converter.h for an explanation
+  of when you would want to use class *uvmc_tlm_gp_converter*
+  vs. class *uvmc_xl_converter*.
+
+- For examples that use them see
+
+|   examples/xlerate.connections/Makefile
+
+--------------------------------------------------
+Topic: Support for SC <-> SC peer UVM-Connect'ions
+
+Previously support for SC <-> SC peer UVM-Connect'ions did not exist
+but was added to allow SystemC applications to create UVM-Connect'ions
+without knowing apriori whether the opposite endpoint will be in a
+SystemC model or an SV-UVM model. It also provides a very easy, intuitive way
+to bind SystemC TLM-2.0 ports and let the overloaded variations of the
+*uvmc_connect()* function automatically figure out whether they are
+_initiator port_ or _target export_ bindings. Just pass the port and the ID
+string and Presto ! UVM-Connect figures out the rest !
+
+-----------------------------------------------
+Topic: Support for SystemC standalone libraries
+
+In addition to support for native Questa (and VCS and IUS) compiled
+SystemC libraries, support was also added for standalone libraries that
+can be used with OSCI SystemC and Vista SystemC.
+
+You will find special Makefile's for the standalone libraries here,
+
+|   lib/
+|     Makefile.uvmc_sysc_standalone_questa
+|     Makefile.uvmc_sysc_standalone_osci
+|     Makefile.uvmc_sysc_standalone_vista
+
+These each build a library called *uvmc.so* which can be directly
+linked into the Questa, OSCI SystemC or Vista SystemC kernel program
+respectively.
+
+NOTE: For the case of OSCI and Vista this assumes SV-UVM is not even being
+used. In fact, the SV-UVM infrastructure is completely removed from these
+libraries. They only support peer SC <-> SC UVM-Connect'ions for these
+use models.
+
+See <Compiling Standalone SystemC Libraries> in the
+main ~UVM Connect->Introduction~ section for more info on how to build these
+standalone libraries.
+
+---------------------------------------
+Topic: Support for "configuration extensions"
+
+Configuration extensions are _ignorable extensions_ (in the sense of TLM-2.0
+generic payloads) that can be used to pass configurations which accompany
+generic payloads that travel from TLM-2.0 initiators to targets.
+
+The UVMC config extension base class *uvmc_xl_config* contains a simple
+abstraction of a set _configuration registers_ that can act as shadows
+of the associated configuration register set one might find in the target
+model.
+
+There are two types of configuration extensions that are handled by
+*class uvmc_xl_config*,
+
+_1. Static configuration register_
+
+- Static configurations are sent as separate dedicated transactions
+  to update configuration register sets on the target side of the connection.
+
+- Static configs can be used for configuring things that don't change often
+  such as UART baud rate, AXI randomized wait state bounds and cross
+  channel latencies.
+
+_2. Sideband configuration register_
+  
+- Sideband confgurations are unconditionally sent with each and
+  every generic payload transaction along the forward path to the target.
+
+- These should be used for things that typically change as frequently
+  as every transaction such as tid's for AXI transactions, tags for
+  Wishbone transactions, etc.
+
+NOTE: The *class uvmc_xl_config* TLM GP extension is designed to be used *only*
+with TLM GPs passed to the *class uvmc_xl_converter* fast packer described
+above. You can attach them to TLM GPs that use other packers but the
+extension itself may not accompany the TLM GP across the TLM channel in
+that case (certainly not for UVMC default converters or *class
+uvmc_tlm_gp_converter* fast packers).
+
+For the config extensions themselves see,
+
+|       src/connect/
+|         sc/uvmc_xl_config.*
+|         sv/uvmc_xl_config.svh
+
+---------------------------------------
+Topic: Support for order-independent rendezvous
+
+The uvmc-2.3.0 release has been enhanced to allow for ~order-independent
+rendezvous~ of TLM port connections. There is now a more relaxed dependency
+on the ordering between when an SV-side peer uvmc_connect()'s its port
+and when the SC-side peer does so. Same applies for SystemC peer-to-peer
+UVM-Connect'ions.
+
+This allows more flexibly for "late bindings" of UVM-Connect'ions. Only
+requirement is that no transaction communication is done on any cross-language
+port that has not been bound. An error will occur if any such attempts are
+prematurely made before all peers have connected.
+
+================================================================================
+Group: UVM Connect v2.2 - August 2012
+================================================================================
+
+Notes for release v2.2.
+
+- OVM Support. You can now compile UVM Connect to work with OVM 2.1.1 or greater.
+  Compile libraries with OVM=1
+
+  | cd $UVMC_HOME/lib
+  | make -f Makefile.<tool> OVM=1 all
+  | cd $UVMC_HOME/examples_ovm/connections
+  | make -f Makefile.<tool> sv2sc
+
+  See <Using with OVM> for details.
+
+- Added support for two other vendors' simulators (UVM only). 
+
+- Added ability to set stack size for SC background processes used to make
+  blocking calls on behalf of SV initiators.
+
+- Refactored internal implementation for efficiency
+
+- Improved some messages.
+
+- Removed registration of both lookup string and port hierarchical name. Only
+  one will ever be used. So, if lookup string provided, that is what is used to
+  match against other ports. Otherwise, the port's full name is registered as
+  the lookup string.
+
+- Removed inclusion of Questa-specific libraries to reduce size of distribution.
+  Compiling UVM Connect is quick and straight-forward no matter what simulator
+  you are using. See <Compiling Libraries> for how to compile the UVM (or OVM)
+  and UVM Connect libraries.
+
+
+
+================================================================================
+Group: UVM Connect v2.1.4 - February 2012
+================================================================================
+
+Notes for release v2.1.4.
+
+Key additions to this release include
+
+- Improved TLM2 support
+
+- More comprehensive User Guide with supporting examples, all documented
+
+- Support for hierarchical connections, i.e. wrapping foreign models and
+  promoting their TLM connections to native TLM ports using UVM Connect. 
+
+- Additional examples, reorganized.
+  All examples are found in $UVMC_HOME/examples. See the <Overview> page
+  in the online documentation for information on running the examples
+  included in this kit. 
+
+- HTML documentation added.
+
+While the kit is intended to work with all three simulators, correct operation
+on other simulators has not been verified.
+
+Version requirements: 
+
+UVM 1.1a - see <Overview> for instructions on enabling
+earlier versions
+
+Questa 10.1 - see <Overview> for minor restrictions for use with 10.0c or later.
+
+
+| //-----------------------------------------------------------//
+| //   Copyright 2023 Siemens EDA                              //
+| //                                                           //
+| //   Licensed under the Apache License, Version 2.0 (the     //
+| //   "License"); you may not use this file except in         //
+| //   compliance with the License.  You may obtain a copy of  //
+| //   the License at                                          //
+| //                                                           //
+| //       http://www.apache.org/licenses/LICENSE-2.0          //
+| //                                                           //
+| //   Unless required by applicable law or agreed to in       //
+| //   writing, software distributed under the License is      //
+| //   distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR  //
+| //   CONDITIONS OF ANY KIND, either express or implied.      //
+| //   See the License for the specific language governing     //
+| //   permissions and limitations under the License.          //
+| //-----------------------------------------------------------//
+

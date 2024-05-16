@@ -1,0 +1,5 @@
+-O0 -g
+-L${NCSC_CDS_ROOT}/tools/cdsgcc/gcc/4.8/install/lib -lstdc++ -lgcc_s -L${NCSC_CDS_ROOT}/tools/lib -L${NCSC_CDS_ROOT}/tools/tbsc/lib/gnu/4.8 -Wl,-rpath,${NCSC_CDS_ROOT}/tools/lib:${NCSC_CDS_ROOT}/tools/tbsc/lib/gnu/4.8:${SYSC_GNU_LIB} -ltbsc -lscv -lbfd
+-L/home/project/eda/pkgs/cadence/ius/v15.20/tools/systemc/lib/gnu/4.8 -lsystemc_sh -lscBootstrap_sh -lncscCoroutines_sh -lovm -lncsccci_sh -lncscfactory_sh -lxml_parser -lncsctlm2_sh -L/home/project/eda/pkgs/cadence/ius/v15.20/tools/methodology/UVM/CDNS-1.1d/sc/lib -luvm
+./INCA_libs/irun.lnx86.15.20.nc/ncsc_run/ncsc_obj/uvmc_0.o
+./INCA_libs/irun.lnx86.15.20.nc/ncsc_run/ncsc_obj/sc2sv_0.o

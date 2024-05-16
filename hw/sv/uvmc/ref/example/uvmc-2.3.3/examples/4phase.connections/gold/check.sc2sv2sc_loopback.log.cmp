@@ -1,0 +1,61 @@
+# 0 s [PRODUCER/GP/SEND] cmd: 1 addr:0 PAYLOAD_NUM_BYTES:2048 NUM_TRANSACTIONS:128
+# UVM_INFO uvmc_commands.sv @ 0: reporter [TRACE/UVMC_CMD/OBJECTION] op=RAISE name=run contxt= description= count=1 sv_contxt=uvm_top
+# Connected SC-side 'sc_main/producer/in' to SV-side 'loop.out'
+# Connected SC-side 'sc_main/producer/out' to SV-side 'loop.in'
+# WARNING: producer::nb_transport_bw() Received non-matching trans object. Try calling uvmc_enable_trans_mm(). [line #262 of 'common/producer_loopback.h']
+# WARNING: producer::nb_transport_bw() Received non-matching trans object. Try calling uvmc_enable_trans_mm(). [line #262 of 'common/producer_loopback.h']
+# WARNING: producer::nb_transport_bw() Received non-matching trans object. Try calling uvmc_enable_trans_mm(). [line #262 of 'common/producer_loopback.h']
+# WARNING: producer::nb_transport_bw() Received non-matching trans object. Try calling uvmc_enable_trans_mm(). [line #262 of 'common/producer_loopback.h']
+# WARNING: producer::nb_transport_bw() Received non-matching trans object. Try calling uvmc_enable_trans_mm(). [line #262 of 'common/producer_loopback.h']
+# WARNING: producer::nb_transport_bw() Received non-matching trans object. Try calling uvmc_enable_trans_mm(). [line #262 of 'common/producer_loopback.h']
+# WARNING: producer::nb_transport_bw() Received non-matching trans object. Try calling uvmc_enable_trans_mm(). [line #262 of 'common/producer_loopback.h']
+# WARNING: producer::nb_transport_bw() Received non-matching trans object. Try calling uvmc_enable_trans_mm(). [line #262 of 'common/producer_loopback.h']
+# WARNING: producer::nb_transport_bw() Received non-matching trans object. Try calling uvmc_enable_trans_mm(). [line #262 of 'common/producer_loopback.h']
+# WARNING: producer::nb_transport_bw() Received non-matching trans object. Try calling uvmc_enable_trans_mm(). [line #262 of 'common/producer_loopback.h']
+# WARNING: producer::nb_transport_bw() Received non-matching trans object. Try calling uvmc_enable_trans_mm(). [line #262 of 'common/producer_loopback.h']
+# WARNING: producer::nb_transport_bw() Received non-matching trans object. Try calling uvmc_enable_trans_mm(). [line #262 of 'common/producer_loopback.h']
+# WARNING: producer::nb_transport_bw() Received non-matching trans object. Try calling uvmc_enable_trans_mm(). [line #262 of 'common/producer_loopback.h']
+# WARNING: producer::nb_transport_bw() Received non-matching trans object. Try calling uvmc_enable_trans_mm(). [line #262 of 'common/producer_loopback.h']
+# WARNING: producer::nb_transport_bw() Received non-matching trans object. Try calling uvmc_enable_trans_mm(). [line #262 of 'common/producer_loopback.h']
+# WARNING: producer::nb_transport_bw() Received non-matching trans object. Try calling uvmc_enable_trans_mm(). [line #262 of 'common/producer_loopback.h']
+# WARNING: producer::nb_transport_bw() Received non-matching trans object. Try calling uvmc_enable_trans_mm(). [line #262 of 'common/producer_loopback.h']
+# WARNING: producer::nb_transport_bw() Received non-matching trans object. Try calling uvmc_enable_trans_mm(). [line #262 of 'common/producer_loopback.h']
+# WARNING: producer::nb_transport_bw() Received non-matching trans object. Try calling uvmc_enable_trans_mm(). [line #262 of 'common/producer_loopback.h']
+# WARNING: producer::nb_transport_bw() Received non-matching trans object. Try calling uvmc_enable_trans_mm(). [line #262 of 'common/producer_loopback.h']
+# WARNING: producer::nb_transport_bw() Received non-matching trans object. Try calling uvmc_enable_trans_mm(). [line #262 of 'common/producer_loopback.h']
+# WARNING: producer::nb_transport_bw() Received non-matching trans object. Try calling uvmc_enable_trans_mm(). [line #262 of 'common/producer_loopback.h']
+# WARNING: producer::nb_transport_bw() Received non-matching trans object. Try calling uvmc_enable_trans_mm(). [line #262 of 'common/producer_loopback.h']
+# WARNING: producer::nb_transport_bw() Received non-matching trans object. Try calling uvmc_enable_trans_mm(). [line #262 of 'common/producer_loopback.h']
+# WARNING: producer::nb_transport_bw() Received non-matching trans object. Try calling uvmc_enable_trans_mm(). [line #262 of 'common/producer_loopback.h']
+# WARNING: producer::nb_transport_bw() Received non-matching trans object. Try calling uvmc_enable_trans_mm(). [line #262 of 'common/producer_loopback.h']
+# WARNING: producer::nb_transport_bw() Received non-matching trans object. Try calling uvmc_enable_trans_mm(). [line #262 of 'common/producer_loopback.h']
+# WARNING: producer::nb_transport_bw() Received non-matching trans object. Try calling uvmc_enable_trans_mm(). [line #262 of 'common/producer_loopback.h']
+# WARNING: producer::nb_transport_bw() Received non-matching trans object. Try calling uvmc_enable_trans_mm(). [line #262 of 'common/producer_loopback.h']
+# WARNING: producer::nb_transport_bw() Received non-matching trans object. Try calling uvmc_enable_trans_mm(). [line #262 of 'common/producer_loopback.h']
+# WARNING: producer::nb_transport_bw() Received non-matching trans object. Try calling uvmc_enable_trans_mm(). [line #262 of 'common/producer_loopback.h']
+# WARNING: producer::nb_transport_bw() Received non-matching trans object. Try calling uvmc_enable_trans_mm(). [line #262 of 'common/producer_loopback.h']
+# 1281 ns [PRODUCER/ENDING] 
+# expected_checksum=1fe0000 == actual_checksum=1fe0000 test PASSED !
+# uvmc_trans_mm::printStats() heapId=sc_main/producer/in.proxy_mm totalNumAllocs=0 totalNumFrees=0 numFreePoolEntries=0
+# uvmc_trans_mm::printStats() heapId=uvmc_xl_converter_mm totalNumAllocs=0 totalNumFrees=0 numFreePoolEntries=0
+# UVM_INFO uvmc_commands.sv @ 1281000: reporter [TRACE/UVMC_CMD/OBJECTION] op=DROP name=run contxt= description= count=1 sv_contxt=uvm_top
+# UVM_INFO uvm_objection.svh @ 1281000: reporter [TEST_DONE] 'run' phase is ready to proceed to the 'extract' phase
+# --- UVM Report catcher Summary ---
+# Number of demoted UVM_FATAL reports  :    0
+# Number of demoted UVM_ERROR reports  :    0
+# Number of demoted UVM_WARNING reports:    0
+# Number of caught UVM_FATAL reports   :    0
+# Number of caught UVM_ERROR reports   :    0
+# Number of caught UVM_WARNING reports :    0
+# --- UVM Report Summary ---
+# ** Report counts by severity
+# UVM_INFO :
+# UVM_WARNING :
+# UVM_ERROR :    0
+# UVM_FATAL :    0
+# ** Report counts by id
+# [RNTST]     1
+# [TEST_DONE]     1
+# [TRACE/UVMC_CMD/OBJECTION]     2
+# ** Note: $finish    : uvm_root.svh
+# Errors: 0, Warnings: 

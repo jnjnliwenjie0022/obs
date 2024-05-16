@@ -1,0 +1,318 @@
+irun: 15.20-s058: (c) Copyright 1995-2018 Cadence Design Systems, Inc.
+irun: *W,UVMDPI: UVM dpi code will not be loaded because of define UVM_NO_DPI.
+Compiling UVM package (uvm_pkg.sv) using uvmhome location /home/project/eda/pkgs/cadence/ius/default/tools/methodology/UVM/CDNS-1.2/sv
+file: /NOBACKUP/atcpcw10/jasonli/sc/uvmc-2.3.3/src/connect/sv/uvmc_pkg.sv
+            t = trans_preservation_map[ trans_chandle ];
+                                                    |
+ncvlog: *W,BIGWBS (/NOBACKUP/atcpcw10/jasonli/sc/uvmc-2.3.3/src/connect/sv/uvmc_tlm2.sv,297|52): Bit-select index truncation.
+        trans_preservation_map[ trans_chandle ] = null;
+                                            |
+ncvlog: *W,BIGWBS (/NOBACKUP/atcpcw10/jasonli/sc/uvmc-2.3.3/src/connect/sv/uvmc_tlm2.sv,328|44): Bit-select index truncation.
+        trans_preservation_map[ trans_chandle ] = t;
+                                            |
+ncvlog: *W,BIGWBS (/NOBACKUP/atcpcw10/jasonli/sc/uvmc-2.3.3/src/connect/sv/uvmc_tlm2.sv,403|44): Bit-select index truncation.
+        trans_preservation_map[ trans_chandle ] = null;
+                                            |
+ncvlog: *W,BIGWBS (/NOBACKUP/atcpcw10/jasonli/sc/uvmc-2.3.3/src/connect/sv/uvmc_tlm2.sv,413|44): Bit-select index truncation.
+file: sv2sc.sv
+	module worklib.sv_main:sv
+		errors: 0, warnings: 0
+ncsc_run: *N,TBDEP: Test will be regenerated due to changes in
+          command line ld_test options
+$CDSROOT = /home/project/eda/pkgs/cadence/ius/v15.20
+$TESTDIR = /NOBACKUP/atcpcw10/jasonli/sc/uvmc-2.3.3/examples/connections
+
+TOOL:	ncsc	15.20-s058
+ncsc C++ parameters: 
+	ncsc -COMPILER $CDSROOT/tools/cdsgcc/gcc/4.8/bin/g++ 
+	-f ./INCA_libs/irun.lnx86.15.20.nc/ncsc_run/ncsc_obj/ncsc.args
+	-MANUAL 
+	-CFLAGS "-DNCSC
+		-I$CDSROOT/tools/systemc/include_pch
+		-I$CDSROOT/tools/tbsc/include
+		-I$CDSROOT/tools/vic/include
+		-I$CDSROOT/tools/methodology/OVM/CDNS-2.1.2/sc/src
+		-I/home/project/eda/pkgs/cadence/ius/default/tools/methodology/UVM/CDNS-1.2/sv/sc/sc
+		-I/home/project/eda/pkgs/cadence/ius/default/tools/methodology/UVM/CDNS-1.2/sv/ml/sc
+		-I$CDSROOT/tools/systemc/include/cci
+		-I$CDSROOT/tools/systemc/include/factory
+		-I$CDSROOT/tools/systemc/include/tlm2
+		-c
+		-x c++ -m32  -Wall 
+		-O0 -g
+		-fPIC
+		-I/home/project/eda/pkgs/cadence/ius/default/tools/systemc/include/tlm2/tlm_utils
+		-I/NOBACKUP/atcpcw10/jasonli/sc/uvmc-2.3.3/src/connect/sc
+		-I$TESTDIR/.
+		-I/NOBACKUP/atcpcw10/jasonli/sc/uvmc-2.3.3/src/connect/sc
+		-I$TESTDIR/common
+		-DSC_INCLUDE_DYNAMIC_PROCESSES
+		-DINCA
+		-I$CDSROOT/tools/include
+		-I$CDSROOT/tools/inca/include
+		-fPIC
+		-I$CDSROOT/tools/include"
+
+make[2]: Entering directory `/NOBACKUP/atcpcw10/jasonli/sc/uvmc-2.3.3/examples/connections'
+make[2]: `INCA_libs/irun.lnx86.15.20.nc/ncsc_run/ncsc_obj/uvmc_0.o' is up to date.
+make[2]: Leaving directory `/NOBACKUP/atcpcw10/jasonli/sc/uvmc-2.3.3/examples/connections'
+
+make[2]: Entering directory `/NOBACKUP/atcpcw10/jasonli/sc/uvmc-2.3.3/examples/connections'
+ncsc: compiling $TESTDIR/sv2sc.cpp
+make[2]: Leaving directory `/NOBACKUP/atcpcw10/jasonli/sc/uvmc-2.3.3/examples/connections'
+$CDSROOT/tools/include/svdpi_compatibility.h:48:2: warning: #warning "INCISIV is currently compliant with DPI header file svdpi.h as per IEEE 1800-2005. Starting IUS16.10, the default header file will be as per IEEE 1800-2012. DPI applications which need to continue complying with IEEE 1800-2005 will need to compile with the macro DPI_COMPATIBILITY_VERSION_1800v2005 starting in 16.1. The difference in the two header files is in the declaration of the struct t_vpi_vecval." [-Wcpp]
+ #warning "INCISIV is currently compliant with DPI header file svdpi.h as per IEEE 1800-2005. Starting IUS16.10, the default header file will be as per IEEE 1800-2012. DPI applications which need to continue complying with IEEE 1800-2005 will need to compile with the macro DPI_COMPATIBILITY_VERSION_1800v2005 starting in 16.1. The difference in the two header files is in the declaration of the struct t_vpi_vecval."
+
+make[2]: Entering directory `/NOBACKUP/atcpcw10/jasonli/sc/uvmc-2.3.3/examples/connections'
+building library run.so
+make[2]: Leaving directory `/NOBACKUP/atcpcw10/jasonli/sc/uvmc-2.3.3/examples/connections'
+
+		Caching library 'worklib' ....... Done
+Connecting an SC-side proxy port for 'cons.in' with lookup string 'foo' for later connection with SV
+	Elaborating the design hierarchy:
+	Top level design units:
+		uvm_pkg
+		uvmc_pkg
+		$unit_0x02dffe66
+		sc_main
+		sv_main
+ncelab: *W,DSEMEL: This SystemVerilog design will be simulated as per IEEE 1800-2009 SystemVerilog simulation semantics. Use -disable_sem2009 option for turning off SV 2009 simulation semantics.
+            t = trans_preservation_map[ trans_chandle ];
+                                                    |
+ncelab: *W,BIGWIX (/NOBACKUP/atcpcw10/jasonli/sc/uvmc-2.3.3/src/connect/sv/uvmc_tlm2.sv,297|52): Memory index truncation.
+        trans_preservation_map[ trans_chandle ] = null;
+                                            |
+ncelab: *W,BIGWIX (/NOBACKUP/atcpcw10/jasonli/sc/uvmc-2.3.3/src/connect/sv/uvmc_tlm2.sv,328|44): Memory index truncation.
+        trans_preservation_map[ trans_chandle ] = t;
+                                            |
+ncelab: *W,BIGWIX (/NOBACKUP/atcpcw10/jasonli/sc/uvmc-2.3.3/src/connect/sv/uvmc_tlm2.sv,403|44): Memory index truncation.
+        trans_preservation_map[ trans_chandle ] = null;
+                                            |
+ncelab: *W,BIGWIX (/NOBACKUP/atcpcw10/jasonli/sc/uvmc-2.3.3/src/connect/sv/uvmc_tlm2.sv,413|44): Memory index truncation.
+	Building instance overlay tables: .................... Done
+	Generating native compiled code:
+		worklib.\$unit_0x02dffe66 :compilation_unit <0x4c62feb7>
+			streams:   0, words:     0
+		worklib.sv_main:sv <0x479bf97d>
+			streams:   2, words:  2025
+		worklib.uvm_pkg:sv <0x05e53ec9>
+			streams:  29, words: 27708
+		worklib.uvm_pkg:sv <0x065cf380>
+			streams:  27, words: 40864
+		worklib.uvm_pkg:sv <0x09dc32bf>
+			streams:  28, words: 32267
+		worklib.uvm_pkg:sv <0x0e10b916>
+			streams:   7, words:  1509
+		worklib.uvm_pkg:sv <0x13779127>
+			streams:  22, words: 60452
+		worklib.uvm_pkg:sv <0x149a315e>
+			streams:   8, words:  7556
+		worklib.uvm_pkg:sv <0x18d06127>
+			streams:  23, words: 28161
+		worklib.uvm_pkg:sv <0x18eb1a8c>
+			streams:  25, words: 58277
+		worklib.uvm_pkg:sv <0x235474a3>
+			streams:  25, words: 60566
+		worklib.uvm_pkg:sv <0x24173b23>
+			streams:  26, words: 35493
+		worklib.uvm_pkg:sv <0x2814f1f3>
+			streams:  18, words: 16272
+		worklib.uvm_pkg:sv <0x29bb2757>
+			streams:  25, words: 57406
+		worklib.uvm_pkg:sv <0x343491c9>
+			streams:  25, words: 63959
+		worklib.uvm_pkg:sv <0x37227f49>
+			streams:  85, words: 124939
+		worklib.uvm_pkg:sv <0x38a48cb1>
+			streams:   7, words:  2697
+		worklib.uvm_pkg:sv <0x4631b9b5>
+			streams:  27, words: 29982
+		worklib.uvm_pkg:sv <0x46c0b673>
+			streams:  27, words: 42828
+		worklib.uvm_pkg:sv <0x4a46e2f8>
+			streams:  25, words: 61084
+		worklib.uvm_pkg:sv <0x4bdd27e6>
+			streams:   7, words:  7065
+		worklib.uvm_pkg:sv <0x4d98ccc2>
+			streams:  26, words: 39491
+		worklib.uvm_pkg:sv <0x4eeae8c6>
+			streams:  26, words: 52859
+		worklib.uvm_pkg:sv <0x5261d855>
+			streams:   7, words:  1965
+		worklib.uvm_pkg:sv <0x541f9541>
+			streams:  27, words: 37946
+		worklib.uvm_pkg:sv <0x554cd087>
+			streams: 100, words: 153410
+		worklib.uvm_pkg:sv <0x562d46b7>
+			streams:  44, words: 39406
+		worklib.uvm_pkg:sv <0x56a13347>
+			streams:   7, words:  2697
+		worklib.uvm_pkg:sv <0x588bf501>
+			streams:  72, words: 140022
+		worklib.uvm_pkg:sv <0x5dd3e915>
+			streams: 134, words: 259879
+		worklib.uvm_pkg:sv <0x5eac5b82>
+			streams:  16, words: 24340
+		worklib.uvm_pkg:sv <0x6db5f707>
+			streams:  27, words: 48640
+		worklib.uvm_pkg:sv <0x6dc78637>
+			streams:   8, words:  7928
+		worklib.uvm_pkg:sv <0x6ff3c2eb>
+			streams:  29, words: 104478
+		worklib.uvm_pkg:sv <0x72b28761>
+			streams: 5576, words: 10520769
+		worklib.uvm_pkg:sv <0x73568869>
+			streams:  25, words: 55773
+		worklib.uvm_pkg:sv <0x7bf7a6c1>
+			streams:  17, words: 17563
+		worklib.uvm_pkg:sv <0x7c600a23>
+			streams:   7, words:  1509
+		worklib.uvm_pkg:sv <0x7cd2e6f1>
+			streams:  27, words: 39866
+		worklib.uvm_pkg:sv <0x7d9aad07>
+			streams:   7, words:  2697
+		worklib.uvmc_pkg:sv <0x03109da8>
+			streams:  10, words: 10973
+		worklib.uvmc_pkg:sv <0x0478d10d>
+			streams:  13, words: 29321
+		worklib.uvmc_pkg:sv <0x1f4edbbc>
+			streams: 107, words: 232050
+		worklib.uvmc_pkg:sv <0x24c57230>
+			streams:  13, words: 65103
+		worklib.uvmc_pkg:sv <0x79b81c52>
+			streams:   7, words:  2788
+	Building instance specific data structures.
+	Loading native compiled code:     .................... Done
+	Design hierarchy summary:
+		                       Instances  Unique
+		Modules:                       1       1
+		Verilog packages:              2       2
+		Registers:                 15746   11727
+		Named events:                  2      12
+		Initial blocks:              287     149
+		Parallel blocks:              28      30
+		Assertions:                    6       6
+		Compilation units:             1       1
+		SV Class declarations:       246     349
+		SV Class specializations:    425     425
+		Simulation timescale:        1ps
+
+	SystemC Design Summary:
+		                 Instances
+		sc_modules:              3
+		sc_events:               3
+		tlm2_initiator_sockets:  1
+		tlm2_target_sockets:     1
+		sc other objects:        1
+	Writing initial simulation snapshot: worklib.sv_main:sv
+Loading snapshot worklib.sv_main:sv .................... Done
+SVSEED default: 1
+Connecting an SC-side proxy port for 'cons.in' with lookup string 'foo' for later connection with SV
+ncsim: *W,DSEM2009: This SystemVerilog design is simulated as per IEEE 1800-2009 SystemVerilog simulation semantics. Use -disable_sem2009 option for turning off SV 2009 simulation semantics.
+ncsim> source /home/project/eda/pkgs/cadence/ius/v15.20/tools/inca/files/ncsimrc
+ncsim> source /home/project/eda/pkgs/cadence/ius/default/tools/methodology/UVM/CDNS-1.2/sv/files/tcl/uvm_sim.tcl
+ncsim> run
+UVM_INFO /home/project/eda/pkgs/cadence/ius/default/tools/methodology/UVM/CDNS-1.2/sv/src/base/uvm_root.svh(412) @ 0: reporter [UVM/RELNOTES] 
+----------------------------------------------------------------
+CDNS-UVM-1.2undefined (15.20-s058)
+(C) 2007-2014 Mentor Graphics Corporation
+(C) 2007-2014 Cadence Design Systems, Inc.
+(C) 2006-2014 Synopsys, Inc.
+(C) 2011-2013 Cypress Semiconductor Corp.
+(C) 2013-2014 NVIDIA Corporation
+----------------------------------------------------------------
+
+  ***********       IMPORTANT RELEASE NOTES         ************
+
+  You are using a version of the UVM library that has been compiled
+  with `UVM_NO_DEPRECATED undefined.
+  See http://www.eda.org/svdb/view.php?id=3313 for more details.
+
+  You are using a version of the UVM library that has been compiled
+  with `UVM_OBJECT_DO_NOT_NEED_CONSTRUCTOR undefined.
+  See http://www.eda.org/svdb/view.php?id=3770 for more details.
+
+      (Specify +UVM_NO_RELNOTES to turn off this notice)
+
+----------------------------------------------------------------
+UVMC-2.3
+(C) 2009-2014 Mentor Graphics Corporation
+----------------------------------------------------------------
+Registering SV-side 'prod.out' and lookup string 'foo' for later connection with SC
+UVM_INFO @ 0: reporter [RNTST] Running test ...
+Connected SC-side 'cons.in' to SV-side 'prod.out'
+UVM_INFO /home/project/eda/pkgs/cadence/ius/default/tools/methodology/UVM/CDNS-1.2/sv/src/base/uvm_traversal.svh(279) @ 0: reporter [UVM/COMP/NAMECHECK] This implementation of the component name checks requires DPI to be enabled
+UVM_INFO ./common/producer.sv(92) @ 0: prod [PRODUCER/PKT/SEND] 
+----------------------------------------------------------------------------------
+Name               Type                       Size  Value                         
+----------------------------------------------------------------------------------
+<unnamed>          uvm_tlm_generic_payload    -     @1124                         
+  address          integral                   64    'h55a14ce8d89cb512            
+  command          uvm_tlm_command_e          32    UVM_TLM_WRITE_COMMAND         
+  response_status  uvm_tlm_response_status_e  32    UVM_TLM_COMMAND_ERROR_RESPONSE
+  streaming_width  integral                   32    'h7a06d21b                    
+  data             darray(byte)               8     -                             
+    [0]            byte                       8     'h10                          
+    [1]            byte                       8     'h7a                          
+    [2]            byte                       8     'h3f                          
+    [3]            byte                       8     'ha8                          
+    [4]            byte                       8     'h59                          
+    [5]            byte                       8     'h0a                          
+    [6]            byte                       8     'hd5                          
+    [7]            byte                       8     'h8f                          
+  extensions       aa(obj,obj)                0     -                             
+----------------------------------------------------------------------------------
+
+0 s [CONSUMER/GP/RECV] cmd:1 addr:55a14ce8d89cb512 data:{ 10 7a 3f a8 59 a d5 8f }
+UVM_INFO ./common/producer.sv(92) @ 10000: prod [PRODUCER/PKT/SEND] 
+----------------------------------------------------------------------------------
+Name               Type                       Size  Value                         
+----------------------------------------------------------------------------------
+<unnamed>          uvm_tlm_generic_payload    -     @1124                         
+  address          integral                   64    'ha303d79a76642147            
+  command          uvm_tlm_command_e          32    UVM_TLM_IGNORE_COMMAND        
+  response_status  uvm_tlm_response_status_e  32    UVM_TLM_GENERIC_ERROR_RESPONSE
+  streaming_width  integral                   32    'h8fb4d335                    
+  data             darray(byte)               5     -                             
+    [0]            byte                       8     'h6b                          
+    [1]            byte                       8     'h7e                          
+    [2]            byte                       8     'h8f                          
+    [3]            byte                       8     'h8e                          
+    [4]            byte                       8     'h39                          
+  extensions       aa(obj,obj)                0     -                             
+----------------------------------------------------------------------------------
+
+10 ns [CONSUMER/GP/RECV] cmd:2 addr:a303d79a76642147 data:{ 6b 7e 8f 8e 39 }
+UVM_INFO ./common/producer.sv(99) @ 20000: prod [PRODUCER/END_TEST] Dropping objection to ending the test
+UVM_INFO /home/project/eda/pkgs/cadence/ius/default/tools/methodology/UVM/CDNS-1.2/sv/src/base/uvm_objection.svh(1271) @ 20000: reporter [TEST_DONE] 'run' phase is ready to proceed to the 'extract' phase
+UVM_INFO /home/project/eda/pkgs/cadence/ius/default/tools/methodology/UVM/CDNS-1.2/sv/src/base/uvm_report_catcher.svh(705) @ 20000: reporter [UVM/REPORT/CATCHER] 
+--- UVM Report catcher Summary ---
+
+
+Number of demoted UVM_FATAL reports  :    0
+Number of demoted UVM_ERROR reports  :    0
+Number of demoted UVM_WARNING reports:    0
+Number of caught UVM_FATAL reports   :    0
+Number of caught UVM_ERROR reports   :    0
+Number of caught UVM_WARNING reports :    0
+
+UVM_INFO /home/project/eda/pkgs/cadence/ius/default/tools/methodology/UVM/CDNS-1.2/sv/src/base/uvm_report_server.svh(847) @ 20000: reporter [UVM/REPORT/SERVER] 
+--- UVM Report Summary ---
+
+** Report counts by severity
+UVM_INFO :    8
+UVM_WARNING :    0
+UVM_ERROR :    0
+UVM_FATAL :    0
+** Report counts by id
+[PRODUCER/END_TEST]     1
+[PRODUCER/PKT/SEND]     2
+[RNTST]     1
+[TEST_DONE]     1
+[UVM/COMP/NAMECHECK]     1
+[UVM/RELNOTES]     1
+[UVM/REPORT/CATCHER]     1
+
+Simulation complete via $finish(1) at time 20100 PS + 58
+/home/project/eda/pkgs/cadence/ius/default/tools/methodology/UVM/CDNS-1.2/sv/src/base/uvm_root.svh:543     $finish;
+ncsim> exit

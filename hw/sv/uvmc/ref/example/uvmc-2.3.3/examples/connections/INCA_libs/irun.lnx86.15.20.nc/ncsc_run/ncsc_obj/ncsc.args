@@ -1,0 +1,4 @@
+-nocopyright
+-cdslib /NOBACKUP/atcpcw10/jasonli/sc/uvmc-2.3.3/examples/connections/./INCA_libs/irun.lnx86.15.20.nc/cdsrun.lib
+-hdlvar /NOBACKUP/atcpcw10/jasonli/sc/uvmc-2.3.3/examples/connections/./INCA_libs/irun.lnx86.15.20.nc/hdlrun.var
+-work worklib

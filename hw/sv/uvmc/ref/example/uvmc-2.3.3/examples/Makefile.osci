@@ -1,0 +1,4 @@
+DIRS = osci_tests
+
+all compile build sim check clean:
+	$(MAKE) MAKEFILE=Makefile.osci DIRS="$(DIRS)" $@

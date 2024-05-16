@@ -1,0 +1,23 @@
+//
+// File created by:  xrun
+// Do not modify this file
+//
+-Wcxx
+-fPIC
+-debug
+-sysc
+-D
+SC_INCLUDE_DYNAMIC_PROCESSES
+-D
+INCA
+-I
+/home/project/eda/pkgs/cadence/ius/default/tools/systemc/include/tlm2/tlm_utils
+-I
+/NOBACKUP/atcpcw10/jasonli/sc/uvmc-2.3.3/src/connect/sc
+-I
+.
+-sysc
+-I
+/NOBACKUP/atcpcw10/jasonli/sc/uvmc-2.3.3/src/connect/sc
+-I
+./common

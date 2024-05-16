@@ -1,0 +1,4 @@
+[Apple iPhone 15 Plus Battery test - DXOMARK](https://www.dxomark.com/apple-iphone-15-plus-battery-test/)
+[Samsung Galaxy S24 Plus (Snapdragon): specs, benchmarks, and user reviews (nanoreview.net)](https://nanoreview.net/en/phone/samsung-galaxy-s24-plus) （more correct）
+[Samsung Galaxy S24+ battery life test - GSMArena.com news](https://www.gsmarena.com/samsung_galaxy_s24_battery_life_test-news-61385.php#bat2=12824,12771,12558)
+[Best selling smartphone - Counterpoint (counterpointresearch.com)](https://www.counterpointresearch.com/insights/global-smartphone-sales-top10-best-sellers/?utm_source=newsletter&utm_medium=email&utm_campaign=newsletter12Oct2023&utm_source=Counterpoint+Research+Newsletter&utm_campaign=434e8a8a9d-EMAIL_CAMPAIGN_2020_08_06_11_19_COPY_02&utm_medium=email&utm_term=0_0c8d75a0f8-434e8a8a9d-88263331)

@@ -1,0 +1,33 @@
+//
+// File created by:  irun
+// Do not modify this file
+//
+-RUNMODE
+-uvmnocdnsextra
+-DEFINE
+INCA
+-INCDIR
+/NOBACKUP/atcpcw10/jasonli/sc/uvmc-2.3.3/src/connect/sv
+-DEFINE
+UVM_NO_DPI
+-DEFINE
+UVM_FIX_REV=undefined
+-INCDIR
+./common
+-DEFINE
+NCSC
+-I_INCDIR
+/home/project/eda/pkgs/cadence/ius/default/tools/methodology/UVM/CDNS-1.2/sv/src
+-DEFINE
+USE_PARAMETERIZED_WRAPPER
+-UPDATE
+-CDSLIB
+./INCA_libs/irun.lnx86.15.20.nc/cdsrun.lib
+-HDLVAR
+./INCA_libs/irun.lnx86.15.20.nc/hdlrun.var
+-work
+worklib
+-UVMNOSINGLESTEP
+-define
+UVM_PLI
+/home/project/eda/pkgs/cadence/ius/default/tools/methodology/UVM/CDNS-1.2/sv/src/uvm_pkg.sv

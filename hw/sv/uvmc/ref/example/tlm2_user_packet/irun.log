@@ -1,0 +1,644 @@
+irun: 15.20-s058: (c) Copyright 1995-2018 Cadence Design Systems, Inc.
+TOOL:	irun	15.20-s058: Started on May 09, 2024 at 03:01:08 CST
+/home/project/eda/pkgs/cadence/ius/v15.20/tools.lnx86/bin/irun
+	-licqueue
+	-Wcxx -fPIC
+	-dpi
+	-g
+	-sysc
+	-scsynceverydelta on
+	-uvmnocndsextra
+	-tlm2
+	-access rw
+	-DSC_INCLUDE_DYNAMIC_PROCESSES
+	-DINCA
+	-define INCA
+	-uvmhome /home/project/eda/pkgs/cadence/ius/default/tools/methodology/UVM/CDNS-1.2/sv
+	-incdir /NOBACKUP/atcpcw10/jasonli/sc/uvmc-2.3.3/src/connect/sv
+	/NOBACKUP/atcpcw10/jasonli/sc/uvmc-2.3.3/src/connect/sv/uvmc_pkg.sv
+	-I/home/project/eda/pkgs/cadence/ius/default/tools/systemc/include/tlm2/tlm_utils
+	-I/NOBACKUP/atcpcw10/jasonli/sc/uvmc-2.3.3/src/connect/sc /NOBACKUP/atcpcw10/jasonli/sc/uvmc-2.3.3/src/connect/sc/uvmc.cpp
+	-I.
+	+define+UVM_NO_DPI
+	+define+UVM_FIX_REV=undefined
+	-sc_main
+	-I/NOBACKUP/atcpcw10/jasonli/sc/uvmc-2.3.3/src/connect/sc
+	-I./common sc2systemv.cpp
+	-incdir ./common
+	sc2systemv.sv
+irun: *W,UVMDPI: UVM dpi code will not be loaded because of define UVM_NO_DPI.
+Compiling UVM package (uvm_pkg.sv) using uvmhome location /home/project/eda/pkgs/cadence/ius/default/tools/methodology/UVM/CDNS-1.2/sv
+ncvlog: *W,NOTIND: unable to access -INCDIR ./common (No such file or directory).
+ncvlog: *W,NOTIND: unable to access -INCDIR ./common (No such file or directory).
+file: /NOBACKUP/atcpcw10/jasonli/sc/uvmc-2.3.3/src/connect/sv/uvmc_pkg.sv
+            t = trans_preservation_map[ trans_chandle ];
+                                                    |
+ncvlog: *W,BIGWBS (/NOBACKUP/atcpcw10/jasonli/sc/uvmc-2.3.3/src/connect/sv/uvmc_tlm2.sv,297|52): Bit-select index truncation.
+        trans_preservation_map[ trans_chandle ] = null;
+                                            |
+ncvlog: *W,BIGWBS (/NOBACKUP/atcpcw10/jasonli/sc/uvmc-2.3.3/src/connect/sv/uvmc_tlm2.sv,328|44): Bit-select index truncation.
+        trans_preservation_map[ trans_chandle ] = t;
+                                            |
+ncvlog: *W,BIGWBS (/NOBACKUP/atcpcw10/jasonli/sc/uvmc-2.3.3/src/connect/sv/uvmc_tlm2.sv,403|44): Bit-select index truncation.
+        trans_preservation_map[ trans_chandle ] = null;
+                                            |
+ncvlog: *W,BIGWBS (/NOBACKUP/atcpcw10/jasonli/sc/uvmc-2.3.3/src/connect/sv/uvmc_tlm2.sv,413|44): Bit-select index truncation.
+	package worklib.uvmc_pkg:sv
+		errors: 0, warnings: 4
+file: sc2systemv.sv
+	package worklib.user_pkg:sv
+		errors: 0, warnings: 0
+	module worklib.sv_main:sv
+		errors: 0, warnings: 0
+	Total errors/warnings found outside modules and primitives:
+		errors: 0, warnings: 1
+ncsc_run: *N,TBDEP: Test will be regenerated due to changes in the
+          command line.
+ncsc_run: *N,TBDEP: Test will be regenerated due to changes in
+          command line ld_test options
+$CDSROOT = /home/project/eda/pkgs/cadence/ius/v15.20
+$TESTDIR = /NOBACKUP/atcpcw10/jasonli/sc/tlm2_user_packet
+
+TOOL:	ncsc	15.20-s058
+ncsc C++ parameters: 
+	ncsc -COMPILER $CDSROOT/tools/cdsgcc/gcc/4.8/bin/g++ 
+	-f ./INCA_libs/irun.lnx86.15.20.nc/ncsc_run/ncsc_obj/ncsc.args
+	-MANUAL 
+	-CFLAGS "-DNCSC
+		-I$CDSROOT/tools/systemc/include_pch
+		-I$CDSROOT/tools/tbsc/include
+		-I$CDSROOT/tools/vic/include
+		-I$CDSROOT/tools/methodology/OVM/CDNS-2.1.2/sc/src
+		-I/home/project/eda/pkgs/cadence/ius/default/tools/methodology/UVM/CDNS-1.2/sv/sc/sc
+		-I/home/project/eda/pkgs/cadence/ius/default/tools/methodology/UVM/CDNS-1.2/sv/ml/sc
+		-I$CDSROOT/tools/systemc/include/cci
+		-I$CDSROOT/tools/systemc/include/factory
+		-I$CDSROOT/tools/systemc/include/tlm2
+		-c
+		-x c++ -m32  -Wall 
+		-O0 -g
+		-fPIC
+		-I/home/project/eda/pkgs/cadence/ius/default/tools/systemc/include/tlm2/tlm_utils
+		-I/NOBACKUP/atcpcw10/jasonli/sc/uvmc-2.3.3/src/connect/sc
+		-I$TESTDIR/.
+		-I/NOBACKUP/atcpcw10/jasonli/sc/uvmc-2.3.3/src/connect/sc
+		-I$TESTDIR/common
+		-DSC_INCLUDE_DYNAMIC_PROCESSES
+		-DINCA
+		-I$CDSROOT/tools/include
+		-I$CDSROOT/tools/inca/include
+		-fPIC
+		-I$CDSROOT/tools/include"
+
+make[2]: Entering directory `/NOBACKUP/atcpcw10/jasonli/sc/tlm2_user_packet'
+ncsc: compiling $/NOBACKUP/atcpcw10/jasonli/sc/uvmc-2.3.3/src/connect/sc/uvmc.cpp
+make[2]: Leaving directory `/NOBACKUP/atcpcw10/jasonli/sc/tlm2_user_packet'
+$CDSROOT/tools/include/svdpi_compatibility.h:48:2: warning: #warning "INCISIV is currently compliant with DPI header file svdpi.h as per IEEE 1800-2005. Starting IUS16.10, the default header file will be as per IEEE 1800-2012. DPI applications which need to continue complying with IEEE 1800-2005 will need to compile with the macro DPI_COMPATIBILITY_VERSION_1800v2005 starting in 16.1. The difference in the two header files is in the declaration of the struct t_vpi_vecval." [-Wcpp]
+ #warning "INCISIV is currently compliant with DPI header file svdpi.h as per IEEE 1800-2005. Starting IUS16.10, the default header file will be as per IEEE 1800-2012. DPI applications which need to continue complying with IEEE 1800-2005 will need to compile with the macro DPI_COMPATIBILITY_VERSION_1800v2005 starting in 16.1. The difference in the two header files is in the declaration of the struct t_vpi_vecval."
+
+make[2]: Entering directory `/NOBACKUP/atcpcw10/jasonli/sc/tlm2_user_packet'
+ncsc: compiling $TESTDIR/sc2systemv.cpp
+make[2]: Leaving directory `/NOBACKUP/atcpcw10/jasonli/sc/tlm2_user_packet'
+$CDSROOT/tools/include/svdpi_compatibility.h:48:2: warning: #warning "INCISIV is currently compliant with DPI header file svdpi.h as per IEEE 1800-2005. Starting IUS16.10, the default header file will be as per IEEE 1800-2012. DPI applications which need to continue complying with IEEE 1800-2005 will need to compile with the macro DPI_COMPATIBILITY_VERSION_1800v2005 starting in 16.1. The difference in the two header files is in the declaration of the struct t_vpi_vecval." [-Wcpp]
+ #warning "INCISIV is currently compliant with DPI header file svdpi.h as per IEEE 1800-2005. Starting IUS16.10, the default header file will be as per IEEE 1800-2012. DPI applications which need to continue complying with IEEE 1800-2005 will need to compile with the macro DPI_COMPATIBILITY_VERSION_1800v2005 starting in 16.1. The difference in the two header files is in the declaration of the struct t_vpi_vecval."
+
+make[2]: Entering directory `/NOBACKUP/atcpcw10/jasonli/sc/tlm2_user_packet'
+building library run.so
+make[2]: Leaving directory `/NOBACKUP/atcpcw10/jasonli/sc/tlm2_user_packet'
+
+		Caching library 'worklib' ....... Done
+Connecting an SC-side proxy port for 'env.sv2sc.texp' with lookup string 'sv2sc_connect' for later connection with SV
+Connecting an SC-side proxy chan for 'env.sv2sc.tp' with lookup string 'sc2sv_connect' for later connection with SV
+	Elaborating the design hierarchy:
+	Top level design units:
+		uvm_pkg
+		uvmc_pkg
+		user_pkg
+		sc_main
+		sv_main
+ncelab: *W,DSEMEL: This SystemVerilog design will be simulated as per IEEE 1800-2009 SystemVerilog simulation semantics. Use -disable_sem2009 option for turning off SV 2009 simulation semantics.
+            t = trans_preservation_map[ trans_chandle ];
+                                                    |
+ncelab: *W,BIGWIX (../uvmc-2.3.3/src/connect/sv/uvmc_tlm2.sv,297|52): Memory index truncation.
+        trans_preservation_map[ trans_chandle ] = null;
+                                            |
+ncelab: *W,BIGWIX (../uvmc-2.3.3/src/connect/sv/uvmc_tlm2.sv,328|44): Memory index truncation.
+        trans_preservation_map[ trans_chandle ] = t;
+                                            |
+ncelab: *W,BIGWIX (../uvmc-2.3.3/src/connect/sv/uvmc_tlm2.sv,403|44): Memory index truncation.
+        trans_preservation_map[ trans_chandle ] = null;
+                                            |
+ncelab: *W,BIGWIX (../uvmc-2.3.3/src/connect/sv/uvmc_tlm2.sv,413|44): Memory index truncation.
+	Building instance overlay tables: .................... Done
+	Generating native compiled code:
+		worklib.sv_main:sv <0x15619206>
+			streams: 457, words: 674031
+		worklib.user_pkg:sv <0x48946805>
+			streams:   0, words:     0
+		worklib.uvm_pkg:sv <0x090997d4>
+			streams:  27, words: 42828
+		worklib.uvm_pkg:sv <0x09748184>
+			streams:  29, words: 104242
+		worklib.uvm_pkg:sv <0x0b618cb1>
+			streams:  22, words: 60452
+		worklib.uvm_pkg:sv <0x0c8a2e99>
+			streams:  72, words: 140022
+		worklib.uvm_pkg:sv <0x0ee8f52c>
+			streams:  27, words: 29982
+		worklib.uvm_pkg:sv <0x0fd4c891>
+			streams:   7, words:  1509
+		worklib.uvm_pkg:sv <0x0fea23a8>
+			streams:  27, words: 39866
+		worklib.uvm_pkg:sv <0x151b3862>
+			streams:  25, words: 61084
+		worklib.uvm_pkg:sv <0x18c83284>
+			streams:   7, words:  2697
+		worklib.uvm_pkg:sv <0x31f844b2>
+			streams:  26, words: 39491
+		worklib.uvm_pkg:sv <0x3308b117>
+			streams:   7, words:  1965
+		worklib.uvm_pkg:sv <0x3419838a>
+			streams:  26, words: 52859
+		worklib.uvm_pkg:sv <0x3555450e>
+			streams:  25, words: 58277
+		worklib.uvm_pkg:sv <0x36ef7e5d>
+			streams:  44, words: 39406
+		worklib.uvm_pkg:sv <0x3afd5e27>
+			streams:  29, words: 27708
+		worklib.uvm_pkg:sv <0x3c2fe3c0>
+			streams:  33, words: 105602
+		worklib.uvm_pkg:sv <0x3d018b4a>
+			streams:   7, words:  7065
+		worklib.uvm_pkg:sv <0x3e2fd129>
+			streams:  27, words: 37946
+		worklib.uvm_pkg:sv <0x3ecbb009>
+			streams:   7, words:  2697
+		worklib.uvm_pkg:sv <0x468f05ed>
+			streams:   7, words:  2697
+		worklib.uvm_pkg:sv <0x47a558b8>
+			streams:  27, words: 48640
+		worklib.uvm_pkg:sv <0x49e926b2>
+			streams:  16, words: 24340
+		worklib.uvm_pkg:sv <0x4dd4d733>
+			streams:  25, words: 57406
+		worklib.uvm_pkg:sv <0x54a434d1>
+			streams:  28, words: 32267
+		worklib.uvm_pkg:sv <0x56fbdf57>
+			streams: 5576, words: 10520769
+		worklib.uvm_pkg:sv <0x5d1297a8>
+			streams:   7, words:  1509
+		worklib.uvm_pkg:sv <0x62366611>
+			streams:  17, words: 17563
+		worklib.uvm_pkg:sv <0x63eab2cd>
+			streams:  25, words: 55773
+		worklib.uvm_pkg:sv <0x665a5c21>
+			streams:   8, words:  7556
+		worklib.uvm_pkg:sv <0x6dea3fdd>
+			streams:  25, words: 60566
+		worklib.uvm_pkg:sv <0x709e4477>
+			streams:  18, words: 16272
+		worklib.uvm_pkg:sv <0x71f0ac6e>
+			streams:  26, words: 35493
+		worklib.uvm_pkg:sv <0x74ebaf92>
+			streams:  23, words: 28161
+		worklib.uvm_pkg:sv <0x7665b8e6>
+			streams:   8, words:  7928
+		worklib.uvm_pkg:sv <0x7859ff2c>
+			streams:  25, words: 63959
+		worklib.uvm_pkg:sv <0x7ff5eb4d>
+			streams:  27, words: 40864
+		worklib.uvmc_pkg:sv <0x0e99bc8a>
+			streams:  13, words: 29321
+		worklib.uvmc_pkg:sv <0x0f6719e8>
+			streams:   7, words:  2788
+		worklib.uvmc_pkg:sv <0x50208f6f>
+			streams:  13, words: 65103
+		worklib.uvmc_pkg:sv <0x7d53daa1>
+			streams:  10, words: 10973
+		worklib.uvmc_pkg:sv <0x7e46504f>
+			streams: 107, words: 232050
+	Building instance specific data structures.
+	Loading native compiled code:     .................... Done
+	Design hierarchy summary:
+		                       Instances  Unique
+		Modules:                       1       1
+		Verilog packages:              3       3
+		Registers:                 16028   11796
+		Named events:                  2      12
+		Initial blocks:              296     150
+		Parallel blocks:              29      31
+		Assertions:                    6       6
+		SV Class declarations:       250     352
+		SV Class specializations:    439     439
+		Simulation timescale:        1ps
+
+	SystemC Design Summary:
+		                  Instances
+		sc_modules:               4
+		sc_ports:                 2
+		sc_exports:               1
+		sc_semaphores:            1
+		sc_events:                5
+		sc other objects:         1
+	Writing initial simulation snapshot: worklib.sv_main:sv
+Queuing for one of the following license(s) -
+Got license - Xcelium_Single_Core (16.00)
+Loading snapshot worklib.sv_main:sv .................... Done
+SVSEED default: 1
+Connecting an SC-side proxy port for 'env.sv2sc.texp' with lookup string 'sv2sc_connect' for later connection with SV
+Connecting an SC-side proxy chan for 'env.sv2sc.tp' with lookup string 'sc2sv_connect' for later connection with SV
+ncsim: *W,DSEM2009: This SystemVerilog design is simulated as per IEEE 1800-2009 SystemVerilog simulation semantics. Use -disable_sem2009 option for turning off SV 2009 simulation semantics.
+ncsim> source /home/project/eda/pkgs/cadence/ius/v15.20/tools/inca/files/ncsimrc
+ncsim> source /home/project/eda/pkgs/cadence/ius/default/tools/methodology/UVM/CDNS-1.2/sv/files/tcl/uvm_sim.tcl
+ncsim> run
+UVM_INFO /home/project/eda/pkgs/cadence/ius/default/tools/methodology/UVM/CDNS-1.2/sv/src/base/uvm_root.svh(412) @ 0: reporter [UVM/RELNOTES] 
+----------------------------------------------------------------
+CDNS-UVM-1.2undefined (15.20-s058)
+(C) 2007-2014 Mentor Graphics Corporation
+(C) 2007-2014 Cadence Design Systems, Inc.
+(C) 2006-2014 Synopsys, Inc.
+(C) 2011-2013 Cypress Semiconductor Corp.
+(C) 2013-2014 NVIDIA Corporation
+----------------------------------------------------------------
+
+  ***********       IMPORTANT RELEASE NOTES         ************
+
+  You are using a version of the UVM library that has been compiled
+  with `UVM_NO_DEPRECATED undefined.
+  See http://www.eda.org/svdb/view.php?id=3313 for more details.
+
+  You are using a version of the UVM library that has been compiled
+  with `UVM_OBJECT_DO_NOT_NEED_CONSTRUCTOR undefined.
+  See http://www.eda.org/svdb/view.php?id=3770 for more details.
+
+      (Specify +UVM_NO_RELNOTES to turn off this notice)
+
+UVM_INFO @ 0: reporter [RNTST] Running test ...
+----------------------------------------------------------------
+UVMC-2.3
+(C) 2009-2014 Mentor Graphics Corporation
+----------------------------------------------------------------
+Registering SV-side 'env.sv2sc.isocket' and lookup string 'sv2sc_connect' for later connection with SC
+Registering SV-side 'env.sv2sc.tsocket' and lookup string 'sc2sv_connect' for later connection with SC
+Connected SC-side 'env.sv2sc.tp' to SV-side 'env.sv2sc.tsocket'
+Connected SC-side 'env.sv2sc.texp' to SV-side 'env.sv2sc.isocket'
+UVM_INFO /home/project/eda/pkgs/cadence/ius/default/tools/methodology/UVM/CDNS-1.2/sv/src/base/uvm_traversal.svh(279) @ 0: reporter [UVM/COMP/NAMECHECK] This implementation of the component name checks requires DPI to be enabled
+0 s SC sv2systemc executing packet:
+  '{cmd:1 addr:614a4710 data:'{ae, 3d, 1f, 7d, 44, 3, 7b} }
+---------------------------------------
+Name     Type          Size  Value     
+---------------------------------------
+packet   packet        -     @2998     
+  cmd    cmd_t         32    READ      
+  addr   integral      32    'h614a4710
+  data   da(integral)  7     -         
+    [0]  integral      8     'hae      
+    [1]  integral      8     'h3d      
+    [2]  integral      8     'h1f      
+    [3]  integral      8     'h7d      
+    [4]  integral      8     'h44      
+    [5]  integral      8     'h3       
+    [6]  integral      8     'h7b      
+---------------------------------------
+1 ns SC sv2systemc executing packet:
+  '{cmd:1 addr:e7e5dc4c data:'{d6, 16, fd, 17, 1c, 1e} }
+---------------------------------------
+Name     Type          Size  Value     
+---------------------------------------
+packet   packet        -     @3065     
+  cmd    cmd_t         32    READ      
+  addr   integral      32    'he7e5dc4c
+  data   da(integral)  6     -         
+    [0]  integral      8     'hd6      
+    [1]  integral      8     'h16      
+    [2]  integral      8     'hfd      
+    [3]  integral      8     'h17      
+    [4]  integral      8     'h1c      
+    [5]  integral      8     'h1e      
+---------------------------------------
+2 ns SC sv2systemc executing packet:
+  '{cmd:2 addr:61c54628 data:'{37, 2c, 1c, 53, 25, 23, 50, 8f} }
+---------------------------------------
+Name     Type          Size  Value     
+---------------------------------------
+packet   packet        -     @3035     
+  cmd    cmd_t         32    NOOP      
+  addr   integral      32    'h61c54628
+  data   da(integral)  8     -         
+    [0]  integral      8     'h37      
+    [1]  integral      8     'h2c      
+    [2]  integral      8     'h1c      
+    [3]  integral      8     'h53      
+    [4]  integral      8     'h25      
+    [5]  integral      8     'h23      
+    [6]  integral      8     'h50      
+    [7]  integral      8     'h8f      
+---------------------------------------
+3 ns SC sv2systemc executing packet:
+  '{cmd:1 addr:31f4a6b1 data:'{2a, 97} }
+---------------------------------------
+Name     Type          Size  Value     
+---------------------------------------
+packet   packet        -     @3006     
+  cmd    cmd_t         32    READ      
+  addr   integral      32    'h31f4a6b1
+  data   da(integral)  2     -         
+    [0]  integral      8     'h2a      
+    [1]  integral      8     'h97      
+---------------------------------------
+4 ns SC sv2systemc executing packet:
+  '{cmd:2 addr:b63f1847 data:'{f8, db, f4, 8, 7b, 8a, b1, e1, cd, 18} }
+---------------------------------------
+Name     Type          Size  Value     
+---------------------------------------
+packet   packet        -     @3057     
+  cmd    cmd_t         32    NOOP      
+  addr   integral      32    'hb63f1847
+  data   da(integral)  10    -         
+    [0]  integral      8     'hf8      
+    [1]  integral      8     'hdb      
+    [2]  integral      8     'hf4      
+    [3]  integral      8     'h8       
+    [4]  integral      8     'h7b      
+    [5]  integral      8     'h8a      
+    [6]  integral      8     'hb1      
+    [7]  integral      8     'he1      
+    [8]  integral      8     'hcd      
+    [9]  integral      8     'h18      
+---------------------------------------
+5 ns SC sv2systemc executing packet:
+  '{cmd:0 addr:e01f03a4 data:'{f0, 13, 89, f8, 12, 5, fc, bf, c8} }
+---------------------------------------
+Name     Type          Size  Value     
+---------------------------------------
+packet   packet        -     @3067     
+  cmd    cmd_t         32    WRITE     
+  addr   integral      32    'he01f03a4
+  data   da(integral)  9     -         
+    [0]  integral      8     'hf0      
+    [1]  integral      8     'h13      
+    [2]  integral      8     'h89      
+    [3]  integral      8     'hf8      
+    [4]  integral      8     'h12      
+    [5]  integral      8     'h5       
+    [6]  integral      8     'hfc      
+    [7]  integral      8     'hbf      
+    [8]  integral      8     'hc8      
+---------------------------------------
+6 ns SC sv2systemc executing packet:
+  '{cmd:0 addr:f46e26f6 data:'{42, 36, 98, 7a, 43, 7b, e3} }
+---------------------------------------
+Name     Type          Size  Value     
+---------------------------------------
+packet   packet        -     @3037     
+  cmd    cmd_t         32    WRITE     
+  addr   integral      32    'hf46e26f6
+  data   da(integral)  7     -         
+    [0]  integral      8     'h42      
+    [1]  integral      8     'h36      
+    [2]  integral      8     'h98      
+    [3]  integral      8     'h7a      
+    [4]  integral      8     'h43      
+    [5]  integral      8     'h7b      
+    [6]  integral      8     'he3      
+---------------------------------------
+7 ns SC sv2systemc executing packet:
+  '{cmd:2 addr:384e5b89 data:'{79, 48, 54, f0} }
+---------------------------------------
+Name     Type          Size  Value     
+---------------------------------------
+packet   packet        -     @3034     
+  cmd    cmd_t         32    NOOP      
+  addr   integral      32    'h384e5b89
+  data   da(integral)  4     -         
+    [0]  integral      8     'h79      
+    [1]  integral      8     'h48      
+    [2]  integral      8     'h54      
+    [3]  integral      8     'hf0      
+---------------------------------------
+8 ns SC sv2systemc executing packet:
+  '{cmd:0 addr:6eda5555 data:'{c2, e8, 21, 65, a1, b0, 91} }
+---------------------------------------
+Name     Type          Size  Value     
+---------------------------------------
+packet   packet        -     @3008     
+  cmd    cmd_t         32    WRITE     
+  addr   integral      32    'h6eda5555
+  data   da(integral)  7     -         
+    [0]  integral      8     'hc2      
+    [1]  integral      8     'he8      
+    [2]  integral      8     'h21      
+    [3]  integral      8     'h65      
+    [4]  integral      8     'ha1      
+    [5]  integral      8     'hb0      
+    [6]  integral      8     'h91      
+---------------------------------------
+9 ns SC sv2systemc executing packet:
+  '{cmd:2 addr:a3e60c14 data:'{4d, 16, ed, e0, 43, c5, 28, f9} }
+---------------------------------------
+Name     Type          Size  Value     
+---------------------------------------
+packet   packet        -     @3070     
+  cmd    cmd_t         32    NOOP      
+  addr   integral      32    'ha3e60c14
+  data   da(integral)  8     -         
+    [0]  integral      8     'h4d      
+    [1]  integral      8     'h16      
+    [2]  integral      8     'hed      
+    [3]  integral      8     'he0      
+    [4]  integral      8     'h43      
+    [5]  integral      8     'hc5      
+    [6]  integral      8     'h28      
+    [7]  integral      8     'hf9      
+---------------------------------------
+10 ns SC sv2systemc executing packet:
+  '{cmd:2 addr:2d490341 data:'{d3, 65, 67, 65, 2, 6f, ae, 99, a3} }
+---------------------------------------
+Name     Type          Size  Value     
+---------------------------------------
+packet   packet        -     @3004     
+  cmd    cmd_t         32    NOOP      
+  addr   integral      32    'h2d490341
+  data   da(integral)  9     -         
+    [0]  integral      8     'hd3      
+    [1]  integral      8     'h65      
+    [2]  integral      8     'h67      
+    [3]  integral      8     'h65      
+    [4]  integral      8     'h2       
+    [5]  integral      8     'h6f      
+    [6]  integral      8     'hae      
+    [7]  integral      8     'h99      
+    [8]  integral      8     'ha3      
+---------------------------------------
+11 ns SC sv2systemc executing packet:
+  '{cmd:0 addr:3489a4d6 data:'{a7, c5, c9, aa, ba, 98, 87} }
+---------------------------------------
+Name     Type          Size  Value     
+---------------------------------------
+packet   packet        -     @3005     
+  cmd    cmd_t         32    WRITE     
+  addr   integral      32    'h3489a4d6
+  data   da(integral)  7     -         
+    [0]  integral      8     'ha7      
+    [1]  integral      8     'hc5      
+    [2]  integral      8     'hc9      
+    [3]  integral      8     'haa      
+    [4]  integral      8     'hba      
+    [5]  integral      8     'h98      
+    [6]  integral      8     'h87      
+---------------------------------------
+12 ns SC sv2systemc executing packet:
+  '{cmd:0 addr:dee18d4f data:'{1e, d, 38, f2, b2, ef, 56, 8f, 2e, ce} }
+---------------------------------------
+Name     Type          Size  Value     
+---------------------------------------
+packet   packet        -     @3049     
+  cmd    cmd_t         32    WRITE     
+  addr   integral      32    'hdee18d4f
+  data   da(integral)  10    -         
+    [0]  integral      8     'h1e      
+    [1]  integral      8     'hd       
+    [2]  integral      8     'h38      
+    [3]  integral      8     'hf2      
+    [4]  integral      8     'hb2      
+    [5]  integral      8     'hef      
+    [6]  integral      8     'h56      
+    [7]  integral      8     'h8f      
+    [8]  integral      8     'h2e      
+    [9]  integral      8     'hce      
+---------------------------------------
+13 ns SC sv2systemc executing packet:
+  '{cmd:2 addr:836cf523 data:'{7e, 42, e7, e5, 51, 75} }
+---------------------------------------
+Name     Type          Size  Value     
+---------------------------------------
+packet   packet        -     @3045     
+  cmd    cmd_t         32    NOOP      
+  addr   integral      32    'h836cf523
+  data   da(integral)  6     -         
+    [0]  integral      8     'h7e      
+    [1]  integral      8     'h42      
+    [2]  integral      8     'he7      
+    [3]  integral      8     'he5      
+    [4]  integral      8     'h51      
+    [5]  integral      8     'h75      
+---------------------------------------
+14 ns SC sv2systemc executing packet:
+  '{cmd:0 addr:769877dc data:'{81, 86} }
+---------------------------------------
+Name     Type          Size  Value     
+---------------------------------------
+packet   packet        -     @3023     
+  cmd    cmd_t         32    WRITE     
+  addr   integral      32    'h769877dc
+  data   da(integral)  2     -         
+    [0]  integral      8     'h81      
+    [1]  integral      8     'h86      
+---------------------------------------
+15 ns SC sv2systemc executing packet:
+  '{cmd:2 addr:34c577a3 data:'{85, f8, bc, 74, 93, 76} }
+---------------------------------------
+Name     Type          Size  Value     
+---------------------------------------
+packet   packet        -     @3044     
+  cmd    cmd_t         32    NOOP      
+  addr   integral      32    'h34c577a3
+  data   da(integral)  6     -         
+    [0]  integral      8     'h85      
+    [1]  integral      8     'hf8      
+    [2]  integral      8     'hbc      
+    [3]  integral      8     'h74      
+    [4]  integral      8     'h93      
+    [5]  integral      8     'h76      
+---------------------------------------
+16 ns SC sv2systemc executing packet:
+  '{cmd:2 addr:4f2e6484 data:'{47, dd, 1e, 98, 9b, 17, 31, 2b} }
+---------------------------------------
+Name     Type          Size  Value     
+---------------------------------------
+packet   packet        -     @3082     
+  cmd    cmd_t         32    NOOP      
+  addr   integral      32    'h4f2e6484
+  data   da(integral)  8     -         
+    [0]  integral      8     'h47      
+    [1]  integral      8     'hdd      
+    [2]  integral      8     'h1e      
+    [3]  integral      8     'h98      
+    [4]  integral      8     'h9b      
+    [5]  integral      8     'h17      
+    [6]  integral      8     'h31      
+    [7]  integral      8     'h2b      
+---------------------------------------
+17 ns SC sv2systemc executing packet:
+  '{cmd:2 addr:73e9f356 data:'{ca} }
+---------------------------------------
+Name     Type          Size  Value     
+---------------------------------------
+packet   packet        -     @3074     
+  cmd    cmd_t         32    NOOP      
+  addr   integral      32    'h73e9f356
+  data   da(integral)  1     -         
+    [0]  integral      8     'hca      
+---------------------------------------
+18 ns SC sv2systemc executing packet:
+  '{cmd:0 addr:ecaba986 data:'{5, d9, 10, 36, 94} }
+---------------------------------------
+Name     Type          Size  Value     
+---------------------------------------
+packet   packet        -     @3043     
+  cmd    cmd_t         32    WRITE     
+  addr   integral      32    'hecaba986
+  data   da(integral)  5     -         
+    [0]  integral      8     'h5       
+    [1]  integral      8     'hd9      
+    [2]  integral      8     'h10      
+    [3]  integral      8     'h36      
+    [4]  integral      8     'h94      
+---------------------------------------
+19 ns SC sv2systemc executing packet:
+  '{cmd:2 addr:9fc9a29a data:'{5e, dc, 3c, 24, bb, 7f} }
+---------------------------------------
+Name     Type          Size  Value     
+---------------------------------------
+packet   packet        -     @2969     
+  cmd    cmd_t         32    NOOP      
+  addr   integral      32    'h9fc9a29a
+  data   da(integral)  6     -         
+    [0]  integral      8     'h5e      
+    [1]  integral      8     'hdc      
+    [2]  integral      8     'h3c      
+    [3]  integral      8     'h24      
+    [4]  integral      8     'hbb      
+    [5]  integral      8     'h7f      
+---------------------------------------
+UVM_INFO /home/project/eda/pkgs/cadence/ius/default/tools/methodology/UVM/CDNS-1.2/sv/src/base/uvm_objection.svh(1271) @ 20000: reporter [TEST_DONE] 'run' phase is ready to proceed to the 'extract' phase
+UVM_INFO /home/project/eda/pkgs/cadence/ius/default/tools/methodology/UVM/CDNS-1.2/sv/src/base/uvm_report_catcher.svh(705) @ 20000: reporter [UVM/REPORT/CATCHER] 
+--- UVM Report catcher Summary ---
+
+
+Number of demoted UVM_FATAL reports  :    0
+Number of demoted UVM_ERROR reports  :    0
+Number of demoted UVM_WARNING reports:    0
+Number of caught UVM_FATAL reports   :    4
+Number of caught UVM_ERROR reports   :    0
+Number of caught UVM_WARNING reports :    0
+
+UVM_INFO /home/project/eda/pkgs/cadence/ius/default/tools/methodology/UVM/CDNS-1.2/sv/src/base/uvm_report_server.svh(847) @ 20000: reporter [UVM/REPORT/SERVER] 
+--- UVM Report Summary ---
+
+** Report counts by severity
+UVM_INFO :    5
+UVM_WARNING :    0
+UVM_ERROR :    0
+UVM_FATAL :    0
+** Report counts by id
+[RNTST]     1
+[TEST_DONE]     1
+[UVM/COMP/NAMECHECK]     1
+[UVM/RELNOTES]     1
+[UVM/REPORT/CATCHER]     1
+
+Simulation complete via $finish(1) at time 20 NS + 58
+/home/project/eda/pkgs/cadence/ius/default/tools/methodology/UVM/CDNS-1.2/sv/src/base/uvm_root.svh:543     $finish;
+ncsim> exit
+TOOL:	irun	15.20-s058: Exiting on May 09, 2024 at 03:01:24 CST  (total: 00:00:16)

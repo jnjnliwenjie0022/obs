@@ -1,0 +1,90 @@
+#
+#//-----------------------------------------------------------//
+#//   Copyright 2021 Siemens EDA                              //
+#//                                                           //
+#//   Licensed under the Apache License, Version 2.0 (the     //
+#//   "License"); you may not use this file except in         //
+#//   compliance with the License.  You may obtain a copy of  //
+#//   the License at                                          //
+#//                                                           //
+#//       http://www.apache.org/licenses/LICENSE-2.0          //
+#//                                                           //
+#//   Unless required by applicable law or agreed to in       //
+#//   writing, software distributed under the License is      //
+#//   distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR  //
+#//   CONDITIONS OF ANY KIND, either express or implied.      //
+#//   See the License for the specific language governing     //
+#//   permissions and limitations under the License.          //
+#//-----------------------------------------------------------//
+
+UVM_LIB  ?= $(UVMC_HOME)/lib/uvmc_lib
+UVMC_LIB ?= $(UVMC_HOME)/lib/uvmc_lib
+
+OPT_C ?=    # SystemVerilog compiler arguments
+OPT_SC ?=   # SystemC compiler arguments
+OPT_L ?=    # SystemC linker arguments
+OPT_R ?=    # Simulator (Run-time) arguments
+
+BITS ?= 64
+
+# We use this setting to decide between using pre-built UVMC libraries
+# (out of $QUESTA_HOME) with default gcc/g++ compiler or, rather to use our own
+# UVMC library with ambient gcc/g++ compiler. This allows for flexible
+# re-targetting to the use of supported compilers other than Questa's default.
+USE_AMBIENT_GCC ?= yes
+
+ifeq ($(USE_AMBIENT_GCC),no)
+    OPT_L += -uvmc
+endif
+
+LOG ?= questa
+
+VLOG  = vlog  -$(BITS) $(OPT_C)  -sv +incdir+$(UVM_HOME)/src -L $(UVM_LIB) -L $(UVMC_LIB) +define+QUESTA
+SCCOM = sccom -$(BITS) $(OPT_SC) -DSC_INCLUDE_DYNAMIC_PROCESSES -DQUESTA -I$(UVMC_HOME)/src/connect/sc
+LINK  = sccom -$(BITS) $(OPT_L)  -link -DSC_INCLUDE_DYNAMIC_PROCESSES $(UVMC_HOME)/lib/questa/$(UVMC_BUILD_PLATFORM)/uvmc.so $(UVMC_HOME)/lib/questa/$(UVMC_BUILD_PLATFORM)/uvmc_stubs.so -lib work
+#LINK  = sccom -$(BITS) $(OPT_L)  -link -DSC_INCLUDE_DYNAMIC_PROCESSES -lib $(UVMC_LIB) -lib work
+VSIM  = vsim  -$(BITS) $(OPT_R)  -c -do "run -all; quit -f" -t 1ps -L $(UVM_LIB) -L $(UVMC_LIB) -l $(LOG).log
+
+
+# Internal use
+# ------------
+
+# for checking simulation results
+
+N_FATALS = 0
+N_ERRS = 0
+TEST_CMD ?= test
+CHECK_LOG ?= $(LOG).log
+
+SC_CHECK = \
+	@$(TEST_CMD) \( `grep -ci 'ERROR' $(CHECK_LOG)` -eq 0 \) -a \
+		     \( `grep -ci 'FATAL' $(CHECK_LOG)` -eq 0 \)
+
+CHECK = \
+	@$(TEST_CMD) \( `grep -c 'UVM_ERROR :    $(N_ERRS)' $(CHECK_LOG)` -eq 1 \) -a \
+		     \( `grep -c 'UVM_FATAL :    $(N_FATALS)' $(CHECK_LOG)` -eq 1 \)
+
+$(UVMC_LIB) $(UVM_LIB):
+	@echo "| The UVM and UVMC libraries must be compiled prior to running    |";
+	@echo "| any example. If the libraries are not at their default location |";
+	@echo "| (UVMC_HOME/lib) then you must specify their location via the    |";
+	@echo "| UVM_LIB and/or UVMC_LIB environment variables or make command   |";
+	@echo "| line options. Make command line options take precedence.        |";
+	@echo "|                                                                 |";
+	@echo "| You can recompile the libraries as follows:                     |";
+	@echo "|   cd $(UVMC_HOME)/lib                                           |";
+	@echo "|   gmake -f Makefile.questa uvm64 uvmc64                         |";
+	fail_me
+
+check_uvm_home: $(UVMC_LIB) $(UVM_LIB) fix_modelsim_ini
+ifndef UVM_HOME
+	@echo "ERROR: UVM_HOME environment variable is not defined"
+	abort-mission
+endif
+
+# Fix modelsim.ini to point to ambient gcc compiler (only if we're not running
+# in default pre-built UVMC mode).
+fix_modelsim_ini:
+ifeq ($(USE_AMBIENT_GCC),yes)
+	perl $(UVMC_HOME)/examples/common/fix-modelsim-ini.pl
+endif

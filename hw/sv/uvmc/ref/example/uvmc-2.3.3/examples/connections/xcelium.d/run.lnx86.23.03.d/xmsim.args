@@ -1,0 +1,34 @@
+//
+// File created by:  xrun
+// Do not modify this file
+//
+-INPUT
+"@source /home/project/eda/pkgs/cadence/ius/default/tools/methodology/UVM/CDNS-1.2/sv/files/tcl/uvm_sim.tcl"
++UVMC_COMMAND_TRACE
++define+UVM_NO_DPI
++define+UVM_FIX_REV=undefined
+-uvmhome
+/home/project/eda/pkgs/cadence/ius/default/tools/methodology/UVM/CDNS-1.2/sv
+-sv_lib
+/home/project/eda/pkgs/cadence/ius/default/tools/methodology/UVM/CDNS-1.2/sv/lib/libuvmpli.so
+-LICQUEUE
+-SCSYNCEVERYDELTA
+on
+-MESSAGES
+-RUN
++EMGRLOG
+xrun.log
+-XLSTIME
+1715181837
+-XLKEEP
+-XLMODE
+./xcelium.d/run.lnx86.23.03.d
+-RUNMODE
+-CDSLIB
+./xcelium.d/run.lnx86.23.03.d/cds.lib
+-HDLVAR
+./xcelium.d/run.lnx86.23.03.d/hdl.var
+-XLNAME
+xrun
+-XLVERSION
+"TOOL:	xrun	23.03-s003"

@@ -1,0 +1,23 @@
+-DINCA
+-DNCSC
+-DSC_INCLUDE_DYNAMIC_PROCESSES
+-DXMSC
+-D_GLIBCXX_USE_CXX11_ABI=1 -c
+-I/NOBACKUP/atcpcw10/jasonli/sc/uvmc-2.3.3/examples/connections/.
+-I/NOBACKUP/atcpcw10/jasonli/sc/uvmc-2.3.3/examples/connections/common
+-I/NOBACKUP/atcpcw10/jasonli/sc/uvmc-2.3.3/src/connect/sc
+-I/home/project/eda/pkgs/cadence/ius/default/tools/methodology/UVM/CDNS-1.2/sv/ml/sc
+-I/home/project/eda/pkgs/cadence/ius/default/tools/methodology/UVM/CDNS-1.2/sv/sc/sc
+-I/home/project/eda/pkgs/cadence/ius/default/tools/systemc/include/tlm2/tlm_utils
+-I/home/project/eda/pkgs/cadence/xcelium/v23.03/tools/inca/include
+-I/home/project/eda/pkgs/cadence/xcelium/v23.03/tools/include
+-I/home/project/eda/pkgs/cadence/xcelium/v23.03/tools/methodology/OVM/CDNS-2.1.2/sc/src
+-I/home/project/eda/pkgs/cadence/xcelium/v23.03/tools/systemc/include/cci
+-I/home/project/eda/pkgs/cadence/xcelium/v23.03/tools/systemc/include/factory
+-I/home/project/eda/pkgs/cadence/xcelium/v23.03/tools/systemc/include/tlm2
+-I/home/project/eda/pkgs/cadence/xcelium/v23.03/tools/systemc/include_pch
+-I/home/project/eda/pkgs/cadence/xcelium/v23.03/tools/tbsc/include
+-I/home/project/eda/pkgs/cadence/xcelium/v23.03/tools/vic/include
+-O0 -g
+-fPIC
+-x c++ -m32  -Wall 

@@ -1,0 +1,144 @@
+x1 = 1
+fcsr = 0x80
+vsetvli x2, x1, e16, m1 
+v0 = 0x387FC000 
+# {L,R,S} = 000
+vfncvt.f.f.w v1, v0
+fcsr
+#
+#
+x1 = 1
+fcsr = 0x80
+vsetvli x2, x1, e16, m1 
+v0 = 0x387FC800 
+# {L,R,S} = 001
+vfncvt.f.f.w v1, v0
+fcsr
+#
+#
+x1 = 1
+fcsr = 0x80
+vsetvli x2, x1, e16, m1 
+v0 = 0x387Fd000 
+# {L,R,S} = 010
+vfncvt.f.f.w v1, v0
+fcsr
+#
+#
+x1 = 1
+fcsr = 0x80
+vsetvli x2, x1, e16, m1 
+v0 = 0x387FD800
+# {L,R,S} = 011
+vfncvt.f.f.w v1, v0
+fcsr
+#
+#
+x1 = 1
+fcsr = 0x80
+vsetvli x2, x1, e16, m1 
+v0 = 0x387FE000
+# {L,R,S} = 100
+vfncvt.f.f.w v1, v0
+fcsr
+#
+#
+x1 = 1
+fcsr = 0x80
+vsetvli x2, x1, e16, m1 
+v0 = 0x387FE800
+# {L,R,S} = 101
+vfncvt.f.f.w v1, v0
+fcsr
+#
+#
+x1 = 1
+fcsr = 0x80
+vsetvli x2, x1, e16, m1 
+v0 = 0x387Ff000
+# {L,R,S} = 110
+vfncvt.f.f.w v1, v0
+fcsr
+#
+#
+x1 = 1
+fcsr = 0x80
+vsetvli x2, x1, e16, m1 
+v0 = 0x387Ff800
+# {L,R,S} = 111
+vfncvt.f.f.w v1, v0
+fcsr
+
+
+=================================
+
+x1 = 1
+fcsr = 0x80
+vsetvli x2, x1, e16, m1 
+v0 = 0xB87FC000 
+# {L,R,S} = 000
+vfncvt.f.f.w v1, v0
+fcsr
+#
+#
+x1 = 1
+fcsr = 0x80
+vsetvli x2, x1, e16, m1 
+v0 = 0xB87FC800 
+# {L,R,S} = 001
+vfncvt.f.f.w v1, v0
+fcsr
+#
+#
+x1 = 1
+fcsr = 0x80
+vsetvli x2, x1, e16, m1 
+v0 = 0xB87Fd000 
+# {L,R,S} = 010
+vfncvt.f.f.w v1, v0
+fcsr
+#
+#
+x1 = 1
+fcsr = 0x80
+vsetvli x2, x1, e16, m1 
+v0 = 0xB87FD800
+# {L,R,S} = 011
+vfncvt.f.f.w v1, v0
+fcsr
+#
+#
+x1 = 1
+fcsr = 0x80
+vsetvli x2, x1, e16, m1 
+v0 = 0xB87FE000
+# {L,R,S} = 100
+vfncvt.f.f.w v1, v0
+fcsr
+#
+#
+x1 = 1
+fcsr = 0x80
+vsetvli x2, x1, e16, m1 
+v0 = 0xB87FE800
+# {L,R,S} = 101
+vfncvt.f.f.w v1, v0
+fcsr
+#
+#
+x1 = 1
+fcsr = 0x80
+vsetvli x2, x1, e16, m1 
+v0 = 0xB87Ff000
+# {L,R,S} = 110
+vfncvt.f.f.w v1, v0
+fcsr
+#
+#
+x1 = 1
+fcsr = 0x80
+vsetvli x2, x1, e16, m1 
+v0 = 0xB87Ff800
+# {L,R,S} = 111
+vfncvt.f.f.w v1, v0
+fcsr
