@@ -39,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#何文賢",
                 "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": false,
@@ -76,8 +76,7 @@
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
@@ -132,14 +131,6 @@
             }
           },
           {
-            "id": "3cea08796a77b42c",
-            "type": "leaf",
-            "state": {
-              "type": "advanced-tables-toolbar",
-              "state": {}
-            }
-          },
-          {
             "id": "676fb955f369bf5e",
             "type": "leaf",
             "state": {
@@ -148,7 +139,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -165,7 +156,7 @@
       "command-palette:Open command palette": true
     }
   },
-  "active": "ad75f7a6760fb9d0",
+  "active": "e659ba5d1cf0724d",
   "lastOpenFiles": [
     "README.md",
     "3C ranking.md",
