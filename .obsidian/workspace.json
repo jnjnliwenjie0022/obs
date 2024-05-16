@@ -13,7 +13,7 @@
             "state": {
               "type": "diff-view",
               "state": {
-                "file": ".obsidian/workspace.json",
+                "file": ".obsidian/plugins/obsidian-git/data.json",
                 "staged": false
               }
             }
@@ -160,6 +160,7 @@
   },
   "active": "ad75f7a6760fb9d0",
   "lastOpenFiles": [
+    "hw/lut.md",
     "README.md",
     "3C ranking.md",
     "hw/mdu/mdu.md",
@@ -202,7 +203,6 @@
     "hw/sc/Untitled.md",
     "hw/sc/include/Pasted image 20240510155639.png",
     "hw/sc",
-    "hw/arbiter/arbiter.md",
     "hw/sv/uvmc/include/Pasted image 20240509010353.png",
     "hw/sv/uvmc/include/Pasted image 20240509010048.png",
     "hw/sv/uvmc/include/ac_tlm2_user_packet.svg",
