@@ -4,20 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "d656459fcd29824a",
+        "id": "59a888a31d287385",
         "type": "tabs",
         "children": [
           {
-            "id": "46083df00b806f77",
+            "id": "ad75f7a6760fb9d0",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "hw/mdu/mdu.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -71,9 +66,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "hw/mdu/mdu.md"
-              }
+              "state": {}
             }
           }
         ],
@@ -97,7 +90,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "hw/mdu/mdu.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +106,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "hw/mdu/mdu.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,13 +129,21 @@
               "type": "advanced-tables-toolbar",
               "state": {}
             }
+          },
+          {
+            "id": "676fb955f369bf5e",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 334.5,
-    "collapsed": true
+    "width": 334.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -156,8 +155,11 @@
       "command-palette:Open command palette": true
     }
   },
-  "active": "46083df00b806f77",
+  "active": "676fb955f369bf5e",
   "lastOpenFiles": [
+    "README.md",
+    "3C ranking.md",
+    "hw/mdu/mdu.md",
     "hw/fifo/fifo.md",
     "ToDoList.md",
     "hw/fpu/f16macksa.md",
@@ -166,8 +168,6 @@
     "hw/fpu/f16dsu.md",
     "mgmt/mgmt.md",
     "sw/ld.md",
-    "3C ranking.md",
-    "README.md",
     "hw/sv/harness.md",
     "workflow/git.md",
     "workflow/github.md",
@@ -203,7 +203,6 @@
     "hw/sv/uvmc/include/Pasted image 20240509010353.png",
     "hw/sv/uvmc/include/Pasted image 20240509010048.png",
     "hw/sv/uvmc/include/ac_tlm2_user_packet.svg",
-    "hw/fctrl/fctrl.md",
     "Untitled.canvas",
     "Untitled 1.canvas",
     "債券/債券.canvas"
