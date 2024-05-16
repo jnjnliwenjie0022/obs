@@ -1,3 +1,4 @@
+# clone
 https://hoyipngai.medium.com/%E6%96%B0%E5%AE%89%E8%A3%9Dlinux%E7%9A%84proxy%E8%A8%AD%E5%AE%9A-eaf928878c7a
 ```
 cd ~
@@ -46,4 +47,10 @@ vim .gitconfig
         ignoredHook = false
 [credential]
 	helper = cache --timeout 99986400
+```
+```
+##without ssh
+git clone https://github.com/jnjnliwenjie0022/obs.git
+
+#github(https://github.com/jnjnliwenjie0022) -> Settings -> Developer settings -> Personal access tokens -> Tokens (classic)
 ```
