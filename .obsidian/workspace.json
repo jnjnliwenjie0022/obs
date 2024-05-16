@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "workflow/git.md",
+                "file": "README.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -72,7 +72,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "workflow/git.md"
+                "file": "README.md"
               }
             }
           }
@@ -97,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "workflow/git.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "workflow/git.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -158,6 +158,7 @@
   },
   "active": "46083df00b806f77",
   "lastOpenFiles": [
+    "workflow/nvim.md",
     "workflow/github.md",
     "workflow/git.md",
     "workflow/synopsys.md",
@@ -183,7 +184,6 @@
     "workflow/include",
     "workflow/New folder",
     "workflow/tmux.md",
-    "workflow/nvim.md",
     "workflow/tnv_wo.md",
     "hw/sc/ref/Lecture7_SystemC_Part1.pdf",
     "sw/script.md",
