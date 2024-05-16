@@ -147,7 +147,6 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "digitalgarden:Digital Garden Publication Center": false,
       "switcher:Open quick switcher": true,
       "graph:Open graph view": true,
       "canvas:Create new canvas": true,
