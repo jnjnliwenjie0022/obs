@@ -2,16 +2,21 @@
 ## window
 ### method1
 Download https://desktop.github.com/
-### method2
+### method2 (recommend !!)
 ref: https://www.youtube.com/watch?v=5YZz38U20ws
 
 https://git-scm.com/download/win
 ```
 winget install --id Git.Git -e --source winget
 ```
-In Community Plugin
+in community plugin
 ```
 Git
+```
+check .git in your root then
+```
+Git: commit all changes
+Git: push
 ```
 ## linux
 https://hoyipngai.medium.com/%E6%96%B0%E5%AE%89%E8%A3%9Dlinux%E7%9A%84proxy%E8%A8%AD%E5%AE%9A-eaf928878c7a
