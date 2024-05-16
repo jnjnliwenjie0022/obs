@@ -71,9 +71,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "README.md"
-              }
+              "state": {}
             }
           }
         ],
@@ -97,7 +95,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +111,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,10 +157,53 @@
       "canvas:Create new canvas": true,
       "daily-notes:Open today's daily note": true,
       "templates:Insert template": true,
-      "command-palette:Open command palette": true
+      "command-palette:Open command palette": true,
+      "webpage-html-export:Export Vault to HTML": false
     }
   },
-  "active": "ad75f7a6760fb9d0",
+  "floating": {
+    "id": "99b434cf4fdbe834",
+    "type": "floating",
+    "children": [
+      {
+        "id": "c24e49652e2ebe8a",
+        "type": "window",
+        "children": [
+          {
+            "id": "6c448ca364541803",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "c27cdf0ecbcccb41",
+                "type": "leaf",
+                "state": {
+                  "type": "empty",
+                  "state": {}
+                }
+              },
+              {
+                "id": "1744948ec81f6343",
+                "type": "leaf",
+                "state": {
+                  "type": "empty",
+                  "state": {}
+                }
+              }
+            ],
+            "currentTab": 1
+          }
+        ],
+        "direction": "vertical",
+        "x": 988,
+        "y": 485,
+        "width": 901,
+        "height": 501,
+        "maximize": false,
+        "zoom": 0
+      }
+    ]
+  },
+  "active": "1744948ec81f6343",
   "lastOpenFiles": [
     "README.md",
     "3C ranking.md",
