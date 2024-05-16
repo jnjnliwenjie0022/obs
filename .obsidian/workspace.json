@@ -32,6 +32,7 @@
       {
         "id": "afadd362b9dadcb6",
         "type": "tabs",
+        "dimension": 74.85632183908046,
         "children": [
           {
             "id": "e659ba5d1cf0724d",
@@ -39,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#何文賢",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": false,
@@ -76,6 +77,22 @@
               }
             }
           }
+        ],
+        "currentTab": 2
+      },
+      {
+        "id": "b3d4275dfcd22401",
+        "type": "tabs",
+        "dimension": 25.143678160919542,
+        "children": [
+          {
+            "id": "8cb3b947f548a8b1",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {}
+            }
+          }
         ]
       }
     ],
@@ -91,35 +108,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "270ea8edfe0efc65",
-            "type": "leaf",
-            "state": {
-              "type": "backlink",
-              "state": {
-                "file": "README.md",
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical",
-                "showSearch": false,
-                "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
-              }
-            }
-          },
-          {
-            "id": "62c943b78ff555ad",
-            "type": "leaf",
-            "state": {
-              "type": "outgoing-link",
-              "state": {
-                "file": "README.md",
-                "linksCollapsed": false,
-                "unlinkedCollapsed": true
-              }
-            }
-          },
-          {
             "id": "ce4fe214b6d283ba",
             "type": "leaf",
             "state": {
@@ -129,21 +117,13 @@
                 "useHierarchy": true
               }
             }
-          },
-          {
-            "id": "676fb955f369bf5e",
-            "type": "leaf",
-            "state": {
-              "type": "git-view",
-              "state": {}
-            }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 334.5
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -155,7 +135,7 @@
       "command-palette:Open command palette": true
     }
   },
-  "active": "e659ba5d1cf0724d",
+  "active": "19a60b1e44f4e87a",
   "lastOpenFiles": [
     "README.md",
     "3C ranking.md",
