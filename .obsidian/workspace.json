@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "workflow/github.md",
+                "file": "workflow/git.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -72,7 +72,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "workflow/github.md"
+                "file": "workflow/git.md"
               }
             }
           }
@@ -97,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "workflow/github.md",
+                "file": "workflow/git.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "workflow/github.md",
+                "file": "workflow/git.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -158,8 +158,10 @@
   },
   "active": "46083df00b806f77",
   "lastOpenFiles": [
-    "workflow/git.md",
     "workflow/github.md",
+    "workflow/git.md",
+    "workflow/synopsys.md",
+    "README.md",
     "workflow/tnv.md",
     "hw/sv/harness.md",
     "hw/fpu/f16macksa.md",
@@ -171,7 +173,6 @@
     "sw/ld.md",
     "hw/sc/sc.md",
     "hw/_unorganized/cosim.md",
-    "workflow/synopsys.md",
     "hw/sc/include/Pasted image 20240510155959.png",
     "hw/sc/include/Pasted image 20240510170505.png",
     "hw/sc/include/Pasted image 20240510170535.png",
@@ -203,7 +204,6 @@
     "hw/fctrl/fctrl.md",
     "hw/amba_axi/axi.md",
     "hw/fifo/fifo.md",
-    "3C ranking.md",
     "Untitled.canvas",
     "Untitled 1.canvas",
     "債券/債券.canvas"
