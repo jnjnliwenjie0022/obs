@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "hw/fpu/f16mac.md",
+                "file": "hw/mdu/mdu.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -72,7 +72,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "hw/fpu/f16mac.md"
+                "file": "hw/mdu/mdu.md"
               }
             }
           }
@@ -97,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "hw/fpu/f16mac.md",
+                "file": "hw/mdu/mdu.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "hw/fpu/f16mac.md",
+                "file": "hw/mdu/mdu.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -158,13 +158,14 @@
   },
   "active": "46083df00b806f77",
   "lastOpenFiles": [
+    "hw/fifo/fifo.md",
+    "ToDoList.md",
     "hw/fpu/f16macksa.md",
-    "hw/fpu/f16div.md",
     "hw/fpu/f16mac.md",
+    "hw/fpu/f16div.md",
     "hw/fpu/f16dsu.md",
     "mgmt/mgmt.md",
     "sw/ld.md",
-    "ToDoList.md",
     "3C ranking.md",
     "README.md",
     "hw/sv/harness.md",
@@ -203,7 +204,6 @@
     "hw/sv/uvmc/include/Pasted image 20240509010048.png",
     "hw/sv/uvmc/include/ac_tlm2_user_packet.svg",
     "hw/fctrl/fctrl.md",
-    "hw/amba_axi/axi.md",
     "Untitled.canvas",
     "Untitled 1.canvas",
     "債券/債券.canvas"
