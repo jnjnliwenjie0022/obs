@@ -11,10 +11,12 @@
             "id": "f8e1e449e4e8a7f8",
             "type": "leaf",
             "state": {
-              "type": "diff-view",
+              "type": "markdown",
               "state": {
-                "file": ".obsidian/workspace.json",
-                "staged": false
+                "file": "README.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
               }
             }
           }
@@ -69,7 +71,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "README.md"
+              }
             }
           }
         ],
@@ -104,6 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,6 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -144,6 +150,7 @@
   },
   "active": "f8e1e449e4e8a7f8",
   "lastOpenFiles": [
+    "ToDoList.md",
     "dv/harness/vip/vip/tb.sv",
     "dv/harness/vip/vip",
     "dv/harness/vip/run_batch.tcl",
@@ -158,8 +165,6 @@
     "dv/uvmc/uvmc.md",
     "de/fpu/f16mac.md",
     "diary/work/2024-03-27.md",
-    "dv",
-    "ToDoList.md",
     "de/arbiter/arbiter.md",
     "workflow/git.md",
     "README.md",
