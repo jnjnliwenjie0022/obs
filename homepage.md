@@ -1,3 +1,7 @@
+---
+dg-publish: true
+dg-home: true
+---
 # github
 ## window
 ### method1
@@ -144,8 +148,8 @@ in obsidian cmd
 ```
 Add file property
 ```
-in obsidian, create checkbox dg-publish
-in obsidian, create checkbox dg-home
+in obsidian, create checkbox dg-publish, and tick checkbox
+in obsidian, create checkbox dg-home, and tick checkbox
 ```
 publish
 ```

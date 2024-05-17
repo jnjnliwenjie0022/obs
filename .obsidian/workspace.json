@@ -8,32 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "ad75f7a6760fb9d0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "homepage.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "4cd820c5fe89e115",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "homepage.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
             "id": "f8e1e449e4e8a7f8",
             "type": "leaf",
             "state": {
@@ -46,8 +20,7 @@
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
