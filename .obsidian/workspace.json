@@ -30,7 +30,7 @@
       {
         "id": "afadd362b9dadcb6",
         "type": "tabs",
-        "dimension": 74.85632183908045,
+        "dimension": 65.36458333333334,
         "children": [
           {
             "id": "e659ba5d1cf0724d",
@@ -79,7 +79,7 @@
       {
         "id": "b3d4275dfcd22401",
         "type": "tabs",
-        "dimension": 25.143678160919546,
+        "dimension": 34.63541666666667,
         "children": [
           {
             "id": "8cb3b947f548a8b1",
@@ -155,10 +155,11 @@
       "canvas:Create new canvas": true,
       "daily-notes:Open today's daily note": true,
       "templates:Insert template": true,
-      "command-palette:Open command palette": true
+      "command-palette:Open command palette": true,
+      "digitalgarden:Digital Garden Publication Center": false
     }
   },
-  "active": "ad75f7a6760fb9d0",
+  "active": "8cb3b947f548a8b1",
   "lastOpenFiles": [
     "hw/lut.md",
     "README.md",
