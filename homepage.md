@@ -131,6 +131,7 @@ git clone https://github.com/jnjnliwenjie0022/obs.git
 https://www.youtube.com/watch?v=eULVrTjT11w&t=615s
 https://dg-docs.ole.dev/getting-started/01-getting-started/
 
+https://vercel.com/jnjnliwenjie0022s-projects?projectDeleted=obs
 create vercel and github template
 https://github.com/oleeskild/digitalgarden
 in community plugin
