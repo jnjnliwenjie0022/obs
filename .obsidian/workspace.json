@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "homepage.md",
+                "file": "README.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -73,7 +73,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "homepage.md"
+                "file": "README.md"
               }
             }
           }
@@ -124,7 +124,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "homepage.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -141,7 +141,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "homepage.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -167,12 +167,12 @@
   },
   "active": "f8e1e449e4e8a7f8",
   "lastOpenFiles": [
+    "README.md",
+    "README.md",
     "src/site/notes/homepage.md",
-    "homepage.md",
     "src/site/notes",
     "src/site",
     "src",
-    "README.md",
     "workflow/github.md",
     "hw/lut.md",
     "3C ranking.md",
