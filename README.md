@@ -20,8 +20,10 @@ Git: push
 ```
 issue: fatal: unable to access 'https://github.com/jnjnliwenjie0022/obs.git': Failed to connect to github.com port 443 after 21092 ms: Couldn't connect to server Pushing to https://github.com/jnjnliwenjie0022/obs.git
 ```
-vim %USERPROFILE%\.gitconfig
-
+git config --list --show-origin
+```
+check out checkb which gitconifg is your target 
+```
 [user]
 	name = wen-jie li
 	email = jnjn0022@gmail.com
