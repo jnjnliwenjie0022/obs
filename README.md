@@ -1,4 +1,4 @@
-# clone
+# obsidian_git
 ## window
 ### method1
 Download https://desktop.github.com/
@@ -67,8 +67,6 @@ check out checkb which gitconifg is your target
 [credential]
 	helper = cache --timeout 99986400
 ```
-
-
 ## linux
 https://hoyipngai.medium.com/%E6%96%B0%E5%AE%89%E8%A3%9Dlinux%E7%9A%84proxy%E8%A8%AD%E5%AE%9A-eaf928878c7a
 ```
@@ -125,3 +123,5 @@ git clone https://github.com/jnjnliwenjie0022/obs.git
 
 #github(https://github.com/jnjnliwenjie0022) -> Settings -> Developer settings -> Personal access tokens -> Tokens (classic)
 ```
+# publisher
+https://www.youtube.com/watch?v=eULVrTjT11w&t=615s
