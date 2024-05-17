@@ -134,6 +134,7 @@ https://dg-docs.ole.dev/getting-started/01-getting-started/
 https://vercel.com/jnjnliwenjie0022s-projects?projectDeleted=obs
 create vercel and github template
 https://github.com/oleeskild/digitalgarden
+check deploy
 in community plugin
 ```
 Digital Garden
