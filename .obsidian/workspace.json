@@ -164,8 +164,11 @@
       "command-palette:Open command palette": true
     }
   },
-  "active": "f8e1e449e4e8a7f8",
+  "active": "19a60b1e44f4e87a",
   "lastOpenFiles": [
+    "dv/harness/vip/harness.sv",
+    "dv/harness/vip",
+    "dv/harness",
     "dv/Untitled",
     "dv/uvmc/uvmc.md",
     "de/fpu/f16mac.md",
@@ -205,9 +208,6 @@
     "workflow/include/axi4.0.svg",
     "workflow/include",
     "workflow/New folder",
-    "dv/sc/ref/Lecture7_SystemC_Part1.pdf",
-    "de/fpu/spec/IEEE754-2008.pdf",
-    "de/fpu/ref_f16mac/(FMA)Binary Floating Point Fused Multiply Add Unit.pdf",
     "hw/sc/include/Pasted image 20240510155639.png",
     "dv/uvmc/include/Pasted image 20240509010353.png",
     "dv/uvmc/include/Pasted image 20240509010048.png",
