@@ -68,7 +68,9 @@ check out checkb which gitconifg is your target
 [credential]
 	helper = cache --timeout 99986400
 ```
-ref
+### ref
+auto sync without plugin
+https://www.youtube.com/watch?v=H6ipjzaN2WY
 ## linux
 https://hoyipngai.medium.com/%E6%96%B0%E5%AE%89%E8%A3%9Dlinux%E7%9A%84proxy%E8%A8%AD%E5%AE%9A-eaf928878c7a
 ```
