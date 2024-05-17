@@ -11,10 +11,12 @@
             "id": "f8e1e449e4e8a7f8",
             "type": "leaf",
             "state": {
-              "type": "diff-view",
+              "type": "markdown",
               "state": {
-                "file": ".obsidian/workspace.json",
-                "staged": false
+                "file": "README.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
               }
             }
           }
@@ -70,7 +72,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "README.md"
+              }
             }
           }
         ],
@@ -120,6 +124,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -136,6 +141,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -160,6 +166,8 @@
   },
   "active": "f8e1e449e4e8a7f8",
   "lastOpenFiles": [
+    "workflow/tmux.md",
+    "workflow/synopsys.md",
     "workflow/nvim.md",
     "README.md",
     "README.md",
@@ -181,7 +189,6 @@
     "sw/ld.md",
     "hw/sv/harness.md",
     "workflow/git.md",
-    "workflow/synopsys.md",
     "workflow/tnv.md",
     "hw/arithmetic/booth.md",
     "hw/sv/uvmc/uvmc.md",
@@ -196,7 +203,6 @@
     "workflow/include/axi4.0.svg",
     "workflow/include",
     "workflow/New folder",
-    "workflow/tmux.md",
     "workflow/tnv_wo.md",
     "hw/sc/ref/Lecture7_SystemC_Part1.pdf",
     "hw/fpu/spec/IEEE754-2008.pdf",
