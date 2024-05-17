@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "workflow/git.md",
-                "mode": "preview",
+                "file": "hw/sv/harness.md",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
@@ -32,7 +32,7 @@
       {
         "id": "afadd362b9dadcb6",
         "type": "tabs",
-        "dimension": 65.36458333333333,
+        "dimension": 62.5,
         "children": [
           {
             "id": "e659ba5d1cf0724d",
@@ -73,7 +73,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "workflow/git.md"
+                "file": "hw/sv/harness.md"
               }
             }
           }
@@ -81,9 +81,9 @@
         "currentTab": 2
       },
       {
-        "id": "b3d4275dfcd22401",
+        "id": "ce31482b6afb7740",
         "type": "tabs",
-        "dimension": 34.635416666666664,
+        "dimension": 37.5,
         "children": [
           {
             "id": "8cb3b947f548a8b1",
@@ -124,7 +124,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "workflow/git.md",
+                "file": "hw/sv/harness.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -141,7 +141,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "workflow/git.md",
+                "file": "hw/sv/harness.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -164,8 +164,11 @@
       "command-palette:Open command palette": true
     }
   },
-  "active": "19a60b1e44f4e87a",
+  "active": "f8e1e449e4e8a7f8",
   "lastOpenFiles": [
+    "ToDoList.md",
+    "hw/arbiter/arbiter.md",
+    "workflow/git.md",
     "README.md",
     "workflow/tmux.md",
     "workflow/synopsys.md",
@@ -179,7 +182,6 @@
     "3C ranking.md",
     "hw/mdu/mdu.md",
     "hw/fifo/fifo.md",
-    "ToDoList.md",
     "hw/fpu/f16macksa.md",
     "hw/fpu/f16mac.md",
     "hw/fpu/f16div.md",
@@ -187,7 +189,6 @@
     "mgmt/mgmt.md",
     "sw/ld.md",
     "hw/sv/harness.md",
-    "workflow/git.md",
     "workflow/tnv.md",
     "hw/arithmetic/booth.md",
     "hw/sv/uvmc/uvmc.md",
