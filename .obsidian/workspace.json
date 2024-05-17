@@ -11,10 +11,12 @@
             "id": "ad75f7a6760fb9d0",
             "type": "leaf",
             "state": {
-              "type": "diff-view",
+              "type": "markdown",
               "state": {
-                "file": ".obsidian/plugins/obsidian-git/data.json",
-                "staged": false
+                "file": "README.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
               }
             }
           }
@@ -70,7 +72,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "README.md"
+              }
             }
           }
         ],
@@ -120,6 +124,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -136,6 +141,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -159,8 +165,9 @@
       "digitalgarden:Digital Garden Publication Center": false
     }
   },
-  "active": "8cb3b947f548a8b1",
+  "active": "ad75f7a6760fb9d0",
   "lastOpenFiles": [
+    "workflow/github.md",
     "hw/lut.md",
     "README.md",
     "3C ranking.md",
@@ -175,7 +182,6 @@
     "sw/ld.md",
     "hw/sv/harness.md",
     "workflow/git.md",
-    "workflow/github.md",
     "workflow/nvim.md",
     "workflow/synopsys.md",
     "workflow/tnv.md",
