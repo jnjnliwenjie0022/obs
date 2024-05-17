@@ -13,7 +13,7 @@ in community plugin
 ```
 Git
 ```
-check .git in your root then
+check .git in your root then in obsidian
 ```
 Git: commit all changes
 Git: push
@@ -126,3 +126,21 @@ git clone https://github.com/jnjnliwenjie0022/obs.git
 # vercel
 https://www.youtube.com/watch?v=eULVrTjT11w&t=615s
 https://dg-docs.ole.dev/getting-started/01-getting-started/
+
+create vercel and github template
+https://github.com/oleeskild/digitalgarden
+in community plugin
+```
+Digital Garden
+```
+in digital garden plugin
+```
+GitHub repo name: obv
+GitHub Username: jnjnliwenjie0022
+GitHub token:
+```
+in obsidian, create note
+in obsidian cmd
+```
+Add file property
+```
