@@ -30,7 +30,6 @@
       {
         "id": "afadd362b9dadcb6",
         "type": "tabs",
-        "dimension": 69.9468085106383,
         "children": [
           {
             "id": "e659ba5d1cf0724d",
@@ -75,21 +74,6 @@
           }
         ],
         "currentTab": 2
-      },
-      {
-        "id": "ce31482b6afb7740",
-        "type": "tabs",
-        "dimension": 30.0531914893617,
-        "children": [
-          {
-            "id": "8cb3b947f548a8b1",
-            "type": "leaf",
-            "state": {
-              "type": "git-view",
-              "state": {}
-            }
-          }
-        ]
       }
     ],
     "direction": "horizontal",
