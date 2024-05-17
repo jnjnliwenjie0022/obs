@@ -123,5 +123,3 @@ git clone https://github.com/jnjnliwenjie0022/obs.git
 
 #github(https://github.com/jnjnliwenjie0022) -> Settings -> Developer settings -> Personal access tokens -> Tokens (classic)
 ```
-
-test
