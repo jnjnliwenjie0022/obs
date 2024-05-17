@@ -4,7 +4,7 @@ https://blog.csdn.net/huaqianmian/article/details/51279627
 [(214) 没有显卡的年代，这群程序员用4行代码优化游戏 - YouTube](https://www.youtube.com/watch?v=g1r3iLejTw0)
 
 # divide_by_const
-[[hw/arithmetic/ref_booth/Computer_Arithmetic_Algorithms_and_Hardware_Designs_2nd_edition.pdf#page=294&selection=41,0,41,21|Computer_Arithmetic_Algorithms_and_Hardware_Designs_2nd_edition, page 294]]
+[[de/arithmetic/ref_booth/Computer_Arithmetic_Algorithms_and_Hardware_Designs_2nd_edition.pdf#page=294&selection=41,0,41,21|Computer_Arithmetic_Algorithms_and_Hardware_Designs_2nd_edition, page 294]]
 ![[Pasted image 20240320190733.png]]
 
 # polynomial_interpolation

@@ -6,7 +6,7 @@
 ![[f16div_uarch.svg]]
 
 ## dz_exception
-[[hw/fpu/spec/IEEE754-2019.pdf#page=54&selection=4,0,7,1|IEEE754-2019, page 54]]
+[[de/fpu/spec/IEEE754-2019.pdf#page=54&selection=4,0,7,1|IEEE754-2019, page 54]]
 ![[Pasted image 20240408233252.png]]
 ## P2_ST
 ### P2_S0

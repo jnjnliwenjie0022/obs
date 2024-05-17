@@ -10,7 +10,7 @@
 ![[fma_uarch.svg]]
 
 ## format_mac
-要多2個extra bit[[hw/fpu/ref_f16mac/(FMA)Comparison of Single- and Dual-Pass Multiply-Add Fused Floating-Point Units.pdf#page=4&selection=27,14,31,59|12.713312, page 4]]
+要多2個extra bit[[de/fpu/ref_f16mac/(FMA)Comparison of Single- and Dual-Pass Multiply-Add Fused Floating-Point Units.pdf#page=4&selection=27,14,31,59|12.713312, page 4]]
 ![[fma_format.svg]]
 ## op3_r
 ![[Pasted image 20240228182634.png]]
