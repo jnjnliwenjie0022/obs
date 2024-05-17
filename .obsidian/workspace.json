@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "dv/harness.md",
+                "file": "README.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -72,7 +72,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "dv/harness.md"
+                "file": "README.md"
               }
             }
           }
@@ -81,7 +81,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 276.5
+    "width": 276.5,
+    "collapsed": true
   },
   "right": {
     "id": "cb661d0a10776c07",
@@ -108,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "dv/harness.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "dv/harness.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,6 +151,7 @@
   },
   "active": "f8e1e449e4e8a7f8",
   "lastOpenFiles": [
+    "dv/harness.md",
     "workflow/tnv.md",
     "README.md",
     "ToDoList.md",
@@ -159,7 +161,6 @@
     "dv/harness/vip/flist",
     "dv/harness/vip/02",
     "dv/harness/vip/01",
-    "dv/harness.md",
     "dv/harness/vip/harness.sv",
     "dv/harness/vip",
     "dv/harness",
