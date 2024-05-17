@@ -125,3 +125,5 @@ git clone https://github.com/jnjnliwenjie0022/obs.git
 ```
 # publisher
 https://www.youtube.com/watch?v=eULVrTjT11w&t=615s
+
+obg
