@@ -11,12 +11,10 @@
             "id": "f8e1e449e4e8a7f8",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "diff-view",
               "state": {
-                "file": "dv/harness.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
+                "file": ".obsidian/workspace.json",
+                "staged": false
               }
             }
           }
@@ -32,7 +30,7 @@
       {
         "id": "afadd362b9dadcb6",
         "type": "tabs",
-        "dimension": 62.5,
+        "dimension": 69.9468085106383,
         "children": [
           {
             "id": "e659ba5d1cf0724d",
@@ -72,9 +70,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "dv/harness.md"
-              }
+              "state": {}
             }
           }
         ],
@@ -83,7 +79,7 @@
       {
         "id": "ce31482b6afb7740",
         "type": "tabs",
-        "dimension": 37.5,
+        "dimension": 30.0531914893617,
         "children": [
           {
             "id": "8cb3b947f548a8b1",
@@ -124,7 +120,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "dv/harness.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -141,7 +136,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "dv/harness.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -164,8 +158,9 @@
       "command-palette:Open command palette": true
     }
   },
-  "active": "19a60b1e44f4e87a",
+  "active": "f8e1e449e4e8a7f8",
   "lastOpenFiles": [
+    "dv/harness.md",
     "dv/harness/vip/harness.sv",
     "dv/harness/vip",
     "dv/harness",
@@ -173,7 +168,6 @@
     "dv/uvmc/uvmc.md",
     "de/fpu/f16mac.md",
     "diary/work/2024-03-27.md",
-    "dv/harness.md",
     "dv",
     "ToDoList.md",
     "de/arbiter/arbiter.md",
@@ -207,7 +201,6 @@
     "workflow/include/workflow.svg",
     "workflow/include/axi4.0.svg",
     "workflow/include",
-    "workflow/New folder",
     "hw/sc/include/Pasted image 20240510155639.png",
     "dv/uvmc/include/Pasted image 20240509010353.png",
     "dv/uvmc/include/Pasted image 20240509010048.png",
