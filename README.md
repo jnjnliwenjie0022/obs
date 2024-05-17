@@ -19,6 +19,7 @@ Git: commit all changes
 Git: push
 ```
 issue: fatal: unable to access 'https://github.com/jnjnliwenjie0022/obs.git': Failed to connect to github.com port 443 after 21092 ms: Couldn't connect to server Pushing to https://github.com/jnjnliwenjie0022/obs.git
+%USERPROFILE%\.gitconfig
 
 ## linux
 https://hoyipngai.medium.com/%E6%96%B0%E5%AE%89%E8%A3%9Dlinux%E7%9A%84proxy%E8%A8%AD%E5%AE%9A-eaf928878c7a
