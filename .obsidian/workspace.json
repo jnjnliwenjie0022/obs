@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/site/notes/homepage.md",
+                "file": "homepage.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -73,7 +73,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "src/site/notes/homepage.md"
+                "file": "homepage.md"
               }
             }
           }
@@ -124,7 +124,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "src/site/notes/homepage.md",
+                "file": "homepage.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -141,7 +141,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/site/notes/homepage.md",
+                "file": "homepage.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -167,8 +167,8 @@
   },
   "active": "f8e1e449e4e8a7f8",
   "lastOpenFiles": [
-    "homepage.md",
     "src/site/notes/homepage.md",
+    "homepage.md",
     "src/site/notes",
     "src/site",
     "src",
