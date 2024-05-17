@@ -1,4 +1,3 @@
-# obv
 # github
 ## window
 ### method1
@@ -124,5 +123,6 @@ git clone https://github.com/jnjnliwenjie0022/obs.git
 
 #github(https://github.com/jnjnliwenjie0022) -> Settings -> Developer settings -> Personal access tokens -> Tokens (classic)
 ```
-# publisher
+# vercel
 https://www.youtube.com/watch?v=eULVrTjT11w&t=615s
+https://dg-docs.ole.dev/getting-started/01-getting-started/
