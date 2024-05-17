@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "workflow/git.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -73,7 +73,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "workflow/git.md"
               }
             }
           }
@@ -124,7 +124,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "workflow/git.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -141,7 +141,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "workflow/git.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -166,11 +166,10 @@
   },
   "active": "f8e1e449e4e8a7f8",
   "lastOpenFiles": [
+    "README.md",
     "workflow/tmux.md",
     "workflow/synopsys.md",
     "workflow/nvim.md",
-    "README.md",
-    "README.md",
     "src/site/notes/homepage.md",
     "src/site/notes",
     "src/site",
