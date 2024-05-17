@@ -160,6 +160,7 @@
   },
   "active": "f8e1e449e4e8a7f8",
   "lastOpenFiles": [
+    "workflow/nvim.md",
     "README.md",
     "README.md",
     "src/site/notes/homepage.md",
@@ -180,7 +181,6 @@
     "sw/ld.md",
     "hw/sv/harness.md",
     "workflow/git.md",
-    "workflow/nvim.md",
     "workflow/synopsys.md",
     "workflow/tnv.md",
     "hw/arithmetic/booth.md",
