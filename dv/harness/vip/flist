@@ -1,0 +1,32 @@
+-uvm
+-licqueue
+-uvmhome CDNS-1.2
++access+wrc
++UVM_VERDI_TRACE
++UVM_TR_RECORD
++UVM_LOG_RECORD
+//+UVM_CONFIG_DB_TRACE
+//+UVM_PHASE_TRACE
+//+UVM_OBJECTION_TRACE
++UVM_VERBOSITY=UVM_HIGH
++UVM_TESTNAME=based_test
++uvm_set_config_int=*,recording_detail,400
+-input run_batch.tcl
+
+//-gui -linedebug -uvmlinedebug
+//-sysv c_mdu.cpp
+//+svseed=random
+
+// Top-Level Testbench
+./vip/top.sv
+
+// UVC pkg
+// ***
+
+// UVC Files
+-incdir /NOBACKUP/atcpcw17/jasonli/vip/edp/vip
+
+// DUT Files
+-v ./vip/kv_csa3_2.v
+-v ./vip/kv_csa4_2.v
+-v ./vip/kv_fpu_fmac64.v
