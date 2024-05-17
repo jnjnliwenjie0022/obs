@@ -162,7 +162,7 @@
       "daily-notes:Open today's daily note": true,
       "templates:Insert template": true,
       "command-palette:Open command palette": true,
-      "digitalgarden:Digital Garden Publication Center": false
+      "digitalgarden:Digital Garden Publication Center": true
     }
   },
   "active": "f8e1e449e4e8a7f8",
