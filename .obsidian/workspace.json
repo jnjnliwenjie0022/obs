@@ -13,6 +13,32 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "homepage.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "4cd820c5fe89e115",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "homepage.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f8e1e449e4e8a7f8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "README.md",
                 "mode": "source",
                 "backlinks": false,
@@ -20,7 +46,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -165,11 +192,12 @@
       "digitalgarden:Digital Garden Publication Center": false
     }
   },
-  "active": "ad75f7a6760fb9d0",
+  "active": "f8e1e449e4e8a7f8",
   "lastOpenFiles": [
+    "homepage.md",
+    "README.md",
     "workflow/github.md",
     "hw/lut.md",
-    "README.md",
     "3C ranking.md",
     "hw/mdu/mdu.md",
     "hw/fifo/fifo.md",
@@ -201,13 +229,11 @@
     "workflow/tmux.md",
     "workflow/tnv_wo.md",
     "hw/sc/ref/Lecture7_SystemC_Part1.pdf",
-    "sw/script.md",
     "hw/fpu/spec/IEEE754-2008.pdf",
     "hw/fpu/ref_f16mac/(FMA)Binary Floating Point Fused Multiply Add Unit.pdf",
     "hw/fpu/ref_f16mac/(FMA)Floating-Point Multiply-Add-Fused with Reduced Latency.pdf",
     "hw/fpu/ref_f16mac/(FMA)Comparison of Single- and Dual-Pass Multiply-Add Fused Floating-Point Units.pdf",
     "hw/sc/include",
-    "hw/sc/Untitled.md",
     "hw/sc/include/Pasted image 20240510155639.png",
     "hw/sc",
     "hw/sv/uvmc/include/Pasted image 20240509010353.png",
