@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "de/fpu/f16mac.md",
+                "file": "workflow/synopsys.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -73,7 +73,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "de/fpu/f16mac.md"
+                "file": "workflow/synopsys.md"
               }
             }
           }
@@ -124,7 +124,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "de/fpu/f16mac.md",
+                "file": "workflow/synopsys.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -141,7 +141,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "de/fpu/f16mac.md",
+                "file": "workflow/synopsys.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -166,6 +166,8 @@
   },
   "active": "f8e1e449e4e8a7f8",
   "lastOpenFiles": [
+    "workflow/synopsys.md",
+    "de/fpu/f16mac.md",
     "ToDoList.md",
     "README.md",
     "3C ranking.md",
@@ -181,12 +183,10 @@
     "dv/harness",
     "dv/Untitled",
     "dv/uvmc/uvmc.md",
-    "de/fpu/f16mac.md",
     "diary/work/2024-03-27.md",
     "de/arbiter/arbiter.md",
     "workflow/git.md",
     "workflow/tmux.md",
-    "workflow/synopsys.md",
     "workflow/nvim.md",
     "src/site/notes/homepage.md",
     "workflow/github.md",
