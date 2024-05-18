@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "dv/harness.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -32,6 +32,7 @@
       {
         "id": "afadd362b9dadcb6",
         "type": "tabs",
+        "dimension": 62.5,
         "children": [
           {
             "id": "e659ba5d1cf0724d",
@@ -72,12 +73,27 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "dv/harness.md"
               }
             }
           }
         ],
         "currentTab": 2
+      },
+      {
+        "id": "ce31482b6afb7740",
+        "type": "tabs",
+        "dimension": 37.5,
+        "children": [
+          {
+            "id": "8cb3b947f548a8b1",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {}
+            }
+          }
+        ]
       }
     ],
     "direction": "horizontal",
@@ -108,7 +124,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "dv/harness.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +141,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "dv/harness.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,10 +166,6 @@
   },
   "active": "f8e1e449e4e8a7f8",
   "lastOpenFiles": [
-    "dv/harness.md",
-    "workflow/tnv.md",
-    "README.md",
-    "ToDoList.md",
     "dv/harness/vip/vip/tb.sv",
     "dv/harness/vip/vip",
     "dv/harness/vip/run_batch.tcl",
@@ -167,8 +179,12 @@
     "dv/uvmc/uvmc.md",
     "de/fpu/f16mac.md",
     "diary/work/2024-03-27.md",
+    "dv/harness.md",
+    "dv",
+    "ToDoList.md",
     "de/arbiter/arbiter.md",
     "workflow/git.md",
+    "README.md",
     "workflow/tmux.md",
     "workflow/synopsys.md",
     "workflow/nvim.md",
@@ -183,6 +199,7 @@
     "de/fpu/f16dsu.md",
     "mgmt/mgmt.md",
     "dv/sw/ld.md",
+    "workflow/tnv.md",
     "de/arithmetic/booth.md",
     "dv/sc/sc.md",
     "dv/sc/include/Pasted image 20240510155959.png",
