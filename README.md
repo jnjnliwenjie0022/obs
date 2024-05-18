@@ -23,7 +23,7 @@ issue: fatal: unable to access 'https://github.com/jnjnliwenjie0022/obs.git': Fa
 ```
 git config --list --show-origin
 ```
-check out checkb which gitconifg is your target 
+check out checkb which gitconifg is your target
 ```
 [user]
 	name = wen-jie li
@@ -121,9 +121,23 @@ vim .gitconfig
 [credential]
 	helper = cache --timeout 99986400
 ```
+## without ssh
 ```
-##without ssh
 git clone https://github.com/jnjnliwenjie0022/obs.git
 
 #github(https://github.com/jnjnliwenjie0022) -> Settings -> Developer settings -> Personal access tokens -> Tokens (classic)
+```
+### with ssh
+```
+ssh-keygen -t rsa -b 4096 -C "https://github.com/jnjnliwenjie0022"
+Enter
+Enter
+Enter
+eval "$(ssh-agent -s)"
+ssh-add -k ~/.ssh/id_rsa
+
+#copy ssh key to github(https://github.com/jnjnliwenjie0022) from ~/.ssh/id_rsa.pub
+```
+```
+git clone git@github.com:jnjnliwenjie0022/obs.git
 ```
