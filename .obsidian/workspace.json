@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "dv/harness.md",
+                "file": "de/fpu/f16macksa.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -73,7 +73,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "dv/harness.md"
+                "file": "de/fpu/f16macksa.md"
               }
             }
           }
@@ -124,7 +124,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "dv/harness.md",
+                "file": "de/fpu/f16macksa.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -141,7 +141,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "dv/harness.md",
+                "file": "de/fpu/f16macksa.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -166,6 +166,7 @@
   },
   "active": "f8e1e449e4e8a7f8",
   "lastOpenFiles": [
+    "dv/harness.md",
     "dv/harness/top.sv",
     "dv/harness/tmp_tb.sv",
     "dv/harness/tb.sv",
@@ -176,13 +177,11 @@
     "dv/harness/my_monitor.sv",
     "dv/harness/my_model.sv",
     "dv/harness/my_if.sv",
-    "dv/harness/my_env.sv",
     "workflow/synopsys.md",
     "de/fpu/f16mac.md",
     "ToDoList.md",
     "README.md",
     "3C ranking.md",
-    "dv/harness.md",
     "dv/uvmc/uvmc.md",
     "diary/work/2024-03-27.md",
     "de/arbiter/arbiter.md",
