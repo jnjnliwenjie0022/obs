@@ -9,7 +9,8 @@ https://blog.csdn.net/edablog/article/details/9033249
 https://zhuanlan.zhihu.com/p/613869870
 
 # README
-linux distribution: Ubuntu-16.04
+linux distribution: Ubuntu 22.04.2 LTS
+
 ```
 #copy from HDD to ubutnu for synopsys dir
 sudo apt-get install tar
