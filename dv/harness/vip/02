@@ -1,2 +1,0 @@
-rm -r -f dump.vcd
-wave -input wave.svcf dump.shm
