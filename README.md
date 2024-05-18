@@ -121,7 +121,8 @@ vim .gitconfig
 [credential]
 	helper = cache --timeout 99986400
 ```
-## without ssh
+### without ssh
+會需要一直打username and token, 所以比較不推薦
 ```
 git clone https://github.com/jnjnliwenjie0022/obs.git
 
