@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "de/fpu/f16mac.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -73,7 +73,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "de/fpu/f16mac.md"
               }
             }
           }
@@ -124,7 +124,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "de/fpu/f16mac.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -141,7 +141,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "de/fpu/f16mac.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -166,6 +166,9 @@
   },
   "active": "f8e1e449e4e8a7f8",
   "lastOpenFiles": [
+    "ToDoList.md",
+    "README.md",
+    "3C ranking.md",
     "dv/harness.md",
     "dv/harness/vip/vip/tb.sv",
     "dv/harness/vip/vip",
@@ -180,17 +183,14 @@
     "dv/uvmc/uvmc.md",
     "de/fpu/f16mac.md",
     "diary/work/2024-03-27.md",
-    "ToDoList.md",
     "de/arbiter/arbiter.md",
     "workflow/git.md",
-    "README.md",
     "workflow/tmux.md",
     "workflow/synopsys.md",
     "workflow/nvim.md",
     "src/site/notes/homepage.md",
     "workflow/github.md",
     "de/lut.md",
-    "3C ranking.md",
     "de/mdu/mdu.md",
     "de/fifo/fifo.md",
     "de/fpu/f16macksa.md",
