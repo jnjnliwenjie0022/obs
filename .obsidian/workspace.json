@@ -11,10 +11,12 @@
             "id": "f8e1e449e4e8a7f8",
             "type": "leaf",
             "state": {
-              "type": "diff-view",
+              "type": "markdown",
               "state": {
-                "file": "de/fpu/f16macksa.md",
-                "staged": false
+                "file": "dv/harness.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
               }
             }
           }
@@ -70,7 +72,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "dv/harness.md"
+              }
             }
           }
         ],
@@ -120,6 +124,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "dv/harness.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -136,6 +141,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "dv/harness.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
