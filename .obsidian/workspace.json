@@ -164,11 +164,13 @@
       "command-palette:Open command palette": true
     }
   },
-  "active": "19a60b1e44f4e87a",
+  "active": "22a5ad85e375ed8b",
   "lastOpenFiles": [
-    "dv/harness",
+    "dv/harness/include/test",
     "dv/harness/ref/Verification Prowess with the UVM Harness.pdf",
     "dv/harness/harness.md",
+    "dv/harness/include",
+    "dv/harness",
     "dv/harness/ref",
     "ToDoList.md",
     "de/fpu/f16macksa.md",
@@ -177,9 +179,6 @@
     "dv/harness/code_harness/tb.sv",
     "dv/harness/code_harness/my_transaction.sv",
     "dv/harness/code_harness/my_sequencer.sv",
-    "dv/harness/code_harness/my_sequence.sv",
-    "dv/harness/code_harness/my_scoreboard.sv",
-    "dv/harness/code_harness/my_monitor.sv",
     "workflow/synopsys.md",
     "de/fpu/f16mac.md",
     "README.md",
