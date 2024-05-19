@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "dv/harness/harness.md",
+                "file": "dv/sequence.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -73,7 +73,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "dv/harness/harness.md"
+                "file": "dv/sequence.md"
               }
             }
           }
@@ -124,7 +124,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "dv/harness/harness.md",
+                "file": "dv/sequence.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -141,7 +141,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "dv/harness/harness.md",
+                "file": "dv/sequence.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -166,8 +166,9 @@
   },
   "active": "22a5ad85e375ed8b",
   "lastOpenFiles": [
-    "dv/harness/ref/Verification Prowess with the UVM Harness.pdf",
     "dv/harness/harness.md",
+    "dv/sequence.md",
+    "dv/harness/ref/Verification Prowess with the UVM Harness.pdf",
     "dv/harness/include/Pasted image 20240519232041.png",
     "dv/harness/include/test",
     "dv/harness/include",
