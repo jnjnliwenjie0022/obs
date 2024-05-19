@@ -3,17 +3,17 @@
 `define MY_IF__SV
 
 interface dut_interface (
-    input bit clk
+     clk
+    ,resetn
+    ,i_data
+    ,o_data
 );
 
+input clk;
+input resetn;
+input [7:0] i_data;
+input [7:0] o_data;
 
-logic clk;
-logic resetn;
-
-clocking cb @ (posedge clk);
-    input i_data;
-    output o_data;
-endclocking
 endinterface
 
 module dut_harness ();

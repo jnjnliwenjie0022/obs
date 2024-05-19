@@ -1,23 +1,27 @@
 `include "uvm_macros.svh"
 import uvm_pkg::*;
 
-//class harness_monitor extends uvm_monitor;
-//
-//    `uvm_component_utils(harness_monitor)
-//endclass
-
 class harness_sequence extends uvm_sequence;
+
     function new(string name = "harness_sequence");
         super.new(name);
     endfunction
 
+    // {{{1 pre_body
     virtual task pre_body();
-        if(starting_phase != null) starting_phase.raise_objection(this,get_type_name());
-    endtask
+        int count;
 
+        if(starting_phase != null) starting_phase.raise_objection(this,get_type_name());
+
+        if(!uvm_config_db#(int)::get(null,get_full_name(),"count",count)) `uvm_fatal("body","fail");
+        `uvm_info(get_full_name(), $sformatf("count: %d", count), UVM_LOW);
+    endtask
+    // }}}1
+    // {{{1 post_body
     virtual task post_body();
         if(starting_phase != null) starting_phase.drop_objection(this,get_type_name());
     endtask
+    // }}}1
 
     virtual task body();
         repeat(10) begin
@@ -32,6 +36,11 @@ endclass
 class harness_env extends uvm_env;
     function new(string name = "harness_env", uvm_component parent);
         super.new(name, parent);
+    endfunction
+
+    virtual function void build_phase(uvm_phase phase);
+        super.build_phase(phase);
+        uvm_config_db#(int)::set(null,"h_seq","count",9);
     endfunction
 
     task main_phase (uvm_phase phase);
@@ -65,6 +74,16 @@ initial begin
     end
 end
 
+//top u_top (
+//     .clk     (clk     )
+//    ,.resetn  (resetn  )
+//    ,.i_data  (i_data  )
+//    ,.o_data0 (o_data0 )
+//    ,.o_data1 (o_data1 )
+//    ,.o_data2 (o_data2 )
+//    ,.o_data3 (o_data3 )
+//);
+
 initial begin
     $fsdbDumpfile("tb.fsdb");
     $fsdbDumpvars(0, tb);
@@ -75,3 +94,4 @@ initial begin
 end
 
 endmodule
+
