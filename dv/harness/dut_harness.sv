@@ -2,31 +2,27 @@
 `ifndef MY_IF__SV
 `define MY_IF__SV
 
-interface my_if
-    ( input clk,
-      input rst_n,
-      input  [7:0] data,
-      input valid
-                );
-
-endinterface
-
-module dut_harness (
-     clk
-    ,resetn
+interface dut_interface (
+    input bit clk
 );
 
-input clk;
-input resetn;
+
+logic clk;
+logic resetn;
+
+clocking cb @ (posedge clk);
+    input i_data;
+    output o_data;
+endclocking
+endinterface
+
+module dut_harness ();
 
 initial begin
     `uvm_info("dut_harness", "declare harness", UVM_LOW);
 end
 
-dut_interface dut_if (
-     .clk    (clk    )
-    ,.resetn (resetn )
-);
+dut_interface dut_if ();
 
 function void connect (string path);
     force dut.i_data = dut_if.i_data;
