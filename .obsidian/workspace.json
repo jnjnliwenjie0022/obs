@@ -94,8 +94,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 276.5,
-    "collapsed": true
+    "width": 276.5
   },
   "right": {
     "id": "cb661d0a10776c07",
@@ -162,7 +161,7 @@
       "command-palette:Open command palette": true
     }
   },
-  "active": "8cb3b947f548a8b1",
+  "active": "19a60b1e44f4e87a",
   "lastOpenFiles": [
     "dv/sequence.md",
     "dv/harness/harness.md",
