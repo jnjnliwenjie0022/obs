@@ -46,6 +46,7 @@ uvm_config_db#(int)::set(null,"<get_full_name()>","count1",10);
 在seq中使用get_full_name(),得到需要的絕對路徑
 
 # order_of_starting_sequence
+https://www.cnblogs.com/htaozy/p/8051849.html
 
 
 

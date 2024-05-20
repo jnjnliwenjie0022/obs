@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "dv/sequence.md",
+                "file": "dv/harness/harness.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -73,7 +73,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "dv/sequence.md"
+                "file": "dv/harness/harness.md"
               }
             }
           }
@@ -124,7 +124,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "dv/sequence.md",
+                "file": "dv/harness/harness.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -141,7 +141,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "dv/sequence.md",
+                "file": "dv/harness/harness.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -166,13 +166,14 @@
   },
   "active": "f8e1e449e4e8a7f8",
   "lastOpenFiles": [
+    "dv/harness/ref/Verification Prowess with the UVM Harness.pdf",
+    "dv/harness/harness.md",
     "dv/sequence.md",
     "workflow/tnv.md",
-    "dv/harness/harness.md",
+    "de/arithmetic/booth.md",
     "dv/harness/include/Pasted image 20240520145623.png",
     "dv/harness/include/Pasted image 20240520145541.png",
     "dv/harness.md",
-    "dv/harness/ref/Verification Prowess with the UVM Harness.pdf",
     "dv/harness/ref",
     "dv/harness/include/Pasted image 20240519232041.png",
     "dv/harness/include",
@@ -203,8 +204,6 @@
     "de/fifo/fifo.md",
     "de/fpu/f16macksa.md",
     "de/fpu/f16div.md",
-    "de/fpu/f16dsu.md",
-    "mgmt/mgmt.md",
     "dv/sc/include/Pasted image 20240510155959.png",
     "dv/sc/include/Pasted image 20240510170505.png",
     "dv/sc/include/Pasted image 20240510170535.png",
