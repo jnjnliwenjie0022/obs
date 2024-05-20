@@ -31,7 +31,7 @@
 	```
 3. 透過`uvm_do (不推薦)
 	只能實作在sequence中
-# uvm_do
+# \`uvm_do
 [uvm_do系列](https://www.cnblogs.com/htaozy/p/8051849.html)
 [uvm_do marco分析](https://blog.csdn.net/lbt_dvshare/article/details/86700415)
 ![[uvm_do_on_pri_with.canvas|uvm_do_on_pri_with]]
@@ -41,8 +41,34 @@
 3. finish_item (SEQ_OR_ITEM, PRIORITY)
 如果是SEQ，則
 1. start（SEQR，this，PRIORITY， 0）
+---
+For a sequence item, the following are called, in order
+1. [start_item()]\`uvm_create(item)
+2. [start_item()]sequencer.wait_for_grant(prior) (task)
+3. this.pre_do(1) (task)
+4. item.randomize()
+5. this.mid_do(item) (func)
+6. [finish_item()]sequencer.send_request(item) (func)
+7. [finish_item()]sequencer.wait_for_item_done() (task)
+8. [finish_item()]this.post_do(item) (func)
+---
+For a sequence, the following are called, in order
+根據**`start`**的執行順序去執行
+1. \`uvm_create(sub_seq)
+2. sub_seq.randomize()
+3. [start()]sub_seq.pre_start() (task)
+4. [start()]this.pre_do(0) (task)
+5. [start()]this.mid_do(sub_seq) (func)
+6. [start()]sub_seq.body() (task)
+7. [start()]this.post_do(sub_seq) (func)
+8. [start()]sub_seq.post_start() (task)
+![[Pasted image 20240521012610.png|1000]]
+# seq.start()
 
 
+
+
+https://verificationacademy.com/forums/t/sequence-not-getting-config-object-from-config-db/41958/8
 # uvm_config_db
 
 in sequence
@@ -58,4 +84,4 @@ uvm_config_db#(int)::set(null,"<get_full_name()>","count1",10);
 
 
 
-https://verificationacademy.com/forums/t/sequence-not-getting-config-object-from-config-db/41958/8
+

@@ -19,24 +19,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "7f5278c65a60d904",
-            "type": "leaf",
-            "state": {
-              "type": "canvas",
-              "state": {
-                "file": "dv/uvm/uvm_do_on_pri_with.canvas",
-                "viewState": {
-                  "x": -491,
-                  "y": -506.49112426035487,
-                  "zoom": -0.6131410340327502
-                }
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -89,7 +73,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "dv/uvm/uvm_do_on_pri_with.canvas"
+                "file": "dv/uvm/sequence.md"
               }
             }
           }
@@ -140,7 +124,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "dv/uvm/uvm_do_on_pri_with.canvas",
+                "file": "dv/uvm/sequence.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -157,7 +141,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "dv/uvm/uvm_do_on_pri_with.canvas",
+                "file": "dv/uvm/sequence.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -180,10 +164,11 @@
       "command-palette:Open command palette": true
     }
   },
-  "active": "7f5278c65a60d904",
+  "active": "52ddb0578a4b55c2",
   "lastOpenFiles": [
+    "dv/uvm/include/uvm_do_on_pri_with.canvas",
     "dv/uvm/sequence.md",
-    "dv/uvm/uvm_do_on_pri_with.canvas",
+    "dv/uvm/include/Pasted image 20240521012610.png",
     "dv/uvm/uvm_do.canvas",
     "dv/uvm/include",
     "dv/uvm/include/Pasted image 20240520213839.png",
@@ -228,7 +213,6 @@
     "dv/sc/include/Pasted image 20240510170505.png",
     "dv/sc/include/Pasted image 20240510170535.png",
     "workflow/include/git.svg",
-    "workflow/include/workflow.svg",
     "Untitled.canvas",
     "Untitled 1.canvas",
     "債券/債券.canvas"
