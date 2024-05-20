@@ -60,5 +60,38 @@ uvm_config_db#(int)::set(null,"<get_full_name()>","count1",10);
   else __seq.start(SEQR, this, PRIORITY, 0); \
   end
 ```
-![[Pasted image 20240520213839.png]]
+![[Pasted image 20240520213839.png]] 
+```verilog
+`define uvm_create_on(SEQ_OR_ITEM, SEQR) \
+  begin \
+  uvm_object_wrapper w_; \
+  w_ = SEQ_OR_ITEM.get_type(); \
+  $cast(SEQ_OR_ITEM , create_item(w_, SEQR, `"SEQ_OR_ITEM`"));\
+  end
+```
+```verilog
+// Function: create_item
+  //
+  // Create_item will create and initialize a sequence_item or sequence
+  // using the factory.  The sequence_item or sequence will be initialized
+  // to communicate with the specified sequencer.
+
+  protected function uvm_sequence_item create_item(uvm_object_wrapper type_var, 
+                                                   uvm_sequencer_base l_sequencer, string name);
+
+    uvm_coreservice_t cs = uvm_coreservice_t::get();                                                     
+    uvm_factory factory=cs.get_factory();
+    $cast(create_item,  factory.create_object_by_type( type_var, this.get_full_name(), name ));
+
+    create_item.set_item_context(this, l_sequencer);
+  endfunction
+```
+
+
+
+
+
+
+
+
 https://verificationacademy.com/forums/t/sequence-not-getting-config-object-from-config-db/41958/8
