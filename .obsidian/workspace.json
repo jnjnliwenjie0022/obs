@@ -11,8 +11,10 @@
             "id": "52ddb0578a4b55c2",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "pdf",
+              "state": {
+                "file": "dv/harness/ref/Verification Prowess with the UVM Harness.pdf"
+              }
             }
           }
         ]
@@ -67,7 +69,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "dv/harness/ref/Verification Prowess with the UVM Harness.pdf"
+              }
             }
           }
         ],
@@ -117,6 +121,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "dv/harness/ref/Verification Prowess with the UVM Harness.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,6 +138,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "dv/harness/ref/Verification Prowess with the UVM Harness.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
