@@ -13,11 +13,11 @@
             "state": {
               "type": "canvas",
               "state": {
-                "file": "dv/order_of_starting_sequence.canvas",
+                "file": "dv/rename order_of_starting_sequence.canvas",
                 "viewState": {
-                  "x": -38.5,
-                  "y": -590,
-                  "zoom": -0.5693092364096709
+                  "x": -620.0482470613224,
+                  "y": -892.21994782569,
+                  "zoom": 0.2640240969236626
                 }
               }
             }
@@ -88,7 +88,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "dv/order_of_starting_sequence.canvas"
+                "file": "dv/rename order_of_starting_sequence.canvas"
               }
             }
           }
@@ -139,7 +139,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "dv/order_of_starting_sequence.canvas",
+                "file": "dv/rename order_of_starting_sequence.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -156,7 +156,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "dv/order_of_starting_sequence.canvas",
+                "file": "dv/rename order_of_starting_sequence.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -179,10 +179,10 @@
       "command-palette:Open command palette": true
     }
   },
-  "active": "19a60b1e44f4e87a",
+  "active": "d7c99ac0a6f812dc",
   "lastOpenFiles": [
+    "dv/rename order_of_starting_sequence.canvas",
     "dv/sequence.md",
-    "dv/order_of_starting_sequence.canvas",
     "dv/include/Pasted image 20240520213839.png",
     "dv/include",
     "dv/harness/harness.md",
