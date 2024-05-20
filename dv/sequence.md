@@ -47,7 +47,7 @@ uvm_config_db#(int)::set(null,"<get_full_name()>","count1",10);
 
 # order_of_starting_sequence
 [uvm_do系列](https://www.cnblogs.com/htaozy/p/8051849.html)
-```s
+```verilog
 `define uvm_do_on_pri_with(SEQ_OR_ITEM, SEQR, PRIORITY, CONSTRAINTS) \
   begin \
   uvm_sequence_base __seq; \
@@ -60,6 +60,5 @@ uvm_config_db#(int)::set(null,"<get_full_name()>","count1",10);
   else __seq.start(SEQR, this, PRIORITY, 0); \
   end
 ```
-
-
+![[Pasted image 20240520213839.png]]
 https://verificationacademy.com/forums/t/sequence-not-getting-config-object-from-config-db/41958/8
