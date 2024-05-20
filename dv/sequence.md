@@ -15,7 +15,7 @@
 	endtask
 	```
 2. 透過default_sequence
-	https://east1203.github.io/2019/08/24/Verification/UVM/UVM%E2%80%94%E2%80%94phase%20objection/
+	[UVM——phase objection](https://east1203.github.io/2019/08/24/Verification/UVM/UVM%E2%80%94%E2%80%94phase%20objection/)
 	```verilog
 	// seq必須是作為sqr的某個phase的defualt_sequence
 	// seqr在啟動sequence的時候會默認如下操作
@@ -46,8 +46,20 @@ uvm_config_db#(int)::set(null,"<get_full_name()>","count1",10);
 在seq中使用get_full_name(),得到需要的絕對路徑
 
 # order_of_starting_sequence
-https://www.cnblogs.com/htaozy/p/8051849.html
-
+[uvm_do系列](https://www.cnblogs.com/htaozy/p/8051849.html)
+```s
+`define uvm_do_on_pri_with(SEQ_OR_ITEM, SEQR, PRIORITY, CONSTRAINTS) \
+  begin \
+  uvm_sequence_base __seq; \
+  `uvm_create_on(SEQ_OR_ITEM, SEQR) \
+  if (!$cast(__seq,SEQ_OR_ITEM)) start_item(SEQ_OR_ITEM, PRIORITY);\
+  if ((__seq == null || !__seq.do_not_randomize) && !SEQ_OR_ITEM.randomize() with CONSTRAINTS ) begin \
+    `uvm_warning("RNDFLD", "Randomization failed in uvm_do_with action") \
+  end\
+  if (!$cast(__seq,SEQ_OR_ITEM)) finish_item(SEQ_OR_ITEM, PRIORITY); \
+  else __seq.start(SEQR, this, PRIORITY, 0); \
+  end
+```
 
 
 https://verificationacademy.com/forums/t/sequence-not-getting-config-object-from-config-db/41958/8
