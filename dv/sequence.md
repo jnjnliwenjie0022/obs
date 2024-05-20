@@ -32,17 +32,21 @@
 3. 透過`uvm_do (不推薦)
 	只能實作在sequence中
 
-# config_db
+# uvm_config_db
 
 in sequence
-    ```verilog
-    if(!uvm_config_db#(int)::get(null,get_full_name(),"count1",count1))
-    	`uvm_fatal("int","fail");
-    ```
+```verilog
+if(!uvm_config_db#(int)::get(null,get_full_name(),"count1",count1))
+	`uvm_fatal("int","fail");
+```
 out sequence
-    uvm_config_db#(int)::set(null,"<get_full_name()>","count1",10);
-    1. 在seq中get_full_name(),得到需要的絕對路徑
+```verilog
+uvm_config_db#(int)::set(null,"<get_full_name()>","count1",10);
+```
+在seq中使用get_full_name(),得到需要的絕對路徑
 
-# sequence
+# order_of_starting_sequence
+
+
 
 https://verificationacademy.com/forums/t/sequence-not-getting-config-object-from-config-db/41958/8
