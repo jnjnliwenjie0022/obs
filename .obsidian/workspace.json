@@ -29,8 +29,8 @@
                 "file": "dv/uvm/uvm_do_on_pri_with.canvas",
                 "viewState": {
                   "x": -491,
-                  "y": -1630,
-                  "zoom": -0.294778268412926
+                  "y": -506.49112426035487,
+                  "zoom": -0.6131410340327502
                 }
               }
             }
@@ -182,9 +182,9 @@
   },
   "active": "7f5278c65a60d904",
   "lastOpenFiles": [
-    "dv/uvm/uvm_do.canvas",
     "dv/uvm/sequence.md",
     "dv/uvm/uvm_do_on_pri_with.canvas",
+    "dv/uvm/uvm_do.canvas",
     "dv/uvm/include",
     "dv/uvm/include/Pasted image 20240520213839.png",
     "dv/sv/polymorphism.md",

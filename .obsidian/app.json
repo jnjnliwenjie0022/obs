@@ -2,7 +2,7 @@
   "promptDelete": true,
   "showLineNumber": true,
   "vimMode": false,
-  "strictLineBreaks": false,
+  "strictLineBreaks": true,
   "readableLineLength": false,
   "livePreview": true,
   "defaultViewMode": "preview",
