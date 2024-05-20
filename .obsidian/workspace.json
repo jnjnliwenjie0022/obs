@@ -11,14 +11,12 @@
             "id": "52ddb0578a4b55c2",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "dv/rename order_of_starting_sequence.canvas",
-                "viewState": {
-                  "x": -981.8775133009368,
-                  "y": -1562.987485915513,
-                  "zoom": 0.417885861587874
-                }
+                "file": "dv/sequence.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
               }
             }
           }
@@ -75,7 +73,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "dv/rename order_of_starting_sequence.canvas"
+                "file": "dv/sequence.md"
               }
             }
           }
@@ -126,7 +124,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "dv/rename order_of_starting_sequence.canvas",
+                "file": "dv/sequence.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -143,7 +141,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "dv/rename order_of_starting_sequence.canvas",
+                "file": "dv/sequence.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -168,8 +166,9 @@
   },
   "active": "52ddb0578a4b55c2",
   "lastOpenFiles": [
+    "dv/uvm_do_on_pri_with.canvas",
+    "dv/sequence.md",
     "dv/cast/README.md",
-    "dv/rename order_of_starting_sequence.canvas",
     "dv/include/git.svg",
     "dv/include/Pasted image 20240520213839.png",
     "dv/harness/include/Pasted image 20240520145623.png",
@@ -188,7 +187,6 @@
     "dv/include",
     "dv/harness/code_harness_v2_error/README.md",
     "dv/harness/code_harness_v2/README.md",
-    "dv/sequence.md",
     "ToDoList.md",
     "de/fpu/f16macksa.md",
     "workflow/synopsys.md",

@@ -45,8 +45,8 @@ uvm_config_db#(int)::set(null,"<get_full_name()>","count1",10);
 ```
 在seq中使用get_full_name(),得到需要的絕對路徑
 
-# order_of_starting_sequence
+# sequence_macro
 [uvm_do系列](https://www.cnblogs.com/htaozy/p/8051849.html)
-
+[[uvm_do_on_pri_with.canvas|uvm_do_on_pri_with]]
 
 https://verificationacademy.com/forums/t/sequence-not-getting-config-object-from-config-db/41958/8
