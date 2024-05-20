@@ -11,9 +11,12 @@
             "id": "52ddb0578a4b55c2",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "dv/harness/ref/Verification Prowess with the UVM Harness.pdf"
+                "file": "dv/harness/harness.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
               }
             }
           }
@@ -70,7 +73,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "dv/harness/ref/Verification Prowess with the UVM Harness.pdf"
+                "file": "dv/harness/harness.md"
               }
             }
           }
@@ -121,7 +124,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "dv/harness/ref/Verification Prowess with the UVM Harness.pdf",
+                "file": "dv/harness/harness.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -138,7 +141,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "dv/harness/ref/Verification Prowess with the UVM Harness.pdf",
+                "file": "dv/harness/harness.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,23 +164,26 @@
       "command-palette:Open command palette": true
     }
   },
-  "active": "19a60b1e44f4e87a",
+  "active": "52ddb0578a4b55c2",
   "lastOpenFiles": [
+    "dv/harness/ref/Verification Prowess with the UVM Harness.pdf",
+    "dv/harness/code_harness_v2_error/top.sv",
+    "dv/harness/code_harness_v2_error/tb.sv",
+    "dv/harness/code_harness_v2_error/README.md",
+    "dv/harness/code_harness_v2_error/flist",
+    "dv/harness/code_harness_v2_error/dut_harness.sv",
+    "dv/harness/code_harness_v2_error/Makefile",
+    "dv/harness/code_harness_v2_error/dut.sv",
+    "dv/harness/code_harness_v2_error",
+    "dv/harness/code_harness_v2/top.sv",
+    "dv/harness/code_harness_v2/Makefile",
+    "dv/harness/code_harness_v2/tb.sv",
+    "dv/harness/code_harness_v2/README.md",
     "dv/sequence.md",
     "dv/harness/harness.md",
-    "dv/harness/ref/Verification Prowess with the UVM Harness.pdf",
     "dv/harness/include/Pasted image 20240519232041.png",
-    "dv/harness/include/test",
-    "dv/harness/include",
-    "dv/harness",
-    "dv/harness/ref",
     "ToDoList.md",
     "de/fpu/f16macksa.md",
-    "dv/harness/code_harness/top.sv",
-    "dv/harness/code_harness/tmp_tb.sv",
-    "dv/harness/code_harness/tb.sv",
-    "dv/harness/code_harness/my_transaction.sv",
-    "dv/harness/code_harness/my_sequencer.sv",
     "workflow/synopsys.md",
     "de/fpu/f16mac.md",
     "README.md",
@@ -197,9 +203,6 @@
     "de/fpu/f16dsu.md",
     "mgmt/mgmt.md",
     "dv/sw/ld.md",
-    "workflow/tnv.md",
-    "de/arithmetic/booth.md",
-    "dv/sc/sc.md",
     "dv/sc/include/Pasted image 20240510155959.png",
     "dv/sc/include/Pasted image 20240510170505.png",
     "dv/sc/include/Pasted image 20240510170535.png",
