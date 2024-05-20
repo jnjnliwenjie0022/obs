@@ -1,4 +1,5 @@
 # start_sequence
+
 1. 透過start()
 	```verilog
 	// start task要傳入sequencer pointer，如果不指定pointer，則sequence不知道要將產生的trasacntion交給哪個sequencer
