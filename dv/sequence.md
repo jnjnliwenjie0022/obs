@@ -6,11 +6,11 @@
 	task my_env::main_phase(uvm_phase phase)
 	    my_sequence seq;
 	    phase.raise_objection(this);
-	
+
 	    seq = my_sequence::type_id::create("seq");
 	    seq.starting_phase = phase;
 	    seq.start(i_agt.sqr);
-	
+
 	    phase.drop_objection(this);
 	endtask
 	```
@@ -39,6 +39,8 @@ if(!uvm_config_db#(virtual dut_interface)::get(null,get_full_name(),"vif0",vif0)
 	`uvm_fatal("vif0","fail");
 ```
 out sequence
-
+:
 # sequence
 https://verificationacademy.com/forums/t/sequence-not-getting-config-object-from-config-db/41958/8
+
+test
