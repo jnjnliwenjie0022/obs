@@ -11,14 +11,9 @@
             "id": "52ddb0578a4b55c2",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "image",
               "state": {
-                "file": "dv/rename order_of_starting_sequence.canvas",
-                "viewState": {
-                  "x": -528.4534601212255,
-                  "y": -2227.9416950315035,
-                  "zoom": 0.16008810412022745
-                }
+                "file": "dv/include/git.svg"
               }
             }
           }
@@ -75,7 +70,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "dv/rename order_of_starting_sequence.canvas"
+                "file": "dv/include/git.svg"
               }
             }
           }
@@ -126,7 +121,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "dv/rename order_of_starting_sequence.canvas",
+                "file": "dv/include/git.svg",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -143,7 +138,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "dv/rename order_of_starting_sequence.canvas",
+                "file": "dv/include/git.svg",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -168,6 +163,12 @@
   },
   "active": "52ddb0578a4b55c2",
   "lastOpenFiles": [
+    "dv/include/Pasted image 20240520213839.png",
+    "dv/include/git.svg",
+    "dv/harness/include/Pasted image 20240520145623.png",
+    "dv/harness/include/Pasted image 20240519232041.png",
+    "dv/harness/include/Pasted image 20240520145541.png",
+    "dv/rename order_of_starting_sequence.canvas",
     "dv/cast/main",
     "dv/cast/README.md~",
     "dv/cast/4913",
@@ -179,16 +180,10 @@
     "dv/cast/Makefile",
     "dv/cast",
     "dv/harness/harness.md",
-    "dv/rename order_of_starting_sequence.canvas",
-    "dv/include/Pasted image 20240520213839.png",
     "dv/include",
-    "dv/harness/include/Pasted image 20240520145623.png",
-    "dv/harness/include/Pasted image 20240520145541.png",
-    "dv/harness/ref/Verification Prowess with the UVM Harness.pdf",
     "dv/harness/code_harness_v2_error/README.md",
     "dv/harness/code_harness_v2/README.md",
     "dv/sequence.md",
-    "dv/harness/include/Pasted image 20240519232041.png",
     "ToDoList.md",
     "de/fpu/f16macksa.md",
     "workflow/synopsys.md",
@@ -214,7 +209,6 @@
     "dv/sc/include/Pasted image 20240510170535.png",
     "workflow/include/git.svg",
     "workflow/include/workflow.svg",
-    "workflow/include/axi4.0.svg",
     "Untitled.canvas",
     "Untitled 1.canvas",
     "債券/債券.canvas"
