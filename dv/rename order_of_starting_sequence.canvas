@@ -4,7 +4,7 @@
 		{"id":"a8804fe97f067bd5","type":"file","file":"dv/include/Pasted image 20240520213839.png","x":-1100,"y":-1340,"width":478,"height":940},
 		{"id":"987705231ad3abe4","type":"text","text":"```verilog\n`define uvm_create_on(SEQ_OR_ITEM, SEQR) \\\n  begin \\\n  uvm_object_wrapper w_; \\\n  w_ = SEQ_OR_ITEM.get_type(); \\\n  $cast(SEQ_OR_ITEM , create_item(w_, SEQR, `\"SEQ_OR_ITEM`\"));\\\n  end\n```","x":-580,"y":-1340,"width":1380,"height":300},
 		{"id":"20c575c4d553602b","type":"text","text":"```verilog\n`define uvm_do_on_pri_with(SEQ_OR_ITEM, SEQR, PRIORITY, CONSTRAINTS) \\\n  begin \\\n  uvm_sequence_base __seq; \\\n  `uvm_create_on(SEQ_OR_ITEM, SEQR) \\\n  if (!$cast(__seq,SEQ_OR_ITEM)) start_item(SEQ_OR_ITEM, PRIORITY);\\\n  if ((__seq == null || !__seq.do_not_randomize) && !SEQ_OR_ITEM.randomize() with CONSTRAINTS ) begin \\\n    `uvm_warning(\"RNDFLD\", \"Randomization failed in uvm_do_with action\") \\\n  end\\\n  if (!$cast(__seq,SEQ_OR_ITEM)) finish_item(SEQ_OR_ITEM, PRIORITY); \\\n  else __seq.start(SEQR, this, PRIORITY, 0); \\\n  end\n```","x":-1100,"y":-1820,"width":1900,"height":440},
-		{"id":"4bd04e8d572a5815","x":-1158,"y":-2000,"width":958,"height":100,"type":"text","text":"SEQ_OR_ITEM可以是seq or item"}
+		{"id":"4bd04e8d572a5815","type":"text","text":"SEQ_OR_ITEM可以是seq or item","x":-1158,"y":-2000,"width":958,"height":100}
 	],
 	"edges":[]
 }

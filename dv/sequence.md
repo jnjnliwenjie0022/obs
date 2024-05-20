@@ -48,14 +48,5 @@ uvm_config_db#(int)::set(null,"<get_full_name()>","count1",10);
 # order_of_starting_sequence
 [uvm_do系列](https://www.cnblogs.com/htaozy/p/8051849.html)
 
-![[Pasted image 20240520213839.png]] 
-
-
-
-
-
-
-
-
 
 https://verificationacademy.com/forums/t/sequence-not-getting-config-object-from-config-db/41958/8

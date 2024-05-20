@@ -15,9 +15,9 @@
               "state": {
                 "file": "dv/rename order_of_starting_sequence.canvas",
                 "viewState": {
-                  "x": -620.0482470613224,
-                  "y": -892.21994782569,
-                  "zoom": 0.2640240969236626
+                  "x": -179,
+                  "y": -1200,
+                  "zoom": -0.6624186408011524
                 }
               }
             }
@@ -181,8 +181,8 @@
   },
   "active": "d7c99ac0a6f812dc",
   "lastOpenFiles": [
-    "dv/rename order_of_starting_sequence.canvas",
     "dv/sequence.md",
+    "dv/rename order_of_starting_sequence.canvas",
     "dv/include/Pasted image 20240520213839.png",
     "dv/include",
     "dv/harness/harness.md",
