@@ -11,9 +11,14 @@
             "id": "52ddb0578a4b55c2",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "canvas",
               "state": {
-                "file": "dv/include/git.svg"
+                "file": "dv/rename order_of_starting_sequence.canvas",
+                "viewState": {
+                  "x": -641.7618070664649,
+                  "y": -1263.8435857781128,
+                  "zoom": -0.082114138412126
+                }
               }
             }
           }
@@ -70,7 +75,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "dv/include/git.svg"
+                "file": "dv/rename order_of_starting_sequence.canvas"
               }
             }
           }
@@ -121,7 +126,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "dv/include/git.svg",
+                "file": "dv/rename order_of_starting_sequence.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -138,7 +143,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "dv/include/git.svg",
+                "file": "dv/rename order_of_starting_sequence.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -163,16 +168,16 @@
   },
   "active": "52ddb0578a4b55c2",
   "lastOpenFiles": [
-    "dv/include/Pasted image 20240520213839.png",
+    "dv/cast/README.md",
+    "dv/rename order_of_starting_sequence.canvas",
     "dv/include/git.svg",
+    "dv/include/Pasted image 20240520213839.png",
     "dv/harness/include/Pasted image 20240520145623.png",
     "dv/harness/include/Pasted image 20240519232041.png",
     "dv/harness/include/Pasted image 20240520145541.png",
-    "dv/rename order_of_starting_sequence.canvas",
     "dv/cast/main",
     "dv/cast/README.md~",
     "dv/cast/4913",
-    "dv/cast/README.md",
     "dv/cast/main.cpp~",
     "dv/cast/Makefile~",
     "dv/cast/main.o",
