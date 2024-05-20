@@ -33,14 +33,16 @@
 	只能實作在sequence中
 
 # config_db
-in sequence
-```verilog
-if(!uvm_config_db#(virtual dut_interface)::get(null,get_full_name(),"vif0",vif0))
-	`uvm_fatal("vif0","fail");
-```
-out sequence
-:
-# sequence
-https://verificationacademy.com/forums/t/sequence-not-getting-config-object-from-config-db/41958/8
 
-tets
+in sequence
+    ```verilog
+    if(!uvm_config_db#(int)::get(null,get_full_name(),"count1",count1))
+    	`uvm_fatal("int","fail");
+    ```
+out sequence
+    uvm_config_db#(int)::set(null,"<get_full_name()>","count1",10);
+    1. 在seq中get_full_name(),得到需要的絕對路徑
+
+# sequence
+
+https://verificationacademy.com/forums/t/sequence-not-getting-config-object-from-config-db/41958/8
