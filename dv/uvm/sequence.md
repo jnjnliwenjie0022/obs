@@ -31,7 +31,10 @@
 	```
 3. 透過`uvm_do (不推薦)
 	只能實作在sequence中
-
+# sequence_macro
+[uvm_do系列](https://www.cnblogs.com/htaozy/p/8051849.html)
+[uvm_do marco分析](https://blog.csdn.net/lbt_dvshare/article/details/86700415)
+![[uvm_do_on_pri_with.canvas|uvm_do_on_pri_with]]
 # uvm_config_db
 
 in sequence
@@ -43,10 +46,8 @@ out sequence
 ```verilog
 uvm_config_db#(int)::set(null,"<get_full_name()>","count1",10);
 ```
-在seq中使用get_full_name(),得到需要的絕對路徑
+在seq中使用get_full_name(),得到需要的絕對路徑文字
 
-# sequence_macro
-[uvm_do系列](https://www.cnblogs.com/htaozy/p/8051849.html)
-[[uvm_do_on_pri_with.canvas|uvm_do_on_pri_with]]
+
 
 https://verificationacademy.com/forums/t/sequence-not-getting-config-object-from-config-db/41958/8
