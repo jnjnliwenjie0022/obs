@@ -64,8 +64,7 @@ For a sequence, the following are called, in order
 8. [start()]sub_seq.post_start() (task)
 ![[Pasted image 20240521012610.png|1000]]
 # seq.start()
-
-
+[How to start a sequence?](https://vlsiverify.com/uvm/start-a-sequence/)
 
 
 https://verificationacademy.com/forums/t/sequence-not-getting-config-object-from-config-db/41958/8

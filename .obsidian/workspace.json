@@ -164,10 +164,12 @@
       "command-palette:Open command palette": true
     }
   },
-  "active": "52ddb0578a4b55c2",
+  "active": "19a60b1e44f4e87a",
   "lastOpenFiles": [
-    "dv/uvm/include/uvm_do_on_pri_with.canvas",
+    "dv/uvm/code_sequnce",
+    "dv/uvm/Untitled.md",
     "dv/uvm/sequence.md",
+    "dv/uvm/include/uvm_do_on_pri_with.canvas",
     "dv/uvm/include/Pasted image 20240521012610.png",
     "dv/uvm/uvm_do.canvas",
     "dv/uvm/include",
@@ -208,7 +210,6 @@
     "de/mdu/mdu.md",
     "de/fifo/fifo.md",
     "de/fpu/f16div.md",
-    "de/fpu/f16dsu.md",
     "dv/sc/include/Pasted image 20240510155959.png",
     "dv/sc/include/Pasted image 20240510170505.png",
     "dv/sc/include/Pasted image 20240510170535.png",
