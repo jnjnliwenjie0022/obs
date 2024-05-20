@@ -1,4 +1,4 @@
-# start_sequence
+# sequence_start
 
 1. 透過start()
 	```verilog
@@ -31,10 +31,18 @@
 	```
 3. 透過`uvm_do (不推薦)
 	只能實作在sequence中
-# sequence_macro
+# uvm_do
 [uvm_do系列](https://www.cnblogs.com/htaozy/p/8051849.html)
 [uvm_do marco分析](https://blog.csdn.net/lbt_dvshare/article/details/86700415)
 ![[uvm_do_on_pri_with.canvas|uvm_do_on_pri_with]]
+如果是ITEM，則
+1. start_item (SEQ_OR_ITEM, PRIORITY)
+2. randomize
+3. finish_item (SEQ_OR_ITEM, PRIORITY)
+如果是SEQ，則
+1. start（SEQR，this，PRIORITY， 0）
+
+
 # uvm_config_db
 
 in sequence
