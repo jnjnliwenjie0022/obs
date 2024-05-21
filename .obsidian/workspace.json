@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pased.md",
+                "file": "de/mdu/mdu.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -73,7 +73,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Pased.md"
+                "file": "de/mdu/mdu.md"
               }
             }
           }
@@ -124,7 +124,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Pased.md",
+                "file": "de/mdu/mdu.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -141,7 +141,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Pased.md",
+                "file": "de/mdu/mdu.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -164,19 +164,21 @@
       "command-palette:Open command palette": true
     }
   },
-  "active": "ad2da79ea45143ab",
+  "active": "19a60b1e44f4e87a",
   "lastOpenFiles": [
+    "notes/dailies",
+    "notes",
+    "de/lut.md~",
+    "de/4913",
+    "de/fpu/f16dsu.md",
+    "de/fpu/f16div.md",
+    "de/fpu/f16mac.md",
     "de/lut.md",
     "Pased.md",
-    "de/4913",
-    "de/lut.md~",
-    "de/fpu/f16div.md",
     "Untitled.md",
     "de/fpu/1716325117-WDHW.md",
     "de/fpu/1716325117-WDHW.md~",
     "de/fpu/4913",
-    "notes/dailies",
-    "notes",
     "de/mdu/mdu.md",
     "dv/harness/ref/Verification Prowess with the UVM Harness.pdf",
     "dv/uvm/uvm_factory.canvas",
@@ -210,9 +212,6 @@
     "dv/harness/include/Pasted image 20240519232041.png",
     "dv/harness/include/Pasted image 20240520145541.png",
     "dv/harness/code_harness_v2_error/README.md",
-    "dv/harness/code_harness_v2/README.md",
-    "de/fpu/f16macksa.md",
-    "workflow/synopsys.md",
     "dv/sc/include/Pasted image 20240510155959.png",
     "dv/sc/include/Pasted image 20240510170505.png",
     "Untitled.canvas",
