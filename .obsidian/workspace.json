@@ -11,13 +11,8 @@
             "id": "b958313058903654",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "dv/uvm/sequence.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -72,9 +67,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "dv/uvm/sequence.md"
-              }
+              "state": {}
             }
           }
         ],
@@ -124,7 +117,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "dv/uvm/sequence.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -141,7 +133,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "dv/uvm/sequence.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -164,12 +155,12 @@
       "command-palette:Open command palette": true
     }
   },
-  "active": "b958313058903654",
+  "active": "19a60b1e44f4e87a",
   "lastOpenFiles": [
     "Pasted image 20240521111128.png",
     "Pasted image 20240521111118.png",
-    "dv/uvm/include/uvm_do_on_pri_with.canvas",
     "dv/uvm/sequence.md",
+    "dv/uvm/include/uvm_do_on_pri_with.canvas",
     "dv/sv/polymorphism.md",
     "dv/sequence.md",
     "dv/rename order_of_starting_sequence.canvas",
@@ -213,7 +204,6 @@
     "3C ranking.md",
     "dv/sc/include/Pasted image 20240510155959.png",
     "dv/sc/include/Pasted image 20240510170505.png",
-    "dv/sc/include/Pasted image 20240510170535.png",
     "Untitled.canvas",
     "Untitled 1.canvas",
     "債券/債券.canvas"

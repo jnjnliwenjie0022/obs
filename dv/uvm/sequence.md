@@ -204,6 +204,8 @@ UVM_INFO testbench.sv(89) @ 50: uvm_test_top.env_o.agt.seqr@@bseq.cseq [child_se
 UVM_INFO testbench.sv(57) @ 50: uvm_test_top.env_o.agt.seqr@@bseq [base_seq] Base seq: Inside post_do
 UVM_INFO testbench.sv(99) @ 50: uvm_test_top.env_o.agt.seqr@@bseq.cseq [child_seq] Child seq: Inside post_body
 UVM_INFO testbench.sv(61) @ 50: uvm_test_top.env_o.agt.seqr@@bseq [base_seq] Base seq: Inside post_body
+# nested_sequence
+
 # uvm_config_db
 
 in sequence
