@@ -130,7 +130,6 @@ initial begin
     $fsdbDumpvars(0, tb);
 end
 
-
 initial begin
     uvm_config_db#(int)::set(null,"h_seq","count0",9);
     //tb.u_top.u_dut0.u_harness.connect("h_seq");
