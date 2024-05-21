@@ -15,9 +15,9 @@
               "state": {
                 "file": "dv/uvm/uvm_factory.canvas",
                 "viewState": {
-                  "x": -2467.486193953362,
-                  "y": -3279.1501676804764,
-                  "zoom": -1.5
+                  "x": -2900.922898140851,
+                  "y": -2600.823616603415,
+                  "zoom": 0.5
                 }
               }
             }
@@ -168,11 +168,11 @@
   },
   "active": "f2e67f65f2206c29",
   "lastOpenFiles": [
+    "testtest.md",
     "dv/uvm/uvm_factory.canvas",
     "dv/harness/harness.md",
     "conflict-files-obsidian-git.md",
     "dv/harness/ref/Verification Prowess with the UVM Harness.pdf",
-    "testtest.md",
     "dv/harness/code_harness_v2.bak.20240521_165843/verdiLog",
     "dv/harness/code_harness_v2.bak.20240521_165843",
     "dv/harness/code_harness_v2.bak.20240521_165843/novas.fsdb.sinf",
