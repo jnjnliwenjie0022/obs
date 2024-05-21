@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "dv/sv/polymorphism.md",
+                "file": "dv/sv/coding_guideline.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -73,7 +73,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "dv/sv/polymorphism.md"
+                "file": "dv/sv/coding_guideline.md"
               }
             }
           }
@@ -124,7 +124,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "dv/sv/polymorphism.md",
+                "file": "dv/sv/coding_guideline.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -141,7 +141,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "dv/sv/polymorphism.md",
+                "file": "dv/sv/coding_guideline.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -164,23 +164,26 @@
       "command-palette:Open command palette": true
     }
   },
-  "active": "19a60b1e44f4e87a",
+  "active": "486add934836bde4",
   "lastOpenFiles": [
+    "dv/sv/ref/Verilog Nonblocking Assignments With Delays, Myths & Mysteries.pdf",
+    "dv/sv/coding_guideline.md",
+    "de/v/ref/coding_guidelines.pdf",
+    "de/v/verilog.md",
+    "de/v/ref",
+    "de/v/re.md",
+    "de/v/ref.md",
+    "dv/uvm/sequence.md",
+    "dv/sv/polymorphism.md",
     "dv/uvm/ref/verilab_dvcon_eu2015_6_params.pdf",
     "dv/uvm/ref/UVM實戰.pdf",
     "dv/sv/ref/VerilogTraining.pptx.lnk",
-    "dv/sv/ref/Verilog Nonblocking Assignments With Delays, Myths & Mysteries.pdf",
     "dv/sv/ref/Nonblocking Assignments in Verilog Synthesis, Coding Styles That Kill!.pdf",
     "dv/sv/ref/full_case parallel_case, the Evil Twins of Verilog.pdf",
-    "dv/sv/ref/coding_guidelines.pdf",
     "dv/sv/ref",
     "dv/sv/ref.md",
-    "dv/sv/polymorphism.md",
-    "dv/uvm/sequence.md",
     "dv/sv/generic_memory.md",
     "dv/uvm/code_nested_sequence_xrun/vip/riu_top.sv",
-    "dv/uvm/code_nested_sequence_xrun/vip/riu.sv",
-    "dv/uvm/code_nested_sequence_xrun/vip",
     "dv/uvm/code_nested_sequence/README.md",
     "dv/uvm/include/uvm_do_on_pri_with.canvas",
     "ToDoList.md",
@@ -209,10 +212,6 @@
     "de/arbiter/arbiter.md",
     "workflow/git.md",
     "README.md",
-    "workflow/tmux.md",
-    "workflow/synopsys.md",
-    "workflow/nvim.md",
-    "src/site/notes/homepage.md",
     "dv/sc/include/Pasted image 20240510155959.png",
     "Untitled.canvas",
     "Untitled 1.canvas",
