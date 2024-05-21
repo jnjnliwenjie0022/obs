@@ -218,6 +218,8 @@ UVM_INFO testbench.sv(61) @ 50: uvm_test_top.env_o.agt.seqr@@bseq [base_seq] Bas
 2. 可以有uvm_declare_p_sequencer
 3. 必定有send_request
 4. 必定有uvm_sequence # (item(cfg_if))
+# reative_arch
+[[649575fcbf99287ba25f20e8_litterick_uvm_slaves2_paper.pdf]]
 # uvm_config_db
 
 in sequence

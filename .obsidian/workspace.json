@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "path:\"dv/uvm/code_nested_sequence/\" ",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": false,
@@ -77,7 +77,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       },
       {
         "id": "ce31482b6afb7740",
@@ -163,20 +164,20 @@
       "command-palette:Open command palette": true
     }
   },
-  "active": "e659ba5d1cf0724d",
+  "active": "b958313058903654",
   "lastOpenFiles": [
-    "dv/uvm/include/nested_sequence.svg",
+    "dv/uvm/ref/649575fcbf99287ba25f20e8_litterick_uvm_slaves2_paper.pdf",
     "dv/uvm/sequence.md",
+    "dv/uvm/ref/649575fcbf99287ba25f20e8_litterick_uvm_slaves2_paper.pdf.crdownload",
+    "dv/uvm/ref",
+    "dv/uvm/New folder",
+    "dv/uvm/include/nested_sequence.svg",
     "dv/uvm/code_nested_sequence/run_batch.tcl",
     "dv/uvm/code_nested_sequence/pattern.txt",
     "dv/uvm/code_nested_sequence/flist",
     "dv/uvm/code_nested_sequence/02",
     "dv/uvm/code_nested_sequence/01",
     "dv/uvm/code_nested_sequence/vip/riu_top.sv",
-    "dv/uvm/code_nested_sequence/vip/riu.sv",
-    "dv/uvm/code_nested_sequence/vip",
-    "dv/uvm/code_nested_sequence/nested_sequence.drawio",
-    "dv/uvm/code_nested_sequence/riu/vip/riu_top.sv",
     "Pasted image 20240521111128.png",
     "Pasted image 20240521111118.png",
     "dv/uvm/include/uvm_do_on_pri_with.canvas",
