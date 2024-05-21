@@ -1,0 +1,6 @@
+{
+	"nodes":[
+		{"id":"7326f8def4bd938e","x":-2600,"y":-2480,"width":1048,"height":1440,"color":"1","type":"text","text":"sv/src/macros/uvm_object_defines.svh\n```verilog\n`define uvm_object_utils(T) \\\n  `uvm_object_utils_begin(T) \\\n  `uvm_object_utils_end\n\n`define uvm_object_utils_begin(T) \\\n   `m_uvm_object_registry_internal(T,T)  \\\n   `m_uvm_object_create_func(T) \\\n   `m_uvm_get_type_name_func(T) \\\n   `uvm_field_utils_begin(T)\n\n`define m_uvm_object_registry_internal(T,S) \\\n   typedef uvm_object_registry#(T,`\"S`\") type_id; \\\n   static function type_id get_type(); \\\n     return type_id::get(); \\\n   endfunction \\\n   virtual function uvm_object_wrapper get_object_type(); \\\n     return type_id::get(); \\\n   endfunction\n\n`define m_uvm_object_create_func(T) \\\n   function uvm_object create (string name=\"\"); \\\n     T tmp; \\\n`ifdef UVM_OBJECT_DO_NOT_NEED_CONSTRUCTOR \\\n     tmp = new(); \\\n     if (name!=\"\") \\\n       tmp.set_name(name); \\\n`else \\\n     if (name==\"\") tmp = new(); \\\n     else tmp = new(name); \\\n`endif \\\n     return tmp; \\\n   endfunction\n\n`define m_uvm_get_type_name_func(T) \\\n   const static string type_name = `\"T`\"; \\\n   virtual function string get_type_name (); \\\n     return type_name; \\\n   endfunction\n```"}
+	],
+	"edges":[]
+}
