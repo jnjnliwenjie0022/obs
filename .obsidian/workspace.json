@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "de/fpu/1716325117-WDHW.md",
+                "file": "Pased.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -73,7 +73,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "de/fpu/1716325117-WDHW.md"
+                "file": "Pased.md"
               }
             }
           }
@@ -124,7 +124,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "de/fpu/1716325117-WDHW.md",
+                "file": "Pased.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -141,7 +141,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "de/fpu/1716325117-WDHW.md",
+                "file": "Pased.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -166,6 +166,13 @@
   },
   "active": "ad2da79ea45143ab",
   "lastOpenFiles": [
+    "de/lut.md",
+    "Pased.md",
+    "de/4913",
+    "de/lut.md~",
+    "de/fpu/f16div.md",
+    "Untitled.md",
+    "de/fpu/1716325117-WDHW.md",
     "de/fpu/1716325117-WDHW.md~",
     "de/fpu/4913",
     "notes/dailies",
@@ -175,7 +182,6 @@
     "dv/uvm/uvm_factory.canvas",
     "dv/uvm/sequence.md",
     "dv/uvm/include/uvm_do_on_pri_with.canvas",
-    "Untitled.md",
     "ToDoList.md",
     "testtest.md",
     "dv/harness/harness.md",
@@ -183,9 +189,6 @@
     "dv/harness/code_harness_v2.bak.20240521_165843/verdiLog",
     "dv/harness/code_harness_v2.bak.20240521_165843",
     "dv/harness/code_harness_v2.bak.20240521_165843/novas.fsdb.sinf",
-    "dv/harness/code_harness_v2.bak.20240521_165843/novas.fsdb.event_vc_data",
-    "dv/harness/code_harness_v2.bak.20240521_165843/novas.fsdb.call_stack_data",
-    "dv/harness/code_harness_v2.bak.20240521_165843/novas.fsdb.call_stack",
     "dv/harness/code_harness_v2.bak.20240521_165843/README.md",
     "dv/sv/wait.md",
     "dv/sv/iff.md",
@@ -210,9 +213,6 @@
     "dv/harness/code_harness_v2/README.md",
     "de/fpu/f16macksa.md",
     "workflow/synopsys.md",
-    "de/fpu/f16mac.md",
-    "README.md",
-    "3C ranking.md",
     "dv/sc/include/Pasted image 20240510155959.png",
     "dv/sc/include/Pasted image 20240510170505.png",
     "Untitled.canvas",
