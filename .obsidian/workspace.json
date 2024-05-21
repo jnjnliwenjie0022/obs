@@ -11,12 +11,14 @@
             "id": "c97358cacacb470d",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "dv/sv/wait.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
+                "file": "dv/uvm/include/uvm_do_on_pri_with.canvas",
+                "viewState": {
+                  "x": -491,
+                  "y": -1746.25,
+                  "zoom": -0.8333333333333334
+                }
               }
             }
           }
@@ -73,7 +75,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "dv/sv/wait.md"
+                "file": "dv/uvm/include/uvm_do_on_pri_with.canvas"
               }
             }
           }
@@ -97,7 +99,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 401.5
+    "width": 401.5,
+    "collapsed": true
   },
   "right": {
     "id": "cb661d0a10776c07",
@@ -124,7 +127,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "dv/sv/wait.md",
+                "file": "dv/uvm/include/uvm_do_on_pri_with.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -141,7 +144,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "dv/sv/wait.md",
+                "file": "dv/uvm/include/uvm_do_on_pri_with.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -166,9 +169,9 @@
   },
   "active": "c97358cacacb470d",
   "lastOpenFiles": [
+    "dv/sv/wait.md",
     "dv/sv/iff.md",
     "dv/sv/polymorphism.md",
-    "dv/sv/wait.md",
     "dv/sv/coding_guideline.md",
     "dv/sv/ref/Nonblocking Assignments in Verilog Synthesis, Coding Styles That Kill!.pdf",
     "dv/sv/ref/Verilog Nonblocking Assignments With Delays, Myths & Mysteries.pdf",
