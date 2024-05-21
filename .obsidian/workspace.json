@@ -11,8 +11,13 @@
             "id": "b958313058903654",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "dv/uvm/sequence.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
             }
           }
         ]
@@ -35,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "path:\"dv/uvm/code_nested_sequence/\" ",
                 "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": false,
@@ -67,11 +72,12 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "dv/uvm/sequence.md"
+              }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       },
       {
         "id": "ce31482b6afb7740",
@@ -117,6 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "dv/uvm/sequence.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,6 +140,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "dv/uvm/sequence.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -155,28 +163,29 @@
       "command-palette:Open command palette": true
     }
   },
-  "active": "19a60b1e44f4e87a",
+  "active": "e659ba5d1cf0724d",
   "lastOpenFiles": [
+    "dv/uvm/include/nested_sequence.svg",
+    "dv/uvm/sequence.md",
+    "dv/uvm/code_nested_sequence/run_batch.tcl",
+    "dv/uvm/code_nested_sequence/pattern.txt",
+    "dv/uvm/code_nested_sequence/flist",
+    "dv/uvm/code_nested_sequence/02",
+    "dv/uvm/code_nested_sequence/01",
+    "dv/uvm/code_nested_sequence/vip/riu_top.sv",
+    "dv/uvm/code_nested_sequence/vip/riu.sv",
+    "dv/uvm/code_nested_sequence/vip",
+    "dv/uvm/code_nested_sequence/nested_sequence.drawio",
+    "dv/uvm/code_nested_sequence/riu/vip/riu_top.sv",
     "Pasted image 20240521111128.png",
     "Pasted image 20240521111118.png",
-    "dv/uvm/sequence.md",
     "dv/uvm/include/uvm_do_on_pri_with.canvas",
     "dv/sv/polymorphism.md",
     "dv/sequence.md",
     "dv/rename order_of_starting_sequence.canvas",
-    "test.bash",
     "dv/uvm/include/Pasted image 20240521012610.png",
     "dv/uvm/include/Pasted image 20240520213839.png",
-    "dv/uvm/code_sequence/seq_item.sv",
-    "dv/uvm/code_sequence/tb.sv",
-    "dv/uvm/code_sequence/sequencer.sv",
     "dv/uvm/code_sequence/README.md",
-    "dv/uvm/code_sequence/Makefile",
-    "dv/uvm/code_sequence/env.sv",
-    "dv/uvm/code_sequence/flist",
-    "dv/uvm/code_sequence/driver.sv",
-    "dv/uvm/code_sequence/agent.sv",
-    "dv/uvm/include",
     "dv/sv/cast/README.md",
     "dv/include/Pasted image 20240520213839.png",
     "dv/harness/harness.md",
@@ -203,7 +212,6 @@
     "de/lut.md",
     "3C ranking.md",
     "dv/sc/include/Pasted image 20240510155959.png",
-    "dv/sc/include/Pasted image 20240510170505.png",
     "Untitled.canvas",
     "Untitled 1.canvas",
     "債券/債券.canvas"
