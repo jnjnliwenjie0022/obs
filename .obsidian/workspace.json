@@ -13,7 +13,7 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "dv/sv/ref/Nonblocking Assignments in Verilog Synthesis, Coding Styles That Kill!.pdf"
+                "file": "dv/sv/ref/Verilog Nonblocking Assignments With Delays, Myths & Mysteries.pdf"
               }
             }
           },
@@ -83,7 +83,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "dv/sv/ref/Nonblocking Assignments in Verilog Synthesis, Coding Styles That Kill!.pdf"
+                "file": "dv/sv/ref/Verilog Nonblocking Assignments With Delays, Myths & Mysteries.pdf"
               }
             }
           }
@@ -134,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "dv/sv/ref/Nonblocking Assignments in Verilog Synthesis, Coding Styles That Kill!.pdf",
+                "file": "dv/sv/ref/Verilog Nonblocking Assignments With Delays, Myths & Mysteries.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "dv/sv/ref/Nonblocking Assignments in Verilog Synthesis, Coding Styles That Kill!.pdf",
+                "file": "dv/sv/ref/Verilog Nonblocking Assignments With Delays, Myths & Mysteries.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -176,8 +176,9 @@
   },
   "active": "486add934836bde4",
   "lastOpenFiles": [
-    "dv/sv/coding_guideline.md",
     "dv/sv/ref/Nonblocking Assignments in Verilog Synthesis, Coding Styles That Kill!.pdf",
+    "README.md",
+    "dv/sv/coding_guideline.md",
     "dv/sv/ref/Verilog Nonblocking Assignments With Delays, Myths & Mysteries.pdf",
     "de/v/ref/coding_guidelines.pdf",
     "de/v/verilog.md",
@@ -221,7 +222,6 @@
     "diary/work/2024-03-27.md",
     "de/arbiter/arbiter.md",
     "workflow/git.md",
-    "README.md",
     "dv/sc/include/Pasted image 20240510155959.png",
     "Untitled.canvas",
     "Untitled 1.canvas",

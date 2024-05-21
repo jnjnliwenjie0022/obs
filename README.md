@@ -23,7 +23,7 @@ issue: fatal: unable to access 'https://github.com/jnjnliwenjie0022/obs.git': Fa
 ```
 git config --list --show-origin
 ```
-check out checkb which gitconifg is your target
+check out checkb which .gitconifg is your target
 ```
 [user]
 	name = wen-jie li
