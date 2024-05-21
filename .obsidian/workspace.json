@@ -163,6 +163,8 @@
   },
   "active": "52ddb0578a4b55c2",
   "lastOpenFiles": [
+    "dv/harness/code_harness_v2.bak.20240521_165843/verdiLog",
+    "dv/harness/code_harness_v2.bak.20240521_165843",
     "dv/harness/code_harness_v2.bak.20240521_165843/novas.fsdb.sinf",
     "dv/harness/code_harness_v2.bak.20240521_165843/novas.fsdb.event_vc_data",
     "dv/harness/code_harness_v2.bak.20240521_165843/novas.fsdb.call_stack_data",
@@ -172,8 +174,6 @@
     "dv/harness/code_harness_v2.bak.20240521_165843/novas.fsdb.event_tree",
     "dv/harness/code_harness_v2.bak.20240521_165843/novas.fsdb.xlist",
     "dv/harness/code_harness_v2.bak.20240521_165843/novas.fsdb.slist",
-    "dv/harness/code_harness_v2.bak.20240521_165843/novas.fsdb.pidat",
-    "dv/harness/code_harness_v2.bak.20240521_165843/novas.fsdb.podat",
     "dv/uvm/sequence.md",
     "dv/harness/code_harness_v2.bak.20240521_165843/README.md",
     "dv/sv/wait.md",
