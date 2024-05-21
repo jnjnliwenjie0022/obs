@@ -11,10 +11,20 @@
             "id": "486add934836bde4",
             "type": "leaf",
             "state": {
+              "type": "pdf",
+              "state": {
+                "file": "dv/sv/ref/Nonblocking Assignments in Verilog Synthesis, Coding Styles That Kill!.pdf"
+              }
+            }
+          },
+          {
+            "id": "7e9c6a2ebfc6aad5",
+            "type": "leaf",
+            "state": {
               "type": "markdown",
               "state": {
                 "file": "dv/sv/coding_guideline.md",
-                "mode": "source",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -73,7 +83,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "dv/sv/coding_guideline.md"
+                "file": "dv/sv/ref/Nonblocking Assignments in Verilog Synthesis, Coding Styles That Kill!.pdf"
               }
             }
           }
@@ -124,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "dv/sv/coding_guideline.md",
+                "file": "dv/sv/ref/Nonblocking Assignments in Verilog Synthesis, Coding Styles That Kill!.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -141,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "dv/sv/coding_guideline.md",
+                "file": "dv/sv/ref/Nonblocking Assignments in Verilog Synthesis, Coding Styles That Kill!.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -166,8 +176,9 @@
   },
   "active": "486add934836bde4",
   "lastOpenFiles": [
-    "dv/sv/ref/Verilog Nonblocking Assignments With Delays, Myths & Mysteries.pdf",
     "dv/sv/coding_guideline.md",
+    "dv/sv/ref/Nonblocking Assignments in Verilog Synthesis, Coding Styles That Kill!.pdf",
+    "dv/sv/ref/Verilog Nonblocking Assignments With Delays, Myths & Mysteries.pdf",
     "de/v/ref/coding_guidelines.pdf",
     "de/v/verilog.md",
     "de/v/ref",
@@ -178,7 +189,6 @@
     "dv/uvm/ref/verilab_dvcon_eu2015_6_params.pdf",
     "dv/uvm/ref/UVM實戰.pdf",
     "dv/sv/ref/VerilogTraining.pptx.lnk",
-    "dv/sv/ref/Nonblocking Assignments in Verilog Synthesis, Coding Styles That Kill!.pdf",
     "dv/sv/ref/full_case parallel_case, the Evil Twins of Verilog.pdf",
     "dv/sv/ref",
     "dv/sv/ref.md",
