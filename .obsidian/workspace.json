@@ -4,20 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "654cce8e1890ced4",
+        "id": "df57eb38ab25a2b5",
         "type": "tabs",
         "children": [
           {
-            "id": "52ddb0578a4b55c2",
+            "id": "b958313058903654",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "dv/uvm/sequence.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -72,9 +67,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "dv/uvm/sequence.md"
-              }
+              "state": {}
             }
           }
         ],
@@ -97,7 +90,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 276.5
+    "width": 401.5
   },
   "right": {
     "id": "cb661d0a10776c07",
@@ -124,7 +117,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "dv/uvm/sequence.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -141,7 +133,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "dv/uvm/sequence.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -164,52 +155,51 @@
       "command-palette:Open command palette": true
     }
   },
-  "active": "19a60b1e44f4e87a",
+  "active": "b958313058903654",
   "lastOpenFiles": [
-    "dv/uvm/code_sequence/README.md",
-    "dv/uvm/code_sequence/tb.fsdb.str",
-    "dv/uvm/code_sequence/novas.fsdb.pidat",
-    "dv/uvm/code_sequence/novas.fsdb.podat",
-    "dv/uvm/code_sequence/novas.fsdb.netwk",
-    "dv/uvm/code_sequence/tb.fsdb.sinf",
-    "dv/uvm/code_sequence/tb.fsdb.xlist",
-    "dv/uvm/code_sequence/tb.fsdb.chain",
-    "dv/uvm/code_sequence/tb.fsdb.slist",
-    "dv/uvm/code_sequence/tb.fsdb.tlist",
-    "dv/uvm/code_sequence/tb.fsdb.lock",
-    "dv/uvm/Untitled.md",
-    "dv/uvm/sequence.md",
+    "dv/sequence.md",
+    "dv/rename order_of_starting_sequence.canvas",
+    "test.bash",
     "dv/uvm/include/uvm_do_on_pri_with.canvas",
     "dv/uvm/include/Pasted image 20240521012610.png",
-    "dv/uvm/uvm_do.canvas",
     "dv/uvm/include/Pasted image 20240520213839.png",
+    "dv/uvm/code_sequence/seq_item.sv",
+    "dv/uvm/code_sequence/tb.sv",
+    "dv/uvm/code_sequence/sequencer.sv",
+    "dv/uvm/code_sequence/README.md",
+    "dv/uvm/code_sequence/Makefile",
+    "dv/uvm/code_sequence/env.sv",
+    "dv/uvm/code_sequence/flist",
+    "dv/uvm/code_sequence/driver.sv",
+    "dv/uvm/code_sequence/agent.sv",
+    "dv/uvm/include",
+    "dv/uvm/sequence.md",
     "dv/sv/polymorphism.md",
     "dv/sv/cast/README.md",
-    "dv/include/git.svg",
-    "dv/harness/include/Pasted image 20240520145623.png",
-    "dv/harness/include/Pasted image 20240519232041.png",
-    "dv/harness/include/Pasted image 20240520145541.png",
+    "dv/include/Pasted image 20240520213839.png",
     "dv/harness/harness.md",
+    "workflow/tnv.md",
+    "de/arithmetic/booth.md",
+    "dv/harness/include/Pasted image 20240520145623.png",
+    "dv/harness/include/Pasted image 20240520145541.png",
+    "dv/harness.md",
+    "dv/harness/include/Pasted image 20240519232041.png",
     "dv/harness/code_harness_v2_error/README.md",
     "dv/harness/code_harness_v2/README.md",
-    "ToDoList.md",
-    "de/fpu/f16macksa.md",
-    "workflow/synopsys.md",
-    "de/fpu/f16mac.md",
-    "README.md",
-    "3C ranking.md",
     "dv/uvmc/uvmc.md",
+    "de/fpu/f16mac.md",
     "diary/work/2024-03-27.md",
+    "ToDoList.md",
     "de/arbiter/arbiter.md",
     "workflow/git.md",
+    "README.md",
     "workflow/tmux.md",
+    "workflow/synopsys.md",
     "workflow/nvim.md",
     "src/site/notes/homepage.md",
     "workflow/github.md",
     "de/lut.md",
-    "de/mdu/mdu.md",
-    "de/fifo/fifo.md",
-    "de/fpu/f16div.md",
+    "3C ranking.md",
     "dv/sc/include/Pasted image 20240510155959.png",
     "dv/sc/include/Pasted image 20240510170505.png",
     "dv/sc/include/Pasted image 20240510170535.png",
