@@ -4,21 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "32fe91d02c127528",
+        "id": "69c01f1d7cfde71c",
         "type": "tabs",
         "children": [
           {
-            "id": "f2e67f65f2206c29",
+            "id": "1811d2ee7a673686",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "dv/uvm/uvm_factory.canvas",
-                "viewState": {
-                  "x": -2900.922898140851,
-                  "y": -2600.823616603415,
-                  "zoom": 0.5
-                }
+                "file": "Untitled.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
               }
             }
           }
@@ -75,7 +73,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "dv/uvm/uvm_factory.canvas"
+                "file": "Untitled.md"
               }
             }
           }
@@ -126,7 +124,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "dv/uvm/uvm_factory.canvas",
+                "file": "Untitled.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -143,7 +141,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "dv/uvm/uvm_factory.canvas",
+                "file": "Untitled.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -166,10 +164,12 @@
       "command-palette:Open command palette": true
     }
   },
-  "active": "f2e67f65f2206c29",
+  "active": "1811d2ee7a673686",
   "lastOpenFiles": [
-    "testtest.md",
+    "Untitled.md",
+    "ToDoList.md",
     "dv/uvm/uvm_factory.canvas",
+    "testtest.md",
     "dv/harness/harness.md",
     "conflict-files-obsidian-git.md",
     "dv/harness/ref/Verification Prowess with the UVM Harness.pdf",
@@ -206,14 +206,12 @@
     "dv/harness/include/Pasted image 20240520145541.png",
     "dv/harness/code_harness_v2_error/README.md",
     "dv/harness/code_harness_v2/README.md",
-    "ToDoList.md",
     "de/fpu/f16macksa.md",
     "workflow/synopsys.md",
     "de/fpu/f16mac.md",
     "README.md",
     "3C ranking.md",
     "dv/uvmc/uvmc.md",
-    "diary/work/2024-03-27.md",
     "dv/sc/include/Pasted image 20240510155959.png",
     "dv/sc/include/Pasted image 20240510170505.png",
     "Untitled.canvas",
