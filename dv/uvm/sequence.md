@@ -206,6 +206,18 @@ UVM_INFO testbench.sv(99) @ 50: uvm_test_top.env_o.agt.seqr@@bseq.cseq [child_se
 UVM_INFO testbench.sv(61) @ 50: uvm_test_top.env_o.agt.seqr@@bseq [base_seq] Base seq: Inside post_body
 # nested_sequence
 ![[nested_sequence.svg]]
+第一個seq
+1. 必定有start
+2. 必定為null
+第二個seq
+1. 必定有start
+2. 可為null or this
+3. 必定有uvm_declare_p_sequencer
+最後一個seq
+1. 必定沒有start
+2. 可以有uvm_declare_p_sequencer
+3. 必定有send_request
+4. 必定有uvm_sequence # (item(cfg_if))
 # uvm_config_db
 
 in sequence
