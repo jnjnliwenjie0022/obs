@@ -5,6 +5,4 @@
 5. [[divider#taylor]]
 	1. 需要補充
 6. explain f1_mac_sum_l_amount bitwidth
-7. harness v2
-    1. interface implemantation (bevis)
 8. wsl git obsidian (include git prompt)
