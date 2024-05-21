@@ -227,7 +227,18 @@ UVM_INFO testbench.sv(61) @ 50: uvm_test_top.env_o.agt.seqr@@bseq [base_seq] Bas
 `uvm_declare_p_sequencer(user_defined_sequencer)
 ```
 equivalent with
+```verilog
+uvm_sequencer_base m_sequencer;
+user_defined_sequencer p_sequencer;
+!$cast(p_sequencer, m_sequencer)
+```
 
+sqr會在seq.start(sqr)的時候記錄在seq內，以m_sequencer的變數儲存
+
+m_sequencer和p_sequencer是一樣的東西，只差在型態不同
+
+1. m_sequencer的型態: uvm_sequencer_base
+2. p_sequencer的型態: user_defined_sequencer
 # uvm_config_db
 
 in sequence

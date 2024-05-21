@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "df57eb38ab25a2b5",
+        "id": "4a01f2921a2e68f5",
         "type": "tabs",
         "children": [
           {
-            "id": "b958313058903654",
+            "id": "486add934836bde4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "dv/uvm/sequence.md",
-                "mode": "source",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -164,8 +164,9 @@
       "command-palette:Open command palette": true
     }
   },
-  "active": "b958313058903654",
+  "active": "486add934836bde4",
   "lastOpenFiles": [
+    "dv/uvm/sequence.md",
     "dv/uvm/code_nested_sequence_xrun/vip/riu_top.sv",
     "dv/uvm/code_nested_sequence_xrun/vip/riu.sv",
     "dv/uvm/code_nested_sequence_xrun/vip",
@@ -176,10 +177,8 @@
     "dv/uvm/code_nested_sequence_xrun/01",
     "dv/uvm/code_nested_sequence_xrun",
     "dv/uvm/code_nested_sequence/tb.sv",
-    "dv/uvm/code_nested_sequence/riu.sv",
     "dv/uvm/code_nested_sequence/README.md",
     "dv/uvm/include/uvm_do_on_pri_with.canvas",
-    "dv/uvm/sequence.md",
     "ToDoList.md",
     "dv/harness/code_harness_v2_error/README.md",
     "dv/uvm/include/nested_sequence.svg",
