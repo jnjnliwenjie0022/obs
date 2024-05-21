@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "de/mdu/mdu.md",
+                "file": "de/fpu/1716325117-WDHW.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -73,7 +73,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "de/mdu/mdu.md"
+                "file": "de/fpu/1716325117-WDHW.md"
               }
             }
           }
@@ -124,7 +124,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "de/mdu/mdu.md",
+                "file": "de/fpu/1716325117-WDHW.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -141,7 +141,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "de/mdu/mdu.md",
+                "file": "de/fpu/1716325117-WDHW.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -166,6 +166,11 @@
   },
   "active": "ad2da79ea45143ab",
   "lastOpenFiles": [
+    "de/fpu/1716325117-WDHW.md~",
+    "de/fpu/4913",
+    "notes/dailies",
+    "notes",
+    "de/mdu/mdu.md",
     "dv/harness/ref/Verification Prowess with the UVM Harness.pdf",
     "dv/uvm/uvm_factory.canvas",
     "dv/uvm/sequence.md",
@@ -181,9 +186,6 @@
     "dv/harness/code_harness_v2.bak.20240521_165843/novas.fsdb.event_vc_data",
     "dv/harness/code_harness_v2.bak.20240521_165843/novas.fsdb.call_stack_data",
     "dv/harness/code_harness_v2.bak.20240521_165843/novas.fsdb.call_stack",
-    "dv/harness/code_harness_v2.bak.20240521_165843/novas.fsdb.field",
-    "dv/harness/code_harness_v2.bak.20240521_165843/novas.fsdb.vcc_delta",
-    "dv/harness/code_harness_v2.bak.20240521_165843/novas.fsdb.event_tree",
     "dv/harness/code_harness_v2.bak.20240521_165843/README.md",
     "dv/sv/wait.md",
     "dv/sv/iff.md",
@@ -211,7 +213,6 @@
     "de/fpu/f16mac.md",
     "README.md",
     "3C ranking.md",
-    "dv/uvmc/uvmc.md",
     "dv/sc/include/Pasted image 20240510155959.png",
     "dv/sc/include/Pasted image 20240510170505.png",
     "Untitled.canvas",
