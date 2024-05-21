@@ -24,13 +24,14 @@
               "type": "markdown",
               "state": {
                 "file": "dv/sv/coding_guideline.md",
-                "mode": "preview",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -83,7 +84,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "dv/sv/ref/Verilog Nonblocking Assignments With Delays, Myths & Mysteries.pdf"
+                "file": "dv/sv/coding_guideline.md"
               }
             }
           }
@@ -134,7 +135,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "dv/sv/ref/Verilog Nonblocking Assignments With Delays, Myths & Mysteries.pdf",
+                "file": "dv/sv/coding_guideline.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +152,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "dv/sv/ref/Verilog Nonblocking Assignments With Delays, Myths & Mysteries.pdf",
+                "file": "dv/sv/coding_guideline.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,12 +175,12 @@
       "command-palette:Open command palette": true
     }
   },
-  "active": "486add934836bde4",
+  "active": "7e9c6a2ebfc6aad5",
   "lastOpenFiles": [
+    "dv/sv/ref/Verilog Nonblocking Assignments With Delays, Myths & Mysteries.pdf",
+    "dv/sv/coding_guideline.md",
     "dv/sv/ref/Nonblocking Assignments in Verilog Synthesis, Coding Styles That Kill!.pdf",
     "README.md",
-    "dv/sv/coding_guideline.md",
-    "dv/sv/ref/Verilog Nonblocking Assignments With Delays, Myths & Mysteries.pdf",
     "de/v/ref/coding_guidelines.pdf",
     "de/v/verilog.md",
     "de/v/ref",
