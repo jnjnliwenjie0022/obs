@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "4a01f2921a2e68f5",
+        "id": "1d98698b17f9fddf",
         "type": "tabs",
         "children": [
           {
-            "id": "486add934836bde4",
+            "id": "c97358cacacb470d",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -164,10 +164,10 @@
       "command-palette:Open command palette": true
     }
   },
-  "active": "486add934836bde4",
+  "active": "c97358cacacb470d",
   "lastOpenFiles": [
-    "dv/sv/ref/Nonblocking Assignments in Verilog Synthesis, Coding Styles That Kill!.pdf",
     "dv/sv/coding_guideline.md",
+    "dv/sv/ref/Nonblocking Assignments in Verilog Synthesis, Coding Styles That Kill!.pdf",
     "dv/sv/ref/Verilog Nonblocking Assignments With Delays, Myths & Mysteries.pdf",
     "README.md",
     "de/v/ref/coding_guidelines.pdf",
