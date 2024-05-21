@@ -62,9 +62,124 @@ For a sequence, the following are called, in order
 6. [start()]sub_seq.body() (task)
 7. [start()]this.post_do(sub_seq) (func)
 8. [start()]sub_seq.post_start() (task)
-![[Pasted image 20240521012610.png|1000]]
+
 # seq.start()
 [How to start a sequence?](https://vlsiverify.com/uvm/start-a-sequence/)
+![[Pasted image 20240521012610.png|1000]]
+```verilog
+bseq = base_seq::type_id::create("bseq");
+bseq.start(env_o.agt.seqr);
+```
+UVM_INFO testbench.sv(21) @ 0: uvm_test_top.env_o.agt.seqr@@bseq [base_seq] Base seq: Inside pre_start
+UVM_INFO testbench.sv(25) @ 0: uvm_test_top.env_o.agt.seqr@@bseq [base_seq] Base seq: Inside pre_body
+UVM_INFO testbench.sv(38) @ 0: uvm_test_top.env_o.agt.seqr@@bseq [base_seq] Base seq: Inside Body
+UVM_INFO testbench.sv(56) @ 0: uvm_test_top.env_o.agt.seqr@@bseq [base_seq] Base seq: Inside post_body
+
+```verilog
+bseq = base_seq::type_id::create("bseq");
+bseq.start(env_o.agt.seqr);
+
+`uvm_do(req)
+```
+UVM_INFO testbench.sv(21) @ 0: uvm_test_top.env_o.agt.seqr@@bseq [base_seq] Base seq: Inside pre_start
+UVM_INFO testbench.sv(25) @ 0: uvm_test_top.env_o.agt.seqr@@bseq [base_seq] Base seq: Inside pre_body
+UVM_INFO testbench.sv(38) @ 0: uvm_test_top.env_o.agt.seqr@@bseq [base_seq] Base seq: Inside Body
+UVM_INFO testbench.sv(29) @ 0: uvm_test_top.env_o.agt.seqr@@bseq [base_seq] Base seq: Inside pre_do
+UVM_INFO testbench.sv(33) @ 0: uvm_test_top.env_o.agt.seqr@@bseq [base_seq] Base seq: Inside mid_do
+UVM_INFO driver.sv(16) @ 0: uvm_test_top.env_o.agt.drv [driver] Driving logic
+UVM_INFO testbench.sv(52) @ 50: uvm_test_top.env_o.agt.seqr@@bseq [base_seq] Base seq: Inside post_do
+UVM_INFO testbench.sv(56) @ 50: uvm_test_top.env_o.agt.seqr@@bseq [base_seq] Base seq: Inside post_body
+```verilog
+bseq = base_seq::type_id::create("bseq");
+bseq.start(env_o.agt.seqr);
+
+req = seq_item::type_id::create("req");
+wait_for_grant();
+assert(req.randomize());
+send_request(req);
+wait_for_item_done();
+```
+UVM_INFO [testbench.sv](http://testbench.sv)(21) @ 0: uvm_test_top.env_o.agt.seqr@@bseq [base_seq] Base seq: Inside pre_start
+UVM_INFO [testbench.sv](http://testbench.sv)(25) @ 0: uvm_test_top.env_o.agt.seqr@@bseq [base_seq] Base seq: Inside pre_body
+UVM_INFO [testbench.sv](http://testbench.sv)(38) @ 0: uvm_test_top.env_o.agt.seqr@@bseq [base_seq] Base seq: Inside Body
+UVM_INFO [driver.sv](http://driver.sv)(16) @ 0: uvm_test_top.env_o.agt.drv [driver] Driving logic
+UVM_INFO [testbench.sv](http://testbench.sv)(56) @ 50: uvm_test_top.env_o.agt.seqr@@bseq [base_seq] Base seq: Inside post_body
+```verilog
+bseq = base_seq::type_id::create("bseq");
+bseq.start(env_o.agt.seqr);
+
+req = seq_item::type_id::create("req");
+start_item(req);
+assert(req.randomize());
+finish_item(req);
+```
+UVM_INFO [testbench.sv](http://testbench.sv)(21) @ 0: uvm_test_top.env_o.agt.seqr@@bseq [base_seq] Base seq: Inside pre_start
+UVM_INFO [testbench.sv](http://testbench.sv)(25) @ 0: uvm_test_top.env_o.agt.seqr@@bseq [base_seq] Base seq: Inside pre_body
+UVM_INFO [testbench.sv](http://testbench.sv)(38) @ 0: uvm_test_top.env_o.agt.seqr@@bseq [base_seq] Base seq: Inside Body
+UVM_INFO [testbench.sv](http://testbench.sv)(29) @ 0: uvm_test_top.env_o.agt.seqr@@bseq [base_seq] Base seq: Inside pre_do
+UVM_INFO [testbench.sv](http://testbench.sv)(33) @ 0: uvm_test_top.env_o.agt.seqr@@bseq [base_seq] Base seq: Inside mid_do
+UVM_INFO [driver.sv](http://driver.sv)(16) @ 0: uvm_test_top.env_o.agt.drv [driver] Driving logic
+UVM_INFO [testbench.sv](http://testbench.sv)(57) @ 50: uvm_test_top.env_o.agt.seqr@@bseq [base_seq] Base seq: Inside post_do
+UVM_INFO [testbench.sv](http://testbench.sv)(61) @ 50: uvm_test_top.env_o.agt.seqr@@bseq [base_seq] Base seq: Inside post_body
+```verilog
+bseq = base_seq::type_id::create("bseq");
+bseq.start(env_o.agt.seqr);
+
+cseq = child_seq::type_id::create("cseq");
+cseq.start(null);
+```
+UVM_INFO [testbench.sv](http://testbench.sv)(21) @ 0: uvm_test_top.env_o.agt.seqr@@bseq [base_seq] Base seq: Inside pre_start
+UVM_INFO [testbench.sv](http://testbench.sv)(25) @ 0: uvm_test_top.env_o.agt.seqr@@bseq [base_seq] Base seq: Inside pre_body
+UVM_INFO [testbench.sv](http://testbench.sv)(38) @ 0: uvm_test_top.env_o.agt.seqr@@bseq [base_seq] Base seq: Inside Body
+UVM_INFO [testbench.sv](http://testbench.sv)(73) @ 0: reporter@@cseq [child_seq] Child seq: Inside pre_start
+UVM_INFO [testbench.sv](http://testbench.sv)(77) @ 0: reporter@@cseq [child_seq] Child seq: Inside pre_body
+UVM_INFO [testbench.sv](http://testbench.sv)(89) @ 0: reporter@@cseq [child_seq] Child seq: Inside Body
+UVM_INFO [testbench.sv](http://testbench.sv)(99) @ 0: reporter@@cseq [child_seq] Child seq: Inside post_body
+UVM_INFO [testbench.sv](http://testbench.sv)(61) @ 0: uvm_test_top.env_o.agt.seqr@@bseq [base_seq] Base seq: Inside post_body
+```verilog
+bseq = base_seq::type_id::create("bseq");
+bseq.start(env_o.agt.seqr);
+
+`uvm_do(req); // Calls all pre_do, mid_do and post_do methos.
+cseq = child_seq::type_id::create("cseq");
+cseq.start(null);
+```
+
+UVM_INFO @ 0: reporter [RNTST] Running test base_test...
+UVM_INFO [testbench.sv](http://testbench.sv)(21) @ 0: uvm_test_top.env_o.agt.seqr@@bseq [base_seq] Base seq: Inside pre_start
+UVM_INFO [testbench.sv](http://testbench.sv)(25) @ 0: uvm_test_top.env_o.agt.seqr@@bseq [base_seq] Base seq: Inside pre_body
+UVM_INFO [testbench.sv](http://testbench.sv)(38) @ 0: uvm_test_top.env_o.agt.seqr@@bseq [base_seq] Base seq: Inside Body
+UVM_INFO [testbench.sv](http://testbench.sv)(29) @ 0: uvm_test_top.env_o.agt.seqr@@bseq [base_seq] Base seq: Inside pre_do
+UVM_INFO [testbench.sv](http://testbench.sv)(33) @ 0: uvm_test_top.env_o.agt.seqr@@bseq [base_seq] Base seq: Inside mid_do
+UVM_INFO [driver.sv](http://driver.sv)(16) @ 0: uvm_test_top.env_o.agt.drv [driver] Driving logic
+UVM_INFO [testbench.sv](http://testbench.sv)(57) @ 50: uvm_test_top.env_o.agt.seqr@@bseq [base_seq] Base seq: Inside post_do
+UVM_INFO [testbench.sv](http://testbench.sv)(73) @ 50: reporter@@cseq [child_seq] Child seq: Inside pre_start
+UVM_INFO [testbench.sv](http://testbench.sv)(77) @ 50: reporter@@cseq [child_seq] Child seq: Inside pre_body
+UVM_INFO [testbench.sv](http://testbench.sv)(89) @ 50: reporter@@cseq [child_seq] Child seq: Inside Body
+UVM_INFO [testbench.sv](http://testbench.sv)(99) @ 50: reporter@@cseq [child_seq] Child seq: Inside post_body
+UVM_INFO [testbench.sv](http://testbench.sv)(61) @ 50: uvm_test_top.env_o.agt.seqr@@bseq [base_seq] Base seq: Inside post_body
+```verilog
+bseq = base_seq::type_id::create("bseq");
+bseq.start(env_o.agt.seqr);
+
+cseq = child_seq::type_id::create("cseq");
+cseq.start(null,this);
+```
+UVM_INFO testbench.sv(21) @ 0: uvm_test_top.env_o.agt.seqr@@bseq [base_seq] Base seq: Inside pre_start
+UVM_INFO testbench.sv(25) @ 0: uvm_test_top.env_o.agt.seqr@@bseq [base_seq] Base seq: Inside pre_body
+UVM_INFO testbench.sv(38) @ 0: uvm_test_top.env_o.agt.seqr@@bseq [base_seq] Base seq: Inside Body
+UVM_INFO testbench.sv(73) @ 0: uvm_test_top.env_o.agt.seqr@@bseq.cseq [child_seq] Child seq: Inside pre_start
+UVM_INFO testbench.sv(77) @ 0: uvm_test_top.env_o.agt.seqr@@bseq.cseq [child_seq] Child seq: Inside pre_body
+UVM_INFO testbench.sv(29) @ 0: uvm_test_top.env_o.agt.seqr@@bseq [base_seq] Base seq: Inside pre_do
+UVM_INFO testbench.sv(33) @ 0: uvm_test_top.env_o.agt.seqr@@bseq [base_seq] Base seq: Inside mid_do
+UVM_INFO testbench.sv(89) @ 0: uvm_test_top.env_o.agt.seqr@@bseq.cseq [child_seq] Child seq: Inside Body
+UVM_INFO testbench.sv(57) @ 0: uvm_test_top.env_o.agt.seqr@@bseq [base_seq] Base seq: Inside post_do
+UVM_INFO testbench.sv(99) @ 0: uvm_test_top.env_o.agt.seqr@@bseq.cseq [child_seq] Child seq: Inside post_body
+UVM_INFO testbench.sv(61) @ 0: uvm_test_top.env_o.agt.seqr@@bseq [base_seq] Base seq: Inside post_body
+
+
+
+
 
 
 https://verificationacademy.com/forums/t/sequence-not-getting-config-object-from-config-db/41958/8
