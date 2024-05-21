@@ -4,21 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "69c01f1d7cfde71c",
+        "id": "de84afd9e51f856c",
         "type": "tabs",
         "children": [
           {
-            "id": "1811d2ee7a673686",
+            "id": "ad2da79ea45143ab",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "pdf",
               "state": {
-                "file": "dv/uvm/uvm_factory.canvas",
-                "viewState": {
-                  "x": -2558.2788226305856,
-                  "y": -2448.1378849014436,
-                  "zoom": 0.07512560339907126
-                }
+                "file": "dv/harness/ref/Verification Prowess with the UVM Harness.pdf"
               }
             }
           }
@@ -75,7 +70,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "dv/uvm/uvm_factory.canvas"
+                "file": "dv/harness/ref/Verification Prowess with the UVM Harness.pdf"
               }
             }
           }
@@ -126,7 +121,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "dv/uvm/uvm_factory.canvas",
+                "file": "dv/harness/ref/Verification Prowess with the UVM Harness.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -143,7 +138,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "dv/uvm/uvm_factory.canvas",
+                "file": "dv/harness/ref/Verification Prowess with the UVM Harness.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -166,17 +161,17 @@
       "command-palette:Open command palette": true
     }
   },
-  "active": "1811d2ee7a673686",
+  "active": "ad2da79ea45143ab",
   "lastOpenFiles": [
-    "dv/uvm/sequence.md",
+    "dv/harness/ref/Verification Prowess with the UVM Harness.pdf",
     "dv/uvm/uvm_factory.canvas",
+    "dv/uvm/sequence.md",
     "dv/uvm/include/uvm_do_on_pri_with.canvas",
     "Untitled.md",
     "ToDoList.md",
     "testtest.md",
     "dv/harness/harness.md",
     "conflict-files-obsidian-git.md",
-    "dv/harness/ref/Verification Prowess with the UVM Harness.pdf",
     "dv/harness/code_harness_v2.bak.20240521_165843/verdiLog",
     "dv/harness/code_harness_v2.bak.20240521_165843",
     "dv/harness/code_harness_v2.bak.20240521_165843/novas.fsdb.sinf",
