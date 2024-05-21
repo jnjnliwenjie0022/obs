@@ -11,9 +11,12 @@
             "id": "ad2da79ea45143ab",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "dv/harness/ref/Verification Prowess with the UVM Harness.pdf"
+                "file": "de/mdu/mdu.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
               }
             }
           }
@@ -70,7 +73,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "dv/harness/ref/Verification Prowess with the UVM Harness.pdf"
+                "file": "de/mdu/mdu.md"
               }
             }
           }
@@ -121,7 +124,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "dv/harness/ref/Verification Prowess with the UVM Harness.pdf",
+                "file": "de/mdu/mdu.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -138,7 +141,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "dv/harness/ref/Verification Prowess with the UVM Harness.pdf",
+                "file": "de/mdu/mdu.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
