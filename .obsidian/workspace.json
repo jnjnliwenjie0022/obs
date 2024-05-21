@@ -11,10 +11,14 @@
             "id": "f2e67f65f2206c29",
             "type": "leaf",
             "state": {
-              "type": "diff-view",
+              "type": "canvas",
               "state": {
                 "file": "dv/uvm/uvm_factory.canvas",
-                "staged": false
+                "viewState": {
+                  "x": -2467.486193953362,
+                  "y": -3279.1501676804764,
+                  "zoom": -1.5
+                }
               }
             }
           }
@@ -30,7 +34,7 @@
       {
         "id": "afadd362b9dadcb6",
         "type": "tabs",
-        "dimension": 62.5,
+        "dimension": 62.212643678160916,
         "children": [
           {
             "id": "e659ba5d1cf0724d",
@@ -70,7 +74,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "dv/uvm/uvm_factory.canvas"
+              }
             }
           }
         ],
@@ -79,7 +85,7 @@
       {
         "id": "ce31482b6afb7740",
         "type": "tabs",
-        "dimension": 37.5,
+        "dimension": 37.787356321839084,
         "children": [
           {
             "id": "8cb3b947f548a8b1",
@@ -120,6 +126,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "dv/uvm/uvm_factory.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -136,6 +143,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "dv/uvm/uvm_factory.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -158,7 +166,7 @@
       "command-palette:Open command palette": true
     }
   },
-  "active": "8cb3b947f548a8b1",
+  "active": "f2e67f65f2206c29",
   "lastOpenFiles": [
     "dv/uvm/uvm_factory.canvas",
     "dv/harness/harness.md",
