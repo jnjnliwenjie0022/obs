@@ -8,12 +8,15 @@
         "type": "tabs",
         "children": [
           {
-            "id": "52ddb0578a4b55c2",
+            "id": "6afb393206695588",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "dv/harness/ref/Verification Prowess with the UVM Harness.pdf"
+                "file": "conflict-files-obsidian-git.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
               }
             }
           }
@@ -70,7 +73,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "dv/harness/ref/Verification Prowess with the UVM Harness.pdf"
+                "file": "conflict-files-obsidian-git.md"
               }
             }
           }
@@ -121,7 +124,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "dv/harness/ref/Verification Prowess with the UVM Harness.pdf",
+                "file": "conflict-files-obsidian-git.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -138,7 +141,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "dv/harness/ref/Verification Prowess with the UVM Harness.pdf",
+                "file": "conflict-files-obsidian-git.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,8 +164,12 @@
       "command-palette:Open command palette": true
     }
   },
-  "active": "52ddb0578a4b55c2",
+  "active": "6afb393206695588",
   "lastOpenFiles": [
+    "dv/harness/ref/Verification Prowess with the UVM Harness.pdf",
+    "conflict-files-obsidian-git.md",
+    "testtest.md",
+    "dv/uvm/uvm_factory.canvas",
     "dv/harness/code_harness_v2.bak.20240521_165843/verdiLog",
     "dv/harness/code_harness_v2.bak.20240521_165843",
     "dv/harness/code_harness_v2.bak.20240521_165843/novas.fsdb.sinf",
@@ -172,8 +179,6 @@
     "dv/harness/code_harness_v2.bak.20240521_165843/novas.fsdb.field",
     "dv/harness/code_harness_v2.bak.20240521_165843/novas.fsdb.vcc_delta",
     "dv/harness/code_harness_v2.bak.20240521_165843/novas.fsdb.event_tree",
-    "dv/harness/code_harness_v2.bak.20240521_165843/novas.fsdb.xlist",
-    "dv/harness/code_harness_v2.bak.20240521_165843/novas.fsdb.slist",
     "dv/uvm/sequence.md",
     "dv/harness/code_harness_v2.bak.20240521_165843/README.md",
     "dv/sv/wait.md",
@@ -207,8 +212,6 @@
     "3C ranking.md",
     "dv/uvmc/uvmc.md",
     "diary/work/2024-03-27.md",
-    "de/arbiter/arbiter.md",
-    "workflow/git.md",
     "dv/sc/include/Pasted image 20240510155959.png",
     "dv/sc/include/Pasted image 20240510170505.png",
     "Untitled.canvas",
