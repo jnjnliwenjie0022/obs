@@ -15,10 +15,23 @@
               "state": {
                 "file": "dv/uvm/uvm_factory.canvas",
                 "viewState": {
-                  "x": -1980.1882842731222,
-                  "y": -2745.588091213249,
-                  "zoom": -1.11314103403275
+                  "x": -2814.786882737513,
+                  "y": -2694.227302158502,
+                  "zoom": 0.07512560339907126
                 }
+              }
+            }
+          },
+          {
+            "id": "dd2a47d9253d10ec",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "dv/uvm/sequence.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
               }
             }
           }
@@ -168,9 +181,11 @@
   },
   "active": "1811d2ee7a673686",
   "lastOpenFiles": [
+    "dv/uvm/sequence.md",
+    "dv/uvm/include/uvm_do_on_pri_with.canvas",
+    "dv/uvm/uvm_factory.canvas",
     "Untitled.md",
     "ToDoList.md",
-    "dv/uvm/uvm_factory.canvas",
     "testtest.md",
     "dv/harness/harness.md",
     "conflict-files-obsidian-git.md",
@@ -184,7 +199,6 @@
     "dv/harness/code_harness_v2.bak.20240521_165843/novas.fsdb.field",
     "dv/harness/code_harness_v2.bak.20240521_165843/novas.fsdb.vcc_delta",
     "dv/harness/code_harness_v2.bak.20240521_165843/novas.fsdb.event_tree",
-    "dv/uvm/sequence.md",
     "dv/harness/code_harness_v2.bak.20240521_165843/README.md",
     "dv/sv/wait.md",
     "dv/sv/iff.md",
@@ -196,7 +210,6 @@
     "dv/uvm/include/nested_sequence.svg",
     "dv/uvm/code_sequence/README.md",
     "dv/uvm/Untitled.md",
-    "dv/uvm/include/uvm_do_on_pri_with.canvas",
     "dv/uvm/include/Pasted image 20240521012610.png",
     "dv/uvm/uvm_do.canvas",
     "dv/uvm/include/Pasted image 20240520213839.png",
