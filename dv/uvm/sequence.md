@@ -222,7 +222,11 @@ UVM_INFO testbench.sv(61) @ 50: uvm_test_top.env_o.agt.seqr@@bseq [base_seq] Bas
 [[649575fcbf99287ba25f20e8_litterick_uvm_slaves2_paper.pdf]]
 
 # p_sequencer
-
+[m_sequencer and p_sequencer](https://blog.csdn.net/u011177284/article/details/106274611)
+```verilog
+`uvm_declare_p_sequencer(user_defined_sequencer)
+```
+equivalent with
 
 # uvm_config_db
 
