@@ -4,20 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "1d98698b17f9fddf",
+        "id": "de84afd9e51f856c",
         "type": "tabs",
         "children": [
           {
-            "id": "c97358cacacb470d",
+            "id": "ad2da79ea45143ab",
             "type": "leaf",
             "state": {
               "type": "canvas",
               "state": {
                 "file": "dv/uvm/uvm_factory.canvas",
                 "viewState": {
-                  "x": -3411.205228688862,
-                  "y": -3260.9741758050086,
-                  "zoom": -0.434240325100046
+                  "x": -2483.3846428571433,
+                  "y": -2855.026428571428,
+                  "zoom": -0.6330159626652054
                 }
               }
             }
@@ -34,7 +34,7 @@
       {
         "id": "afadd362b9dadcb6",
         "type": "tabs",
-        "dimension": 62.5,
+        "dimension": 62.21264367816091,
         "children": [
           {
             "id": "e659ba5d1cf0724d",
@@ -85,7 +85,7 @@
       {
         "id": "ce31482b6afb7740",
         "type": "tabs",
-        "dimension": 37.5,
+        "dimension": 37.787356321839084,
         "children": [
           {
             "id": "8cb3b947f548a8b1",
@@ -99,7 +99,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 401.5
+    "width": 276.5
   },
   "right": {
     "id": "cb661d0a10776c07",
@@ -166,56 +166,56 @@
       "command-palette:Open command palette": true
     }
   },
-  "active": "c97358cacacb470d",
+  "active": "ad2da79ea45143ab",
   "lastOpenFiles": [
-    "dv/uvm/sequence.md",
+    "de/mdu/mdu.md",
+    "de/fpu/test.md~",
+    "de/fpu/4913",
+    "de/fpu/test.md",
+    "notes/dailies",
+    "notes",
+    "de/lut.md~",
+    "de/4913",
+    "de/fpu/f16dsu.md",
+    "de/fpu/f16div.md",
+    "de/fpu/f16mac.md",
+    "de/lut.md",
+    "Pased.md",
+    "Untitled.md",
+    "de/fpu/1716325117-WDHW.md",
+    "de/fpu/1716325117-WDHW.md~",
+    "dv/harness/ref/Verification Prowess with the UVM Harness.pdf",
     "dv/uvm/uvm_factory.canvas",
-    "3C ranking.md",
-    "README.md",
-    "ToDoList.md",
+    "dv/uvm/sequence.md",
     "dv/uvm/include/uvm_do_on_pri_with.canvas",
-    "conflict-files-obsidian-git.md",
+    "ToDoList.md",
     "testtest.md",
-    "dv/uvm/Untitled",
+    "dv/harness/harness.md",
+    "conflict-files-obsidian-git.md",
+    "dv/harness/code_harness_v2.bak.20240521_165843/verdiLog",
+    "dv/harness/code_harness_v2.bak.20240521_165843",
+    "dv/harness/code_harness_v2.bak.20240521_165843/README.md",
     "dv/sv/wait.md",
     "dv/sv/iff.md",
-    "dv/sv/polymorphism.md",
-    "dv/sv/coding_guideline.md",
-    "dv/sv/ref/Nonblocking Assignments in Verilog Synthesis, Coding Styles That Kill!.pdf",
-    "dv/sv/ref/Verilog Nonblocking Assignments With Delays, Myths & Mysteries.pdf",
-    "de/v/ref/coding_guidelines.pdf",
-    "de/v/verilog.md",
-    "de/v/ref",
-    "de/v/re.md",
-    "de/v/ref.md",
-    "dv/uvm/ref/verilab_dvcon_eu2015_6_params.pdf",
-    "dv/uvm/ref/UVM實戰.pdf",
-    "dv/sv/ref/VerilogTraining.pptx.lnk",
-    "dv/sv/ref/full_case parallel_case, the Evil Twins of Verilog.pdf",
-    "dv/sv/ref",
-    "dv/sv/ref.md",
     "dv/sv/generic_memory.md",
+    "dv/sv/coding_guideline.md",
+    "de/v/include/Pasted image 20240307155712.png",
+    "de/v/verilog.md",
     "dv/uvm/code_nested_sequence/README.md",
-    "dv/harness/code_harness_v2_error/README.md",
     "dv/uvm/include/nested_sequence.svg",
-    "Pasted image 20240521111128.png",
-    "Pasted image 20240521111118.png",
-    "dv/sequence.md",
-    "dv/rename order_of_starting_sequence.canvas",
-    "dv/uvm/include/Pasted image 20240521012610.png",
-    "dv/uvm/include/Pasted image 20240520213839.png",
     "dv/uvm/code_sequence/README.md",
+    "dv/uvm/Untitled.md",
+    "dv/uvm/include/Pasted image 20240521012610.png",
+    "dv/uvm/uvm_do.canvas",
+    "dv/uvm/include/Pasted image 20240520213839.png",
+    "dv/sv/polymorphism.md",
     "dv/sv/cast/README.md",
-    "dv/include/Pasted image 20240520213839.png",
-    "dv/harness/harness.md",
-    "workflow/tnv.md",
-    "de/arithmetic/booth.md",
+    "dv/include/git.svg",
     "dv/harness/include/Pasted image 20240520145623.png",
-    "dv/harness/include/Pasted image 20240520145541.png",
-    "dv/harness.md",
     "dv/harness/include/Pasted image 20240519232041.png",
-    "dv/harness/code_harness_v2/README.md",
+    "dv/harness/include/Pasted image 20240520145541.png",
     "dv/sc/include/Pasted image 20240510155959.png",
+    "dv/sc/include/Pasted image 20240510170505.png",
     "Untitled.canvas",
     "Untitled 1.canvas",
     "債券/債券.canvas"
