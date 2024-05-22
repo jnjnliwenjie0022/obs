@@ -11,14 +11,12 @@
             "id": "ad2da79ea45143ab",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "dv/uvm/uvm_factory.canvas",
-                "viewState": {
-                  "x": -2966.105235034083,
-                  "y": -3116.474137424232,
-                  "zoom": -0.5
-                }
+                "file": "dv/uvm/sequence.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
               }
             }
           }
@@ -75,7 +73,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "dv/uvm/uvm_factory.canvas"
+                "file": "dv/uvm/sequence.md"
               }
             }
           }
@@ -126,7 +124,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "dv/uvm/uvm_factory.canvas",
+                "file": "dv/uvm/sequence.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -143,7 +141,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "dv/uvm/uvm_factory.canvas",
+                "file": "dv/uvm/sequence.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -168,6 +166,8 @@
   },
   "active": "ad2da79ea45143ab",
   "lastOpenFiles": [
+    "test.md",
+    "dv/uvm/uvm_factory.canvas",
     "test.md~",
     "4913",
     "de/mdu/mdu.md",
@@ -187,14 +187,12 @@
     "de/fpu/1716325117-WDHW.md",
     "de/fpu/1716325117-WDHW.md~",
     "dv/harness/ref/Verification Prowess with the UVM Harness.pdf",
-    "dv/uvm/uvm_factory.canvas",
     "dv/uvm/sequence.md",
     "dv/uvm/include/uvm_do_on_pri_with.canvas",
     "ToDoList.md",
     "testtest.md",
     "dv/harness/harness.md",
     "conflict-files-obsidian-git.md",
-    "dv/harness/code_harness_v2.bak.20240521_165843/verdiLog",
     "dv/harness/code_harness_v2.bak.20240521_165843/README.md",
     "dv/sv/wait.md",
     "dv/sv/iff.md",
