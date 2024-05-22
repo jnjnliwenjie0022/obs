@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "dv/uvm/sequence.md",
-                "mode": "source",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -166,6 +166,8 @@
   },
   "active": "ad2da79ea45143ab",
   "lastOpenFiles": [
+    "dv/uvm/sequence.md~",
+    "dv/uvm/4913",
     "test.md",
     "dv/uvm/uvm_factory.canvas",
     "test.md~",
@@ -186,7 +188,6 @@
     "Untitled.md",
     "de/fpu/1716325117-WDHW.md",
     "de/fpu/1716325117-WDHW.md~",
-    "dv/harness/ref/Verification Prowess with the UVM Harness.pdf",
     "dv/uvm/sequence.md",
     "dv/uvm/include/uvm_do_on_pri_with.canvas",
     "ToDoList.md",
@@ -208,7 +209,6 @@
     "dv/uvm/uvm_do.canvas",
     "dv/uvm/include/Pasted image 20240520213839.png",
     "dv/sv/polymorphism.md",
-    "dv/sv/cast/README.md",
     "dv/include/git.svg",
     "dv/harness/include/Pasted image 20240520145623.png",
     "dv/harness/include/Pasted image 20240519232041.png",

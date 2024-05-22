@@ -1,3 +1,9 @@
+---
+id: sequence
+aliases: []
+tags: []
+---
+
 # sequence_start
 
 1. 透過start()
@@ -66,21 +72,24 @@ For a sequence, the following are called, in order
 # seq.start()
 [(VLSI Verify)How to start a sequence?](https://vlsiverify.com/uvm/start-a-sequence/)
 [(CV)How to execute sequence via start?](https://www.chipverify.com/uvm/how-to-execute-sequences-via-start-method)
+
 ![[Pasted image 20240521012610.png|1000]]
 ```verilog
 bseq = base_seq::type_id::create("bseq");
 bseq.start(env_o.agt.seqr);
 ```
+```
 UVM_INFO testbench.sv(21) @ 0: uvm_test_top.env_o.agt.seqr@@bseq [base_seq] Base seq: Inside pre_start
 UVM_INFO testbench.sv(25) @ 0: uvm_test_top.env_o.agt.seqr@@bseq [base_seq] Base seq: Inside pre_body
 UVM_INFO testbench.sv(38) @ 0: uvm_test_top.env_o.agt.seqr@@bseq [base_seq] Base seq: Inside Body
 UVM_INFO testbench.sv(56) @ 0: uvm_test_top.env_o.agt.seqr@@bseq [base_seq] Base seq: Inside post_body
-
+```
 ```verilog
 bseq = base_seq::type_id::create("bseq");
 bseq.start(env_o.agt.seqr);
 
 `uvm_do(req)
+```
 ```
 UVM_INFO testbench.sv(21) @ 0: uvm_test_top.env_o.agt.seqr@@bseq [base_seq] Base seq: Inside pre_start
 UVM_INFO testbench.sv(25) @ 0: uvm_test_top.env_o.agt.seqr@@bseq [base_seq] Base seq: Inside pre_body
@@ -90,6 +99,7 @@ UVM_INFO testbench.sv(33) @ 0: uvm_test_top.env_o.agt.seqr@@bseq [base_seq] Base
 UVM_INFO driver.sv(16) @ 0: uvm_test_top.env_o.agt.drv [driver] Driving logic
 UVM_INFO testbench.sv(52) @ 50: uvm_test_top.env_o.agt.seqr@@bseq [base_seq] Base seq: Inside post_do
 UVM_INFO testbench.sv(56) @ 50: uvm_test_top.env_o.agt.seqr@@bseq [base_seq] Base seq: Inside post_body
+```
 ```verilog
 bseq = base_seq::type_id::create("bseq");
 bseq.start(env_o.agt.seqr);
