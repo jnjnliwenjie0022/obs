@@ -15,9 +15,9 @@
               "state": {
                 "file": "dv/uvm/uvm_factory.canvas",
                 "viewState": {
-                  "x": -2242.7146894276343,
-                  "y": -2144.0532328279364,
-                  "zoom": -0.2500000000000001
+                  "x": -2899,
+                  "y": -3190,
+                  "zoom": -0.8509069917667127
                 }
               }
             }
@@ -99,7 +99,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 401.5
+    "width": 401.5,
+    "collapsed": true
   },
   "right": {
     "id": "cb661d0a10776c07",
