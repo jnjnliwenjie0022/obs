@@ -24,17 +24,13 @@
             "id": "cfc3f1229b6bf8a6",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "maketing/ai.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
+                "file": "maketing/include/Pasted image 20240523112644.png"
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -87,7 +83,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "maketing/ai.md"
+                "file": "dv/uvm/sequence.md"
               }
             }
           }
@@ -138,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "maketing/ai.md",
+                "file": "dv/uvm/sequence.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -155,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "maketing/ai.md",
+                "file": "dv/uvm/sequence.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -178,10 +174,13 @@
       "command-palette:Open command palette": true
     }
   },
-  "active": "cfc3f1229b6bf8a6",
+  "active": "c97358cacacb470d",
   "lastOpenFiles": [
-    "workflow/tnv.md",
+    "maketing/include/Pasted image 20240523112644.png",
     "maketing/ai.md",
+    "maketing/include/Pasted image 20240523112321.png",
+    "maketing/include/Pasted image 20240523111927.png",
+    "workflow/tnv.md",
     "maketing/include/Pasted image 20240523110955.png",
     "maketing/include",
     "maketing",
@@ -225,9 +224,6 @@
     "dv/include/Pasted image 20240520213839.png",
     "dv/harness/harness.md",
     "de/arithmetic/booth.md",
-    "dv/harness/include/Pasted image 20240520145623.png",
-    "dv/harness/include/Pasted image 20240520145541.png",
-    "dv/harness/include/Pasted image 20240519232041.png",
     "Untitled.canvas",
     "Untitled 1.canvas",
     "債券/債券.canvas"
