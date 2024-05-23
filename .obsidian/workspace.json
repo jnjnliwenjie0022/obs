@@ -19,8 +19,22 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "f9ff44df20799311",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "conflict-files-obsidian-git.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -73,7 +87,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "dv/uvm/sequence.md"
+                "file": "conflict-files-obsidian-git.md"
               }
             }
           }
@@ -124,7 +138,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "dv/uvm/sequence.md",
+                "file": "conflict-files-obsidian-git.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -141,7 +155,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "dv/uvm/sequence.md",
+                "file": "conflict-files-obsidian-git.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -164,16 +178,16 @@
       "command-palette:Open command palette": true
     }
   },
-  "active": "c97358cacacb470d",
+  "active": "f9ff44df20799311",
   "lastOpenFiles": [
+    "dv/uvm/sequence.md",
+    "conflict-files-obsidian-git.md",
     "de/lut.md",
     "dv/uvm/uvm_factory.canvas",
-    "dv/uvm/sequence.md",
     "3C ranking.md",
     "README.md",
     "ToDoList.md",
     "dv/uvm/include/uvm_do_on_pri_with.canvas",
-    "conflict-files-obsidian-git.md",
     "testtest.md",
     "dv/uvm/Untitled",
     "dv/sv/wait.md",
