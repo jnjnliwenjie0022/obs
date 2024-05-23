@@ -24,13 +24,17 @@
             "id": "cfc3f1229b6bf8a6",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "maketing/include/Pasted image 20240523112644.png"
+                "file": "maketing/ai.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -83,7 +87,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "dv/uvm/sequence.md"
+                "file": "maketing/ai.md"
               }
             }
           }
@@ -107,7 +111,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 401.5
+    "width": 218.5
   },
   "right": {
     "id": "cb661d0a10776c07",
@@ -134,7 +138,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "dv/uvm/sequence.md",
+                "file": "maketing/ai.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +155,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "dv/uvm/sequence.md",
+                "file": "maketing/ai.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,17 +178,20 @@
       "command-palette:Open command palette": true
     }
   },
-  "active": "c97358cacacb470d",
+  "active": "cfc3f1229b6bf8a6",
   "lastOpenFiles": [
-    "maketing/include/Pasted image 20240523112644.png",
+    "Pasted image 20240523113736.png",
     "maketing/ai.md",
+    "maketing/include/Pasted image 20240523113807.png",
+    "maketing/include/Pasted image 20240523113130.png",
+    "maketing/include/Pasted image 20240523112644.png",
+    "dv/uvm/sequence.md",
     "maketing/include/Pasted image 20240523112321.png",
     "maketing/include/Pasted image 20240523111927.png",
     "workflow/tnv.md",
     "maketing/include/Pasted image 20240523110955.png",
     "maketing/include",
     "maketing",
-    "dv/uvm/sequence.md",
     "conflict-files-obsidian-git.md",
     "de/lut.md",
     "dv/uvm/uvm_factory.canvas",
@@ -217,11 +224,8 @@
     "Pasted image 20240521111118.png",
     "dv/sequence.md",
     "dv/rename order_of_starting_sequence.canvas",
-    "dv/uvm/include/Pasted image 20240521012610.png",
-    "dv/uvm/include/Pasted image 20240520213839.png",
     "dv/uvm/code_sequence/README.md",
     "dv/sv/cast/README.md",
-    "dv/include/Pasted image 20240520213839.png",
     "dv/harness/harness.md",
     "de/arithmetic/booth.md",
     "Untitled.canvas",
