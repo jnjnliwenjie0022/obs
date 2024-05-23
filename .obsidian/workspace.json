@@ -24,14 +24,12 @@
             "id": "cfc3f1229b6bf8a6",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "dv/uvm/uvm_factory.canvas",
-                "viewState": {
-                  "x": -1769.452109117752,
-                  "y": -4136.398658136979,
-                  "zoom": 0.4166666666666667
-                }
+                "file": "dv/uvm/sequence.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
               }
             }
           }
@@ -48,7 +46,7 @@
       {
         "id": "afadd362b9dadcb6",
         "type": "tabs",
-        "dimension": 62.5,
+        "dimension": 73.73929590865842,
         "children": [
           {
             "id": "e659ba5d1cf0724d",
@@ -89,7 +87,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "dv/uvm/uvm_factory.canvas"
+                "file": "dv/uvm/sequence.md"
               }
             }
           }
@@ -99,7 +97,7 @@
       {
         "id": "ce31482b6afb7740",
         "type": "tabs",
-        "dimension": 37.5,
+        "dimension": 26.26070409134158,
         "children": [
           {
             "id": "8cb3b947f548a8b1",
@@ -113,7 +111,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 218.5
+    "width": 336.5110321044922
   },
   "right": {
     "id": "cb661d0a10776c07",
@@ -140,7 +138,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "dv/uvm/uvm_factory.canvas",
+                "file": "dv/uvm/sequence.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -157,7 +155,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "dv/uvm/uvm_factory.canvas",
+                "file": "dv/uvm/sequence.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -182,6 +180,7 @@
   },
   "active": "cfc3f1229b6bf8a6",
   "lastOpenFiles": [
+    "dv/uvm/uvm_factory.md",
     "dv/uvm/uvm_factory.canvas",
     "dv/uvm/sequence.md",
     "ToDoList.md",
