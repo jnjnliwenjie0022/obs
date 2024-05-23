@@ -24,12 +24,14 @@
             "id": "cfc3f1229b6bf8a6",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "maketing/ai.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
+                "file": "dv/uvm/uvm_factory.canvas",
+                "viewState": {
+                  "x": -2290.47469881223,
+                  "y": -2082.065189688546,
+                  "zoom": -1.0242067199896816
+                }
               }
             }
           }
@@ -87,7 +89,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "maketing/ai.md"
+                "file": "dv/uvm/uvm_factory.canvas"
               }
             }
           }
@@ -138,7 +140,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "maketing/ai.md",
+                "file": "dv/uvm/uvm_factory.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -155,7 +157,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "maketing/ai.md",
+                "file": "dv/uvm/uvm_factory.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -180,12 +182,12 @@
   },
   "active": "cfc3f1229b6bf8a6",
   "lastOpenFiles": [
+    "maketing/ai.md",
     "Pasted image 20240523120003.png",
     "Pasted image 20240523115342.png",
     "Pasted image 20240523114751.png",
     "maketing/include/Pasted image 20240523114103.png",
     "Pasted image 20240523113736.png",
-    "maketing/ai.md",
     "maketing/include/Pasted image 20240523113807.png",
     "maketing/include/Pasted image 20240523113130.png",
     "maketing/include/Pasted image 20240523112644.png",
@@ -193,7 +195,6 @@
     "maketing/include/Pasted image 20240523112321.png",
     "maketing/include/Pasted image 20240523111927.png",
     "workflow/tnv.md",
-    "maketing/include/Pasted image 20240523110955.png",
     "maketing/include",
     "maketing",
     "conflict-files-obsidian-git.md",
