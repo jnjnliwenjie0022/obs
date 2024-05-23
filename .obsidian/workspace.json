@@ -11,8 +11,10 @@
             "id": "cf2a2107f3893434",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "image",
+              "state": {
+                "file": "Pasted image 20240523114751.png"
+              }
             }
           }
         ]
@@ -67,7 +69,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Pasted image 20240523114751.png"
+              }
             }
           }
         ],
@@ -117,6 +121,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Pasted image 20240523114751.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,6 +138,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Pasted image 20240523114751.png",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -157,6 +163,8 @@
   },
   "active": "cf2a2107f3893434",
   "lastOpenFiles": [
+    "Pasted image 20240523115342.png",
+    "Pasted image 20240523120003.png",
     "conflict-files-obsidian-git.md",
     "uvm_factory.canvas",
     "maketing/include/Pasted image 20240523114103.png",
@@ -173,8 +181,6 @@
     "dv/uvm/include/uvm_factory1.canvas",
     "Untitled.md",
     "Untitled 1.md",
-    "Pasted image 20240523120003.png",
-    "Pasted image 20240523115342.png",
     "Pasted image 20240523114751.png",
     "dv/uvm/sequence.md",
     "test.md",
