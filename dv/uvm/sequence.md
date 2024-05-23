@@ -71,6 +71,7 @@ For a sequence, the following are called, in order
 
 # seq.start()
 [(VLSI Verify)How to start a sequence?](https://vlsiverify.com/uvm/start-a-sequence/)
+
 [(CV)How to execute sequence via start?](https://www.chipverify.com/uvm/how-to-execute-sequences-via-start-method)
 
 ![[Pasted image 20240521012610.png|1000]]
