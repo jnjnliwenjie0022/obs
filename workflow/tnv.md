@@ -71,6 +71,7 @@
 ```
 # git_pull_tnv_workflow
 https://github.com/jnjnliwenjie0022/.dotfiles/tree/master
+
 使用前確保一下的東西都不存在
 1. .local/bin/
 2. .local/script/
@@ -80,13 +81,16 @@ https://github.com/jnjnliwenjie0022/.dotfiles/tree/master
 6. .config/nvim/
 ## appImage_tmux_neovim
 default using jnjnliwenjie0022.git
-https://github.com/neovim/neovim/wiki/
+
+https://github.com/neovim/neovim/releases
+
+version: Nvim 0.9.2
 ```
 curl -LO https://github.com/neovim/neovim/releases/latest/download/nvim.appimage
 chmod u+x nvim.appimage
 mv nvim.appimage ~/.local/bin/nvim
 ```
-https://github.com/nelsonenzo/tmux-appimage
+https://github.com/nelsonenzo/tmux-appimage/releases
 ```
 curl -s https://api.github.com/repos/nelsonenzo/tmux-appimage/releases/latest \
 | grep "browser_download_url.*appimage" \
@@ -99,6 +103,7 @@ mv tmux.appimage ~/.local/bin/tmux
 2 ways to execute appimage
 1. -appimage-extract and amend the AppRun file
 2. installed libfuse2
+
 	https://github.com/AppImage/AppImageKit/wiki/FUSE
 	```
 	sudo apt-get install libfuse2
