@@ -71,6 +71,7 @@ For a sequence, the following are called, in order
 
 # seq_start
 [(VLSI Verify)How to start a sequence?](https://vlsiverify.com/uvm/start-a-sequence/)
+
 [(CV)How to execute sequence via start?](https://www.chipverify.com/uvm/how-to-execute-sequences-via-start-method)
 
 ![[Pasted image 20240521012610.png|1000]]
@@ -110,11 +111,13 @@ assert(req.randomize());
 send_request(req);
 wait_for_item_done();
 ```
+```verilog
 UVM_INFO [testbench.sv](http://testbench.sv)(21) @ 0: uvm_test_top.env_o.agt.seqr@@bseq [base_seq] Base seq: Inside pre_start
 UVM_INFO [testbench.sv](http://testbench.sv)(25) @ 0: uvm_test_top.env_o.agt.seqr@@bseq [base_seq] Base seq: Inside pre_body
 UVM_INFO [testbench.sv](http://testbench.sv)(38) @ 0: uvm_test_top.env_o.agt.seqr@@bseq [base_seq] Base seq: Inside Body
 UVM_INFO [driver.sv](http://driver.sv)(16) @ 0: uvm_test_top.env_o.agt.drv [driver] Driving logic
 UVM_INFO [testbench.sv](http://testbench.sv)(56) @ 50: uvm_test_top.env_o.agt.seqr@@bseq [base_seq] Base seq: Inside post_body
+```
 ```verilog
 bseq = base_seq::type_id::create("bseq");
 bseq.start(env_o.agt.seqr);
@@ -124,6 +127,7 @@ start_item(req);
 assert(req.randomize());
 finish_item(req);
 ```
+```verilog
 UVM_INFO [testbench.sv](http://testbench.sv)(21) @ 0: uvm_test_top.env_o.agt.seqr@@bseq [base_seq] Base seq: Inside pre_start
 UVM_INFO [testbench.sv](http://testbench.sv)(25) @ 0: uvm_test_top.env_o.agt.seqr@@bseq [base_seq] Base seq: Inside pre_body
 UVM_INFO [testbench.sv](http://testbench.sv)(38) @ 0: uvm_test_top.env_o.agt.seqr@@bseq [base_seq] Base seq: Inside Body
@@ -132,6 +136,7 @@ UVM_INFO [testbench.sv](http://testbench.sv)(33) @ 0: uvm_test_top.env_o.agt.seq
 UVM_INFO [driver.sv](http://driver.sv)(16) @ 0: uvm_test_top.env_o.agt.drv [driver] Driving logic
 UVM_INFO [testbench.sv](http://testbench.sv)(57) @ 50: uvm_test_top.env_o.agt.seqr@@bseq [base_seq] Base seq: Inside post_do
 UVM_INFO [testbench.sv](http://testbench.sv)(61) @ 50: uvm_test_top.env_o.agt.seqr@@bseq [base_seq] Base seq: Inside post_body
+```
 ```verilog
 bseq = base_seq::type_id::create("bseq");
 bseq.start(env_o.agt.seqr);
@@ -139,6 +144,7 @@ bseq.start(env_o.agt.seqr);
 cseq = child_seq::type_id::create("cseq");
 cseq.start(null);
 ```
+```verilog
 UVM_INFO [testbench.sv](http://testbench.sv)(21) @ 0: uvm_test_top.env_o.agt.seqr@@bseq [base_seq] Base seq: Inside pre_start
 UVM_INFO [testbench.sv](http://testbench.sv)(25) @ 0: uvm_test_top.env_o.agt.seqr@@bseq [base_seq] Base seq: Inside pre_body
 UVM_INFO [testbench.sv](http://testbench.sv)(38) @ 0: uvm_test_top.env_o.agt.seqr@@bseq [base_seq] Base seq: Inside Body
@@ -147,6 +153,7 @@ UVM_INFO [testbench.sv](http://testbench.sv)(77) @ 0: reporter@@cseq [child_seq]
 UVM_INFO [testbench.sv](http://testbench.sv)(89) @ 0: reporter@@cseq [child_seq] Child seq: Inside Body
 UVM_INFO [testbench.sv](http://testbench.sv)(99) @ 0: reporter@@cseq [child_seq] Child seq: Inside post_body
 UVM_INFO [testbench.sv](http://testbench.sv)(61) @ 0: uvm_test_top.env_o.agt.seqr@@bseq [base_seq] Base seq: Inside post_body
+```
 ```verilog
 bseq = base_seq::type_id::create("bseq");
 bseq.start(env_o.agt.seqr);
@@ -155,6 +162,7 @@ bseq.start(env_o.agt.seqr);
 cseq = child_seq::type_id::create("cseq");
 cseq.start(null);
 ```
+```verilog
 UVM_INFO [testbench.sv](http://testbench.sv)(21) @ 0: uvm_test_top.env_o.agt.seqr@@bseq [base_seq] Base seq: Inside pre_start
 UVM_INFO [testbench.sv](http://testbench.sv)(25) @ 0: uvm_test_top.env_o.agt.seqr@@bseq [base_seq] Base seq: Inside pre_body
 UVM_INFO [testbench.sv](http://testbench.sv)(38) @ 0: uvm_test_top.env_o.agt.seqr@@bseq [base_seq] Base seq: Inside Body
@@ -167,12 +175,11 @@ UVM_INFO [testbench.sv](http://testbench.sv)(77) @ 50: reporter@@cseq [child_seq
 UVM_INFO [testbench.sv](http://testbench.sv)(89) @ 50: reporter@@cseq [child_seq] Child seq: Inside Body
 UVM_INFO [testbench.sv](http://testbench.sv)(99) @ 50: reporter@@cseq [child_seq] Child seq: Inside post_body
 UVM_INFO [testbench.sv](http://testbench.sv)(61) @ 50: uvm_test_top.env_o.agt.seqr@@bseq [base_seq] Base seq: Inside post_body
-
+```
 https://verificationacademy.com/forums/t/sequence-not-getting-config-object-from-config-db/41958/8
 ```verilog
 reg_seq.start(.sequencer(<handle of your sequencer>), .parent_sequence(null) );
 ```
-
 ```verilog
 bseq = base_seq::type_id::create("bseq");
 bseq.start(env_o.agt.seqr);
@@ -180,6 +187,7 @@ bseq.start(env_o.agt.seqr);
 cseq = child_seq::type_id::create("cseq");
 cseq.start(null,this);
 ```
+```verilog
 UVM_INFO testbench.sv(21) @ 0: uvm_test_top.env_o.agt.seqr@@bseq [base_seq] Base seq: Inside pre_start
 UVM_INFO testbench.sv(25) @ 0: uvm_test_top.env_o.agt.seqr@@bseq [base_seq] Base seq: Inside pre_body
 UVM_INFO testbench.sv(38) @ 0: uvm_test_top.env_o.agt.seqr@@bseq [base_seq] Base seq: Inside Body
@@ -191,6 +199,7 @@ UVM_INFO testbench.sv(89) @ 0: uvm_test_top.env_o.agt.seqr@@bseq.cseq [child_seq
 UVM_INFO testbench.sv(57) @ 0: uvm_test_top.env_o.agt.seqr@@bseq [base_seq] Base seq: Inside post_do
 UVM_INFO testbench.sv(99) @ 0: uvm_test_top.env_o.agt.seqr@@bseq.cseq [child_seq] Child seq: Inside post_body
 UVM_INFO testbench.sv(61) @ 0: uvm_test_top.env_o.agt.seqr@@bseq [base_seq] Base seq: Inside post_body
+```
 ```verilog
 bseq = base_seq::type_id::create("bseq");
 bseq.start(env_o.agt.seqr);
@@ -199,6 +208,7 @@ bseq.start(env_o.agt.seqr);
 cseq = child_seq::type_id::create("cseq");
 cseq.start(null,this);
 ```
+```verilog
 UVM_INFO testbench.sv(21) @ 0: uvm_test_top.env_o.agt.seqr@@bseq [base_seq] Base seq: Inside pre_start
 UVM_INFO testbench.sv(25) @ 0: uvm_test_top.env_o.agt.seqr@@bseq [base_seq] Base seq: Inside pre_bodya
 UVM_INFO testbench.sv(38) @ 0: uvm_test_top.env_o.agt.seqr@@bseq [base_seq] Base seq: Inside Body
@@ -214,6 +224,7 @@ UVM_INFO testbench.sv(89) @ 50: uvm_test_top.env_o.agt.seqr@@bseq.cseq [child_se
 UVM_INFO testbench.sv(57) @ 50: uvm_test_top.env_o.agt.seqr@@bseq [base_seq] Base seq: Inside post_do
 UVM_INFO testbench.sv(99) @ 50: uvm_test_top.env_o.agt.seqr@@bseq.cseq [child_seq] Child seq: Inside post_body
 UVM_INFO testbench.sv(61) @ 50: uvm_test_top.env_o.agt.seqr@@bseq [base_seq] Base seq: Inside post_body
+```
 # nested_sequence
 ![[nested_sequence.svg]]
 第一個seq

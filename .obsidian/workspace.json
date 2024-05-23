@@ -4,15 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "3d1c745b03db8154",
+        "id": "5482ab763c88b0d8",
         "type": "tabs",
         "children": [
           {
-            "id": "e03db7e194121588",
+            "id": "d803beede4f9b53a",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "conflict-files-obsidian-git.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
             }
           }
         ]
@@ -67,7 +72,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "conflict-files-obsidian-git.md"
+              }
             }
           }
         ],
@@ -117,6 +124,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "conflict-files-obsidian-git.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,6 +141,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "conflict-files-obsidian-git.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -155,8 +164,27 @@
       "command-palette:Open command palette": true
     }
   },
-  "active": "e03db7e194121588",
+  "active": "d803beede4f9b53a",
   "lastOpenFiles": [
+    "conflict-files-obsidian-git.md",
+    "uvm_factory.canvas",
+    "maketing/include/Pasted image 20240523114103.png",
+    "maketing/include/Pasted image 20240523113807.png",
+    "maketing/include/Pasted image 20240523113130.png",
+    "maketing/include/Pasted image 20240523112644.png",
+    "maketing/include/Pasted image 20240523112321.png",
+    "maketing/include/Pasted image 20240523111927.png",
+    "maketing/include/Pasted image 20240523110955.png",
+    "maketing/include",
+    "maketing/ai.md",
+    "maketing",
+    "dv/uvm/uvm_factory.md",
+    "dv/uvm/include/uvm_factory1.canvas",
+    "Untitled.md",
+    "Untitled 1.md",
+    "Pasted image 20240523120003.png",
+    "Pasted image 20240523115342.png",
+    "Pasted image 20240523114751.png",
     "dv/uvm/sequence.md",
     "test.md",
     "test.md~",
@@ -170,41 +198,24 @@
     "de/fpu/test.md",
     "notes/dailies",
     "notes",
-    "de/lut.md~",
-    "de/4913",
     "de/fpu/f16dsu.md",
     "de/fpu/f16div.md",
     "de/fpu/f16mac.md",
     "de/lut.md",
     "Pased.md",
-    "Untitled.md",
     "de/fpu/1716325117-WDHW.md",
     "dv/uvm/include/uvm_do_on_pri_with.canvas",
     "ToDoList.md",
     "testtest.md",
     "dv/harness/harness.md",
-    "conflict-files-obsidian-git.md",
     "dv/harness/code_harness_v2.bak.20240521_165843/README.md",
     "dv/sv/wait.md",
     "dv/sv/iff.md",
     "dv/sv/generic_memory.md",
     "dv/sv/coding_guideline.md",
-    "de/v/include/Pasted image 20240307155712.png",
     "de/v/verilog.md",
     "dv/uvm/code_nested_sequence/README.md",
-    "dv/uvm/include/nested_sequence.svg",
-    "dv/uvm/code_sequence/README.md",
-    "dv/uvm/Untitled.md",
-    "dv/uvm/include/Pasted image 20240521012610.png",
     "dv/uvm/uvm_do.canvas",
-    "dv/uvm/include/Pasted image 20240520213839.png",
-    "dv/sv/polymorphism.md",
-    "dv/include/git.svg",
-    "dv/harness/include/Pasted image 20240520145623.png",
-    "dv/harness/include/Pasted image 20240519232041.png",
-    "dv/harness/include/Pasted image 20240520145541.png",
-    "dv/sc/include/Pasted image 20240510155959.png",
-    "dv/sc/include/Pasted image 20240510170505.png",
     "Untitled.canvas",
     "Untitled 1.canvas",
     "債券/債券.canvas"
