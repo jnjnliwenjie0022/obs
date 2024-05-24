@@ -6,9 +6,10 @@
 	1. 需要補充
 4. explain f1_mac_sum_l_amount bitwidth
 5. wsl git obsidian (include git prompt
-6. efjei
 
 ```verilog
 
 
 ```
+
+7. exclusive behavior
