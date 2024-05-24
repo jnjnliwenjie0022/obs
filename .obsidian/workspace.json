@@ -11,9 +11,12 @@
             "id": "cf2a2107f3893434",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "Pasted image 20240523114751.png"
+                "file": "Untitled 1.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
               }
             }
           }
@@ -70,7 +73,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Pasted image 20240523114751.png"
+                "file": "Untitled 1.md"
               }
             }
           }
@@ -121,7 +124,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Pasted image 20240523114751.png",
+                "file": "Untitled 1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -138,7 +141,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Pasted image 20240523114751.png",
+                "file": "Untitled 1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -163,10 +166,13 @@
   },
   "active": "cf2a2107f3893434",
   "lastOpenFiles": [
+    "Untitled.md",
+    "uvm_factory.canvas",
+    "Untitled 1.md",
+    "Pasted image 20240523114751.png",
     "Pasted image 20240523115342.png",
     "Pasted image 20240523120003.png",
     "conflict-files-obsidian-git.md",
-    "uvm_factory.canvas",
     "maketing/include/Pasted image 20240523114103.png",
     "maketing/include/Pasted image 20240523113807.png",
     "maketing/include/Pasted image 20240523113130.png",
@@ -179,9 +185,6 @@
     "maketing",
     "dv/uvm/uvm_factory.md",
     "dv/uvm/include/uvm_factory1.canvas",
-    "Untitled.md",
-    "Untitled 1.md",
-    "Pasted image 20240523114751.png",
     "dv/uvm/sequence.md",
     "test.md",
     "test.md~",
