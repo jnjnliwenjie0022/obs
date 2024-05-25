@@ -11,8 +11,13 @@
             "id": "2d4dce1fe6983480",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "de/fpu/f16dsu.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
             }
           }
         ]
@@ -67,7 +72,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "de/fpu/f16dsu.md"
+              }
             }
           }
         ],
@@ -117,6 +124,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "de/fpu/f16dsu.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,6 +141,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "de/fpu/f16dsu.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -155,7 +164,7 @@
       "command-palette:Open command palette": true
     }
   },
-  "active": "19a60b1e44f4e87a",
+  "active": "2d4dce1fe6983480",
   "lastOpenFiles": [
     "de/fctrl/fctrl.md",
     "de/fpu/include_f16mac/frd_rne_correction_with_ksa.svg",
