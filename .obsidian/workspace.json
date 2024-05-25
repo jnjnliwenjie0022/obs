@@ -4,20 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "ffa06124f4ae09b1",
+        "id": "9ab4af087fbede27",
         "type": "tabs",
         "children": [
           {
-            "id": "2fbfc2b40a7567ec",
+            "id": "2d4dce1fe6983480",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ToDoList.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -72,9 +67,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "ToDoList.md"
-              }
+              "state": {}
             }
           }
         ],
@@ -124,7 +117,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ToDoList.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -141,7 +133,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ToDoList.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -164,11 +155,15 @@
       "command-palette:Open command palette": true
     }
   },
-  "active": "2fbfc2b40a7567ec",
+  "active": "19a60b1e44f4e87a",
   "lastOpenFiles": [
+    "de/fctrl/fctrl.md",
+    "de/fpu/include_f16mac/frd_rne_correction_with_ksa.svg",
+    "de/fpu/include_f16mac/fma_rounding.svg",
+    "de/fpu/include_f16mac/fma_inverted_csa.svg",
+    "ToDoList.md",
     "de/fpu/ref_f16mac/(FMA)Floating-Point Multiply-Add-Fused with Reduced Latency.pdf",
     "de/fpu/ref_f16mac/(FMA)Comparison of Single- and Dual-Pass Multiply-Add Fused Floating-Point Units.pdf",
-    "ToDoList.md",
     "de/amba_axi/axi.md",
     "de/fpu/f16mac.md",
     "de/fpu/ref_f16mac/archive/(lza)Efficient Decimal Leading Zero Anticipator Designs.pdf",
@@ -184,9 +179,6 @@
     "maketing/include/Pasted image 20240523113807.png",
     "maketing/include/Pasted image 20240523113130.png",
     "maketing/include/Pasted image 20240523112644.png",
-    "maketing/include/Pasted image 20240523112321.png",
-    "maketing/include/Pasted image 20240523111927.png",
-    "maketing/include/Pasted image 20240523110955.png",
     "maketing/include",
     "maketing/ai.md",
     "maketing",
