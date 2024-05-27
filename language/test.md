@@ -1,13 +1,8 @@
-TARGET DECK: test::test2
+TARGET DECK: english::bloomberg
 
-test
-test 
-test2 #flashcard
-t
-<!--ID: 1716831020234-->
+The once-in-a-generation inflation shock sparked by the coronavirus pandemic continues to ==dog== much of the world #flashcard
+The once-in-a-generation inflation shock sparked by the coronavirus pandemic continues to ==dog 困擾== much of the world 
+<!--ID: 1716831550907-->
 
-efef
-
-
-
-
+While Europe continues to struggle, the US—which ==powered through== the worst of the crisis with massive rescue packages—is outperforming its peers. #flashcard 
+While Europe continues to struggle, the US—which ==powered through== the worst of the crisis with massive rescue packages—is outperforming its peers.
