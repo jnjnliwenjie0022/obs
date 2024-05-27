@@ -97,8 +97,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 336.5110321044922,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "cb661d0a10776c07",
@@ -165,10 +164,11 @@
       "command-palette:Open command palette": true
     }
   },
-  "active": "a79a773bcac77607",
+  "active": "19a60b1e44f4e87a",
   "lastOpenFiles": [
-    "ToDoList.md",
+    "2024-05-27.md",
     "language/2024-05-27.md",
+    "ToDoList.md",
     "3C ranking.md",
     "language",
     "README.md",
