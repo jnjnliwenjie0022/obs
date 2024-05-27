@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "de/ram/ram.md",
+                "file": "de/rambrg/rambrg.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -73,7 +73,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "de/ram/ram.md"
+                "file": "de/rambrg/rambrg.md"
               }
             }
           }
@@ -124,7 +124,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "de/ram/ram.md",
+                "file": "de/rambrg/rambrg.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -141,7 +141,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "de/ram/ram.md",
+                "file": "de/rambrg/rambrg.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -164,28 +164,29 @@
       "command-palette:Open command palette": true
     }
   },
-  "active": "19a60b1e44f4e87a",
+  "active": "995b8ce20ed05b48",
   "lastOpenFiles": [
-    "de/brg",
+    "de/rambrg/include/rambrg.svg",
+    "de/rambrg/include/ram.drawio",
+    "de/rambrg/include/rambrg - Copy.drawio",
+    "de/rambrg/include/rambrg.drawio",
+    "de/rambrg/include/ram_bridge_axi4.0.drawio",
+    "de/rambrg/ref/AndeShape_ATCRAMBRG300_Design_Spec_V1.0.docx",
+    "de/rambrg/ref",
+    "de/rambrg/New folder",
+    "de/rambrg/ram_bridge_axi4.0.drawio",
+    "de/rambrg/AndeShape_ATCRAMBRG300_Design_Spec_V1.0.docx",
+    "de/rambrg/code/atcrambrg300.v",
     "de/ram/ram.md",
+    "de/rambrg/rambrg.md",
     "de/ram/include/ram.svg",
     "de/ram/include/credit_fctrl.svg",
-    "de/ram/include",
     "dv/uvm/include/uvm_factory1.canvas",
-    "financial/humanaction.pdf",
-    "maketing/ref/AI Market Analysis_20240524.pptx",
-    "maketing/ref",
     "maketing/include/Pasted image 20240523115342.png",
     "maketing/ai.md",
     "maketing/include/Pasted image 20240523120003.png",
     "ToDoList.md",
-    "de/ram",
-    "language/~$24-05-27.docx",
     "language/2024-05-27.md",
-    "language/~WRL2748.tmp",
-    "language/~WRD0005.tmp",
-    "language/~$e once.docx",
-    "language/~WRL0003.tmp",
     "2024-05-27.md",
     "3C ranking.md",
     "README.md",
@@ -215,7 +216,6 @@
     "dv/sv/coding_guideline.md",
     "de/v/verilog.md",
     "de/v/re.md",
-    "de/v/ref.md",
     "dv/rename order_of_starting_sequence.canvas",
     "Untitled.canvas",
     "Untitled 1.canvas",
