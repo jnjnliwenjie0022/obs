@@ -11,14 +11,12 @@
             "id": "a79a773bcac77607",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "dv/uvm/include/uvm_factory1.canvas",
-                "viewState": {
-                  "x": -2280,
-                  "y": -2873.5,
-                  "zoom": -1.7742714123540488
-                }
+                "file": "de/ram/ram.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
               }
             }
           }
@@ -75,7 +73,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "dv/uvm/include/uvm_factory1.canvas"
+                "file": "de/ram/ram.md"
               }
             }
           }
@@ -126,7 +124,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "dv/uvm/include/uvm_factory1.canvas",
+                "file": "de/ram/ram.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -143,7 +141,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "dv/uvm/include/uvm_factory1.canvas",
+                "file": "de/ram/ram.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -166,8 +164,10 @@
       "command-palette:Open command palette": true
     }
   },
-  "active": "a79a773bcac77607",
+  "active": "19a60b1e44f4e87a",
   "lastOpenFiles": [
+    "de/ram/include",
+    "dv/uvm/include/uvm_factory1.canvas",
     "financial/humanaction.pdf",
     "de/ram/ram.md",
     "maketing/ref/AI Market Analysis_20240524.pptx",
@@ -184,7 +184,6 @@
     "language/~$e once.docx",
     "language/~WRL0003.tmp",
     "language/~WRD0002.tmp",
-    "language/2024-05-27.docx",
     "2024-05-27.md",
     "3C ranking.md",
     "README.md",
@@ -192,7 +191,6 @@
     "uvm_factory.canvas",
     "Untitled.md",
     "test.md",
-    "dv/uvm/include/uvm_factory1.canvas",
     "conflict-files-obsidian-git.md",
     "dv/uvm/uvm_factory.md",
     "dv/uvm/sequence.md",
