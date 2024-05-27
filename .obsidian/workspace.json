@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "e18f37712cec3026",
+        "id": "0ab152b236f24b90",
         "type": "tabs",
         "children": [
           {
-            "id": "a79a773bcac77607",
+            "id": "995b8ce20ed05b48",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "de/ram/ram.md",
-                "mode": "preview",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
@@ -166,10 +166,13 @@
   },
   "active": "19a60b1e44f4e87a",
   "lastOpenFiles": [
+    "de/brg",
+    "de/ram/ram.md",
+    "de/ram/include/ram.svg",
+    "de/ram/include/credit_fctrl.svg",
     "de/ram/include",
     "dv/uvm/include/uvm_factory1.canvas",
     "financial/humanaction.pdf",
-    "de/ram/ram.md",
     "maketing/ref/AI Market Analysis_20240524.pptx",
     "maketing/ref",
     "maketing/include/Pasted image 20240523115342.png",
@@ -183,7 +186,6 @@
     "language/~WRD0005.tmp",
     "language/~$e once.docx",
     "language/~WRL0003.tmp",
-    "language/~WRD0002.tmp",
     "2024-05-27.md",
     "3C ranking.md",
     "README.md",
@@ -203,8 +205,6 @@
     "maketing/include/Pasted image 20240523114103.png",
     "Pasted image 20240523113736.png",
     "maketing/include/Pasted image 20240523113807.png",
-    "maketing/include/Pasted image 20240523113130.png",
-    "maketing/include/Pasted image 20240523112644.png",
     "workflow/tnv.md",
     "de/lut.md",
     "dv/uvm/include/uvm_do_on_pri_with.canvas",
