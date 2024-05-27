@@ -21,8 +21,22 @@
                 }
               }
             }
+          },
+          {
+            "id": "20fa248817d7d586",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "conflict-files-obsidian-git.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -75,7 +89,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "dv/uvm/include/uvm_factory1.canvas"
+                "file": "conflict-files-obsidian-git.md"
               }
             }
           }
@@ -126,7 +140,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "dv/uvm/include/uvm_factory1.canvas",
+                "file": "conflict-files-obsidian-git.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -143,7 +157,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "dv/uvm/include/uvm_factory1.canvas",
+                "file": "conflict-files-obsidian-git.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -166,10 +180,12 @@
       "command-palette:Open command palette": true
     }
   },
-  "active": "c97358cacacb470d",
+  "active": "20fa248817d7d586",
   "lastOpenFiles": [
-    "dv/uvm/uvm_factory.md",
     "dv/uvm/include/uvm_factory1.canvas",
+    "conflict-files-obsidian-git.md",
+    "test.md",
+    "dv/uvm/uvm_factory.md",
     "uvm_factory.canvas",
     "Untitled.md",
     "Untitled 1.md",
@@ -192,7 +208,6 @@
     "workflow/tnv.md",
     "maketing/include",
     "maketing",
-    "conflict-files-obsidian-git.md",
     "de/lut.md",
     "3C ranking.md",
     "README.md",
@@ -216,7 +231,6 @@
     "dv/sv/ref.md",
     "dv/sv/generic_memory.md",
     "dv/uvm/code_nested_sequence/README.md",
-    "dv/harness/code_harness_v2_error/README.md",
     "dv/rename order_of_starting_sequence.canvas",
     "Untitled.canvas",
     "Untitled 1.canvas",

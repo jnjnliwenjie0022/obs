@@ -69,7 +69,7 @@ For a sequence, the following are called, in order
 7. [start()]this.post_do(sub_seq) (func)
 8. [start()]sub_seq.post_start() (task)
 
-# seq.start()
+# seq_start
 [(VLSI Verify)How to start a sequence?](https://vlsiverify.com/uvm/start-a-sequence/)
 
 [(CV)How to execute sequence via start?](https://www.chipverify.com/uvm/how-to-execute-sequences-via-start-method)
