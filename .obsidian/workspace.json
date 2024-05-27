@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "de/fpu/f16dsu.md",
-                "mode": "preview",
+                "file": "house/house.md",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
@@ -73,7 +73,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "de/fpu/f16dsu.md"
+                "file": "house/house.md"
               }
             }
           }
@@ -124,7 +124,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "de/fpu/f16dsu.md",
+                "file": "house/house.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -141,7 +141,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "de/fpu/f16dsu.md",
+                "file": "house/house.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -166,6 +166,11 @@
   },
   "active": "2d4dce1fe6983480",
   "lastOpenFiles": [
+    "language/~$24-05-27.docx",
+    "Pasted image 20240527181739.png",
+    "house/house.md",
+    "house",
+    "de/fpu/f16dsu.md",
     "maketing/ref/AI Market Analysis_20240524.pptx",
     "maketing/ref",
     "language/2024-05-27.docx",
@@ -178,11 +183,8 @@
     "de/rambrg/ref",
     "de/rambrg/rambrg.md",
     "de/rambrg/include",
-    "de/rambrg/code",
-    "de/rambrg",
     "de/ram/include/ram.svg",
     "de/ram/ram.md",
-    "Pasted image 20240527181739.png",
     "de/fctrl/fctrl.md",
     "de/fpu/include_f16mac/frd_rne_correction_with_ksa.svg",
     "de/fpu/include_f16mac/fma_rounding.svg",
@@ -205,7 +207,6 @@
     "dv/uvm/uvm_factory.canvas",
     "de/mdu/mdu.md",
     "de/fpu/test.md",
-    "de/fpu/f16dsu.md",
     "de/fpu/f16div.md",
     "de/lut.md",
     "Pased.md",
@@ -215,7 +216,6 @@
     "dv/harness/harness.md",
     "dv/harness/code_harness_v2.bak.20240521_165843/README.md",
     "dv/sv/wait.md",
-    "dv/sv/iff.md",
     "dv/uvm/uvm_do.canvas",
     "Untitled.canvas",
     "Untitled 1.canvas",
