@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "house/house.md",
+                "file": "language/test.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -73,7 +73,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "house/house.md"
+                "file": "language/test.md"
               }
             }
           }
@@ -124,7 +124,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "house/house.md",
+                "file": "language/test.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -141,7 +141,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "house/house.md",
+                "file": "language/test.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,16 +161,18 @@
       "canvas:Create new canvas": true,
       "daily-notes:Open today's daily note": true,
       "templates:Insert template": true,
-      "command-palette:Open command palette": true
+      "command-palette:Open command palette": true,
+      "obsidian-to-anki-plugin:Obsidian_to_Anki - Scan Vault": false
     }
   },
   "active": "2d4dce1fe6983480",
   "lastOpenFiles": [
+    "house/house.md",
+    "language/test.md",
     "language/~$24-05-27.docx",
     "language/~WRL1029.tmp",
     "language/~WRD1009.tmp",
     "Pasted image 20240527181739.png",
-    "house/house.md",
     "house",
     "de/fpu/f16dsu.md",
     "maketing/ref/AI Market Analysis_20240524.pptx",
@@ -181,7 +183,6 @@
     "de/rambrg/ref/AXI4_specification.pdf",
     "de/rambrg/include/rambrg.svg",
     "de/rambrg/include/ram.svg",
-    "de/rambrg/code/atcrambrg300.v",
     "de/rambrg/rambrg.md",
     "de/ram/include/ram.svg",
     "de/ram/ram.md",
