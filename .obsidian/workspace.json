@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "language/2024-05-27.md",
+                "file": "ToDoList.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -73,7 +73,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "language/2024-05-27.md"
+                "file": "ToDoList.md"
               }
             }
           }
@@ -124,7 +124,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "language/2024-05-27.md",
+                "file": "ToDoList.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -141,7 +141,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "language/2024-05-27.md",
+                "file": "ToDoList.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -164,10 +164,17 @@
       "command-palette:Open command palette": true
     }
   },
-  "active": "19a60b1e44f4e87a",
+  "active": "a79a773bcac77607",
   "lastOpenFiles": [
-    "2024-05-27.md",
+    "language/~$24-05-27.docx",
     "language/2024-05-27.md",
+    "language/~WRL2748.tmp",
+    "language/~WRD0005.tmp",
+    "language/~$e once.docx",
+    "language/~WRL0003.tmp",
+    "language/~WRD0002.tmp",
+    "language/2024-05-27.docx",
+    "2024-05-27.md",
     "ToDoList.md",
     "3C ranking.md",
     "language",
@@ -205,17 +212,10 @@
     "dv/sv/iff.md",
     "dv/sv/polymorphism.md",
     "dv/sv/coding_guideline.md",
-    "dv/sv/ref/Nonblocking Assignments in Verilog Synthesis, Coding Styles That Kill!.pdf",
-    "dv/sv/ref/Verilog Nonblocking Assignments With Delays, Myths & Mysteries.pdf",
-    "de/v/ref/coding_guidelines.pdf",
     "de/v/verilog.md",
-    "de/v/ref",
     "de/v/re.md",
     "de/v/ref.md",
-    "dv/uvm/ref/verilab_dvcon_eu2015_6_params.pdf",
-    "dv/uvm/ref/UVM實戰.pdf",
     "dv/sv/ref.md",
-    "dv/sv/generic_memory.md",
     "dv/rename order_of_starting_sequence.canvas",
     "Untitled.canvas",
     "Untitled 1.canvas",
