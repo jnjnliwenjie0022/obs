@@ -31,13 +31,26 @@ ar_r_err_behavior
 aw_w_b_err_behavior
 ![[us_aw_w_b_err_behavior.svg]]
 error_pending
-![[error_pending.svg]]
+
 
 # exclusive_behavior
 
-ref:
-exclusive access in BMC
+## exclusive_bmc
+
+![[error_pending.svg]]
+
+## exclusive_slave
+
+[[rambrg#exclusive]]
+
+## ref:
+
+exclusive access in BMC:
+
 https://bbs.eetop.cn/thread-923098-1-1.html?fbclid=IwAR0n5pmD01L5UIDdeHdigGhNeux3bNAdUu5_wvt2or_T-C6JvUiTQzMMKa8
-exclusive access in SW and HW excluding BMC
+
+exclusive access in SW and HW excluding BMC:
+
 [深入理解AMBA总线（十六）AXI设计的关键问题（一）-阿里云开发者社区 (aliyun.com)](https://developer.aliyun.com/article/1303336)
+
 [深入理解AMBA总线（十三）AXI原子访问机制和AXI响应 - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/642172790)
