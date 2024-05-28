@@ -97,8 +97,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 335.5110321044922,
-    "collapsed": true
+    "width": 335.5110321044922
   },
   "right": {
     "id": "cb661d0a10776c07",
@@ -157,7 +156,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "obsidian-to-anki-plugin:Obsidian_to_Anki - Scan Vault": false,
+      "obsidian-to-anki-plugin:Obsidian_to_Anki - Scan Vault": true,
       "switcher:Open quick switcher": true,
       "graph:Open graph view": true,
       "canvas:Create new canvas": true,
@@ -168,6 +167,7 @@
   },
   "active": "995b8ce20ed05b48",
   "lastOpenFiles": [
+    "language/~$24-05-27.docx",
     "language/~WRL0343.tmp",
     "language/~WRD0335.tmp",
     "language/~WRL1163.tmp",
@@ -188,7 +188,6 @@
     "de/rambrg/ref/~$deShape_ATCRAMBRG300_Design_Spec_V1.0.docx",
     "de/rambrg/ref/AXI4_specification.pdf.crdownload",
     "de/rambrg/include/ram.svg",
-    "de/rambrg/include/ram_tmp.drawio",
     "de/rambrg/include/rambrg.svg",
     "de/ram/ram.md",
     "de/ram/include/ram.svg",
