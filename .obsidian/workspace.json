@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "de/rambrg/rambrg.md",
+                "file": "language/2024-05-27.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -73,7 +73,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "de/rambrg/rambrg.md"
+                "file": "language/2024-05-27.md"
               }
             }
           }
@@ -124,7 +124,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "de/rambrg/rambrg.md",
+                "file": "language/2024-05-27.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -141,7 +141,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "de/rambrg/rambrg.md",
+                "file": "language/2024-05-27.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -156,6 +156,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "obsidian-to-anki-plugin:Obsidian_to_Anki - Scan Vault": false,
       "switcher:Open quick switcher": true,
       "graph:Open graph view": true,
       "canvas:Create new canvas": true,
@@ -167,12 +168,12 @@
   "active": "995b8ce20ed05b48",
   "lastOpenFiles": [
     "language/2024-05-28.md",
+    "de/rambrg/rambrg.md",
     "language/2024-05-27.md",
     "house/house.md",
     "house",
     "Pasted image 20240527181739.png",
     "de/rambrg/ref/AXI4_specification.pdf",
-    "de/rambrg/rambrg.md",
     "de/rambrg/ref/~$deShape_ATCRAMBRG300_Design_Spec_V1.0.docx",
     "de/rambrg/ref/AXI4_specification.pdf.crdownload",
     "de/rambrg/include/ram.svg",
