@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "de/amba_axi/axi.md",
-                "mode": "source",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -152,7 +152,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
