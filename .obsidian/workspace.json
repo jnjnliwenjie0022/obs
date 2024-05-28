@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "de/amba_axi/axi.md",
-                "mode": "preview",
+                "file": "language/2024-05-28.md",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
@@ -73,7 +73,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "de/amba_axi/axi.md"
+                "file": "language/2024-05-28.md"
               }
             }
           }
@@ -124,7 +124,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "de/amba_axi/axi.md",
+                "file": "language/2024-05-28.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -141,7 +141,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "de/amba_axi/axi.md",
+                "file": "language/2024-05-28.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -168,8 +168,8 @@
   },
   "active": "b4f60a8a47284253",
   "lastOpenFiles": [
-    "de/rambrg/rambrg.md",
     "de/amba_axi/axi.md",
+    "de/rambrg/rambrg.md",
     "de/rambrg/include/Pasted image 20240527181739.png",
     "Untitled 1.md",
     "Untitled.md",
