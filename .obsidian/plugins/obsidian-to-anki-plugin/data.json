@@ -472,7 +472,7 @@
     "mgmt/mgmt.md": "8993a0960dce7c9ec01b5c97d94dff88",
     "language/test.md": "d45d367d34da1d37cebb63aa1b6021de",
     "financial/隨機漫步理論分析.md": "a636f9fab15353249941a59985131c06",
-    "financial/總體經濟.md": "4838e5965e3bd56e20aefea582aa67a7",
+    "financial/總體經濟.md": "70786409ccfaa8d61c2079bebd44df9e",
     "financial/RSI分析.md": "c95d73e105e84389967b24846dd0e219",
     "house/house.md": "c16f7d8f7d7d58af9d147c90c97ab5e8",
     "dv/uvmc/uvmc.md": "55a3aa3f0738b88c0608954a08782c5b",
@@ -505,12 +505,14 @@
     "de/lut.md": "f7fea8719efe1b606f657ae8b3bb824e",
     "de/fifo/fifo.md": "38154cb88f90160f0e83b9d0cd1cacb2",
     "de/fctrl/fctrl.md": "31f522524fedbc14fe4839ac09ba5ece",
-    "de/amba_axi/axi.md": "ed906152cf63b3bccf1f06b4bef8d3e9",
+    "de/amba_axi/axi.md": "e14c7071996f824ebc7cd16cfc315a68",
     "de/arithmetic/divider.md": "360c6ce68bc91e9b9b573c627155f4af",
     "de/arithmetic/booth.md": "88142799472e4ea286799923a4cca497",
     "de/arbiter/arbiter.md": "9690ecf40d5b01fd6b6ce287e6e3fe0a",
     "de/amba_ahb/ahb.md": "28108a668e82a223199ddfb68fb6928c",
-    "3C ranking.md": "d842449462e7d316e1ec8b90d6bcdb7c"
+    "3C ranking.md": "d842449462e7d316e1ec8b90d6bcdb7c",
+    "language/2024-05-28.md": "b425ade6bb43f3f9a6ee581fb0fd4be9",
+    "language/2024-05-27.md": "f522e912bd5ba9b8f46f167ba0fcec58"
   },
   "fields_dict": {
     "Image Occlusion": [
