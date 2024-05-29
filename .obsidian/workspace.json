@@ -11,8 +11,13 @@
             "id": "f7c24ed1942b968a",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "de/ram/ram.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
             }
           }
         ]
@@ -67,7 +72,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "de/ram/ram.md"
+              }
             }
           }
         ],
@@ -117,6 +124,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "de/ram/ram.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,6 +141,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "de/ram/ram.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -159,13 +168,14 @@
   },
   "active": "f7c24ed1942b968a",
   "lastOpenFiles": [
+    "de/rambrg/rambrg.md",
+    "de/ram/ram.md",
     "de/arithmetic/booth.md",
     "de/fpu/f16mac.md",
     "language/2024-05-28.md",
     "language/2024-05-29.md",
     "language/2024-05-29.docx",
     "de/amba_axi/axi.md",
-    "de/rambrg/rambrg.md",
     "de/rambrg/include/Pasted image 20240527181739.png",
     "Untitled 1.md",
     "Untitled.md",
@@ -185,7 +195,6 @@
     "house/house.md",
     "de/rambrg/include/ram.svg",
     "de/rambrg/include/rambrg.svg",
-    "de/ram/ram.md",
     "de/ram/include/ram.svg",
     "de/ram/include/credit_fctrl.svg",
     "dv/uvm/include/uvm_factory1.canvas",

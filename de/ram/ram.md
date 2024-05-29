@@ -1,3 +1,6 @@
+# concept
+
+![[de/rambrg/include/ram.svg]]
 # uarch
 
 以下為RAM BANK的最基礎結構，所有延伸結構都是透過以下結構延伸。
