@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "f29ddb1b6b11d82d",
+        "id": "9ab4af087fbede27",
         "type": "tabs",
         "children": [
           {
-            "id": "f7c24ed1942b968a",
+            "id": "2d4dce1fe6983480",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "language/2024-05-28.md",
+                "file": "language/2024-05-30.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -32,7 +32,7 @@
       {
         "id": "afadd362b9dadcb6",
         "type": "tabs",
-        "dimension": 73.73929590865842,
+        "dimension": 62.21264367816091,
         "children": [
           {
             "id": "e659ba5d1cf0724d",
@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#何文賢",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": false,
@@ -73,7 +73,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "language/2024-05-28.md"
+                "file": "language/2024-05-30.md"
               }
             }
           }
@@ -83,7 +83,7 @@
       {
         "id": "ce31482b6afb7740",
         "type": "tabs",
-        "dimension": 26.26070409134158,
+        "dimension": 37.787356321839084,
         "children": [
           {
             "id": "8cb3b947f548a8b1",
@@ -97,7 +97,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 335.5110321044922
+    "width": 276.5
   },
   "right": {
     "id": "cb661d0a10776c07",
@@ -124,7 +124,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "language/2024-05-28.md",
+                "file": "language/2024-05-30.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -141,14 +141,13 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "language/2024-05-28.md",
+                "file": "language/2024-05-30.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -157,67 +156,67 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "obsidian-to-anki-plugin:Obsidian_to_Anki - Scan Vault": true,
       "switcher:Open quick switcher": true,
       "graph:Open graph view": true,
       "canvas:Create new canvas": true,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": true,
-      "command-palette:Open command palette": true
+      "command-palette:Open command palette": true,
+      "obsidian-to-anki-plugin:Obsidian_to_Anki - Scan Vault": false
     }
   },
-  "active": "f7c24ed1942b968a",
+  "active": "2d4dce1fe6983480",
   "lastOpenFiles": [
-    "language/2024-05-27.md",
-    "language/2024-05-28.md",
-    "language/2024-05-30.md",
-    "language/~WRL3850.tmp",
-    "language/~WRD3831.tmp",
-    "language/~WRL0677.tmp",
-    "language/~WRD0661.tmp",
+    "language/~$24-05-29.docx",
     "language/2024-05-29.md",
+    "language/2024-05-30.md",
+    "language/include",
+    "language/include/Pasted image 20240529222047.png",
+    "language/2024-05-28.md",
+    "language/~$24-05-27.docx",
+    "de/ram/include/ram 1.svg",
+    "3C ranking.md",
     "language/~WRL0005.tmp",
     "language/~WRD0004.tmp",
-    "conflict-files-obsidian-git.md",
-    "language/~$24-05-27.docx",
-    "language/include/Pasted image 20240529222047.png",
-    "language/include",
-    "language/~$24-05-29.docx",
-    "de/rambrg/rambrg.md",
-    "de/lut.md",
-    "de/v/verilog.md",
-    "de/rambrg/include/Pasted image 20240527181739.png",
-    "de/rambrg/include/rambrg.svg",
-    "de/ram/ram.md",
-    "de/ram/include/ram 1.svg",
-    "de/arithmetic/booth.md",
-    "de/fpu/f16mac.md",
-    "language/2024-05-29.docx",
-    "de/amba_axi/axi.md",
-    "Untitled 1.md",
     "Untitled.md",
-    "Untitled 2.md",
-    "2024-05-28.md",
-    "financial/總體經濟.md",
+    "language/2024-05-28.md~",
+    "language/4913",
+    "language/2024-05-27.md",
+    "de/rambrg/include/Pasted image 20240527181739.png",
+    "Pasted image 20240527181739.png",
+    "Pasted image 20240528013141.png",
     "house/house.md",
+    "language/~WRL1029.tmp",
+    "language/~WRD1009.tmp",
+    "house",
+    "de/fpu/f16dsu.md",
+    "de/rambrg/include/rambrg.svg",
+    "de/rambrg/include/ram.svg",
+    "de/rambrg/rambrg.md",
     "de/ram/include/ram.svg",
-    "de/ram/include/credit_fctrl.svg",
-    "dv/uvm/include/uvm_factory1.canvas",
-    "maketing/include/Pasted image 20240523115342.png",
-    "maketing/ai.md",
-    "maketing/include/Pasted image 20240523120003.png",
+    "de/ram/ram.md",
+    "de/fctrl/fctrl.md",
+    "de/fpu/include_f16mac/frd_rne_correction_with_ksa.svg",
+    "de/fpu/include_f16mac/fma_rounding.svg",
     "ToDoList.md",
-    "2024-05-27.md",
-    "3C ranking.md",
-    "README.md",
+    "de/amba_axi/axi.md",
+    "de/fpu/f16mac.md",
+    "Untitled 1.md",
     "uvm_factory.canvas",
-    "test.md",
+    "conflict-files-obsidian-git.md",
+    "maketing/ai.md",
     "dv/uvm/uvm_factory.md",
+    "dv/uvm/include/uvm_factory1.canvas",
+    "dv/uvm/sequence.md",
+    "test.md",
     "dv/uvm/uvm_factory.canvas",
-    "dv/uvm/include/Pasted image 20240520213839.png",
-    "dv/uvm/include/Pasted image 20240521012610.png",
+    "de/mdu/mdu.md",
+    "de/fpu/test.md",
+    "de/fpu/f16div.md",
+    "de/lut.md",
+    "Pased.md",
     "dv/uvm/include/uvm_do_on_pri_with.canvas",
-    "dv/rename order_of_starting_sequence.canvas",
+    "dv/uvm/uvm_do.canvas",
     "Untitled.canvas",
     "Untitled 1.canvas",
     "債券/債券.canvas"
