@@ -19,8 +19,22 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "650c344e0b996912",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "conflict-files-obsidian-git.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -73,7 +87,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "language/2024-05-29.md"
+                "file": "conflict-files-obsidian-git.md"
               }
             }
           }
@@ -124,7 +138,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "language/2024-05-29.md",
+                "file": "conflict-files-obsidian-git.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -141,7 +155,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "language/2024-05-29.md",
+                "file": "conflict-files-obsidian-git.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -166,8 +180,13 @@
       "command-palette:Open command palette": true
     }
   },
-  "active": "f7c24ed1942b968a",
+  "active": "650c344e0b996912",
   "lastOpenFiles": [
+    "language/2024-05-29.md",
+    "conflict-files-obsidian-git.md",
+    "language/~$24-05-27.docx",
+    "language/include/Pasted image 20240529222047.png",
+    "language/include",
     "language/~$24-05-29.docx",
     "de/rambrg/rambrg.md",
     "de/lut.md",
@@ -179,22 +198,18 @@
     "de/arithmetic/booth.md",
     "de/fpu/f16mac.md",
     "language/2024-05-28.md",
-    "language/2024-05-29.md",
     "language/2024-05-29.docx",
     "de/amba_axi/axi.md",
     "Untitled 1.md",
     "Untitled.md",
     "Untitled 2.md",
     "2024-05-28.md",
-    "language/~$24-05-27.docx",
     "language/~WRL0003.tmp",
     "language/~WRD0002.tmp",
     "language/~WRL0343.tmp",
     "language/~WRD0335.tmp",
     "language/~WRL1163.tmp",
     "language/~WRD1155.tmp",
-    "language/~WRL3978.tmp",
-    "language/~WRD3970.tmp",
     "financial/總體經濟.md",
     "language/2024-05-27.md",
     "house/house.md",
@@ -210,13 +225,11 @@
     "README.md",
     "uvm_factory.canvas",
     "test.md",
-    "conflict-files-obsidian-git.md",
     "dv/uvm/uvm_factory.md",
     "dv/uvm/sequence.md",
     "dv/uvm/uvm_factory.canvas",
     "dv/uvm/include/Pasted image 20240520213839.png",
     "dv/uvm/include/Pasted image 20240521012610.png",
-    "maketing/include/Pasted image 20240523114751.png",
     "dv/uvm/include/uvm_do_on_pri_with.canvas",
     "dv/rename order_of_starting_sequence.canvas",
     "Untitled.canvas",
