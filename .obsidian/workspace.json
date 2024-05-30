@@ -13,28 +13,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "language/2024-05-29.md",
+                "file": "language/2024-05-30.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               }
             }
-          },
-          {
-            "id": "650c344e0b996912",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "conflict-files-obsidian-git.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -87,7 +73,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "conflict-files-obsidian-git.md"
+                "file": "language/2024-05-30.md"
               }
             }
           }
@@ -138,7 +124,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "conflict-files-obsidian-git.md",
+                "file": "language/2024-05-30.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -155,7 +141,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "conflict-files-obsidian-git.md",
+                "file": "language/2024-05-30.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -180,9 +166,11 @@
       "command-palette:Open command palette": true
     }
   },
-  "active": "650c344e0b996912",
+  "active": "19a60b1e44f4e87a",
   "lastOpenFiles": [
     "language/2024-05-29.md",
+    "language/2024-05-30.md",
+    "language/2024-05-28.md",
     "conflict-files-obsidian-git.md",
     "language/~$24-05-27.docx",
     "language/include/Pasted image 20240529222047.png",
@@ -197,7 +185,6 @@
     "de/ram/include/ram 1.svg",
     "de/arithmetic/booth.md",
     "de/fpu/f16mac.md",
-    "language/2024-05-28.md",
     "language/2024-05-29.docx",
     "de/amba_axi/axi.md",
     "Untitled 1.md",
