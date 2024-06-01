@@ -468,7 +468,7 @@
     "workflow/nvim.md": "5c0df8d756bdf68abb9c8c7ffed33107",
     "workflow/github.md": "776e509def558ce5296ba718813f009d",
     "workflow/git.md": "dd67188503b47ece35ee8757153a40b2",
-    "ToDoList.md": "2478608bb5c1974b47f270f15455d3b0",
+    "ToDoList.md": "bc6011c03cfcb99c33d569c1dcba8e4c",
     "README.md": "b98a88c5df13336f205b9147350a4e6b",
     "mgmt/mgmt.md": "8993a0960dce7c9ec01b5c97d94dff88",
     "language/test.md": "d45d367d34da1d37cebb63aa1b6021de",
@@ -516,7 +516,7 @@
     "language/2024-05-27.md": "f522e912bd5ba9b8f46f167ba0fcec58",
     "language/2024-05-29.md": "024fdf3c739ab7e6b531fdf674b79247",
     "language/2024-05-30.md": "301443d933f380b802212ad3f71981be",
-    "language/2024-05-31.md": "d41d8cd98f00b204e9800998ecf8427e"
+    "language/2024-05-31.md": "ef9e858f92bffa88cc84e73f09e17f0a"
   },
   "fields_dict": {
     "Image Occlusion": [
