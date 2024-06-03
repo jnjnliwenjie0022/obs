@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "language/2024-05-31.md",
+                "file": "language/2024-06-03.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -73,7 +73,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "language/2024-05-31.md"
+                "file": "language/2024-06-03.md"
               }
             }
           }
@@ -124,7 +124,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "language/2024-05-31.md",
+                "file": "language/2024-06-03.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -141,7 +141,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "language/2024-05-31.md",
+                "file": "language/2024-06-03.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -168,11 +168,12 @@
   },
   "active": "f7c24ed1942b968a",
   "lastOpenFiles": [
+    "language/2024-05-31.md",
+    "language/2024-06-03.md",
     "language/~$24-05-29.docx",
     "workflow/tnv.md",
     "ToDoList.md",
     "de/fpu/f16mis.md",
-    "language/2024-05-31.md",
     "language/2024-05-30.md",
     "language/2024-05-28.md",
     "language/2024-05-27.md",
