@@ -97,8 +97,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 276.5,
-    "collapsed": true
+    "width": 276.5
   },
   "right": {
     "id": "cb661d0a10776c07",
@@ -168,10 +167,10 @@
   },
   "active": "2d4dce1fe6983480",
   "lastOpenFiles": [
+    "language/~$24-05-29.docx",
     "language/~WRL0003.tmp",
     "language/~WRD0002.tmp",
     "language/2024-05-31.md",
-    "language/~$24-05-29.docx",
     "language/2024-06-03.md",
     "language/~WRL0368.tmp",
     "language/~WRD0360.tmp",
