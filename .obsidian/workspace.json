@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "de/note.md",
-                "mode": "preview",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
@@ -168,9 +168,11 @@
   },
   "active": "f7c24ed1942b968a",
   "lastOpenFiles": [
+    "de/Pasted image 20240606151606.png",
     "de/format.md",
-    "de/lut.md",
     "de/note.md",
+    "de/note.md",
+    "de/lut.md",
     "de/Pasted image 20240606125937.png",
     "de/Pasted image 20240606125758.png",
     "de/Pasted image 20240606125055.png",
@@ -209,7 +211,6 @@
     "Untitled 2.md",
     "2024-05-28.md",
     "financial/總體經濟.md",
-    "house/house.md",
     "de/ram/include/ram.svg",
     "de/ram/include/credit_fctrl.svg",
     "dv/uvm/include/uvm_factory1.canvas",
