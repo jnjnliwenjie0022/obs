@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "de/Untitled.md",
-                "mode": "source",
+                "file": "de/note.md",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -73,7 +73,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "de/Untitled.md"
+                "file": "de/note.md"
               }
             }
           }
@@ -124,7 +124,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "de/Untitled.md",
+                "file": "de/note.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -141,7 +141,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "de/Untitled.md",
+                "file": "de/note.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -168,11 +168,12 @@
   },
   "active": "f7c24ed1942b968a",
   "lastOpenFiles": [
+    "de/format.md",
+    "de/lut.md",
+    "de/note.md",
     "de/Pasted image 20240606125937.png",
     "de/Pasted image 20240606125758.png",
     "de/Pasted image 20240606125055.png",
-    "de/lut.md",
-    "de/Untitled.md",
     "de/Untitled",
     "language/2024-06-03.md",
     "language/2024-06-03.docx",
@@ -213,8 +214,6 @@
     "de/ram/include/credit_fctrl.svg",
     "dv/uvm/include/uvm_factory1.canvas",
     "maketing/include/Pasted image 20240523115342.png",
-    "maketing/ai.md",
-    "maketing/include/Pasted image 20240523120003.png",
     "uvm_factory.canvas",
     "dv/uvm/uvm_factory.canvas",
     "dv/uvm/include/uvm_do_on_pri_with.canvas",
