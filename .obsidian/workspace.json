@@ -13,14 +13,25 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "de/note.md",
-                "mode": "source",
+                "file": "de/amba_axi/axi.md",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
             }
+          },
+          {
+            "id": "fa12f7fafb9f30e4",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.6.3"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -73,7 +84,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "de/note.md"
+                "file": "de/amba_axi/axi.md"
               }
             }
           }
@@ -124,7 +135,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "de/note.md",
+                "file": "de/amba_axi/axi.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -141,7 +152,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "de/note.md",
+                "file": "de/amba_axi/axi.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -166,13 +177,14 @@
       "command-palette:Open command palette": true
     }
   },
-  "active": "f7c24ed1942b968a",
+  "active": "fa12f7fafb9f30e4",
   "lastOpenFiles": [
+    "de/rambrg/include/rambrg.svg",
+    "de/amba_axi/axi.md",
+    "de/note.md",
     "de/Pasted image 20240606160337.png",
     "de/Pasted image 20240606151606.png",
     "de/format.md",
-    "de/note.md",
-    "de/note.md",
     "de/lut.md",
     "de/Pasted image 20240606125937.png",
     "de/Pasted image 20240606125758.png",
@@ -201,19 +213,16 @@
     "de/rambrg/rambrg.md",
     "de/v/verilog.md",
     "de/rambrg/include/Pasted image 20240527181739.png",
-    "de/rambrg/include/rambrg.svg",
     "de/ram/ram.md",
     "de/ram/include/ram 1.svg",
     "de/arithmetic/booth.md",
     "de/fpu/f16mac.md",
-    "de/amba_axi/axi.md",
     "Untitled 1.md",
     "Untitled.md",
     "Untitled 2.md",
     "2024-05-28.md",
     "financial/總體經濟.md",
     "de/ram/include/ram.svg",
-    "de/ram/include/credit_fctrl.svg",
     "dv/uvm/include/uvm_factory1.canvas",
     "uvm_factory.canvas",
     "dv/uvm/uvm_factory.canvas",
