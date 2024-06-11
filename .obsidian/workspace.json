@@ -19,19 +19,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "b5f0ae9c809eaf09",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.6.3"
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -176,8 +165,14 @@
       "obsidian-to-anki-plugin:Obsidian_to_Anki - Scan Vault": false
     }
   },
-  "active": "b5f0ae9c809eaf09",
+  "active": "19a60b1e44f4e87a",
   "lastOpenFiles": [
+    "language/~$24-06-11.docx",
+    "language/2024-06-11.docx",
+    "language/2024-06-03 - Copy.docx",
+    "language/~WRL0001.tmp",
+    "language/~WRD0000.tmp",
+    "language/~$24-06-03.docx",
     "language/~WRL2642.tmp",
     "language/~WRD2626.tmp",
     "de/ppa/spyglass.md",
@@ -188,7 +183,6 @@
     "de/ppa/include/Pasted image 20240611163742.png",
     "de/ppa/include/Pasted image 20240611163551.png",
     "de/ppa/include",
-    "de/ppa",
     "de/note.md",
     "de/format.md",
     "de/Pasted image 20240606160337.png",
@@ -196,11 +190,6 @@
     "de/Pasted image 20240606125937.png",
     "de/Pasted image 20240606125758.png",
     "de/Pasted image 20240606125055.png",
-    "language/~$24-06-03.docx",
-    "language/~WRL0005.tmp",
-    "language/~WRD0004.tmp",
-    "language/~$24-05-29.docx",
-    "language/~WRL0003.tmp",
     "language/2024-05-31.md",
     "language/2024-06-03.md",
     "language/2024-05-30.md",
