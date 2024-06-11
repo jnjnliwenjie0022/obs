@@ -13,25 +13,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "de/amba_axi/axi.md",
-                "mode": "preview",
+                "file": "de/ppa/ppa.md",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
             }
-          },
-          {
-            "id": "fa12f7fafb9f30e4",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.6.3"
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -84,7 +73,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "de/amba_axi/axi.md"
+                "file": "de/ppa/ppa.md"
               }
             }
           }
@@ -135,7 +124,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "de/amba_axi/axi.md",
+                "file": "de/ppa/ppa.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -152,7 +141,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "de/amba_axi/axi.md",
+                "file": "de/ppa/ppa.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -177,19 +166,20 @@
       "command-palette:Open command palette": true
     }
   },
-  "active": "fa12f7fafb9f30e4",
+  "active": "f7c24ed1942b968a",
   "lastOpenFiles": [
-    "de/rambrg/include/rambrg.svg",
+    "de/Pasted image 20240606125055.png",
+    "de/ppa/ppa.md",
+    "de/ppa",
+    "de/Pasted image 20240606125758.png",
     "de/amba_axi/axi.md",
+    "de/rambrg/include/rambrg.svg",
     "de/note.md",
     "de/Pasted image 20240606160337.png",
     "de/Pasted image 20240606151606.png",
     "de/format.md",
     "de/lut.md",
     "de/Pasted image 20240606125937.png",
-    "de/Pasted image 20240606125758.png",
-    "de/Pasted image 20240606125055.png",
-    "de/Untitled",
     "language/2024-06-03.md",
     "language/2024-06-03.docx",
     "language/~WRL0003.tmp",
