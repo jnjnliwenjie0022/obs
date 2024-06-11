@@ -19,8 +19,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "b5f0ae9c809eaf09",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.6.3"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -165,7 +176,7 @@
       "obsidian-to-anki-plugin:Obsidian_to_Anki - Scan Vault": false
     }
   },
-  "active": "2d4dce1fe6983480",
+  "active": "b5f0ae9c809eaf09",
   "lastOpenFiles": [
     "language/~WRL2642.tmp",
     "language/~WRD2626.tmp",
