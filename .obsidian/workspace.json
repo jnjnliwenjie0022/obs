@@ -21,6 +21,19 @@
             }
           },
           {
+            "id": "4bfd6bbb0f40448f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "conflict-files-obsidian-git.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "2dd2380dece8afe1",
             "type": "leaf",
             "state": {
@@ -30,7 +43,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -83,7 +97,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "de/arithmetic/booth.md"
+                "file": "conflict-files-obsidian-git.md"
               }
             }
           }
@@ -134,7 +148,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "de/arithmetic/booth.md",
+                "file": "conflict-files-obsidian-git.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +165,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "de/arithmetic/booth.md",
+                "file": "conflict-files-obsidian-git.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -176,8 +190,11 @@
       "command-palette:Open command palette": true
     }
   },
-  "active": "40fb8e4f90f4ac94",
+  "active": "4bfd6bbb0f40448f",
   "lastOpenFiles": [
+    "de/arithmetic/booth.md",
+    "conflict-files-obsidian-git.md",
+    "language/2024-06-11.docx",
     "de/ppa/ppa.md",
     "de/ppa/ref/PVT (Process, Voltage, Temperature) - VLSI- Physical Design For Freshers.pdf",
     "de/ppa/include/Pasted image 20240611164733.png",
@@ -211,13 +228,10 @@
     "language/2024-05-30.md",
     "language/2024-05-28.md",
     "language/2024-05-27.md",
-    "language/~WRL3850.tmp",
     "language/2024-05-29.md",
-    "conflict-files-obsidian-git.md",
     "de/rambrg/rambrg.md",
     "de/v/verilog.md",
     "de/ram/ram.md",
-    "de/arithmetic/booth.md",
     "de/fpu/f16mac.md",
     "Untitled 1.md",
     "Untitled.md",
