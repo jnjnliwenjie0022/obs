@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "de/ppa/ppa.md",
-                "mode": "source",
+                "file": "de/arithmetic/booth.md",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -83,7 +83,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "de/ppa/ppa.md"
+                "file": "de/arithmetic/booth.md"
               }
             }
           }
@@ -134,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "de/ppa/ppa.md",
+                "file": "de/arithmetic/booth.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "de/ppa/ppa.md",
+                "file": "de/arithmetic/booth.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -178,8 +178,8 @@
   },
   "active": "40fb8e4f90f4ac94",
   "lastOpenFiles": [
-    "de/ppa/ref/PVT (Process, Voltage, Temperature) - VLSI- Physical Design For Freshers.pdf",
     "de/ppa/ppa.md",
+    "de/ppa/ref/PVT (Process, Voltage, Temperature) - VLSI- Physical Design For Freshers.pdf",
     "de/ppa/include/Pasted image 20240611164733.png",
     "de/ppa/ref",
     "de/ppa/New folder",
