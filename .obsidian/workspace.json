@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "de/arithmetic/booth.md",
+                "file": "dv/sv/coding_guideline.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -50,7 +50,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#何文賢",
+                "query": "iff",
                 "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": false,
@@ -83,12 +83,11 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "de/arithmetic/booth.md"
+                "file": "dv/sv/coding_guideline.md"
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       },
       {
         "id": "ce31482b6afb7740",
@@ -107,7 +106,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 335.5110321044922
+    "width": 335.5110321044922,
+    "collapsed": true
   },
   "right": {
     "id": "cb661d0a10776c07",
@@ -134,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "de/arithmetic/booth.md",
+                "file": "dv/sv/coding_guideline.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "de/arithmetic/booth.md",
+                "file": "dv/sv/coding_guideline.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -178,9 +178,9 @@
   },
   "active": "40fb8e4f90f4ac94",
   "lastOpenFiles": [
+    "de/arithmetic/booth.md",
     "de/arithmetic/ref_booth/~$analysis.xlsx",
     "de/arithmetic/divider.md",
-    "de/arithmetic/booth.md",
     "de/fpu/f16mac.md",
     "de/ppa/spyglass.md",
     "de/ppa/ppa.md",
@@ -212,7 +212,6 @@
     "language/~WRL0003.tmp",
     "language/~WRD0002.tmp",
     "language/2024-05-31.md",
-    "language/~$24-05-29.docx",
     "workflow/tnv.md",
     "ToDoList.md",
     "de/fpu/f16mis.md",
