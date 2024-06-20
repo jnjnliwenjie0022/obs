@@ -1,5 +1,7 @@
 # sdc
 
+![[Pasted image 20240620171703.png]]
+
 place and route前
 
 ``` TCL
