@@ -1,6 +1,7 @@
 # sdc
 
-
+set_clock_transition
+1.  上升轉換和下降轉換时间
 
 # wcl
 
