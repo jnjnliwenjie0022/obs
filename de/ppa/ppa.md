@@ -6,22 +6,23 @@ place and route前
 ``` TCL
 create_clock -period VALUE [get_ports CLK]
 set_clock_uncertainty VALUE CLK
-1. 通常只討論jitter: 5%
+1. clock_period *0.3
 set_clock_transition VALUE CLK
 1. 上升轉換和下降轉換时间(電壓的20%到80%)
 2. 通常這個是給backend去填,不會在前端處理
 set_clock_latency -source VALUE CLK
 set_clock_latency VALUE CLK
 
-set_max_transition VALUE []
-1. VALUE
+set_max_transition VALUE [get_db design *]
+1. 成熟製成: 0.4~0.2
+2. 先進製成：0.1~0.08
 ```
 
 place and route後
 ``` TCL
 create_clock -period VALUE [get_ports CLK]
 set_clock_uncertainty VALUE CLK
-1. 通常只討論jitter: 5%
+1. clock_period *0.3
 set_clock_transition VALUE CLK 
 set_clock_latency -source VALUE CLK
 set_propagated_clock VALUE CLK
