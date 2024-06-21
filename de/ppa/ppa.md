@@ -14,6 +14,7 @@ set_clock_latency -source VALUE CLK
 set_clock_latency VALUE CLK
 
 set_max_transition VALUE []
+1. VALUE
 ```
 
 
