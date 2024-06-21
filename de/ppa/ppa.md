@@ -17,7 +17,6 @@ set_max_transition VALUE []
 1. VALUE
 ```
 
-
 place and route後
 ``` TCL
 create_clock -period VALUE [get_ports CLK]
