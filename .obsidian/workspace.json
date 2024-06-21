@@ -97,8 +97,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 335.5110321044922,
-    "collapsed": true
+    "width": 335.5110321044922
   },
   "right": {
     "id": "cb661d0a10776c07",
@@ -169,7 +168,9 @@
   },
   "active": "a893e33f463f79a3",
   "lastOpenFiles": [
-    "Pasted image 20240620171703.png",
+    "de/ppa/include/Pasted image 20240621182018.png",
+    "de/ppa/include/Pasted image 20240620171703.png",
+    "de/ppa/ppa.md",
     "dv/sv/coding_guideline.md",
     "de/ppa/ref/PVT (Process, Voltage, Temperature) - VLSI- Physical Design For Freshers.pdf",
     "de/arithmetic/booth.md",
@@ -177,7 +178,6 @@
     "de/arithmetic/divider.md",
     "de/fpu/f16mac.md",
     "de/ppa/spyglass.md",
-    "de/ppa/ppa.md",
     "de/format.md",
     "de/lut.md",
     "de/note.md",
@@ -197,9 +197,7 @@
     "de/ppa/Pasted image 20240611163420.png",
     "de/Pasted image 20240606125055.png",
     "de/ppa",
-    "de/Pasted image 20240606125758.png",
     "de/amba_axi/axi.md",
-    "de/rambrg/include/rambrg.svg",
     "language/2024-06-03.md",
     "language/2024-06-03.docx",
     "language/~WRL0003.tmp",

@@ -3,10 +3,14 @@
 ![[Pasted image 20240620171703.png]]
 
 place and route前
+
+index_1 就是 data transition
+
+![[Pasted image 20240621182018.png]]
 ``` TCL
 create_clock -period VALUE [get_ports CLK]
 set_clock_uncertainty VALUE CLK
-1. clock_period *0.3
+1. clock_period * 0.3
 set_clock_transition VALUE CLK
 1. 上升轉換和下降轉換时间(電壓的20%到80%)
 2. 通常這個是給backend去填,不會在前端處理
@@ -16,6 +20,8 @@ set_clock_latency VALUE CLK
 set_max_transition VALUE [get_db design *]
 1. 成熟製成: 0.4~0.2
 2. 先進製成：0.1~0.08
+3. data transition violate基本上只會高機率發生在soc
+4. data transition是為了避免dynamtic power在transition太長導致不必要的增加
 ```
 
 place and route後
@@ -27,7 +33,6 @@ set_clock_transition VALUE CLK
 set_clock_latency -source VALUE CLK
 set_propagated_clock VALUE CLK
 ```
-
 
 # wcl
 
