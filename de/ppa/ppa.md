@@ -9,9 +9,11 @@ set_clock_uncertainty VALUE CLK
 1. 通常只討論jitter: 5%
 set_clock_transition VALUE CLK
 1. 上升轉換和下降轉換时间(電壓的20%到80%)
-2. 通常這個是給backend去填
+2. 通常這個是給backend去填,不會在前端處理
 set_clock_latency -source VALUE CLK
 set_clock_latency VALUE CLK
+
+set_max_transition VALUE []
 ```
 
 
