@@ -3,7 +3,6 @@
 ![[Pasted image 20240620171703.png]]
 
 place and route前
-
 ``` TCL
 create_clock -period VALUE [get_ports CLK]
 set_clock_uncertainty VALUE CLK
