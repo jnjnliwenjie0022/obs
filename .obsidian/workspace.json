@@ -13,7 +13,7 @@
             "state": {
               "type": "image",
               "state": {
-                "file": "de/Pasted image 20240606160337.png"
+                "file": "de/Pasted image 20240606125055.png"
               }
             }
           }
@@ -70,7 +70,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "de/Pasted image 20240606160337.png"
+                "file": "de/Pasted image 20240606125055.png"
               }
             }
           }
@@ -121,7 +121,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "de/Pasted image 20240606160337.png",
+                "file": "de/Pasted image 20240606125055.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -138,7 +138,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "de/Pasted image 20240606160337.png",
+                "file": "de/Pasted image 20240606125055.png",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -165,8 +165,10 @@
   },
   "active": "a893e33f463f79a3",
   "lastOpenFiles": [
-    "de/Pasted image 20240606125937.png",
     "de/Pasted image 20240606125758.png",
+    "de/Pasted image 20240606125937.png",
+    "de/Pasted image 20240606151606.png",
+    "de/Pasted image 20240606160337.png",
     "de/Pasted image 20240606125055.png",
     "de/ppa/ppa.md",
     "de/ppa/spyglass.md",
@@ -187,8 +189,6 @@
     "de/v/verilog.md",
     "de/mdu/mdu.md",
     "de/mdu/include/mdu_uarch.svg",
-    "de/mdu/include/non_restoring_divider_signed.svg",
-    "de/mdu/include/srt_divider_signed.svg",
     "conflict-files-obsidian-git.md",
     "language/2024-06-11.docx",
     "de/ppa/ref",
