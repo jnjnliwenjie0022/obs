@@ -3,7 +3,7 @@
 
 SRAM
 MBIST: 10%
-Rounting: 0.75% 
+Rounting: 0.75%
 # sdc
 
 ![[Pasted image 20240620171703.png]]
