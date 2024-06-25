@@ -28,7 +28,13 @@ set_max_transition VALUE [get_db designs *]
 5. 可以對clock path和data path作用
 
 set bus_ratio 0.667
+set bus_clk_period 1.0
+set clock_uncertainty 0.0
+
+set apr_margin [expr $bus_clk_period * 0.3]
+set synthesis_margin [expr $clock_uncertainty + $apr_margin]
 set bus_io_delay  [expr {($bus_clk_period - $synthesis_margin) * $bus_ratio}]
+
 set 
 
 ```
