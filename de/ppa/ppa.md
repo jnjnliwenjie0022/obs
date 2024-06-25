@@ -4,6 +4,9 @@
 
 place and route前
 
+
+![[Pasted image 20240621184044.png]]
+
 index_1 就是 data transition
 
 ![[Pasted image 20240621182018.png]]
