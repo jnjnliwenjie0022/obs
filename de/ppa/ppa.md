@@ -57,5 +57,10 @@ K在40nm以下會有下圖的特性,worse case for frequency會有兩個corner(H
 
 [[PVT (Process, Voltage, Temperature) - VLSI- Physical Design For Freshers.pdf#page=12&annotation=183R|PVT (Process, Voltage, Temperature) - VLSI- Physical Design For Freshers, page 12]]
 ![[Pasted image 20240611164733.png]]
-
+# synthesis_library
+multi-vt
+1. lvt: 建議25%以上
+2. svt: 建議50%以上, 建議合成的時候只使用svt
+3. ulvt: 通常不用ulvt, ulvt會給APR做最後的防守
 ![[Pasted image 20240625161622.png]]
+![[Pasted image 20240625162050.png]]
