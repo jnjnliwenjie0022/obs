@@ -1,3 +1,9 @@
+# evalution
+可以用execl先做profiler不用一直去systhesis和跑pattern
+
+SRAM
+MBIST: 10%
+Rounting: 0.75% 
 # sdc
 
 ![[Pasted image 20240620171703.png]]
