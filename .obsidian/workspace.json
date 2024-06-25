@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "de/ppa/ppa.md",
-                "mode": "preview",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
@@ -78,7 +78,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       },
       {
         "id": "ce31482b6afb7740",
@@ -166,7 +166,7 @@
       "command-palette:Open command palette": true
     }
   },
-  "active": "187192ed1f4570c8",
+  "active": "a893e33f463f79a3",
   "lastOpenFiles": [
     "de/ppa/spyglass.md",
     "de/ppa/ppa.md",
