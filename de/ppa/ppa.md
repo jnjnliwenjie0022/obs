@@ -3,7 +3,11 @@
 
 SRAM
 MBIST: 10%
-Rounting: 0.75%
+Core Utilization: 75%
+
+Cell
+Scan: 15%~25%
+Core Utilization: 65%~70%
 # sdc
 
 ![[Pasted image 20240620171703.png]]
