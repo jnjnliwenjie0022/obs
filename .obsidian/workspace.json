@@ -13,11 +13,22 @@
             "state": {
               "type": "image",
               "state": {
+                "file": "de/Pasted image 20240606125055.png"
+              }
+            }
+          },
+          {
+            "id": "d7b3833e4cc3452d",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
                 "file": "de/Pasted image 20240606160337.png"
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -163,13 +174,13 @@
       "command-palette:Open command palette": true
     }
   },
-  "active": "a893e33f463f79a3",
+  "active": "d7b3833e4cc3452d",
   "lastOpenFiles": [
-    "de/Pasted image 20240606125758.png",
-    "de/Pasted image 20240606125055.png",
-    "de/Pasted image 20240606125937.png",
     "de/Pasted image 20240606151606.png",
+    "de/Pasted image 20240606125937.png",
+    "de/Pasted image 20240606125758.png",
     "de/Pasted image 20240606160337.png",
+    "de/Pasted image 20240606125055.png",
     "de/ppa/ppa.md",
     "de/ppa/spyglass.md",
     "de/ppa/include/Pasted image 20240625162050.png",
