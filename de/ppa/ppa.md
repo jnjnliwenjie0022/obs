@@ -86,4 +86,5 @@ multi-vt
 ![[Pasted image 20240625161622.png]]
 ![[Pasted image 20240625162050.png]]
 
-power
+# analysis
+power 分析通常是architecture team分析不會是implemeation team分析
