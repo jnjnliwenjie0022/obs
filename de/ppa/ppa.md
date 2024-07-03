@@ -89,4 +89,4 @@ multi-vt
 # analysis
 power 分析通常是architecture team分析不會是implemeation team分析
 power 分析也需要wire delay 
-power 分析要85度 TT
+power 分析要85度/TT/0.74(normal) for 7nm
