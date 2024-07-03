@@ -21,9 +21,12 @@
             "id": "d7b3833e4cc3452d",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "de/Pasted image 20240606160337.png"
+                "file": "de/ppa/ppa.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
               }
             }
           }
@@ -81,7 +84,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "de/Pasted image 20240606160337.png"
+                "file": "de/ppa/ppa.md"
               }
             }
           }
@@ -132,7 +135,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "de/Pasted image 20240606160337.png",
+                "file": "de/ppa/ppa.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -149,7 +152,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "de/Pasted image 20240606160337.png",
+                "file": "de/ppa/ppa.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -176,6 +179,7 @@
   },
   "active": "d7b3833e4cc3452d",
   "lastOpenFiles": [
+    "de/Pasted image 20240606160337.png",
     "language/~WRL3543.tmp",
     "language/~WRD3535.tmp",
     "language/~WRL0001.tmp",
@@ -184,7 +188,6 @@
     "de/Pasted image 20240606125055.png",
     "de/Pasted image 20240606125758.png",
     "de/Pasted image 20240606125937.png",
-    "de/Pasted image 20240606160337.png",
     "de/Pasted image 20240606151606.png",
     "de/ppa/ppa.md",
     "de/ppa/spyglass.md",
@@ -208,7 +211,6 @@
     "language/2024-06-11.docx",
     "de/ppa/ref",
     "de/ppa/New folder",
-    "de/ppa/include",
     "de/amba_axi/axi.md",
     "language/2024-06-03.md",
     "language/2024-05-31.md",

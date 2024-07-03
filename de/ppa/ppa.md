@@ -85,3 +85,5 @@ multi-vt
 3. ulvt: 通常不用ulvt, ulvt會給APR做最後的防守
 ![[Pasted image 20240625161622.png]]
 ![[Pasted image 20240625162050.png]]
+
+power
