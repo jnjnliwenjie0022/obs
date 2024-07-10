@@ -21,13 +21,8 @@
             "id": "d7b3833e4cc3452d",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "de/ppa/ppa.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
+              "type": "graph",
+              "state": {}
             }
           }
         ],
@@ -84,7 +79,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "de/ppa/ppa.md"
+                "file": "de/Pasted image 20240606125055.png"
               }
             }
           }
@@ -135,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "de/ppa/ppa.md",
+                "file": "de/Pasted image 20240606125055.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -152,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "de/ppa/ppa.md",
+                "file": "de/Pasted image 20240606125055.png",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -179,6 +174,8 @@
   },
   "active": "d7b3833e4cc3452d",
   "lastOpenFiles": [
+    "de/ppa/ppa.md",
+    "de/arithmetic/ref_booth/~$analysis.xlsx",
     "de/Pasted image 20240606160337.png",
     "language/~WRL3543.tmp",
     "language/~WRD3535.tmp",
@@ -189,7 +186,6 @@
     "de/Pasted image 20240606125758.png",
     "de/Pasted image 20240606125937.png",
     "de/Pasted image 20240606151606.png",
-    "de/ppa/ppa.md",
     "de/ppa/spyglass.md",
     "de/ppa/include/Pasted image 20240625162050.png",
     "de/ppa/include/Pasted image 20240625161622.png",
@@ -199,7 +195,6 @@
     "dv/sv/coding_guideline.md",
     "de/ppa/ref/PVT (Process, Voltage, Temperature) - VLSI- Physical Design For Freshers.pdf",
     "de/arithmetic/booth.md",
-    "de/arithmetic/ref_booth/~$analysis.xlsx",
     "de/arithmetic/divider.md",
     "de/fpu/f16mac.md",
     "de/format.md",
