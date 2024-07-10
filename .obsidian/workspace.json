@@ -21,12 +21,30 @@
             "id": "d7b3833e4cc3452d",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "de/amba_axi/axi.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "dc7a0807ea160075",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "de/amba_axi/ddr_latency.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -79,7 +97,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "de/Pasted image 20240606125055.png"
+                "file": "de/amba_axi/ddr_latency.md"
               }
             }
           }
@@ -130,7 +148,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "de/Pasted image 20240606125055.png",
+                "file": "de/amba_axi/ddr_latency.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +165,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "de/Pasted image 20240606125055.png",
+                "file": "de/amba_axi/ddr_latency.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -172,8 +190,13 @@
       "command-palette:Open command palette": true
     }
   },
-  "active": "d7b3833e4cc3452d",
+  "active": "19a60b1e44f4e87a",
   "lastOpenFiles": [
+    "de/amba_axi/include/Pasted image 20240710152849.png",
+    "de/amba_axi/axi.md",
+    "de/amba_axi/ddr_latency.md",
+    "de/note.md",
+    "house/house.md",
     "de/ppa/ppa.md",
     "de/arithmetic/ref_booth/~$analysis.xlsx",
     "de/Pasted image 20240606160337.png",
@@ -199,14 +222,12 @@
     "de/fpu/f16mac.md",
     "de/format.md",
     "de/lut.md",
-    "de/note.md",
     "de/v/verilog.md",
     "de/mdu/mdu.md",
     "conflict-files-obsidian-git.md",
     "language/2024-06-11.docx",
     "de/ppa/ref",
     "de/ppa/New folder",
-    "de/amba_axi/axi.md",
     "language/2024-06-03.md",
     "language/2024-05-31.md",
     "workflow/tnv.md",
@@ -217,8 +238,6 @@
     "language/2024-05-27.md",
     "language/2024-05-29.md",
     "de/rambrg/rambrg.md",
-    "de/ram/ram.md",
-    "Untitled 1.md",
     "dv/uvm/include/uvm_factory1.canvas",
     "uvm_factory.canvas",
     "dv/uvm/uvm_factory.canvas",
