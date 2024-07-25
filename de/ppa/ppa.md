@@ -92,3 +92,7 @@ power 分析也需要wire delay
 power 分析要85度/TT/0.75(normal) for 7nm
 wcl frequency 分析-40度/multivt/SS/0.75\*0.9 for 7nm
 wc frequency 分析85度/multivt/SS/0.75\*0.9 for 7nm
+
+# scan_factor
+In early stages: 1.15 ~ 1.25
+![[Pasted image 20240719160809.png]]
