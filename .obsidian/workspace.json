@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "de/ppa/ppa.md",
-                "mode": "source",
+                "file": "de/amba_axi/ddr_latency.md",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -96,7 +96,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "de/ppa/ppa.md"
+                "file": "de/amba_axi/ddr_latency.md"
               }
             }
           }
@@ -147,7 +147,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "de/ppa/ppa.md",
+                "file": "de/amba_axi/ddr_latency.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -164,7 +164,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "de/ppa/ppa.md",
+                "file": "de/amba_axi/ddr_latency.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -191,10 +191,15 @@
   },
   "active": "a893e33f463f79a3",
   "lastOpenFiles": [
+    "de/Pasted image 20240606125055.png",
+    "de/Pasted image 20240606125758.png",
+    "de/Pasted image 20240606125937.png",
+    "de/Pasted image 20240606151606.png",
+    "de/Pasted image 20240606160337.png",
+    "Pasted image 20240719160809.png",
+    "de/ppa/ppa.md",
     "language/the_rational_male.pdf",
     "language/pdf_downlaod.md",
-    "Pasted image 20240719160809.png",
-    "de/Pasted image 20240606125055.png",
     "de/amba_axi/axi.md",
     "de/fpu/ref_f16mac/(guideline)Handbook of Floating Point Arithmetic.pdf",
     "conflict-files-obsidian-git.md",
@@ -202,17 +207,12 @@
     "de/amba_axi/include/Pasted image 20240710152849.png",
     "de/note.md",
     "house/house.md",
-    "de/ppa/ppa.md",
     "de/arithmetic/ref_booth/~$analysis.xlsx",
-    "de/Pasted image 20240606160337.png",
     "language/~WRL3543.tmp",
     "language/~WRD3535.tmp",
     "language/~WRL0001.tmp",
     "language/~WRD0000.tmp",
     "language/~$24-06-11.docx",
-    "de/Pasted image 20240606125758.png",
-    "de/Pasted image 20240606125937.png",
-    "de/Pasted image 20240606151606.png",
     "de/ppa/spyglass.md",
     "de/ppa/include/Pasted image 20240625162050.png",
     "de/ppa/include/Pasted image 20240625161622.png",
@@ -227,7 +227,6 @@
     "de/v/verilog.md",
     "de/mdu/mdu.md",
     "language/2024-06-11.docx",
-    "de/ppa/ref",
     "language/2024-06-03.md",
     "language/2024-05-31.md",
     "workflow/tnv.md",
