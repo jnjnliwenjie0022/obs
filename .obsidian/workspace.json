@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "de/ram/ram.md",
-                "mode": "preview",
+                "file": "workflow/ganttproject.md",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
@@ -43,7 +43,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -96,7 +97,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "de/ram/ram.md"
+                "file": "de/amba_axi/axi.md"
               }
             }
           }
@@ -147,7 +148,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "de/ram/ram.md",
+                "file": "de/amba_axi/axi.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -164,7 +165,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "de/ram/ram.md",
+                "file": "de/amba_axi/axi.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -189,13 +190,18 @@
       "command-palette:Open command palette": true
     }
   },
-  "active": "a893e33f463f79a3",
+  "active": "d7b3833e4cc3452d",
   "lastOpenFiles": [
+    "workflow/ganttproject.md",
+    "workflow/synopsys.md",
+    "workflow/nvim.md",
+    "workflow/tmux.md",
+    "workflow/git.md",
+    "de/ram/ram.md",
     "de/fctrl/fctrl.md",
     "Pasted image 20240719160809.png",
     "de/v/include/Pasted image 20240307155712.png",
     "de/v/verilog.md",
-    "de/ram/ram.md",
     "de/_unorganized/cosim.md",
     "de/amba_axi/ddr_latency.md",
     "de/fifo/fifo.md",
@@ -232,10 +238,6 @@
     "de/mdu/mdu.md",
     "language/2024-06-11.docx",
     "language/2024-06-03.md",
-    "language/2024-05-31.md",
-    "workflow/tnv.md",
-    "ToDoList.md",
-    "de/fpu/f16mis.md",
     "dv/uvm/include/uvm_factory1.canvas",
     "uvm_factory.canvas",
     "dv/uvm/uvm_factory.canvas",
