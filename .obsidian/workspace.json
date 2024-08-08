@@ -26,8 +26,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "de/amba_axi/axi.md",
-                "mode": "preview",
+                "file": "date/restaurant.md",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
@@ -97,7 +97,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "de/amba_axi/axi.md"
+                "file": "date/restaurant.md"
               }
             }
           }
@@ -148,7 +148,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "de/amba_axi/axi.md",
+                "file": "date/restaurant.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -165,7 +165,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "de/amba_axi/axi.md",
+                "file": "date/restaurant.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -192,6 +192,9 @@
   },
   "active": "d7b3833e4cc3452d",
   "lastOpenFiles": [
+    "de/amba_axi/axi.md",
+    "date/restaurant.md",
+    "date",
     "workflow/ganttproject.md",
     "workflow/synopsys.md",
     "workflow/nvim.md",
@@ -213,7 +216,6 @@
     "de/ppa/ppa.md",
     "language/the_rational_male.pdf",
     "language/pdf_downlaod.md",
-    "de/amba_axi/axi.md",
     "de/fpu/ref_f16mac/(guideline)Handbook of Floating Point Arithmetic.pdf",
     "conflict-files-obsidian-git.md",
     "de/amba_axi/include/Pasted image 20240710152849.png",
@@ -236,8 +238,6 @@
     "de/format.md",
     "de/lut.md",
     "de/mdu/mdu.md",
-    "language/2024-06-11.docx",
-    "language/2024-06-03.md",
     "dv/uvm/include/uvm_factory1.canvas",
     "uvm_factory.canvas",
     "dv/uvm/uvm_factory.canvas",
