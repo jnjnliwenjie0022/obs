@@ -29,8 +29,22 @@
                 "currentVersion": "1.6.7"
               }
             }
+          },
+          {
+            "id": "32c05a532c665319",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "conflict-files-obsidian-git.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -83,7 +97,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "language/pdf_downlaod.md"
+                "file": "conflict-files-obsidian-git.md"
               }
             }
           }
@@ -134,7 +148,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "language/pdf_downlaod.md",
+                "file": "conflict-files-obsidian-git.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +165,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "language/pdf_downlaod.md",
+                "file": "conflict-files-obsidian-git.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -175,23 +189,25 @@
       "obsidian-to-anki-plugin:Obsidian_to_Anki - Scan Vault": false
     }
   },
-  "active": "f90203d8afa8deed",
+  "active": "32c05a532c665319",
   "lastOpenFiles": [
+    "conflict-files-obsidian-git.md",
+    "workflow/ganttproject.md",
+    "workflow/bypass_paywall.md",
+    "language/2024-08-16.docx",
+    "date/restaurant.md",
+    "date",
+    "language/pdf_downlaod.md",
     "language/the_rational_male.pdf",
     "language/document (2).pdf",
     "house/house.md",
-    "language/pdf_downlaod.md",
     "language/~$24-06-11.docx",
     "Pasted image 20240719160809.png",
     "de/fpu/ref_f16mac/archive/(CMA_FMA_analysis)FPMax a 106GFLOPSW at 217GFLOPSmm2 Single-Precision FPU, and a 43.7GFLOPSW at 74.6GFLOPSmm2 Double-Precision FPU, in 28nm UTBB FDSOI.pdf",
-    "conflict-files-obsidian-git.md",
     "de/fpu/ref_f16mac/archive/(CMA_FMA_analysis)Energy-Efficient Floating-Point Unit Design.pdf",
     "de/fpu/ref_f16mac/archive/(fma)Comparison of Single- and Dual-Pass Multiply-Add Fused Floating-Point Units.pdf",
     "de/fpu/ref_f16mac/(Adder)Fast Parallel-Prefix Modulo 2n add 1 Adders.pdf",
     "de/fpu/ref_f16mac/(Adder)Evaluation of A+B = K Conditions Without Carry Propagation.pdf",
-    "de/fpu/ref_f16mac/(rounding RNE)rouding algorithms for IEEE multipliers.pdf",
-    "de/fpu/ref_f16mac/(rounding)167-mhz-radix4-floating-point-multiplier.pdf",
-    "de/fpu/ref_f16mac/(rounding)A-comparison-of-three-rounding-algorithms-for-ieee-floating point multiplication.pdf",
     "language/2024-06-03.md",
     "de/ppa/include/Pasted image 20240625162050.png",
     "de/ppa/include/Pasted image 20240625161622.png",
@@ -221,9 +237,7 @@
     "ToDoList.md",
     "de/amba_axi/axi.md",
     "de/fpu/f16mac.md",
-    "Untitled 1.md",
     "uvm_factory.canvas",
-    "maketing/ai.md",
     "dv/uvm/include/uvm_factory1.canvas",
     "dv/uvm/uvm_factory.canvas",
     "dv/uvm/include/uvm_do_on_pri_with.canvas",
