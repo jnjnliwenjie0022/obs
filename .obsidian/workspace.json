@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "date/restaurant.md",
+                "file": "workflow/bypass_paywall.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -97,7 +97,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "date/restaurant.md"
+                "file": "workflow/bypass_paywall.md"
               }
             }
           }
@@ -148,7 +148,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "date/restaurant.md",
+                "file": "workflow/bypass_paywall.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -165,7 +165,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "date/restaurant.md",
+                "file": "workflow/bypass_paywall.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -192,17 +192,26 @@
   },
   "active": "d7b3833e4cc3452d",
   "lastOpenFiles": [
-    "de/amba_axi/axi.md",
+    "workflow/tnv.md",
+    "workflow/tmux.md",
+    "workflow/nvim.md",
+    "workflow/github.md",
+    "workflow/git.md",
+    "workflow/bypass_paywall.md",
+    "Pasted image 20240719160809.png",
     "date/restaurant.md",
+    "language/~WRL2238.tmp",
+    "language/~WRD2231.tmp",
+    "language/~$24-08-16.docx",
+    "language/2024-08-16.docx",
+    "language/2024-06-11 - Copy.docx",
+    "language/~$24-06-11.docx",
+    "de/amba_axi/axi.md",
     "date",
     "workflow/ganttproject.md",
     "workflow/synopsys.md",
-    "workflow/nvim.md",
-    "workflow/tmux.md",
-    "workflow/git.md",
     "de/ram/ram.md",
     "de/fctrl/fctrl.md",
-    "Pasted image 20240719160809.png",
     "de/v/include/Pasted image 20240307155712.png",
     "de/v/verilog.md",
     "de/_unorganized/cosim.md",
@@ -222,22 +231,13 @@
     "de/note.md",
     "house/house.md",
     "de/arithmetic/ref_booth/~$analysis.xlsx",
-    "language/~WRL3543.tmp",
-    "language/~WRD3535.tmp",
-    "language/~WRL0001.tmp",
-    "language/~WRD0000.tmp",
-    "language/~$24-06-11.docx",
     "de/ppa/spyglass.md",
     "de/ppa/include/Pasted image 20240625162050.png",
     "de/ppa/include/Pasted image 20240625161622.png",
     "dv/sv/coding_guideline.md",
-    "de/ppa/ref/PVT (Process, Voltage, Temperature) - VLSI- Physical Design For Freshers.pdf",
     "de/arithmetic/booth.md",
     "de/arithmetic/divider.md",
     "de/fpu/f16mac.md",
-    "de/format.md",
-    "de/lut.md",
-    "de/mdu/mdu.md",
     "dv/uvm/include/uvm_factory1.canvas",
     "uvm_factory.canvas",
     "dv/uvm/uvm_factory.canvas",
