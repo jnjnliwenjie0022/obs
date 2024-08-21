@@ -44,9 +44,6 @@ set clock_uncertainty 0.0
 set apr_margin [expr $bus_clk_period * 0.3]
 set synthesis_margin [expr $clock_uncertainty + $apr_margin]
 set bus_io_delay  [expr {($bus_clk_period - $synthesis_margin) * $bus_ratio}]
-
-set 
-
 ```
 
 place and route and CTS 後
