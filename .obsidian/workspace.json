@@ -13,7 +13,7 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "de/ppa/ref/poster.pdf"
+                "file": "de/ppa/ref/paper.pdf"
               }
             }
           }
@@ -70,7 +70,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "de/ppa/ref/poster.pdf"
+                "file": "de/ppa/ref/paper.pdf"
               }
             }
           }
@@ -121,7 +121,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "de/ppa/ref/poster.pdf",
+                "file": "de/ppa/ref/paper.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -138,7 +138,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "de/ppa/ref/poster.pdf",
+                "file": "de/ppa/ref/paper.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -165,14 +165,15 @@
   },
   "active": "a893e33f463f79a3",
   "lastOpenFiles": [
-    "de/ppa/ref/paper.pdf",
+    "de/ppa/ref/slides.pdf",
+    "de/ppa/ref/PVT (Process, Voltage, Temperature) - VLSI- Physical Design For Freshers.pdf",
     "de/ppa/ref/poster.pdf",
+    "de/ppa/ref/paper.pdf",
     "de/ppa/ref/2205.05826v3.pdf",
     "de/ppa/ref/background.part2.pdf",
     "de/ppa/power_analysis.md",
     "workflow/ganttproject.md",
     "de/ppa/ref/background.part2.pdf.crdownload",
-    "de/ppa/ref/slides.pdf",
     "de/ppa/ref/slides.pdf.crdownload",
     "de/ppa/ref/poster.pdf.crdownload",
     "de/ppa/ref/paper.pdf.crdownload",
