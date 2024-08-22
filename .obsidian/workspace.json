@@ -11,9 +11,12 @@
             "id": "a893e33f463f79a3",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "de/ppa/ref/paper.pdf"
+                "file": "de/ppa/power_analysis.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
               }
             }
           }
@@ -70,7 +73,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "de/ppa/ref/paper.pdf"
+                "file": "de/ppa/power_analysis.md"
               }
             }
           }
@@ -121,7 +124,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "de/ppa/ref/paper.pdf",
+                "file": "de/ppa/power_analysis.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -138,7 +141,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "de/ppa/ref/paper.pdf",
+                "file": "de/ppa/power_analysis.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -165,9 +168,12 @@
   },
   "active": "a893e33f463f79a3",
   "lastOpenFiles": [
+    "de/ppa/ref/lecture15.pdf",
+    "de/ppa/ref/lecture15.pdf.crdownload",
+    "de/ppa/ppa.md",
+    "de/ppa/ref/paper.pdf",
     "de/ppa/ref/poster.pdf",
     "de/ppa/ref/slides.pdf",
-    "de/ppa/ref/paper.pdf",
     "de/ppa/ref/_archive/background.part2.pdf",
     "de/ppa/ref/_archive/2205.05826v3.pdf",
     "de/ppa/power_analysis.md",
@@ -176,8 +182,6 @@
     "workflow/ganttproject.md",
     "de/ppa/ref/background.part2.pdf.crdownload",
     "de/ppa/ref/slides.pdf.crdownload",
-    "de/ppa/ref/poster.pdf.crdownload",
-    "de/ppa/ppa.md",
     "de/ppa/spyglass.md",
     "de/Pasted image 20240606125758.png",
     "de/Pasted image 20240606125055.png",
