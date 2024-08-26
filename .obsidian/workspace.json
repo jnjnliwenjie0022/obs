@@ -11,12 +11,9 @@
             "id": "a893e33f463f79a3",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "de/ppa/power_analysis.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
+                "file": "de/ppa/ref/Domain-Specific Architecture AI for Future Tech.pdf"
               }
             }
           }
@@ -73,7 +70,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "de/ppa/power_analysis.md"
+                "file": "de/ppa/ref/Domain-Specific Architecture AI for Future Tech.pdf"
               }
             }
           }
@@ -124,7 +121,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "de/ppa/power_analysis.md",
+                "file": "de/ppa/ref/Domain-Specific Architecture AI for Future Tech.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -141,7 +138,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "de/ppa/power_analysis.md",
+                "file": "de/ppa/ref/Domain-Specific Architecture AI for Future Tech.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -168,22 +165,23 @@
   },
   "active": "a893e33f463f79a3",
   "lastOpenFiles": [
-    "de/ppa/ppa.md",
-    "de/ppa/power_analysis.md",
-    "de/ppa/spyglass.md",
+    "de/ppa/ref/2019KS_Yellin-Saving_The_Future_of_Moores_Law.pdf",
+    "de/ppa/ref/2019KS_Yellin-Saving_The_Future_of_Moores_Law.pdf.crdownload",
+    "de/ppa/ref/lecture15.pdf",
     "de/ppa/ref/paper.pdf",
+    "de/ppa/ref/poster.pdf",
+    "de/ppa/power_analysis.md",
+    "de/ppa/ref/Domain-Specific Architecture AI for Future Tech.pdf",
+    "de/ppa/ppa.md",
+    "de/ppa/spyglass.md",
     "de/ppa/include/Pasted image 20240826141554.png",
     "Pasted image 20240719160809.png",
-    "de/ppa/ref/lecture15.pdf",
     "de/ppa/ref/lecture15.pdf.crdownload",
-    "de/ppa/ref/poster.pdf",
     "de/ppa/ref/slides.pdf",
     "de/ppa/ref/_archive/background.part2.pdf",
     "de/ppa/ref/_archive/2205.05826v3.pdf",
     "de/ppa/ref/PVT (Process, Voltage, Temperature) - VLSI- Physical Design For Freshers.pdf",
-    "de/ppa/ref/_archive",
     "workflow/ganttproject.md",
-    "de/ppa/ref/background.part2.pdf.crdownload",
     "de/Pasted image 20240606125758.png",
     "de/Pasted image 20240606125055.png",
     "workflow/bypass_paywall.md",
