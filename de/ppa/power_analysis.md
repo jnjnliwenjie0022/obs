@@ -14,5 +14,7 @@ P 正比 nCV\*\*2f
 3. V：電壓很難低於0.6，MTK在sleep mode大概可以是0.55
 4. F：頻率基本上在4GHz是極限
 5. P：會撞上Power Wall，無法再增加Power
+
 [[Domain-Specific Architecture AI for Future Tech.pdf#page=2&selection=2,0,2,36|Domain-Specific Architecture AI for Future Tech, page 2]]
 ![[Pasted image 20240826163637.png]]
+![[Pasted image 20240827105334.png]]
