@@ -24,9 +24,12 @@
             "id": "d8879417c891087a",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "maketing/include/Pasted image 20240828111852.png"
+                "file": "de/amba_axi/ddr_latency.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
               }
             }
           }
@@ -84,7 +87,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "maketing/include/Pasted image 20240828111852.png"
+                "file": "de/amba_axi/ddr_latency.md"
               }
             }
           }
@@ -135,7 +138,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "maketing/include/Pasted image 20240828111852.png",
+                "file": "de/amba_axi/ddr_latency.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -152,7 +155,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "maketing/include/Pasted image 20240828111852.png",
+                "file": "de/amba_axi/ddr_latency.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -177,26 +180,27 @@
       "command-palette:Open command palette": true
     }
   },
-  "active": "19a60b1e44f4e87a",
+  "active": "d8879417c891087a",
   "lastOpenFiles": [
+    "de/ppa/include/Pasted image 20240611163551.png",
+    "de/ppa/power_analysis.md",
+    "de/ppa/spyglass.md",
+    "de/ppa/ppa.md",
+    "maketing/include/Pasted image 20240828111852.png",
     "Pasted image 20240719160809.png",
     "Pasted image 20240826163637.png",
     "Pasted image 20240827105334.png",
-    "maketing/include/Pasted image 20240828111852.png",
     "maketing/marketing.md",
-    "de/ppa/power_analysis.md",
     "maketing/include",
     "maketing/ref/~$AI Market Analysis_20240524.pptx",
     "de/ppa/ref/Dennard-jssc1974.pdf",
     "de/ppa/ref/Dennard-jssc1974.pdf.crdownload",
-    "de/ppa/ppa.md",
     "de/ppa/ref/slides.pdf",
     "de/ppa/ref/PVT (Process, Voltage, Temperature) - VLSI- Physical Design For Freshers.pdf",
     "de/ppa/ref/paper.pdf",
     "de/ppa/ref/poster.pdf",
     "de/ppa/ref/lecture15.pdf",
     "de/ppa/ref/Domain-Specific Architecture AI for Future Tech.pdf",
-    "de/ppa/spyglass.md",
     "de/ppa/include/Pasted image 20240826141554.png",
     "workflow/ganttproject.md",
     "de/Pasted image 20240606125758.png",
