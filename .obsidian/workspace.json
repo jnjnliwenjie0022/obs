@@ -26,8 +26,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "de/amba_axi/ddr_latency.md",
-                "mode": "preview",
+                "file": "maketing/marketing.md",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
@@ -87,7 +87,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "de/amba_axi/ddr_latency.md"
+                "file": "maketing/marketing.md"
               }
             }
           }
@@ -138,7 +138,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "de/amba_axi/ddr_latency.md",
+                "file": "maketing/marketing.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -155,7 +155,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "de/amba_axi/ddr_latency.md",
+                "file": "maketing/marketing.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -182,6 +182,8 @@
   },
   "active": "d8879417c891087a",
   "lastOpenFiles": [
+    "Pasted image 20240828160508.png",
+    "de/amba_axi/ddr_latency.md",
     "de/ppa/include/Pasted image 20240611163551.png",
     "de/ppa/power_analysis.md",
     "de/ppa/spyglass.md",
@@ -219,10 +221,8 @@
     "de/v/include/Pasted image 20240307155712.png",
     "de/v/verilog.md",
     "de/_unorganized/cosim.md",
-    "de/amba_axi/ddr_latency.md",
     "de/fifo/fifo.md",
     "de/Pasted image 20240606125937.png",
-    "de/Pasted image 20240606151606.png",
     "language/pdf_downlaod.md",
     "conflict-files-obsidian-git.md",
     "de/note.md",
