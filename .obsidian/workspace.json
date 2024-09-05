@@ -11,12 +11,9 @@
             "id": "a893e33f463f79a3",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "de/ppa/power_analysis.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
+                "file": "de/ppa/ref/Accelergy.pdf"
               }
             }
           }
@@ -73,7 +70,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "de/ppa/power_analysis.md"
+                "file": "de/ppa/ref/Accelergy.pdf"
               }
             }
           }
@@ -124,7 +121,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "de/ppa/power_analysis.md",
+                "file": "de/ppa/ref/Accelergy.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -141,7 +138,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "de/ppa/power_analysis.md",
+                "file": "de/ppa/ref/Accelergy.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -168,15 +165,15 @@
   },
   "active": "a893e33f463f79a3",
   "lastOpenFiles": [
-    "de/ppa/ref/paper.pdf",
+    "de/ppa/ref/lecture15.pdf",
+    "de/ppa/power_analysis.md",
+    "de/ppa/ref/Accelergy.pdf",
     "de/ppa/ref/iccad.2011.6105405.pdf",
     "de/ppa/ref/iccad.2011.6105405.pdf.crdownload",
-    "de/ppa/ref/lecture15.pdf",
     "de/ppa/ref/Domain-Specific Architecture AI for Future Tech.pdf",
     "de/ppa/ref/Dennard-jssc1974.pdf",
     "de/ppa/ref/2019KS_Yellin-Saving_The_Future_of_Moores_Law.pdf",
     "maketing/marketing.md",
-    "de/ppa/power_analysis.md",
     "Pasted image 20240828160508.png",
     "de/amba_axi/ddr_latency.md",
     "de/ppa/include/Pasted image 20240611163551.png",
@@ -189,7 +186,6 @@
     "maketing/include",
     "maketing/ref/~$AI Market Analysis_20240524.pptx",
     "de/ppa/ref/Dennard-jssc1974.pdf.crdownload",
-    "de/ppa/ref/slides.pdf",
     "de/ppa/include/Pasted image 20240826141554.png",
     "workflow/ganttproject.md",
     "de/Pasted image 20240606125758.png",
