@@ -11,8 +11,13 @@
             "id": "08e98b8390a28d5a",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "de/ppa/ppa.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
             }
           }
         ]
@@ -67,7 +72,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "de/ppa/ppa.md"
+              }
             }
           }
         ],
@@ -117,6 +124,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "de/ppa/ppa.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,6 +141,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "de/ppa/ppa.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -159,9 +168,11 @@
   },
   "active": "08e98b8390a28d5a",
   "lastOpenFiles": [
+    "Pasted image 20240906170331.png",
+    "de/ppa/power_analysis.md",
+    "de/ppa/ppa.md",
     "de/ppa/ref/Accelergy.pdf",
     "de/ppa/ref/lecture15.pdf",
-    "de/ppa/power_analysis.md",
     "de/ppa/ref/iccad.2011.6105405.pdf",
     "de/ppa/ref/iccad.2011.6105405.pdf.crdownload",
     "de/ppa/ref/Domain-Specific Architecture AI for Future Tech.pdf",
@@ -172,7 +183,6 @@
     "de/amba_axi/ddr_latency.md",
     "de/ppa/include/Pasted image 20240611163551.png",
     "de/ppa/spyglass.md",
-    "de/ppa/ppa.md",
     "maketing/include/Pasted image 20240828111852.png",
     "Pasted image 20240719160809.png",
     "Pasted image 20240826163637.png",

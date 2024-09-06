@@ -92,4 +92,5 @@ wc frequency 分析85度/multivt/SS/0.75\*0.9 for 7nm
 
 # scan_factor
 In early stages: 1.15 ~ 1.25
+![[Pasted image 20240906170331.png]]
 ![[Pasted image 20240719160809.png]]
