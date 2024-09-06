@@ -4,17 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "bf3f269b630c184d",
+        "id": "a27de4b365c5fafe",
         "type": "tabs",
         "children": [
           {
-            "id": "a893e33f463f79a3",
+            "id": "08e98b8390a28d5a",
             "type": "leaf",
             "state": {
-              "type": "pdf",
-              "state": {
-                "file": "de/ppa/ref/Accelergy.pdf"
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -69,9 +67,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "de/ppa/ref/Accelergy.pdf"
-              }
+              "state": {}
             }
           }
         ],
@@ -121,7 +117,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "de/ppa/ref/Accelergy.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -138,7 +133,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "de/ppa/ref/Accelergy.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -163,11 +157,11 @@
       "command-palette:Open command palette": true
     }
   },
-  "active": "a893e33f463f79a3",
+  "active": "08e98b8390a28d5a",
   "lastOpenFiles": [
+    "de/ppa/ref/Accelergy.pdf",
     "de/ppa/ref/lecture15.pdf",
     "de/ppa/power_analysis.md",
-    "de/ppa/ref/Accelergy.pdf",
     "de/ppa/ref/iccad.2011.6105405.pdf",
     "de/ppa/ref/iccad.2011.6105405.pdf.crdownload",
     "de/ppa/ref/Domain-Specific Architecture AI for Future Tech.pdf",
