@@ -35,7 +35,9 @@ P 正比 nCV\*\*2f
 
 ## ref
 https://blog.csdn.net/i_chip_backend/article/details/90347161
+
 https://blog.csdn.net/i_chip_backend/article/details/118963247
+
 
 ## concept
 ![[Pasted image 20240924140655.png]]
@@ -48,6 +50,7 @@ dynamic power = switch power + internal power
 | Report | Net                          | Cell                                | Cell           |
 | Target | Output Pin Power             | Short Power + Internal Switch Power | Leakage Power  |
 SDPA: Status Dependency Path Dependency
+
 Cout = Pin capacitation + wire load
 
 |                                               | Switching Power  | Input Pin Internal Power | Output Pin Internal Power | Leakage Power |
@@ -67,7 +70,15 @@ Cout = Pin capacitation + wire load
 
 ![[Pasted image 20240924153719.png]]
 
-##
+## internal_power
+
+input pin internal power (internal switch power)
+
+![[Pasted image 20240924154029.png]]
+
+output pin internal (short power)
+
+![[Pasted image 20240924154212.png]]
 ## switch_power
 
 ![[Pasted image 20240924133224.png]]
