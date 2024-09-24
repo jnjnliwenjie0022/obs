@@ -39,16 +39,23 @@ https://blog.csdn.net/i_chip_backend/article/details/90347161
 https://blog.csdn.net/i_chip_backend/article/details/118963247
 
 https://blog.csdn.net/i_chip_backend/article/details/118303553
+
+https://blog.csdn.net/qq_21842097/article/details/88420050?spm=1001.2014.3001.5502
 ## concept
+
+library 中的internal_power 不是功率，而是熱量，單位是焦耳
+
+Internal Power >= Switch Power
+
 ![[Pasted image 20240924140655.png]]
 
 dynamic power = switch power + internal power
 
-|        | Switching Power              | Internal Power                      | Leakage Power  |
-| ------ | ---------------------------- | ----------------------------------- | -------------- |
-|        | 1/2 \* V\*\*2 * Cout \* Freq | V \*\* Qx * Freq                    | V \* I_leakage |
-| Report | Net                          | Cell                                | Cell           |
-| Target | Output Pin Power             | Short Power + Internal Switch Power | Leakage Power  |
+|        | Switching Power            | Internal Power                      | Leakage Power  |
+| ------ | -------------------------- | ----------------------------------- | -------------- |
+|        | 1/2 \* V\*\*2 * Cout \* Tr | V \*\* Qx * Tr                      | V \* I_leakage |
+| Report | Net                        | Cell                                | Cell           |
+| Target | Output Pin Power           | Short Power + Internal Switch Power | Leakage Power  |
 SDPA: Status Dependency Path Dependency
 
 Cout = Pin capacitation + wire load
@@ -61,9 +68,14 @@ Cout = Pin capacitation + wire load
 | Wire Load                                     | Yes              | N/A                      | Yes                       | N/A           |
 | Input_Transition_Time                         | N/A              | 正比                       | 正比                        | N/A           |
 | Output_Capacitation                           | 正比               | N/A                      | 反比                        | N/A           |
-| Freq                                          | 正比               | 正比                       | 正比                        | N/A           |
+| Tr                                            | 正比               | 正比                       | 正比                        | N/A           |
 | V                                             | 正比               | 正比                       | 正比                        | 正比            |
 | Vth                                           | N/A              | N/A                      | N/A                       | 反比            |
+|                                               |                  |                          |                           |               |
+
+Tr(翻轉率): Toggle_Rate * Freq
+
+![[Pasted image 20240924160623.png]]
 
 ## leakage_power
 
