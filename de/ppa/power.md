@@ -31,3 +31,9 @@ P 正比 nCV\*\*2f
 | P             | 1                         | 1 = n * 0.7 which n ~= 1.4     |
 
 ![[Pasted image 20240827105334.png]]
+# power_analysis
+
+| Switching Power               | Internal Power   | Leakage Power  |
+| ----------------------------- | ---------------- | -------------- |
+| 1/2 \* V\*\*2 * C_out \* Freq | V \*\* Qx * Freq | V \* I_leakage |
+

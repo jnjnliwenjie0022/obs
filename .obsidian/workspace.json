@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "de/ppa/power_analysis.md",
-                "mode": "preview",
+                "file": "de/ppa/power.md",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
@@ -73,7 +73,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "de/ppa/power_analysis.md"
+                "file": "de/ppa/power.md"
               }
             }
           }
@@ -124,7 +124,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "de/ppa/power_analysis.md",
+                "file": "de/ppa/power.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -141,7 +141,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "de/ppa/power_analysis.md",
+                "file": "de/ppa/power.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -169,7 +169,7 @@
   "active": "08e98b8390a28d5a",
   "lastOpenFiles": [
     "de/ppa/ref/Domain-Specific Architecture AI for Future Tech.pdf",
-    "de/ppa/power_analysis.md",
+    "de/ppa/power.md",
     "de/Pasted image 20240606125055.png",
     "de/Pasted image 20240606125937.png",
     "de/fpu/f16mac.md",
