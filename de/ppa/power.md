@@ -86,6 +86,7 @@ Tr(翻轉率): Toggle_Rate * Freq
 
 ![[Pasted image 20240924153719.png]]
 
+![[Pasted image 20240924164604.png]]
 ## internal_power
 
 input pin internal power (internal switch power)
@@ -104,6 +105,9 @@ output pin internal (short power)
 
 # clock_gating
 
+![[Pasted image 20240924164530.png]]
+
 1. 優化 dynamic power
 2. 優化 area, 將原有的 data 的通用邏輯整合挂到EN上
 3. 有機率劣化 leakage power
+
