@@ -35,22 +35,30 @@ P 正比 nCV\*\*2f
 ![[Pasted image 20240924140655.png]]
 
 dynamic power = switch power + internal power
+
+|        | Switching Power              | Internal Power                      | Leakage Power  |
+| ------ | ---------------------------- | ----------------------------------- | -------------- |
+|        | 1/2 \* V\*\*2 * Cout \* Freq | V \*\* Qx * Freq                    | V \* I_leakage |
+| Report | Net                          | Cell                                | Cell           |
+| Target | Output Pin Power             | Short Power + Internal Switch Power | Leakage Power  |
 SDPA: Status Dependency Path Dependency
-
-|                                               | Switching Power              | Internal Power   | Leakage Power  |
-| --------------------------------------------- | ---------------------------- | ---------------- | -------------- |
-|                                               | 1/2 \* V\*\*2 * Cout \* Freq | V \*\* Qx * Freq | V \* I_leakage |
-| Report                                        | Net                          | Cell             | Cell           |
-| Target                                        | Output Power                 | Short Power      | Leakage Power  |
-| Status Dependency (Input Value)               | N/A                          | Yes              | Yes            |
-| Path Dependency (Input Value -> Output Value) | N/A                          | Yes              | N/A            |
-| Freq                                          |                              |                  |                |
-| V                                             |                              |                  |                |
-| Vth                                           |                              |                  |                |
-| Input_Transition_Time                         |                              |                  |                |
-| Output_Capaciance                             |                              |                  |                |
-
 Cout = input pin capacitation + wire load
+
+|                                               | Switching Power  | Input Pin Internal Power | Output Pin Internal Power | Leakage Power |
+| --------------------------------------------- | ---------------- | ------------------------ | ------------------------- | ------------- |
+| Target                                        | Output Pin Power | Internal Switch Power    | Short Power               | Leakage Power |
+| Status Dependency (Input Value)               | N/A              | Yes                      | Yes                       | Yes           |
+| Path Dependency (Input Value -> Output Value) | N/A              | Yes                      | Yes                       | N/A           |
+| Input_Transition_Time                         | N/A              | 正比                       | 正比                        |               |
+| Output_Capaciance                             | N/A              | N/A                      |                           |               |
+| Freq                                          |                  |                          |                           |               |
+| V                                             |                  |                          |                           |               |
+| Vth                                           |                  |                          |                           |               |
+|                                               |                  |                          |                           |               |
+|                                               |                  |                          |                           |               |
+
+
+
 
 # switch_power
 
