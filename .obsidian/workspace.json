@@ -14,34 +14,13 @@
               "type": "markdown",
               "state": {
                 "file": "de/ppa/power.md",
-                "mode": "source",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
             }
-          },
-          {
-            "id": "07fc3887e4c564d4",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "Pasted image 20240924221233.png"
-              }
-            }
-          },
-          {
-            "id": "0757434451d0ca03",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "de/ppa/include/Pasted image 20240924220253.png"
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -94,7 +73,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Pasted image 20240924221233.png"
+                "file": "de/ppa/power.md"
               }
             }
           }
@@ -145,7 +124,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Pasted image 20240924221233.png",
+                "file": "de/ppa/power.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -162,7 +141,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Pasted image 20240924221233.png",
+                "file": "de/ppa/power.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -186,11 +165,11 @@
       "obsidian-to-anki-plugin:Obsidian_to_Anki - Scan Vault": false
     }
   },
-  "active": "07fc3887e4c564d4",
+  "active": "f90203d8afa8deed",
   "lastOpenFiles": [
+    "de/ppa/include/Pasted image 20240924221249.png",
     "de/ppa/power.md",
-    "Pasted image 20240924221249.png",
-    "Pasted image 20240924221233.png",
+    "de/ppa/include/Pasted image 20240924221233.png",
     "de/ppa/include/Pasted image 20240924220253.png",
     "de/ppa/ref/Domain-Specific Architecture AI for Future Tech.pdf",
     "de/ppa/include/Pasted image 20240924220150.png",
