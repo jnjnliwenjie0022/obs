@@ -35,15 +35,16 @@ P 正比 nCV\*\*2f
 
 dynamic power = switch power + internal power
 
-|      | Switching Power              | Internal Power   | Leakage Power  |
-| ---- | ---------------------------- | ---------------- | -------------- |
-|      | 1/2 \* V\*\*2 * Cout \* Freq | V \*\* Qx * Freq | V \* I_leakage |
-| Freq |                              |                  |                |
-| Volt |                              |                  |                |
-|      |                              |                  |                |
-|      |                              |                  |                |
-|      |                              |                  |                |
-|      |                              |                  |                |
+|                     | Switching Power              | Internal Power           | Leakage Power  |
+| ------------------- | ---------------------------- | ------------------------ | -------------- |
+|                     | 1/2 \* V\*\*2 * Cout \* Freq | V \*\* Qx * Freq         | V \* I_leakage |
+| Object              | net                          | report: cell<br>lib: pin | cell           |
+| Freq                |                              |                          |                |
+| V                   |                              |                          |                |
+| Vth                 |                              |                          |                |
+| Input_Transition    |                              |                          |                |
+| Input_Pin_Condition |                              |                          |                |
+| Output_Capaciance   |                              |                          |                |
 
 Cout = input pin capacitation + wire load
 
