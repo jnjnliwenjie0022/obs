@@ -43,6 +43,8 @@ https://blog.csdn.net/i_chip_backend/article/details/118303553
 https://blog.csdn.net/qq_21842097/article/details/88420050?spm=1001.2014.3001.5502
 ## concept
 
+https://www.cnblogs.com/lelin/p/11412133.html
+
 library 中的internal_power 不是功率，而是熱量，單位是焦耳
 
 Internal Power >= Switch Power
@@ -71,7 +73,6 @@ Cout = Pin capacitation + wire load
 | Tr                                            | 正比               | 正比                       | 正比                        | N/A           |
 | V                                             | 正比               | 正比                       | 正比                        | 正比            |
 | Vth                                           | N/A              | N/A                      | N/A                       | 反比            |
-|                                               |                  |                          |                           |               |
 
 Tr(翻轉率): Toggle_Rate * Freq
 
