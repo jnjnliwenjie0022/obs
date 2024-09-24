@@ -19,8 +19,29 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "07fc3887e4c564d4",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "Pasted image 20240924221233.png"
+              }
+            }
+          },
+          {
+            "id": "0757434451d0ca03",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "de/ppa/include/Pasted image 20240924220253.png"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -73,7 +94,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "de/ppa/power.md"
+                "file": "Pasted image 20240924221233.png"
               }
             }
           }
@@ -124,7 +145,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "de/ppa/power.md",
+                "file": "Pasted image 20240924221233.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -141,7 +162,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "de/ppa/power.md",
+                "file": "Pasted image 20240924221233.png",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -165,11 +186,13 @@
       "obsidian-to-anki-plugin:Obsidian_to_Anki - Scan Vault": false
     }
   },
-  "active": "f90203d8afa8deed",
+  "active": "07fc3887e4c564d4",
   "lastOpenFiles": [
-    "Pasted image 20240924220253.png",
-    "de/ppa/ref/Domain-Specific Architecture AI for Future Tech.pdf",
     "de/ppa/power.md",
+    "Pasted image 20240924221249.png",
+    "Pasted image 20240924221233.png",
+    "de/ppa/include/Pasted image 20240924220253.png",
+    "de/ppa/ref/Domain-Specific Architecture AI for Future Tech.pdf",
     "de/ppa/include/Pasted image 20240924220150.png",
     "de/Pasted image 20240828160508.png",
     "de/Pasted image 20240606151606.png",
@@ -178,9 +201,6 @@
     "de/ppa/include/Pasted image 20240924154029.png",
     "de/ppa/include/Pasted image 20240621182018.png",
     "Pasted image 20240827105334.png.md",
-    "de/Pasted image 20240606125937.png",
-    "de/Pasted image 20240606160337.png",
-    "de/ppa/include/Pasted image 20240924164604.png",
     "de/ppa/ppa.md",
     "de/ppa/ref/lecture15.pdf",
     "de/ppa/ref/poster.pdf",

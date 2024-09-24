@@ -11,9 +11,11 @@ https://mlsysbook.ai/contents/hw_acceleration/hw_acceleration.html
 ![[Pasted image 20240826141554.png]]
 
 [[Domain-Specific Architecture AI for Future Tech.pdf#page=2&selection=2,0,2,36|Domain-Specific Architecture AI for Future Tech, page 2]]
+
+![[Pasted image 20240924220253.png]]
 # dennard_scaling_with_cpu
 
-P 正比 nCV\*\*2f
+P 正比 nCV\*\*2Freq
 1. n：電晶體數量
 2. C：每個電晶體的電容量
 3. V：電壓很難低於0.6，MTK在sleep mode大概可以是0.55
@@ -46,19 +48,25 @@ https://hackmd.io/@derek8955/B1ur7Ibbo
 
 https://www.cnblogs.com/lelin/p/11412133.html
 
-library 中的internal_power 不是功率，而是熱量，單位是焦耳
+library 中的internal_power 不是功率，而是熱量，單位是焦耳，因此有負數
 
-Internal Power >= Switch Power
+先進製成 Internal Power >= Switch Power (P=1/2CV \*\* 2Freq)
+
+P.S: Internal Power只能查表，先進製成無法滿足 P=1/2CV \*\* 2Freq
+
+先進製成 Leakage Power無法忽視
+
+P.S: Leakage Power只能查表
 
 ![[Pasted image 20240924140655.png]]
 
 dynamic power = switch power + internal power
 
-|        | Switching Power            | Internal Power                                                                       | Leakage Power  |
-| ------ | -------------------------- | ------------------------------------------------------------------------------------ | -------------- |
-|        | 1/2 \* V\*\*2 * Cout \* Tr | V \* Qx * Tr<br>F_LUT(Input_Transition_Time, Status Dependency, Output_Capacitation) | V \* I_leakage |
-| Report | Net                        | Cell                                                                                 | Cell           |
-| Target | Output Pin Power           | Short Power + Internal Switch Power                                                  | Leakage Power  |
+|        | Switching Power            | Internal Power                                                                       | Leakage Power                              |
+| ------ | -------------------------- | ------------------------------------------------------------------------------------ | ------------------------------------------ |
+|        | 1/2 \* V\*\*2 * Cout \* Tr | V \* Qx * Tr<br>F_LUT(Input_Transition_Time, Status Dependency, Output_Capacitation) | V \* I_leakage<br>F_LUT(Status Dependency) |
+| Report | Net                        | Cell                                                                                 | Cell                                       |
+| Target | Output Pin Power           | Short Power + Internal Switch Power                                                  | Leakage Power                              |
 SDPA: Status Dependency Path Dependency
 
 Cout = Pin capacitation + wire load
@@ -83,7 +91,9 @@ Tr(翻轉率): Toggle_Rate * Freq
 
 ## leakage_power
 
-1. 與pattern（Status Dependency）有關
+
+1. Sub-threshold Leakage Current(ISUB):當MOS處於關閉狀態時, MOS Drain跟Source之間的漏電流,ISUB主導靜態功率消耗
+2. 與pattern（Status Dependency）有關
 
 ![[Pasted image 20240924153311.png]]
 
@@ -114,3 +124,7 @@ output pin internal (short power)
 2. 優化 area, 將原有的 data 的通用邏輯整合挂到EN上
 3. 有機率劣化 leakage power
 
+![[Pasted image 20240924221233.png]]
+# power_gating
+
+![[Pasted image 20240924221249.png]]
