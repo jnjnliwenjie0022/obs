@@ -32,6 +32,12 @@ P 正比 nCV\*\*2f
 
 ![[Pasted image 20240827105334.png]]
 # power_analysis
+
+## ref
+https://blog.csdn.net/i_chip_backend/article/details/90347161
+https://blog.csdn.net/i_chip_backend/article/details/118963247
+
+## concept
 ![[Pasted image 20240924140655.png]]
 
 dynamic power = switch power + internal power
@@ -42,7 +48,7 @@ dynamic power = switch power + internal power
 | Report | Net                          | Cell                                | Cell           |
 | Target | Output Pin Power             | Short Power + Internal Switch Power | Leakage Power  |
 SDPA: Status Dependency Path Dependency
-Cout = input pin capacitation + wire load
+Cout = Pin capacitation + wire load
 
 |                                               | Switching Power  | Input Pin Internal Power | Output Pin Internal Power | Leakage Power |
 | --------------------------------------------- | ---------------- | ------------------------ | ------------------------- | ------------- |
@@ -51,15 +57,17 @@ Cout = input pin capacitation + wire load
 | Path Dependency (Input Value -> Output Value) | N/A              | Yes                      | Yes                       | N/A           |
 | Wire Load                                     | Yes              | N/A                      | Yes                       | N/A           |
 | Input_Transition_Time                         | N/A              | 正比                       | 正比                        | N/A           |
-| Output_Capaciance                             | 正比               | N/A                      | 反比                        | N/A           |
+| Output_Capacitation                           | 正比               | N/A                      | 反比                        | N/A           |
 | Freq                                          | 正比               | 正比                       | 正比                        | N/A           |
 | V                                             | 正比               | 正比                       | 正比                        | 正比            |
 | Vth                                           | N/A              | N/A                      | N/A                       | 反比            |
 
+## leakage_power
+![[Pasted image 20240924153311.png]]
 
+![[Pasted image 20240924153719.png]]
 
-
-
-# switch_power
+##
+## switch_power
 
 ![[Pasted image 20240924133224.png]]
