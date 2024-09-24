@@ -33,7 +33,20 @@ P 正比 nCV\*\*2f
 ![[Pasted image 20240827105334.png]]
 # power_analysis
 
-| Switching Power               | Internal Power   | Leakage Power  |
-| ----------------------------- | ---------------- | -------------- |
-| 1/2 \* V\*\*2 * C_out \* Freq | V \*\* Qx * Freq | V \* I_leakage |
+dynamic power = switch power + internal power
 
+|      | Switching Power              | Internal Power   | Leakage Power  |
+| ---- | ---------------------------- | ---------------- | -------------- |
+|      | 1/2 \* V\*\*2 * Cout \* Freq | V \*\* Qx * Freq | V \* I_leakage |
+| Freq |                              |                  |                |
+| Volt |                              |                  |                |
+|      |                              |                  |                |
+|      |                              |                  |                |
+|      |                              |                  |                |
+|      |                              |                  |                |
+
+Cout = input pin capacitation + wire load
+
+# switch_power
+
+![[Pasted image 20240924133224.png]]

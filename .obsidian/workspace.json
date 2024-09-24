@@ -19,8 +19,22 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "954843297fa80f54",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "de/ppa/power.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -166,10 +180,18 @@
       "command-palette:Open command palette": true
     }
   },
-  "active": "08e98b8390a28d5a",
+  "active": "954843297fa80f54",
   "lastOpenFiles": [
-    "de/ppa/ref/Domain-Specific Architecture AI for Future Tech.pdf",
+    "de/ppa/ppa.md",
+    "de/ppa/include/Pasted image 20240621182018.png",
+    "de/ppa/include/Pasted image 20240620171703.png",
+    "de/ppa/include/Pasted image 20240625161622.png",
+    "de/ppa/include/Pasted image 20240826141554.png",
+    "de/ppa/include/Pasted image 20240924133224.png",
+    "Pasted image 20240906170331.png",
+    "Pasted image 20240828160508.png",
     "de/ppa/power.md",
+    "de/ppa/ref/Domain-Specific Architecture AI for Future Tech.pdf",
     "de/Pasted image 20240606125055.png",
     "de/Pasted image 20240606125937.png",
     "de/fpu/f16mac.md",
@@ -178,8 +200,6 @@
     "de/arithmetic/booth.md",
     "de/fifo/fifo.md",
     "de/ram/ram.md",
-    "de/ppa/ppa.md",
-    "Pasted image 20240906170331.png",
     "de/ppa/ref/Accelergy.pdf",
     "de/ppa/ref/lecture15.pdf",
     "de/ppa/ref/iccad.2011.6105405.pdf",
@@ -187,18 +207,12 @@
     "de/ppa/ref/Dennard-jssc1974.pdf",
     "de/ppa/ref/2019KS_Yellin-Saving_The_Future_of_Moores_Law.pdf",
     "maketing/marketing.md",
-    "Pasted image 20240828160508.png",
     "de/amba_axi/ddr_latency.md",
     "de/ppa/include/Pasted image 20240611163551.png",
     "de/ppa/spyglass.md",
-    "maketing/include/Pasted image 20240828111852.png",
-    "Pasted image 20240719160809.png",
-    "Pasted image 20240826163637.png",
-    "Pasted image 20240827105334.png",
     "maketing/include",
     "maketing/ref/~$AI Market Analysis_20240524.pptx",
     "de/ppa/ref/Dennard-jssc1974.pdf.crdownload",
-    "de/ppa/include/Pasted image 20240826141554.png",
     "workflow/ganttproject.md",
     "workflow/bypass_paywall.md",
     "workflow/tnv.md",
