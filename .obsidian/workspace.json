@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "de/ppa/ppa.md",
+                "file": "de/ppa/power.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -73,12 +73,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "de/ppa/ppa.md"
+                "file": "de/ppa/power.md"
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       },
       {
         "id": "ce31482b6afb7740",
@@ -124,7 +124,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "de/ppa/ppa.md",
+                "file": "de/ppa/power.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -141,7 +141,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "de/ppa/ppa.md",
+                "file": "de/ppa/power.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -166,22 +166,24 @@
       "command-palette:Open command palette": true
     }
   },
-  "active": "08e98b8390a28d5a",
+  "active": "187192ed1f4570c8",
   "lastOpenFiles": [
-    "de/ppa/power.md",
-    "de/ppa/ppa.md",
     "de/ppa/ref/slides.pdf",
-    "Pasted image 20240906170331.png",
-    "Pasted image 20240828160508.png",
-    "Pasted image 20240719160809.png",
+    "de/ppa/ref/PVT (Process, Voltage, Temperature) - VLSI- Physical Design For Freshers.pdf",
+    "date/restaurant.md",
+    "de/Pasted image 20240828160508.png",
+    "de/Pasted image 20240606151606.png",
+    "de/Pasted image 20240606160337.png",
+    "de/ppa/ppa.md",
+    "de/ppa/include/Pasted image 20240719160809.png",
+    "de/ppa/include/Pasted image 20240906170331.png",
+    "de/ppa/power.md",
     "Pasted image 20240827105334.png",
     "Pasted image 20240826163637.png",
     "de/ppa/include/Pasted image 20240924164604.png",
     "de/ppa/include/Pasted image 20240924164530.png",
     "de/ppa/include/Pasted image 20240924153311.png",
     "de/ppa/ref/浅论芯片低功耗的设计实现（上）_动态功耗计算公式-CSDN博客.pdf",
-    "de/ppa/include/Pasted image 20240924140655.png",
-    "de/ppa/include/Pasted image 20240924133224.png",
     "Pasted image 20240924162400.png.md",
     "de/ppa/ref/Domain-Specific Architecture AI for Future Tech.pdf",
     "de/fpu/f16mac.md",
@@ -207,7 +209,6 @@
     "workflow/nvim.md",
     "workflow/github.md",
     "workflow/git.md",
-    "date/restaurant.md",
     "de/amba_axi/axi.md",
     "workflow/synopsys.md",
     "de/fctrl/fctrl.md",
