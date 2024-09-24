@@ -101,3 +101,9 @@ output pin internal (short power)
 
 ## dc_power_analysis
 ![[Pasted image 20240924155659.png]]
+
+# clock_gating
+
+1. 優化 dynamic power
+2. 優化 area, 將原有的 data 的通用邏輯整合挂到EN上
+3. 有機率劣化 leakage power
