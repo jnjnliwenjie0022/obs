@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "de/ppa/ppa.md",
+                "file": "de/ppa/power_analysis.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -73,7 +73,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "de/ppa/ppa.md"
+                "file": "de/ppa/power_analysis.md"
               }
             }
           }
@@ -124,7 +124,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "de/ppa/ppa.md",
+                "file": "de/ppa/power_analysis.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -141,7 +141,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "de/ppa/ppa.md",
+                "file": "de/ppa/power_analysis.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -168,14 +168,22 @@
   },
   "active": "08e98b8390a28d5a",
   "lastOpenFiles": [
-    "Pasted image 20240906170331.png",
+    "de/ppa/ref/Domain-Specific Architecture AI for Future Tech.pdf",
     "de/ppa/power_analysis.md",
+    "de/Pasted image 20240606125055.png",
+    "de/Pasted image 20240606125937.png",
+    "de/fpu/f16mac.md",
+    "de/fpu/f16dsu.md",
+    "de/arithmetic/divider.md",
+    "de/arithmetic/booth.md",
+    "de/fifo/fifo.md",
+    "de/ram/ram.md",
     "de/ppa/ppa.md",
+    "Pasted image 20240906170331.png",
     "de/ppa/ref/Accelergy.pdf",
     "de/ppa/ref/lecture15.pdf",
     "de/ppa/ref/iccad.2011.6105405.pdf",
     "de/ppa/ref/iccad.2011.6105405.pdf.crdownload",
-    "de/ppa/ref/Domain-Specific Architecture AI for Future Tech.pdf",
     "de/ppa/ref/Dennard-jssc1974.pdf",
     "de/ppa/ref/2019KS_Yellin-Saving_The_Future_of_Moores_Law.pdf",
     "maketing/marketing.md",
@@ -192,8 +200,6 @@
     "de/ppa/ref/Dennard-jssc1974.pdf.crdownload",
     "de/ppa/include/Pasted image 20240826141554.png",
     "workflow/ganttproject.md",
-    "de/Pasted image 20240606125758.png",
-    "de/Pasted image 20240606125055.png",
     "workflow/bypass_paywall.md",
     "workflow/tnv.md",
     "workflow/tmux.md",
@@ -203,17 +209,10 @@
     "date/restaurant.md",
     "de/amba_axi/axi.md",
     "workflow/synopsys.md",
-    "de/ram/ram.md",
     "de/fctrl/fctrl.md",
-    "de/v/include/Pasted image 20240307155712.png",
     "de/v/verilog.md",
     "de/_unorganized/cosim.md",
-    "de/fifo/fifo.md",
     "language/pdf_downlaod.md",
-    "conflict-files-obsidian-git.md",
-    "de/note.md",
-    "house/house.md",
-    "dv/sv/coding_guideline.md",
     "dv/uvm/include/uvm_factory1.canvas",
     "uvm_factory.canvas",
     "dv/uvm/uvm_factory.canvas",
