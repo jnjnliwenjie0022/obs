@@ -11,7 +11,6 @@ https://mlsysbook.ai/contents/hw_acceleration/hw_acceleration.html
 ![[Pasted image 20240826141554.png]]
 
 [[Domain-Specific Architecture AI for Future Tech.pdf#page=2&selection=2,0,2,36|Domain-Specific Architecture AI for Future Tech, page 2]]
-![[Pasted image 20240826163637.png]]
 # dennard_scaling_with_cpu
 
 P 正比 nCV\*\*2f
@@ -30,7 +29,7 @@ P 正比 nCV\*\*2f
 | F             | 1                         | 1                              |
 | P             | 1                         | 1 = n * 0.7 which n ~= 1.4     |
 
-![[Pasted image 20240827105334.png]]
+![[Pasted image 20240924220150.png]]
 # power_analysis
 
 ## ref
@@ -41,6 +40,8 @@ https://blog.csdn.net/i_chip_backend/article/details/118963247
 https://blog.csdn.net/i_chip_backend/article/details/118303553
 
 https://blog.csdn.net/qq_21842097/article/details/88420050?spm=1001.2014.3001.5502
+
+https://hackmd.io/@derek8955/B1ur7Ibbo
 ## concept
 
 https://www.cnblogs.com/lelin/p/11412133.html
