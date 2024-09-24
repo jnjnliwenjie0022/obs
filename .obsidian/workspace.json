@@ -19,8 +19,22 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "2b0687fd3287032c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "conflict-files-obsidian-git.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -73,7 +87,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "de/fpu/f16mac.md"
+                "file": "conflict-files-obsidian-git.md"
               }
             }
           }
@@ -124,7 +138,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "de/fpu/f16mac.md",
+                "file": "conflict-files-obsidian-git.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -141,7 +155,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "de/fpu/f16mac.md",
+                "file": "conflict-files-obsidian-git.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -165,40 +179,42 @@
       "obsidian-to-anki-plugin:Obsidian_to_Anki - Scan Vault": false
     }
   },
-  "active": "f90203d8afa8deed",
+  "active": "2b0687fd3287032c",
   "lastOpenFiles": [
-    "de/fpu/f16macksa.md",
     "de/fpu/f16mac.md",
-    "language/pdf_downlaod.md",
-    "language/~$24-08-16.docx",
-    "language/~WRL4038.tmp",
-    "language/~WRD4034.tmp",
-    "language/~WRD4023.tmp",
-    "language/~WRL0953.tmp",
-    "language/~WRD0005.tmp",
-    "language/~WRL0003.tmp",
-    "language/~WRD0002.tmp",
     "conflict-files-obsidian-git.md",
+    "maketing/marketing.md",
+    "maketing/include/Pasted image 20240828111852.png",
+    "maketing/include",
+    "de/ppa/ref/slides.pdf",
+    "de/ppa/ref/poster.pdf",
+    "de/ppa/ref/lecture15.pdf",
+    "de/ppa/ref/iccad.2011.6105405.pdf",
+    "de/ppa/ref/_archive/background.part2.pdf",
+    "de/ppa/ref/_archive/2205.05826v3.pdf",
+    "de/ppa/ref/_archive",
+    "de/ppa/ref/Domain-Specific Architecture AI for Future Tech.pdf",
+    "de/ppa/ref/Dennard-jssc1974.pdf",
+    "de/ppa/power.md",
+    "de/ppa/include/Pasted image 20240924164604.png",
+    "de/ppa/include/Pasted image 20240924164530.png",
+    "de/ppa/include/Pasted image 20240924160623.png",
+    "de/ppa/include/Pasted image 20240924155659.png",
+    "de/ppa/include/Pasted image 20240924154212.png",
+    "de/ppa/include/Pasted image 20240924154029.png",
+    "de/ppa/include/Pasted image 20240924153719.png",
+    "de/ppa/include/Pasted image 20240924153311.png",
+    "de/ppa/include/Pasted image 20240924140655.png",
+    "de/fpu/f16macksa.md",
+    "language/pdf_downlaod.md",
     "workflow/ganttproject.md",
     "workflow/bypass_paywall.md",
-    "language/2024-08-16.docx",
     "date/restaurant.md",
-    "date",
     "house/house.md",
-    "Pasted image 20240719160809.png",
     "language/2024-06-03.md",
-    "de/ppa/include/Pasted image 20240625162050.png",
-    "de/ppa/include/Pasted image 20240625161622.png",
-    "de/ppa/include/Pasted image 20240621184044.png",
-    "de/ppa/include/Pasted image 20240621182018.png",
-    "de/ppa/include/Pasted image 20240620171703.png",
-    "de/amba_axi/include/Pasted image 20240710152849.png",
     "de/amba_axi/ddr_latency.md",
     "de/ppa/spyglass.md",
     "de/ppa/ppa.md",
-    "de/ppa/include/Pasted image 20240611164733.png",
-    "de/ppa/include/Pasted image 20240611163742.png",
-    "de/ppa/include/Pasted image 20240611163551.png",
     "de/note.md",
     "de/format.md",
     "language/2024-05-31.md",
@@ -211,8 +227,6 @@
     "de/fpu/f16dsu.md",
     "de/rambrg/rambrg.md",
     "de/ram/ram.md",
-    "de/fctrl/fctrl.md",
-    "ToDoList.md",
     "uvm_factory.canvas",
     "dv/uvm/include/uvm_factory1.canvas",
     "dv/uvm/uvm_factory.canvas",

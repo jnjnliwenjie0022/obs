@@ -44,9 +44,6 @@ set clock_uncertainty 0.0
 set apr_margin [expr $bus_clk_period * 0.3]
 set synthesis_margin [expr $clock_uncertainty + $apr_margin]
 set bus_io_delay  [expr {($bus_clk_period - $synthesis_margin) * $bus_ratio}]
-
-set 
-
 ```
 
 place and route and CTS 後
@@ -95,4 +92,5 @@ wc frequency 分析85度/multivt/SS/0.75\*0.9 for 7nm
 
 # scan_factor
 In early stages: 1.15 ~ 1.25
+![[Pasted image 20240906170331.png]]
 ![[Pasted image 20240719160809.png]]
