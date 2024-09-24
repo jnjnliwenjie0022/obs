@@ -49,13 +49,13 @@ Cout = input pin capacitation + wire load
 | Target                                        | Output Pin Power | Internal Switch Power    | Short Power               | Leakage Power |
 | Status Dependency (Input Value)               | N/A              | Yes                      | Yes                       | Yes           |
 | Path Dependency (Input Value -> Output Value) | N/A              | Yes                      | Yes                       | N/A           |
-| Input_Transition_Time                         | N/A              | 正比                       | 正比                        |               |
-| Output_Capaciance                             | N/A              | N/A                      |                           |               |
-| Freq                                          |                  |                          |                           |               |
-| V                                             |                  |                          |                           |               |
-| Vth                                           |                  |                          |                           |               |
-|                                               |                  |                          |                           |               |
-|                                               |                  |                          |                           |               |
+| Wire Load                                     | Yes              | N/A                      | Yes                       | N/A           |
+| Input_Transition_Time                         | N/A              | 正比                       | 正比                        | N/A           |
+| Output_Capaciance                             | 正比               | N/A                      | 反比                        | N/A           |
+| Freq                                          | 正比               | 正比                       | 正比                        | N/A           |
+| V                                             | 正比               | 正比                       | 正比                        | 正比            |
+| Vth                                           | N/A              | N/A                      | N/A                       | 反比            |
+
 
 
 
