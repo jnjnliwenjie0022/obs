@@ -53,14 +53,16 @@ Internal Power >= Switch Power
 
 dynamic power = switch power + internal power
 
-|        | Switching Power            | Internal Power                      | Leakage Power  |
-| ------ | -------------------------- | ----------------------------------- | -------------- |
-|        | 1/2 \* V\*\*2 * Cout \* Tr | V \*\* Qx * Tr                      | V \* I_leakage |
-| Report | Net                        | Cell                                | Cell           |
-| Target | Output Pin Power           | Short Power + Internal Switch Power | Leakage Power  |
+|        | Switching Power            | Internal Power                                                                       | Leakage Power  |
+| ------ | -------------------------- | ------------------------------------------------------------------------------------ | -------------- |
+|        | 1/2 \* V\*\*2 * Cout \* Tr | V \* Qx * Tr<br>F_LUT(Input_Transition_Time, Status Dependency, Output_Capacitation) | V \* I_leakage |
+| Report | Net                        | Cell                                                                                 | Cell           |
+| Target | Output Pin Power           | Short Power + Internal Switch Power                                                  | Leakage Power  |
 SDPA: Status Dependency Path Dependency
 
 Cout = Pin capacitation + wire load
+
+Qx = 瞬間短路時間 \*  瞬間短路電流
 
 |                                               | Switching Power  | Input Pin Internal Power | Output Pin Internal Power | Leakage Power |
 | --------------------------------------------- | ---------------- | ------------------------ | ------------------------- | ------------- |
