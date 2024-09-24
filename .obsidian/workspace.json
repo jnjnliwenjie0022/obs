@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "de/ppa/power.md",
-                "mode": "source",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -168,8 +168,9 @@
   },
   "active": "08e98b8390a28d5a",
   "lastOpenFiles": [
-    "de/ppa/include/Pasted image 20240924154212.png",
+    "de/ppa/include/Pasted image 20240924155659.png",
     "de/ppa/power.md",
+    "de/ppa/include/Pasted image 20240924154212.png",
     "de/ppa/ppa.md",
     "de/ppa/include/Pasted image 20240924154029.png",
     "de/ppa/include/Pasted image 20240924153719.png",
@@ -179,7 +180,6 @@
     "de/ppa/include/Pasted image 20240621182018.png",
     "de/ppa/include/Pasted image 20240620171703.png",
     "de/ppa/include/Pasted image 20240625161622.png",
-    "de/ppa/include/Pasted image 20240826141554.png",
     "de/ppa/ref/Domain-Specific Architecture AI for Future Tech.pdf",
     "de/fpu/f16mac.md",
     "de/fpu/f16dsu.md",

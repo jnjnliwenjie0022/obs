@@ -38,7 +38,7 @@ https://blog.csdn.net/i_chip_backend/article/details/90347161
 
 https://blog.csdn.net/i_chip_backend/article/details/118963247
 
-
+https://blog.csdn.net/i_chip_backend/article/details/118303553
 ## concept
 ![[Pasted image 20240924140655.png]]
 
@@ -66,6 +66,9 @@ Cout = Pin capacitation + wire load
 | Vth                                           | N/A              | N/A                      | N/A                       | 反比            |
 
 ## leakage_power
+
+1. 與pattern（Status Dependency）有關
+
 ![[Pasted image 20240924153311.png]]
 
 ![[Pasted image 20240924153719.png]]
@@ -82,3 +85,6 @@ output pin internal (short power)
 ## switch_power
 
 ![[Pasted image 20240924133224.png]]
+
+## dc_power_analysis
+![[Pasted image 20240924155659.png]]
