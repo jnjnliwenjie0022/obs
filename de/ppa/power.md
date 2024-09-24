@@ -35,16 +35,18 @@ P 正比 nCV\*\*2f
 
 dynamic power = switch power + internal power
 
-|                     | Switching Power              | Internal Power           | Leakage Power  |
-| ------------------- | ---------------------------- | ------------------------ | -------------- |
-|                     | 1/2 \* V\*\*2 * Cout \* Freq | V \*\* Qx * Freq         | V \* I_leakage |
-| Object              | net                          | report: cell<br>lib: pin | cell           |
-| Freq                |                              |                          |                |
-| V                   |                              |                          |                |
-| Vth                 |                              |                          |                |
-| Input_Transition    |                              |                          |                |
-| Input_Pin_Condition |                              |                          |                |
-| Output_Capaciance   |                              |                          |                |
+|                     | Switching Power              | Internal Power                             | Leakage Power             |
+| ------------------- | ---------------------------- | ------------------------------------------ | ------------------------- |
+|                     | 1/2 \* V\*\*2 * Cout \* Freq | V \*\* Qx * Freq                           | V \* I_leakage            |
+| Object              | report: net<br>lib: pin      | report: cell<br>lib: pin -> internal_power | report: cell<br>lib: cell |
+|                     | pin                          | pin->internal_power                        |                           |
+|                     | pin的                         |                                            |                           |
+| Freq                |                              |                                            |                           |
+| V                   |                              |                                            |                           |
+| Vth                 |                              |                                            |                           |
+| Input_Transition    |                              |                                            |                           |
+| Input_Pin_Condition |                              |                                            |                           |
+| Output_Capaciance   |                              |                                            |                           |
 
 Cout = input pin capacitation + wire load
 
