@@ -32,22 +32,24 @@ P 正比 nCV\*\*2f
 
 ![[Pasted image 20240827105334.png]]
 # power_analysis
-
-![[Pasted image 20240924140446.png]]
+![[Pasted image 20240924140655.png]]
 
 dynamic power = switch power + internal power
+SDPA: Status Dependency Path Dependency
 
-|                     | Switching Power              | Internal Power   | Leakage Power  |
-| ------------------- | ---------------------------- | ---------------- | -------------- |
-|                     | 1/2 \* V\*\*2 * Cout \* Freq | V \*\* Qx * Freq | V \* I_leakage |
-| Report              | Net                          | Cell             | Cell           |
-| Target              | Output Power                 | Short Power      | Leakage Power  |
-| Freq                |                              |                  |                |
-| V                   |                              |                  |                |
-| Vth                 |                              |                  |                |
-| Input_Transition    |                              |                  |                |
-| Input_Pin_Condition |                              |                  |                |
-| Output_Capaciance   |                              |                  |                |
+
+|                       | Switching Power              | Internal Power   | Leakage Power  |
+| --------------------- | ---------------------------- | ---------------- | -------------- |
+|                       | 1/2 \* V\*\*2 * Cout \* Freq | V \*\* Qx * Freq | V \* I_leakage |
+| Report                | Net                          | Cell             | Cell           |
+| Target                | Output Power                 | Short Power      | Leakage Power  |
+| SDPD                  | N/A                          |                  |                |
+| Freq                  |                              |                  |                |
+| V                     |                              |                  |                |
+| Vth                   |                              |                  |                |
+| Input_Transition_Time |                              |                  |                |
+| Input_Pin_Condition   |                              |                  |                |
+| Output_Capaciance     |                              |                  |                |
 
 Cout = input pin capacitation + wire load
 
