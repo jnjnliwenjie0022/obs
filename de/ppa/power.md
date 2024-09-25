@@ -139,3 +139,16 @@ output pin internal (short power)
 # power_gating
 
 ![[Pasted image 20240924221249.png]]
+
+# architecture_level_power_evaluation
+
+1. Logic power 與 pattern 有絕對的關係(22%)
+2. Memory power 與 pattern 的關係比較無關誤差(3%)
+
+60%Data為0
+
+![[Pasted image 20240925185456.png]]
+
+0% Data為0
+
+![[Pasted image 20240925185041.png]]

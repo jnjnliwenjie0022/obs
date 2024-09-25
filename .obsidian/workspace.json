@@ -91,7 +91,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       },
       {
         "id": "ce31482b6afb7740",
@@ -179,8 +179,10 @@
       "command-palette:Open command palette": true
     }
   },
-  "active": "08e98b8390a28d5a",
+  "active": "187192ed1f4570c8",
   "lastOpenFiles": [
+    "Pasted image 20240925185456.png",
+    "Pasted image 20240925185041.png",
     "de/ppa/area.md",
     "de/ppa/performance.md",
     "de/ppa/include/Pasted image 20240625161622.png",
@@ -192,7 +194,6 @@
     "de/ppa/include/Pasted image 20240924153719.png",
     "de/ppa/include/Pasted image 20240924154029.png",
     "de/ppa/include/Pasted image 20240924154212.png",
-    "de/ppa/include/Pasted image 20240924155659.png",
     "de/ppa/power.md",
     "de/ppa/spyglass.md",
     "de/ppa/ref/Domain-Specific Architecture AI for Future Tech.pdf",
