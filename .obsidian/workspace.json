@@ -26,8 +26,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "de/ppa/power.md",
-                "mode": "preview",
+                "file": "de/ppa/area.md",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
@@ -87,7 +87,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "de/ppa/power.md"
+                "file": "de/ppa/area.md"
               }
             }
           }
@@ -138,7 +138,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "de/ppa/power.md",
+                "file": "de/ppa/area.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -155,7 +155,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "de/ppa/power.md",
+                "file": "de/ppa/area.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -182,9 +182,9 @@
   },
   "active": "9f7e6a6060b912fb",
   "lastOpenFiles": [
-    "de/ppa/area.md",
     "de/ppa/performance.md",
     "de/ppa/power.md",
+    "de/ppa/area.md",
     "de/ppa/include/Pasted image 20240925143438.png",
     "de/ppa/spyglass.md",
     "de/ppa/include/Pasted image 20240925115502.png",

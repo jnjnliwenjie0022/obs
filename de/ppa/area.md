@@ -3,14 +3,14 @@
 ## from_cf
 
 SRAM
-MBIST_Scaling: 10%
-Core_Urate: 75%
-Total Area: primitive \* MBIST_Scaling / Core_Urate
+1. MBIST_Scaling: 10%
+2. Core_Urate: 75%
+3. Total Area: primitive \* MBIST_Scaling / Core_Urate
 
 Cell
-Cell_Scaling: 15%~25%
-Core_Urate: 65%~70%
-Total Area: primitive \* Cell_Scaling / Core_Urate
+1. Cell_Scaling: 15%~25%
+2. Core_Urate: 65%~70%
+3. Total Area: primitive \* Cell_Scaling / Core_Urate
 ## from_andes
 
 SRAM
