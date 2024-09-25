@@ -27,7 +27,7 @@
               "type": "markdown",
               "state": {
                 "file": "de/ppa/power.md",
-                "mode": "source",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -182,10 +182,11 @@
   },
   "active": "9f7e6a6060b912fb",
   "lastOpenFiles": [
+    "de/ppa/include/Pasted image 20240925143438.png",
+    "de/ppa/power.md",
     "de/ppa/area.md",
     "de/ppa/performance.md",
     "de/ppa/spyglass.md",
-    "de/ppa/power.md",
     "de/ppa/include/Pasted image 20240925115502.png",
     "de/ppa/include/Pasted image 20240925115734.png",
     "de/ppa/ref/Domain-Specific Architecture AI for Future Tech.pdf",
@@ -199,7 +200,6 @@
     "de/Pasted image 20240828160508.png",
     "de/Pasted image 20240606151606.png",
     "de/Pasted image 20240606160337.png",
-    "de/ppa/include/Pasted image 20240719160809.png",
     "de/ppa/ref/浅论芯片低功耗的设计实现（上）_动态功耗计算公式-CSDN博客.pdf",
     "Pasted image 20240924162400.png.md",
     "de/fpu/f16mac.md",
@@ -227,7 +227,6 @@
     "workflow/synopsys.md",
     "de/fctrl/fctrl.md",
     "de/v/verilog.md",
-    "de/_unorganized/cosim.md",
     "dv/uvm/include/uvm_factory1.canvas",
     "uvm_factory.canvas",
     "dv/uvm/uvm_factory.canvas",

@@ -106,7 +106,11 @@ Static Power在65nm之後占比大幅度上升
 W/area 越來越高,且Leakage Power在65nm之後占比大幅度上升
 
 ![[Pasted image 20240925115734.png]]
-![[Pasted image 20240924164604.png]]
+
+實際看TSMC,除了5nm例外意外其他都符合預期
+
+![[Pasted image 20240925143438.png]]
+
 ## internal_power
 
 input pin internal power (internal switch power)
