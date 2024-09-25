@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "de/ppa/power.md",
-                "mode": "preview",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
@@ -168,6 +168,8 @@
   },
   "active": "08e98b8390a28d5a",
   "lastOpenFiles": [
+    "Pasted image 20240925115734.png",
+    "Pasted image 20240925115502.png",
     "de/ppa/ref/Domain-Specific Architecture AI for Future Tech.pdf",
     "de/ppa/power.md",
     "de/ppa/include/Pasted image 20240924221249.png",
@@ -183,7 +185,6 @@
     "de/ppa/ppa.md",
     "de/ppa/include/Pasted image 20240719160809.png",
     "de/ppa/include/Pasted image 20240906170331.png",
-    "Pasted image 20240827105334.png",
     "de/ppa/ref/浅论芯片低功耗的设计实现（上）_动态功耗计算公式-CSDN博客.pdf",
     "Pasted image 20240924162400.png.md",
     "de/fpu/f16mac.md",
