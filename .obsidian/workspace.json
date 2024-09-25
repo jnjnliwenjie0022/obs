@@ -11,9 +11,12 @@
             "id": "08e98b8390a28d5a",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "de/ppa/ref/Domain-Specific Architecture AI for Future Tech.pdf"
+                "file": "de/ppa/power.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
               }
             }
           }
@@ -70,7 +73,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "de/ppa/ref/Domain-Specific Architecture AI for Future Tech.pdf"
+                "file": "de/ppa/power.md"
               }
             }
           }
@@ -121,7 +124,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "de/ppa/ref/Domain-Specific Architecture AI for Future Tech.pdf",
+                "file": "de/ppa/power.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -138,7 +141,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "de/ppa/ref/Domain-Specific Architecture AI for Future Tech.pdf",
+                "file": "de/ppa/power.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -165,6 +168,7 @@
   },
   "active": "08e98b8390a28d5a",
   "lastOpenFiles": [
+    "de/ppa/ref/Domain-Specific Architecture AI for Future Tech.pdf",
     "de/ppa/power.md",
     "de/ppa/include/Pasted image 20240924221249.png",
     "de/ppa/include/Pasted image 20240924221233.png",
@@ -182,7 +186,6 @@
     "Pasted image 20240827105334.png",
     "de/ppa/ref/浅论芯片低功耗的设计实现（上）_动态功耗计算公式-CSDN博客.pdf",
     "Pasted image 20240924162400.png.md",
-    "de/ppa/ref/Domain-Specific Architecture AI for Future Tech.pdf",
     "de/fpu/f16mac.md",
     "de/fpu/f16dsu.md",
     "de/arithmetic/divider.md",
