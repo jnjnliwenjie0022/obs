@@ -13,20 +13,20 @@ Cell
 3. Total Area: primitive \* Cell_Scaling / Core_Urate
 ## from_andes
 
-![[2020240625161622.png]]
+![[Pasted image 20240625161622.png]]
 
 SRAM
 1. MBIST_Scaling: 10%
 2. Core_Urate: 75%
-3. Total Area: primitive \* MBIST_Scaling / Core_Urate
+3. Total Area: primitive \* MBIST_Scaling / core_urate
 
-Component
-1. Component_Scaling:
+Logic
+1. zwl_comb_scaling: 1.21
 2. Core_Urate: 65%
-3. Total Area: primitive \* Cell_Scaling / Core_Urate
+3. Total Area: primitive_comb \* zwl_comb_scaling / core_urate
 
 Register
-1. Register_Scaling:
-2. Scan_Scaling: (which depend on scan_factor in tech lib)
-3. Core_Urate: 65%
-4. Total Area:
+1. zwl_flop_scaling: 1.05
+2. scan_facor: (which depend on scan_factor in tech lib)
+3. core_urate: 65%
+4. Total Area: primitive_flop \* zwl_flop_scaling \* scan_facor / core_urate

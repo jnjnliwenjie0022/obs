@@ -33,8 +33,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -87,7 +86,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "de/ppa/area.md"
+                "file": "de/ppa/power.md"
               }
             }
           }
@@ -138,7 +137,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "de/ppa/area.md",
+                "file": "de/ppa/power.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -155,7 +154,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "de/ppa/area.md",
+                "file": "de/ppa/power.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -180,21 +179,20 @@
       "command-palette:Open command palette": true
     }
   },
-  "active": "9f7e6a6060b912fb",
+  "active": "08e98b8390a28d5a",
   "lastOpenFiles": [
-    "de/ppa/include/Pasted image 20240625161622.png",
-    "de/ppa/include/Pasted image 20240621184044.png",
-    "de/ppa/include/Pasted image 20240621182018.png",
-    "de/ppa/include/Pasted image 20240620171703.png",
-    "de/ppa/include/Pasted image 20240611164733.png",
-    "de/ppa/include/Pasted image 20240611163742.png",
-    "de/ppa/include/Pasted image 20240611163551.png",
-    "de/ppa/include/Pasted image 20240924154212.png",
-    "de/ppa/include/Pasted image 20240924154029.png",
-    "de/ppa/include/Pasted image 20240924140655.png",
-    "de/ppa/include/Pasted image 20240924153311.png",
     "de/ppa/area.md",
     "de/ppa/performance.md",
+    "de/ppa/include/Pasted image 20240625161622.png",
+    "de/ppa/include/Pasted image 20240625162050.png",
+    "de/ppa/include/Pasted image 20240719160809.png",
+    "de/ppa/include/Pasted image 20240826141554.png",
+    "de/ppa/include/Pasted image 20240924133224.png",
+    "de/ppa/include/Pasted image 20240924140655.png",
+    "de/ppa/include/Pasted image 20240924153719.png",
+    "de/ppa/include/Pasted image 20240924154029.png",
+    "de/ppa/include/Pasted image 20240924154212.png",
+    "de/ppa/include/Pasted image 20240924155659.png",
     "de/ppa/power.md",
     "de/ppa/spyglass.md",
     "de/ppa/ref/Domain-Specific Architecture AI for Future Tech.pdf",
