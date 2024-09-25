@@ -19,8 +19,22 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "9f7e6a6060b912fb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "de/ppa/area.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -73,12 +87,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "de/ppa/power.md"
+                "file": "de/ppa/area.md"
               }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       },
       {
         "id": "ce31482b6afb7740",
@@ -124,7 +138,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "de/ppa/power.md",
+                "file": "de/ppa/area.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -141,7 +155,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "de/ppa/power.md",
+                "file": "de/ppa/area.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -166,12 +180,15 @@
       "command-palette:Open command palette": true
     }
   },
-  "active": "08e98b8390a28d5a",
+  "active": "9f7e6a6060b912fb",
   "lastOpenFiles": [
-    "Pasted image 20240925115734.png",
-    "Pasted image 20240925115502.png",
-    "de/ppa/ref/Domain-Specific Architecture AI for Future Tech.pdf",
+    "de/ppa/performance.md",
+    "de/ppa/area.md",
+    "de/ppa/spyglass.md",
     "de/ppa/power.md",
+    "de/ppa/include/Pasted image 20240925115502.png",
+    "de/ppa/include/Pasted image 20240925115734.png",
+    "de/ppa/ref/Domain-Specific Architecture AI for Future Tech.pdf",
     "de/ppa/include/Pasted image 20240924221249.png",
     "de/ppa/include/Pasted image 20240924221233.png",
     "de/ppa/include/Pasted image 20240924220253.png",
@@ -182,9 +199,7 @@
     "de/Pasted image 20240828160508.png",
     "de/Pasted image 20240606151606.png",
     "de/Pasted image 20240606160337.png",
-    "de/ppa/ppa.md",
     "de/ppa/include/Pasted image 20240719160809.png",
-    "de/ppa/include/Pasted image 20240906170331.png",
     "de/ppa/ref/浅论芯片低功耗的设计实现（上）_动态功耗计算公式-CSDN博客.pdf",
     "Pasted image 20240924162400.png.md",
     "de/fpu/f16mac.md",
@@ -201,7 +216,6 @@
     "de/ppa/ref/2019KS_Yellin-Saving_The_Future_of_Moores_Law.pdf",
     "maketing/marketing.md",
     "de/amba_axi/ddr_latency.md",
-    "de/ppa/spyglass.md",
     "workflow/ganttproject.md",
     "workflow/bypass_paywall.md",
     "workflow/tnv.md",

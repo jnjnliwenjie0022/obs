@@ -1,13 +1,3 @@
-# evalution
-可以用execl先做profiler不用一直去systhesis和跑pattern
-
-SRAM
-MBIST: 10%
-Core Utilization: 75%
-
-Cell
-Scan: 15%~25%
-Core Utilization: 65%~70%
 # sdc
 
 ![[Pasted image 20240620171703.png]]

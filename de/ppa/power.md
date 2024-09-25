@@ -102,7 +102,9 @@ Tr(翻轉率): Toggle_Rate * Freq
 Static Power在65nm之後占比大幅度上升
 
 ![[Pasted image 20240925115502.png]]
-W/area 越來y
+
+W/area 越來越高,且Leakage Power在65nm之後占比大幅度上升
+
 ![[Pasted image 20240925115734.png]]
 ![[Pasted image 20240924164604.png]]
 ## internal_power
