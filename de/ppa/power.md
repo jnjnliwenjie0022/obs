@@ -142,9 +142,20 @@ output pin internal (short power)
 
 # architecture_level_power_evaluation
 
+## prerequisite
+
+Summary
 1. Logic power 與 pattern 有絕對的關係(有22%誤差)
+	1. random mult
+	2. reused mult
+	3. gated mult
 2. Memory power 與 pattern 的關係比較無關(有3%誤差)
 3. Memory power 必須獨立分析(有66%誤差)
+	1. random read
+	2. repeated read
+	3. random write
+	4. repeated write
+	5. constant data write
 
 60%Data為0
 
@@ -155,4 +166,5 @@ output pin internal (short power)
 ![[Pasted image 20240925185041.png]]
 
 [[slides.pdf#page=37&selection=2,0,4,29|slides, page 37]]
+
 ![[Pasted image 20240926110143.png]]
