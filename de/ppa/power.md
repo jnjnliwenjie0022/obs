@@ -142,8 +142,9 @@ output pin internal (short power)
 
 # architecture_level_power_evaluation
 
-1. Logic power 與 pattern 有絕對的關係(22%)
-2. Memory power 與 pattern 的關係比較無關誤差(3%)
+1. Logic power 與 pattern 有絕對的關係(有22%誤差)
+2. Memory power 與 pattern 的關係比較無關(有3%誤差)
+3. Memory power 必須獨立分析(有66%誤差)
 
 60%Data為0
 
@@ -152,3 +153,6 @@ output pin internal (short power)
 0% Data為0
 
 ![[Pasted image 20240925185041.png]]
+
+[[slides.pdf#page=37&selection=2,0,4,29|slides, page 37]]
+![[Pasted image 20240926110143.png]]
