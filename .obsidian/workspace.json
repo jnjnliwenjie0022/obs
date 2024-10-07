@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "de/ppa/power.md",
+                "file": "workflow/git/git.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "de/ppa/power.md"
+                "file": "workflow/git/git.md"
               }
             }
           }
@@ -137,7 +137,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "de/ppa/power.md",
+                "file": "workflow/git/git.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -154,7 +154,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "de/ppa/power.md",
+                "file": "workflow/git/git.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -179,10 +179,13 @@
       "command-palette:Open command palette": true
     }
   },
-  "active": "08e98b8390a28d5a",
+  "active": "19a60b1e44f4e87a",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
+    "workflow/git/ref/Untitled",
+    "workflow/git/ref",
+    "workflow/git",
     "de/ppa/power.md",
+    "conflict-files-obsidian-git.md",
     "de/ppa/ref/slides.pdf",
     "de/ppa/ref/2019KS_Yellin-Saving_The_Future_of_Moores_Law.pdf",
     "de/ppa/area.md",
@@ -212,8 +215,6 @@
     "de/ppa/ref/Accelergy.pdf",
     "de/ppa/ref/lecture15.pdf",
     "de/ppa/ref/iccad.2011.6105405.pdf",
-    "de/ppa/ref/iccad.2011.6105405.pdf.crdownload",
-    "de/ppa/ref/Dennard-jssc1974.pdf",
     "maketing/marketing.md",
     "de/amba_axi/ddr_latency.md",
     "workflow/ganttproject.md",
@@ -222,11 +223,10 @@
     "workflow/tmux.md",
     "workflow/nvim.md",
     "workflow/github.md",
-    "workflow/git.md",
+    "workflow/git/git.md",
     "de/amba_axi/axi.md",
     "workflow/synopsys.md",
     "de/fctrl/fctrl.md",
-    "de/v/verilog.md",
     "dv/uvm/include/uvm_factory1.canvas",
     "uvm_factory.canvas",
     "dv/uvm/uvm_factory.canvas",
