@@ -14,20 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "workflow/git/git.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "9f7e6a6060b912fb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "de/ppa/area.md",
-                "mode": "source",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -179,8 +166,18 @@
       "command-palette:Open command palette": true
     }
   },
-  "active": "19a60b1e44f4e87a",
+  "active": "08e98b8390a28d5a",
   "lastOpenFiles": [
+    "workflow/git/ref/Git branching model for AnDLA.mp4",
+    "de/ppa/area.md",
+    "workflow/git/git.md",
+    "workflow/git/include/Pasted image 20241007164708.png",
+    "workflow/git/include/Pasted image 20241007164338.png",
+    "workflow/git/include",
+    "workflow/git/include/Pasted image 20241007141827.png",
+    "workflow/git/ref/~$Git Branch for AnDLA project.pptx",
+    "workflow/git/ref/Git Tutorial.pptx",
+    "workflow/git/ref/Git Branch for AnDLA project.pptx",
     "workflow/git/ref/Untitled",
     "workflow/git/ref",
     "workflow/git",
@@ -188,7 +185,6 @@
     "conflict-files-obsidian-git.md",
     "de/ppa/ref/slides.pdf",
     "de/ppa/ref/2019KS_Yellin-Saving_The_Future_of_Moores_Law.pdf",
-    "de/ppa/area.md",
     "Pasted image 20240926110143.png",
     "de/ppa/performance.md",
     "Pasted image 20240925185456.png",
@@ -197,14 +193,8 @@
     "de/ppa/include/Pasted image 20240625162050.png",
     "de/ppa/include/Pasted image 20240719160809.png",
     "de/ppa/include/Pasted image 20240826141554.png",
-    "de/ppa/include/Pasted image 20240924133224.png",
-    "de/ppa/include/Pasted image 20240924140655.png",
-    "de/ppa/include/Pasted image 20240924153719.png",
     "de/ppa/spyglass.md",
-    "de/ppa/ref/Domain-Specific Architecture AI for Future Tech.pdf",
-    "de/ppa/ref/PVT (Process, Voltage, Temperature) - VLSI- Physical Design For Freshers.pdf",
     "date/restaurant.md",
-    "de/ppa/ref/浅论芯片低功耗的设计实现（上）_动态功耗计算公式-CSDN博客.pdf",
     "Pasted image 20240924162400.png.md",
     "de/fpu/f16mac.md",
     "de/fpu/f16dsu.md",
@@ -212,9 +202,6 @@
     "de/arithmetic/booth.md",
     "de/fifo/fifo.md",
     "de/ram/ram.md",
-    "de/ppa/ref/Accelergy.pdf",
-    "de/ppa/ref/lecture15.pdf",
-    "de/ppa/ref/iccad.2011.6105405.pdf",
     "maketing/marketing.md",
     "de/amba_axi/ddr_latency.md",
     "workflow/ganttproject.md",
@@ -223,7 +210,6 @@
     "workflow/tmux.md",
     "workflow/nvim.md",
     "workflow/github.md",
-    "workflow/git/git.md",
     "de/amba_axi/axi.md",
     "workflow/synopsys.md",
     "de/fctrl/fctrl.md",

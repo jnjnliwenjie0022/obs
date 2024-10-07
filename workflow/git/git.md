@@ -42,7 +42,6 @@ git revert (#version number)
 #create new branch
 git checkout -b new_branch
 
-
 #delete branch
 git branch -d new_branch
 git push origin --delete new_branch
@@ -50,17 +49,9 @@ git push origin --delete new_branch
 #rename branch
 git branch -m
 
-#show branch
-git branch -a
-
 #get branch from remote
 git branch -a
 git checkout remote_branch
-```
-# commit
-```
-# cancel commit
-git reset HEAD^
 ```
 # rebase
 ```
@@ -117,3 +108,47 @@ cd ../tmp
 cd -
 git workttree remove tmp
 ```
+
+# methodology
+
+```
+gitk --all &
+
+# commit
+## cancel commit
+git reset --mixed HEAD^
+
+git reset --soft  # Commit 拆出來的檔案丟回暫存區
+git reset --mixed # Commit 拆出來的檔案丟回工作目錄
+git reset --hard  # Commit 拆出來的檔案直接丟掉
+
+## go to another commit
+git reset --hard
+
+# branch
+## show branch
+git branch -a
+
+## switch to newbranch
+git checkout <switch_branch>
+	if (switch_branch is not in local)
+		git checkout -b <switch_branch>
+		git branch   -u <remote_name>/<switch_branch> # 追蹤switch_branch
+```
+## a_successful_git_branching_model
+
+![[Pasted image 20241007164708.png]]
+```
+# remote
+## show remote_name
+git remote -v
+
+## add local repository
+git remote add <remote_name> <local_path>
+
+# fetch
+## updata commit tree 
+git fetch <remote_name>
+```
+
+![[Pasted image 20241007164338.png]]
