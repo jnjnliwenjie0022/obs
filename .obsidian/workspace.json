@@ -21,6 +21,19 @@
             }
           },
           {
+            "id": "72928ea60a819ad2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "conflict-files-obsidian-git.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "9f7e6a6060b912fb",
             "type": "leaf",
             "state": {
@@ -33,7 +46,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -86,7 +100,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "de/ppa/power.md"
+                "file": "conflict-files-obsidian-git.md"
               }
             }
           }
@@ -137,7 +151,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "de/ppa/power.md",
+                "file": "conflict-files-obsidian-git.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -154,7 +168,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "de/ppa/power.md",
+                "file": "conflict-files-obsidian-git.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -179,10 +193,11 @@
       "command-palette:Open command palette": true
     }
   },
-  "active": "19a60b1e44f4e87a",
+  "active": "72928ea60a819ad2",
   "lastOpenFiles": [
-    "de/ppa/ref/slides.pdf",
     "de/ppa/power.md",
+    "conflict-files-obsidian-git.md",
+    "de/ppa/ref/slides.pdf",
     "de/ppa/ref/2019KS_Yellin-Saving_The_Future_of_Moores_Law.pdf",
     "de/ppa/area.md",
     "Pasted image 20240926110143.png",
