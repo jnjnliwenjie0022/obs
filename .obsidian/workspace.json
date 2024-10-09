@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "workflow/git/git.md",
-                "mode": "preview",
+                "file": "de/fifo/fifo.md",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
@@ -73,7 +73,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "workflow/git/git.md"
+                "file": "de/fifo/fifo.md"
               }
             }
           }
@@ -124,7 +124,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "workflow/git/git.md",
+                "file": "de/fifo/fifo.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -141,7 +141,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "workflow/git/git.md",
+                "file": "de/fifo/fifo.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -168,10 +168,10 @@
   },
   "active": "08e98b8390a28d5a",
   "lastOpenFiles": [
+    "workflow/git/git.md",
     "workflow/git/ref/~$Git Tutorial.pptx",
     "workflow/git/ref/Git branching model for AnDLA.mp4",
     "de/ppa/area.md",
-    "workflow/git/git.md",
     "workflow/git/include/Pasted image 20241007164708.png",
     "workflow/git/include/Pasted image 20241007164338.png",
     "workflow/git/include",
@@ -185,7 +185,6 @@
     "de/ppa/power.md",
     "conflict-files-obsidian-git.md",
     "de/ppa/ref/slides.pdf",
-    "de/ppa/ref/2019KS_Yellin-Saving_The_Future_of_Moores_Law.pdf",
     "Pasted image 20240926110143.png",
     "de/ppa/performance.md",
     "Pasted image 20240925185456.png",
