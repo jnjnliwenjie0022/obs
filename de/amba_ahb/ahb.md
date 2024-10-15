@@ -14,6 +14,7 @@ master:
 slave:
 1. hreadyout: bypass to master
 2. hready: only control "DATA_PHASE"
+3. address phase 
 bmc_us:
 bmc_ds:
 ## corner_case
