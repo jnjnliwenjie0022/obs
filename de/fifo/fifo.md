@@ -7,6 +7,7 @@ FIFO有兩種實作方式
     
 FIFO的empty和full如果想register out，用使用wr_ptr_nx和rd_ptr_nx去assign full_nx和empty_nx
 
+
 ![[fifo.svg]]
 
 # coding_style
