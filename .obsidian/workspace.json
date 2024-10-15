@@ -13,20 +13,10 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "de/ppa/evaluation.md",
-                "mode": "source",
+                "file": "de/amba_ahb/ahb.md",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
-              }
-            }
-          },
-          {
-            "id": "1aefad581c0471cd",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "de/amba_ahb/include/ahb_lite_wo_critical_path.svg"
               }
             }
           }
@@ -83,12 +73,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "de/ppa/evaluation.md"
+                "file": "de/amba_ahb/ahb.md"
               }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       },
       {
         "id": "ce31482b6afb7740",
@@ -134,7 +124,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "de/ppa/evaluation.md",
+                "file": "de/amba_ahb/ahb.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +141,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "de/ppa/evaluation.md",
+                "file": "de/amba_ahb/ahb.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -176,15 +166,20 @@
       "command-palette:Open command palette": true
     }
   },
-  "active": "08e98b8390a28d5a",
+  "active": "19a60b1e44f4e87a",
   "lastOpenFiles": [
+    "de/Pasted image 20240606125937.png",
+    "de/Pasted image 20240606151606.png",
+    "de/Pasted image 20240828160508.png",
+    "de/Pasted image 20240606160337.png",
+    "financial/隨機漫步理論分析.md",
+    "de/amba_ahb/ahb.md",
     "de/ppa/timing.md",
-    "de/ppa/evaluation.md",
     "de/amba_ahb/include/ahb_lite_wo_critical_path.svg",
+    "de/ppa/power.md",
+    "de/ppa/evaluation.md",
     "Pasted image 20241015174105.png.md",
     "Pasted image 20241015174105.png",
-    "de/ppa/power.md",
-    "de/amba_ahb/ahb.md",
     "de/amba_ahb/ref/IHI0033C_amba_ahb_protocol_spec.pdf",
     "de/fifo/fifo.md",
     "financial/backtesting/cycle_investment.py",
@@ -202,10 +197,6 @@
     "workflow/git/ref/Git Tutorial.pptx",
     "conflict-files-obsidian-git.md",
     "Pasted image 20240926110143.png",
-    "Pasted image 20240925185456.png",
-    "Pasted image 20240925185041.png",
-    "de/ppa/include/Pasted image 20240625161622.png",
-    "de/ppa/include/Pasted image 20240625162050.png",
     "de/ppa/spyglass.md",
     "date/restaurant.md",
     "Pasted image 20240924162400.png.md",
@@ -222,7 +213,6 @@
     "workflow/tmux.md",
     "workflow/nvim.md",
     "workflow/github.md",
-    "de/amba_axi/axi.md",
     "dv/uvm/include/uvm_factory1.canvas",
     "uvm_factory.canvas",
     "dv/uvm/uvm_factory.canvas",
