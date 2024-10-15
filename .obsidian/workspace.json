@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "de/ppa/area_frequence.md",
+                "file": "de/ppa/evaluation.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -83,7 +83,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "de/ppa/area_frequence.md"
+                "file": "de/ppa/evaluation.md"
               }
             }
           }
@@ -134,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "de/ppa/area_frequence.md",
+                "file": "de/ppa/evaluation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "de/ppa/area_frequence.md",
+                "file": "de/ppa/evaluation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -178,13 +178,14 @@
   },
   "active": "08e98b8390a28d5a",
   "lastOpenFiles": [
+    "de/ppa/timing.md",
+    "de/ppa/evaluation.md",
+    "de/amba_ahb/include/ahb_lite_wo_critical_path.svg",
+    "Pasted image 20241015174105.png.md",
     "Pasted image 20241015174105.png",
-    "de/ppa/performance.md",
-    "de/ppa/area_frequence.md",
     "de/ppa/power.md",
     "de/amba_ahb/ahb.md",
     "de/amba_ahb/ref/IHI0033C_amba_ahb_protocol_spec.pdf",
-    "de/amba_ahb/include/ahb_lite_wo_critical_path.svg",
     "de/fifo/fifo.md",
     "financial/backtesting/cycle_investment.py",
     "financial/backtesting/cycle_investment.ipynb",
@@ -205,7 +206,6 @@
     "Pasted image 20240925185041.png",
     "de/ppa/include/Pasted image 20240625161622.png",
     "de/ppa/include/Pasted image 20240625162050.png",
-    "de/ppa/include/Pasted image 20240719160809.png",
     "de/ppa/spyglass.md",
     "date/restaurant.md",
     "Pasted image 20240924162400.png.md",
@@ -223,7 +223,6 @@
     "workflow/nvim.md",
     "workflow/github.md",
     "de/amba_axi/axi.md",
-    "workflow/synopsys.md",
     "dv/uvm/include/uvm_factory1.canvas",
     "uvm_factory.canvas",
     "dv/uvm/uvm_factory.canvas",
