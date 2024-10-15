@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "de/amba_ahb/ahb.md",
+                "file": "de/ppa/area.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -83,7 +83,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "de/amba_ahb/ahb.md"
+                "file": "de/ppa/area.md"
               }
             }
           }
@@ -134,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "de/amba_ahb/ahb.md",
+                "file": "de/ppa/area.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "de/amba_ahb/ahb.md",
+                "file": "de/ppa/area.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -178,8 +178,11 @@
   },
   "active": "08e98b8390a28d5a",
   "lastOpenFiles": [
-    "de/amba_ahb/ref/IHI0033C_amba_ahb_protocol_spec.pdf",
+    "de/ppa/performance.md",
+    "de/ppa/power.md",
+    "de/ppa/area.md",
     "de/amba_ahb/ahb.md",
+    "de/amba_ahb/ref/IHI0033C_amba_ahb_protocol_spec.pdf",
     "de/amba_ahb/include/ahb_lite_wo_critical_path.svg",
     "de/fifo/fifo.md",
     "financial/backtesting/cycle_investment.py",
@@ -189,18 +192,14 @@
     "workflow/git/git.md",
     "workflow/git/ref/~$Git Tutorial.pptx",
     "workflow/git/ref/Git branching model for AnDLA.mp4",
-    "de/ppa/area.md",
     "workflow/git/include/Pasted image 20241007164708.png",
     "workflow/git/include/Pasted image 20241007164338.png",
     "workflow/git/include",
     "workflow/git/include/Pasted image 20241007141827.png",
     "workflow/git/ref/~$Git Branch for AnDLA project.pptx",
     "workflow/git/ref/Git Tutorial.pptx",
-    "workflow/git/ref/Git Branch for AnDLA project.pptx",
-    "de/ppa/power.md",
     "conflict-files-obsidian-git.md",
     "Pasted image 20240926110143.png",
-    "de/ppa/performance.md",
     "Pasted image 20240925185456.png",
     "Pasted image 20240925185041.png",
     "de/ppa/include/Pasted image 20240625161622.png",
