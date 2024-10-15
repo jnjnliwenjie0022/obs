@@ -13,10 +13,20 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "de/fifo/fifo.md",
+                "file": "de/amba_ahb/ahb.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
+              }
+            }
+          },
+          {
+            "id": "1aefad581c0471cd",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "de/amba_ahb/include/ahb_lite_wo_critical_path.svg"
               }
             }
           }
@@ -73,7 +83,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "de/fifo/fifo.md"
+                "file": "de/amba_ahb/ahb.md"
               }
             }
           }
@@ -124,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "de/fifo/fifo.md",
+                "file": "de/amba_ahb/ahb.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -141,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "de/fifo/fifo.md",
+                "file": "de/amba_ahb/ahb.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -166,8 +176,11 @@
       "command-palette:Open command palette": true
     }
   },
-  "active": "19a60b1e44f4e87a",
+  "active": "08e98b8390a28d5a",
   "lastOpenFiles": [
+    "de/amba_ahb/include/ahb_lite_wo_critical_path.svg",
+    "de/amba_ahb/ahb.md",
+    "de/fifo/fifo.md",
     "financial/backtesting/cycle_investment.py",
     "financial/backtesting/cycle_investment.ipynb",
     "financial/backtesting/New Text Document.txt",
@@ -183,7 +196,6 @@
     "workflow/git/ref/~$Git Branch for AnDLA project.pptx",
     "workflow/git/ref/Git Tutorial.pptx",
     "workflow/git/ref/Git Branch for AnDLA project.pptx",
-    "workflow/git/ref/Untitled",
     "de/ppa/power.md",
     "conflict-files-obsidian-git.md",
     "Pasted image 20240926110143.png",
@@ -201,7 +213,6 @@
     "de/fpu/f16dsu.md",
     "de/arithmetic/divider.md",
     "de/arithmetic/booth.md",
-    "de/fifo/fifo.md",
     "de/ram/ram.md",
     "maketing/marketing.md",
     "de/amba_axi/ddr_latency.md",
@@ -213,7 +224,6 @@
     "workflow/github.md",
     "de/amba_axi/axi.md",
     "workflow/synopsys.md",
-    "de/fctrl/fctrl.md",
     "dv/uvm/include/uvm_factory1.canvas",
     "uvm_factory.canvas",
     "dv/uvm/uvm_factory.canvas",
