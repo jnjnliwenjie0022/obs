@@ -178,8 +178,9 @@
   },
   "active": "08e98b8390a28d5a",
   "lastOpenFiles": [
-    "de/amba_ahb/include/ahb_lite_wo_critical_path.svg",
+    "de/amba_ahb/ref/IHI0033C_amba_ahb_protocol_spec.pdf",
     "de/amba_ahb/ahb.md",
+    "de/amba_ahb/include/ahb_lite_wo_critical_path.svg",
     "de/fifo/fifo.md",
     "financial/backtesting/cycle_investment.py",
     "financial/backtesting/cycle_investment.ipynb",
@@ -205,7 +206,6 @@
     "de/ppa/include/Pasted image 20240625161622.png",
     "de/ppa/include/Pasted image 20240625162050.png",
     "de/ppa/include/Pasted image 20240719160809.png",
-    "de/ppa/include/Pasted image 20240826141554.png",
     "de/ppa/spyglass.md",
     "date/restaurant.md",
     "Pasted image 20240924162400.png.md",
