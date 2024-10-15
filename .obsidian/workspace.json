@@ -11,9 +11,12 @@
             "id": "08e98b8390a28d5a",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "de/amba_ahb/ref/IHI0033C_amba_ahb_protocol_spec.pdf"
+                "file": "de/amba_ahb/ahb.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
               }
             }
           }
@@ -70,7 +73,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "de/amba_ahb/ref/IHI0033C_amba_ahb_protocol_spec.pdf"
+                "file": "de/amba_ahb/ahb.md"
               }
             }
           }
@@ -121,7 +124,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "de/amba_ahb/ref/IHI0033C_amba_ahb_protocol_spec.pdf",
+                "file": "de/amba_ahb/ahb.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -138,7 +141,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "de/amba_ahb/ref/IHI0033C_amba_ahb_protocol_spec.pdf",
+                "file": "de/amba_ahb/ahb.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -165,8 +168,8 @@
   },
   "active": "08e98b8390a28d5a",
   "lastOpenFiles": [
-    "de/amba_ahb/ahb.md",
     "de/amba_ahb/ref/IHI0033C_amba_ahb_protocol_spec.pdf",
+    "de/amba_ahb/ahb.md",
     "Untitled.md",
     "de/ppa/timing.md",
     "de/amba_ahb/ref/Modeling_and_analysis_of_the_AMBA_bus_using_CSP_an.pdf",
