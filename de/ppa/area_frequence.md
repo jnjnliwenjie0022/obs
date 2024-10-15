@@ -1,4 +1,4 @@
-# concept
+# area_evaluation
 
 ## from_cf
 
@@ -30,3 +30,8 @@ Register
 2. scan_facor: (which depend on scan_factor in tech lib)
 3. core_urate: 65%
 4. Total Area: primitive_flop \* zwl_flop_scaling \* scan_facor / core_urate
+# frequence_evaluation
+
+6T SVT TT Normal 25c
+
+![[Pasted image 20241015174105.png]]

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "de/ppa/area.md",
+                "file": "de/ppa/area_frequence.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -83,7 +83,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "de/ppa/area.md"
+                "file": "de/ppa/area_frequence.md"
               }
             }
           }
@@ -134,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "de/ppa/area.md",
+                "file": "de/ppa/area_frequence.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "de/ppa/area.md",
+                "file": "de/ppa/area_frequence.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -178,9 +178,10 @@
   },
   "active": "08e98b8390a28d5a",
   "lastOpenFiles": [
+    "Pasted image 20241015174105.png",
     "de/ppa/performance.md",
+    "de/ppa/area_frequence.md",
     "de/ppa/power.md",
-    "de/ppa/area.md",
     "de/amba_ahb/ahb.md",
     "de/amba_ahb/ref/IHI0033C_amba_ahb_protocol_spec.pdf",
     "de/amba_ahb/include/ahb_lite_wo_critical_path.svg",
