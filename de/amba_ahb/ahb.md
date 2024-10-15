@@ -14,9 +14,14 @@ master:
 slave:
 1. hreadyout: bypass to master
 2. hready: only control "DATA_PHASE"
-3. address phase 
+3. address phase need pending buffer
+	1. hreadyji'shi
 bmc_us:
+1. address phase need pending buffer
 bmc_ds:
+1. hreadyout hready
+
+address phase muster serve transaction even if hready == 0
 ## corner_case
 [[IHI0033C_amba_ahb_protocol_spec.pdf#page=18&selection=39,0,44,0|IHI0033C_amba_ahb_protocol_spec, page 18]]
 ![[Pasted image 20240411162207.png]]
