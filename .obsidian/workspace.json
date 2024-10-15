@@ -166,9 +166,10 @@
       "command-palette:Open command palette": true
     }
   },
-  "active": "08e98b8390a28d5a",
+  "active": "19a60b1e44f4e87a",
   "lastOpenFiles": [
-    "financial/cycle_investment.py",
+    "financial/backtesting",
+    "financial/backtesting/cycle_investment.py",
     "workflow/git/git.md",
     "workflow/git/ref/~$Git Tutorial.pptx",
     "workflow/git/ref/Git branching model for AnDLA.mp4",
@@ -185,7 +186,6 @@
     "workflow/git",
     "de/ppa/power.md",
     "conflict-files-obsidian-git.md",
-    "de/ppa/ref/slides.pdf",
     "Pasted image 20240926110143.png",
     "de/ppa/performance.md",
     "Pasted image 20240925185456.png",
