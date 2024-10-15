@@ -32,6 +32,11 @@ Register
 4. Total Area: primitive_flop \* zwl_flop_scaling \* scan_facor / core_urate
 # frequence_evaluation
 
-6T SVT TT Normal 25c
+# evaluation_condition
+1. frequency: 6T, SVT, TT, Normal Volt, 25c
+2. power: 6T, SVT, TT, Normal Volt, 25c
+
+
+
 
 ![[Pasted image 20241015174105.png]]
