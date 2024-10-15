@@ -8,6 +8,7 @@
 
 
 [[IHI0033C_amba_ahb_protocol_spec.pdf#page=57&selection=13,1,71,35|IHI0033C_amba_ahb_protocol_spec, page 57]]
+
 master:
 1. hready: only control "DATA_PHASE"
 slave:
