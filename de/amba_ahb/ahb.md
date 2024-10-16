@@ -17,12 +17,16 @@ slave:
 2. hready: only control "DATA_PHASE"
 	1.  hready即使為0, address phase也要收transaction
 	2.  address phase要使用pending buffer
+3. address phase and data phase之間要使用pipeline
 bmc_us:
 1. address phase need pending buffer
+2. address phase and data phase之間要使用pipeline
 bmc_ds:
-1. hreadyout hready是combination behavior
+1. hreadyout and hready之間是combination behavior
+2. address phase and data phase之間要使用pipeline
 brg:
-1. need pending buffer
+1. address phase要使用pending buffer
+2. address phase and data phase之間要使用pipeline
 ## corner_case
 [[IHI0033C_amba_ahb_protocol_spec.pdf#page=18&selection=39,0,44,0|IHI0033C_amba_ahb_protocol_spec, page 18]]
 ![[Pasted image 20240411162207.png]]

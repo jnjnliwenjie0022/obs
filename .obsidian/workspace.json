@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "de/fifo/fifo.md",
+                "file": "de/amba_ahb/ahb.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -73,7 +73,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "de/fifo/fifo.md"
+                "file": "de/amba_ahb/ahb.md"
               }
             }
           }
@@ -124,7 +124,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "de/fifo/fifo.md",
+                "file": "de/amba_ahb/ahb.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -141,7 +141,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "de/fifo/fifo.md",
+                "file": "de/amba_ahb/ahb.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -169,6 +169,9 @@
   "active": "08e98b8390a28d5a",
   "lastOpenFiles": [
     "de/fctrl/fctrl.md",
+    "de/fifo/fifo.md",
+    "de/amba_axi/include/1_preload_pipeline.svg",
+    "de/amba_axi/axi.md",
     "de/amba_ahb/ahb.md",
     "de/amba_ahb/ref/IHI0033C_amba_ahb_protocol_spec.pdf",
     "Untitled.md",
@@ -185,7 +188,6 @@
     "de/ppa/evaluation.md",
     "Pasted image 20241015174105.png.md",
     "Pasted image 20241015174105.png",
-    "de/fifo/fifo.md",
     "financial/backtesting/cycle_investment.py",
     "financial/backtesting/cycle_investment.ipynb",
     "financial/backtesting/New Text Document.txt",
@@ -198,7 +200,6 @@
     "workflow/git/include",
     "workflow/git/include/Pasted image 20241007141827.png",
     "conflict-files-obsidian-git.md",
-    "Pasted image 20240926110143.png",
     "de/ppa/spyglass.md",
     "date/restaurant.md",
     "Pasted image 20240924162400.png.md",
@@ -212,8 +213,6 @@
     "workflow/ganttproject.md",
     "workflow/bypass_paywall.md",
     "workflow/tnv.md",
-    "workflow/tmux.md",
-    "workflow/nvim.md",
     "dv/uvm/include/uvm_factory1.canvas",
     "uvm_factory.canvas",
     "dv/uvm/uvm_factory.canvas",
