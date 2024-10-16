@@ -33,3 +33,7 @@ brg:
 [AHB Bus Protocol -- Address Phase - SoC Design and Simulation forum - Support forums - Arm Community](https://community.arm.com/support-forums/f/soc-design-and-simulation-forum/43735/ahb-bus-protocol----address-phase?ReplySortBy=CreatedDate&ReplySortOrder=Ascending)
 ![[Pasted image 20240411165735.png]]
 
+結論: hready only control "DATA_PHASE"
+
+<<< 需要舉例子 >>>
+<<< hready hreadyout 架構描述 >>>
