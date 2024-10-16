@@ -11,6 +11,7 @@
 
 master:
 1. hready: only control "DATA_PHASE"
+2. address phase and data phase之間要使用pipeline
 slave:
 1. hreadyout: bypass to master
 2. hready: only control "DATA_PHASE"
