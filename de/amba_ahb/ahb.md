@@ -15,7 +15,7 @@ slave:
 1. hreadyout: bypass to master
 2. hready: only control "DATA_PHASE"
 	1.  hready即使為0, address phase也要收transaction
-	2. ?? 等效架構和電路設計
+	2.  address phase要使用pending buffer
 bmc_us:
 1. address phase need pending buffer
 bmc_ds:
