@@ -320,7 +320,8 @@ fig.update_layout(hovermode="x")
 fig.update_layout(hoversubplots="axis")
 fig.update_traces(xaxis='x1')
 fig.update_layout(margin=dict(l=0.01,r=0.01,t=30,b=0.01))
-fig.show()
+config = {'scrollZoom' : True}
+fig.show(config)
 #}}} figure
 #{{{ backtesting
 from backtesting import Strategy
