@@ -1,172 +1,172 @@
+##Trend LineTrend Line
+## 計算大盤 2022-06-29 融資維持率
 #
-# 計算大盤 2022-06-29 融資維持率
-
-import numpy as np
-import pandas as pd
-import requests
-
-from finlab import data
-
-融資今日餘額 = data.get('margin_transactions:融資今日餘額')
-融資券總餘額 = data.get('margin_balance:融資券總餘額')
-融資券總餘額 = 融資券總餘額.loc[融資今日餘額.index.intersection(融資券總餘額.index)]
-融資券總餘額['上市融資買賣超'] = (融資券總餘額['上市融資交易金額']-融資券總餘額['上市融資交易金額'].shift()).fillna(0)/100000000
-融資券總餘額['上櫃融資買賣超'] = (融資券總餘額['上櫃融資交易金額']-融資券總餘額['上櫃融資交易金額'].shift()).fillna(0)/100000000
-
-close = data.get('price:收盤價')
-benchmark = data.get('benchmark_return:發行量加權股價報酬指數').squeeze()
-融資總餘額 = 融資券總餘額[['上市融資交易金額','上櫃融資交易金額']].sum(axis=1)
-融資餘額市值 = (融資今日餘額*close*1000).sum(axis=1)
-融資維持率 = (融資餘額市值/融資總餘額)
-融資維持率
-
-exit()
-
-
-token = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRlIjoiMjAyNC0xMC0xNyAxMjozNTo0NiIsInVzZXJfaWQiOiJqbmpuMDAyMiIsImlwIjoiMjcuMjQ3LjEwMi42MyJ9.4BfGHxPU-M05uFp7HvEINgQrqCcSbug8SdlW8SJv8po"
-url = "https://api.finmindtrade.com/api/v4/data"
-
-#url = "https://api.web.finmindtrade.com/v2/user_info"
-#payload = {
-#    "token": token
-#}
-#resp = requests.get(url, params=payload)
-#print(resp.json()["user_count"])  # 使用次數
-#print(resp.json()["api_request_limit"])  # api 使用上限
+#import numpy as np
+#import pandas as pd
+#import requests
+#
+#from finlab import data
+#
+#融資今日餘額 = data.get('margin_transactions:融資今日餘額')
+#融資券總餘額 = data.get('margin_balance:融資券總餘額')
+#融資券總餘額 = 融資券總餘額.loc[融資今日餘額.index.intersection(融資券總餘額.index)]
+#融資券總餘額['上市融資買賣超'] = (融資券總餘額['上市融資交易金額']-融資券總餘額['上市融資交易金額'].shift()).fillna(0)/100000000
+#融資券總餘額['上櫃融資買賣超'] = (融資券總餘額['上櫃融資交易金額']-融資券總餘額['上櫃融資交易金額'].shift()).fillna(0)/100000000
+#
+#close = data.get('price:收盤價')
+#benchmark = data.get('benchmark_return:發行量加權股價報酬指數').squeeze()
+#融資總餘額 = 融資券總餘額[['上市融資交易金額','上櫃融資交易金額']].sum(axis=1)
+#融資餘額市值 = (融資今日餘額*close*1000).sum(axis=1)
+#融資維持率 = (融資餘額市值/融資總餘額)
+#融資維持率
+#
 #exit()
-
-from FinMind.data import DataLoader
-
-api = DataLoader()
-# api.login_by_token(api_token='token')
-# api.login(user_id='user_id',password='password')
-#df = api.taiwan_stock_government_bank_buy_sell(
-#    start_date='2023-01-17',
-#)
-
-api = DataLoader()
-api.login_by_token(api_token=token)
-api.login(user_id='jnjn0022',password='jason0022')
-df = api.taiwan_total_exchange_margin_maintenance(
-)
-print(df)
-exit()
-
-# filter stock_id
-parameter = {
-    "dataset": "TaiwanStockInfo",
-    "token": token, # 參考登入，獲取金鑰
-}
-data = requests.get(url, params=parameter)
-TaiwanStockInfo = data.json()
-TaiwanStockInfo = pd.DataFrame(TaiwanStockInfo['data'])
-TaiwanStockInfo['is_bt'] = TaiwanStockInfo['stock_name'].map(lambda x: True if '乙特' in x else False)
-TaiwanStockInfo['is_at'] = TaiwanStockInfo['stock_name'].map(lambda x: True if '甲特' in x else False)
-
-mask = (
-    TaiwanStockInfo['type'].isin(['twse']) & 
-    ~TaiwanStockInfo['industry_category'].isin(['ETF', '大盤']) &
-    ~TaiwanStockInfo['is_bt'] &
-    ~TaiwanStockInfo['is_at']
-)
-print(TaiwanStockInfo[mask].tail())
-stock_type_list = TaiwanStockInfo[mask]['stock_id'].unique()
-
-# 獲得個股每日收盤價
-#parameter = {
-#    "dataset": "TaiwanStockPrice",
-#    "start_date": "2022-06-29",
-#    "token": token, # 參考登入，獲取金鑰
-#}
-#resp = requests.get(url, params=parameter)
-#TaiwanStockPrice = resp.json()
 #
-##TaiwanStockPrice = pd.DataFrame(TaiwanStockPrice["data"])
-#print(TaiwanStockPrice); exit()
-#TaiwanStockPrice = pd.DataFrame(TaiwanStockPrice["data"])
-#print(TaiwanStockPrice[["date", "stock_id", "close"]].head())
-
-# 獲得個股每日融資張數
+#
+#token = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRlIjoiMjAyNC0xMC0xNyAxMjozNTo0NiIsInVzZXJfaWQiOiJqbmpuMDAyMiIsImlwIjoiMjcuMjQ3LjEwMi42MyJ9.4BfGHxPU-M05uFp7HvEINgQrqCcSbug8SdlW8SJv8po"
+#url = "https://api.finmindtrade.com/api/v4/data"
+#
+##url = "https://api.web.finmindtrade.com/v2/user_info"
+##payload = {
+##    "token": token
+##}
+##resp = requests.get(url, params=payload)
+##print(resp.json()["user_count"])  # 使用次數
+##print(resp.json()["api_request_limit"])  # api 使用上限
+##exit()
+#
+#from FinMind.data import DataLoader
+#
+#api = DataLoader()
+## api.login_by_token(api_token='token')
+## api.login(user_id='user_id',password='password')
+##df = api.taiwan_stock_government_bank_buy_sell(
+##    start_date='2023-01-17',
+##)
+#
+#api = DataLoader()
+#api.login_by_token(api_token=token)
+#api.login(user_id='jnjn0022',password='jason0022')
+#df = api.taiwan_total_exchange_margin_maintenance(
+#)
+#print(df)
+#exit()
+#
+## filter stock_id
 #parameter = {
-#    "dataset": "TaiwanStockMarginPurchaseShortSale",
+#    "dataset": "TaiwanStockInfo",
+#    "token": token, # 參考登入，獲取金鑰
+#}
+#data = requests.get(url, params=parameter)
+#TaiwanStockInfo = data.json()
+#TaiwanStockInfo = pd.DataFrame(TaiwanStockInfo['data'])
+#TaiwanStockInfo['is_bt'] = TaiwanStockInfo['stock_name'].map(lambda x: True if '乙特' in x else False)
+#TaiwanStockInfo['is_at'] = TaiwanStockInfo['stock_name'].map(lambda x: True if '甲特' in x else False)
+#
+#mask = (
+#    TaiwanStockInfo['type'].isin(['twse']) & 
+#    ~TaiwanStockInfo['industry_category'].isin(['ETF', '大盤']) &
+#    ~TaiwanStockInfo['is_bt'] &
+#    ~TaiwanStockInfo['is_at']
+#)
+#print(TaiwanStockInfo[mask].tail())
+#stock_type_list = TaiwanStockInfo[mask]['stock_id'].unique()
+#
+## 獲得個股每日收盤價
+##parameter = {
+##    "dataset": "TaiwanStockPrice",
+##    "start_date": "2022-06-29",
+##    "token": token, # 參考登入，獲取金鑰
+##}
+##resp = requests.get(url, params=parameter)
+##TaiwanStockPrice = resp.json()
+##
+###TaiwanStockPrice = pd.DataFrame(TaiwanStockPrice["data"])
+##print(TaiwanStockPrice); exit()
+##TaiwanStockPrice = pd.DataFrame(TaiwanStockPrice["data"])
+##print(TaiwanStockPrice[["date", "stock_id", "close"]].head())
+#
+## 獲得個股每日融資張數
+##parameter = {
+##    "dataset": "TaiwanStockMarginPurchaseShortSale",
+##    "start_date": "2022-06-29",
+##    "token": token, # 參考登入，獲取金鑰
+##}
+##resp = requests.get(url, params=parameter)
+##TaiwanStockMarginPurchaseShortSale = resp.json()
+##TaiwanStockMarginPurchaseShortSale = pd.DataFrame(TaiwanStockMarginPurchaseShortSale["data"])
+##TaiwanStockMarginPurchaseShortSale = TaiwanStockMarginPurchaseShortSale[
+##    ['date', 'stock_id', 'MarginPurchaseTodayBalance']
+##]
+##print(TaiwanStockMarginPurchaseShortSale.head())
+#
+#
+## 獲得大盤融資餘額
+#parameter = {
+#    "dataset": "TaiwanStockTotalMarginPurchaseShortSale",
 #    "start_date": "2022-06-29",
 #    "token": token, # 參考登入，獲取金鑰
 #}
-#resp = requests.get(url, params=parameter)
-#TaiwanStockMarginPurchaseShortSale = resp.json()
-#TaiwanStockMarginPurchaseShortSale = pd.DataFrame(TaiwanStockMarginPurchaseShortSale["data"])
-#TaiwanStockMarginPurchaseShortSale = TaiwanStockMarginPurchaseShortSale[
-#    ['date', 'stock_id', 'MarginPurchaseTodayBalance']
-#]
-#print(TaiwanStockMarginPurchaseShortSale.head())
-
-
-# 獲得大盤融資餘額
-parameter = {
-    "dataset": "TaiwanStockTotalMarginPurchaseShortSale",
-    "start_date": "2022-06-29",
-    "token": token, # 參考登入，獲取金鑰
-}
-data = requests.get(url, params=parameter)
-TaiwanStockTotalMarginPurchaseShortSale = data.json()
-TaiwanStockTotalMarginPurchaseShortSale = pd.DataFrame(TaiwanStockTotalMarginPurchaseShortSale['data'])
-TaiwanStockTotalMarginPurchaseShortSale = TaiwanStockTotalMarginPurchaseShortSale[TaiwanStockTotalMarginPurchaseShortSale['name']=='MarginPurchaseMoney']
-TaiwanStockTotalMarginPurchaseShortSale = TaiwanStockTotalMarginPurchaseShortSale[TaiwanStockTotalMarginPurchaseShortSale['date']=='2022-06-29']
-print(TaiwanStockTotalMarginPurchaseShortSale[["date", "TodayBalance"]].tail())
-exit()
-
-# 計算2022-06-29 大盤融資維持率
-merge_data = pd.merge(TaiwanStockPrice, TaiwanStockMarginPurchaseShortSale, on=['date', 'stock_id'], how='left')
-merge_data['MarginPurchaseTotalValue'] = merge_data['MarginPurchaseTodayBalance'] * merge_data['close'] * 1000
-value = merge_data[merge_data['stock_id'].isin(stock_type_list)]['MarginPurchaseTotalValue'].sum()
-print(f"2022-06-29 大盤融資維持率:{value / TaiwanStockTotalMarginPurchaseShortSale['TodayBalance'].values[0]}")
-
-import requests
+#data = requests.get(url, params=parameter)
+#TaiwanStockTotalMarginPurchaseShortSale = data.json()
+#TaiwanStockTotalMarginPurchaseShortSale = pd.DataFrame(TaiwanStockTotalMarginPurchaseShortSale['data'])
+#TaiwanStockTotalMarginPurchaseShortSale = TaiwanStockTotalMarginPurchaseShortSale[TaiwanStockTotalMarginPurchaseShortSale['name']=='MarginPurchaseMoney']
+#TaiwanStockTotalMarginPurchaseShortSale = TaiwanStockTotalMarginPurchaseShortSale[TaiwanStockTotalMarginPurchaseShortSale['date']=='2022-06-29']
+#print(TaiwanStockTotalMarginPurchaseShortSale[["date", "TodayBalance"]].tail())
+#exit()
+#
+## 計算2022-06-29 大盤融資維持率
+#merge_data = pd.merge(TaiwanStockPrice, TaiwanStockMarginPurchaseShortSale, on=['date', 'stock_id'], how='left')
+#merge_data['MarginPurchaseTotalValue'] = merge_data['MarginPurchaseTodayBalance'] * merge_data['close'] * 1000
+#value = merge_data[merge_data['stock_id'].isin(stock_type_list)]['MarginPurchaseTotalValue'].sum()
+#print(f"2022-06-29 大盤融資維持率:{value / TaiwanStockTotalMarginPurchaseShortSale['TodayBalance'].values[0]}")
+#
+#import requests
 
 
 
 #https://www.youtube.com/watch?v=58G-wrOx8Mk
 import pandas as pd
-##{{{ tv data access
-#from tvDatafeed import TvDatafeed, Interval
-#from datetime import datetime
-#
-#username = 'jnjn0022'
-#password = 'jasonliwenjie0022'
-#tv = TvDatafeed(username, password)
-#
-#df = tv.get_hist(symbol='TWSE:IX0001', exchange='NSE', interval=Interval.in_daily,n_bars=100000)
-#df = df.reset_index()
-#df = df.drop(columns = ["symbol"])
-#df = df.rename(columns={'datetime': 'Date', 'open': 'Open', 'high': 'High', 'low': 'Low', 'close': 'Close', 'volume': 'Volume'})
-#df['Date'] = pd.to_datetime(df['Date']).dt.date
-#df['Date'] = pd.to_datetime(df['Date'])
-#df.set_index('Date',inplace=True)
-##df = df[df.index > '1993-01-01']
-##}}}
-#{{{ yf data access
-import yfinance as yf
-#df = yf.download('2882.TW')
-#df = yf.download('2882.TW', start = '2001-01-01')
-#df = yf.download('1736.TW', start = '2001-01-01')
-df = yf.download('1301.TW')
-#df = yf.download('2357.TW',start = '2004-09-01')
-#df = yf.download('2454.TW')
-#df = yf.download('00687b.TW', start = '2008-01-01')
-#df = yf.download('2330.TW', start = '2008-01-01')
-#stock = yf.Ticker('2882.TW')
-#eps = stock.info['trailingEps']
-#print(eps)
-#stock_price = stock.history(period="max")
-#stock_price = stock_price.reset_index()
-#stock_price = stock_price.drop(columns = ["Date"])
-#print(stock_price); print(stock_price.dtypes);
-#stock_price.to_excel('df.xlsx', index=True); exit()
-#df = yf.download('^TWII ')
-#df = yf.download('0050.TW', start = '2010-01-01')
-df=df[df['Volume']!=0]
-#print(df.isna().sum())
-# }}} yf data access
+#{{{ tv data access
+from tvDatafeed import TvDatafeed, Interval
+from datetime import datetime
+
+username = 'jnjn0022'
+password = 'jasonliwenjie0022'
+tv = TvDatafeed(username, password)
+
+df = tv.get_hist(symbol='TWSE:IX0001', exchange='NSE', interval=Interval.in_daily,n_bars=100000)
+df = df.reset_index()
+df = df.drop(columns = ["symbol"])
+df = df.rename(columns={'datetime': 'Date', 'open': 'Open', 'high': 'High', 'low': 'Low', 'close': 'Close', 'volume': 'Volume'})
+df['Date'] = pd.to_datetime(df['Date']).dt.date
+df['Date'] = pd.to_datetime(df['Date'])
+df.set_index('Date',inplace=True)
+#df = df[df.index > '1993-01-01']
+#}}}
+##{{{ yf data access
+#import yfinance as yf
+##df = yf.download('2882.TW')
+##df = yf.download('2882.TW', start = '2001-01-01')
+##df = yf.download('1736.TW', start = '2001-01-01')
+#df = yf.download('1301.TW')
+##df = yf.download('2357.TW',start = '2004-09-01')
+##df = yf.download('2454.TW')
+##df = yf.download('00687b.TW', start = '2008-01-01')
+##df = yf.download('2330.TW', start = '2008-01-01')
+##stock = yf.Ticker('2882.TW')
+##eps = stock.info['trailingEps']
+##print(eps)
+##stock_price = stock.history(period="max")
+##stock_price = stock_price.reset_index()
+##stock_price = stock_price.drop(columns = ["Date"])
+##print(stock_price); print(stock_price.dtypes);
+##stock_price.to_excel('df.xlsx', index=True); exit()
+##df = yf.download('^TWII ')
+##df = yf.download('0050.TW', start = '2010-01-01')
+#df=df[df['Volume']!=0]
+##print(df.isna().sum())
+## }}} yf data access
 #{{{ create timeline
 time = pd.date_range(start='1900-01-01', end=pd.Timestamp.today(), freq='D')
 time = pd.DataFrame(time, columns=['Date'])
@@ -215,8 +215,8 @@ from pprint import pprint
 url='https://index.ndc.gov.tw/n/json/data/eco/indicators'
 response=requests.post(url)
 data = json.loads(response.text) #; pprint(data)
-data = pd.json_normalize(data['line']['33']['data']) # detect the highest indicator
-#data = pd.json_normalize(data['line']['34']['data']) # save indicator
+#data = pd.json_normalize(data['line']['33']['data']) # detect the highest indicator
+data = pd.json_normalize(data['line']['34']['data']) # save indicator
 
 # https://utrustcorp.com/python-pandas/
 # https://medium.com/ntu-data-analytics-club/python-advanced-pandas-%E5%A5%97%E4%BB%B6%E5%BF%85%E5%AD%B8%E8%B3%87%E6%96%99%E8%99%95%E7%90%86%E5%87%BD%E6%95%B8%E4%BB%8B%E7%B4%B9%E8%88%87%E6%87%89%E7%94%A8-9b53ff16fab2
@@ -322,7 +322,6 @@ fig.update_traces(xaxis='x1')
 fig.update_layout(margin=dict(l=0.01,r=0.01,t=30,b=0.01))
 fig.show()
 #}}} figure
-exit()
 #{{{ backtesting
 from backtesting import Strategy
 from backtesting import Backtest
