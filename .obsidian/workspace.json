@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "a27de4b365c5fafe",
+        "id": "1a4b278b4823299c",
         "type": "tabs",
         "children": [
           {
-            "id": "08e98b8390a28d5a",
+            "id": "f90203d8afa8deed",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "de/amba_ahb/ahb.md",
-                "mode": "source",
+                "file": "de/ppa/power.md",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -32,7 +32,7 @@
       {
         "id": "afadd362b9dadcb6",
         "type": "tabs",
-        "dimension": 73.73929590865842,
+        "dimension": 62.21264367816091,
         "children": [
           {
             "id": "e659ba5d1cf0724d",
@@ -73,7 +73,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "de/amba_ahb/ahb.md"
+                "file": "de/ppa/power.md"
               }
             }
           }
@@ -83,7 +83,7 @@
       {
         "id": "ce31482b6afb7740",
         "type": "tabs",
-        "dimension": 26.26070409134158,
+        "dimension": 37.787356321839084,
         "children": [
           {
             "id": "8cb3b947f548a8b1",
@@ -97,7 +97,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 335.5110321044922
+    "width": 276.5
   },
   "right": {
     "id": "cb661d0a10776c07",
@@ -124,7 +124,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "de/amba_ahb/ahb.md",
+                "file": "de/ppa/power.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -141,14 +141,13 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "de/amba_ahb/ahb.md",
+                "file": "de/ppa/power.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -157,67 +156,68 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "obsidian-to-anki-plugin:Obsidian_to_Anki - Scan Vault": true,
       "switcher:Open quick switcher": true,
       "graph:Open graph view": true,
       "canvas:Create new canvas": true,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": true,
-      "command-palette:Open command palette": true
+      "command-palette:Open command palette": true,
+      "obsidian-to-anki-plugin:Obsidian_to_Anki - Scan Vault": false
     }
   },
-  "active": "08e98b8390a28d5a",
+  "active": "19a60b1e44f4e87a",
   "lastOpenFiles": [
-    "de/amba_ahb/ref/IHI0033C_amba_ahb_protocol_spec.pdf",
-    "de/amba_ahb/ahb.md",
-    "Untitled.md",
-    "de/ppa/timing.md",
-    "de/amba_ahb/ref/Modeling_and_analysis_of_the_AMBA_bus_using_CSP_an.pdf",
-    "de/amba_ahb/ref/IHI0011.pdf",
-    "de/Pasted image 20240606125937.png",
-    "de/Pasted image 20240606151606.png",
-    "de/Pasted image 20240828160508.png",
-    "de/Pasted image 20240606160337.png",
-    "financial/隨機漫步理論分析.md",
-    "de/amba_ahb/include/ahb_lite_wo_critical_path.svg",
-    "de/ppa/power.md",
-    "de/ppa/evaluation.md",
-    "Pasted image 20241015174105.png.md",
-    "Pasted image 20241015174105.png",
-    "de/fifo/fifo.md",
     "financial/backtesting/cycle_investment.py",
-    "financial/backtesting/cycle_investment.ipynb",
-    "financial/backtesting/New Text Document.txt",
     "financial/backtesting",
-    "workflow/git/git.md",
-    "workflow/git/ref/~$Git Tutorial.pptx",
-    "workflow/git/ref/Git branching model for AnDLA.mp4",
+    "de/ppa/timing.md",
+    "de/ppa/evaluation.md",
+    "Untitled.md",
+    "financial/cycle_investment.py",
+    "workflow/git/ref/Git Tutorial.pptx",
+    "workflow/git/ref/Git Branch for AnDLA project.pptx",
     "workflow/git/include/Pasted image 20241007164708.png",
     "workflow/git/include/Pasted image 20241007164338.png",
+    "workflow/git/ref",
     "workflow/git/include",
-    "workflow/git/include/Pasted image 20241007141827.png",
-    "conflict-files-obsidian-git.md",
+    "workflow/git/git.md",
+    "workflow/git",
+    "de/ppa/performance.md",
+    "de/ppa/include/Pasted image 20240925143438.png",
+    "de/ppa/include/Pasted image 20240925115734.png",
+    "de/ppa/include/Pasted image 20240925115502.png",
+    "de/ppa/area.md",
     "Pasted image 20240926110143.png",
-    "de/ppa/spyglass.md",
-    "date/restaurant.md",
-    "Pasted image 20240924162400.png.md",
+    "Pasted image 20240925185456.png",
+    "Pasted image 20240925185041.png",
+    "de/ppa/include/Pasted image 20240924221249.png",
+    "de/ppa/power.md",
+    "de/ppa/include/Pasted image 20240924221233.png",
+    "de/ppa/ref/Domain-Specific Architecture AI for Future Tech.pdf",
+    "Pasted image 20240827105334.png.md",
+    "de/ppa/ppa.md",
+    "de/ppa/ref/lecture15.pdf",
+    "de/ppa/ref/poster.pdf",
     "de/fpu/f16mac.md",
-    "de/fpu/f16dsu.md",
-    "de/arithmetic/divider.md",
-    "de/arithmetic/booth.md",
-    "de/ram/ram.md",
+    "conflict-files-obsidian-git.md",
     "maketing/marketing.md",
-    "de/amba_axi/ddr_latency.md",
+    "de/fpu/f16macksa.md",
+    "language/pdf_downlaod.md",
     "workflow/ganttproject.md",
     "workflow/bypass_paywall.md",
-    "workflow/tnv.md",
-    "workflow/tmux.md",
-    "workflow/nvim.md",
-    "dv/uvm/include/uvm_factory1.canvas",
+    "date/restaurant.md",
+    "house/house.md",
+    "language/2024-06-03.md",
+    "de/amba_axi/ddr_latency.md",
+    "de/ppa/spyglass.md",
+    "de/note.md",
+    "de/format.md",
+    "language/2024-05-31.md",
+    "language/2024-05-30.md",
     "uvm_factory.canvas",
+    "dv/uvm/include/uvm_factory1.canvas",
     "dv/uvm/uvm_factory.canvas",
     "dv/uvm/include/uvm_do_on_pri_with.canvas",
-    "dv/rename order_of_starting_sequence.canvas",
+    "dv/uvm/uvm_do.canvas",
     "Untitled.canvas",
     "Untitled 1.canvas",
     "債券/債券.canvas"
