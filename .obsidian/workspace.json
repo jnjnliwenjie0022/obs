@@ -26,12 +26,15 @@
             "id": "6d82f6a06d25f121",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.7.4"
+                "file": "de/fctrl/fctrl.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
               },
               "icon": "lucide-file",
-              "title": "Release Notes 1.7.4"
+              "title": "fctrl"
             }
           }
         ],
@@ -94,10 +97,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "financial/finmind.md"
+                "file": "de/fctrl/fctrl.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of finmind"
+              "title": "Outline of fctrl"
             }
           }
         ],
@@ -151,7 +154,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "financial/finmind.md",
+                "file": "de/fctrl/fctrl.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -161,7 +164,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for finmind"
+              "title": "Backlinks for fctrl"
             }
           },
           {
@@ -170,12 +173,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "financial/finmind.md",
+                "file": "de/fctrl/fctrl.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from finmind"
+              "title": "Outgoing links from fctrl"
             }
           }
         ],
@@ -199,9 +202,9 @@
   },
   "active": "6d82f6a06d25f121",
   "lastOpenFiles": [
+    "de/amba_ahb/ahb.md",
     "financial/RSI分析.md",
     "financial/finmind.md",
-    "de/amba_ahb/ahb.md",
     "de/fctrl/fctrl.md",
     "de/fifo/fifo.md",
     "de/amba_axi/include/1_preload_pipeline.svg",
