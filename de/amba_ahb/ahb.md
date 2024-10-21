@@ -1,4 +1,6 @@
-## uarch
+# ref
+https://www.arm.com/architecture/system-architectures/amba/amba-specifications
+# uarch
 ![[Pasted image 20240321170457.png]]
 ## ahb_lite_with_critical_path
 ![[ahb_lite_w_critical_path.svg]]
