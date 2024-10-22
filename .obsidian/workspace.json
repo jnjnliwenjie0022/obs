@@ -28,13 +28,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "workflow/git/git.md",
+                "file": "de/ppa/power.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "git"
+              "title": "power"
             }
           }
         ],
@@ -97,14 +97,14 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "workflow/git/git.md"
+                "file": "de/ppa/power.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of git"
+              "title": "Outline of power"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       },
       {
         "id": "ce31482b6afb7740",
@@ -200,8 +200,11 @@
       "command-palette:Open command palette": true
     }
   },
-  "active": "187192ed1f4570c8",
+  "active": "6d82f6a06d25f121",
   "lastOpenFiles": [
+    "de/ppa/evaluation.md",
+    "de/ppa/power.md",
+    "workflow/git/git.md",
     "workflow/git/ref/~$Git Tutorial.pptx",
     "de/amba_ahb/ahb.md",
     "de/fctrl/fctrl.md",
@@ -227,13 +230,9 @@
     "de/Pasted image 20240606160337.png",
     "financial/隨機漫步理論分析.md",
     "de/amba_ahb/include/ahb_lite_wo_critical_path.svg",
-    "de/ppa/power.md",
-    "de/ppa/evaluation.md",
     "Pasted image 20241015174105.png.md",
     "Pasted image 20241015174105.png",
     "financial/backtesting/cycle_investment.py",
-    "financial/backtesting/cycle_investment.ipynb",
-    "workflow/git/git.md",
     "workflow/git/include/Pasted image 20241007164708.png",
     "workflow/git/include/Pasted image 20241007164338.png",
     "workflow/git/include/Pasted image 20241007141827.png",
