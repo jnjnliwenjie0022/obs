@@ -113,6 +113,8 @@ git workttree remove tmp
 
 ```
 gitk --all &
+git log
+git reflog
 
 # commit
 ## cancel commit
@@ -124,6 +126,7 @@ git reset --hard  # Commit 拆出來的檔案直接丟掉
 
 ## go to another commit
 git reset --hard
+git reset --hard HEAD@{N}
 
 # branch
 ## show branch
@@ -131,13 +134,17 @@ git branch -a
 
 ## switch to newbranch
 git checkout <switch_branch>
+	# explain
 	if (switch_branch is not in local)
 		git checkout -b <switch_branch>
 		git branch   -u <remote_name>/<switch_branch> # 追蹤switch_branch
+
+
 ```
 ## a_successful_git_branching_model
 
 ![[Pasted image 20241007164708.png]]
+### local_repository
 ```
 # remote
 ## show remote_name
@@ -152,3 +159,9 @@ git fetch <remote_name>
 ```
 
 ![[Pasted image 20241007164338.png]]
+### rebase
+```
+# rebase <switch_branch>
+# check master_branch need to be up-to-date
+git rebase <master_branch>
+```

@@ -28,13 +28,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "de/amba_ahb/ahb.md",
+                "file": "workflow/git/git.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "ahb"
+              "title": "git"
             }
           }
         ],
@@ -97,14 +97,14 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "de/fctrl/fctrl.md"
+                "file": "workflow/git/git.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of fctrl"
+              "title": "Outline of git"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       },
       {
         "id": "ce31482b6afb7740",
@@ -200,8 +200,10 @@
       "command-palette:Open command palette": true
     }
   },
-  "active": "6d82f6a06d25f121",
+  "active": "187192ed1f4570c8",
   "lastOpenFiles": [
+    "workflow/git/ref/~$Git Tutorial.pptx",
+    "de/amba_ahb/ahb.md",
     "de/fctrl/fctrl.md",
     "conflict-files-obsidian-git.md",
     "financial/backtesting/test.py",
@@ -209,7 +211,6 @@
     "financial/backtesting/data.xlsx",
     "financial/backtesting/cycle_investment_bk_20241016.py",
     "financial/backtesting/BreakOut.html",
-    "de/amba_ahb/ahb.md",
     "financial/RSI分析.md",
     "financial/finmind.md",
     "de/fifo/fifo.md",
