@@ -162,6 +162,8 @@ git fetch <remote_name>
 ### rebase
 ```
 # rebase <switch_branch>
-# check master_branch need to be up-to-date
+# 1.1 (important) commit the file you need
+# 1.2 (important) stash the file you need
+# 2. check master_branch need to be up-to-date
 git rebase <master_branch>
 ```
