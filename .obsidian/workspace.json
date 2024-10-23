@@ -28,13 +28,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "de/v/verilog.md",
-                "mode": "preview",
+                "file": "de/ppa/timing.md",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "verilog"
+              "title": "timing"
             }
           }
         ],
@@ -97,10 +97,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "de/v/verilog.md"
+                "file": "de/ppa/timing.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of verilog"
+              "title": "Outline of timing"
             }
           }
         ],
@@ -202,11 +202,12 @@
   },
   "active": "6d82f6a06d25f121",
   "lastOpenFiles": [
+    "de/ppa/power.md",
+    "de/v/verilog.md",
     "de/fctrl/ref/~$CodingStyle_v1.1.pptx",
     "de/fctrl/ref/~$rtl.pptx",
     "de/v/ref/coding_guidelines.pdf",
     "de/format.md",
-    "de/ppa/power.md",
     "de/ppa/evaluation.md",
     "workflow/git/git.md",
     "workflow/git/ref/~$Git Tutorial.pptx",
@@ -226,7 +227,6 @@
     "de/amba_ahb/ref/IHI0033C_amba_ahb_protocol_spec.pdf",
     "Untitled.md",
     "de/ppa/timing.md",
-    "de/amba_ahb/ref/Modeling_and_analysis_of_the_AMBA_bus_using_CSP_an.pdf",
     "de/Pasted image 20240606125937.png",
     "de/Pasted image 20240606151606.png",
     "de/Pasted image 20240828160508.png",

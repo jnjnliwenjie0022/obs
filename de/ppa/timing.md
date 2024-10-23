@@ -23,9 +23,13 @@ set_clock_latency VALUE [all_clocks]
 set_max_transition VALUE [get_db designs *]
 1. 成熟製成: 0.4~0.2
 2. 先進製成：0.1~0.08
-3. data transition violate基本上只會高機率發生在soc
-4. data transition是為了避免dynamtic power在transition太長導致不必要的增加
-5. 可以對clock path和data path作用
+3. if (clock_period * 2 > 0.4)
+		set_max_transition = 0.4
+   else
+		set_max_transition = set_max_transition = 0.4
+4. data transition violate基本上只會高機率發生在soc
+5. data transition是為了避免dynamtic power在transition太長導致不必要的增加
+6. 可以對clock path和data path作用
 
 set bus_ratio 0.667
 set bus_clk_period 1.0
