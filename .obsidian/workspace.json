@@ -28,13 +28,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "de/ppa/power.md",
-                "mode": "source",
+                "file": "de/v/verilog.md",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "power"
+              "title": "verilog"
             }
           }
         ],
@@ -97,10 +97,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "de/ppa/power.md"
+                "file": "de/v/verilog.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of power"
+              "title": "Outline of verilog"
             }
           }
         ],
@@ -202,8 +202,12 @@
   },
   "active": "6d82f6a06d25f121",
   "lastOpenFiles": [
-    "de/ppa/evaluation.md",
+    "de/fctrl/ref/~$CodingStyle_v1.1.pptx",
+    "de/fctrl/ref/~$rtl.pptx",
+    "de/v/ref/coding_guidelines.pdf",
+    "de/format.md",
     "de/ppa/power.md",
+    "de/ppa/evaluation.md",
     "workflow/git/git.md",
     "workflow/git/ref/~$Git Tutorial.pptx",
     "de/amba_ahb/ahb.md",
@@ -223,7 +227,6 @@
     "Untitled.md",
     "de/ppa/timing.md",
     "de/amba_ahb/ref/Modeling_and_analysis_of_the_AMBA_bus_using_CSP_an.pdf",
-    "de/amba_ahb/ref/IHI0011.pdf",
     "de/Pasted image 20240606125937.png",
     "de/Pasted image 20240606151606.png",
     "de/Pasted image 20240828160508.png",
@@ -232,7 +235,6 @@
     "de/amba_ahb/include/ahb_lite_wo_critical_path.svg",
     "Pasted image 20241015174105.png.md",
     "Pasted image 20241015174105.png",
-    "financial/backtesting/cycle_investment.py",
     "workflow/git/include/Pasted image 20241007164708.png",
     "workflow/git/include/Pasted image 20241007164338.png",
     "workflow/git/include/Pasted image 20241007141827.png",
@@ -246,7 +248,6 @@
     "de/ram/ram.md",
     "maketing/marketing.md",
     "de/amba_axi/ddr_latency.md",
-    "workflow/ganttproject.md",
     "dv/uvm/include/uvm_factory1.canvas",
     "uvm_factory.canvas",
     "dv/uvm/uvm_factory.canvas",
