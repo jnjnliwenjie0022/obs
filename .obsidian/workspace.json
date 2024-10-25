@@ -28,13 +28,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "de/ppa/timing.md",
+                "file": "de/ppa/power.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "timing"
+              "title": "power"
             }
           }
         ],
@@ -202,6 +202,7 @@
   },
   "active": "6d82f6a06d25f121",
   "lastOpenFiles": [
+    "de/ppa/timing.md",
     "de/ppa/power.md",
     "de/v/verilog.md",
     "de/fctrl/ref/~$CodingStyle_v1.1.pptx",
@@ -226,7 +227,6 @@
     "de/amba_axi/axi.md",
     "de/amba_ahb/ref/IHI0033C_amba_ahb_protocol_spec.pdf",
     "Untitled.md",
-    "de/ppa/timing.md",
     "de/Pasted image 20240606125937.png",
     "de/Pasted image 20240606151606.png",
     "de/Pasted image 20240828160508.png",
