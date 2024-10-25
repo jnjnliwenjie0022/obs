@@ -1,265 +1,51 @@
 #https://www.youtube.com/watch?v=58G-wrOx8Mk
 import pandas as pd
-#{{{ generic function
-def printexit (data):
-    print(data); print(data.dtypes); exit()
-def printxlsx (data):
-    print(data); print(data.dtypes); data.to_excel('data.xlsx', index=True); exit()
-#}}}
-#{{{ tv data access
-from tvDatafeed import TvDatafeed, Interval
+##{{{ tv data access
+#from tvDatafeed import TvDatafeed, Interval
 #from datetime import datetime
-
-username = 'jnjn0022'
-password = 'jasonliwenjie0022'
-tv = TvDatafeed(username, password)
-
-df = tv.get_hist(symbol='TWSE:IX0001', exchange='NSE', interval=Interval.in_daily,n_bars=100000)
-df = df.reset_index()
-df = df.drop(columns = ["symbol"])
-df = df.rename(columns={'datetime': 'Date', 'open': 'Open', 'high': 'High', 'low': 'Low', 'close': 'Close', 'volume': 'Volume'})
-df['Date'] = pd.to_datetime(df['Date']).dt.date
-df['Date'] = pd.to_datetime(df['Date'])
-df.set_index('Date',inplace=True)
-#df = df[df.index > '1993-01-01']
-#}}}
-##{{{ yf data access
-#import yfinance as yf
-##df = yf.download('2882.TW')
-##df = yf.download('2882.TW', start = '2001-01-01')
-##df = yf.download('1736.TW', start = '2001-01-01')
-#df = yf.download('8299.TWO', start = '2001-01-01')
-##df = yf.download('1301.TW')
-##df = yf.download('2357.TW',start = '2004-09-01')
-##df = yf.download('2454.TW')
-##df = yf.download('00687b.TW', start = '2008-01-01')
-##df = yf.download('2330.TW', start = '2008-01-01')
-##stock = yf.Ticker('2882.TW')
-##eps = stock.info['trailingEps']
-##print(eps)
-##stock_price = stock.history(period="max")
-##stock_price = stock_price.reset_index()
-##stock_price = stock_price.drop(columns = ["Date"])
-##print(stock_price); print(stock_price.dtypes);
-##stock_price.to_excel('df.xlsx', index=True); exit()
-##df = yf.download('^TWII ')
-##df = yf.download('0050.TW', start = '2010-01-01')
-#df=df[df['Volume']!=0]
-##print(df.isna().sum())
-## }}} yf data access
+#
+#username = 'jnjn0022'
+#password = 'jasonliwenjie0022'
+#tv = TvDatafeed(username, password)
+#
+#df = tv.get_hist(symbol='TWSE:IX0001', exchange='NSE', interval=Interval.in_daily,n_bars=100000)
+#df = df.reset_index()
+#df = df.drop(columns = ["symbol"])
+#df = df.rename(columns={'datetime': 'Date', 'open': 'Open', 'high': 'High', 'low': 'Low', 'close': 'Close', 'volume': 'Volume'})
+#df['Date'] = pd.to_datetime(df['Date']).dt.date
+#df['Date'] = pd.to_datetime(df['Date'])
+#df.set_index('Date',inplace=True)
+##df = df[df.index > '1993-01-01']
+##}}}
+#{{{ yf data access
+import yfinance as yf
+#df = yf.download('2882.TW')
+#df = yf.download('2882.TW', start = '2001-01-01')
+#df = yf.download('1736.TW', start = '2001-01-01')
+df = yf.download('8299.TWO', start = '2001-01-01')
+#df = yf.download('1301.TW')
+#df = yf.download('2357.TW',start = '2004-09-01')
+#df = yf.download('2454.TW')
+#df = yf.download('00687b.TW', start = '2008-01-01')
+#df = yf.download('2330.TW', start = '2008-01-01')
+#stock = yf.Ticker('2882.TW')
+#eps = stock.info['trailingEps']
+#print(eps)
+#stock_price = stock.history(period="max")
+#stock_price = stock_price.reset_index()
+#stock_price = stock_price.drop(columns = ["Date"])
+#print(stock_price); print(stock_price.dtypes);
+#stock_price.to_excel('df.xlsx', index=True); exit()
+#df = yf.download('^TWII ')
+#df = yf.download('0050.TW', start = '2010-01-01')
+df=df[df['Volume']!=0]
+#print(df.isna().sum())
+# }}} yf data access
 #{{{ create timeline
 time = pd.date_range(start='1900-01-01', end=pd.Timestamp.today(), freq='D')
 time = pd.DataFrame(time, columns=['Date'])
 time.set_index('Date',inplace=True)
 #}}}
-#{{{ cycle indicator
-#https://index.ndc.gov.tw/n/zh_tw/data/eco#/
-import json
-import numpy as np
-from pprint import pprint
-
-with open('c.json') as j:
-    j = json.load(j)
-data = pd.json_normalize(j['line']['34']['data'])
-data = data[['x']]
-data = data.rename(columns={'x': 'Date'})
-data['Date'] = data['Date'] + '27'
-data['Date'] = pd.to_datetime(data['Date'], format='%Y%m%d')
-data['Date'] = data['Date'] + pd.DateOffset(months=1)
-data['FL'] = pd.json_normalize(j['line']['34']['data'])['y']
-data['FLD1'] = data['FL'].rolling(window=2).apply(lambda row: row.iloc[1] - row.iloc[0], raw=False)
-data['FLD2'] = data['FLD1'].rolling(window=2).apply(lambda row: row.iloc[1] - row.iloc[0], raw=False)
-data['FLD1PN'] = data['FLD1'].apply(lambda x: 1 if x >= 0 else (-1 if x < 0 else np.nan))
-data['FLD2PN'] = data['FLD2'].apply(lambda x: 1 if x >= 0 else (-1 if x < 0 else np.nan))
-data['FLState'] = data.apply(lambda x: 0.5 if (x['FLD1PN'] >= 0 and x['FLD2PN'] >=0) else (1.0 if (x['FLD1PN'] >= 0 and x['FLD2PN'] < 0) else (-0.5 if (x['FLD1PN'] < 0 and x['FLD2PN'] < 0) else (-1.0 if (x['FLD1PN'] < 0 and x['FLD2PN'] >= 0) else None))), axis=1)
-data['SL'] = pd.json_normalize(j['line']['33']['data'])['y']
-data['SLD1'] = data['SL'].rolling(window=2).apply(lambda row: row.iloc[1] - row.iloc[0], raw=False)
-data['SLD2'] = data['SLD1'].rolling(window=2).apply(lambda row: row.iloc[1] - row.iloc[0], raw=False)
-data['SLD1PN'] = data['SLD1'].apply(lambda x: 1 if x >= 0 else (-1 if x < 0 else np.nan))
-data['SLD2PN'] = data['SLD2'].apply(lambda x: 1 if x >= 0 else (-1 if x < 0 else np.nan))
-data['SLState'] = data.apply(lambda x: 0.5 if (x['SLD1PN'] >= 0 and x['SLD2PN'] >=0) else (1.0 if (x['SLD1PN'] >= 0 and x['SLD2PN'] < 0) else (-0.5 if (x['SLD1PN'] < 0 and x['SLD2PN'] < 0) else (-1.0 if (x['SLD1PN'] < 0 and x['SLD2PN'] >= 0) else None))), axis=1)
-data['Light'] = pd.json_normalize(j['line']['2']['data'])['y']
-data.set_index('Date',inplace=True)
-data = pd.concat([time,data],axis=1)
-data = data.ffill()
-df = pd.concat([df,data],axis=1)
-df = df.dropna()
-#}}}
-##{{{ manufacturing indicator
-with open('m.json') as j:
-    j = json.load(j)
-
-data = pd.json_normalize(j['line']['55']['data']) # save indicator
-data = data[['x']]
-data = data.rename(columns={'x': 'Date'})
-data['Date'] = data['Date'] + '01'
-data['Date'] = pd.to_datetime(data['Date'], format='%Y%m%d')
-data['Date'] = data['Date'] + pd.DateOffset(months=1)
-data['PMI'] = pd.json_normalize(j['line']['55']['data'])['y']
-data['Future'] = pd.json_normalize(j['line']['66']['data'])['y']
-
-data.set_index('Date',inplace=True)
-data = pd.concat([time,data],axis=1)
-data = data.ffill()
-df = pd.concat([df,data],axis=1)
-df = df.dropna()
-#}}}
-#{{{ signal
-import numpy as np
-df['Signal'] = df['FLD1'].rolling(window=2).apply(lambda x: 1 if (x.iloc[1] >= 0 and x.iloc[0] < 0) else (-1 if (x.iloc[1] < 0 and x.iloc[0] >= 0) else 0))
-#}}}
-#{{{ figure
-import plotly.graph_objs as go
-from plotly.subplots import make_subplots
-fig = make_subplots(rows=5, cols=1, shared_xaxes=True, row_heights=[20,2,2,2,2], vertical_spacing=0)
-fig.append_trace(go.Candlestick(x = df.index, open = df['Open'], high = df['High'], low = df['Low'], close = df['Close']), row=1, col=1)
-fig.add_scatter(x = df.index, y = df['FLState'], name = 'FLState', mode = "lines", line_color= "Black", row=2 ,col=1)
-fig.add_scatter(x = df.index, y = df['SLState'], name = 'SLState', mode = "lines", line_color= "Black", row=3 ,col=1)
-fig.add_scatter(x = df.index, y = df['Future'], name = 'Future', mode = "lines", line_color= "Black", row=4 ,col=1)
-fig.add_scatter(x = df.index, y = df['Light'], name = 'Light', mode = "lines", line_color= "Black", row=5 ,col=1)
-fig.update_layout(xaxis_rangeslider_visible=False)
-fig.update_layout(hovermode="x unified")
-fig.update_layout(hoversubplots="axis")
-fig.update_traces(xaxis='x1')
-fig.update_layout(margin=dict(l=0.01,r=0.01,t=30,b=0.01))
-fig.show()
-#}}} figure
-#{{{ backtesting
-from backtesting import Strategy
-from backtesting import Backtest
-import backtesting
-
-def SIGNAL():
-    return df['Signal']
-
-class BreakOut(Strategy):
-    def init(self):
-        super().init()
-
-        self.signal1 = self.I(SIGNAL)
-
-    def next(self):
-        super().next()
-
-        if self.signal1 == 1:
-            self.buy()
-        elif self.signal1 == -1:
-            self.position.close()
-
-bt = Backtest(df, BreakOut, cash=10000000, commission=.000, exclusive_orders=True)
-stat = bt.run()
-print(stat)
-bt.plot()
-#}}}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-exit()
-
-#def l_cycle_signal(now, pre):
-#    if(now > 0 and pre < 0):
-#        return 1
-#    elif(now < 0 and pre > 0):
-#        return -1
-#    else:
-#        return 0
-#df['LCycleSignal'] = df['LDiff1'].rolling(window=2).apply(lambda row: l_cycle_signal(row.iloc[1], row.iloc[0]), raw=False)
-
-#def l_cycle_pos(x):
-#    if x['LCycleSignal'] == 1:
-#        return -1
-#    elif x['LCycleSignal'] == -1:
-#        return 1
-#    else:
-#        return np.nan
-#df['LCyclePos'] = df.apply(lambda row: l_cycle_pos(row), axis=1)
-#}}}
-
-
-##{{{ cycle indicator
-##Monitoring Indicators(Light Signal)       float64
-##Monitoring indicators(Total Score)        float64
-##Composite Leading Index(point)            float64
-##Trend-adjusted Leading Index(point)       float64
-##Composite Coincident Index(point)         float64
-##Trend-adjusted Coincident Index(point)    float64
-##Composite Lagging Index(point)            float64
-##Trend-adjusted Lagging Index(point)       float64
-#data = pd.read_csv('c.csv')
-#data = data.iloc[1:]
-#data = data.drop(columns = ['Monitoring Indicators(Light Signal)'])
-#data.rename(columns={ data.columns[0]: "Date" }, inplace = True)
-#data['Date'] = data['Date'] + '27'
-#data['Date'] = pd.to_datetime(data['Date'], format='%Y-%m%d')
-#data['Date'] = data['Date'] + pd.DateOffset(months=1)
-#data.set_index('Date',inplace=True)
-#data = data.astype(float)
-#data = data[['Composite Leading Index(point)', 'Trend-adjusted Leading Index(point)']]
-#data = data.rename(columns={'Composite Leading Index(point)': 'FL', 'Trend-adjusted Leading Index(point)': 'SL'})
-#data['FLD1'] = data['FL'].rolling(window=2).apply(lambda row: row.iloc[1] - row.iloc[0], raw=False)
-#data['FLD2'] = data['FLD1'].rolling(window=2).apply(lambda row: row.iloc[1] - row.iloc[0], raw=False)
-#data['SLD1'] = data['SL'].rolling(window=2).apply(lambda row: row.iloc[1] - row.iloc[0], raw=False)
-#data['SLD2'] = data['SLD1'].rolling(window=2).apply(lambda row: row.iloc[1] - row.iloc[0], raw=False)
-#printxlsx(data)
-#data = pd.concat([time,data],axis=1)
-#data = data.ffill()
-##}}}
-##{{{ manufacturing indicator
-##Manufacturing PMI                                    float64
-##New Orders                                           float64
-##Production                                           float64
-##Employment                                           float64
-##Supplier Deliveries(%)                               float64
-##Inventories(%)                                       float64
-##Customers' Inventories(%)                            float64
-##Prices(%)                                            float64
-##Backlog of Orders(%)                                 float64
-##Exports(%)                                           float64
-##Imports(%)                                           float64
-##Future Outlooks(%)                                   float64
-##Manufacturing PMI (Seasonally Adjusted)(%)           float64
-##New Orders(Seasonally Adjusted)(%)                   float64
-##Production(Seasonally Adjusted)(%)                   float64
-##Employment(Seasonally Adjusted)(%)                   float64
-#data = pd.read_csv('m.csv')
-#data = data.iloc[1:]
-#data = data.dropna()
-#data = data.drop(columns = ['Manufacturing PMI', 'New Orders', 'Production', 'Employment'])
-#data.rename(columns={ data.columns[0]: "Date" }, inplace = True)
-#data['Date'] = data['Date'] + '01'
-#data['Date'] = pd.to_datetime(data['Date'], format='%Y-%m%d')
-#data['Date'] = data['Date'] + pd.DateOffset(months=1)
-#data.set_index('Date',inplace=True)
-#data = data.astype(float)
-#data = data[['Future Outlooks(%)', 'Manufacturing PMI (Seasonally Adjusted)(%)','New Orders(Seasonally Adjusted)(%)', 'Production(Seasonally Adjusted)(%)', 'Employment(Seasonally Adjusted)(%)']]
-#data = pd.concat([time,data],axis=1)
-#data = data.ffill()
-##}}}
-
-
 ##{{{ statements data access
 ##https://www.youtube.com/watch?v=FWF3KMj_AA8&list=PLF4auM3DnsfLQroX9WV0nzczYJ9Dtuy6G
 #import requests
@@ -293,46 +79,69 @@ exit()
 #print(data); print(data.dtypes); data.to_excel('data.xlsx', index=True); exit()
 #
 ##}}} statements data access
-##{{{ LCycle data access
-## https://index.ndc.gov.tw/n/zh_tw/data/eco/indicators#/
-## https://yhhuang1966.blogspot.com/2024/06/python_21.html
-## https://www.youtube.com/watch?v=oeSNa1cHB3o
-#url='https://index.ndc.gov.tw/n/json/data/eco/indicators'
-#response=requests.post(url)
-#data = json.loads(response.text)
-#pprint(data); print(data.dtypes); exit()
-#data = pd.json_normalize(data['line']['33']['data']) # detect the highest indicator
-##data = pd.json_normalize(data['line']['34']['data']) # save indicator
+#{{{ website data access
+# https://index.ndc.gov.tw/n/zh_tw/data/eco/indicators#/
+# https://yhhuang1966.blogspot.com/2024/06/python_21.html
+# https://www.youtube.com/watch?v=oeSNa1cHB3o
+import requests
+import json
+from pprint import pprint
+url='https://index.ndc.gov.tw/n/json/data/eco/indicators'
+response=requests.post(url)
+data = json.loads(response.text) #; pprint(data)
+data = pd.json_normalize(data['line']['33']['data']) # detect the highest indicator
+#data = pd.json_normalize(data['line']['34']['data']) # save indicator
+
+# https://utrustcorp.com/python-pandas/
+# https://medium.com/ntu-data-analytics-club/python-advanced-pandas-%E5%A5%97%E4%BB%B6%E5%BF%85%E5%AD%B8%E8%B3%87%E6%96%99%E8%99%95%E7%90%86%E5%87%BD%E6%95%B8%E4%BB%8B%E7%B4%B9%E8%88%87%E6%87%89%E7%94%A8-9b53ff16fab2
+data = data.drop(columns = ["id"])
+data = data.rename(columns={'x': 'Date'})
+data = data.rename(columns={'y': 'L'})
+data['Date'] = data['Date'] + '27'
+data['Date'] = pd.to_datetime(data['Date'], format='%Y%m%d')
+data['Date'] = data['Date'] + pd.DateOffset(months=1)
+data['LDiff1'] = data['L'].rolling(window=2).apply(lambda row: row.iloc[1] - row.iloc[0], raw=False)
+data['LDiff2'] = data['LDiff1'].rolling(window=2).apply(lambda row: row.iloc[1] - row.iloc[0], raw=False)
+
+def l_cycle_fun(row):
+    ldiff1 = row['LDiff1']
+    ldiff2 = row['LDiff2']
+    if(ldiff1 > 0 and ldiff2 > 0):
+        return 0.5
+    elif(ldiff1 > 0 and ldiff2 < 0):
+        return 1
+    elif(ldiff1 < 0 and ldiff2 < 0):
+        return -0.5
+    elif(ldiff1 < 0 and ldiff2 > 0):
+        return -1
+data['LCycle'] = data.apply(lambda row: l_cycle_fun(row), axis=1)
+
+data.set_index('Date',inplace=True)
+data = pd.concat([time,data],axis=1)
+data = data.ffill()
+df = pd.concat([df,data],axis=1)
+#}}} website data access
+##{{{ balance
+##https://www.istock.tw/post/twmarginrequirement
+##https://finmind.github.io/tutor/TaiwanMarket/Chip/#taiwanstockmarginpurchaseshortsale
+#from FinMind.data import DataLoader
 #
-## https://utrustcorp.com/python-pandas/
-## https://medium.com/ntu-data-analytics-club/python-advanced-pandas-%E5%A5%97%E4%BB%B6%E5%BF%85%E5%AD%B8%E8%B3%87%E6%96%99%E8%99%95%E7%90%86%E5%87%BD%E6%95%B8%E4%BB%8B%E7%B4%B9%E8%88%87%E6%87%89%E7%94%A8-9b53ff16fab2
-#data = data.drop(columns = ["id"])
-#data = data.rename(columns={'x': 'Date'})
-#data = data.rename(columns={'y': 'L'})
-#data['Date'] = data['Date'] + '27'
-#data['Date'] = pd.to_datetime(data['Date'], format='%Y%m%d')
-#data['Date'] = data['Date'] + pd.DateOffset(months=1)
-#data['LDiff1'] = data['L'].rolling(window=2).apply(lambda row: row.iloc[1] - row.iloc[0], raw=False)
-#data['LDiff2'] = data['LDiff1'].rolling(window=2).apply(lambda row: row.iloc[1] - row.iloc[0], raw=False)
-#
-#def l_cycle_fun(row):
-#    ldiff1 = row['LDiff1']
-#    ldiff2 = row['LDiff2']
-#    if(ldiff1 > 0 and ldiff2 > 0):
-#        return 0.5
-#    elif(ldiff1 > 0 and ldiff2 < 0):
-#        return 1
-#    elif(ldiff1 < 0 and ldiff2 < 0):
-#        return -0.5
-#    elif(ldiff1 < 0 and ldiff2 > 0):
-#        return -1
-#data['LCycle'] = data.apply(lambda row: l_cycle_fun(row), axis=1)
-#
+#api = DataLoader()
+## api.login_by_token(api_token='token')
+#api.login(user_id='jnjn0022',password='jason0022')
+#data = api.taiwan_stock_margin_purchase_short_sale_total(
+#    start_date='2001-01-01',
+#)
+#data['sell'] = data['sell'] - data['buy']
+#index = data[((data['name'] == 'MarginPurchase') | (data['name'] == 'ShortSale'))].index
+#data = data.drop(index)
+#data = data.rename(columns={'date': 'Date'})
+#data['Date'] = pd.to_datetime(data['Date'], format='%Y-%m-%d')
 #data.set_index('Date',inplace=True)
-#data = pd.concat([time,data],axis=1)
-#data = data.ffill()
+#print(data)
 #df = pd.concat([df,data],axis=1)
-##}}} website data access
+#exit()
+##}}}
 df = df.dropna()
 #{{{ LCycle
 #https://www.youtube.com/watch?v=WVNB_6JRbl0
@@ -435,6 +244,12 @@ stat = bt.run()
 print(stat)
 bt.plot()
 #}}}
+# reference
+#https://lglbengo.wordpress.com/
+
+
+#print(df); print(df.dtypes); exit()
+#print(df); print(df.dtypes); df.to_excel('df.xlsx', index=True); exit()
 
 #{{{ example
 #import pandas as pd
@@ -688,7 +503,3 @@ bt.plot()
 #
 #import requests
 #}}}
-
-# reference
-#https://lglbengo.wordpress.com/
-
