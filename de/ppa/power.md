@@ -79,11 +79,13 @@ Qx = 瞬間短路時間 \*  瞬間短路電流
 | Status Dependency (Input Value)               | N/A              | Yes                      | Yes                       | Yes           |
 | Path Dependency (Input Value -> Output Value) | N/A              | Yes                      | Yes                       | N/A           |
 | Wire Load                                     | Yes              | N/A                      | Yes                       | N/A           |
-| Input_Transition_Time                         | N/A              | 正比                       | 正比                        | N/A           |
-| Output_Capacitation                           | 正比               | N/A                      | 反比                        | N/A           |
+| Input_Transition_Time                         | N/A              | 正比 **(先進製成非綫性)**         | 正比 **(先進製成非綫性)**          | N/A           |
+| Output_Capacitation                           | 正比               | N/A                      | 反比 **(先進製成非綫性)**          | N/A           |
 | Tr                                            | 正比               | 正比                       | 正比                        | N/A           |
 | V                                             | 正比               | 正比                       | 正比                        | 正比            |
 | Vth                                           | N/A              | N/A                      | N/A                       | 反比            |
+
+**重要結論: 先進製成的Internal Power > Switching Power, 但先進製成的Internal Power非綫性, 使得Dynamic Power無法預測**
 
 Tr(翻轉率): Toggle_Rate * Freq
 
