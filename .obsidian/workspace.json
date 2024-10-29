@@ -4,32 +4,29 @@
     "type": "split",
     "children": [
       {
-        "id": "a27de4b365c5fafe",
+        "id": "1a4b278b4823299c",
         "type": "tabs",
         "children": [
           {
-            "id": "08e98b8390a28d5a",
+            "id": "f90203d8afa8deed",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "financial/finmind.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
+                "file": "de/ppa/include/Pasted image 20240926110143.png"
               },
-              "icon": "lucide-file",
-              "title": "finmind"
+              "icon": "lucide-image",
+              "title": "Pasted image 20240926110143"
             }
           },
           {
-            "id": "6d82f6a06d25f121",
+            "id": "b522d685aba7792f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "de/ppa/power.md",
-                "mode": "source",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               },
@@ -37,8 +34,7 @@
               "title": "power"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -50,7 +46,7 @@
       {
         "id": "afadd362b9dadcb6",
         "type": "tabs",
-        "dimension": 73.73929590865842,
+        "dimension": 62.21264367816091,
         "children": [
           {
             "id": "e659ba5d1cf0724d",
@@ -97,10 +93,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "de/ppa/timing.md"
+                "file": "de/ppa/include/Pasted image 20240926110143.png"
               },
               "icon": "lucide-list",
-              "title": "Outline of timing"
+              "title": "Outline of Pasted image 20240926110143"
             }
           }
         ],
@@ -109,7 +105,7 @@
       {
         "id": "ce31482b6afb7740",
         "type": "tabs",
-        "dimension": 26.26070409134158,
+        "dimension": 37.787356321839084,
         "children": [
           {
             "id": "8cb3b947f548a8b1",
@@ -125,7 +121,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 335.5110321044922
+    "width": 276.5
   },
   "right": {
     "id": "cb661d0a10776c07",
@@ -154,7 +150,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "de/fctrl/fctrl.md",
+                "file": "de/ppa/include/Pasted image 20240926110143.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -164,7 +160,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for fctrl"
+              "title": "Backlinks for Pasted image 20240926110143"
             }
           },
           {
@@ -173,16 +169,15 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "de/fctrl/fctrl.md",
+                "file": "de/ppa/include/Pasted image 20240926110143.png",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from fctrl"
+              "title": "Outgoing links from Pasted image 20240926110143"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -191,68 +186,67 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "obsidian-to-anki-plugin:Obsidian_to_Anki - Scan Vault": true,
       "switcher:Open quick switcher": true,
       "graph:Open graph view": true,
       "canvas:Create new canvas": true,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": true,
-      "command-palette:Open command palette": true
+      "command-palette:Open command palette": true,
+      "obsidian-to-anki-plugin:Obsidian_to_Anki - Scan Vault": false
     }
   },
-  "active": "6d82f6a06d25f121",
+  "active": "19a60b1e44f4e87a",
   "lastOpenFiles": [
-    "de/ppa/timing.md",
     "de/ppa/power.md",
-    "de/v/verilog.md",
-    "de/fctrl/ref/~$CodingStyle_v1.1.pptx",
-    "de/fctrl/ref/~$rtl.pptx",
-    "de/v/ref/coding_guidelines.pdf",
-    "de/format.md",
     "de/ppa/evaluation.md",
-    "workflow/git/git.md",
-    "workflow/git/ref/~$Git Tutorial.pptx",
-    "de/amba_ahb/ahb.md",
-    "de/fctrl/fctrl.md",
+    "de/ppa/include/Pasted image 20240924133224.png",
+    "de/ppa/include/Pasted image 20240925115734.png",
+    "de/ppa/include/Pasted image 20240925143438.png",
+    "de/ppa/include/Pasted image 20240924221249.png",
+    "de/ppa/include/Pasted image 20240924221233.png",
+    "de/ppa/include/Pasted image 20240611163742.png",
+    "de/ppa/include/Pasted image 20240611163551.png",
+    "de/amba_axi/ddr_latency.md",
+    "de/ppa/include/Pasted image 20240925185456.png",
+    "de/ppa/include/Pasted image 20240926110143.png",
+    "de/ppa/include/Pasted image 20240925185041.png",
     "conflict-files-obsidian-git.md",
     "financial/backtesting/test.py",
-    "financial/backtesting/df.xlsx",
-    "financial/backtesting/data.xlsx",
-    "financial/backtesting/cycle_investment_bk_20241016.py",
     "financial/backtesting/BreakOut.html",
-    "financial/RSI分析.md",
     "financial/finmind.md",
-    "de/fifo/fifo.md",
-    "de/amba_axi/include/1_preload_pipeline.svg",
-    "de/amba_axi/axi.md",
-    "de/amba_ahb/ref/IHI0033C_amba_ahb_protocol_spec.pdf",
+    "financial/backtesting/cycle_investment.py",
+    "financial/backtesting",
+    "de/ppa/timing.md",
     "Untitled.md",
-    "de/Pasted image 20240606125937.png",
-    "de/Pasted image 20240606151606.png",
-    "de/Pasted image 20240828160508.png",
-    "de/Pasted image 20240606160337.png",
-    "financial/隨機漫步理論分析.md",
-    "de/amba_ahb/include/ahb_lite_wo_critical_path.svg",
-    "Pasted image 20241015174105.png.md",
-    "Pasted image 20241015174105.png",
-    "workflow/git/include/Pasted image 20241007164708.png",
-    "workflow/git/include/Pasted image 20241007164338.png",
-    "workflow/git/include/Pasted image 20241007141827.png",
-    "de/ppa/spyglass.md",
-    "date/restaurant.md",
-    "Pasted image 20240924162400.png.md",
+    "financial/cycle_investment.py",
+    "workflow/git/ref/Git Tutorial.pptx",
+    "workflow/git/ref/Git Branch for AnDLA project.pptx",
+    "workflow/git/ref",
+    "workflow/git/include",
+    "workflow/git/git.md",
+    "workflow/git",
+    "de/ppa/performance.md",
+    "de/ppa/area.md",
+    "Pasted image 20240827105334.png.md",
+    "de/ppa/ppa.md",
     "de/fpu/f16mac.md",
-    "de/fpu/f16dsu.md",
-    "de/arithmetic/divider.md",
-    "de/arithmetic/booth.md",
-    "de/ram/ram.md",
     "maketing/marketing.md",
-    "de/amba_axi/ddr_latency.md",
-    "dv/uvm/include/uvm_factory1.canvas",
+    "de/fpu/f16macksa.md",
+    "language/pdf_downlaod.md",
+    "workflow/ganttproject.md",
+    "workflow/bypass_paywall.md",
+    "date/restaurant.md",
+    "house/house.md",
+    "language/2024-06-03.md",
+    "de/ppa/spyglass.md",
+    "de/note.md",
+    "de/format.md",
+    "language/2024-05-31.md",
     "uvm_factory.canvas",
+    "dv/uvm/include/uvm_factory1.canvas",
     "dv/uvm/uvm_factory.canvas",
     "dv/uvm/include/uvm_do_on_pri_with.canvas",
-    "dv/rename order_of_starting_sequence.canvas",
+    "dv/uvm/uvm_do.canvas",
     "Untitled.canvas",
     "Untitled 1.canvas",
     "債券/債券.canvas"
