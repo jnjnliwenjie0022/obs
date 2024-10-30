@@ -21,24 +21,8 @@
               "icon": "lucide-file",
               "title": "finmind"
             }
-          },
-          {
-            "id": "6d82f6a06d25f121",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "de/ppa/power.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "power"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -200,8 +184,9 @@
       "command-palette:Open command palette": true
     }
   },
-  "active": "6d82f6a06d25f121",
+  "active": "19a60b1e44f4e87a",
   "lastOpenFiles": [
+    "de/ppa/include/Pasted image 20241030105905.png",
     "financial/backtesting/m.json",
     "financial/backtesting/m.csv",
     "financial/backtesting/c.xls",
@@ -212,7 +197,6 @@
     "financial/backtesting/_archive/data.xlsx",
     "financial/backtesting/_archive/cycle_investment_bk_20241022.py",
     "financial/backtesting/_archive/cycle_investment_bk_20241020.py",
-    "financial/backtesting/_archive/cycle_investment_bk_20241016.py",
     "de/ppa/include/Pasted image 20240926110143.png",
     "de/ppa/include/Pasted image 20240925185456.png",
     "de/ppa/include/Pasted image 20240925185041.png",

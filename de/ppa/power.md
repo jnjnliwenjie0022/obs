@@ -119,7 +119,9 @@ input pin internal power (internal switch power)
 
 ![[Pasted image 20240924154029.png]]
 
-output pin internal (short power)
+output pin internal power (short power)
+
+![[Pasted image 20241030105905.png]]
 
 ![[Pasted image 20240924154212.png]]
 ## switch_power
