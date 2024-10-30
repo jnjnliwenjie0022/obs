@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "financial/finmind.md",
+                "file": "de/ppa/power.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "finmind"
+              "title": "power"
             }
           }
         ]
@@ -184,8 +184,10 @@
       "command-palette:Open command palette": true
     }
   },
-  "active": "19a60b1e44f4e87a",
+  "active": "08e98b8390a28d5a",
   "lastOpenFiles": [
+    "de/ppa/evaluation.md",
+    "de/ppa/power.md",
     "de/ppa/include/Pasted image 20241030105905.png",
     "financial/backtesting/m.json",
     "financial/backtesting/m.csv",
@@ -201,10 +203,8 @@
     "de/ppa/include/Pasted image 20240925185456.png",
     "de/ppa/include/Pasted image 20240925185041.png",
     "de/ppa/timing.md",
-    "de/ppa/power.md",
     "de/v/verilog.md",
     "de/format.md",
-    "de/ppa/evaluation.md",
     "workflow/git/git.md",
     "de/amba_ahb/ahb.md",
     "de/fctrl/fctrl.md",
@@ -222,7 +222,6 @@
     "financial/隨機漫步理論分析.md",
     "de/amba_ahb/include/ahb_lite_wo_critical_path.svg",
     "Pasted image 20241015174105.png.md",
-    "Pasted image 20241015174105.png",
     "de/ppa/spyglass.md",
     "date/restaurant.md",
     "Pasted image 20240924162400.png.md",
