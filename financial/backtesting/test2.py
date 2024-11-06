@@ -16,6 +16,12 @@ headers = {'user-agent': user_agent.random}
 # 獲取 html 資訊
 res = requests.get(url, headers = headers)
 tmp = BeautifulSoup(res.text, 'lxml').select_one('tb-stock tbChip tbHide')
+
+table = soup.find("table", class_="tb-stock tbChip tbHide")
+data = table.find_all("tr")
+print(data)
+exit()
+
 df = pd.read_html(tmp.prettify())[0]
 # 優化一下欄位名稱
 df.columns = ['stock_no', 'stock_name', 'price', 'ud', 'udp', 'ud_w', 'amp','open', 'high', 'low', 'price_y', 'vol', 'vol_p']
