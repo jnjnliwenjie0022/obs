@@ -9,12 +9,12 @@ def printxlsx (data):
     print(data); print(data.dtypes); data.to_excel('data.xlsx', index=True); exit()
 #}}}
 #{{{ timeline
-def timeline ():
-    time = pd.date_range(start='1900-01-01', end=pd.Timestamp.today(), freq='D')
+def timeline (start_time):
+    time = pd.date_range(start=start_time, end=pd.Timestamp.today(), freq='D')
     time = pd.DataFrame(time, columns=['Date'])
     time.set_index('Date',inplace=True)
-    df = time
-    return df
+
+    return time
 #}}}
 #{{{ up-to-date OECD CLI
 def up_to_date_oecd_cli():
@@ -154,19 +154,25 @@ def load_oecd_cli (df):
     data['CLID2PN'] = data['CLID2'].apply(lambda x: 1 if x >= 0 else (-1 if x < 0 else np.nan))
     data['CLIState'] = data.apply(lambda x: 0.5 if (x['CLID1PN'] >= 0 and x['CLID2PN'] >=0) else (1.0 if (x['CLID1PN'] >= 0 and x['CLID2PN'] < 0) else (-0.5 if (x['CLID1PN'] < 0 and x['CLID2PN'] < 0) else (-1.0 if (x['CLID1PN'] < 0 and x['CLID2PN'] >= 0) else None))), axis=1)
     df = pd.concat([df,data],axis=1)
-    df = df.dropna(how='all')
+    #df = df.dropna(how='all')
+
+    return df
 #}}}
 #{{{ load NDC BCI
 def load_ndc_bci(df):
     csv = pd.read_excel('./database/ndc_bci.xlsx')
     csv.set_index('Date',inplace=True)
     df = pd.concat([df,csv],axis=1)
-    df = df.dropna(how='all')
+    #df = df.dropna(how='all')
+
+    return df
 #}}}
 #{{{ dfill
-def dfill (time, df):
-    df = pd.concat([time,df],axis=1)
+def dfill (df):
+    #df = pd.concat([time,df],axis=1)
     df = df.ffill()
+
+    return df
 #}}}
 #{{{ load stock
 def load_stock(df):
@@ -174,6 +180,8 @@ def load_stock(df):
     csv.set_index('Date',inplace=True)
     df = pd.concat([df,csv],axis=1)
     df = df[df['Volume'].notna()]
+
+    return df
 #}}}
 ##{{{ EMA
 #import pandas_ta as ta
@@ -210,12 +218,10 @@ def main():
     #up_to_date_ndc_bci()
     #up_to_date_stock_by_tv()
     #up_to_date_stock_by_yf()
-    time = timeline()
-    df = time
-    print(df)
+    df = timeline('1900-01-01')
     df = load_oecd_cli(df)
     df = load_ndc_bci(df)
-    df = dfill(time, df)
+    df = dfill(df)
     df = load_stock(df)
     exit()
 
