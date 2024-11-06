@@ -8,7 +8,7 @@ result = requests.get(url);
 result.encoding = 'big5-hkscs'
 result.encoding = 'big5'
 print("encoding: %s" % result.encoding)
-print("content: \n%s" % result.json())
+print("content: \n%s" % result.text)
 
 # 定義API的URL
 #res = requests.get(url)
