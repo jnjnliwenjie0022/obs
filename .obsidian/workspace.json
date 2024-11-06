@@ -197,6 +197,7 @@
   },
   "active": "f90203d8afa8deed",
   "lastOpenFiles": [
+    "financial/backtesting/test2.py",
     "financial/backtesting/cycle_investment.py~",
     "financial/backtesting/4913",
     "financial/backtesting/test.py~",
@@ -224,7 +225,6 @@
     "financial/cycle_investment.py",
     "workflow/git/ref/Git Tutorial.pptx",
     "workflow/git/ref/Git Branch for AnDLA project.pptx",
-    "workflow/git/ref",
     "workflow/git/git.md",
     "de/ppa/performance.md",
     "de/ppa/area.md",
