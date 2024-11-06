@@ -197,6 +197,7 @@
   },
   "active": "f90203d8afa8deed",
   "lastOpenFiles": [
+    "financial/backtesting/test.py",
     "financial/backtesting/cycle_investment.py~",
     "financial/backtesting/4913",
     "de/ppa/include/Pasted image 20241030105905.png",
@@ -213,7 +214,6 @@
     "de/ppa/include/Pasted image 20240925185456.png",
     "de/ppa/include/Pasted image 20240926110143.png",
     "conflict-files-obsidian-git.md",
-    "financial/backtesting/test.py",
     "financial/backtesting/BreakOut.html",
     "financial/finmind.md",
     "financial/backtesting/cycle_investment.py",
