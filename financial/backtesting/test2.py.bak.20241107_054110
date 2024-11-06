@@ -8,7 +8,7 @@ from fake_useragent import UserAgent
 from datetime import datetime
 
 # 抓取股票資訊
-url = "https://histock.tw/stock/branch.aspx?no=2317&day=180"
+url = "https://histock.tw/stock/rank.aspx?p=all"
 user_agent = UserAgent()
 headers = {'user-agent': user_agent.random}
 
