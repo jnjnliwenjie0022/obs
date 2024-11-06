@@ -213,11 +213,12 @@ def load_stock(df):
 #df['RSI_6dEffPos'] = df.apply(lambda row: rsi_6d_eff_pos(row), axis=1)
 #}}} RSI
 def main():
-    #up_to_date_oecd_cli()
+    up_to_date_oecd_cli()
     #up_to_date_fred_gds()
     #up_to_date_ndc_bci()
     #up_to_date_stock_by_tv()
     #up_to_date_stock_by_yf()
+    exit()
     df = timeline('1900-01-01')
     df = load_oecd_cli(df)
     df = load_ndc_bci(df)
