@@ -1,4 +1,4 @@
-
+#--coding:utf-8--
 import requests
 import json
 
@@ -9,10 +9,17 @@ url = 'https://histock.tw/stock/chip/chartdata.aspx?days=365&m=dailyk%2Cclose%2C
 response=requests.post(url)
 print(response)
 
-print(response.content)
-#print(response.text)
-data = json.loads(response.content) #; pprint(data)
-print(data)
+string = response.decode('utf-8')
+json_obj = json.loads(string)
+print(json_obj)
+
+#print(response.status_code) # 200
+#print(response.json())
+
+#print(response.content)
+##print(response.text)
+#data = json.loads(response.content) #; pprint(data)
+#print(data)
 #data = pd.json_normalize(data['line']['33']['data']) # detect the highest indicator
 
 #print(res)
