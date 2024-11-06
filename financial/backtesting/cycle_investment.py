@@ -34,6 +34,7 @@ def up_to_date_oecd_cli():
     data['Date'] = pd.to_datetime(data['Date'], format='%Y-%m%d')
     data['Date'] = data['Date'] + pd.DateOffset(months=1)
     data.set_index('Date',inplace=True)
+    print(data)
     data.to_excel('./database/oecd_cli.xlsx', index=True)
 #}}}
 #{{{ up-to-date FRED DGS
@@ -95,13 +96,8 @@ def up_to_date_ndc_bci():
     data['SLState'] = data.apply(lambda x: 0.5 if (x['SLD1PN'] >= 0 and x['SLD2PN'] >=0) else (1.0 if (x['SLD1PN'] >= 0 and x['SLD2PN'] < 0) else (-0.5 if (x['SLD1PN'] < 0 and x['SLD2PN'] < 0) else (-1.0 if (x['SLD1PN'] < 0 and x['SLD2PN'] >= 0) else None))), axis=1)
     data['Light'] = pd.json_normalize(j['line']['2']['data'])['y']
     data.set_index('Date',inplace=True)
-
     print(data)
     data.to_excel('./database/ndc_bci.xlsx', index=True)
-    #data = pd.concat([time,data],axis=1)
-    #data = data.ffill()
-    #df = pd.concat([df,data],axis=1)
-    #df = df.dropna()
 #}}}
 #{{{ up-to-date stock by TV
 def up_to_date_stock_by_tv():
@@ -161,19 +157,19 @@ def load_oecd_cli (df):
     df = df.dropna(how='all')
 #}}}
 #{{{ load NDC BCI
-def load_ndc_bci(df)
+def load_ndc_bci(df):
     csv = pd.read_excel('./database/ndc_bci.xlsx')
     csv.set_index('Date',inplace=True)
     df = pd.concat([df,csv],axis=1)
     df = df.dropna(how='all')
 #}}}
 #{{{ dfill
-def dfill (time, df)
+def dfill (time, df):
     df = pd.concat([time,df],axis=1)
     df = df.ffill()
 #}}}
 #{{{ load stock
-def load_stock(df)
+def load_stock(df):
     csv = pd.read_excel('./database/stock.xlsx')
     csv.set_index('Date',inplace=True)
     df = pd.concat([df,csv],axis=1)
@@ -209,13 +205,14 @@ def load_stock(df)
 #df['RSI_6dEffPos'] = df.apply(lambda row: rsi_6d_eff_pos(row), axis=1)
 #}}} RSI
 def main():
-    up_to_date_oecd_cli()
-    up_to_date_fred_gds()
-    up_to_date_ndc_bci()
-    up_to_date_stock_by_tv()
-    up_to_date_stock_by_yf()
+    #up_to_date_oecd_cli()
+    #up_to_date_fred_gds()
+    #up_to_date_ndc_bci()
+    #up_to_date_stock_by_tv()
+    #up_to_date_stock_by_yf()
     time = timeline()
     df = time
+    print(df)
     df = load_oecd_cli(df)
     df = load_ndc_bci(df)
     df = dfill(time, df)

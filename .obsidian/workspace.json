@@ -195,8 +195,10 @@
       "obsidian-to-anki-plugin:Obsidian_to_Anki - Scan Vault": false
     }
   },
-  "active": "19a60b1e44f4e87a",
+  "active": "f90203d8afa8deed",
   "lastOpenFiles": [
+    "financial/backtesting/4913",
+    "financial/backtesting/cycle_investment.py~",
     "de/ppa/include/Pasted image 20241030105905.png",
     "de/ppa/power.md",
     "de/ppa/evaluation.md",
@@ -210,7 +212,6 @@
     "de/amba_axi/ddr_latency.md",
     "de/ppa/include/Pasted image 20240925185456.png",
     "de/ppa/include/Pasted image 20240926110143.png",
-    "de/ppa/include/Pasted image 20240925185041.png",
     "conflict-files-obsidian-git.md",
     "financial/backtesting/test.py",
     "financial/backtesting/BreakOut.html",
@@ -225,7 +226,6 @@
     "workflow/git/ref",
     "workflow/git/include",
     "workflow/git/git.md",
-    "workflow/git",
     "de/ppa/performance.md",
     "de/ppa/area.md",
     "Pasted image 20240827105334.png.md",
