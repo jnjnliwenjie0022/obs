@@ -2,13 +2,18 @@
 #import lxml, requests
 import requests
 import json
+from bs4 import BeautifulSoup
 
 url = 'https://histock.tw/stock/chip/chartdata.aspx?days=365&m=dailyk%2Cclose%2Cpercent%2Cvolume%2Cmean5%2Cmean10%2Cmean20%2Cmean60%2Cmean120%2Cmean240%2Cmean5volume%2Cmean20volume&no=1301&bno=1590'
-result = requests.get(url);
-result.encoding = 'big5-hkscs'
-result.encoding = 'big5'
-print("encoding: %s" % result.encoding)
-print("content: \n%s" % result.text)
+response = requests.get(url);
+content = response.content.decode('utf-8', errors='ignore')  # ignore 可以略過無法解碼的字元
+print(content)
+#response.encoding = 'big5-hkscs'
+#response.encoding = 'big5'
+print("encoding: %s" % response.encoding)
+print("content: \n%s" % response.text)
+soup = BeautifulSoup(response.content, 'html.parser')
+print(soup.prettify())
 
 # 定義API的URL
 #res = requests.get(url)
