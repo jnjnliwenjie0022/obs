@@ -26,12 +26,16 @@ table = soup.find("table", class_ = "tbTable tb-stock tbChip")
 dict =
 "Branch"
 "Performance"
-"Total Profit"
-"Already Profit"
-"Not-Already Profit"
-"Buy Order"
-"Sell Order"
-""
+"Total Gain"
+"Realized Gain"
+"Unrealized Gain"
+"Overbought Order"
+"Bought Order"
+"Sold Order"
+"Average Price"
+"Average Price for Bought"
+"Average Price for Sold"
+"Current Price"
 
 
 
