@@ -15,4 +15,7 @@ res = requests.get(url, headers = headers)
 soup = BeautifulSoup(res.content, "html.parser")
 table = soup.find("table", class_="tb-stock tbChip tbHide")
 for row in table.find_all("tr")[1:]:
-    print([cell.get_text(strip=True) for cell in row.find_all("td")])
+    #print(row)
+    #print([cell.get_text(strip=True) for cell in row.find_all("td")])
+    print([cell.attrs.get('href', 'Not found!') for cell in row.find_all("a")])
+    print([cell.get_text(strip=True) for cell in row.find_all("a")])
