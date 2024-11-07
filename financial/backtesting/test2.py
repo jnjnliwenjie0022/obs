@@ -23,15 +23,17 @@ headers = {'user-agent': user_agent.random}
 login_histock = s.post(url,data=json.dumps(data),headers=headers)
 # 查看是否正確登入打開個人頁面
 url = "https://histock.tw/stock/mainprofit.aspx?no=1301&day=180"
+#url = "https://histock.tw/stock/branch.aspx?no=1301"
 response = s.get(url)
 
 #url = "https://histock.tw/stock/mainprofit.aspx?no=1301&day=180"
 #user_agent = UserAgent()
 #headers = {'user-agent': user_agent.random}
-#
+
 res = s.get(url, headers = headers)
 soup = BeautifulSoup(res.content, "html.parser")
 table = soup.find("table", class_="tbTable tb-stock tbChip")
+#table = soup.find("table", class_="tb-stock tbChip tbHide")
 print(table)
 for row in table.find_all("tr")[1:]:
     #print(row)
