@@ -10,12 +10,16 @@ from fake_useragent import UserAgent
 import json
 from io import StringIO
 
+def printxlsx (data):
+    print(data); print(data.dtypes); data.to_excel('data.xlsx', index=True); exit()
+
 ss = requests.Session()
 url = "https://histock.tw/stock/mainprofit.aspx?no=1301&day=180"
 user_agent = UserAgent()
 headers = {'user-agent': user_agent.random}
 cookies = {'MoodleSession': 'fastivalName_Mall_20240911=closeday_fastivalName_Mall_20240911; bottomADName_20240911=closeday_bottomADName_20240911; ASP.NET_SessionId=okuokh23x5wksgnodfmf0yay; g_state={"i_l":0}; fastivalName_Mall_20240911=closeday_fastivalName_Mall_20240911; bottomADName_20240911=closeday_bottomADName_20240911; NickName=Wen-JieLi; MemberNo=214566; Email=jnjn0022@gmail.com '}
 response = ss.get(url, headers = headers, cookies = cookies)
+print(response.status_code)
 soup = BeautifulSoup(response.content, "html.parser")
 
 table = soup.find("table", class_ = "tbTable tb-stock tbChip")
@@ -23,29 +27,23 @@ table = soup.find("table", class_ = "tbTable tb-stock tbChip")
 data = pd.DataFrame(columns = ["Branch","Performance","Total Gain","Realized Gain", "Unrealized Gain", "Overbought Order", "Bought Order", "Sold Order", "Average Price", "Average Price for Bought", "Average Price for Sold", "Current Price", "URL"])
 
 for row in table.find_all("tr")[1:]:
-    tmp = [cell.get_text(strip=True) for cell in row.find_all("td")]
-    tmp1 = [cell.attrs.get('href', 'Not found!') for cell in row.find_all("a")]
+    tmp_data = [cell.get_text(strip=True) for cell in row.find_all("td")]
+    tmp_str = [cell.attrs.get('href', 'Not found!') for cell in row.find_all("a")]
     new_row = { \
-        "Branch": tmp[1], \
-        "Perofrmance": tmp[2], \
-        "Total Gain": tmp[3], \
-        "Realize Gain": tmp[4], \
-        "Unrealized Gain": tmp[5], \
-        "Overbought Order": tmp[6], \
-        "Bought Order": tmp[7], \
-        "Sold Order": tmp[8], \
-        "Average Price": tmp[9], \
-        "Average Price for Bought": tmp[10], \
-        "Average Price for Sold": tmp[11], \
-        "Current Price": tmp[12], \
-        "URL": tmp1[0], \
+        "Branch": tmp_str[1], \
+        "Performance": float(tmp_data[2].replace('%', ''))/100 , \
+        "Total Gain": float(tmp_data[3].replace(',', '')), \
+        "Realized Gain": float(tmp_data[4].replace(',', '')), \
+        "Unrealized Gain": float(tmp_data[5].replace(',', '')), \
+        "Overbought Order": float(tmp_data[6].replace(',', '')), \
+        "Bought Order": float(tmp_data[7].replace(',', '')), \
+        "Sold Order": float(tmp_data[8].replace(',', '')), \
+        "Average Price": float(tmp_data[9].replace(',', '')), \
+        "Average Price for Bought": float(tmp_data[10].replace(',', '')), \
+        "Average Price for Sold": float(tmp_data[11].replace(',', '')), \
+        "Current Price": float(tmp_data[12].replace(',', '')), \
+        "URL": tmp_str[0], \
         }
     data.loc[len(data)] = new_row
-    #print([cell.attrs.get('href', 'Not found!') for cell in row.find_all("a")])
-    #print([cell.get_text(strip=True) for cell in row.find_all("td")])
 
-print(data)
-
-#for row in table.find_all("tr")[1:]:
-#    print([cell.attrs.get('href', 'Not found!') for cell in row.find_all("a")])
-#    print([cell.get_text(strip=True) for cell in row.find_all("td")])
+printxlsx(data)
