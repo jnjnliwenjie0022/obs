@@ -23,28 +23,28 @@ table = soup.find("table", class_ = "tbTable tb-stock tbChip")
 data = pd.DataFrame(columns = ["Branch","Performance","Total Gain","Realized Gain", "Unrealized Gain", "Overbought Order", "Bought Order", "Sold Order", "Average Price", "Average Price for Bought", "Average Price for Sold", "Current Price", "URL"])
 
 for row in table.find_all("tr")[1:]:
-    a = [cell.get_text(strip=True) for cell in row.find_all("td")]
-        #a = cell.get_text(strip=True)
-    print(a[2])
-#        print(cell[2])
-        #row_data = {
-        #    "Branch": cell[0]
-        #    "Perofrmance"
-        #    "Total Gain"
-        #    "Realize Gain"]
-        #    "Unrealized Gain"]
-        #    "Overbought Order"]
-        #    "Bought Order"]
-        #    "Sold Order"]
-        #    "Average Price"]
-        #    "Average Price for Bought"]
-        #    "Average Price for Sold"
-        #    "Current Price"
-        #    "URL"
-        #    }
+    tmp = [cell.get_text(strip=True) for cell in row.find_all("td")]
+    tmp1 = [cell.attrs.get('href', 'Not found!') for cell in row.find_all("a")]
+    new_row = { \
+        "Branch": tmp[1], \
+        "Perofrmance": tmp[2], \
+        "Total Gain": tmp[3], \
+        "Realize Gain": tmp[4], \
+        "Unrealized Gain": tmp[5], \
+        "Overbought Order": tmp[6], \
+        "Bought Order": tmp[7], \
+        "Sold Order": tmp[8], \
+        "Average Price": tmp[9], \
+        "Average Price for Bought": tmp[10], \
+        "Average Price for Sold": tmp[11], \
+        "Current Price": tmp[12], \
+        "URL": tmp1[0], \
+        }
+    data.loc[len(data)] = new_row
     #print([cell.attrs.get('href', 'Not found!') for cell in row.find_all("a")])
     #print([cell.get_text(strip=True) for cell in row.find_all("td")])
 
+print(data)
 
 #for row in table.find_all("tr")[1:]:
 #    print([cell.attrs.get('href', 'Not found!') for cell in row.find_all("a")])
