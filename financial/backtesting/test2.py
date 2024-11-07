@@ -7,13 +7,14 @@ import pandas as pd
 import numpy as np
 from fake_useragent import UserAgent
 
-url = "https://histock.tw/stock/branch.aspx?no=2317&day=180"
+url = "https://histock.tw/stock/mainprofit.aspx?no=1301&day=180"
 user_agent = UserAgent()
 headers = {'user-agent': user_agent.random}
 
 res = requests.get(url, headers = headers)
 soup = BeautifulSoup(res.content, "html.parser")
-table = soup.find("table", class_="tb-stock tbChip tbHide")
+table = soup.find("table", class_="tbTable tb-stock tbChip")
+print(table)
 for row in table.find_all("tr")[1:]:
     #print(row)
     #print([cell.get_text(strip=True) for cell in row.find_all("td")])
