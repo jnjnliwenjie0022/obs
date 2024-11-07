@@ -7,6 +7,7 @@ from bs4 import BeautifulSoup
 import pandas as pd
 import numpy as np
 from fake_useragent import UserAgent
+import json
 
 s = requests.Session()
 data = {
@@ -14,23 +15,26 @@ data = {
     'password': "jason0022",
 }
 
+url = "https://histock.tw/login"
+user_agent = UserAgent()
+headers = {'user-agent': user_agent.random}
 
 # 傳入data與header
-login_histock = s.post("https://www.dcard.tw/service/sessions",data=json.dumps(data),headers=headers)
+login_histock = s.post(url,data=json.dumps(data),headers=headers)
 # 查看是否正確登入打開個人頁面
-response = s.get("https://www.dcard.tw/my/collections")
-request_view(response)
+url = "https://histock.tw/stock/mainprofit.aspx?no=1301&day=180"
+response = s.get(url)
 
 #url = "https://histock.tw/stock/mainprofit.aspx?no=1301&day=180"
 #user_agent = UserAgent()
 #headers = {'user-agent': user_agent.random}
 #
-#res = requests.get(url, headers = headers)
-#soup = BeautifulSoup(res.content, "html.parser")
-#table = soup.find("table", class_="tbTable tb-stock tbChip")
-#print(table)
-#for row in table.find_all("tr")[1:]:
-#    #print(row)
-#    #print([cell.get_text(strip=True) for cell in row.find_all("td")])
-#    print([cell.attrs.get('href', 'Not found!') for cell in row.find_all("a")])
-#    print([cell.get_text(strip=True) for cell in row.find_all("a")])
+res = s.get(url, headers = headers)
+soup = BeautifulSoup(res.content, "html.parser")
+table = soup.find("table", class_="tbTable tb-stock tbChip")
+print(table)
+for row in table.find_all("tr")[1:]:
+    #print(row)
+    #print([cell.get_text(strip=True) for cell in row.find_all("td")])
+    print([cell.attrs.get('href', 'Not found!') for cell in row.find_all("a")])
+    print([cell.get_text(strip=True) for cell in row.find_all("a")])
