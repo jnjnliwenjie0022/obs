@@ -51,7 +51,7 @@ login_url = "https://histock.tw/login"
 
 # 準備登入表單的資料
 payload = {
-    "account": "jasonli@gmail.com",
+    "email": "jasonli@gmail.com",
     "password": "jnjn0022"
 }
 
