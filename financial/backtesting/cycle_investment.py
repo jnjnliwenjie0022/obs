@@ -2,6 +2,36 @@
 
 import pandas as pd
 
+##{{{ EMA
+#import pandas_ta as ta
+#df['EMA_35d'] = ta.ema(df['Close'], length=35*1)
+#df['EMA_13w'] = ta.ema(df['Close'], length=13*5)
+#df['EMA_34w'] = ta.ema(df['Close'], length=34*5)
+#df['EMA_10y'] = ta.ema(df['Close'], length=10*240)
+#df['EMA_20y'] = ta.ema(df['Close'], length=20*240)
+##}}} EMA
+##{{{ RSI
+#df['RSI_6d'] = ta.rsi(df['Close'], length=6)
+#
+#def rsi_6d_pos(x):
+#    if x['RSI_6d'] > 90:
+#        return 101
+#    elif x['RSI_6d'] < 10:
+#        return -1
+#    else:
+#        return np.nan
+#df['RSI_6dPos'] = df.apply(lambda row: rsi_6d_pos(row), axis=1)
+#
+#def rsi_6d_eff_pos(x):
+#    if (x['RSI_6dPos'] == 101) and (x['LCycle'] > 0):
+#        return 101
+#    elif (x['RSI_6dPos'] == -1) and (x['LCycle'] == -1):
+#        return -1
+#    else:
+#        return np.nan
+#df['RSI_6dEffPos'] = df.apply(lambda row: rsi_6d_eff_pos(row), axis=1)
+#}}} RSI
+
 #{{{ generic function
 def printexit (data):
     print(data); print(data.dtypes); exit()
@@ -116,30 +146,33 @@ def up_to_date_stock_by_tv():
     print(data)
     data.to_excel('./database/stock.xlsx', index=True)
 #}}}
-##{{{ up-to-date stock by YF
-#import yfinance as yf
-##df = yf.download('2882.TW')
-##df = yf.download('2882.TW', start = '2001-01-01')
-##df = yf.download('1736.TW', start = '2001-01-01')
-#df = yf.download('8299.TWO', start = '2001-01-01')
-##df = yf.download('1301.TW')
-##df = yf.download('2357.TW',start = '2004-09-01')
-##df = yf.download('2454.TW')
-##df = yf.download('00687b.TW', start = '2008-01-01')
-##df = yf.download('2330.TW', start = '2008-01-01')
-##stock = yf.Ticker('2882.TW')
-##eps = stock.info['trailingEps']
-##print(eps)
-##stock_price = stock.history(period="max")
-##stock_price = stock_price.reset_index()
-##stock_price = stock_price.drop(columns = ["Date"])
-##print(stock_price); print(stock_price.dtypes);
-##stock_price.to_excel('df.xlsx', index=True); exit()
-##df = yf.download('^TWII ')
-##df = yf.download('0050.TW', start = '2010-01-01')
-#df=df[df['Volume']!=0]
-##print(df.isna().sum())
-## }}} yf data access
+#{{{ up-to-date stock by YF
+def up_to_date_stock_by_yf():
+    import yfinance as yf
+    #df = yf.download('2882.TW')
+    #df = yf.download('2882.TW', start = '2001-01-01')
+    #df = yf.download('1736.TW', start = '2001-01-01')
+    df = yf.download('8299.TWO', start = '2001-01-01')
+    #df = yf.download('1301.TW')
+    #df = yf.download('2357.TW',start = '2004-09-01')
+    #df = yf.download('2454.TW')
+    #df = yf.download('00687b.TW', start = '2008-01-01')
+    #df = yf.download('2330.TW', start = '2008-01-01')
+    #stock = yf.Ticker('2882.TW')
+    #eps = stock.info['trailingEps']
+    #print(eps)
+    #stock_price = stock.history(period="max")
+    #stock_price = stock_price.reset_index()
+    #stock_price = stock_price.drop(columns = ["Date"])
+    #print(stock_price); print(stock_price.dtypes);
+    #stock_price.to_excel('df.xlsx', index=True); exit()
+    #df = yf.download('^TWII ')
+    #df = yf.download('0050.TW', start = '2010-01-01')
+    df=df[df['Volume']!=0]
+    #print(df.isna().sum())
+    print(data)
+    data.to_excel('./database/stock.xlsx', index=True)
+# }}} yf data access
 #{{{ load OECD CLI
 def load_oecd_cli (df):
     import numpy as np
@@ -183,35 +216,6 @@ def load_stock(df):
 
     return df
 #}}}
-##{{{ EMA
-#import pandas_ta as ta
-#df['EMA_35d'] = ta.ema(df['Close'], length=35*1)
-#df['EMA_13w'] = ta.ema(df['Close'], length=13*5)
-#df['EMA_34w'] = ta.ema(df['Close'], length=34*5)
-#df['EMA_10y'] = ta.ema(df['Close'], length=10*240)
-#df['EMA_20y'] = ta.ema(df['Close'], length=20*240)
-##}}} EMA
-##{{{ RSI
-#df['RSI_6d'] = ta.rsi(df['Close'], length=6)
-#
-#def rsi_6d_pos(x):
-#    if x['RSI_6d'] > 90:
-#        return 101
-#    elif x['RSI_6d'] < 10:
-#        return -1
-#    else:
-#        return np.nan
-#df['RSI_6dPos'] = df.apply(lambda row: rsi_6d_pos(row), axis=1)
-#
-#def rsi_6d_eff_pos(x):
-#    if (x['RSI_6dPos'] == 101) and (x['LCycle'] > 0):
-#        return 101
-#    elif (x['RSI_6dPos'] == -1) and (x['LCycle'] == -1):
-#        return -1
-#    else:
-#        return np.nan
-#df['RSI_6dEffPos'] = df.apply(lambda row: rsi_6d_eff_pos(row), axis=1)
-#}}} RSI
 def main():
     up_to_date_oecd_cli()
     #up_to_date_fred_gds()
