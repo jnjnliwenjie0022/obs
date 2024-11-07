@@ -8,6 +8,7 @@ import pandas as pd
 import numpy as np
 from fake_useragent import UserAgent
 import json
+from io import StringIO
 
 ss = requests.Session()
 url = "https://histock.tw/stock/mainprofit.aspx?no=1301&day=180"
@@ -22,9 +23,9 @@ table = soup.find("table", class_ = "tbTable tb-stock tbChip")
 data = pd.DataFrame(columns = ["Branch","Performance","Total Gain","Realized Gain", "Unrealized Gain", "Overbought Order", "Bought Order", "Sold Order", "Average Price", "Average Price for Bought", "Average Price for Sold", "Current Price", "URL"])
 
 for row in table.find_all("tr")[1:]:
-    for cell in row.find_all("td"):
-        a = cell.get_text(strip=True)
-        print(a)
+    a = [cell.get_text(strip=True) for cell in row.find_all("td")]
+        #a = cell.get_text(strip=True)
+    print(a[2])
 #        print(cell[2])
         #row_data = {
         #    "Branch": cell[0]
