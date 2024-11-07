@@ -22,8 +22,27 @@ table = soup.find("table", class_ = "tbTable tb-stock tbChip")
 data = pd.DataFrame(columns = ["Branch","Performance","Total Gain","Realized Gain", "Unrealized Gain", "Overbought Order", "Bought Order", "Sold Order", "Average Price", "Average Price for Bought", "Average Price for Sold", "Current Price", "URL"])
 
 for row in table.find_all("tr")[1:]:
-    print([cell.attrs.get('href', 'Not found!') for cell in row.find_all("a")])
-    print([cell.get_text(strip=True) for cell in row.find_all("td")])
+    for cell in row.find_all("td"):
+        a = cell.get_text(strip=True)
+        print(a)
+#        print(cell[2])
+        #row_data = {
+        #    "Branch": cell[0]
+        #    "Perofrmance"
+        #    "Total Gain"
+        #    "Realize Gain"]
+        #    "Unrealized Gain"]
+        #    "Overbought Order"]
+        #    "Bought Order"]
+        #    "Sold Order"]
+        #    "Average Price"]
+        #    "Average Price for Bought"]
+        #    "Average Price for Sold"
+        #    "Current Price"
+        #    "URL"
+        #    }
+    #print([cell.attrs.get('href', 'Not found!') for cell in row.find_all("a")])
+    #print([cell.get_text(strip=True) for cell in row.find_all("td")])
 
 
 #for row in table.find_all("tr")[1:]:
