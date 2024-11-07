@@ -19,36 +19,23 @@ soup = BeautifulSoup(response.content, "html.parser")
 
 table = soup.find("table", class_ = "tbTable tb-stock tbChip")
 
-券商分點	績效	總損益(仟)	己實現(仟)	未實現(仟)	買賣超	買張	賣張	均價	均買	均賣	現價
+data = pd.DataFrame(columns = )
 
-
-
-dict =
-"Branch"
-"Performance"
-"Total Gain"
-"Realized Gain"
-"Unrealized Gain"
-"Overbought Order"
-"Bought Order"
-"Sold Order"
-"Average Price"
-"Average Price for Bought"
-"Average Price for Sold"
-"Current Price"
-
-
-
-{}
-
-            DICT = {"股票" : [], "代號" : [], "交易量(張)" : [], "開盤價" : [], "最高價" : [], "最低價" : [], \
-                    "收盤價" : [], "EPS" : [], "本益比" : [], "股價淨值比" : [], "現金殖利率" : [],\
-                    "外資日期" : [], "外資天數" : [], "外資張數" : [], "投信日期" : [], "投信天數" : [],\
-                    "投信張數" : [], "自營日期" : [], "自營天數" : [], "自營張數" : [],"融資日期" : [],\
-                    "融資天數" : [], "融資張數" : [], "融券日期" : [], "融券天數" : [], "融券張數" : [],\
-                    "營收日期" : [], "營收天數" : [], "漲跌幅(點)" : [], "漲跌幅(%)" : [], "MV5" : [], \
-                    "MV10" : [], "MV20" : [], "MV60" : [], "K9" : [], "D9" : [], "RSI6" : [], "RSI12" : [],\
-                    "DIF" : [], "MACD" : [], "OSC" : []}
+dict = {
+        "Branch": []
+        "Performance" : [],\
+        "Total Gain" : [],\
+        "Realized Gain" : [],\
+        "Unrealized Gain" : [],\
+        "Overbought Order" : [],\
+        "Bought Order" : [],\
+        "Sold Order" : [],\
+        "Average Price" : [],\
+        "Average Price for Bought" : [],\
+        "Average Price for Sold" : [],\
+        "Current Price" : [],\
+        "URL" : []
+        }
 for row in table.find_all("tr")[1:]:
     print([cell.attrs.get('href', 'Not found!') for cell in row.find_all("a")])
     print([cell.get_text(strip=True) for cell in row.find_all("td")])
