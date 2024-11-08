@@ -25,22 +25,24 @@ soup = BeautifulSoup(response.content, "html.parser")
 table = soup.find("table", class_ = "tbTable tb-stock tbChip")
 data = pd.DataFrame(columns = ["Branch","Performance","Total Gain","Realized Gain", "Unrealized Gain", "Overbought Order", "Bought Order", "Sold Order", "Average Price", "Average Price for Bought", "Average Price for Sold", "Current Price", "URL"])
 for row in table.find_all("tr")[1:]:
-    col = len(data)
-    tmp = [cell.attrs.get('href', 'Not found!') for cell in row.find_all("a")]
-    data.loc[col,'URL'] = tmp[0]
-    tmp = [cell.get_text(strip=True) for cell in row.find_all("td")]
-    data.loc[col,'Branch'] = tmp[1];
-    data.loc[col,'Performance'] = float(tmp[2].replace('%', '')) / 100
-    data.loc[col,'Total Gain'] = float(tmp[3].replace(',', ''))
-    data.loc[col,'Realized Gain'] = float(tmp[4].replace(',', ''))
-    data.loc[col,'Unrealized Gain'] = float(tmp[5].replace(',', ''))
-    data.loc[col,'Overbought Order'] = float(tmp[6].replace(',', ''))
-    data.loc[col,'Bought Order'] = float(tmp[7].replace(',', ''))
-    data.loc[col,'Sold Order'] = float(tmp[8].replace(',', ''))
-    data.loc[col,'Average Price'] = float(tmp[9].replace(',', ''))
-    data.loc[col,'Average Price for Bought'] = float(tmp[10].replace(',', ''))
-    data.loc[col,'Average Price for Sold'] = float(tmp[11].replace(',', ''))
-    data.loc[col,'Current Price'] = float(tmp[12].replace(',', ''))
+    tmp_data = [cell.get_text(strip=True) for cell in row.find_all("td")]
+    tmp_str = [cell.attrs.get('href', 'Not found!') for cell in row.find_all("a")]
+    new_row = { \
+        "Branch": tmp_data[1], \
+        "Performance": float(tmp_data[2].replace('%', ''))/100 , \
+        "Total Gain": float(tmp_data[3].replace(',', '')), \
+        "Realized Gain": float(tmp_data[4].replace(',', '')), \
+        "Unrealized Gain": float(tmp_data[5].replace(',', '')), \
+        "Overbought Order": float(tmp_data[6].replace(',', '')), \
+        "Bought Order": float(tmp_data[7].replace(',', '')), \
+        "Sold Order": float(tmp_data[8].replace(',', '')), \
+        "Average Price": float(tmp_data[9].replace(',', '')), \
+        "Average Price for Bought": float(tmp_data[10].replace(',', '')), \
+        "Average Price for Sold": float(tmp_data[11].replace(',', '')), \
+        "Current Price": float(tmp_data[12].replace(',', '')), \
+        "URL": tmp_str[0], \
+        }
+    data.loc[len(data)] = new_row
 
 data = data.sort_values(by='Bought Order', ascending=False)
 print(data['Bought Order'])
