@@ -197,6 +197,7 @@
   },
   "active": "f90203d8afa8deed",
   "lastOpenFiles": [
+    "financial/backtesting/scrapyproject/scrapyproject/spiders/__pycache__/bank.cpython-310.pyc.140390435485328",
     "financial/backtesting/scrapyproject/scrapyproject/spiders/__pycache__/bank.cpython-310.pyc",
     "financial/backtesting/scrapyproject/scrapyproject/spiders/bank.py",
     "financial/backtesting/scrapyproject/scrapyproject/spiders/__pycache__/__init__.cpython-310.pyc",
@@ -207,7 +208,6 @@
     "financial/backtesting/scrapyproject/scrapyproject/__pycache__/__init__.cpython-310.pyc",
     "financial/backtesting/scrapyproject/scrapyproject/__pycache__/__init__.cpython-310.pyc.139962008014960",
     "financial/backtesting/scrapyproject/scrapyproject/__pycache__",
-    "financial/backtesting/scrapyproject/scrapyproject/middlewares.py",
     "de/ppa/include/Pasted image 20241030105905.png",
     "de/ppa/power.md",
     "de/ppa/evaluation.md",
