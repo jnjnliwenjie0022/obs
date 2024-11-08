@@ -64,14 +64,12 @@ def printxlsx (data):
 #    print([cell.get_text(strip=True) for cell in row.find_all("td")])
 
 ss = requests.Session()
-url = "https://www.yuanta.com.tw/eYuanta/agent/Node/Index?MainId=00412&C1=2018040403451986&C2=2018040406180228&ID=2018040406180228&Level=2"
+url = "https://concords.moneydj.com/z/zc/zco/zco_1101.djhtm"
 user_agent = UserAgent()
 headers = {'user-agent': user_agent.random}
 response = ss.get(url, headers = headers)
 print(response.status_code)
 soup = BeautifulSoup(response.content, "html.parser")
-table = soup.find("table", id = "oMainTable")
-print(table)
-
-
-
+table = soup.find("table", class_ = "t01", id = "oMainTable")
+for row in table.find_all("tr")[1:]:
+    print(row)
