@@ -70,6 +70,8 @@ headers = {'user-agent': user_agent.random}
 response = ss.get(url, headers = headers)
 print(response.status_code)
 soup = BeautifulSoup(response.content, "html.parser")
+table = soup.find("table", id = "oMainTable")
+print(table)
 
 
 
