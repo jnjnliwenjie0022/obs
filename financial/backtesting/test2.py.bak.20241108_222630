@@ -13,14 +13,14 @@ from io import StringIO
 def printxlsx (data):
     print(data); print(data.dtypes); data.to_excel('data.xlsx', index=True); exit()
 
-#ss = requests.Session()
-#url = "https://histock.tw/stock/mainprofit.aspx?no=1301&day=180"
-#user_agent = UserAgent()
-#headers = {'user-agent': user_agent.random}
-#cookies = {'MoodleSession': 'fastivalName_Mall_20240911=closeday_fastivalName_Mall_20240911; bottomADName_20240911=closeday_bottomADName_20240911; ASP.NET_SessionId=okuokh23x5wksgnodfmf0yay; g_state={"i_l":0}; fastivalName_Mall_20240911=closeday_fastivalName_Mall_20240911; bottomADName_20240911=closeday_bottomADName_20240911; NickName=Wen-JieLi; MemberNo=214566; Email=jnjn0022@gmail.com '}
-#response = ss.get(url, headers = headers, cookies = cookies)
-#print(response.status_code)
-#soup = BeautifulSoup(response.content, "html.parser")
+ss = requests.Session()
+url = "https://histock.tw/stock/mainprofit.aspx?no=1301&day=180"
+user_agent = UserAgent()
+headers = {'user-agent': user_agent.random}
+cookies = {'MoodleSession': 'fastivalName_Mall_20240911=closeday_fastivalName_Mall_20240911; bottomADName_20240911=closeday_bottomADName_20240911; ASP.NET_SessionId=okuokh23x5wksgnodfmf0yay; g_state={"i_l":0}; fastivalName_Mall_20240911=closeday_fastivalName_Mall_20240911; bottomADName_20240911=closeday_bottomADName_20240911; NickName=Wen-JieLi; MemberNo=214566; Email=jnjn0022@gmail.com '}
+response = ss.get(url, headers = headers, cookies = cookies)
+print(response.status_code)
+soup = BeautifulSoup(response.content, "html.parser")
 
 #table = soup.find("h3", class_ = "seoh3")
 #table = table.text.strip()
@@ -50,26 +50,15 @@ def printxlsx (data):
 #print(data)
 
 
-#url = "https://histock.tw/stock/brokertrace.aspx?bno=1590&no=1301"
-#user_agent = UserAgent()
-#headers = {'user-agent': user_agent.random}
-#cookies = {'MoodleSession': 'fastivalName_Mall_20240911=closeday_fastivalName_Mall_20240911; bottomADName_20240911=closeday_bottomADName_20240911; ASP.NET_SessionId=okuokh23x5wksgnodfmf0yay; g_state={"i_l":0}; fastivalName_Mall_20240911=closeday_fastivalName_Mall_20240911; bottomADName_20240911=closeday_bottomADName_20240911; NickName=Wen-JieLi; MemberNo=214566; Email=jnjn0022@gmail.com '}
-#response = ss.get(url, headers = headers, cookies = cookies)
-#print(response.status_code)
-#soup = BeautifulSoup(response.content, "html.parser")
-
-
-#table = soup.find("table", class_ = "tbTable tb-stock tbChip", id = 'CPHB1_bt1_gBuy')
-#for row in table.find_all("tr")[1:]:
-#    print([cell.get_text(strip=True) for cell in row.find_all("td")])
-
-ss = requests.Session()
-url = "https://www.yuanta.com.tw/eYuanta/agent/Node/Index?MainId=00412&C1=2018040403451986&C2=2018040406180228&ID=2018040406180228&Level=2"
+url = "https://histock.tw/stock/brokertrace.aspx?bno=1590&no=1301"
 user_agent = UserAgent()
 headers = {'user-agent': user_agent.random}
-response = ss.get(url, headers = headers)
+cookies = {'MoodleSession': 'fastivalName_Mall_20240911=closeday_fastivalName_Mall_20240911; bottomADName_20240911=closeday_bottomADName_20240911; ASP.NET_SessionId=okuokh23x5wksgnodfmf0yay; g_state={"i_l":0}; fastivalName_Mall_20240911=closeday_fastivalName_Mall_20240911; bottomADName_20240911=closeday_bottomADName_20240911; NickName=Wen-JieLi; MemberNo=214566; Email=jnjn0022@gmail.com '}
+response = ss.get(url, headers = headers, cookies = cookies)
 print(response.status_code)
 soup = BeautifulSoup(response.content, "html.parser")
 
 
-
+table = soup.find("table", class_ = "tbTable tb-stock tbChip", id = 'CPHB1_bt1_gBuy')
+for row in table.find_all("tr")[1:]:
+    print([cell.get_text(strip=True) for cell in row.find_all("td")])
