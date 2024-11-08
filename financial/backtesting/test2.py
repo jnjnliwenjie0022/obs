@@ -72,4 +72,4 @@ print(response.status_code)
 soup = BeautifulSoup(response.content, "html.parser")
 table = soup.find("table", class_ = "t01", id = "oMainTable")
 for row in table.find_all("tr")[1:]:
-    print(row)
+    print([cell.get_text(strip=True) for cell in row.find_all("td", class_ = "t4t1")])
