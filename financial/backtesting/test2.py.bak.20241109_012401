@@ -1,0 +1,82 @@
+import requests
+from bs4 import BeautifulSoup
+import pandas as pd
+import numpy as np
+from fake_useragent import UserAgent
+import json
+from io import StringIO
+
+def printxlsx (data):
+    print(data); print(data.dtypes); data.to_excel('data.xlsx', index=True); exit()
+
+
+#https://www.maxlist.xyz/2018/08/25/python_scrapy_ptt/
+
+
+#ss = requests.Session()
+#url = "https://histock.tw/stock/mainprofit.aspx?no=1301&day=180"
+#user_agent = UserAgent()
+#headers = {'user-agent': user_agent.random}
+#cookies = {'MoodleSession': 'fastivalName_Mall_20240911=closeday_fastivalName_Mall_20240911; bottomADName_20240911=closeday_bottomADName_20240911; ASP.NET_SessionId=okuokh23x5wksgnodfmf0yay; g_state={"i_l":0}; fastivalName_Mall_20240911=closeday_fastivalName_Mall_20240911; bottomADName_20240911=closeday_bottomADName_20240911; NickName=Wen-JieLi; MemberNo=214566; Email=jnjn0022@gmail.com '}
+#response = ss.get(url, headers = headers, cookies = cookies)
+#print(response.status_code)
+#soup = BeautifulSoup(response.content, "html.parser")
+
+#table = soup.find("h3", class_ = "seoh3")
+#table = table.text.strip()
+#print(table)
+
+#table = soup.find("table", class_ = "tbTable tb-stock tbChip")
+#data = pd.DataFrame(columns = ["Branch","Performance","Total Gain","Realized Gain", "Unrealized Gain", "Overbought Order", "Bought Order", "Sold Order", "Average Price", "Average Price for Bought", "Average Price for Sold", "Current Price", "URL"])
+#
+#for row in table.find_all("tr")[1:]:
+#    col = len(data)
+#    tmp = [cell.attrs.get('href', 'Not found!') for cell in row.find_all("a")]
+#    data.loc[col,'URL'] = 'https://histock.tw' + tmp[0]
+#    tmp = [cell.get_text(strip=True) for cell in row.find_all("td")]
+#    data.loc[col,'Branch'] = tmp[1];
+#    data.loc[col,'Performance'] = float(tmp[2].replace('%', '')) / 100
+#    data.loc[col,'Total Gain'] = float(tmp[3].replace(',', ''))
+#    data.loc[col,'Realized Gain'] = float(tmp[4].replace(',', ''))
+#    data.loc[col,'Unrealized Gain'] = float(tmp[5].replace(',', ''))
+#    data.loc[col,'Overbought Order'] = float(tmp[6].replace(',', ''))
+#    data.loc[col,'Bought Order'] = float(tmp[7].replace(',', ''))
+#    data.loc[col,'Sold Order'] = float(tmp[8].replace(',', ''))
+#    data.loc[col,'Average Price'] = float(tmp[9].replace(',', ''))
+#    data.loc[col,'Average Price for Bought'] = float(tmp[10].replace(',', ''))
+#    data.loc[col,'Average Price for Sold'] = float(tmp[11].replace(',', ''))
+#    data.loc[col,'Current Price'] = float(tmp[12].replace(',', ''))
+#data = data.sort_values(by='Bought Order', ascending=False)
+#print(data)
+
+
+#url = "https://histock.tw/stock/brokertrace.aspx?bno=1590&no=1301"
+#user_agent = UserAgent()
+#headers = {'user-agent': user_agent.random}
+#cookies = {'MoodleSession': 'fastivalName_Mall_20240911=closeday_fastivalName_Mall_20240911; bottomADName_20240911=closeday_bottomADName_20240911; ASP.NET_SessionId=okuokh23x5wksgnodfmf0yay; g_state={"i_l":0}; fastivalName_Mall_20240911=closeday_fastivalName_Mall_20240911; bottomADName_20240911=closeday_bottomADName_20240911; NickName=Wen-JieLi; MemberNo=214566; Email=jnjn0022@gmail.com '}
+#response = ss.get(url, headers = headers, cookies = cookies)
+#print(response.status_code)
+#soup = BeautifulSoup(response.content, "html.parser")
+
+
+#table = soup.find("table", class_ = "tbTable tb-stock tbChip", id = 'CPHB1_bt1_gBuy')
+#for row in table.find_all("tr")[1:]:
+#    print([cell.get_text(strip=True) for cell in row.find_all("td")])
+
+ss = requests.Session()
+url = "https://concords.moneydj.com/z/zc/zco/zco_1101.djhtm"
+user_agent = UserAgent()
+headers = {'user-agent': user_agent.random}
+response = ss.get(url, headers = headers)
+soup = BeautifulSoup(response.content, "html.parser")
+table = soup.find("table", class_ = "t01", id = "oMainTable")
+#for row in table.find_all("tr")[1:]:
+#    #print([cell.attrs.get('href', 'Not found!') for cell in row.find_all("a")])
+#    print([cell.get_text(strip=True) for cell in row.find_all("td", class_ = "t4t1")])
+
+for row in table.find_all("tr"):
+    print([cell.attrs.get('href', 'Not found!') for cell in row.find_all("a")])
+    print([cell.get_text(strip=True) for cell in row.find_all("td", class_ = "t3n1")])
+
+
+
