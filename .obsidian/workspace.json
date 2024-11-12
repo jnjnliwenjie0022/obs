@@ -11,12 +11,15 @@
             "id": "08e98b8390a28d5a",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "de/v/ref/coding_guidelines.pdf"
+                "file": "de/arbiter/arbiter.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "coding_guidelines"
+              "icon": "lucide-file",
+              "title": "arbiter"
             }
           },
           {
@@ -196,8 +199,9 @@
       "command-palette:Open command palette": true
     }
   },
-  "active": "19a60b1e44f4e87a",
+  "active": "08e98b8390a28d5a",
   "lastOpenFiles": [
+    "de/v/ref/coding_guidelines.pdf",
     "de/fctrl/ref/~$Network-on-Chip.ppt",
     "de/v/ref/~$CodingStyle_v1.1.pptx",
     "de/arbiter/arbiter.md",
@@ -225,7 +229,6 @@
     "financial/backtesting/test2.py.bak.20241107_214200",
     "financial/backtesting/test2.py.bak.20241107_212634",
     "financial/backtesting/test2.py.bak.20241107_190552",
-    "financial/backtesting/test2.py.bak.20241107_054110",
     "de/ppa/power.md",
     "de/ppa/include/Pasted image 20241030105905.png",
     "de/ppa/include/Pasted image 20240926110143.png",
