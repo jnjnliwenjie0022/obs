@@ -37,8 +37,7 @@
               "title": "arbiter"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -200,8 +199,9 @@
       "command-palette:Open command palette": true
     }
   },
-  "active": "341905076a393cb0",
+  "active": "08e98b8390a28d5a",
   "lastOpenFiles": [
+    "de/arbiter/arbiter.md",
     "de/ppa/power.md",
     "de/ppa/evaluation.md",
     "de/ppa/include/Pasted image 20241030105905.png",
