@@ -23,17 +23,27 @@ sudo apt-get install csh
 ./setup.sh
 ```
 /home/jnjn0022/synopsys/Installer/Scl11.9
+
 /home/jnjn0022/synopsys/scl
+
 /home/jnjn0022/synopsys/Installer/Vcs2016
+
 /home/jnjn0022/synopsys/vcs
+
 /home/jnjn0022/synopsys/Installer/Verdi2016
+
 /home/jnjn0022/synopsys/verdi
+
 ```
 sudo apt install net-tools
 ifconfig
 hostname
 ```
+
 crack
+
+![[Pasted image 20241119223204.png]]
+
 ```
 cd /home/jnjn0022/synopsys/scl
 mkdir license

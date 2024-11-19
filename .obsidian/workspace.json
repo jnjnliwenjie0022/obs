@@ -35,12 +35,15 @@
             "id": "d265ae9698789155",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.7.7"
+                "file": "workflow/synopsys.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
               },
               "icon": "lucide-file",
-              "title": "Release Notes 1.7.7"
+              "title": "synopsys"
             }
           },
           {
@@ -222,6 +225,7 @@
   },
   "active": "d265ae9698789155",
   "lastOpenFiles": [
+    "workflow/include/Pasted image 20241119223204.png",
     "de/ppa/include/Pasted image 20241030105905.png",
     "de/ppa/include/Pasted image 20240926110143.png",
     "de/ppa/include/Pasted image 20240925143438.png",
@@ -246,7 +250,6 @@
     "de/ppa/evaluation.md",
     "de/ppa/include/Pasted image 20240925115734.png",
     "de/ppa/include/Pasted image 20240924221249.png",
-    "de/ppa/include/Pasted image 20240924221233.png",
     "de/amba_axi/ddr_latency.md",
     "financial/finmind.md",
     "de/ppa/timing.md",
