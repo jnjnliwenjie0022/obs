@@ -1,6 +1,8 @@
 # setting
 download tool_kit
+
 	[UVMC | Siemens Verification Academy](https://verificationacademy.com/topics/uvm-universal-verification-methodology/uvmc/)
+```
 vim uvmc.bashrc
 	[[uvm-connect-2.3.3-primer-guide-verification-academy.pdf#page=16&selection=9,8,9,17|uvm-connect-2.3.3-primer-guide-verification-academy, page 16]]
 	setenv UVM_HOME /home/project/eda/pkgs/cadence/ius/default/tools/methodology/UVM/CDNS-1.2/sv
@@ -15,6 +17,7 @@ vim Makefile.ius
 	  +define+UVM_NO_DPI \
 	  +define+UVM_FIX_REV="undefined" \
 make -f Makefile.ius sc2sv
+```
 # ref
 [Transaction-level riending - ppt download (slideplayer.com)](https://slideplayer.com/slide/12988254/)
 # concept
