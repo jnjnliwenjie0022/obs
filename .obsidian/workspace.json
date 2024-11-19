@@ -26,12 +26,15 @@
             "id": "52ae65195ed71add",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.7.7"
+                "file": "dv/uvmc/uvmc.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
               },
               "icon": "lucide-file",
-              "title": "Release Notes 1.7.7"
+              "title": "uvmc"
             }
           },
           {
