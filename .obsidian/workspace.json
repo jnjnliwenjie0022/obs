@@ -20,6 +20,18 @@
             }
           },
           {
+            "id": "bdf67e8be6211dc6",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.7.6"
+              },
+              "icon": "lucide-file",
+              "title": "Release Notes 1.7.6"
+            }
+          },
+          {
             "id": "b522d685aba7792f",
             "type": "leaf",
             "state": {
@@ -34,7 +46,8 @@
               "title": "power"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -195,7 +208,7 @@
       "obsidian-to-anki-plugin:Obsidian_to_Anki - Scan Vault": false
     }
   },
-  "active": "f90203d8afa8deed",
+  "active": "bdf67e8be6211dc6",
   "lastOpenFiles": [
     "financial/backtesting/test2.py.bak.20241109_012501",
     "financial/backtesting/test2.py.bak.20241109_012401",
