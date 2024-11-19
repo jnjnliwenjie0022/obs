@@ -23,6 +23,18 @@
             }
           },
           {
+            "id": "52ae65195ed71add",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.7.7"
+              },
+              "icon": "lucide-file",
+              "title": "Release Notes 1.7.7"
+            }
+          },
+          {
             "id": "341905076a393cb0",
             "type": "leaf",
             "state": {
@@ -37,7 +49,8 @@
               "title": "arbiter"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -199,7 +212,7 @@
       "command-palette:Open command palette": true
     }
   },
-  "active": "08e98b8390a28d5a",
+  "active": "52ae65195ed71add",
   "lastOpenFiles": [
     "de/arithmetic/booth.md",
     "de/arithmetic/ref_booth/~$analysis.xlsx",
