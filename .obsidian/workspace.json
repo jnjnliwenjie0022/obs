@@ -28,13 +28,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "dv/uvmc/uvmc.md",
+                "file": "de/ppa/power.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "uvmc"
+              "title": "power"
             }
           },
           {
@@ -112,10 +112,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "dv/uvmc/uvmc.md"
+                "file": "de/ppa/power.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of uvmc"
+              "title": "Outline of power"
             }
           }
         ],
@@ -215,11 +215,11 @@
       "command-palette:Open command palette": true
     }
   },
-  "active": "19a60b1e44f4e87a",
+  "active": "52ae65195ed71add",
   "lastOpenFiles": [
+    "dv/uvmc/uvmc.md",
     "dv/uvmc/comment.md",
     "workflow/include/Pasted image 20241119223204.png",
-    "dv/uvmc/uvmc.md",
     "de/arithmetic/booth.md",
     "de/arithmetic/ref_booth/~$analysis.xlsx",
     "de/arithmetic/divider.md",
