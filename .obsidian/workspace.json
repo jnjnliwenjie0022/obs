@@ -37,13 +37,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "dv/uvm/sequence.md",
+                "file": "dv/uvmc/uvmc.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "sequence"
+              "title": "uvmc"
             }
           },
           {
@@ -225,8 +225,8 @@
   },
   "active": "d265ae9698789155",
   "lastOpenFiles": [
-    "dv/uvm/include/uvm_do_on_pri_with.canvas",
     "dv/uvm/sequence.md",
+    "dv/uvm/include/uvm_do_on_pri_with.canvas",
     "dv/uvmc/uvmc.md",
     "dv/uvmc/comment.md",
     "workflow/synopsys.md",
