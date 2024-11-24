@@ -67,7 +67,8 @@ cd /home/jnjn0022/synopsys/scl
 mkdir license
 cd /home/jnjn0022/synopsys/scl/license
 ```
-copy Synopsys.dat in to /home/jnjn0022/synopsys/scl/license
+
+copy Synopsys.dat which is in Window in to /home/jnjn0022/synopsys/scl/license
 
 ```
 vim /home/jnjn0022/synopsys/scl/license/Synopsys.dat
@@ -75,6 +76,7 @@ vim /home/jnjn0022/synopsys/scl/license/Synopsys.dat
 
 1. remove \^M
 2. DAEMON snpslmd /home/jnjn0022/synopsy/scl/amd64/bin/snpslmd
+
 ```
 sudo apt-get update
 sudo apt-get upgrade
@@ -124,7 +126,21 @@ make
 
 # uvm
 
+```
+cd ~/synopsys/.test_uvm_synopsys
+make
+```
+
 # uvmc
 
 ## ref
 https://bbs.eetop.cn/thread-909125-1-1.html
+
+```
+cd ~/synopsys/.test_uvmc_synopsys
+make
+```
+
+```
+cd $UVMC_HOME/examples/connections
+```

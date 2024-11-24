@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "workflow/git/git.md",
-                "mode": "preview",
+                "file": "workflow/eda.md",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "git"
+              "title": "eda"
             }
           }
         ]
@@ -183,6 +183,7 @@
   },
   "active": "792427f7e9803014",
   "lastOpenFiles": [
+    "workflow/git/git.md",
     "workflow/github.md",
     "workflow/eda.md",
     "workflow/include/Pasted image 20241125013801.png",
@@ -194,7 +195,6 @@
     "workflow/bypass_paywall.md",
     "workflow/ref/eda_1.pdf",
     "workflow/ref/eda_2.pdf",
-    "workflow/git/git.md",
     "ToDoList.md",
     "de/amba_axi/ddr_latency.md",
     "workflow/nvim.md",
