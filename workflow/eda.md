@@ -126,6 +126,10 @@ make
 
 # uvm
 
+download uvm 1.1d
+
+https://www.accellera.org/downloads/standards/uvm
+
 ```
 cd ~/synopsys/.test_uvm_synopsys
 make
