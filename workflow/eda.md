@@ -143,4 +143,7 @@ make
 
 ```
 cd $UVMC_HOME/examples/connections
+ln -sf  Makefile.vcs  Makefile
+make comp EXAMPLE=sv2sc
+make sim EXAMPLE=sv2sc
 ```
