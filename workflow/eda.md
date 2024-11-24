@@ -59,7 +59,11 @@ mkdir license
 cd /home/jnjn0022/synopsys/scl/license
 ```
 copy Synopsys.dat in to /home/jnjn0022/synopsys/scl/license
-In Synopsys.dat
+
+```
+vim /home/jnjn0022/synopsys/scl/license/Synopsys.dat
+```
+
 1. remove \^M
 2. DAEMON snpslmd /home/jnjn0022/synopsy/scl/amd64/bin/snpslmd
 ```
