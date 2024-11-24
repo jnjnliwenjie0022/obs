@@ -19,22 +19,27 @@ sudo apt-get install tar
 cd ~/synopsys/Installer/Installer3.2
 chmod +x SynopsysInstaller_v3.2.run
 ```
-/home/jnjn0022/synopsys/Installer/Installer3.2
+
+```
+cd /home/jnjn0022/synopsys/Installer/Installer3.2
+```
+
 ```
 sudo apt-get install csh
 ./setup.sh
 ```
-/home/jnjn0022/synopsys/Installer/Scl11.9
 
-/home/jnjn0022/synopsys/scl
+Source: /home/jnjn0022/synopsys/Installer/Scl11.9
 
-/home/jnjn0022/synopsys/Installer/Vcs2016
+Destination: /home/jnjn0022/synopsys/scl
 
-/home/jnjn0022/synopsys/vcs
+Source: /home/jnjn0022/synopsys/Installer/Vcs2016
 
-/home/jnjn0022/synopsys/Installer/Verdi2016
+Destination: /home/jnjn0022/synopsys/vcs
 
-/home/jnjn0022/synopsys/verdi
+Source: /home/jnjn0022/synopsys/Installer/Verdi2016
+
+Destination: /home/jnjn0022/synopsys/verdi
 
 ```
 sudo apt install net-tools

@@ -38,7 +38,7 @@
               "type": "markdown",
               "state": {
                 "file": "workflow/synopsys.md",
-                "mode": "preview",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               },
@@ -225,6 +225,10 @@
   },
   "active": "d265ae9698789155",
   "lastOpenFiles": [
+    "workflow/ref/2.pdf",
+    "workflow/ref/1.pdf",
+    "workflow/ref",
+    "workflow/New folder",
     "dv/uvmc/uvmc.md",
     "conflict-files-obsidian-git.md",
     "dv/uvm/sequence.md",
@@ -247,9 +251,6 @@
     "financial/backtesting/test2.py~",
     "financial/backtesting/scrapyproject/scrapyproject/spiders/__pycache__/bank.cpython-310.pyc.140576922400400",
     "financial/backtesting/scrapyproject/scrapyproject/spiders/__pycache__/bank.cpython-310.pyc.139796217820816",
-    "financial/backtesting/scrapyproject/scrapyproject/spiders/__pycache__/bank.cpython-310.pyc.139971537139344",
-    "financial/backtesting/scrapyproject/scrapyproject/spiders/bank.py~",
-    "financial/backtesting/scrapyproject/scrapyproject/spiders/__pycache__/bank.cpython-310.pyc.139974685095568",
     "de/ppa/power.md",
     "de/ppa/evaluation.md",
     "de/ppa/include/Pasted image 20240925115734.png",
