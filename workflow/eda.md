@@ -133,17 +133,23 @@ make
 
 # uvmc
 
-## ref
-https://bbs.eetop.cn/thread-909125-1-1.html
+# from_scratch
 
-```
-cd ~/synopsys/.test_uvmc_synopsys
-make
-```
+download uvm connect 2.3.2 kit
+
+https://verificationacademy.com/search/?term=uvmc
 
 ```
 cd $UVMC_HOME/examples/connections
 ln -sf  Makefile.vcs  Makefile
 make comp EXAMPLE=sv2sc
 make sim EXAMPLE=sv2sc
+```
+
+## ref
+https://bbs.eetop.cn/thread-909125-1-1.html
+
+```
+cd ~/synopsys/.test_uvmc_synopsys
+make
 ```
