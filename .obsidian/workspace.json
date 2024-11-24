@@ -11,12 +11,15 @@
             "id": "d265ae9698789155",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "workflow/ref/2.pdf"
+                "file": "workflow/eda.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "2"
+              "icon": "lucide-file",
+              "title": "eda"
             }
           }
         ]
@@ -78,10 +81,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "workflow/ref/2.pdf"
+                "file": "workflow/eda.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of 2"
+              "title": "Outline of eda"
             }
           }
         ],
@@ -182,22 +185,22 @@
   },
   "active": "d265ae9698789155",
   "lastOpenFiles": [
-    "workflow/ref/1.pdf",
+    "workflow/tmux.md",
+    "workflow/tnv.md",
+    "workflow/bypass_paywall.md",
+    "workflow/ref/eda_1.pdf",
+    "workflow/ref/eda_2.pdf",
     "workflow/eda.md",
     "workflow/git/git.md",
     "ToDoList.md",
     "de/amba_axi/ddr_latency.md",
-    "workflow/tnv.md",
-    "workflow/tmux.md",
     "workflow/nvim.md",
     "workflow/github.md",
-    "workflow/bypass_paywall.md",
     "workflow/include/Pasted image 20241119223204.png",
     "workflow/ganttproject.md",
     "workflow/include/git.svg",
     "de/ppa/include/Pasted image 20240926110143.png",
     "de/ppa/include/Pasted image 20240925143438.png",
-    "workflow/ref/2.pdf",
     "workflow/ref",
     "workflow/New folder",
     "dv/uvmc/uvmc.md",
