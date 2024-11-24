@@ -28,6 +28,7 @@ cd /home/jnjn0022/synopsys/Installer/Installer3.2
 sudo apt-get install csh
 ./setup.sh
 ```
+**Notice: 只能安裝64位元**
 
 Source: /home/jnjn0022/synopsys/Installer/Scl11.9
 
