@@ -105,3 +105,4 @@ sudo apt install ./gcc-4.8_4.8.5-4ubuntu8_amd64.deb ./gcc-4.8-base_4.8.5-4ubuntu
 cd ~/synopsys/.test_synopsys
 make
 ```
+
