@@ -1,16 +1,17 @@
-# ref
+# synopsys
+## ref
 https://zhuanlan.zhihu.com/p/613401479
 
 https://zhuanlan.zhihu.com/p/564884836
 
 https://blog.csdn.net/luoganttcc/article/details/127863258
-# relevant ref
+## relevant ref
 https://blog.csdn.net/luoganttcc/article/details/127863258
 
 https://blog.csdn.net/edablog/article/details/9033249
 
 https://zhuanlan.zhihu.com/p/613869870
-# README
+## README
 linux distribution: Ubuntu 22.04.2 LTS
 
 ```
@@ -30,15 +31,15 @@ sudo apt-get install csh
 ```
 **Notice: 只能安裝64位元**
 
-Source: /home/jnjn0022/synopsys/Installer/Scl11.9
+Install Source: /home/jnjn0022/synopsys/Installer/Scl11.9
 
 Destination: /home/jnjn0022/synopsys/scl
 
-Source: /home/jnjn0022/synopsys/Installer/Vcs2016
+Install Source: /home/jnjn0022/synopsys/Installer/Vcs2016
 
 Destination: /home/jnjn0022/synopsys/vcs
 
-Source: /home/jnjn0022/synopsys/Installer/Verdi2016
+Install Source: /home/jnjn0022/synopsys/Installer/Verdi2016
 
 Destination: /home/jnjn0022/synopsys/verdi
 
@@ -87,6 +88,7 @@ sudo add-apt-repository ppa:linuxuprising/libpng12
 sudo apt-get update
 sudo apt-get install libpng12-0
 ```
+
 ```
 cd
 mkdir install_g++-4.8
@@ -101,8 +103,15 @@ wget http://mirrors.kernel.org/ubuntu/pool/universe/g/gcc-4.8/cpp-4.8_4.8.5-4ubu
 wget http://mirrors.kernel.org/ubuntu/pool/universe/g/gcc-4.8/libasan0_4.8.5-4ubuntu8_amd64.deb  
 sudo apt install ./gcc-4.8_4.8.5-4ubuntu8_amd64.deb ./gcc-4.8-base_4.8.5-4ubuntu8_amd64.deb ./libstdc++-4.8-dev_4.8.5-4ubuntu8_amd64.deb ./cpp-4.8_4.8.5-4ubuntu8_amd64.deb ./libgcc-4.8-dev_4.8.5-4ubuntu8_amd64.deb ./libasan0_4.8.5-4ubuntu8_amd64.deb ./g++-4.8_4.8.5-4ubuntu8_amd64.deb
 ```
+
 ```
 cd ~/synopsys/.test_synopsys
 make
 ```
 
+# uvm
+
+# uvmc
+
+## ref
+https://bbs.eetop.cn/thread-909125-1-1.html
