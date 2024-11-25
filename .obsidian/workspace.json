@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "workflow/eda.md",
+                "file": "workflow/git/git.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "eda"
+              "title": "git"
             }
           }
         ]
@@ -183,13 +183,14 @@
   },
   "active": "792427f7e9803014",
   "lastOpenFiles": [
+    "ToDoList.md",
+    "workflow/eda.md",
     "workflow/ref/eda_4.pdf",
     "workflow/ref/eda_3.pdf",
     "workflow/ref/uvmc_1.pdf",
     "workflow/include/Pasted image 20241125080802.png",
     "workflow/git/git.md",
     "workflow/github.md",
-    "workflow/eda.md",
     "workflow/include/Pasted image 20241125013801.png",
     "workflow/include/Pasted image 20241125013719.png",
     "workflow/include/Pasted image 20241125013627.png",
@@ -199,7 +200,6 @@
     "workflow/bypass_paywall.md",
     "workflow/ref/eda_1.pdf",
     "workflow/ref/eda_2.pdf",
-    "ToDoList.md",
     "de/amba_axi/ddr_latency.md",
     "workflow/nvim.md",
     "workflow/include/Pasted image 20241119223204.png",
@@ -218,7 +218,6 @@
     "de/v/ref/rtl.pptx",
     "de/v/ref/CodingStyle_v1.1.pptx",
     "financial/backtesting/test2.py.bak.20241109_012501",
-    "financial/backtesting/test2.py.bak.20241109_012401",
     "de/ppa/power.md",
     "de/ppa/evaluation.md",
     "financial/finmind.md",
