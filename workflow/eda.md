@@ -145,7 +145,7 @@ make
 
 # uvmc
 
-# from_scratch
+## from_scratch
 
 download uvm connect 2.3.2 kit
 
@@ -156,7 +156,7 @@ cd $UVMC_HOME/examples/connections
 ln -sf Makefile.vcs Makefile
 ```
 
-# method_1
+### method_1
 ```
 vim Makefile.vcs
 ```
@@ -175,7 +175,7 @@ comp:
 make comp EXAMPLE=sv2sc
 make sim EXAMPLE=sv2sc
 ```
-# method_2
+### method_2
 
 ```
 vim /home/jnjn0022/synopsys/uvmc-2.3.2/examples/common/Makefile.vcs
@@ -187,10 +187,14 @@ In /home/jnjn0022/synopsys/uvmc-2.3.2/examples/common/Makefile.vcs
 VCS_BITS=-full64
 ```
 
+```
+make comp EXAMPLE=sv2sc
+make sim EXAMPLE=sv2sc
+```
 ## ref
 https://bbs.eetop.cn/thread-909125-1-1.html
 
 ```
 cd ~/synopsys/.test_uvmc_synopsys
-make
+make sc2sv
 ```

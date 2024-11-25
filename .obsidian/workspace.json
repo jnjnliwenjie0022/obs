@@ -107,8 +107,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 276.5,
-    "collapsed": true
+    "width": 276.5
   },
   "right": {
     "id": "cb661d0a10776c07",
@@ -182,8 +181,9 @@
       "obsidian-to-anki-plugin:Obsidian_to_Anki - Scan Vault": false
     }
   },
-  "active": "792427f7e9803014",
+  "active": "19a60b1e44f4e87a",
   "lastOpenFiles": [
+    "workflow/ref/uvmc_1.pdf",
     "workflow/include/Pasted image 20241125080802.png",
     "workflow/git/git.md",
     "workflow/github.md",
@@ -213,7 +213,6 @@
     "dv/uvm/include/uvm_do_on_pri_with.canvas",
     "dv/uvmc/comment.md",
     "de/ppa/include/Pasted image 20241030105905.png",
-    "de/ppa/include/Pasted image 20240925115502.png",
     "de/v/ref/rtl.pptx",
     "de/v/ref/CodingStyle_v1.1.pptx",
     "financial/backtesting/test2.py.bak.20241109_012501",
