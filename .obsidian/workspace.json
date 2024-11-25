@@ -181,8 +181,9 @@
       "obsidian-to-anki-plugin:Obsidian_to_Anki - Scan Vault": false
     }
   },
-  "active": "19a60b1e44f4e87a",
+  "active": "792427f7e9803014",
   "lastOpenFiles": [
+    "workflow/ref/eda_3.pdf",
     "workflow/ref/uvmc_1.pdf",
     "workflow/include/Pasted image 20241125080802.png",
     "workflow/git/git.md",
@@ -218,7 +219,6 @@
     "financial/backtesting/test2.py.bak.20241109_012501",
     "financial/backtesting/test2.py.bak.20241109_012401",
     "financial/backtesting/test2.py~",
-    "financial/backtesting/scrapyproject/scrapyproject/spiders/__pycache__/bank.cpython-310.pyc.140576922400400",
     "de/ppa/power.md",
     "de/ppa/evaluation.md",
     "financial/finmind.md",
