@@ -156,6 +156,7 @@ cd $UVMC_HOME/examples/connections
 ln -sf Makefile.vcs Makefile
 ```
 
+# method_1
 ```
 vim Makefile.vcs
 ```
@@ -174,6 +175,18 @@ comp:
 make comp EXAMPLE=sv2sc
 make sim EXAMPLE=sv2sc
 ```
+# method_2
+
+```
+vim /home/jnjn0022/synopsys/uvmc-2.3.2/examples/common/Makefile.vcs
+```
+
+```
+In /home/jnjn0022/synopsys/uvmc-2.3.2/examples/common/Makefile.vcs
+
+VCS_BITS=-full64
+```
+
 ## ref
 https://bbs.eetop.cn/thread-909125-1-1.html
 
