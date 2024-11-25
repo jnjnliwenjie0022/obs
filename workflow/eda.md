@@ -145,11 +145,23 @@ https://verificationacademy.com/search/?term=uvmc
 
 ```
 cd $UVMC_HOME/examples/connections
-ln -sf  Makefile.vcs  Makefile
+ln -sf Makefile.vcs Makefile
 make comp EXAMPLE=sv2sc
 make sim EXAMPLE=sv2sc
 ```
 
+```
+vim Makefile.vcs
+```
+
+![[Pasted image 20241125080802.png]]
+
+```
+comp:
+	$(SYSCAN) -full64 -cflags -Icommon $(EXAMPLE).cpp 
+	$(VLOGAN) -full64 +incdir+common $(EXAMPLE).sv +define+UVM_OBJECT_MUST_HAVE_CONSTRUCTOR 
+	$(VCS_ELAB) -full64 sv_main sc_main
+```
 ## ref
 https://bbs.eetop.cn/thread-909125-1-1.html
 
