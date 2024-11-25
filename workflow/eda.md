@@ -1,3 +1,11 @@
+# env
+
+1. gcc: 4.8.5 (Ubuntu 4.8.5-4ubuntu8)
+2. g++: 4.8.5 (Ubuntu 4.8.5-4ubuntu8)
+3. linux: Ubuntu 22.04.2 LTS
+4. uvmc: 2.3.2
+5. synopsys: 2016.06
+
 # synopsys
 ## ref
 https://zhuanlan.zhihu.com/p/613401479
@@ -146,8 +154,6 @@ https://verificationacademy.com/search/?term=uvmc
 ```
 cd $UVMC_HOME/examples/connections
 ln -sf Makefile.vcs Makefile
-make comp EXAMPLE=sv2sc
-make sim EXAMPLE=sv2sc
 ```
 
 ```
@@ -157,10 +163,16 @@ vim Makefile.vcs
 ![[Pasted image 20241125080802.png]]
 
 ```
+In Makefile.vcs
 comp:
 	$(SYSCAN) -full64 -cflags -Icommon $(EXAMPLE).cpp 
 	$(VLOGAN) -full64 +incdir+common $(EXAMPLE).sv +define+UVM_OBJECT_MUST_HAVE_CONSTRUCTOR 
 	$(VCS_ELAB) -full64 sv_main sc_main
+```
+
+```
+make comp EXAMPLE=sv2sc
+make sim EXAMPLE=sv2sc
 ```
 ## ref
 https://bbs.eetop.cn/thread-909125-1-1.html
