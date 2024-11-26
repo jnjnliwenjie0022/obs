@@ -4,56 +4,37 @@
     "type": "split",
     "children": [
       {
-        "id": "a27de4b365c5fafe",
+        "id": "c99024416e9031d7",
         "type": "tabs",
         "children": [
           {
-            "id": "08e98b8390a28d5a",
+            "id": "792427f7e9803014",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "de/ppa/power.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "power"
-            }
-          },
-          {
-            "id": "52ae65195ed71add",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "de/fctrl/fctrl.md",
+                "file": "de/arithmetic/csa/csa.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "fctrl"
+              "title": "csa"
             }
           },
           {
-            "id": "341905076a393cb0",
+            "id": "a757e87681c9af26",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "de/arbiter/arbiter.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
+                "file": "de/arithmetic/csa/include/Pasted image 20241126215852.png"
               },
-              "icon": "lucide-file",
-              "title": "arbiter"
+              "icon": "lucide-image",
+              "title": "Pasted image 20241126215852"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -65,7 +46,7 @@
       {
         "id": "afadd362b9dadcb6",
         "type": "tabs",
-        "dimension": 73.73929590865842,
+        "dimension": 62.21264367816091,
         "children": [
           {
             "id": "e659ba5d1cf0724d",
@@ -111,11 +92,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "de/ppa/power.md"
-              },
+              "state": {},
               "icon": "lucide-list",
-              "title": "Outline of power"
+              "title": "Outline"
             }
           }
         ],
@@ -124,7 +103,7 @@
       {
         "id": "ce31482b6afb7740",
         "type": "tabs",
-        "dimension": 26.26070409134158,
+        "dimension": 37.787356321839084,
         "children": [
           {
             "id": "8cb3b947f548a8b1",
@@ -140,7 +119,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 335.5110321044922
+    "width": 276.5
   },
   "right": {
     "id": "cb661d0a10776c07",
@@ -169,7 +148,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "de/fctrl/fctrl.md",
+                "file": "de/ppa/include/Pasted image 20240926110143.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -179,7 +158,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for fctrl"
+              "title": "Backlinks for Pasted image 20240926110143"
             }
           },
           {
@@ -188,16 +167,15 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "de/fctrl/fctrl.md",
+                "file": "de/ppa/include/Pasted image 20240926110143.png",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from fctrl"
+              "title": "Outgoing links from Pasted image 20240926110143"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -206,67 +184,67 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "obsidian-to-anki-plugin:Obsidian_to_Anki - Scan Vault": true,
       "switcher:Open quick switcher": true,
       "graph:Open graph view": true,
       "canvas:Create new canvas": true,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": true,
-      "command-palette:Open command palette": true
+      "command-palette:Open command palette": true,
+      "obsidian-to-anki-plugin:Obsidian_to_Anki - Scan Vault": false
     }
   },
-  "active": "52ae65195ed71add",
+  "active": "792427f7e9803014",
   "lastOpenFiles": [
-    "de/format.md",
-    "de/lut.md",
-    "de/note.md",
-    "de/v/verilog.md",
-    "de/v/ref/~$CodingStyle_v1.1.pptx",
-    "de/ppa/power.md",
-    "workflow/ref/uvmc_1.pdf",
+    "de/arithmetic/csa/include/Pasted image 20241126215852.png",
+    "de/arithmetic/csa/csa.md",
+    "de/arithmetic/csa/include",
+    "de/fpu/include_f16mac/csa4to2.svg",
+    "de/arithmetic/csa",
+    "workflow/git/git.md",
+    "ToDoList.md",
+    "workflow/eda.md",
     "workflow/ref/eda_4.pdf",
     "workflow/ref/eda_3.pdf",
-    "workflow/ref/eda_2.pdf",
-    "workflow/ref/eda_1.pdf",
-    "workflow/ref",
+    "workflow/ref/uvmc_1.pdf",
     "workflow/include/Pasted image 20241125080802.png",
+    "workflow/github.md",
     "workflow/include/Pasted image 20241125013801.png",
     "workflow/include/Pasted image 20241125013719.png",
     "workflow/include/Pasted image 20241125013627.png",
     "workflow/include/Pasted image 20241125013541.png",
-    "workflow/eda.md",
-    "dv/uvmc/uvmc.md",
-    "dv/uvmc/comment.md",
+    "workflow/tmux.md",
+    "workflow/tnv.md",
+    "workflow/bypass_paywall.md",
+    "workflow/ref/eda_1.pdf",
+    "workflow/ref/eda_2.pdf",
+    "de/amba_axi/ddr_latency.md",
+    "workflow/nvim.md",
     "workflow/include/Pasted image 20241119223204.png",
-    "de/arithmetic/booth.md",
-    "de/arithmetic/ref_booth/~$analysis.xlsx",
-    "de/arithmetic/divider.md",
-    "de/fctrl/include/credit_fctrl.svg",
-    "de/fctrl/include/pending_buffer.svg",
-    "de/arithmetic/include_booth/Pasted image 20240305135452.png",
-    "de/arbiter/arbiter.md",
-    "de/v/ref/coding_guidelines.pdf",
-    "de/fctrl/ref/~$Network-on-Chip.ppt",
-    "ToDoList.md",
-    "Untitled.md",
-    "maketing/include/Pasted image 20240828111852.png",
-    "de/_unorganized/cosim.md",
-    "de/ppa/evaluation.md",
+    "workflow/ganttproject.md",
+    "workflow/include/git.svg",
+    "de/ppa/include/Pasted image 20240926110143.png",
+    "workflow/ref",
+    "workflow/New folder",
+    "dv/uvmc/uvmc.md",
     "conflict-files-obsidian-git.md",
-    "de/ppa/timing.md",
-    "workflow/git/git.md",
-    "de/amba_ahb/ahb.md",
-    "de/fctrl/fctrl.md",
-    "financial/RSI分析.md",
-    "financial/finmind.md",
-    "de/fifo/fifo.md",
-    "de/amba_axi/axi.md",
-    "financial/隨機漫步理論分析.md",
-    "dv/uvm/include/uvm_factory1.canvas",
-    "uvm_factory.canvas",
-    "dv/uvm/uvm_factory.canvas",
+    "dv/uvm/sequence.md",
     "dv/uvm/include/uvm_do_on_pri_with.canvas",
-    "dv/rename order_of_starting_sequence.canvas",
+    "dv/uvmc/comment.md",
+    "de/v/ref/rtl.pptx",
+    "de/ppa/power.md",
+    "de/ppa/evaluation.md",
+    "financial/finmind.md",
+    "de/ppa/timing.md",
+    "Untitled.md",
+    "de/ppa/performance.md",
+    "de/ppa/area.md",
+    "Pasted image 20240827105334.png.md",
+    "de/ppa/ppa.md",
+    "de/fpu/f16mac.md",
+    "uvm_factory.canvas",
+    "dv/uvm/include/uvm_factory1.canvas",
+    "dv/uvm/uvm_factory.canvas",
+    "dv/uvm/uvm_do.canvas",
     "Untitled.canvas",
     "Untitled 1.canvas",
     "債券/債券.canvas"
