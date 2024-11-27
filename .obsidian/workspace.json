@@ -13,16 +13,29 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "de/fpu/f16mac.md",
-                "mode": "preview",
+                "file": "de/v/verilog.md",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "f16mac"
+              "title": "verilog"
+            }
+          },
+          {
+            "id": "5b5f19b6a12318e1",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "de/v/include/Pasted image 20241127162031.png"
+              },
+              "icon": "lucide-image",
+              "title": "Pasted image 20241127162031"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -184,8 +197,11 @@
       "command-palette:Open command palette": true
     }
   },
-  "active": "08e98b8390a28d5a",
+  "active": "5b5f19b6a12318e1",
   "lastOpenFiles": [
+    "de/v/verilog.md",
+    "de/v/include/Pasted image 20241127162031.png",
+    "de/fpu/f16mac.md",
     "workflow/git/git.md",
     "de/arithmetic/booth.md",
     "de/ppa/power.md",
@@ -198,7 +214,6 @@
     "de/format.md",
     "de/lut.md",
     "de/note.md",
-    "de/v/verilog.md",
     "de/v/ref/~$CodingStyle_v1.1.pptx",
     "workflow/ref/uvmc_1.pdf",
     "workflow/ref/eda_4.pdf",
@@ -219,7 +234,6 @@
     "de/arithmetic/divider.md",
     "de/fctrl/include/credit_fctrl.svg",
     "de/fctrl/include/pending_buffer.svg",
-    "de/arithmetic/include_booth/Pasted image 20240305135452.png",
     "de/arbiter/arbiter.md",
     "ToDoList.md",
     "Untitled.md",
@@ -230,7 +244,6 @@
     "financial/RSI分析.md",
     "financial/finmind.md",
     "de/fifo/fifo.md",
-    "de/amba_axi/axi.md",
     "dv/uvm/include/uvm_factory1.canvas",
     "uvm_factory.canvas",
     "dv/uvm/uvm_factory.canvas",
