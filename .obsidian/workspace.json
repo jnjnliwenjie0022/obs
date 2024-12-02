@@ -26,15 +26,12 @@
             "id": "5b5f19b6a12318e1",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "de/fpu/f16mac.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
+                "file": "de/fpu/include_f16mac/csa4to2.svg"
               },
-              "icon": "lucide-file",
-              "title": "f16mac"
+              "icon": "lucide-image",
+              "title": "csa4to2"
             }
           }
         ],
@@ -202,9 +199,11 @@
   },
   "active": "5b5f19b6a12318e1",
   "lastOpenFiles": [
+    "de/fpu/f16mac.md",
+    "de/arithmetic/ref_booth/69D325E0",
+    "de/arithmetic/ref_booth/~$analysis.xlsx",
     "de/v/include/Pasted image 20241127162031.png",
     "de/v/verilog.md",
-    "de/fpu/f16mac.md",
     "workflow/git/git.md",
     "de/arithmetic/booth.md",
     "de/ppa/power.md",
@@ -223,7 +222,6 @@
     "workflow/ref/eda_3.pdf",
     "workflow/ref/eda_2.pdf",
     "workflow/ref/eda_1.pdf",
-    "workflow/ref",
     "workflow/include/Pasted image 20241125080802.png",
     "workflow/include/Pasted image 20241125013801.png",
     "workflow/include/Pasted image 20241125013719.png",
@@ -233,7 +231,6 @@
     "dv/uvmc/uvmc.md",
     "dv/uvmc/comment.md",
     "workflow/include/Pasted image 20241119223204.png",
-    "de/arithmetic/ref_booth/~$analysis.xlsx",
     "de/arithmetic/divider.md",
     "de/fctrl/include/credit_fctrl.svg",
     "de/fctrl/include/pending_buffer.svg",
