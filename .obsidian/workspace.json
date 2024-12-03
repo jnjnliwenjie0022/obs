@@ -26,12 +26,15 @@
             "id": "5b5f19b6a12318e1",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "de/fpu/include_f16mac/csa4to2.svg"
+                "file": "workflow/git/git.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
               },
-              "icon": "lucide-image",
-              "title": "csa4to2"
+              "icon": "lucide-file",
+              "title": "git"
             }
           }
         ],
@@ -199,8 +202,8 @@
   },
   "active": "5b5f19b6a12318e1",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
     "de/fpu/include_f16mac/csa4to2.svg",
+    "conflict-files-obsidian-git.md",
     "de/fpu/f16mac.md",
     "de/arithmetic/ref_booth/69D325E0",
     "de/arithmetic/ref_booth/~$analysis.xlsx",
