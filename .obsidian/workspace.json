@@ -26,15 +26,12 @@
             "id": "5b5f19b6a12318e1",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "workflow/git/git.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
+                "file": "de/amba_ahb/ref/IHI0033C_amba_ahb_protocol_spec.pdf"
               },
-              "icon": "lucide-file",
-              "title": "git"
+              "icon": "lucide-file-text",
+              "title": "IHI0033C_amba_ahb_protocol_spec"
             }
           }
         ],
@@ -202,6 +199,9 @@
   },
   "active": "5b5f19b6a12318e1",
   "lastOpenFiles": [
+    "de/amba_ahb/ahb.md",
+    "de/amba_ahb/ref/~$deShape_ATCBUSDEC200_Design_Spec_V1.0.docx",
+    "workflow/git/git.md",
     "de/fpu/include_f16mac/csa4to2.svg",
     "conflict-files-obsidian-git.md",
     "de/fpu/f16mac.md",
@@ -209,7 +209,6 @@
     "de/arithmetic/ref_booth/~$analysis.xlsx",
     "de/v/include/Pasted image 20241127162031.png",
     "de/v/verilog.md",
-    "workflow/git/git.md",
     "de/arithmetic/booth.md",
     "de/ppa/power.md",
     "de/arithmetic/csa/include/Pasted image 20241126215852.png",
@@ -225,7 +224,6 @@
     "workflow/ref/eda_4.pdf",
     "workflow/ref/eda_3.pdf",
     "workflow/ref/eda_2.pdf",
-    "workflow/ref/eda_1.pdf",
     "workflow/include/Pasted image 20241125080802.png",
     "workflow/include/Pasted image 20241125013801.png",
     "workflow/include/Pasted image 20241125013719.png",
@@ -243,7 +241,6 @@
     "de/_unorganized/cosim.md",
     "de/ppa/evaluation.md",
     "de/ppa/timing.md",
-    "de/amba_ahb/ahb.md",
     "financial/RSI分析.md",
     "financial/finmind.md",
     "de/fifo/fifo.md",
