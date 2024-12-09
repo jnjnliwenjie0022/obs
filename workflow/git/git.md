@@ -167,3 +167,9 @@ git fetch <remote_name>
 # 2. check master_branch need to be up-to-date
 git rebase <master_branch>
 ```
+
+### branch
+```
+git checkout -b <new_branch_name>
+git push --set-upstream origin <new_branch_name>
+```
