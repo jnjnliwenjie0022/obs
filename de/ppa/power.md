@@ -172,3 +172,6 @@ Summary
 [[slides.pdf#page=37&selection=2,0,4,29|slides, page 37]]
 
 ![[Pasted image 20240926110143.png]]
+
+## ddr_power
+![[Pasted image 20241209165553.png]]
