@@ -28,13 +28,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "de/ppa/power.md",
+                "file": "de/amba_ahb/ahb.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "power"
+              "title": "ahb"
             }
           }
         ],
@@ -202,10 +202,12 @@
   },
   "active": "5b5f19b6a12318e1",
   "lastOpenFiles": [
+    "de/v/verilog.md",
+    "de/amba_ahb/ahb.md",
+    "de/ppa/power.md",
     "Pasted image 20241209165553.png",
     "workflow/git/git.md",
     "de/amba_ahb/ref/IHI0033C_amba_ahb_protocol_spec.pdf",
-    "de/amba_ahb/ahb.md",
     "de/amba_ahb/ref/~$deShape_ATCBUSDEC200_Design_Spec_V1.0.docx",
     "de/fpu/include_f16mac/csa4to2.svg",
     "conflict-files-obsidian-git.md",
@@ -213,9 +215,7 @@
     "de/arithmetic/ref_booth/69D325E0",
     "de/arithmetic/ref_booth/~$analysis.xlsx",
     "de/v/include/Pasted image 20241127162031.png",
-    "de/v/verilog.md",
     "de/arithmetic/booth.md",
-    "de/ppa/power.md",
     "de/arithmetic/csa/include/Pasted image 20241126215852.png",
     "de/arithmetic/csa/include",
     "de/arithmetic/csa/csa.md",
@@ -238,7 +238,6 @@
     "dv/uvmc/comment.md",
     "workflow/include/Pasted image 20241119223204.png",
     "de/arithmetic/divider.md",
-    "de/fctrl/include/credit_fctrl.svg",
     "de/arbiter/arbiter.md",
     "ToDoList.md",
     "Untitled.md",
