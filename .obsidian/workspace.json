@@ -26,15 +26,12 @@
             "id": "5b5f19b6a12318e1",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "de/amba_ahb/ahb.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
+                "file": "de/amba_ahb/ref/IHI0033C_amba_ahb_protocol_spec.pdf"
               },
-              "icon": "lucide-file",
-              "title": "ahb"
+              "icon": "lucide-file-text",
+              "title": "IHI0033C_amba_ahb_protocol_spec"
             }
           }
         ],
@@ -202,12 +199,12 @@
   },
   "active": "5b5f19b6a12318e1",
   "lastOpenFiles": [
-    "de/v/verilog.md",
     "de/amba_ahb/ahb.md",
+    "de/amba_ahb/ref/IHI0033C_amba_ahb_protocol_spec.pdf",
+    "de/v/verilog.md",
     "de/ppa/power.md",
     "Pasted image 20241209165553.png",
     "workflow/git/git.md",
-    "de/amba_ahb/ref/IHI0033C_amba_ahb_protocol_spec.pdf",
     "de/amba_ahb/ref/~$deShape_ATCBUSDEC200_Design_Spec_V1.0.docx",
     "de/fpu/include_f16mac/csa4to2.svg",
     "conflict-files-obsidian-git.md",
