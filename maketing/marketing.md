@@ -9,3 +9,4 @@ CIM
 2. 采用是降噪耳機
 3. analog CIM論文很好發但無法商業化
 4. TOPs per W ~= 200
+非IP公司的CPU處理是housekeeping行爲
