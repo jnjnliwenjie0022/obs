@@ -26,12 +26,15 @@
             "id": "5b5f19b6a12318e1",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "de/amba_ahb/ref/IHI0033C_amba_ahb_protocol_spec.pdf"
+                "file": "maketing/marketing.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "IHI0033C_amba_ahb_protocol_spec"
+              "icon": "lucide-file",
+              "title": "marketing"
             }
           }
         ],
@@ -199,9 +202,9 @@
   },
   "active": "5b5f19b6a12318e1",
   "lastOpenFiles": [
+    "de/amba_ahb/ref/IHI0033C_amba_ahb_protocol_spec.pdf",
     "de/amba_ahb/ahb.md",
     "de/ppa/power.md",
-    "de/amba_ahb/ref/IHI0033C_amba_ahb_protocol_spec.pdf",
     "de/v/verilog.md",
     "Pasted image 20241209165553.png",
     "workflow/git/git.md",
