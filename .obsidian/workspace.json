@@ -26,15 +26,12 @@
             "id": "5b5f19b6a12318e1",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "workflow/git/git.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
+                "file": "de/cim/ref/CIM技术经典导读之数字SRAM CIM技术 - sasasatori - 博客园.pdf"
               },
-              "icon": "lucide-file",
-              "title": "git"
+              "icon": "lucide-file-text",
+              "title": "CIM技术经典导读之数字SRAM CIM技术 - sasasatori - 博客园"
             }
           },
           {
@@ -214,9 +211,9 @@
   },
   "active": "5b5f19b6a12318e1",
   "lastOpenFiles": [
+    "workflow/git/git.md",
     "workflow/git/include/Pasted image 20241220181756.png",
     "Pasted image 20241209165553.png",
-    "workflow/git/git.md",
     "maketing/marketing.md",
     "de/cim/ref/CIM技术经典导读之数字SRAM CIM技术 - sasasatori - 博客园.pdf",
     "de/cim/ref",
