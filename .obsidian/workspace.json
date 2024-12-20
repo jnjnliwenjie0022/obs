@@ -28,13 +28,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "maketing/marketing.md",
+                "file": "workflow/git/git.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "marketing"
+              "title": "git"
             }
           }
         ],
@@ -202,6 +202,12 @@
   },
   "active": "5b5f19b6a12318e1",
   "lastOpenFiles": [
+    "maketing/marketing.md",
+    "de/cim/ref/CIM技术经典导读之数字SRAM CIM技术 - sasasatori - 博客园.pdf",
+    "de/cim/ref",
+    "de/cim/New folder",
+    "de/cim",
+    "de/New folder",
     "de/amba_ahb/ref/IHI0033C_amba_ahb_protocol_spec.pdf",
     "de/amba_ahb/ahb.md",
     "de/ppa/power.md",
@@ -219,15 +225,10 @@
     "de/arithmetic/csa/include/Pasted image 20241126215852.png",
     "de/arithmetic/csa/include",
     "de/arithmetic/csa/csa.md",
-    "de/arithmetic/csa",
     "de/fctrl/fctrl.md",
     "de/format.md",
     "de/lut.md",
     "de/note.md",
-    "de/v/ref/~$CodingStyle_v1.1.pptx",
-    "workflow/ref/uvmc_1.pdf",
-    "workflow/ref/eda_4.pdf",
-    "workflow/ref/eda_3.pdf",
     "workflow/include/Pasted image 20241125080802.png",
     "workflow/include/Pasted image 20241125013801.png",
     "workflow/include/Pasted image 20241125013719.png",
