@@ -26,12 +26,15 @@
             "id": "5b5f19b6a12318e1",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "de/cim/ref/CIM技术经典导读之数字SRAM CIM技术 - sasasatori - 博客园.pdf"
+                "file": "de/cim/cim.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "CIM技术经典导读之数字SRAM CIM技术 - sasasatori - 博客园"
+              "icon": "lucide-file",
+              "title": "cim"
             }
           },
           {
@@ -211,11 +214,12 @@
   },
   "active": "5b5f19b6a12318e1",
   "lastOpenFiles": [
+    "de/cim/ref/CIM技术经典导读之数字SRAM CIM技术 - sasasatori - 博客园.pdf",
+    "de/cim/cim.md",
     "workflow/git/git.md",
     "workflow/git/include/Pasted image 20241220181756.png",
     "Pasted image 20241209165553.png",
     "maketing/marketing.md",
-    "de/cim/ref/CIM技术经典导读之数字SRAM CIM技术 - sasasatori - 博客园.pdf",
     "de/cim/ref",
     "de/cim/New folder",
     "de/cim",
@@ -255,7 +259,6 @@
     "de/ppa/evaluation.md",
     "de/ppa/timing.md",
     "financial/RSI分析.md",
-    "financial/finmind.md",
     "dv/uvm/include/uvm_factory1.canvas",
     "uvm_factory.canvas",
     "dv/uvm/uvm_factory.canvas",
