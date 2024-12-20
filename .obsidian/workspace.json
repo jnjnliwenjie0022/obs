@@ -36,6 +36,18 @@
               "icon": "lucide-file",
               "title": "git"
             }
+          },
+          {
+            "id": "5f35951c1a8f947f",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "workflow/git/include/Pasted image 20241220181756.png"
+              },
+              "icon": "lucide-image",
+              "title": "Pasted image 20241220181756"
+            }
           }
         ],
         "currentTab": 1
@@ -202,6 +214,9 @@
   },
   "active": "5b5f19b6a12318e1",
   "lastOpenFiles": [
+    "workflow/git/include/Pasted image 20241220181756.png",
+    "Pasted image 20241209165553.png",
+    "workflow/git/git.md",
     "maketing/marketing.md",
     "de/cim/ref/CIM技术经典导读之数字SRAM CIM技术 - sasasatori - 博客园.pdf",
     "de/cim/ref",
@@ -212,8 +227,6 @@
     "de/amba_ahb/ahb.md",
     "de/ppa/power.md",
     "de/v/verilog.md",
-    "Pasted image 20241209165553.png",
-    "workflow/git/git.md",
     "de/amba_ahb/ref/~$deShape_ATCBUSDEC200_Design_Spec_V1.0.docx",
     "de/fpu/include_f16mac/csa4to2.svg",
     "conflict-files-obsidian-git.md",
@@ -237,7 +250,6 @@
     "workflow/eda.md",
     "dv/uvmc/uvmc.md",
     "dv/uvmc/comment.md",
-    "workflow/include/Pasted image 20241119223204.png",
     "de/arithmetic/divider.md",
     "de/arbiter/arbiter.md",
     "ToDoList.md",
@@ -247,7 +259,6 @@
     "de/ppa/timing.md",
     "financial/RSI分析.md",
     "financial/finmind.md",
-    "de/fifo/fifo.md",
     "dv/uvm/include/uvm_factory1.canvas",
     "uvm_factory.canvas",
     "dv/uvm/uvm_factory.canvas",

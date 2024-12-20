@@ -168,7 +168,7 @@ git fetch <remote_name>
 git rebase <master_branch>
 git push --force-with-lease
 ```
-
+![[Pasted image 20241220181756.png]]
 ### branch
 ```
 git checkout -b <new_branch_name>
