@@ -166,6 +166,7 @@ git fetch <remote_name>
 # 1.2 (important) stash the file you need
 # 2. check master_branch need to be up-to-date
 git rebase <master_branch>
+git push --force-with-lease
 ```
 
 ### branch
