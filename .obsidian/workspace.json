@@ -11,15 +11,12 @@
             "id": "792427f7e9803014",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "de/cim/cim.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
+                "file": "de/cim/ref/ESSCIRC.2019.8902824.pdf"
               },
-              "icon": "lucide-file",
-              "title": "cim"
+              "icon": "lucide-file-text",
+              "title": "ESSCIRC.2019.8902824"
             }
           },
           {
@@ -119,7 +116,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 276.5
+    "width": 276.5,
+    "collapsed": true
   },
   "right": {
     "id": "cb661d0a10776c07",
@@ -193,12 +191,12 @@
       "obsidian-to-anki-plugin:Obsidian_to_Anki - Scan Vault": false
     }
   },
-  "active": "19a60b1e44f4e87a",
+  "active": "792427f7e9803014",
   "lastOpenFiles": [
+    "de/cim/cim.md",
     "de/cim/ref/ESSCIRC.2019.8902824.pdf",
     "de/cim/ref/ESSCIRC.2019.8902824.pdf.crdownload",
     "de/cim/ref/CIM技术经典导读之数字SRAM CIM技术 - sasasatori - 博客园.pdf",
-    "de/cim/cim.md",
     "workflow/git/git.md",
     "workflow/git/include/Pasted image 20241220181756.png",
     "de/cim/ref",
@@ -224,7 +222,6 @@
     "workflow/tmux.md",
     "workflow/tnv.md",
     "workflow/bypass_paywall.md",
-    "workflow/ref/eda_1.pdf",
     "de/amba_axi/ddr_latency.md",
     "workflow/nvim.md",
     "workflow/ganttproject.md",
