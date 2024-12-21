@@ -1,6 +1,6 @@
-https://www.cnblogs.com/sasasatori/p/17973415
 # ref
-[[ESSCIRC.2019.8902824.pdf#page=1&selection=0,0,2,60|ESSCIRC.2019.8902824, page 1]]
+
+https://www.cnblogs.com/sasasatori/p/17973415
 
 # algorithm
 

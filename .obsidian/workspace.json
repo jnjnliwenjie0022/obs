@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "de/cim/cim.md",
-                "mode": "source",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               },
@@ -88,7 +88,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       },
       {
         "id": "ce31482b6afb7740",
@@ -186,14 +186,14 @@
       "obsidian-to-anki-plugin:Obsidian_to_Anki - Scan Vault": false
     }
   },
-  "active": "1d4a8447a5a9def4",
+  "active": "19a60b1e44f4e87a",
   "lastOpenFiles": [
-    "de/cim/ref/CIM技术经典导读之数字SRAM CIM技术 - sasasatori - 博客园.pdf",
+    "de/cim/ref/ESSCIRC.2019.8902824.pdf",
     "de/cim/cim.md",
+    "de/cim/ref/CIM技术经典导读之数字SRAM CIM技术 - sasasatori - 博客园.pdf",
     "de/cim/include/dataflow.svg",
     "Pasted image 20241209165553.png",
     "de/cim/ref/test.md",
-    "de/cim/ref/ESSCIRC.2019.8902824.pdf",
     "de/cim/include/uarch.svg",
     "de/cim/ref/~~$ESSCIRC.2019.8902824.pdf",
     "de/arithmetic/booth.md",
