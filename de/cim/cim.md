@@ -24,4 +24,4 @@ https://www.cnblogs.com/sasasatori/p/17973415
 
 ![[uarch.svg|1000]]
 
-![[CIM技术经典导读之数字SRAM CIM技术 - sasasatori - 博客园.pdf#page=25&annotation=600R|CIM技术经典导读之数字SRAM CIM技术 - sasasatori - 博客园, page 25]]
+[[CIM技术经典导读之数字SRAM CIM技术 - sasasatori - 博客园.pdf#page=25&annotation=600R|CIM技术经典导读之数字SRAM CIM技术 - sasasatori - 博客园, page 25]]
