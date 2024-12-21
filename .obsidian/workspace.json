@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "fd5291b76a52cc4d",
+        "id": "cb1762d78b4fa529",
         "type": "tabs",
         "children": [
           {
-            "id": "84e2165d7c405b36",
+            "id": "1d4a8447a5a9def4",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -23,18 +23,23 @@
             }
           },
           {
-            "id": "49a8cb8428ae3691",
+            "id": "6c0797e7da097004",
             "type": "leaf",
             "state": {
               "type": "pdf",
               "state": {
-                "file": "de/cim/ref/CIM技术经典导读之数字SRAM CIM技术 - sasasatori - 博客园.pdf"
+                "file": "de/cim/ref/CIM技术经典导读之数字SRAM CIM技术 - sasasatori - 博客园.pdf",
+                "page": 25,
+                "left": -11,
+                "top": 620,
+                "zoom": 1.3333333333333335
               },
               "icon": "lucide-file-text",
               "title": "CIM技术经典导读之数字SRAM CIM技术 - sasasatori - 博客园"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -179,10 +184,14 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
+      "pdf-plus:PDF++: Toggle auto-copy": false,
+      "pdf-plus:PDF++: Toggle auto-focus": false,
+      "pdf-plus:PDF++: Toggle auto-paste": false,
       "switcher:Open quick switcher": true,
       "graph:Open graph view": true,
       "canvas:Create new canvas": true,
@@ -192,10 +201,11 @@
       "obsidian-to-anki-plugin:Obsidian_to_Anki - Scan Vault": false
     }
   },
-  "active": "84e2165d7c405b36",
+  "active": "6c0797e7da097004",
   "lastOpenFiles": [
-    "de/cim/ref/CIM技术经典导读之数字SRAM CIM技术 - sasasatori - 博客园.pdf",
     "de/cim/cim.md",
+    "de/cim/ref/CIM技术经典导读之数字SRAM CIM技术 - sasasatori - 博客园.pdf",
+    "de/cim/ref/test.md",
     "de/cim/ref/ESSCIRC.2019.8902824.pdf",
     "de/cim/include/uarch.svg",
     "de/cim/ref/~~$ESSCIRC.2019.8902824.pdf",
@@ -239,7 +249,6 @@
     "de/ppa/timing.md",
     "Untitled.md",
     "de/ppa/performance.md",
-    "de/ppa/area.md",
     "uvm_factory.canvas",
     "dv/uvm/include/uvm_factory1.canvas",
     "dv/uvm/uvm_factory.canvas",

@@ -24,8 +24,5 @@ https://www.cnblogs.com/sasasatori/p/17973415
 
 ![[uarch.svg|1000]]
 
---- 
 
-annotation-target: https://arxiv.org/pdf/2104.13478.pdf 
-
----
+![[CIM技术经典导读之数字SRAM CIM技术 - sasasatori - 博客园.pdf#page=25&rect=53,35,723,588|CIM技术经典导读之数字SRAM CIM技术 - sasasatori - 博客园, p.25]]
