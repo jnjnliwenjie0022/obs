@@ -10,6 +10,8 @@ https://www.cnblogs.com/sasasatori/p/17973415
 
 # uarch
 
+bit serial for input data
+
 ![[ESSCIRC.2019.8902824.pdf#page=1&rect=442,99,565,234|ESSCIRC.2019.8902824, p.1|300]]
 ## basic
 

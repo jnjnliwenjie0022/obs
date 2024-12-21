@@ -4,28 +4,6 @@
     "type": "split",
     "children": [
       {
-        "id": "bc4467989affd6b8",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "f5f83a33d41d0924",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "de/cim/ref/ESSCIRC.2019.8902824.pdf",
-                "page": 1,
-                "left": -6,
-                "top": 375,
-                "zoom": 1.1168067226890757
-              },
-              "icon": "lucide-file-text",
-              "title": "ESSCIRC.2019.8902824"
-            }
-          }
-        ]
-      },
-      {
         "id": "ff20d7453c098664",
         "type": "tabs",
         "children": [
@@ -211,9 +189,9 @@
   },
   "active": "b73c186f4d10412f",
   "lastOpenFiles": [
-    "de/cim/ref/ESSCIRC.2019.8902824.pdf",
-    "de/cim/cim.md",
     "de/cim/include/uarch.svg",
+    "de/cim/cim.md",
+    "de/cim/ref/ESSCIRC.2019.8902824.pdf",
     "de/cim/ref/CIM技术经典导读之数字SRAM CIM技术 - sasasatori - 博客园.pdf",
     "de/cim/include/dataflow.svg",
     "Pasted image 20241209165553.png",
