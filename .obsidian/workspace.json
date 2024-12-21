@@ -4,19 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "c99024416e9031d7",
+        "id": "fd5291b76a52cc4d",
         "type": "tabs",
         "children": [
           {
-            "id": "792427f7e9803014",
+            "id": "84e2165d7c405b36",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "de/cim/ref/ESSCIRC.2019.8902824.pdf"
+                "file": "de/cim/cim.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "ESSCIRC.2019.8902824"
+              "icon": "lucide-file",
+              "title": "cim"
             }
           }
         ]
@@ -178,15 +181,15 @@
       "obsidian-to-anki-plugin:Obsidian_to_Anki - Scan Vault": false
     }
   },
-  "active": "792427f7e9803014",
+  "active": "84e2165d7c405b36",
   "lastOpenFiles": [
     "de/cim/cim.md",
+    "de/cim/include/uarch.svg",
+    "de/cim/ref/ESSCIRC.2019.8902824.pdf",
     "de/cim/ref/~~$ESSCIRC.2019.8902824.pdf",
     "de/arithmetic/booth.md",
     "de/arithmetic/divider.md",
-    "de/cim/ref/ESSCIRC.2019.8902824.pdf",
     "de/arithmetic/csa/include/Pasted image 20241126215852.png",
-    "de/cim/include/uarch.svg",
     "de/cim/include/arch.svg",
     "de/cim/include/dataflow - Copy.svg",
     "de/cim/include/dataflow.svg",
