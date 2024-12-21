@@ -4,17 +4,39 @@
     "type": "split",
     "children": [
       {
-        "id": "cb1762d78b4fa529",
+        "id": "bc4467989affd6b8",
         "type": "tabs",
         "children": [
           {
-            "id": "1d4a8447a5a9def4",
+            "id": "f5f83a33d41d0924",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "de/cim/ref/ESSCIRC.2019.8902824.pdf",
+                "page": 1,
+                "left": -6,
+                "top": 375,
+                "zoom": 1.1168067226890757
+              },
+              "icon": "lucide-file-text",
+              "title": "ESSCIRC.2019.8902824"
+            }
+          }
+        ]
+      },
+      {
+        "id": "ff20d7453c098664",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b73c186f4d10412f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "de/cim/cim.md",
-                "mode": "preview",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               },
@@ -109,7 +131,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 276.5
+    "width": 276.5,
+    "collapsed": true
   },
   "right": {
     "id": "cb661d0a10776c07",
@@ -186,15 +209,15 @@
       "obsidian-to-anki-plugin:Obsidian_to_Anki - Scan Vault": false
     }
   },
-  "active": "19a60b1e44f4e87a",
+  "active": "b73c186f4d10412f",
   "lastOpenFiles": [
     "de/cim/ref/ESSCIRC.2019.8902824.pdf",
     "de/cim/cim.md",
+    "de/cim/include/uarch.svg",
     "de/cim/ref/CIM技术经典导读之数字SRAM CIM技术 - sasasatori - 博客园.pdf",
     "de/cim/include/dataflow.svg",
     "Pasted image 20241209165553.png",
     "de/cim/ref/test.md",
-    "de/cim/include/uarch.svg",
     "de/cim/ref/~~$ESSCIRC.2019.8902824.pdf",
     "de/arithmetic/booth.md",
     "de/arithmetic/divider.md",
