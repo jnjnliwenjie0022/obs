@@ -21,6 +21,18 @@
               "icon": "lucide-file",
               "title": "cim"
             }
+          },
+          {
+            "id": "5528378ad5d9e1eb",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "de/cim/ref/CIM技术经典导读之数字SRAM CIM技术 - sasasatori - 博客园.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "CIM技术经典导读之数字SRAM CIM技术 - sasasatori - 博客园"
+            }
           }
         ]
       }
@@ -183,9 +195,10 @@
   },
   "active": "84e2165d7c405b36",
   "lastOpenFiles": [
+    "de/cim/ref/CIM技术经典导读之数字SRAM CIM技术 - sasasatori - 博客园.pdf",
     "de/cim/cim.md",
-    "de/cim/include/uarch.svg",
     "de/cim/ref/ESSCIRC.2019.8902824.pdf",
+    "de/cim/include/uarch.svg",
     "de/cim/ref/~~$ESSCIRC.2019.8902824.pdf",
     "de/arithmetic/booth.md",
     "de/arithmetic/divider.md",
@@ -197,7 +210,6 @@
     "de/cim/include",
     "de/cim/New folder",
     "de/cim/ref/ESSCIRC.2019.8902824.pdf.crdownload",
-    "de/cim/ref/CIM技术经典导读之数字SRAM CIM技术 - sasasatori - 博客园.pdf",
     "workflow/git/git.md",
     "workflow/git/include/Pasted image 20241220181756.png",
     "de/cim/ref",
