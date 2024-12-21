@@ -23,6 +23,18 @@
             }
           },
           {
+            "id": "49a8cb8428ae3691",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "de/cim/ref/CIM技术经典导读之数字SRAM CIM技术 - sasasatori - 博客园.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "CIM技术经典导读之数字SRAM CIM技术 - sasasatori - 博客园"
+            }
+          },
+          {
             "id": "5528378ad5d9e1eb",
             "type": "leaf",
             "state": {
@@ -34,7 +46,8 @@
               "title": "CIM技术经典导读之数字SRAM CIM技术 - sasasatori - 博客园"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -193,10 +206,10 @@
       "obsidian-to-anki-plugin:Obsidian_to_Anki - Scan Vault": false
     }
   },
-  "active": "84e2165d7c405b36",
+  "active": "49a8cb8428ae3691",
   "lastOpenFiles": [
-    "de/cim/ref/CIM技术经典导读之数字SRAM CIM技术 - sasasatori - 博客园.pdf",
     "de/cim/cim.md",
+    "de/cim/ref/CIM技术经典导读之数字SRAM CIM技术 - sasasatori - 博客园.pdf",
     "de/cim/ref/ESSCIRC.2019.8902824.pdf",
     "de/cim/include/uarch.svg",
     "de/cim/ref/~~$ESSCIRC.2019.8902824.pdf",
