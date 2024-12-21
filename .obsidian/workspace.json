@@ -18,18 +18,6 @@
               "icon": "lucide-file-text",
               "title": "ESSCIRC.2019.8902824"
             }
-          },
-          {
-            "id": "a757e87681c9af26",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "de/arithmetic/csa/include/Pasted image 20241126215852.png"
-              },
-              "icon": "lucide-image",
-              "title": "Pasted image 20241126215852"
-            }
           }
         ]
       }
@@ -116,8 +104,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 276.5,
-    "collapsed": true
+    "width": 276.5
   },
   "right": {
     "id": "cb661d0a10776c07",
@@ -193,6 +180,12 @@
   },
   "active": "792427f7e9803014",
   "lastOpenFiles": [
+    "de/cim/cim.md",
+    "de/cim/ref/~~$ESSCIRC.2019.8902824.pdf",
+    "de/arithmetic/booth.md",
+    "de/arithmetic/divider.md",
+    "de/cim/ref/ESSCIRC.2019.8902824.pdf",
+    "de/arithmetic/csa/include/Pasted image 20241126215852.png",
     "de/cim/include/uarch.svg",
     "de/cim/include/arch.svg",
     "de/cim/include/dataflow - Copy.svg",
@@ -200,9 +193,6 @@
     "de/cim/include/dataflow.drawio",
     "de/cim/include",
     "de/cim/New folder",
-    "de/cim/ref/~~$ESSCIRC.2019.8902824.pdf",
-    "de/cim/cim.md",
-    "de/cim/ref/ESSCIRC.2019.8902824.pdf",
     "de/cim/ref/ESSCIRC.2019.8902824.pdf.crdownload",
     "de/cim/ref/CIM技术经典导读之数字SRAM CIM技术 - sasasatori - 博客园.pdf",
     "workflow/git/git.md",
@@ -212,14 +202,12 @@
     "Pasted image 20241209165553.png",
     "de/arithmetic/csa/csa.md",
     "de/v/include/Pasted image 20241127162031.png",
-    "de/arithmetic/csa/include/Pasted image 20241126215852.png",
     "de/arithmetic/csa/include",
     "de/fpu/include_f16mac/csa4to2.svg",
     "ToDoList.md",
     "workflow/eda.md",
     "workflow/include/Pasted image 20241125080802.png",
     "workflow/github.md",
-    "workflow/include/Pasted image 20241125013801.png",
     "workflow/tmux.md",
     "workflow/tnv.md",
     "workflow/bypass_paywall.md",
@@ -238,8 +226,6 @@
     "Untitled.md",
     "de/ppa/performance.md",
     "de/ppa/area.md",
-    "Pasted image 20240827105334.png.md",
-    "de/ppa/ppa.md",
     "uvm_factory.canvas",
     "dv/uvm/include/uvm_factory1.canvas",
     "dv/uvm/uvm_factory.canvas",
