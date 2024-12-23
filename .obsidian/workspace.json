@@ -42,9 +42,9 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "adder",
                 "matchingCase": false,
-                "explainSearch": true,
+                "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
@@ -109,7 +109,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 276.5
+    "width": 276.5,
+    "collapsed": true
   },
   "right": {
     "id": "cb661d0a10776c07",
@@ -189,10 +190,11 @@
   },
   "active": "b73c186f4d10412f",
   "lastOpenFiles": [
-    "dv/dump_multiple_array.md",
+    "de/arithmetic/divider.md",
     "de/cim/cim.md",
-    "de/v/verilog.md",
     "de/cim/ref/CIM技术经典导读之数字SRAM CIM技术 - sasasatori - 博客园.pdf",
+    "dv/dump_multiple_array.md",
+    "de/v/verilog.md",
     "workflow/git/git.md",
     "dv/Untitled",
     "de/arithmetic/booth.md",
@@ -203,7 +205,6 @@
     "Pasted image 20241209165553.png",
     "de/cim/ref/test.md",
     "de/cim/ref/~~$ESSCIRC.2019.8902824.pdf",
-    "de/arithmetic/divider.md",
     "de/arithmetic/csa/include/Pasted image 20241126215852.png",
     "de/cim/include/arch.svg",
     "de/cim/include/dataflow - Copy.svg",
@@ -235,7 +236,6 @@
     "de/ppa/evaluation.md",
     "financial/finmind.md",
     "de/ppa/timing.md",
-    "Untitled.md",
     "uvm_factory.canvas",
     "dv/uvm/include/uvm_factory1.canvas",
     "dv/uvm/uvm_factory.canvas",
