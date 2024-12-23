@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "workflow/git/git.md",
+                "file": "dv/dump_multiple_array.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "git"
+              "title": "dump_multiple_array"
             }
           }
         ]
@@ -188,6 +188,9 @@
   },
   "active": "b73c186f4d10412f",
   "lastOpenFiles": [
+    "workflow/git/git.md",
+    "dv/dump_multiple_array.md",
+    "dv/Untitled",
     "de/arithmetic/booth.md",
     "de/arithmetic/Untitled.pdf",
     "de/cim/cim.md",
@@ -206,10 +209,8 @@
     "de/cim/include",
     "de/cim/New folder",
     "de/cim/ref/ESSCIRC.2019.8902824.pdf.crdownload",
-    "workflow/git/git.md",
     "workflow/git/include/Pasted image 20241220181756.png",
     "de/cim/ref",
-    "de/cim",
     "de/arithmetic/csa/csa.md",
     "de/v/include/Pasted image 20241127162031.png",
     "de/fpu/include_f16mac/csa4to2.svg",
