@@ -183,14 +183,15 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": true,
       "command-palette:Open command palette": true,
-      "obsidian-to-anki-plugin:Obsidian_to_Anki - Scan Vault": false
+      "obsidian-to-anki-plugin:Obsidian_to_Anki - Scan Vault": false,
+      "omnisearch:Omnisearch": true
     }
   },
   "active": "b73c186f4d10412f",
   "lastOpenFiles": [
     "dv/dump_multiple_array.md",
-    "de/v/verilog.md",
     "de/cim/cim.md",
+    "de/v/verilog.md",
     "de/cim/ref/CIM技术经典导读之数字SRAM CIM技术 - sasasatori - 博客园.pdf",
     "workflow/git/git.md",
     "dv/Untitled",
