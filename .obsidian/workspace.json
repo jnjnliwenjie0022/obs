@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "dv/dump_multiple_array.md",
+                "file": "de/cim/cim.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "dump_multiple_array"
+              "title": "cim"
             }
           }
         ]
@@ -188,8 +188,8 @@
   },
   "active": "b73c186f4d10412f",
   "lastOpenFiles": [
-    "de/v/verilog.md",
     "dv/dump_multiple_array.md",
+    "de/v/verilog.md",
     "de/cim/cim.md",
     "de/cim/ref/CIM技术经典导读之数字SRAM CIM技术 - sasasatori - 博客园.pdf",
     "workflow/git/git.md",
