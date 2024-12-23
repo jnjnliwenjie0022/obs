@@ -1,4 +1,8 @@
 # cadence
+
+# Notice
+
+1D value可以使用[+:]
 # ref
 https://verificationguide.com/systemverilog/systemverilog-2d-array/
 ## method 1
@@ -21,6 +25,8 @@ exit
 ```
 
 ## method2
+
+https://blog.csdn.net/messi_cyc/article/details/109599872?spm=1001.2101.3001.4242.4&utm_relevant_index=8
 
 > tb
 ```
