@@ -3,6 +3,8 @@
 # Notice
 
 1D value可以使用[+:]
+
+2D array不可以使用[+:]，RTL compiler會有問題，MSB和LSB會顛倒
 # ref
 https://verificationguide.com/systemverilog/systemverilog-2d-array/
 ## method 1
