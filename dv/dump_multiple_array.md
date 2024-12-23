@@ -1,4 +1,6 @@
 # cadence
+# ref
+https://verificationguide.com/systemverilog/systemverilog-2d-array/
 ## method 1
 
 >01
