@@ -4,6 +4,9 @@
 1. SAVE
 2. NRESTORE
 
+PWR_SW只有在APR端才會加入
+
+ISO(Isolation Cell)：目標是在進入Sleep Mode的時候，要為0的時候為0，為1的時候要為1
 ![[Pasted image 20241224155103.png]]
 
 ![[Pasted image 20241224161323.png]]
