@@ -175,3 +175,8 @@ Summary
 
 ## ddr_power
 ![[Pasted image 20241209165553.png]]
+
+
+# UPF
+![[Pasted image 20241224154514.png]]
+![[Pasted image 20241224155103.png]]

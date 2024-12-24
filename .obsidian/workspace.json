@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "de/cim/cim.md",
-                "mode": "preview",
+                "file": "de/ppa/power.md",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "cim"
+              "title": "power"
             }
           }
         ]
@@ -109,8 +109,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 276.5,
-    "collapsed": true
+    "width": 276.5
   },
   "right": {
     "id": "cb661d0a10776c07",
@@ -190,8 +189,10 @@
   },
   "active": "b73c186f4d10412f",
   "lastOpenFiles": [
-    "de/arithmetic/divider.md",
+    "Pasted image 20241224155103.png",
+    "Pasted image 20241224154514.png",
     "de/cim/cim.md",
+    "de/arithmetic/divider.md",
     "de/cim/ref/CIM技术经典导读之数字SRAM CIM技术 - sasasatori - 博客园.pdf",
     "dv/dump_multiple_array.md",
     "de/v/verilog.md",
@@ -219,7 +220,6 @@
     "de/fpu/include_f16mac/csa4to2.svg",
     "ToDoList.md",
     "workflow/eda.md",
-    "workflow/include/Pasted image 20241125080802.png",
     "workflow/github.md",
     "workflow/tmux.md",
     "workflow/tnv.md",
