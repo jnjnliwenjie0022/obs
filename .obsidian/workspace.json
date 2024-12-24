@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "de/ppa/power.md",
+                "file": "de/ppa/upf.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "power"
+              "title": "upf"
             }
           }
         ]
@@ -81,10 +81,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "de/cim/cim.md"
+                "file": "de/ppa/upf.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of cim"
+              "title": "Outline of upf"
             }
           }
         ],
@@ -189,8 +189,11 @@
   },
   "active": "b73c186f4d10412f",
   "lastOpenFiles": [
-    "Pasted image 20241224155103.png",
-    "Pasted image 20241224154514.png",
+    "de/ppa/power.md",
+    "de/ppa/upf.md",
+    "de/ppa/include/Pasted image 20241209165553.png",
+    "de/ppa/include/Pasted image 20241224155103.png",
+    "de/ppa/include/Pasted image 20241224154514.png",
     "de/cim/cim.md",
     "de/arithmetic/divider.md",
     "de/cim/ref/CIM技术经典导读之数字SRAM CIM技术 - sasasatori - 博客园.pdf",
@@ -203,7 +206,6 @@
     "de/cim/include/uarch.svg",
     "de/cim/ref/ESSCIRC.2019.8902824.pdf",
     "de/cim/include/dataflow.svg",
-    "Pasted image 20241209165553.png",
     "de/cim/ref/test.md",
     "de/cim/ref/~~$ESSCIRC.2019.8902824.pdf",
     "de/arithmetic/csa/include/Pasted image 20241126215852.png",
@@ -217,7 +219,6 @@
     "de/cim/ref",
     "de/arithmetic/csa/csa.md",
     "de/v/include/Pasted image 20241127162031.png",
-    "de/fpu/include_f16mac/csa4to2.svg",
     "ToDoList.md",
     "workflow/eda.md",
     "workflow/github.md",
@@ -232,10 +233,8 @@
     "dv/uvm/sequence.md",
     "dv/uvm/include/uvm_do_on_pri_with.canvas",
     "dv/uvmc/comment.md",
-    "de/ppa/power.md",
     "de/ppa/evaluation.md",
     "financial/finmind.md",
-    "de/ppa/timing.md",
     "uvm_factory.canvas",
     "dv/uvm/include/uvm_factory1.canvas",
     "dv/uvm/uvm_factory.canvas",
