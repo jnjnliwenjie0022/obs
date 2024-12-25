@@ -15,8 +15,8 @@ Lower Design基本上要在初期就考慮了，不然design要重新設計，�
 Conformal low power: power equivalent check
 
 wrapper
-1. ICG
-2. ISO
+1. ICG: CPIPE
+2. ISO: Wrapper
 ![[Pasted image 20241224155103.png]]
 
 ![[Pasted image 20241224161323.png]]
