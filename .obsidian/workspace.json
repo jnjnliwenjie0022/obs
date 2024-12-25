@@ -4,11 +4,26 @@
     "type": "split",
     "children": [
       {
-        "id": "ff20d7453c098664",
+        "id": "a27de4b365c5fafe",
         "type": "tabs",
         "children": [
           {
-            "id": "b73c186f4d10412f",
+            "id": "08e98b8390a28d5a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "de/v/verilog.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "verilog"
+            }
+          },
+          {
+            "id": "5b5f19b6a12318e1",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -21,8 +36,21 @@
               "icon": "lucide-file",
               "title": "upf"
             }
+          },
+          {
+            "id": "5f35951c1a8f947f",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "workflow/git/include/Pasted image 20241220181756.png"
+              },
+              "icon": "lucide-image",
+              "title": "Pasted image 20241220181756"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -34,7 +62,7 @@
       {
         "id": "afadd362b9dadcb6",
         "type": "tabs",
-        "dimension": 62.21264367816091,
+        "dimension": 73.73929590865842,
         "children": [
           {
             "id": "e659ba5d1cf0724d",
@@ -42,9 +70,9 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "adder",
+                "query": "",
                 "matchingCase": false,
-                "explainSearch": false,
+                "explainSearch": true,
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
@@ -81,10 +109,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "de/ppa/upf.md"
+                "file": "de/ppa/power.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of upf"
+              "title": "Outline of power"
             }
           }
         ],
@@ -93,7 +121,7 @@
       {
         "id": "ce31482b6afb7740",
         "type": "tabs",
-        "dimension": 37.787356321839084,
+        "dimension": 26.26070409134158,
         "children": [
           {
             "id": "8cb3b947f548a8b1",
@@ -109,7 +137,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 276.5
+    "width": 335.5110321044922
   },
   "right": {
     "id": "cb661d0a10776c07",
@@ -138,7 +166,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "de/ppa/include/Pasted image 20240926110143.png",
+                "file": "de/fctrl/fctrl.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -148,7 +176,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Pasted image 20240926110143"
+              "title": "Backlinks for fctrl"
             }
           },
           {
@@ -157,15 +185,16 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "de/ppa/include/Pasted image 20240926110143.png",
+                "file": "de/fctrl/fctrl.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Pasted image 20240926110143"
+              "title": "Outgoing links from fctrl"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -174,71 +203,67 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "pdf-plus:PDF++: Toggle auto-copy": true,
-      "pdf-plus:PDF++: Toggle auto-focus": true,
-      "pdf-plus:PDF++: Toggle auto-paste": true,
+      "obsidian-to-anki-plugin:Obsidian_to_Anki - Scan Vault": true,
       "switcher:Open quick switcher": true,
       "graph:Open graph view": true,
       "canvas:Create new canvas": true,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": true,
-      "command-palette:Open command palette": true,
-      "obsidian-to-anki-plugin:Obsidian_to_Anki - Scan Vault": false,
-      "omnisearch:Omnisearch": true
+      "command-palette:Open command palette": true
     }
   },
-  "active": "b73c186f4d10412f",
+  "active": "5b5f19b6a12318e1",
   "lastOpenFiles": [
-    "de/ppa/include/Pasted image 20241224160718.png",
-    "de/ppa/include/Pasted image 20241224161323.png",
-    "de/ppa/include/Pasted image 20241224162722.png",
+    "de/arithmetic/ref_booth/FAST MULTIPLICATION  ALGORITHMS AND IMPLEMENTATION.pdf",
+    "dv/dump_multiple_array.md",
     "de/ppa/upf.md",
-    "de/ppa/power.md",
-    "de/ppa/include/Pasted image 20241209165553.png",
+    "de/ppa/include/Pasted image 20241224162722.png",
+    "de/ppa/include/Pasted image 20241224161323.png",
+    "de/ppa/include/Pasted image 20241224160718.png",
     "de/ppa/include/Pasted image 20241224155103.png",
     "de/ppa/include/Pasted image 20241224154514.png",
-    "de/cim/cim.md",
-    "de/arithmetic/divider.md",
-    "de/cim/ref/CIM技术经典导读之数字SRAM CIM技术 - sasasatori - 博客园.pdf",
-    "dv/dump_multiple_array.md",
-    "de/v/verilog.md",
-    "workflow/git/git.md",
-    "dv/Untitled",
-    "de/arithmetic/booth.md",
-    "de/arithmetic/Untitled.pdf",
-    "de/cim/include/uarch.svg",
+    "de/ppa/include/Pasted image 20241209165553.png",
     "de/cim/ref/ESSCIRC.2019.8902824.pdf",
+    "de/cim/include/uarch.svg",
     "de/cim/include/dataflow.svg",
-    "de/cim/ref/test.md",
-    "de/cim/ref/~~$ESSCIRC.2019.8902824.pdf",
-    "de/arithmetic/csa/include/Pasted image 20241126215852.png",
-    "de/cim/include/arch.svg",
-    "de/cim/include/dataflow.drawio",
     "de/cim/include",
-    "de/cim/New folder",
-    "de/cim/ref/ESSCIRC.2019.8902824.pdf.crdownload",
+    "de/arithmetic/ref_booth/Design_of_High_Performance_Binary_Signed_Digit_Adder.pdf",
+    "de/arithmetic/ref_booth/Computer_Arithmetic_Algorithms_and_Hardware_Designs_2nd_edition.pdf",
+    "de/arithmetic/ref_booth/~$othMultiplier.docx",
+    "de/arithmetic/booth.md",
+    "de/cim/cim.md",
+    "de/cim/ref/CIM技术经典导读之数字SRAM CIM技术 - sasasatori - 博客园.pdf",
+    "workflow/git/git.md",
+    "workflow/git/include/Pasted image 20241220181756.png",
+    "Pasted image 20241209165553.png",
+    "maketing/marketing.md",
     "de/cim/ref",
-    "de/arithmetic/csa/csa.md",
-    "ToDoList.md",
-    "workflow/eda.md",
-    "workflow/github.md",
-    "workflow/tmux.md",
-    "workflow/tnv.md",
-    "workflow/bypass_paywall.md",
-    "de/amba_axi/ddr_latency.md",
-    "workflow/nvim.md",
-    "workflow/ganttproject.md",
-    "dv/uvmc/uvmc.md",
+    "de/cim/New folder",
+    "de/cim",
+    "de/amba_ahb/ahb.md",
+    "de/ppa/power.md",
+    "de/v/verilog.md",
     "conflict-files-obsidian-git.md",
-    "dv/uvm/sequence.md",
-    "dv/uvm/include/uvm_do_on_pri_with.canvas",
+    "de/fpu/f16mac.md",
+    "de/arithmetic/csa/csa.md",
+    "de/fctrl/fctrl.md",
+    "de/format.md",
+    "de/lut.md",
+    "de/note.md",
+    "workflow/eda.md",
+    "dv/uvmc/uvmc.md",
     "dv/uvmc/comment.md",
+    "de/arithmetic/divider.md",
+    "de/arbiter/arbiter.md",
+    "ToDoList.md",
+    "Untitled.md",
+    "de/_unorganized/cosim.md",
     "de/ppa/evaluation.md",
-    "financial/finmind.md",
-    "uvm_factory.canvas",
     "dv/uvm/include/uvm_factory1.canvas",
+    "uvm_factory.canvas",
     "dv/uvm/uvm_factory.canvas",
-    "dv/uvm/uvm_do.canvas",
+    "dv/uvm/include/uvm_do_on_pri_with.canvas",
+    "dv/rename order_of_starting_sequence.canvas",
     "Untitled.canvas",
     "Untitled 1.canvas",
     "債券/債券.canvas"

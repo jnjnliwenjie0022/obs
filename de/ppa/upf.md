@@ -13,6 +13,10 @@ Power要省20%以上是比較好的10%是基本
 Lower Design基本上要在初期就考慮了，不然design要重新設計，很麻煩
 
 Conformal low power: power equivalent check
+
+wrapper
+1. ICG
+2. ISO
 ![[Pasted image 20241224155103.png]]
 
 ![[Pasted image 20241224161323.png]]
