@@ -4,6 +4,28 @@
     "type": "split",
     "children": [
       {
+        "id": "39496a3e83e44867",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "72a14e31fb87c06a",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "de/cim/ref/CIM技术经典导读之数字SRAM CIM技术 - sasasatori - 博客园.pdf",
+                "page": 10,
+                "left": -17,
+                "top": 461,
+                "zoom": 0.8806818181818182
+              },
+              "icon": "lucide-file-text",
+              "title": "CIM技术经典导读之数字SRAM CIM技术 - sasasatori - 博客园"
+            }
+          }
+        ]
+      },
+      {
         "id": "a27de4b365c5fafe",
         "type": "tabs",
         "children": [
@@ -13,13 +35,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "de/v/verilog.md",
+                "file": "de/cim/cim.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "verilog"
+              "title": "cim"
             }
           }
         ]
@@ -188,12 +210,13 @@
       "command-palette:Open command palette": true
     }
   },
-  "active": "08e98b8390a28d5a",
+  "active": "72a14e31fb87c06a",
   "lastOpenFiles": [
     "de/cim/cim.md",
+    "de/cim/ref/CIM技术经典导读之数字SRAM CIM技术 - sasasatori - 博客园.pdf",
+    "de/v/verilog.md",
     "de/cim/ref/ESSCIRC.2019.8902824.pdf",
     "workflow/git/include/Pasted image 20241220181756.png",
-    "de/v/verilog.md",
     "de/ppa/upf.md",
     "de/arithmetic/ref_booth/FAST MULTIPLICATION  ALGORITHMS AND IMPLEMENTATION.pdf",
     "dv/dump_multiple_array.md",
@@ -210,7 +233,6 @@
     "de/arithmetic/ref_booth/Computer_Arithmetic_Algorithms_and_Hardware_Designs_2nd_edition.pdf",
     "de/arithmetic/ref_booth/~$othMultiplier.docx",
     "de/arithmetic/booth.md",
-    "de/cim/ref/CIM技术经典导读之数字SRAM CIM技术 - sasasatori - 博客园.pdf",
     "workflow/git/git.md",
     "Pasted image 20241209165553.png",
     "maketing/marketing.md",

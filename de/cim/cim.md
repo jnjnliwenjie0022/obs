@@ -1,4 +1,7 @@
-# ref
+> [!PDF|] [[CIM技术经典导读之数字SRAM CIM技术 - sasasatori - 博客园.pdf#page=10&selection=2,58,16,6|CIM技术经典导读之数字SRAM CIM技术 - sasasatori - 博客园, p.10]]
+> > AC and Write Operations 然后来到这篇2022年的文章，这次直接放大招，5nm工艺甩在脸上，我是ISSCC组委会我也抵抗不了。联合会员     12/20/
+> 
+> # ref
 
 https://www.cnblogs.com/sasasatori/p/17973415
 
