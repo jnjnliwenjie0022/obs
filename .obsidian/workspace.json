@@ -28,25 +28,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "de/ppa/upf.md",
+                "file": "de/cim/cim.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "upf"
-            }
-          },
-          {
-            "id": "5f35951c1a8f947f",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "workflow/git/include/Pasted image 20241220181756.png"
-              },
-              "icon": "lucide-image",
-              "title": "Pasted image 20241220181756"
+              "title": "cim"
             }
           }
         ],
@@ -115,8 +103,7 @@
               "title": "Outline of power"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       },
       {
         "id": "ce31482b6afb7740",
@@ -137,7 +124,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 335.5110321044922
+    "width": 335.5110321044922,
+    "collapsed": true
   },
   "right": {
     "id": "cb661d0a10776c07",
@@ -203,20 +191,26 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "pdf-plus:PDF++: Toggle auto-copy": true,
+      "pdf-plus:PDF++: Toggle auto-focus": true,
+      "pdf-plus:PDF++: Toggle auto-paste": true,
       "obsidian-to-anki-plugin:Obsidian_to_Anki - Scan Vault": true,
       "switcher:Open quick switcher": true,
       "graph:Open graph view": true,
       "canvas:Create new canvas": true,
-      "daily-notes:Open today's daily note": false,
+      "daily-notes:Open today's daily note": true,
       "templates:Insert template": true,
       "command-palette:Open command palette": true
     }
   },
   "active": "5b5f19b6a12318e1",
   "lastOpenFiles": [
+    "workflow/git/include/Pasted image 20241220181756.png",
+    "de/cim/cim.md",
+    "de/v/verilog.md",
+    "de/ppa/upf.md",
     "de/arithmetic/ref_booth/FAST MULTIPLICATION  ALGORITHMS AND IMPLEMENTATION.pdf",
     "dv/dump_multiple_array.md",
-    "de/ppa/upf.md",
     "de/ppa/include/Pasted image 20241224162722.png",
     "de/ppa/include/Pasted image 20241224161323.png",
     "de/ppa/include/Pasted image 20241224160718.png",
@@ -231,10 +225,8 @@
     "de/arithmetic/ref_booth/Computer_Arithmetic_Algorithms_and_Hardware_Designs_2nd_edition.pdf",
     "de/arithmetic/ref_booth/~$othMultiplier.docx",
     "de/arithmetic/booth.md",
-    "de/cim/cim.md",
     "de/cim/ref/CIM技术经典导读之数字SRAM CIM技术 - sasasatori - 博客园.pdf",
     "workflow/git/git.md",
-    "workflow/git/include/Pasted image 20241220181756.png",
     "Pasted image 20241209165553.png",
     "maketing/marketing.md",
     "de/cim/ref",
@@ -242,7 +234,6 @@
     "de/cim",
     "de/amba_ahb/ahb.md",
     "de/ppa/power.md",
-    "de/v/verilog.md",
     "conflict-files-obsidian-git.md",
     "de/fpu/f16mac.md",
     "de/arithmetic/csa/csa.md",
