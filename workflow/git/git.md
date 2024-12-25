@@ -174,3 +174,6 @@ git push --force-with-lease
 git checkout -b <new_branch_name>
 git push --set-upstream origin <new_branch_name>
 ```
+
+### rebase_onto
+![[Pasted image 20241225184959.png | 1000]]
