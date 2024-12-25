@@ -4,28 +4,6 @@
     "type": "split",
     "children": [
       {
-        "id": "39496a3e83e44867",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "72a14e31fb87c06a",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "de/cim/ref/CIM技术经典导读之数字SRAM CIM技术 - sasasatori - 博客园.pdf",
-                "page": 10,
-                "left": -17,
-                "top": 461,
-                "zoom": 0.8806818181818182
-              },
-              "icon": "lucide-file-text",
-              "title": "CIM技术经典导读之数字SRAM CIM技术 - sasasatori - 博客园"
-            }
-          }
-        ]
-      },
-      {
         "id": "a27de4b365c5fafe",
         "type": "tabs",
         "children": [
@@ -131,8 +109,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 335.5110321044922,
-    "collapsed": true
+    "width": 335.5110321044922
   },
   "right": {
     "id": "cb661d0a10776c07",
@@ -210,10 +187,10 @@
       "command-palette:Open command palette": true
     }
   },
-  "active": "72a14e31fb87c06a",
+  "active": "08e98b8390a28d5a",
   "lastOpenFiles": [
-    "de/cim/cim.md",
     "de/cim/ref/CIM技术经典导读之数字SRAM CIM技术 - sasasatori - 博客园.pdf",
+    "de/cim/cim.md",
     "de/v/verilog.md",
     "de/cim/ref/ESSCIRC.2019.8902824.pdf",
     "workflow/git/include/Pasted image 20241220181756.png",

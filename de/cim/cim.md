@@ -1,7 +1,10 @@
 > [!PDF|] [[CIM技术经典导读之数字SRAM CIM技术 - sasasatori - 博客园.pdf#page=10&selection=2,58,16,6|CIM技术经典导读之数字SRAM CIM技术 - sasasatori - 博客园, p.10]]
 > > AC and Write Operations 然后来到这篇2022年的文章，这次直接放大招，5nm工艺甩在脸上，我是ISSCC组委会我也抵抗不了。联合会员     12/20/
 > 
-> # ref
+> > [!PDF|] [[CIM技术经典导读之数字SRAM CIM技术 - sasasatori - 博客园.pdf#page=10&selection=0,0,0,1|CIM技术经典导读之数字SRAM CIM技术 - sasasatori - 博客园, p.10]]
+> > A
+> 
+> ![[CIM技术经典导读之数字SRAM CIM技术 - sasasatori - 博客园.pdf#page=15&rect=50,85,726,587|CIM技术经典导读之数字SRAM CIM技术 - sasasatori - 博客园, p.15]]# ref
 
 https://www.cnblogs.com/sasasatori/p/17973415
 
@@ -46,5 +49,10 @@ CIM挑戰
 
 下圖是説明kr精度4b/8b/12b reconfiguration
 
+### method1:
+
 ![[CIM技术经典导读之数字SRAM CIM技术 - sasasatori - 博客园.pdf#page=25&rect=60,40,715,585|CIM技术经典导读之数字SRAM CIM技术 - sasasatori - 博客园, p.25|1000]]
 
+### method2:
+
+![[CIM技术经典导读之数字SRAM CIM技术 - sasasatori - 博客园.pdf#page=15&rect=56,89,721,577|CIM技术经典导读之数字SRAM CIM技术 - sasasatori - 博客园, p.15 | 1000]]
