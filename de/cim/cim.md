@@ -13,6 +13,13 @@ https://www.cnblogs.com/sasasatori/p/17973415
 bit serial for input data
 
 ![[ESSCIRC.2019.8902824.pdf#page=1&rect=442,99,565,234|ESSCIRC.2019.8902824, p.1|300]]
+
+CIM挑戰
+1. bitcell size
+2. reconfiguration
+
+![[ESSCIRC.2019.8902824.pdf#page=2&rect=342,89,545,268|ESSCIRC.2019.8902824, p.2|300]]
+
 ## basic
 
 以4b(kr) \* 1b(im)為例子，衍生推導8b (kr) \* 1b (im)
@@ -37,3 +44,4 @@ bit serial for input data
 下圖是説明kr精度4b/8b/12b reconfiguration
 
 ![[CIM技术经典导读之数字SRAM CIM技术 - sasasatori - 博客园.pdf#page=25&rect=60,40,715,585|CIM技术经典导读之数字SRAM CIM技术 - sasasatori - 博客园, p.25|1000]]
+

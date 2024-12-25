@@ -4,6 +4,28 @@
     "type": "split",
     "children": [
       {
+        "id": "6ca1c572745e96da",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c472684a940520bf",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "de/cim/ref/ESSCIRC.2019.8902824.pdf",
+                "page": 2,
+                "left": -6,
+                "top": 304,
+                "zoom": 1.1722689075630253
+              },
+              "icon": "lucide-file-text",
+              "title": "ESSCIRC.2019.8902824"
+            }
+          }
+        ]
+      },
+      {
         "id": "a27de4b365c5fafe",
         "type": "tabs",
         "children": [
@@ -103,7 +125,8 @@
               "title": "Outline of power"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       },
       {
         "id": "ce31482b6afb7740",
@@ -203,10 +226,11 @@
       "command-palette:Open command palette": true
     }
   },
-  "active": "5b5f19b6a12318e1",
+  "active": "c472684a940520bf",
   "lastOpenFiles": [
-    "workflow/git/include/Pasted image 20241220181756.png",
     "de/cim/cim.md",
+    "de/cim/ref/ESSCIRC.2019.8902824.pdf",
+    "workflow/git/include/Pasted image 20241220181756.png",
     "de/v/verilog.md",
     "de/ppa/upf.md",
     "de/arithmetic/ref_booth/FAST MULTIPLICATION  ALGORITHMS AND IMPLEMENTATION.pdf",
@@ -217,7 +241,6 @@
     "de/ppa/include/Pasted image 20241224155103.png",
     "de/ppa/include/Pasted image 20241224154514.png",
     "de/ppa/include/Pasted image 20241209165553.png",
-    "de/cim/ref/ESSCIRC.2019.8902824.pdf",
     "de/cim/include/uarch.svg",
     "de/cim/include/dataflow.svg",
     "de/cim/include",
