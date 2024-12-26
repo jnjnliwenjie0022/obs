@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "f8a7107a050f1258",
+        "id": "4d6640af61a0a157",
         "type": "tabs",
         "children": [
           {
-            "id": "583f1875f8e54016",
+            "id": "e391977bb17ebb29",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -187,13 +187,13 @@
       "command-palette:Open command palette": true
     }
   },
-  "active": "583f1875f8e54016",
+  "active": "e391977bb17ebb29",
   "lastOpenFiles": [
+    "workflow/git/git.md",
     "de/ppa/upf.md",
     "de/ppa/power.md",
     "de/cim/cim.md",
     "dv/dump_multiple_array.md",
-    "workflow/git/git.md",
     "workflow/git/include/Pasted image 20241225184959.png",
     "de/cim/ref/CIM技术经典导读之数字SRAM CIM技术 - sasasatori - 博客园.pdf",
     "de/v/verilog.md",
