@@ -170,9 +170,66 @@ git switch <feature_branch>
 git rebase <master_branch>
 git push --force-with-lease
 # git push --force-with-lease會整理因爲rebase之後feature_branch_remote與master_branch_remote的歷史關係
+# rebase之後，feature_branch的commit_id會被破壞，且feature_branch的歷史關係圖可能會改變
 # 如果不處理這個remote的歷史關係可能會分叉，分叉可能導致不預期的side effect
 git switch <master_branch>
 git merge <feature_branch>
+```
+
+example: https://ywctech.net/tech/git-feature-branch-devel-ops/
+
+```bash
+# 本來本地跟遠端的 ML-1234-add-dropout 在同一條線上
+
+$ git l
+* 5412270 (HEAD -> feature/ML-1234-add-dropout) readme +4
+* ac00862 (origin/feature/ML-1234-add-dropout) Update README
+| * d9c4b49 (origin/main, origin/HEAD, main) Add more content in sl.txt
+|/  
+* 3e4a27a add my file
+* b91f843 Initial commit
+
+$ git rebase main feature/ML-1234-add-dropout
+Successfully rebased and updated refs/heads/feature/ML-1234-add-dropout.
+
+# 本地 rebase main 以後反而分岔了 -- 因為 main 也走出自己的路
+
+$ git l
+* 5c4d18a (HEAD -> feature/ML-1234-add-dropout) readme +4
+* 755b237 Update README
+* d9c4b49 (origin/main, origin/HEAD, main) Add more content in sl.txt
+| * ac00862 (origin/feature/ML-1234-add-dropout) Update README
+|/  
+* 3e4a27a add my file
+* b91f843 Initial commit
+
+# 直接 push 會出錯, 因為遠端的 ac00862 跟本地的 5c4d18a 已經在不同的路上
+
+$ git push
+To github.com:myname/test-repo.git
+ ! [rejected]        feature/ML-1234-add-dropout -> feature/ML-1234-add-dropout (non-fast-forward)
+error: failed to push some refs to 'github.com:myname/test-repo.git'
+hint: Updates were rejected because the tip of your current branch is behind
+hint: its remote counterpart. Integrate the remote changes (e.g.
+hint: 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+# 為了 commit 歷史簡潔，其實可以不用 merge, 而用 push --force-with-lease
+
+$ git push --force-with-lease
+...
+...
+To github.com:myname/test-repo.git
+ + ac00862...5c4d18a feature/ML-1234-add-dropout -> feature/ML-1234-add-dropout (forced update)
+
+$ git l
+* 5c4d18a (HEAD -> feature/ML-1234-add-dropout, origin/feature/ML-1234-add-dropout) readme +4
+* 755b237 Update README
+* d9c4b49 (origin/main, origin/HEAD, main) Add more content in sl.txt
+* 3e4a27a add my file
+* b91f843 Initial commit
+
+# 舊的遠端 feature branch 本來指向 ac00862, 現在就更新成跟本地一樣的 5c4d18a
 ```
 ![[Pasted image 20241220181756.png]]
 ### branch
