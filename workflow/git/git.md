@@ -175,5 +175,32 @@ git checkout -b <new_branch_name>
 git push --set-upstream origin <new_branch_name>
 ```
 
+### reset
+go to commit_id by reset
+```
+git stash -m 'before git reset --hard'
+git reset --hard <commit_id>
+```
+go back by reset
+```
+git stash -m 'before git reset --hard'
+git reset --hard <destination_commit_id>
+git reset --hard <original_commit_id>
+git stash clear
+// stash is one kind of commit
+// need to pop out by using reset HEAD^
+git reset HEAD^
+```
+### merge
+```
+git stash -m 'before git reset --hard'
+git reset --hard <commit_id>
+git checkout -b <new_branch_name>
+git add
+git commit
+git checkout <branch_name>
+git merge <new_branch_name>
+```
+
 ### rebase_onto
 ![[Pasted image 20241225184959.png | 1000]]
