@@ -161,12 +161,18 @@ git fetch <remote_name>
 ![[Pasted image 20241007164338.png]]
 ### rebase
 ```
-# rebase <switch_branch>
-# 1.1 (important) commit the file you need
-# 1.2 (important) stash the file you need
-# 2. check master_branch need to be up-to-date
+# 如果feature_branch有在remote上的話要做git push --force-with-lease
+# 如果feature_branch沒有在remote上的話不用做git push --force-with-lease
+
+git switch <master_branch>
+# check master_branch need to be up-to-date
+git switch <feature_branch>
 git rebase <master_branch>
 git push --force-with-lease
+# git push --force-with-lease會整理因爲rebase之後feature_branch_remote與master_branch_remote的歷史關係
+# 如果不處理這個remote的歷史關係可能會分叉，分叉可能導致不預期的side effect
+git switch <master_branch>
+git merge <feature_branch>
 ```
 ![[Pasted image 20241220181756.png]]
 ### branch
