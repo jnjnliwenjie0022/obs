@@ -160,6 +160,7 @@ git fetch <remote_name>
 
 ![[Pasted image 20241007164338.png]]
 ### rebase
+#### basic
 ```
 # 如果feature_branch有在remote上的話要做git push --force-with-lease
 # 如果feature_branch沒有在remote上的話不用做git push --force-with-lease
@@ -232,14 +233,23 @@ $ git l
 # 舊的遠端 feature branch 本來指向 ac00862, 現在就更新成跟本地一樣的 5c4d18a
 ```
 ![[Pasted image 20241220181756.png | 500]]
-### rebase -i
+#### rebase_onto
+
+類似cherry-pick
+
+![[Pasted image 20241225184959.png | 500]]
+
+#### rebase -i
+
 將已經push remote的多個commit合并成一個commit
+
 ```
 git rebase -i HEAD~<number>
 # replace p with s excluding first commit
 git push --force-with-lease
 ```
 ### branch
+
 ```
 git checkout -b <new_branch_name>
 git push --set-upstream origin <new_branch_name>
@@ -249,13 +259,17 @@ git push --set-upstream origin <new_branch_name>
 注意stash本身也是一種commit
 
 go to commit_id
+
 ```
 git reset --hard <commit_id>
 ```
+
 go to remote/original/HEAD
+
 ```
 git reset --hard origin/<branch_name>
 ```
+
 go to local HEAD
 ```
 git reset --hard HEAD
@@ -270,5 +284,8 @@ git commit
 git checkout <branch_name>
 git merge <new_branch_name>
 ```
-### rebase_onto
-![[Pasted image 20241225184959.png | 1000]]
+
+### git push
+```
+git push --force-with-lease origin 'HEAD^:<branch_name>' # 刪除已經 push 到遠端的 commit，但本地端的 commit 還會在，要自己 reset [參考資料]
+```
