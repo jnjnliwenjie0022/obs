@@ -231,7 +231,14 @@ $ git l
 
 # 舊的遠端 feature branch 本來指向 ac00862, 現在就更新成跟本地一樣的 5c4d18a
 ```
-![[Pasted image 20241220181756.png]]
+![[Pasted image 20241220181756.png | 500]]
+### rebase -i
+將已經push remote的多個commit合并成一個commit
+```
+git rebase -i HEAD~<number>
+# replace p with s excluding first commit
+git push --force-with-lease
+```
 ### branch
 ```
 git checkout -b <new_branch_name>
@@ -241,9 +248,8 @@ git push --set-upstream origin <new_branch_name>
 
 注意stash本身也是一種commit
 
-go to commit_id by reset
+go to commit_id
 ```
-git stash -m 'before git reset --hard'
 git reset --hard <commit_id>
 ```
 go to remote/original/HEAD
@@ -264,6 +270,5 @@ git commit
 git checkout <branch_name>
 git merge <new_branch_name>
 ```
-
 ### rebase_onto
 ![[Pasted image 20241225184959.png | 1000]]
