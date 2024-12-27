@@ -169,9 +169,9 @@ git switch <master_branch>
 git switch <feature_branch>
 git rebase <master_branch>
 git push --force-with-lease
-# git push --force-with-lease會整理因爲rebase之後feature_branch_remote與master_branch_remote的歷史關係
+# git push --force-with-lease會去整理因爲rebase之後的feature_branch_remote與master_branch_remote的歷史關係
 # rebase之後，feature_branch的commit_id會被破壞，且feature_branch的歷史關係圖可能會改變
-# 如果不處理這個remote的歷史關係可能會分叉，分叉可能導致不預期的side effect
+# 如果不處理，remote的歷史關係可能會分叉，分叉可能導致不預期的side effect
 git switch <master_branch>
 git merge <feature_branch>
 ```
@@ -237,22 +237,23 @@ $ git l
 git checkout -b <new_branch_name>
 git push --set-upstream origin <new_branch_name>
 ```
-
 ### reset
+
+注意stash本身也是一種commit
+
 go to commit_id by reset
 ```
 git stash -m 'before git reset --hard'
 git reset --hard <commit_id>
 ```
-
-注意stash本身也是一種commit
-
 go to remote/original/HEAD
 ```
 git reset --hard origin/<branch_name>
 ```
-
-got 
+go to local HEAD
+```
+git reset --hard HEAD
+```
 ### merge
 ```
 git stash -m 'before git reset --hard'
