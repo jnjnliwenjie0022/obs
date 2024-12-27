@@ -8,8 +8,7 @@
       "key": "L"
     }
   ],
-  "global-search:open": [],
-  "omnisearch:show-modal": [
+  "global-search:open": [
     {
       "modifiers": [
         "Mod",
