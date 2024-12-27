@@ -113,7 +113,60 @@
   "right": {
     "id": "cb661d0a10776c07",
     "type": "split",
-    "children": [],
+    "children": [
+      {
+        "id": "12ef94254a16bc4e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "038585d6cbbd6ee7",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "workflow/git/git.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for git"
+            }
+          },
+          {
+            "id": "583c60b2087cd011",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "workflow/git/git.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from git"
+            }
+          },
+          {
+            "id": "c99c08b55674a3f7",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          }
+        ]
+      }
+    ],
     "direction": "horizontal",
     "width": 452.5,
     "collapsed": true
