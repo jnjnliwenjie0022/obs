@@ -244,16 +244,15 @@ go to commit_id by reset
 git stash -m 'before git reset --hard'
 git reset --hard <commit_id>
 ```
-go back by reset
+
+注意stash本身也是一種commit
+
+go to remote/original/HEAD
 ```
-git stash -m 'before git reset --hard'
-git reset --hard <destination_commit_id>
-git reset --hard <original_commit_id>
-git stash clear
-// stash is one kind of commit
-// need to pop out by using reset HEAD^
-git reset HEAD^
+git reset --hard origin/<branch_name>
 ```
+
+got 
 ### merge
 ```
 git stash -m 'before git reset --hard'
