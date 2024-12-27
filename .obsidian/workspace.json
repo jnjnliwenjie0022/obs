@@ -4,20 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "ff20d7453c098664",
+        "id": "aecb4743ae13bcd6",
         "type": "tabs",
         "children": [
           {
-            "id": "b73c186f4d10412f",
+            "id": "a2c53b6fb31cfa17",
             "type": "leaf",
             "state": {
-              "type": "diff-view",
+              "type": "markdown",
               "state": {
-                "file": "de/ppa/evaluation.md",
-                "staged": false
+                "file": "README.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
               },
-              "icon": "git-pull-request",
-              "title": "Diff View (evaluation)"
+              "icon": "lucide-file",
+              "title": "README"
             }
           }
         ]
@@ -40,7 +42,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "cim",
+                "query": "rebase",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -184,13 +186,13 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "b73c186f4d10412f",
+  "active": "e659ba5d1cf0724d",
   "lastOpenFiles": [
+    "workflow/git/git.md",
     "de/cim/cim.md",
     "de/arithmetic/divider.md",
     "de/ppa/evaluation.md",
     "de/ppa/power.md",
-    "workflow/git/git.md",
     "de/ppa/upf.md",
     "conflict-files-obsidian-git.md",
     "workflow/git/include/Pasted image 20241225184959.png",
