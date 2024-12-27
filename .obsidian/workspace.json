@@ -11,10 +11,15 @@
             "id": "9ba25460b31af80d",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "workflow/git/git.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "git"
             }
           }
         ]
@@ -31,23 +36,6 @@
         "type": "tabs",
         "dimension": 62.21264367816091,
         "children": [
-          {
-            "id": "e659ba5d1cf0724d",
-            "type": "leaf",
-            "state": {
-              "type": "search",
-              "state": {
-                "query": "rebase",
-                "matchingCase": false,
-                "explainSearch": false,
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical"
-              },
-              "icon": "lucide-search",
-              "title": "Search"
-            }
-          },
           {
             "id": "8c4a1b3518c70847",
             "type": "leaf",
@@ -76,13 +64,14 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "de/ppa/upf.md"
+                "file": "workflow/git/git.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of upf"
+              "title": "Outline of git"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       },
       {
         "id": "ce31482b6afb7740",
@@ -151,20 +140,37 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "de/ppa/include/Pasted image 20240926110143.png",
+                "file": "workflow/git/git.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Pasted image 20240926110143"
+              "title": "Outgoing links from git"
+            }
+          },
+          {
+            "id": "e659ba5d1cf0724d",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "rebase",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": true,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 452.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -177,11 +183,10 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": true,
       "command-palette:Open command palette": true,
-      "obsidian-to-anki-plugin:Obsidian_to_Anki - Scan Vault": false,
-      "omnisearch:Omnisearch": false
+      "obsidian-to-anki-plugin:Obsidian_to_Anki - Scan Vault": false
     }
   },
-  "active": "9ba25460b31af80d",
+  "active": "e659ba5d1cf0724d",
   "lastOpenFiles": [
     "workflow/git/git.md",
     "README.md",
