@@ -37,6 +37,23 @@
         "dimension": 62.21264367816091,
         "children": [
           {
+            "id": "bbf0212cf2e79727",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "line:(rebase)",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
             "id": "8c4a1b3518c70847",
             "type": "leaf",
             "state": {
@@ -70,8 +87,7 @@
               "title": "Outline of git"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       },
       {
         "id": "ce31482b6afb7740",
@@ -97,80 +113,10 @@
   "right": {
     "id": "cb661d0a10776c07",
     "type": "split",
-    "children": [
-      {
-        "id": "72919cc9ed24fe32",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "ce4fe214b6d283ba",
-            "type": "leaf",
-            "state": {
-              "type": "tag",
-              "state": {
-                "sortOrder": "frequency",
-                "useHierarchy": true
-              },
-              "icon": "lucide-tags",
-              "title": "Tags"
-            }
-          },
-          {
-            "id": "f3346d69c682e94b",
-            "type": "leaf",
-            "state": {
-              "type": "backlink",
-              "state": {
-                "file": "de/ppa/include/Pasted image 20240926110143.png",
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical",
-                "showSearch": false,
-                "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
-              },
-              "icon": "links-coming-in",
-              "title": "Backlinks for Pasted image 20240926110143"
-            }
-          },
-          {
-            "id": "41a6087d5ead363a",
-            "type": "leaf",
-            "state": {
-              "type": "outgoing-link",
-              "state": {
-                "file": "workflow/git/git.md",
-                "linksCollapsed": false,
-                "unlinkedCollapsed": true
-              },
-              "icon": "links-going-out",
-              "title": "Outgoing links from git"
-            }
-          },
-          {
-            "id": "e659ba5d1cf0724d",
-            "type": "leaf",
-            "state": {
-              "type": "search",
-              "state": {
-                "query": "rebase",
-                "matchingCase": false,
-                "explainSearch": false,
-                "collapseAll": true,
-                "extraContext": false,
-                "sortOrder": "alphabetical"
-              },
-              "icon": "lucide-search",
-              "title": "Search"
-            }
-          }
-        ],
-        "currentTab": 3
-      }
-    ],
+    "children": [],
     "direction": "horizontal",
-    "width": 452.5
+    "width": 452.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -180,14 +126,16 @@
       "switcher:Open quick switcher": true,
       "graph:Open graph view": true,
       "canvas:Create new canvas": true,
-      "daily-notes:Open today's daily note": false,
+      "daily-notes:Open today's daily note": true,
       "templates:Insert template": true,
       "command-palette:Open command palette": true,
-      "obsidian-to-anki-plugin:Obsidian_to_Anki - Scan Vault": false
+      "obsidian-to-anki-plugin:Obsidian_to_Anki - Scan Vault": true
     }
   },
-  "active": "e659ba5d1cf0724d",
+  "active": "bbf0212cf2e79727",
   "lastOpenFiles": [
+    "language/2024-05-28.md",
+    "language/2024-05-27.md",
     "workflow/git/git.md",
     "README.md",
     "de/cim/cim.md",
@@ -233,8 +181,6 @@
     "dv/uvmc/uvmc.md",
     "dv/uvm/sequence.md",
     "dv/uvm/include/uvm_do_on_pri_with.canvas",
-    "dv/uvmc/comment.md",
-    "financial/finmind.md",
     "uvm_factory.canvas",
     "dv/uvm/include/uvm_factory1.canvas",
     "dv/uvm/uvm_factory.canvas",
