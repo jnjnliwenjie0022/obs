@@ -240,6 +240,8 @@ ref: https://www.youtube.com/watch?v=8jQGBYZpdiI
 
 類似cherry-pick
 
+cherry-pick不會產生detach，rebase --onto會產生detach
+
 ref: https://medium.com/%E4%B8%80%E5%80%8B%E5%B0%8F%E5%B0%8F%E5%B7%A5%E7%A8%8B%E5%B8%AB%E7%9A%84%E9%9A%A8%E6%89%8B%E7%AD%86%E8%A8%98/git-%E7%94%A8-rebase-%E5%90%88%E4%BD%B5%E5%88%86%E6%94%AF-%E8%AE%93%E4%BD%A0%E7%9A%84-git-history-%E6%9B%B4%E4%B9%BE%E6%B7%A8-ae0208c9fb52
 
 ```
@@ -257,6 +259,12 @@ git checkout <branch_name>
 ```
 
 ![[Pasted image 20241225184959.png | 1000]]
+
+#### cherry-pick
+
+```
+git cherry-pick <begin_commit_id> <end_commit_id>
+```
 
 #### rebase -i
 
