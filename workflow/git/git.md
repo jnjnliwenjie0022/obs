@@ -162,6 +162,11 @@ git fetch <remote_name>
 ### rebase
 
 https://juejin.cn/post/7038093620628422669
+
+- 合代码到公共分支上时用git merge
+- 合代码到个人分支时用git rebase，形成线性提交历史记录
+
+https://juejin.cn/post/6844904037452627981
 #### basic
 ```
 # 如果feature_branch有在remote上的話要做git push --force-with-lease
@@ -273,7 +278,7 @@ git checkout <branch_name>
 #### cherry-pick
 
 ```
-git cherry-pick <begin_commit_id> <end_commit_id>
+git cherry-pick <begin_commit_id>^ <end_commit_id>
 ```
 
 #### rebase -i
