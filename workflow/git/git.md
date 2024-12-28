@@ -240,6 +240,22 @@ ref: https://www.youtube.com/watch?v=8jQGBYZpdiI
 
 類似cherry-pick
 
+ref: https://medium.com/%E4%B8%80%E5%80%8B%E5%B0%8F%E5%B0%8F%E5%B7%A5%E7%A8%8B%E5%B8%AB%E7%9A%84%E9%9A%A8%E6%89%8B%E7%AD%86%E8%A8%98/git-%E7%94%A8-rebase-%E5%90%88%E4%BD%B5%E5%88%86%E6%94%AF-%E8%AE%93%E4%BD%A0%E7%9A%84-git-history-%E6%9B%B4%E4%B9%BE%E6%B7%A8-ae0208c9fb52
+
+```
+git rebase --onto <target_branch> <begin_commit_id>^ <end_commit_id>
+# which cause detached
+git checkout -b <new_branch_name>
+git checkout <target_branch>
+git merge
+```
+
+如果detach怎麽處理
+
+```
+git checkout <branch_name>
+```
+
 ![[Pasted image 20241225184959.png | 1000]]
 
 #### rebase -i
@@ -299,6 +315,11 @@ ref: https://pjchender.dev/app/cli-git/
 git push --force-with-lease origin 'HEAD^:<branch_name>' # 刪除已經 push 到遠端的 commit，但本地端的 commit 還會在，要自己 reset [參考資料]
 ```
 
+```
+git push --force-with-lease origin 'HEAD~<number>:<branch_name>'
+git reset --hard origin/<branch_name>
+```
 ### conflict_tool
 
 ref: https://www.youtube.com/watch?v=57x4ZzzCr2Y
+
