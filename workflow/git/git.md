@@ -233,6 +233,9 @@ $ git l
 # 舊的遠端 feature branch 本來指向 ac00862, 現在就更新成跟本地一樣的 5c4d18a
 ```
 ![[Pasted image 20241220181756.png | 500]]
+
+ref: https://www.youtube.com/watch?v=8jQGBYZpdiI
+
 #### rebase_onto
 
 類似cherry-pick
