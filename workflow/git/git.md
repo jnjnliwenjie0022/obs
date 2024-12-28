@@ -295,3 +295,7 @@ ref: https://pjchender.dev/app/cli-git/
 ```
 git push --force-with-lease origin 'HEAD^:<branch_name>' # 刪除已經 push 到遠端的 commit，但本地端的 commit 還會在，要自己 reset [參考資料]
 ```
+
+### conflict_tool
+
+ref: https://www.youtube.com/watch?v=57x4ZzzCr2Y
