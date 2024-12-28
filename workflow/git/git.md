@@ -355,3 +355,5 @@ $ git reflog # 尋找要回復的 HEAD ，以下假設是 HEAD@{3} $ git reset -
 ```
 
 利用 Git Rebase 的互動模式介面，可以快速的整理 Commit，讓我們的變更紀錄更容易理解。但 rebase 的操作是會變更整個歷史，要注意一點是**`不要在共用的分支進行 rebase`**，會造成其他人的歷史紀錄亂掉。
+
+https://medium.com/starbugs/use-git-interactive-rebase-to-organize-commits-85e692b46dd
