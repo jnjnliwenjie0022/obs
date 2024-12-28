@@ -339,3 +339,5 @@ git reset --hard origin/<branch_name>
 
 ref: https://www.youtube.com/watch?v=57x4ZzzCr2Y
 
+https://learngitbranching.js.org/?locale=zh_CN
+https://myapollo.com.tw/blog/git-tutorial-rebase/
