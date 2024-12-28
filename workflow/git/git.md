@@ -160,6 +160,8 @@ git fetch <remote_name>
 
 ![[Pasted image 20241007164338.png]]
 ### rebase
+
+https://juejin.cn/post/7038093620628422669
 #### basic
 ```
 # 如果feature_branch有在remote上的話要做git push --force-with-lease
@@ -340,4 +342,16 @@ git reset --hard origin/<branch_name>
 ref: https://www.youtube.com/watch?v=57x4ZzzCr2Y
 
 https://learngitbranching.js.org/?locale=zh_CN
+
 https://myapollo.com.tw/blog/git-tutorial-rebase/
+```
+此外，對於 rebase 使用不慎時，我們會希望能夠直接回復到 rebase 之前的狀態，以下就是幾個指令可以用來回復到 rebase之前的狀態
+
+$ git reset --hard ORIG_HEAD
+
+$ git tag BACKUP $ ... # rebase 過程 $ ... # rebase 過程 $ git reset --hard BACKUP # 失敗的話可以直接回復到 tag BACKUP
+
+$ git reflog # 尋找要回復的 HEAD ，以下假設是 HEAD@{3} $ git reset --hard HEAD@{3} # 回復
+```
+
+利用 Git Rebase 的互動模式介面，可以快速的整理 Commit，讓我們的變更紀錄更容易理解。但 rebase 的操作是會變更整個歷史，要注意一點是**`不要在共用的分支進行 rebase`**，會造成其他人的歷史紀錄亂掉。
