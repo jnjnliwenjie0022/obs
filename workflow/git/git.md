@@ -163,6 +163,8 @@ git fetch <remote_name>
 
 https://juejin.cn/post/7038093620628422669
 
+https://hackmd.io/@vincentlee/SygUerbcL
+
 - 合代码到公共分支上时用git merge
 - 合代码到个人分支时用git rebase，形成线性提交历史记录
 
