@@ -237,7 +237,7 @@ $ git l
 
 類似cherry-pick
 
-![[Pasted image 20241225184959.png | 500]]
+![[Pasted image 20241225184959.png | 1000]]
 
 #### rebase -i
 
