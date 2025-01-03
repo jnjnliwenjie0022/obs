@@ -306,12 +306,16 @@ git push --set-upstream origin <new_branch_name>
 ```
 # 使用git rebase --onto來取代cherry-pick的時候會使<branch_name>落後
 # 移動branch_name用以下方式處理
-git br -f <branch_name> HEAD
-# 此時會是(HEAD, <branch_name>)還是detach的狀態
+git br -f <branch_name> <commit_id>
 git co <branch_name>
-# 此時會是(HEAD -> <branch_name>)
 ```
 
+### detached
+
+```
+(HEAD, <branch_name>) 這個是detach狀態，HEAD是指向<commit_id>，不是指向<branch_name>
+(HEAD -> <branch_name>) HEAD是指向<branch_name>
+```
 ### reset
 
 注意stash本身也是一種commit
