@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "workflow/nvim.md",
+                "file": "de/amba_ahb/ahb.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "nvim"
+              "title": "ahb"
             }
           }
         ]
@@ -81,10 +81,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "workflow/nvim.md"
+                "file": "de/amba_ahb/ahb.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of nvim"
+              "title": "Outline of ahb"
             }
           }
         ],
@@ -188,6 +188,7 @@
   },
   "active": "9ba25460b31af80d",
   "lastOpenFiles": [
+    "workflow/nvim.md",
     "dv/dump_multiple_array.md",
     "workflow/git/git.md",
     "workflow/git/include/Pasted image 20250106094912.png",
