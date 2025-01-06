@@ -143,6 +143,8 @@ git checkout <switch_branch>
 ```
 ## a_successful_git_branching_model
 
+![[Pasted image 20250106094912.png|1000]]
+
 ![[Pasted image 20241007164708.png]]
 ### local_repository
 ```
