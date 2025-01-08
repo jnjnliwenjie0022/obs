@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "de/amba_axi/ddr_latency.md",
+                "file": "de/storge/ddr.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "ddr_latency"
+              "title": "ddr"
             }
           }
         ]
@@ -81,10 +81,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "de/amba_axi/ddr_latency.md"
+                "file": "de/storge/ddr.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of ddr_latency"
+              "title": "Outline of ddr"
             }
           }
         ],
@@ -188,6 +188,7 @@
   },
   "active": "9ba25460b31af80d",
   "lastOpenFiles": [
+    "de/storge",
     "de/amba_ahb/ahb.md",
     "workflow/nvim.md",
     "dv/dump_multiple_array.md",
@@ -233,7 +234,6 @@
     "workflow/github.md",
     "workflow/tmux.md",
     "workflow/tnv.md",
-    "workflow/bypass_paywall.md",
     "dv/uvm/include/uvm_do_on_pri_with.canvas",
     "uvm_factory.canvas",
     "dv/uvm/include/uvm_factory1.canvas",
