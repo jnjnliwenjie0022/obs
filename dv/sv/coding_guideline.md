@@ -11,6 +11,12 @@
 5. (in tb) 不可以output <= input  
 	input和ouput一定會delay一個cycle, 除非目的就是這個不然一律不建議這個寫法
 # rule1
+針對clk
+```verilog
+forever begin
+	clk = ~clk
+end
+```
 針對dut output
 1. 0 
 2. blocking

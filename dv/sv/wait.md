@@ -25,6 +25,3 @@ wait沒有時間的概念，不要使用wait處理signal (如果真要使用要�
     endtask : reset_signals
 //}}}
 ```
-
-如果vif.rst_n signal從0→1:
-	wait是描述下一個時刻的function，超前@(posedge vif.rst_n);
