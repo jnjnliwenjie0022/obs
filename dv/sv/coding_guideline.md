@@ -11,22 +11,38 @@
 5. (in tb) 不可以output <= input  
 	input和ouput一定會delay一個cycle, 除非目的就是這個不然一律不建議這個寫法
 # rule1
-針對clk
+針對clk and rst_n
 ```verilog
-forever begin
-	clk = ~clk
+initial begin
+	clk = 0;
+	forever #10 clk = ~clk;
 end
 ```
+
+```verilog
+initial begin
+	rst_n = 1;
+	@(posedge clk);
+	rst_n = 0;
+	rst_n = 1;
+end
+```
+
 針對dut output
+
 1. 0 
 2. blocking
+
 ```verilog
 @(posedge clk iff (vif.valid && vif.ready));
 item.data = vif.data;
 ```
+
 針對dut input
+
 1. 0+ 
 2. non-blocking
+
 ```verilog
 vif.data <= item.data;
 vif.valid <= 1;
