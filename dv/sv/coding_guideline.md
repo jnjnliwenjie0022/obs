@@ -8,10 +8,12 @@
 	1. dut input (0+)
 	2. dut output (0)
 	3. others (0)
-5. (in tb) 不可以output <= input  
-	input和ouput一定會delay一個cycle, 除非目的就是這個不然一律不建議這個寫法
+5. (in tb) 不可以output <= input
+	1. input和ouput一定會delay一個cycle, 除非目的就是這個不然一律不建議這個寫法
 # rule1
+
 針對clk and rst_n
+
 ```verilog
 initial begin
 	clk = 0;
@@ -22,8 +24,9 @@ end
 ```verilog
 initial begin
 	rst_n = 1;
-	@(posedge clk);
+	repeat(10) @(posedge clk);
 	rst_n = 0;
+	repeat(10) @(posedge clk);
 	rst_n = 1;
 end
 ```
