@@ -13,16 +13,29 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "dv/sv/coding_guideline.md",
-                "mode": "preview",
+                "file": "dv/sv/wait.md",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "coding_guideline"
+              "title": "wait"
+            }
+          },
+          {
+            "id": "a0c2f606de7e72e7",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "Pasted image 20250115185221.png"
+              },
+              "icon": "lucide-image",
+              "title": "Pasted image 20250115185221"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -186,12 +199,13 @@
       "obsidian-to-anki-plugin:Obsidian_to_Anki - Scan Vault": true
     }
   },
-  "active": "19a60b1e44f4e87a",
+  "active": "a0c2f606de7e72e7",
   "lastOpenFiles": [
-    "dv/sv/generic_memory.md",
-    "dv/sv/coding_guideline.md",
-    "dv/sv/iff.md",
     "dv/sv/wait.md",
+    "Pasted image 20250115185221.png",
+    "dv/sv/coding_guideline.md",
+    "dv/sv/generic_memory.md",
+    "dv/sv/iff.md",
     "dv/sc/sc.md",
     "dv/uvm/sequence.md",
     "README.md",
@@ -224,9 +238,7 @@
     "de/ppa/include/Pasted image 20241224162722.png",
     "de/ppa/include/Pasted image 20241209165553.png",
     "de/ppa/include/Pasted image 20241224155103.png",
-    "de/ppa/include/Pasted image 20241224154514.png",
     "de/cim/ref/CIM技术经典导读之数字SRAM CIM技术 - sasasatori - 博客园.pdf",
-    "de/v/verilog.md",
     "dv/Untitled",
     "de/arithmetic/Untitled.pdf",
     "de/cim/ref/ESSCIRC.2019.8902824.pdf",
