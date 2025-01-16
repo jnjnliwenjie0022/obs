@@ -4,12 +4,12 @@
 
 place and route前
 
-
 ![[Pasted image 20240621184044.png]]
 
 index_1 就是 data transition
 
 ![[Pasted image 20240621182018.png]]
+
 ``` TCL
 create_clock -period VALUE [get_ports CLK]
 set_clock_uncertainty VALUE CLK
@@ -41,6 +41,7 @@ set bus_io_delay  [expr {($bus_clk_period - $synthesis_margin) * $bus_ratio}]
 ```
 
 place and route and CTS 後
+
 ``` TCL
 create_clock -period VALUE [get_ports CLK]
 set_clock_uncertainty VALUE CLK
@@ -53,6 +54,7 @@ set_propagated_clock VALUE CLK
 # wcl
 
 frequency signoff criteria
+
 1. wcl (worse case for low temperature)
 2. wc (worse case for high temperature)
 
@@ -68,23 +70,35 @@ K 與 Vth成正比
 K在40nm以下會有下圖的特性,worse case for frequency會有兩個corner(High K and Low K)
 
 [[PVT (Process, Voltage, Temperature) - VLSI- Physical Design For Freshers.pdf#page=12&annotation=183R|PVT (Process, Voltage, Temperature) - VLSI- Physical Design For Freshers, page 12]]
+
 ![[Pasted image 20240611164733.png]]
 # synthesis_library
+
 multi-vt
+
 1. lvt: 建議25%以上
 2. svt: 建議50%以上, 建議合成的時候只使用svt
 3. ulvt: 通常不用ulvt, ulvt會給APR做最後的防守
+
 ![[Pasted image 20240625161622.png]]
 ![[Pasted image 20240625162050.png]]
 
 # analysis
+
 power 分析通常是architecture team分析不會是implemeation team分析
+
 power 分析也需要wire delay 
+
 power 分析要85度/TT/0.75(normal) for 7nm
+
 wcl frequency 分析-40度/multivt/SS/0.75\*0.9 for 7nm
+
 wc frequency 分析85度/multivt/SS/0.75\*0.9 for 7nm
 
 # scan_factor
+
 In early stages: 1.15 ~ 1.25
+
 ![[Pasted image 20240906170331.png]]
+
 ![[Pasted image 20240719160809.png]]

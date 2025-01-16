@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "dv/sv/coding_guideline.md",
-                "mode": "preview",
+                "file": "de/ppa/timing.md",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "coding_guideline"
+              "title": "timing"
             }
           },
           {
@@ -200,12 +200,15 @@
   },
   "active": "e1bc0603ba95d48e",
   "lastOpenFiles": [
+    "de/ppa/upf.md",
+    "de/ppa/power.md",
+    "de/ppa/evaluation.md",
+    "dv/sv/coding_guideline.md",
     "dv/sv/iff.md",
     "dv/sv/polymorphism.md",
     "dv/sv/wait.md",
     "dv/sv/include/Pasted image 20250115185221.png",
     "dv/sv/include",
-    "dv/sv/coding_guideline.md",
     "dv/sv/generic_memory.md",
     "dv/sc/sc.md",
     "dv/uvm/sequence.md",
@@ -229,9 +232,6 @@
     "language/2024-05-27.md",
     "de/cim/cim.md",
     "de/arithmetic/divider.md",
-    "de/ppa/evaluation.md",
-    "de/ppa/power.md",
-    "de/ppa/upf.md",
     "conflict-files-obsidian-git.md",
     "workflow/git/include/Pasted image 20241225184959.png",
     "de/ppa/include/Pasted image 20241224160718.png",
