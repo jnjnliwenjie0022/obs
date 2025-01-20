@@ -28,10 +28,10 @@
             "state": {
               "type": "image",
               "state": {
-                "file": "workflow/git/include/Pasted image 20241220181756.png"
+                "file": "de/fpu/include_f16div/valid_pd_diagram.svg"
               },
               "icon": "lucide-image",
-              "title": "Pasted image 20241220181756"
+              "title": "valid_pd_diagram"
             }
           },
           {
@@ -213,6 +213,7 @@
   },
   "active": "e01ea87b08c38df4",
   "lastOpenFiles": [
+    "workflow/git/include/Pasted image 20241220181756.png",
     "workflow/git/git.md",
     "de/ppa/timing.md",
     "de/ppa/upf.md",
@@ -245,7 +246,6 @@
     "language/2024-05-28.md",
     "language/2024-05-27.md",
     "de/cim/cim.md",
-    "de/arithmetic/divider.md",
     "workflow/git/include/Pasted image 20241225184959.png",
     "de/ppa/include/Pasted image 20241224160718.png",
     "de/ppa/include/Pasted image 20241224161323.png",
