@@ -4,24 +4,23 @@
     "type": "split",
     "children": [
       {
-        "id": "6c2060e5f2a0170f",
+        "id": "ac9dd6f68942f232",
         "type": "tabs",
         "children": [
           {
-            "id": "9ba25460b31af80d",
+            "id": "e1bc0603ba95d48e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "workflow/git/git.md",
-                "mode": "preview",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
               "title": "git"
             }
-<<<<<<< HEAD
           },
           {
             "id": "e01ea87b08c38df4",
@@ -36,6 +35,21 @@
             }
           },
           {
+            "id": "0c8aaa892c555bc2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "conflict-files-obsidian-git.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "conflict-files-obsidian-git"
+            }
+          },
+          {
             "id": "a0c2f606de7e72e7",
             "type": "leaf",
             "state": {
@@ -46,10 +60,9 @@
               "icon": "lucide-image",
               "title": "Pasted image 20250115185221"
             }
-=======
->>>>>>> origin/master
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -72,7 +85,7 @@
                 "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
-                "collapseAll": false,
+                "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
               },
@@ -108,10 +121,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "workflow/neovide.md"
+                "file": "de/storge/ddr.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of neovide"
+              "title": "Outline of ddr"
             }
           }
         ],
@@ -213,9 +226,10 @@
       "obsidian-to-anki-plugin:Obsidian_to_Anki - Scan Vault": true
     }
   },
-  "active": "9ba25460b31af80d",
+  "active": "0c8aaa892c555bc2",
   "lastOpenFiles": [
-<<<<<<< HEAD
+    "de/fpu/include_f16div/valid_pd_diagram.svg",
+    "conflict-files-obsidian-git.md",
     "workflow/git/include/Pasted image 20241220181756.png",
     "workflow/git/git.md",
     "de/ppa/timing.md",
@@ -226,56 +240,40 @@
     "dv/sv/iff.md",
     "dv/sv/polymorphism.md",
     "dv/sv/wait.md",
-=======
-    "workflow/neovide.md",
-    "workflow/git/include/Pasted image 20250106094912.png",
->>>>>>> origin/master
     "dv/sv/include/Pasted image 20250115185221.png",
     "dv/sv/include",
+    "dv/sv/generic_memory.md",
+    "dv/sc/sc.md",
+    "dv/uvm/sequence.md",
+    "README.md",
+    "de/arithmetic/csa/csa.md",
+    "de/fpu/include_f16mac/csa4to2.svg",
+    "de/storge/ddr.md",
     "de/storge/include/Pasted image 20240710152849.png",
     "de/storge/include",
-    "de/storge/ddr.md",
+    "de/storge/Untitled.md",
     "de/storge",
-    "workflow/tnv.md",
+    "de/amba_ahb/ahb.md",
     "workflow/nvim.md",
-    "workflow/git/git.md",
+    "dv/dump_multiple_array.md",
+    "workflow/git/include/Pasted image 20250106094912.png",
+    "workflow/neovide.md",
+    "dv/uvmc/uvmc.md",
+    "dv/uvmc/comment.md",
     "language/2024-05-28.md",
     "language/2024-05-27.md",
-    "README.md",
-    "de/cim/cim.md",
-<<<<<<< HEAD
-=======
-    "de/arithmetic/divider.md",
-    "de/ppa/evaluation.md",
-    "de/ppa/power.md",
-    "de/ppa/upf.md",
-    "conflict-files-obsidian-git.md",
->>>>>>> origin/master
     "workflow/git/include/Pasted image 20241225184959.png",
     "de/ppa/include/Pasted image 20241224160718.png",
     "de/ppa/include/Pasted image 20241224161323.png",
     "de/ppa/include/Pasted image 20241224162722.png",
     "de/ppa/include/Pasted image 20241209165553.png",
-    "de/ppa/include/Pasted image 20241224155103.png",
-    "de/ppa/include/Pasted image 20241224154514.png",
     "de/cim/ref/CIM技术经典导读之数字SRAM CIM技术 - sasasatori - 博客园.pdf",
-    "dv/dump_multiple_array.md",
-    "de/v/verilog.md",
     "dv/Untitled",
-    "de/arithmetic/booth.md",
     "de/arithmetic/Untitled.pdf",
     "de/cim/ref/ESSCIRC.2019.8902824.pdf",
-    "de/cim/ref/test.md",
     "de/cim/ref/~~$ESSCIRC.2019.8902824.pdf",
     "de/cim/include/dataflow.drawio",
     "de/cim/include",
-    "de/arithmetic/csa/csa.md",
-    "ToDoList.md",
-    "workflow/eda.md",
-    "workflow/github.md",
-    "workflow/tmux.md",
-    "workflow/bypass_paywall.md",
-    "de/amba_axi/ddr_latency.md",
     "dv/uvm/include/uvm_do_on_pri_with.canvas",
     "uvm_factory.canvas",
     "dv/uvm/include/uvm_factory1.canvas",
