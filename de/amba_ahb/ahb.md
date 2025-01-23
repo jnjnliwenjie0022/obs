@@ -39,3 +39,12 @@ brg:
 
 <<< 需要舉例子 >>>
 <<< hready hreadyout 架構描述 >>>
+
+## address phase for slave
+
+1. hreadyin == 
+
+
+## data phase for slave
+
+
