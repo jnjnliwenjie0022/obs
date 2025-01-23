@@ -35,16 +35,16 @@ brg:
 [AHB Bus Protocol -- Address Phase - SoC Design and Simulation forum - Support forums - Arm Community](https://community.arm.com/support-forums/f/soc-design-and-simulation-forum/43735/ahb-bus-protocol----address-phase?ReplySortBy=CreatedDate&ReplySortOrder=Ascending)
 ![[Pasted image 20240411165735.png]]
 
-結論: hready only control "DATA_PHASE"
-
-<<< 需要舉例子 >>>
-<<< hready hreadyout 架構描述 >>>
-
 ## address phase for slave
 
-1. hreadyin == 
+address phase taken
 
+1. hready_in & hsel
+2. recommend that hready_in always "1"
 
 ## data phase for slave
 
+data phase taken
 
+1. heady_out
+2. hready_in == hready_out
