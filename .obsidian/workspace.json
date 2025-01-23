@@ -81,14 +81,14 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "de/storge/ddr.md"
+                "file": "de/amba_ahb/ahb.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of ddr"
+              "title": "Outline of ahb"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       },
       {
         "id": "ce31482b6afb7740",
@@ -186,7 +186,7 @@
       "obsidian-to-anki-plugin:Obsidian_to_Anki - Scan Vault": true
     }
   },
-  "active": "e1bc0603ba95d48e",
+  "active": "187192ed1f4570c8",
   "lastOpenFiles": [
     "conflict-files-obsidian-git.md",
     "de/amba_ahb/ahb.md",
