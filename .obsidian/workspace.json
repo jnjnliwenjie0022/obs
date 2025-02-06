@@ -26,12 +26,15 @@
             "id": "33c3fe250c158575",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.8.4"
+                "file": "workflow/git/git.md",
+                "mode": "preview",
+                "source": false,
+                "backlinks": false
               },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.8.4"
+              "icon": "lucide-file",
+              "title": "git"
             }
           }
         ],
@@ -200,6 +203,9 @@
   },
   "active": "33c3fe250c158575",
   "lastOpenFiles": [
+    "de/arithmetic/booth.md",
+    "de/arithmetic/ref_booth/~$analysis.xlsx",
+    "dv/dump_multiple_array.md",
     "workflow/capslock2ctrl.md",
     "de/amba_ahb/ahb.md",
     "workflow/git/git.md",
@@ -230,11 +236,9 @@
     "de/storge/Untitled.md",
     "de/storge",
     "workflow/nvim.md",
-    "dv/dump_multiple_array.md",
     "workflow/git/include/Pasted image 20250106094912.png",
     "workflow/neovide.md",
     "dv/uvmc/uvmc.md",
-    "dv/uvmc/comment.md",
     "workflow/git/include/Pasted image 20241225184959.png",
     "de/ppa/include/Pasted image 20241224160718.png",
     "de/ppa/include/Pasted image 20241224161323.png",
@@ -245,7 +249,6 @@
     "de/cim/ref/ESSCIRC.2019.8902824.pdf",
     "de/cim/ref/~~$ESSCIRC.2019.8902824.pdf",
     "de/cim/include/dataflow.drawio",
-    "de/cim/include",
     "dv/uvm/include/uvm_do_on_pri_with.canvas",
     "uvm_factory.canvas",
     "dv/uvm/include/uvm_factory1.canvas",
