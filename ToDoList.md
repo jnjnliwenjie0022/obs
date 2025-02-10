@@ -9,3 +9,4 @@
 7. exclusive behavior
 8. [[f16mis]]
 	1. 需要瞭解
+9. https://github.com/tpn/pdfs/blob/master/General-Purpose%20Graphics%20Processor%20Architecture%20(2018).pdf

@@ -28,13 +28,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "de/fpu/f16mac.md",
-                "mode": "preview",
+                "file": "ToDoList.md",
+                "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "f16mac"
+              "title": "ToDoList"
             }
           }
         ],
@@ -202,6 +202,7 @@
   },
   "active": "33c3fe250c158575",
   "lastOpenFiles": [
+    "de/fpu/f16mac.md",
     "workflow/git/git.md",
     "conflict-files-obsidian-git.md",
     "de/arithmetic/booth.md",
@@ -237,7 +238,6 @@
     "workflow/nvim.md",
     "workflow/git/include/Pasted image 20250106094912.png",
     "workflow/neovide.md",
-    "dv/uvmc/uvmc.md",
     "workflow/git/include/Pasted image 20241225184959.png",
     "de/ppa/include/Pasted image 20241224160718.png",
     "de/ppa/include/Pasted image 20241224161323.png",
