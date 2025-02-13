@@ -49,17 +49,20 @@ radix4_srt_div_algorithm
 [[(SRT)INCORPORATING MULTIPLICATION INTO DIGIT- RECURRENCE DIVISION AND THE SQUARE ROOT.pdf#page=31&selection=81,0,86,10|(SRT)INCORPORATING MULTIPLICATION INTO DIGIT- RECURRENCE DIVISION AND THE SQUARE ROOT, page 31]]
 ![[Pasted image 20240328000055.png]]
 PR bitwidth = sign bit + PR integral + PR fraction + extra bit
+
 original PR bitwidth: 16 (嚴格正確)
-	sign bit: 1
-	PR integral: 2
-	PR fraction: 11 + 1 (Rounding)
-	extra bit: 1 (可能是給square root??)
+1. sign bit: 1
+2. PR integral: 2
+3. PR fraction: 11 + 1 (Rounding)
+4. extra bit: 1 (可能是給square root??)
+
 revised PR bitwidth: 14 (最佳正確)
-	sign bit: 1
-	PR integral: 2
-	PR fraction: 11
-	extra bit: 0
-		1. 滿足PR bitwidth == RQST bitwidth + 1,不滿足則要將PR補0直到滿足這個條件
+1. sign bit: 1
+2. PR integral: 2
+3. PR fraction: 11
+4. extra bit: 0
+	1. 滿足PR bitwidth == RQST bitwidth + 1,不滿足則要將PR補0直到滿足這個條件
+
 [[(SRT)INCORPORATING MULTIPLICATION INTO DIGIT- RECURRENCE DIVISION AND THE SQUARE ROOT.pdf#page=116&selection=107,0,107,10|Final_Thesis_(1), page 116]]
 ![[Pasted image 20240327145520.png]]
 ## truncate_deviation
