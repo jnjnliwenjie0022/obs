@@ -14,33 +14,28 @@
               "type": "pdf",
               "state": {
                 "file": "de/fpu/ref_f16div/(SQRT)Unified_Digit_Selection_for_Radix-4_Recurrence_Division_and_Square_Root.pdf",
-                "page": 5,
-                "left": -132,
-                "top": 31,
-                "zoom": 1.4
+                "page": 6,
+                "left": -9,
+                "top": 620,
+                "zoom": 1.7279411764705883
               },
               "icon": "lucide-file-text",
               "title": "(SQRT)Unified_Digit_Selection_for_Radix-4_Recurrence_Division_and_Square_Root"
             }
           },
           {
-            "id": "877e3638b448cadb",
+            "id": "226d94b19dcb6a38",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "image",
               "state": {
-                "file": "de/fpu/ref_f16div/(SQRT)Unified_Digit_Selection_for_Radix-4_Recurrence_Division_and_Square_Root.pdf",
-                "page": 5,
-                "left": -9,
-                "top": 35,
-                "zoom": 1.7279411764705885
+                "file": "de/fpu/include_f16div/truncate_deviation.svg"
               },
-              "icon": "lucide-file-text",
-              "title": "(SQRT)Unified_Digit_Selection_for_Radix-4_Recurrence_Division_and_Square_Root"
+              "icon": "lucide-image",
+              "title": "truncate_deviation"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -203,8 +198,10 @@
       "obsidian-to-anki-plugin:Obsidian_to_Anki - Scan Vault": true
     }
   },
-  "active": "877e3638b448cadb",
+  "active": "33c3fe250c158575",
   "lastOpenFiles": [
+    "de/fpu/include_f16div/truncate_deviation.svg",
+    "de/fpu/ref_f16div/(SQRT)Unified_Digit_Selection_for_Radix-4_Recurrence_Division_and_Square_Root.pdf",
     "de/fpu/ref_f16div/(SRT)INCORPORATING MULTIPLICATION INTO DIGIT- RECURRENCE DIVISION AND THE SQUARE ROOT.pdf",
     "de/fpu/ref_f16div/4-Fandrianto_division_ARITH8.pdf",
     "de/fpu/ref_f16div/Anatomy of the Pentium Bug.pdf",
@@ -215,10 +212,7 @@
     "de/fpu/ref_f16div/(SQRT)RADIX-4 SQUARE ROOT WITHOUT INITIAL PLA.pdf",
     "de/fpu/ref_f16div/(SQR)Radix-4 Square Root Without Initial PLA.pdf",
     "de/fpu/f16dsu.md",
-    "de/fpu/ref_f16div/~$dix4_SRT_Divider_Verification_Spec_v1.0.docx",
-    "de/fpu/ref_f16div/~$Square_Root_Algorithm.ppt",
     "de/fpu/f16div.md",
-    "de/fpu/include_f16div/truncate_deviation.svg",
     "de/fpu/include_f16div/valid_pd_diagram.svg",
     "de/fpu/include_f16div/f16dsu_radix4_srt_div_uarch.svg",
     "de/fpu/include_f16div/f16dsu_radix4_srt_div.svg",
