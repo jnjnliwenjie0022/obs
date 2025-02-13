@@ -14,16 +14,29 @@
               "type": "pdf",
               "state": {
                 "file": "de/fpu/ref_f16div/(SQRT)Unified_Digit_Selection_for_Radix-4_Recurrence_Division_and_Square_Root.pdf",
-                "page": 3,
-                "left": -8,
-                "top": 280,
-                "zoom": 1.9509803921568627
+                "page": 5,
+                "left": -132,
+                "top": 31,
+                "zoom": 1.4
               },
               "icon": "lucide-file-text",
               "title": "(SQRT)Unified_Digit_Selection_for_Radix-4_Recurrence_Division_and_Square_Root"
             }
+          },
+          {
+            "id": "877e3638b448cadb",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "de/fpu/include_f16div/truncate_deviation.svg"
+              },
+              "icon": "lucide-image",
+              "title": "truncate_deviation"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -186,16 +199,20 @@
       "obsidian-to-anki-plugin:Obsidian_to_Anki - Scan Vault": true
     }
   },
-  "active": "33c3fe250c158575",
+  "active": "877e3638b448cadb",
   "lastOpenFiles": [
-    "de/fpu/ref_f16div/(SQRT)RADIX-4 SQUARE ROOT WITHOUT INITIAL PLA.pdf",
-    "de/fpu/ref_f16div/(SQR)Radix-4 Square Root Without Initial PLA.pdf",
     "de/fpu/include_f16div/valid_pd_diagram.svg",
-    "de/fpu/include_f16div/truncate_deviation.svg",
-    "de/fpu/ref_f16div/(SQRT)Unified_Digit_Selection_for_Radix-4_Recurrence_Division_and_Square_Root.pdf",
-    "de/fpu/include_f16div/~$~$radix4_srt_div.xlsx",
     "de/fpu/include_f16div/f16dsu_radix4_srt_div_uarch.svg",
     "de/fpu/include_f16div/f16dsu_radix4_srt_div.svg",
+    "de/fpu/include_f16div/f16div_exp.svg",
+    "de/fpu/include_f16div/f16div_frd_rne_correction.svg",
+    "de/fpu/include_f16div/f16div_uarch.svg",
+    "de/fpu/ref_f16div/(SQRT)Unified_Digit_Selection_for_Radix-4_Recurrence_Division_and_Square_Root.pdf",
+    "de/fpu/ref_f16div/~$Square_Root_Algorithm.ppt",
+    "de/fpu/ref_f16div/(SQRT)RADIX-4 SQUARE ROOT WITHOUT INITIAL PLA.pdf",
+    "de/fpu/ref_f16div/(SQR)Radix-4 Square Root Without Initial PLA.pdf",
+    "de/fpu/include_f16div/truncate_deviation.svg",
+    "de/fpu/include_f16div/~$~$radix4_srt_div.xlsx",
     "de/mdu/include/srt_divider_signed.svg",
     "de/fpu/ref_f16div/Design_of_Double-Precision_Floating-Point_Division.pdf",
     "workflow/git/git.md",
@@ -230,10 +247,6 @@
     "de/arithmetic/csa/csa.md",
     "de/fpu/include_f16mac/csa4to2.svg",
     "de/storge/ddr.md",
-    "de/storge/include/Pasted image 20240710152849.png",
-    "de/storge/include",
-    "de/storge",
-    "workflow/git/include/Pasted image 20250106094912.png",
     "dv/uvm/include/uvm_do_on_pri_with.canvas",
     "uvm_factory.canvas",
     "dv/uvm/include/uvm_factory1.canvas",
