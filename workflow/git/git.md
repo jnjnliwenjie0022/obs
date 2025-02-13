@@ -384,18 +384,3 @@ $ git reflog # 尋找要回復的 HEAD ，以下假設是 HEAD@{3} $ git reset -
 利用 Git Rebase 的互動模式介面，可以快速的整理 Commit，讓我們的變更紀錄更容易理解。但 rebase 的操作是會變更整個歷史，要注意一點是**`不要在共用的分支進行 rebase`**，會造成其他人的歷史紀錄亂掉。
 
 https://medium.com/starbugs/use-git-interactive-rebase-to-organize-commits-85e692b46dd
-
-> [!PDF|] [[Design_of_Double-Precision_Floating-Point_Division.pdf#page=7&selection=204,8,204,10|Design_of_Double-Precision_Floating-Point_Division, p.7]]
-> > go
-> 
->
-
-> [!PDF|yellow] [[Design_of_Double-Precision_Floating-Point_Division.pdf#page=7&selection=204,0,205,12&color=yellow|Design_of_Double-Precision_Floating-Point_Division, p.7]]
-> > M D Ercegovac, T Lang. Radi-4 square root without initial PLA. IEEE Tr
-> 
->
-
-> [!PDF|yellow] [[Design_of_Double-Precision_Floating-Point_Division.pdf#page=7&selection=204,1,205,20&color=yellow|Design_of_Double-Precision_Floating-Point_Division, p.7]]
-> >  D Ercegovac, T Lang. Radi-4 square root without initial PLA. IEEE Trans in C
-> 
-> 
