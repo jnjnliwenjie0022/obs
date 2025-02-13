@@ -4,6 +4,28 @@
     "type": "split",
     "children": [
       {
+        "id": "22f012baf1f8bd34",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c6ac5c7ba8f59e26",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "de/fpu/ref_f16div/Low Power Division and Square.pdf",
+                "page": 69,
+                "left": -17,
+                "top": 254,
+                "zoom": 0.9436274509803922
+              },
+              "icon": "lucide-file-text",
+              "title": "Low Power Division and Square"
+            }
+          }
+        ]
+      },
+      {
         "id": "0c921f1eb912d48f",
         "type": "tabs",
         "children": [
@@ -26,15 +48,16 @@
             "id": "33c3fe250c158575",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "ToDoList.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
+                "file": "de/fpu/ref_f16div/high_radix_SRT.pdf",
+                "page": 2,
+                "left": 46,
+                "top": 717,
+                "zoom": 1.240868097139409
               },
-              "icon": "lucide-file",
-              "title": "ToDoList"
+              "icon": "lucide-file-text",
+              "title": "high_radix_SRT"
             }
           }
         ],
@@ -58,7 +81,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "roun",
+                "query": "sqr",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -102,7 +125,8 @@
               "title": "Outline"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       },
       {
         "id": "ce31482b6afb7740",
@@ -202,6 +226,9 @@
   },
   "active": "33c3fe250c158575",
   "lastOpenFiles": [
+    "de/fpu/f16dsu.md",
+    "ToDoList.md",
+    "de/fpu/ref_f16mac/code_old_kv/VFPU/~$FPU corner case.xlsx",
     "de/fpu/f16mac.md",
     "workflow/git/git.md",
     "conflict-files-obsidian-git.md",
@@ -235,9 +262,7 @@
     "de/storge/include",
     "de/storge/Untitled.md",
     "de/storge",
-    "workflow/nvim.md",
     "workflow/git/include/Pasted image 20250106094912.png",
-    "workflow/neovide.md",
     "workflow/git/include/Pasted image 20241225184959.png",
     "de/ppa/include/Pasted image 20241224160718.png",
     "de/ppa/include/Pasted image 20241224161323.png",
@@ -247,7 +272,6 @@
     "de/arithmetic/Untitled.pdf",
     "de/cim/ref/ESSCIRC.2019.8902824.pdf",
     "de/cim/ref/~~$ESSCIRC.2019.8902824.pdf",
-    "de/cim/include/dataflow.drawio",
     "dv/uvm/include/uvm_do_on_pri_with.canvas",
     "uvm_factory.canvas",
     "dv/uvm/include/uvm_factory1.canvas",
