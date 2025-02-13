@@ -13,14 +13,14 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "de/fpu/ref_f16div/Design_of_Double-Precision_Floating-Point_Division.pdf",
-                "page": 6,
+                "file": "de/fpu/ref_f16div/(SQRT)Unified_Digit_Selection_for_Radix-4_Recurrence_Division_and_Square_Root.pdf",
+                "page": 3,
                 "left": -8,
-                "top": 53,
-                "zoom": 1.9509803921568625
+                "top": 280,
+                "zoom": 1.9509803921568627
               },
               "icon": "lucide-file-text",
-              "title": "Design_of_Double-Precision_Floating-Point_Division"
+              "title": "(SQRT)Unified_Digit_Selection_for_Radix-4_Recurrence_Division_and_Square_Root"
             }
           }
         ]
@@ -188,8 +188,17 @@
   },
   "active": "33c3fe250c158575",
   "lastOpenFiles": [
-    "workflow/git/git.md",
+    "de/fpu/ref_f16div/(SQRT)RADIX-4 SQUARE ROOT WITHOUT INITIAL PLA.pdf",
+    "de/fpu/ref_f16div/(SQR)Radix-4 Square Root Without Initial PLA.pdf",
+    "de/fpu/include_f16div/valid_pd_diagram.svg",
+    "de/fpu/include_f16div/truncate_deviation.svg",
+    "de/fpu/ref_f16div/(SQRT)Unified_Digit_Selection_for_Radix-4_Recurrence_Division_and_Square_Root.pdf",
+    "de/fpu/include_f16div/~$~$radix4_srt_div.xlsx",
+    "de/fpu/include_f16div/f16dsu_radix4_srt_div_uarch.svg",
+    "de/fpu/include_f16div/f16dsu_radix4_srt_div.svg",
+    "de/mdu/include/srt_divider_signed.svg",
     "de/fpu/ref_f16div/Design_of_Double-Precision_Floating-Point_Division.pdf",
+    "workflow/git/git.md",
     "de/fpu/ref_f16div/high_radix_SRT.pdf",
     "de/fpu/f16dsu.md",
     "ToDoList.md",
@@ -203,7 +212,6 @@
     "de/amba_ahb/ahb.md",
     "synopsys.md",
     "de/fctrl/fctrl.md",
-    "de/fpu/include_f16div/valid_pd_diagram.svg",
     "dv/sv/include/Pasted image 20250115185221.png",
     "workflow/git/include/Pasted image 20241220181756.png",
     "de/ppa/timing.md",
@@ -226,13 +234,6 @@
     "de/storge/include",
     "de/storge",
     "workflow/git/include/Pasted image 20250106094912.png",
-    "workflow/git/include/Pasted image 20241225184959.png",
-    "de/ppa/include/Pasted image 20241224160718.png",
-    "de/ppa/include/Pasted image 20241224161323.png",
-    "de/ppa/include/Pasted image 20241224162722.png",
-    "de/cim/ref/CIM技术经典导读之数字SRAM CIM技术 - sasasatori - 博客园.pdf",
-    "dv/Untitled",
-    "de/arithmetic/Untitled.pdf",
     "dv/uvm/include/uvm_do_on_pri_with.canvas",
     "uvm_factory.canvas",
     "dv/uvm/include/uvm_factory1.canvas",
