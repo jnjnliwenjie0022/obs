@@ -33,8 +33,25 @@
               "icon": "lucide-image",
               "title": "truncate_deviation"
             }
+          },
+          {
+            "id": "20add12f4fec475c",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "de/fpu/ref_f16div/(SQRT)Unified_Digit_Selection_for_Radix-4_Recurrence_Division_and_Square_Root.pdf",
+                "page": 6,
+                "left": -9,
+                "top": 708,
+                "zoom": 1.7279411764705885
+              },
+              "icon": "lucide-file-text",
+              "title": "(SQRT)Unified_Digit_Selection_for_Radix-4_Recurrence_Division_and_Square_Root"
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -197,12 +214,12 @@
       "obsidian-to-anki-plugin:Obsidian_to_Anki - Scan Vault": true
     }
   },
-  "active": "33c3fe250c158575",
+  "active": "20add12f4fec475c",
   "lastOpenFiles": [
+    "de/fpu/f16dsu.md",
     "de/fpu/include_f16div/truncate_deviation.svg",
     "de/fpu/ref_f16div/~$Radix-4 SRT p-d.xlsx",
     "de/fpu/ref_f16div/~$Square_Root_Algorithm.ppt",
-    "de/fpu/f16dsu.md",
     "de/fpu/ref_f16div/Low Power Division and Square.pdf",
     "de/fpu/ref_f16div/~$FDIV_design_spec_v0.5.pptx",
     "de/fpu/ref_f16div/(SQRT)Unified_Digit_Selection_for_Radix-4_Recurrence_Division_and_Square_Root.pdf",
