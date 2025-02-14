@@ -11,10 +11,12 @@
             "id": "fd8c687ba3830127",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
+              "type": "image",
+              "state": {
+                "file": "de/fpu/include_f16mac/csa4to2.svg"
+              },
+              "icon": "lucide-image",
+              "title": "csa4to2"
             }
           }
         ]
