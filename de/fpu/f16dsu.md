@@ -42,33 +42,43 @@ Q[1] = 0 + 2*(4)**(-1) = 1/2
 ![[f16dsu_radix4_srt_div.svg]]
 ![[f16dsu_radix4_srt_div_uarch.svg]]
 ## algorithm
+
 radix4_srt_div_algorithm
-[[(DIV)Digit Selection for SRT Division and Square Root.pdf#page=1&selection=0,0,1,28|(DIV)Digit Selection for SRT Division and Square Root, page 1]]
-[[radix4_srt_div.xlsx]]
+
+1. [[(DIV)Digit Selection for SRT Division and Square Root.pdf#page=1&selection=0,0,1,28|(DIV)Digit Selection for SRT Division and Square Root, page 1]]
+2. [[(SQR)Radix-4 Square Root Without Initial PLA.pdf#page=1|(SQR)Radix-4 Square Root Without Initial PLA, p.1016]]
+3. [[radix4_srt_div.xlsx]]
 ## format
-[[(SRT)INCORPORATING MULTIPLICATION INTO DIGIT- RECURRENCE DIVISION AND THE SQUARE ROOT.pdf#page=31&selection=81,0,86,10|(SRT)INCORPORATING MULTIPLICATION INTO DIGIT- RECURRENCE DIVISION AND THE SQUARE ROOT, page 31]]
-![[Pasted image 20240328000055.png]]
+
 PR bitwidth = sign bit + PR integral + PR fraction + extra bit
+
 original PR bitwidth: 16 (嚴格正確)
-	sign bit: 1
-	PR integral: 2
-	PR fraction: 11 + 1 (Rounding)
-	extra bit: 1 (可能是給square root??)
+4. sign bit: 1
+5. PR integral: 2
+6. PR fraction: 11 + 1 (Rounding)
+7. extra bit: 1 (可能是給square root??)
+
 revised PR bitwidth: 14 (最佳正確)
-	sign bit: 1
-	PR integral: 2
-	PR fraction: 11
-	extra bit: 0
-		1. 滿足PR bitwidth == RQST bitwidth + 1,不滿足則要將PR補0直到滿足這個條件
-[[(SRT)INCORPORATING MULTIPLICATION INTO DIGIT- RECURRENCE DIVISION AND THE SQUARE ROOT.pdf#page=116&selection=107,0,107,10|Final_Thesis_(1), page 116]]
-![[Pasted image 20240327145520.png]]
+8. sign bit: 1
+9. PR integral: 2
+10. PR fraction: 11
+11. extra bit: 0
+	1. 滿足PR bitwidth == RQST bitwidth + 1,不滿足則要將PR補0直到滿足這個條件
+
+
+![[(SRT)INCORPORATING MULTIPLICATION INTO DIGIT- RECURRENCE DIVISION AND THE SQUARE ROOT.pdf#page=116&rect=98,352,533,563|(SRT)INCORPORATING MULTIPLICATION INTO DIGIT- RECURRENCE DIVISION AND THE SQUARE ROOT, p.101]]
+
 ## truncate_deviation
-[[(SRT)INCORPORATING MULTIPLICATION INTO DIGIT- RECURRENCE DIVISION AND THE SQUARE ROOT.pdf#page=86&selection=35,13,35,54|(SRT)INCORPORATING MULTIPLICATION INTO DIGIT- RECURRENCE DIVISION AND THE SQUARE ROOT, page 86]]
+
 borrow_in可以有效減少truncate所造成的誤差
-![[Pasted image 20240327235758.png]]
+
+![[(SRT)INCORPORATING MULTIPLICATION INTO DIGIT- RECURRENCE DIVISION AND THE SQUARE ROOT.pdf#page=86&rect=186,276,454,493|(SRT)INCORPORATING MULTIPLICATION INTO DIGIT- RECURRENCE DIVISION AND THE SQUARE ROOT, p.71]]
+
 ![[truncate_deviation.svg]]
 ## valid_pd_diagrm
+
 合法的PD圖是兩條綫之間至少要有一個點
+
 ![[valid_pd_diagram.svg]]
 
 ## pd_diagram
@@ -79,6 +89,8 @@ borrow_in可以有效減少truncate所造成的誤差
 
 # radix4_srt_sqr_algorithm
 [[Low Power Division and Square.pdf#page=48&selection=105,0,108,5|Low Power Division and Square, page 48]]
+
+
 ## algorithm
 
 ## pd_diagram
