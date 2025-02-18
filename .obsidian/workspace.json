@@ -11,12 +11,15 @@
             "id": "fd8c687ba3830127",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "de/fpu/include_f16mac/csa4to2.svg"
+                "file": "workflow/git/git.md",
+                "mode": "preview",
+                "source": false,
+                "backlinks": false
               },
-              "icon": "lucide-image",
-              "title": "csa4to2"
+              "icon": "lucide-file",
+              "title": "git"
             }
           }
         ]
@@ -184,6 +187,7 @@
   },
   "active": "fd8c687ba3830127",
   "lastOpenFiles": [
+    "de/fpu/include_f16mac/csa4to2.svg",
     "de/fpu/ref_f16div/(DIV)Digit Selection for SRT Division and Square Root.pdf",
     "de/fpu/ref_f16div/(SQR)Radix-4 Square Root Without Initial PLA.pdf",
     "de/fpu/f16dsu.md",
@@ -196,7 +200,6 @@
     "de/fpu/ref_f16div/~$Radix-4 SRT Divider Verification.pptx",
     "de/fpu/include_f16div/25838600",
     "de/fpu/ref_f16div/document.pdf",
-    "de/fpu/ref_f16div/Design_of_Double-Precision_Floating-Point_Division.pdf",
     "de/fpu/include_f16div/truncate_deviation.svg",
     "de/fpu/include_f16div/f16div_uarch.svg",
     "de/fpu/include_f16div/valid_pd_diagram.svg",
