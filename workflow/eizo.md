@@ -1,5 +1,6 @@
 ref: https://www.ptt.cc/bbs/LCD/M.1723912298.A.582.html
 ref: https://www.mobile01.com/topicdetail.php?f=350&t=6969761
+ref: https://www.pttweb.cc/bbs/LCD/M.1726070752.A.4A8
 
 1. 4K IPS 反光嚴重
 	1. https://www.ptt.cc/bbs/LCD/M.1689564932.A.CEC.html
