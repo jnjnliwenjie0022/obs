@@ -388,6 +388,9 @@ https://medium.com/starbugs/use-git-interactive-rebase-to-organize-commits-85e69
 ### worktree
 
 ```
-mkdir xxx_project
+mkdir <project>
+cd <project>
+git clone --bare <url> .bare
+
 
 ```
