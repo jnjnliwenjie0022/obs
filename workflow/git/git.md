@@ -312,6 +312,8 @@ git br -f <branch_name> <commit_id>
 git co <branch_name>
 ```
 
+#### 
+
 ### detached
 
 ```
@@ -388,10 +390,22 @@ https://medium.com/starbugs/use-git-interactive-rebase-to-organize-commits-85e69
 ### worktree
 #### create_new_worktree
 
+ref: https://nicknisi.com/posts/git-worktrees/
+
+ref: https://morgan.cugerone.com/blog/how-to-use-git-worktree-and-in-a-clean-way/
+
 ```
 mkdir <project>
 cd <project>
 git clone --bare <url> .bare
 echo "gitdir: ./.bare" > .git
 git config remote.origin.fetch '+refs/heads/*:refs/remotes/origin/*'
+git fetch
+```
+
+#### branch_control
+
+```
+git worktree add <branch_name>
+git worktree remove <branch_name>
 ```
