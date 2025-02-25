@@ -21,8 +21,21 @@
               "icon": "lucide-file",
               "title": "git"
             }
+          },
+          {
+            "id": "d15d94df0dbc17ce",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.8.7"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.8.7"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -185,7 +198,7 @@
       "obsidian-to-anki-plugin:Obsidian_to_Anki - Scan Vault": true
     }
   },
-  "active": "fd8c687ba3830127",
+  "active": "d15d94df0dbc17ce",
   "lastOpenFiles": [
     "conflict-files-obsidian-git.md",
     "workflow/git/git.md",
