@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "workflow/git/git.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false,
                 "backlinks": false
               },
@@ -26,12 +26,15 @@
             "id": "d15d94df0dbc17ce",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.8.7"
+                "file": "workflow/nvim.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
               },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.8.7"
+              "icon": "lucide-file",
+              "title": "nvim"
             }
           }
         ],
@@ -94,18 +97,13 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "workflow/git/git.md",
-                "followCursor": false,
-                "showSearch": false,
-                "searchQuery": ""
-              },
+              "state": {},
               "icon": "lucide-list",
-              "title": "Outline of git"
+              "title": "Outline"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       },
       {
         "id": "ce31482b6afb7740",
@@ -205,8 +203,8 @@
   },
   "active": "d15d94df0dbc17ce",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
     "workflow/git/git.md",
+    "conflict-files-obsidian-git.md",
     "workflow/eizo.md",
     "de/fpu/include_f16mac/csa4to2.svg",
     "de/fpu/ref_f16div/(DIV)Digit Selection for SRT Division and Square Root.pdf",
