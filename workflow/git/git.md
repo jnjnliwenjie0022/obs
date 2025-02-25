@@ -312,6 +312,8 @@ git br -f <branch_name> <commit_id>
 git co <branch_name>
 ```
 
+#### 
+
 ### detached
 
 ```
@@ -384,3 +386,26 @@ $ git reflog # 尋找要回復的 HEAD ，以下假設是 HEAD@{3} $ git reset -
 利用 Git Rebase 的互動模式介面，可以快速的整理 Commit，讓我們的變更紀錄更容易理解。但 rebase 的操作是會變更整個歷史，要注意一點是**`不要在共用的分支進行 rebase`**，會造成其他人的歷史紀錄亂掉。
 
 https://medium.com/starbugs/use-git-interactive-rebase-to-organize-commits-85e692b46dd
+
+### worktree
+#### create_new_worktree
+
+ref: https://nicknisi.com/posts/git-worktrees/
+
+ref: https://morgan.cugerone.com/blog/how-to-use-git-worktree-and-in-a-clean-way/
+
+```
+mkdir <project>
+cd <project>
+git clone --bare <url> .bare
+echo "gitdir: ./.bare" > .git
+git config remote.origin.fetch '+refs/heads/*:refs/remotes/origin/*'
+git fetch
+```
+
+#### branch_control
+
+```
+git worktree add <branch_name>
+git worktree remove <branch_name>
+```
