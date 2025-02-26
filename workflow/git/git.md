@@ -312,8 +312,6 @@ git br -f <branch_name> <commit_id>
 git co <branch_name>
 ```
 
-#### 
-
 ### detached
 
 ```
