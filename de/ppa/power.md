@@ -79,7 +79,7 @@ Qx = 瞬間短路時間 \*  瞬間短路電流
 | Status Dependency (Input Value)               | N/A              | Yes                      | Yes                       | Yes           |
 | Path Dependency (Input Value -> Output Value) | N/A              | Yes                      | Yes                       | N/A           |
 | Wire Load                                     | Yes              | N/A                      | Yes                       | N/A           |
-| Input_Transition_Time                         | N/A              | 正比 **(先進製成非綫性)**         | 正比 **(先進製成非綫性)**          | N/A           |
+| Input_Transition_Time (input訊號轉換時間)           | N/A              | 正比 **(先進製成非綫性)**         | 正比 **(先進製成非綫性)**          | N/A           |
 | Output_Capacitation                           | 正比               | N/A                      | 反比 **(先進製成非綫性)**          | N/A           |
 | Tr                                            | 正比               | 正比                       | 正比                        | N/A           |
 | V                                             | 正比               | 正比                       | 正比                        | 正比            |
