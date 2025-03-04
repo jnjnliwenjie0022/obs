@@ -316,6 +316,7 @@ git co <branch_name>
 
 ```
 (HEAD, <branch_name>) 這個是detach狀態，HEAD是指向<commit_id>，不是指向<branch_name>
+git chekcout <branch_name>
 (HEAD -> <branch_name>) HEAD是指向<branch_name>
 ```
 ### reset
