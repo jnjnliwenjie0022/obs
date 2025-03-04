@@ -192,6 +192,7 @@
   },
   "active": "fd8c687ba3830127",
   "lastOpenFiles": [
+    "Pasted image 20250304110120.png",
     "de/ppa/power.md",
     "de/ppa/timing.md",
     "workflow/fzf.md",
@@ -237,7 +238,6 @@
     "dv/sv/generic_memory.md",
     "dv/sc/sc.md",
     "dv/uvm/sequence.md",
-    "README.md",
     "dv/uvm/include/uvm_do_on_pri_with.canvas",
     "uvm_factory.canvas",
     "dv/uvm/include/uvm_factory1.canvas",
