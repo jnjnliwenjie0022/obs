@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "de/ppa/power.md",
+                "file": "dv/sw/ld.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "power"
+              "title": "ld"
             }
           }
         ]
@@ -192,6 +192,7 @@
   },
   "active": "fd8c687ba3830127",
   "lastOpenFiles": [
+    "de/ppa/power.md",
     "de/ppa/timing.md",
     "workflow/fzf.md",
     "workflow/git/git.md",
@@ -228,7 +229,6 @@
     "de/fctrl/fctrl.md",
     "dv/sv/include/Pasted image 20250115185221.png",
     "de/ppa/upf.md",
-    "de/ppa/power.md",
     "de/ppa/evaluation.md",
     "dv/sv/coding_guideline.md",
     "dv/sv/iff.md",
