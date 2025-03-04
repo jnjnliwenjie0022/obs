@@ -4,6 +4,14 @@ ref: https://sourceware.org/binutils/docs/ld/Simple-Example.html
 
 ref: https://wen00072.github.io/blog/2014/12/15/study-on-the-linker-script-3/
 
+# section
+
 ![[Pasted image 20250304110120.png]]
 
 ![[Pasted image 20250304110537.png]]
+
+# stack
+
+![[Pasted image 20250304112813.png]]
+
+![[Pasted image 20250304112823.png]]
