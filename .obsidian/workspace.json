@@ -38,6 +38,18 @@
             }
           },
           {
+            "id": "eb5e55145eaf3f13",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.8.9"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.8.9"
+            }
+          },
+          {
             "id": "eb516345141b469c",
             "type": "leaf",
             "state": {
@@ -62,7 +74,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -230,7 +242,7 @@
       "obsidian-to-anki-plugin:Obsidian_to_Anki - Scan Vault": true
     }
   },
-  "active": "37eb7bd794049a58",
+  "active": "eb5e55145eaf3f13",
   "lastOpenFiles": [
     "dv/sw/ld.md",
     "dv/sw/include/Pasted image 20250304112823.png",
