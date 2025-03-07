@@ -36,45 +36,9 @@
               "icon": "lucide-file",
               "title": "git"
             }
-          },
-          {
-            "id": "eb5e55145eaf3f13",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.8.9"
-              },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.8.9"
-            }
-          },
-          {
-            "id": "eb516345141b469c",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "dv/sw/include/Pasted image 20250304110537.png"
-              },
-              "icon": "lucide-image",
-              "title": "Pasted image 20250304110537"
-            }
-          },
-          {
-            "id": "5aada7575531a255",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "dv/sw/include/Pasted image 20250304110120.png"
-              },
-              "icon": "lucide-image",
-              "title": "Pasted image 20250304110120"
-            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -242,12 +206,13 @@
       "obsidian-to-anki-plugin:Obsidian_to_Anki - Scan Vault": true
     }
   },
-  "active": "eb5e55145eaf3f13",
+  "active": "37eb7bd794049a58",
   "lastOpenFiles": [
+    "dv/sw/include/Pasted image 20250304110537.png",
+    "workflow/git/git.md",
     "dv/sw/ld.md",
     "dv/sw/include/Pasted image 20250304112823.png",
     "dv/sw/include/Pasted image 20250304112813.png",
-    "dv/sw/include/Pasted image 20250304110537.png",
     "conflict-files-obsidian-git.md",
     "dv/sw/include/Pasted image 20250304110120.png",
     "dv/sw/include",
@@ -255,7 +220,6 @@
     "de/ppa/power.md",
     "de/ppa/timing.md",
     "workflow/fzf.md",
-    "workflow/git/git.md",
     "workflow/eizo.md",
     "de/fpu/include_f16mac/csa4to2.svg",
     "de/fpu/ref_f16div/(DIV)Digit Selection for SRT Division and Square Root.pdf",
