@@ -28,13 +28,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "workflow/git/git.md",
+                "file": "de/amba_axi/axi.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "git"
+              "title": "axi"
             }
           }
         ],
@@ -208,8 +208,8 @@
   },
   "active": "37eb7bd794049a58",
   "lastOpenFiles": [
-    "dv/sw/include/Pasted image 20250304110537.png",
     "workflow/git/git.md",
+    "dv/sw/include/Pasted image 20250304110537.png",
     "dv/sw/ld.md",
     "dv/sw/include/Pasted image 20250304112823.png",
     "dv/sw/include/Pasted image 20250304112813.png",
