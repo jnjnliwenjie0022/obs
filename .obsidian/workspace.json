@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "dv/sv/coding_guideline.md",
+                "file": "workflow/capslock2ctrl.md",
                 "mode": "preview",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "coding_guideline"
+              "title": "capslock2ctrl"
             }
           }
         ]
@@ -70,7 +70,7 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": true
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -91,7 +91,8 @@
               "title": "Outline of fzf"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       },
       {
         "id": "ce31482b6afb7740",
@@ -189,13 +190,14 @@
       "obsidian-to-anki-plugin:Obsidian_to_Anki - Scan Vault": true
     }
   },
-  "active": "8f249399b33a6f7e",
+  "active": "19a60b1e44f4e87a",
   "lastOpenFiles": [
+    "de/amba_ace",
+    "dv/sv/coding_guideline.md",
     "de/fpu/f16mac.md",
     "de/fpu/f16macksa.md",
     "de/ppa/timing.md",
     "dv/sw/ld.md",
-    "dv/sv/coding_guideline.md",
     "de/amba_axi/axi.md",
     "workflow/git/git.md",
     "dv/sw/include/Pasted image 20250304110537.png",
@@ -236,7 +238,6 @@
     "de/ppa/evaluation.md",
     "dv/sv/iff.md",
     "dv/sv/polymorphism.md",
-    "dv/sv/wait.md",
     "dv/uvm/include/uvm_do_on_pri_with.canvas",
     "uvm_factory.canvas",
     "dv/uvm/include/uvm_factory1.canvas",
