@@ -28,13 +28,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "de/amba_axi/axi.md",
+                "file": "dv/sv/coding_guideline.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "axi"
+              "title": "coding_guideline"
             }
           }
         ],
@@ -58,7 +58,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "sqr",
+                "query": "delay",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -107,8 +107,7 @@
               "title": "Outline of fzf"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       },
       {
         "id": "ce31482b6afb7740",
@@ -208,6 +207,8 @@
   },
   "active": "37eb7bd794049a58",
   "lastOpenFiles": [
+    "de/ppa/timing.md",
+    "de/amba_axi/axi.md",
     "workflow/git/git.md",
     "dv/sw/include/Pasted image 20250304110537.png",
     "dv/sw/ld.md",
@@ -218,7 +219,6 @@
     "dv/sw/include",
     "dv/sw/script.md",
     "de/ppa/power.md",
-    "de/ppa/timing.md",
     "workflow/fzf.md",
     "workflow/eizo.md",
     "de/fpu/include_f16mac/csa4to2.svg",
