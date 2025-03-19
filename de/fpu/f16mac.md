@@ -469,6 +469,7 @@ ref: [[(lza)Leading-Zero Anticipatory Logic for High-Speed Floating Point Additi
 	3. 需要額外處理：
 		1. 當arith_exp為underflow的是時候：會有2次的overflow要處理(即使lza沒有誤差,不是lza的問題是YZ algorithm的關係)，會使undrerflow的判定轉變成subnorm
 	4. example:
+	
 ![[example_ap_algorithm.svg]]
 
 結論:
@@ -477,5 +478,6 @@ ref: [[(lza)Leading-Zero Anticipatory Logic for High-Speed Floating Point Additi
 3. 不論AP/EGS algorithm都會有1bit的誤差(LZA的結果會小於正解1個bit)
     1. EX: 正解: 1000; LZA: 0100
 4. 不論AP/EGA algorithm正解為全1的時候不會有誤差
+
 ![[lza.svg]]
 
