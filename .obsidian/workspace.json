@@ -215,6 +215,7 @@
   },
   "active": "e9e719d02b27f3df",
   "lastOpenFiles": [
+    "de/fpu/ref_f16mac/code_old_kv/VFPU/VFMAC/VFADD_VFMAC_compare/~$VFADD)VFMAC_compare.pptx",
     "de/fpu/include_f16mac/fma_format.svg",
     "de/fpu/f16mac.md",
     "de/fpu/f16macksa.md",
@@ -244,7 +245,6 @@
     "de/fpu/include_f16div/f16div_uarch.svg",
     "de/fpu/include_f16div/valid_pd_diagram.svg",
     "de/fpu/include_f16div/f16dsu_radix4_srt_div_uarch.svg",
-    "de/fpu/include_f16div/f16dsu_radix4_srt_div.svg",
     "ToDoList.md",
     "de/arithmetic/booth.md",
     "dv/dump_multiple_array.md",
