@@ -71,7 +71,8 @@ if (mac_sum_neg)
 Let: {CSA_Cinv,1'b0}+CSA_S = (~AH)+(~CH);
 => {CSA_Cinv,1'b1}+CSA_S
 ```
-if (eff_sub == 1)
+
+
 ![[mac_sum_neg_16b.svg]]
 ## arith_exp_subnorm_detect
 ![[arith_exp_subnorm_detect.svg]]
