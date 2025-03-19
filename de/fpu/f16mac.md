@@ -447,6 +447,8 @@ endmodule
 
 ## ap_algorithm (A + B)
 
+結論：這個演算法就非常夠用了！！！
+
 ref: [[(lza)Leading-Zero Anticipatory Logic for High-Speed Floating Point Addition.pdf]]
  1. 要求 (A+B) >= 0
 	 1. P.S: 可以處理減法，但減法後的sum要求為正數
@@ -457,7 +459,8 @@ ref: [[(lza)Leading-Zero Anticipatory Logic for High-Speed Floating Point Additi
 4. 適用”**加法**”和”減法”處理，但不建議減法處理
     1. 因為AP algorithm要求A+B，所以當A-B時，要變成A-B=A+(~B+1)才行
     2. “減法”處理需要額外電路做|A-B|的處理
-    3. delay比EGA algorihtm大(在fp64無法使用!!!)
+    3. ~~delay比EGA algorihtm大，在fp64無法使用!!!~~
+    4. delay好像沒有差別，因爲真正的critical path不在lza上，是在lzc上
 5. 1b誤差
 6. 特定情況不會有1b誤差(imperative)
 	1. 條件是：
