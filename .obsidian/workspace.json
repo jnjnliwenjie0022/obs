@@ -26,15 +26,16 @@
             "id": "e9e719d02b27f3df",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "dv/uvm/sequence.md",
-                "mode": "preview",
-                "source": false,
-                "backlinks": false
+                "file": "dv/uvm/ref/verilab_dvcon_eu2015_6_params.pdf",
+                "page": 1,
+                "left": -8,
+                "top": 473,
+                "zoom": 1.7868171021377675
               },
-              "icon": "lucide-file",
-              "title": "sequence"
+              "icon": "lucide-file-text",
+              "title": "verilab_dvcon_eu2015_6_params"
             }
           },
           {
@@ -215,6 +216,8 @@
   },
   "active": "19a60b1e44f4e87a",
   "lastOpenFiles": [
+    "dv/uvm/ref/绿皮书.pdf",
+    "dv/uvm/ref/649575fcbf99287ba25f20e8_litterick_uvm_slaves2_paper.pdf",
     "dv/uvm/sequence.md",
     "Gbakcup.md",
     "de/fpu/f16mac.md",
@@ -241,7 +244,6 @@
     "de/fpu/ref_f16div/(SQRT)RADIX-4 SQUARE ROOT WITHOUT INITIAL PLA.pdf",
     "de/fpu/ref_f16div/(SQRT)Unified_Digit_Selection_for_Radix-4_Recurrence_Division_and_Square_Root.pdf",
     "de/fpu/ref_f16div/high_radix_SRT.pdf",
-    "de/fpu/ref_f16div/~$Radix-4 SRT Divider Verification.pptx",
     "de/fpu/include_f16div/truncate_deviation.svg",
     "de/fpu/include_f16div/f16div_uarch.svg",
     "de/fpu/include_f16div/valid_pd_diagram.svg",
@@ -260,7 +262,6 @@
     "dv/sv/coding_guideline.md",
     "dv/sv/iff.md",
     "dv/sv/polymorphism.md",
-    "dv/sv/wait.md",
     "dv/uvm/include/uvm_do_on_pri_with.canvas",
     "uvm_factory.canvas",
     "dv/uvm/include/uvm_factory1.canvas",
