@@ -28,26 +28,12 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "dv/uvm/ref/verilab_dvcon_eu2015_6_params.pdf",
+                "file": "dv/uvm/ref/绿皮书.pdf",
                 "page": 1,
-                "left": -8,
-                "top": 481,
-                "zoom": 1.7868171021377675
+                "zoom": 6268.750000000001
               },
               "icon": "lucide-file-text",
-              "title": "verilab_dvcon_eu2015_6_params"
-            }
-          },
-          {
-            "id": "8f571c125a74ffe8",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "de/fpu/include_f16mac/fma_format.svg"
-              },
-              "icon": "lucide-image",
-              "title": "fma_format"
+              "title": "绿皮书"
             }
           }
         ],
@@ -214,15 +200,17 @@
       "obsidian-to-anki-plugin:Obsidian_to_Anki - Scan Vault": true
     }
   },
-  "active": "19a60b1e44f4e87a",
+  "active": "e9e719d02b27f3df",
   "lastOpenFiles": [
+    "dv/uvm/ref/UVM實戰.pdf",
     "dv/uvm/ref/绿皮书.pdf",
+    "dv/uvm/ref/verilab_dvcon_eu2015_6_params.pdf",
+    "de/fpu/include_f16mac/fma_format.svg",
     "dv/uvm/ref/649575fcbf99287ba25f20e8_litterick_uvm_slaves2_paper.pdf",
     "dv/uvm/sequence.md",
     "Gbakcup.md",
     "de/fpu/f16mac.md",
     "de/fpu/ref_f16mac/code_old_kv/VFPU/VFMAC/VFADD_VFMAC_compare/~$VFADD)VFMAC_compare.pptx",
-    "de/fpu/include_f16mac/fma_format.svg",
     "de/fpu/f16macksa.md",
     "conflict-files-obsidian-git.md",
     "workflow/git/git.md",
@@ -242,8 +230,6 @@
     "de/fpu/f16div.md",
     "de/fpu/ref_f16div/Low Power Division and Square.pdf",
     "de/fpu/ref_f16div/(SQRT)RADIX-4 SQUARE ROOT WITHOUT INITIAL PLA.pdf",
-    "de/fpu/ref_f16div/(SQRT)Unified_Digit_Selection_for_Radix-4_Recurrence_Division_and_Square_Root.pdf",
-    "de/fpu/ref_f16div/high_radix_SRT.pdf",
     "de/fpu/include_f16div/truncate_deviation.svg",
     "de/fpu/include_f16div/f16div_uarch.svg",
     "de/fpu/include_f16div/valid_pd_diagram.svg",
