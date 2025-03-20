@@ -200,13 +200,15 @@
       "obsidian-to-anki-plugin:Obsidian_to_Anki - Scan Vault": true
     }
   },
-  "active": "e9e719d02b27f3df",
+  "active": "19a60b1e44f4e87a",
   "lastOpenFiles": [
-    "dv/uvm/ref/UVM實戰.pdf",
+    "dv/uvm/ref/img20240201184635.pdf",
+    "dv/uvm/ref/649575fcbf99287ba25f20e8_litterick_uvm_slaves2_paper.pdf",
     "dv/uvm/ref/绿皮书.pdf",
+    "dv/uvm/ref/img20240201184635.pdf.crdownload",
+    "dv/uvm/ref/UVM實戰.pdf",
     "dv/uvm/ref/verilab_dvcon_eu2015_6_params.pdf",
     "de/fpu/include_f16mac/fma_format.svg",
-    "dv/uvm/ref/649575fcbf99287ba25f20e8_litterick_uvm_slaves2_paper.pdf",
     "dv/uvm/sequence.md",
     "Gbakcup.md",
     "de/fpu/f16mac.md",
@@ -228,8 +230,6 @@
     "de/fpu/f16dsu.md",
     "de/fpu/ref_f16div/(SRT)INCORPORATING MULTIPLICATION INTO DIGIT- RECURRENCE DIVISION AND THE SQUARE ROOT.pdf",
     "de/fpu/f16div.md",
-    "de/fpu/ref_f16div/Low Power Division and Square.pdf",
-    "de/fpu/ref_f16div/(SQRT)RADIX-4 SQUARE ROOT WITHOUT INITIAL PLA.pdf",
     "de/fpu/include_f16div/truncate_deviation.svg",
     "de/fpu/include_f16div/f16div_uarch.svg",
     "de/fpu/include_f16div/valid_pd_diagram.svg",
