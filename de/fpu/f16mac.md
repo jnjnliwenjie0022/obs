@@ -71,7 +71,8 @@ if (mac_sum_neg)
 Let: {CSA_Cinv,1'b0}+CSA_S = (~AH)+(~CH);
 => {CSA_Cinv,1'b1}+CSA_S
 ```
-if (eff_sub == 1)
+
+
 ![[mac_sum_neg_16b.svg]]
 ## arith_exp_subnorm_detect
 ![[arith_exp_subnorm_detect.svg]]
@@ -446,6 +447,8 @@ endmodule
 
 ## ap_algorithm (A + B)
 
+結論：這個演算法就非常夠用了！！！
+
 ref: [[(lza)Leading-Zero Anticipatory Logic for High-Speed Floating Point Addition.pdf]]
  1. 要求 (A+B) >= 0
 	 1. P.S: 可以處理減法，但減法後的sum要求為正數
@@ -456,7 +459,8 @@ ref: [[(lza)Leading-Zero Anticipatory Logic for High-Speed Floating Point Additi
 4. 適用”**加法**”和”減法”處理，但不建議減法處理
     1. 因為AP algorithm要求A+B，所以當A-B時，要變成A-B=A+(~B+1)才行
     2. “減法”處理需要額外電路做|A-B|的處理
-    3. delay比EGA algorihtm大(在fp64無法使用!!!)
+    3. ~~delay比EGA algorihtm大，在fp64無法使用!!!~~
+    4. delay好像沒有差別，因爲真正的critical path不在lza上，是在lzc上
 5. 1b誤差
 6. 特定情況不會有1b誤差(imperative)
 	1. 條件是：
@@ -469,6 +473,7 @@ ref: [[(lza)Leading-Zero Anticipatory Logic for High-Speed Floating Point Additi
 	3. 需要額外處理：
 		1. 當arith_exp為underflow的是時候：會有2次的overflow要處理(即使lza沒有誤差,不是lza的問題是YZ algorithm的關係)，會使undrerflow的判定轉變成subnorm
 	4. example:
+	
 ![[example_ap_algorithm.svg]]
 
 結論:
@@ -477,5 +482,6 @@ ref: [[(lza)Leading-Zero Anticipatory Logic for High-Speed Floating Point Additi
 3. 不論AP/EGS algorithm都會有1bit的誤差(LZA的結果會小於正解1個bit)
     1. EX: 正解: 1000; LZA: 0100
 4. 不論AP/EGA algorithm正解為全1的時候不會有誤差
+
 ![[lza.svg]]
 
