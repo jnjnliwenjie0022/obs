@@ -1,7 +1,7 @@
 same file merge with different code content
 
 1. 這個file不會merge，請注意，**merge一定要保證file内的code完全一樣**
-2. 如果code内部是不同instance，不同的instance可以被呈現出來
+2. 即使是不同code，且code内部是不同instance，不同的instance可以被呈現出來
 
 parameter merge on bit width
 
