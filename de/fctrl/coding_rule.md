@@ -4,7 +4,8 @@
 3. [ V ] \_en
 ```verilog
 always @ (posedge clk) begin
-	if ()
+	if (p1_data_en)
+		p1
 end
 ```
 4. [ X ] \_taken
