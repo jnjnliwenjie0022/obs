@@ -14,7 +14,14 @@ end
 5. [ V ] \_valid and \_ready are always independent
 6. [ V ] \_ack and \_grant are always dependent
 ```verilog
-
+// PORT
+module CORE_H1_H2_DES (
+	SRC_DES_signal_1
+	SRC_DES_signal_2
+	DES_SRC_signal_3
+	DES_SRC_signal_4
+	DES_sign
+)
 // CONST VALUE
 localparam CONST_1 = 64'd1;
 localparam CONST_2 = 64'd2;
