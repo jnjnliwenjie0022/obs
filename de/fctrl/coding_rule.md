@@ -22,6 +22,24 @@ always @ (posedge clk or negedge rstn) begin
 		p1_valid <= p1_valid_nx;
 ```
 
+```
+{signal: [
+  {name: 'clk',          wave: 'p.........'},
+  {name: 'p1_valid_set', wave: '0.1.......'},
+  {name: 'p1_valid_clr', wave: '0...101...'},
+  {name: 'p1_valid',     wave: '0..1.010..'},
+]}
+```
+
+```
+{signal: [
+  {name: 'clk',          wave: 'p.........'},
+  {name: 'p1_valid_set', wave: '0.1.......'},
+  {name: 'p1_valid_clr', wave: '0...101...'},
+  {name: 'p1_valid',     wave: '0..1......'},
+]}
+```
+
 ```verilog
 // self clear
 wire p1_valid_clr = p1_valid;

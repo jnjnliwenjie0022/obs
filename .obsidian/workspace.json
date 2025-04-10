@@ -73,7 +73,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "wave",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -122,8 +122,7 @@
               "title": "Outline of fzf"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       },
       {
         "id": "ce31482b6afb7740",
@@ -221,7 +220,7 @@
       "obsidian-to-anki-plugin:Obsidian_to_Anki - Scan Vault": true
     }
   },
-  "active": "eb13c71718383229",
+  "active": "bbf0212cf2e79727",
   "lastOpenFiles": [
     "de/fctrl/fctrl.md",
     "de/fctrl/coding_rule.md",
