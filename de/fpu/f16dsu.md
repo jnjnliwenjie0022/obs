@@ -70,6 +70,8 @@ revised PR bitwidth: 14 (最佳正確)
 
 ## truncate_deviation
 
+ref: https://www.righto.com/2024/12/this-die-photo-of-pentium-shows.html
+
 borrow_in可以有效減少truncate所造成的誤差
 
 ![[(SRT)INCORPORATING MULTIPLICATION INTO DIGIT- RECURRENCE DIVISION AND THE SQUARE ROOT.pdf#page=86&rect=186,276,454,493|(SRT)INCORPORATING MULTIPLICATION INTO DIGIT- RECURRENCE DIVISION AND THE SQUARE ROOT, p.71]]
