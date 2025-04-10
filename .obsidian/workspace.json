@@ -28,14 +28,14 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "de/fpu/ref_f16div/(SQR)Radix-4 Square Root Without Initial PLA.pdf",
+                "file": "de/fpu/ref_f16div/(SQRT)Unified_Digit_Selection_for_Radix-4_Recurrence_Division_and_Square_Root.pdf",
                 "page": 1,
                 "left": -4,
-                "top": 796,
-                "zoom": 2.457852405513791
+                "top": 212,
+                "zoom": 2.528571428571429
               },
               "icon": "lucide-file-text",
-              "title": "(SQR)Radix-4 Square Root Without Initial PLA"
+              "title": "(SQRT)Unified_Digit_Selection_for_Radix-4_Recurrence_Division_and_Square_Root"
             }
           }
         ],
@@ -204,10 +204,14 @@
   },
   "active": "e9e719d02b27f3df",
   "lastOpenFiles": [
+    "de/fpu/ref_f16div/(SQRT)RADIX-4 SQUARE ROOT WITHOUT INITIAL PLA.pdf",
     "de/fpu/ref_f16div/(SQR)ARITH20_Nannarelli.pdf",
+    "de/fpu/ref_f16div/(SQR)Radix-4 Square Root Without Initial PLA.pdf",
     "de/fpu/f16dsu.md",
-    "de/fpu/ref_f16div/B978-155860798-9_2F50008-7.pdf",
+    "de/fpu/ref_f16div/~$Square_Root_Algorithm.ppt",
     "de/fpu/ref_f16div/~$FDIV_design_spec_v0.5.pptx",
+    "de/fpu/ref_f16div/~$dix4_SRT_Divider_Verification_Spec_v1.0.docx",
+    "de/fpu/ref_f16div/B978-155860798-9_2F50008-7.pdf",
     "de/fpu/ref_f16div/~$Alpaca_FPU_Misc_v0.5_20201217.pptx",
     "de/mdu/include/srt_divider_signed.svg",
     "dv/uvm/ref/绿皮书.pdf",
@@ -217,12 +221,8 @@
     "de/fctrl/ref/Andes_naming_rule.md",
     "de/fctrl/coding_rule.md",
     "c/c.md",
-    "c",
     "Pasted image 20250410143820.png",
     "Pasted image 20250410143759.png",
-    "dv/uvm/ref/img20240201184635.pdf",
-    "dv/uvm/ref/649575fcbf99287ba25f20e8_litterick_uvm_slaves2_paper.pdf",
-    "dv/uvm/ref/img20240201184635.pdf.crdownload",
     "de/fpu/include_f16mac/fma_format.svg",
     "dv/uvm/sequence.md",
     "Gbakcup.md",
