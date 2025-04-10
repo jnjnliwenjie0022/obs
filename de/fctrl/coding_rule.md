@@ -3,6 +3,8 @@
 2. \_clr
 3. \_en
 
+# setclr_uarch
+不論
 ```verilog
 // high prioirty set
 assign p0_ready = ~p1_valid | p1_ready

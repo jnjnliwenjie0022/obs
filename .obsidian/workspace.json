@@ -122,7 +122,8 @@
               "title": "Outline of fzf"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       },
       {
         "id": "ce31482b6afb7740",
@@ -220,8 +221,9 @@
       "obsidian-to-anki-plugin:Obsidian_to_Anki - Scan Vault": true
     }
   },
-  "active": "eb13c71718383229",
+  "active": "19a60b1e44f4e87a",
   "lastOpenFiles": [
+    "de/fctrl/ref/nds_flag_setclr.v",
     "Pasted image 20250410143820.png",
     "Pasted image 20250410143759.png",
     "de/fctrl/fctrl.md",
@@ -267,7 +269,6 @@
     "de/fpu/include_f16div/truncate_deviation.svg",
     "de/fpu/include_f16div/f16div_uarch.svg",
     "de/fpu/include_f16div/valid_pd_diagram.svg",
-    "de/fpu/include_f16div/f16dsu_radix4_srt_div_uarch.svg",
     "dv/uvm/include/uvm_do_on_pri_with.canvas",
     "uvm_factory.canvas",
     "dv/uvm/include/uvm_factory1.canvas",
