@@ -14,6 +14,7 @@ end
 5. [ V ] \_valid and \_ready are always independent
 6. [ V ] \_ack and \_grant are always dependent
 ```verilog
+
 // CONST VALUE
 localparam CONST_1 = 64'd1;
 localparam CONST_2 = 64'd2;
