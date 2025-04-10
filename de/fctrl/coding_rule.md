@@ -3,9 +3,10 @@
 2. [ V ] \_clr
 3. [ V ] \_en
 ```verilog
+wire p1_data_en = p1_valid & p1_ready;
 always @ (posedge clk) begin
 	if (p1_data_en)
-		p1
+		p1_data <= p1_data_nx;
 end
 ```
 4. [ X ] \_taken
