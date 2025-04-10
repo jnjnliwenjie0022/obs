@@ -1,12 +1,23 @@
 # mandatory
-1. \_set
-2. \_clr
-3. \_en
+1. [ V ] \_set 
+2. [ V ] \_clr
+3. [ V ] \_en
+```verilog
+always @ (posedge clk) begin
+	if ()
+end
+```
+4. [ X ] \_taken
+	1. 不可以出現 \_taken，但要有這個概念，taken = valid & ready
 
 # setclr_uarch
-不論
+不論flag還是valid基本上都有3種基本結構
+
+1. high priority set
+2. high priority clr
+3. self clr
 ```verilog
-// high prioirty set
+// high priority set
 assign p0_ready = ~p1_valid | p1_ready
 
 wire p1_valid_set = p0_valid;
@@ -20,7 +31,7 @@ always @ (posedge clk or negedge rstn) begin
 ```
 
 ```verilog
-// high prioirty clr
+// high priority clr
 wire p1_valid_nx = (p1_valid_set | p1_valid) & ~p1_valid_clr;
 always @ (posedge clk or negedge rstn) begin
 	if (!rstn)
