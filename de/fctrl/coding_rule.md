@@ -1,7 +1,7 @@
 # mandatory
-1. [ V ] \_set 
-2. [ V ] \_clr
-3. [ V ] \_en
+- [ V ] \_set 
+- [ V ] \_clr
+- [ V ] \_en
 ```verilog
 wire p1_data_en = p1_valid & p1_ready;
 always @ (posedge clk) begin
@@ -9,30 +9,17 @@ always @ (posedge clk) begin
 		p1_data <= p1_data_nx;
 end
 ```
-4. [ X ] \_taken
-	1. 不可以出現 \_taken，但心中要有這個概念，taken = valid & ready
-5. [ V ] \_valid and \_ready are always independent
-6. [ V ] \_ack and \_grant are always dependent
-```verilog
-// PORT
-module CORE_H1_H2_A (
-	A_B_signal_1
-	A_B_signal_2
-	B_A_signal_3
-	B_A_signal_4
-	A_signal_5
-	A_signal_6
-);
-// declare
-wire signal_1 = A_B_signal_1;
-wire signal_2 = A_B_signal_2;
-wire signal_3 = B_A_signal_3;
-wire signal_4 = B_A_signal_4;
-wire signal_5 = A_signal_5;
-wire signal_6 = A_signal_6;
-// d0 phase
-```
-
+- [ V ] signal flatten (avoid reentrancy)
+	-  不可以出現 \_taken，但心中要有這個概念，taken = valid & ready
+- [ V ] \_valid and \_ready are always independent
+- [ V ] \_require and \_grant are always dependent
+- [ V ] Inter-module signals:
+	-  SRC\_DES\_(channel)\_(stage)\_signal...
+	-  SRC\_DES\_(channel)\(\#stage)\_signal...
+- [ V ] Intra-module signals: 
+	-  (channel)\_(stage)\_signal...
+	-  (channel)\(\#stage)\_signal...
+- parameter list
 ```verilog
 // CONST VALUE
 localparam CONST_1 = 64'd1;
@@ -43,7 +30,48 @@ localparam STATE_IDLE = 4'd1;
 localparam STATE_EXEC = 4'd2;
 localparam STATE_DONE = 4'd3;
 ```
+- signal list
+```
+_gt_: greater than
+_ge_: greater than or equal to
+_lt_: less than
+_le_: less than or equal to
+_eq_: equal to
+_ne_: not equal to 
+_a1: ahead 1T
+_a2: ahead 2T
+_d1: delay 1T
+_d2: delay 2T
+```
+- fifo
+```verilog
+wire d1_fifo_wr;
+wire d1_fifo_rd;
+wire d1_fifo_empty;
+wire d1_fifo_full;
+wire d1_fifo_rdata;
+wire d1_fifo_wdata;
+wire d1_fifo_rrdy;
+wire d1_fifo_wrdy;
 
+assign d1_fifo_rrdy = ~d1_fifo_empty;
+assign d1_fifo_wrdy = ~d1_fifo_full;
+
+acc_fifo # (
+     .DATA_WIDTH (1 )
+    ,.FIFO_DEPTH (2 )
+) u_d1_fifo (
+     .reset_n      (rstn          )
+    ,.clk          (clk           )
+    ,.wr           (d1_fifo_wr    )
+    ,.wr_data      (d1_fifo_wdata )
+    ,.rd           (d1_fifo_rd    )
+    ,.rd_data      (d1_fifo_rdata )
+    ,.empty        (d1_fifo_empty )
+    ,.full         (d1_fifo_full  )
+);
+
+```
 # setclr_uarch
 不論flag還是valid基本上都有3種基本結構 [[nds_flag_setclr.v]]
 

@@ -145,7 +145,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "workflow/git/git.md",
+                "file": "de/fctrl/coding_rule.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -155,7 +155,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for git"
+              "title": "Backlinks for coding_rule"
             }
           },
           {
@@ -208,9 +208,11 @@
   },
   "active": "c6ba732b5b0062ae",
   "lastOpenFiles": [
-    "c/c.md",
+    "de/fctrl/ref/Andes_naming_rule.md",
     "de/fctrl/coding_rule.md",
     "de/fctrl/fctrl.md",
+    "de/fctrl/ref/~$20201204_Hight_Speed_RTL.pptx",
+    "c/c.md",
     "de/fctrl/ref/nds_flag_setclr.v",
     "Pasted image 20250410143820.png",
     "Pasted image 20250410143759.png",
@@ -240,7 +242,6 @@
     "workflow/capslock2ctrl.md",
     "de/l2c.md",
     "de/l2c",
-    "de/amba_ace",
     "de/fpu/f16macksa.md",
     "workflow/git/git.md",
     "dv/sw/include/Pasted image 20250304110537.png",
