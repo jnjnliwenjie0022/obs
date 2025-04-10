@@ -15,13 +15,25 @@ end
 6. [ V ] \_ack and \_grant are always dependent
 ```verilog
 // PORT
-module CORE_H1_H2_DES (
-	SRC_DES_signal_1
-	SRC_DES_signal_2
-	DES_SRC_signal_3
-	DES_SRC_signal_4
-	DES_sign
-)
+module CORE_H1_H2_A (
+	A_B_signal_1
+	A_B_signal_2
+	B_A_signal_3
+	B_A_signal_4
+	A_signal_5
+	A_signal_6
+);
+// declare
+wire signal_1 = A_B_signal_1;
+wire signal_2 = A_B_signal_2;
+wire signal_3 = B_A_signal_3;
+wire signal_4 = B_A_signal_4;
+wire signal_5 = A_signal_5;
+wire signal_6 = A_signal_6;
+// d0 phase
+```
+
+```verilog
 // CONST VALUE
 localparam CONST_1 = 64'd1;
 localparam CONST_2 = 64'd2;
