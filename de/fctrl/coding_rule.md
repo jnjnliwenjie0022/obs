@@ -10,14 +10,20 @@ always @ (posedge clk) begin
 end
 ```
 4. [ X ] \_taken
-	1. 不可以出現 \_taken，但要有這個概念，taken = valid & ready
-5. [ V ] CONST_
+	1. 不可以出現 \_taken，但心中要有這個概念，taken = valid & ready
+5. [ V ] \_valid and \_ready are always independent
+6. [ V ] \_ack and \_grant are always dependent
 ```verilog
+// CONST VALUE
 localparam CONST_1 = 64'd1;
 localparam CONST_2 = 64'd2;
 localparam CONST_3 = 64'd3;
+// STATE VALUE
+localparam STATE_IDLE = 4'd1;
+localparam STATE_EXEC = 4'd2;
+localparam STATE_DONE = 4'd3;
 ```
-6. 
+
 # setclr_uarch
 不論flag還是valid基本上都有3種基本結構 [[nds_flag_setclr.v]]
 
