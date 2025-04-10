@@ -11,9 +11,15 @@ end
 ```
 4. [ X ] \_taken
 	1. 不可以出現 \_taken，但要有這個概念，taken = valid & ready
-
+5. [ V ] CONST_
+```verilog
+localparam CONST_1 = 64'd1;
+localparam CONST_2 = 64'd2;
+localparam CONST_3 = 64'd3;
+```
+6. 
 # setclr_uarch
-不論flag還是valid基本上都有3種基本結構
+不論flag還是valid基本上都有3種基本結構 [[nds_flag_setclr.v]]
 
 1. high priority set
 2. high priority clr
