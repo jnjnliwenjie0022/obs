@@ -73,7 +73,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "wave",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -220,8 +220,10 @@
       "obsidian-to-anki-plugin:Obsidian_to_Anki - Scan Vault": true
     }
   },
-  "active": "bbf0212cf2e79727",
+  "active": "eb13c71718383229",
   "lastOpenFiles": [
+    "Pasted image 20250410143820.png",
+    "Pasted image 20250410143759.png",
     "de/fctrl/fctrl.md",
     "de/fctrl/coding_rule.md",
     "de/ppa/timing.md",
@@ -261,13 +263,11 @@
     "dv/sw/include",
     "dv/sw/script.md",
     "workflow/fzf.md",
-    "workflow/eizo.md",
     "de/fpu/include_f16mac/csa4to2.svg",
     "de/fpu/include_f16div/truncate_deviation.svg",
     "de/fpu/include_f16div/f16div_uarch.svg",
     "de/fpu/include_f16div/valid_pd_diagram.svg",
     "de/fpu/include_f16div/f16dsu_radix4_srt_div_uarch.svg",
-    "de/fpu/include_f16div/f16dsu_radix4_srt_div.svg",
     "dv/uvm/include/uvm_do_on_pri_with.canvas",
     "uvm_factory.canvas",
     "dv/uvm/include/uvm_factory1.canvas",

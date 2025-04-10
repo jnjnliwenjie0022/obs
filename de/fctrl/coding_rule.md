@@ -1,3 +1,8 @@
+# mandatory
+1. \_set
+2. \_clr
+3. \_en
+
 ```verilog
 // high prioirty set
 assign p0_ready = ~p1_valid | p1_ready
@@ -22,7 +27,13 @@ always @ (posedge clk or negedge rstn) begin
 		p1_valid <= p1_valid_nx;
 ```
 
+```verilog
+// self clear
+wire p1_valid_clr = p1_valid;
 ```
+
+```
+// high prioirty set
 {signal: [
   {name: 'clk',          wave: 'p.........'},
   {name: 'p1_valid_set', wave: '0.1.......'},
@@ -31,7 +42,10 @@ always @ (posedge clk or negedge rstn) begin
 ]}
 ```
 
+![[Pasted image 20250410143820.png]]
+
 ```
+// high prioirty clr
 {signal: [
   {name: 'clk',          wave: 'p.........'},
   {name: 'p1_valid_set', wave: '0.1.......'},
@@ -40,7 +54,5 @@ always @ (posedge clk or negedge rstn) begin
 ]}
 ```
 
-```verilog
-// self clear
-wire p1_valid_clr = p1_valid;
-```
+![[Pasted image 20250410143759.png]]
+
