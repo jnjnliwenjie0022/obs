@@ -9,6 +9,14 @@ always @ (posedge clk) begin
 		p1_data <= p1_data_nx;
 end
 ```
+- [ O ] aggregate signal
+```
+// leverage the same control part for status and rdata. (Reduce similar and duplicated coding)
+assign {m2_mem_status, m2_mem_rdata} = ({(XLEN+`LSMEM_BITS){m2_ilm &  lm_support}} & {ilm_status, ilm_rdata})
+                                    | ({(XLEN+`LSMEM_BITS){m2_dlm &  lm_support}} & {dlm_status, dlm_rdata})
+                                    | ({(XLEN+`LSMEM_BITS){m2_dcu | ~lm_support}} & {dcu_status, dcu_rdata})
+                                    ;
+```
 - [ V ] signal flatten (avoid reentrancy)
 	-  不可以出現 \_taken，但心中要有這個概念，taken = valid & ready
 - [ V ] \_valid and \_ready are always independent
@@ -19,6 +27,8 @@ end
 - [ V ] Intra-module signals: 
 	-  (channel)\_(stage)\_signal...
 	-  (channel)\(\#stage)\_signal...
+- [ V ] without using casez
+- [ V ] case needs unknown propagation on default syntax
 - parameter list
 ```verilog
 // CONST VALUE
@@ -29,6 +39,9 @@ localparam CONST_3 = 64'd3;
 localparam STATE_IDLE = 4'd1;
 localparam STATE_EXEC = 4'd2;
 localparam STATE_DONE = 4'd3;
+//
+localparam _MSB
+localparam _LSB
 ```
 - signal list
 ```

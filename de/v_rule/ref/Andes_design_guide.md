@@ -1009,7 +1009,7 @@ Synthesis tool (DC) may complaint on `supply0` and `supply1`. Use `wire xxx 
 
 NOTE: the support of `supply0` and `supply1` is obsoleted after `vperl` v1.x
 
-## A**ssertion**
+## Assertion
 
 ```
 // immediate assertion: in some simulator #0 is required
@@ -1021,7 +1021,7 @@ end
 `endif // WITH_AST
 ```
 
-## C**overage Checking**
+## Coverage Checking
 
 ### **Disable Coverage Checking on Default State of FSM**
 
@@ -1086,7 +1086,7 @@ index 3b5537657..0496dd57e 100644
 
 ---
 
-## D**ebugging**
+## Debugging
 
 ### E**nable Signal for Waveform Debugging**
 
