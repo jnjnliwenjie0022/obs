@@ -52,8 +52,8 @@ assign {m2_mem_status, m2_mem_rdata} = ({(XLEN+`LSMEM_BITS){m2_ilm &  lm_support
 // BITWIDTH 
 parameter  ADDR_WIDTH = `original_default;
 parameter  DATA_WIDTH = `original_default;
-localparam ADDR_MSB = ADDR_WIDTH  - 1;
-localparam DATA_MSB = DATA_WIDTH  1;
+localparam ADDR_MSB = ADDR_WIDTH - 1;
+localparam DATA_MSB = DATA_WIDTH - 1;
 input  [ADDR_MSB:0] addr;
 input  [DATA_MSB:0] wdata;
 output [DATA_MSB:0] rdata;
