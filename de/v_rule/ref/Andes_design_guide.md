@@ -751,7 +751,7 @@ Coding for quality/coverage/lint/debug and etc.
 
 ---
 
-## Lint Checking*
+## Lint Checking
 
 ### Bit Width Mismatch
 

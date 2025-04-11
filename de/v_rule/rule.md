@@ -29,19 +29,54 @@ assign {m2_mem_status, m2_mem_rdata} = ({(XLEN+`LSMEM_BITS){m2_ilm &  lm_support
 	-  (channel)\(\#stage)\_signal...
 - [ V ] without using casez
 - [ V ] case needs unknown propagation on default syntax
+- [ V ] zero replication
+	- bit extension不能是"0” EX: {0{bit_extension}}
+	- generate
+```verilog
+generate
+if (MSHR_DEPTH == 16) begin : gen_mshr_entry_issue_done_eq_16
+       assign mshr_entry_issue_done_ext = mshr_entry_issue_done;
+end
+else begin : gen_mshr_entry_issue_done_less_than_max
+       assign mshr_entry_issue_done_ext = {{(16-MSHR_DEPTH){1'b0}},mshr_entry_issue_done};
+end
+endgenerate
+```
+	
+	- extend
+
+```verilog
+generate
+if (MSHR_DEPTH == 16) begin : gen_mshr_entry_issue_done_eq_16
+       assign mshr_entry_issue_done_ext = mshr_entry_issue_done;
+end
+else begin : gen_mshr_entry_issue_done_less_than_max
+       assign mshr_entry_issue_done_ext = {{(16-MSHR_DEPTH){1'b0}},mshr_entry_issue_done};
+end
+endgenerate
+```
+```
+- bit width list
+```verilog
+// BITWIDTH 
+parameter  ADDR_WIDTH = `original_default;
+parameter  DATA_WIDTH = `original_default;
+localparam ADDR_MSB = ADDR_WIDTH  - 1;
+localparam DATA_MSB = DATA_WIDTH  1;
+input  [ADDR_MSB:0] addr;
+input  [DATA_MSB:0] wdata;
+output [DATA_MSB:0] rdata;
+```
 - parameter list
 ```verilog
-// CONST VALUE
+// CONST 
 localparam CONST_1 = 64'd1;
 localparam CONST_2 = 64'd2;
 localparam CONST_3 = 64'd3;
-// STATE VALUE
+// STATE 
 localparam STATE_IDLE = 4'd1;
 localparam STATE_EXEC = 4'd2;
 localparam STATE_DONE = 4'd3;
-//
-localparam _MSB
-localparam _LSB
 ```
 - signal list
 ```
