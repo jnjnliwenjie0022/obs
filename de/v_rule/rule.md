@@ -119,6 +119,7 @@ acc_fifo # (
 1. high priority set
 2. high priority clr
 3. self clr
+4. debubble
 ```verilog
 // high priority set
 assign p0_ready = ~p1_valid | p1_ready
