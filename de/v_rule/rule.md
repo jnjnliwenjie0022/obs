@@ -30,9 +30,10 @@ assign {m2_mem_status, m2_mem_rdata} = ({(XLEN+`LSMEM_BITS){m2_ilm &  lm_support
 - [ V ] without using casez
 - [ V ] case needs unknown propagation on default syntax
 - [ V ] zero replication
-	- bit extension不能是"0” EX: {0{bit_extension}}
-	- generate
+    - bit extension不能是"0” EX: {0{bit_extension}}
+	- generate or extend
 ```verilog
+// genereate method
 generate
 if (MSHR_DEPTH == 16) begin : gen_mshr_entry_issue_done_eq_16
        assign mshr_entry_issue_done_ext = mshr_entry_issue_done;
@@ -41,20 +42,13 @@ else begin : gen_mshr_entry_issue_done_less_than_max
        assign mshr_entry_issue_done_ext = {{(16-MSHR_DEPTH){1'b0}},mshr_entry_issue_done};
 end
 endgenerate
+
+// extend method
+assign {ext1,mshr_entry_issue_done_ext} = {{(17-MSHR_DEPTH){1'b0}},mshr_entry_issue_done};
 ```
-	
-	- extend
 
 ```verilog
-generate
-if (MSHR_DEPTH == 16) begin : gen_mshr_entry_issue_done_eq_16
-       assign mshr_entry_issue_done_ext = mshr_entry_issue_done;
-end
-else begin : gen_mshr_entry_issue_done_less_than_max
-       assign mshr_entry_issue_done_ext = {{(16-MSHR_DEPTH){1'b0}},mshr_entry_issue_done};
-end
-endgenerate
-```
+
 ```
 - bit width list
 ```verilog
