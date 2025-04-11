@@ -95,6 +95,8 @@ wire d1_fifo_wrdy;
 
 assign d1_fifo_rrdy = ~d1_fifo_empty;
 assign d1_fifo_wrdy = ~d1_fifo_full;
+assign d1_fifo_wr = d1_fifo_wrdy & ...etc;
+assign d1_fifo_rd = d1_fifo_rrdy & ...etc;
 
 acc_fifo # (
      .DATA_WIDTH (1 )
