@@ -12,7 +12,7 @@ end
 - [ V ] signal flatten (avoid reentrancy)
 	-  不可以出現 \_taken，但心中要有這個概念，taken = valid & ready
 - [ V ] \_valid and \_ready are always independent
-- [ V ] \_require and \_grant are always dependent
+- [ V ] \_request and \_grant are always dependent
 - [ V ] Inter-module signals:
 	-  SRC\_DES\_(channel)\_(stage)\_signal...
 	-  SRC\_DES\_(channel)\(\#stage)\_signal...
@@ -43,7 +43,7 @@ _a2: ahead 2T
 _d1: delay 1T
 _d2: delay 2T
 ```
-- fifo
+- instance fifo
 ```verilog
 wire d1_fifo_wr;
 wire d1_fifo_rd;
