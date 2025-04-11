@@ -1023,7 +1023,7 @@ end
 
 ## Coverage Checking
 
-### **Disable Coverage Checking on Default State of FSM**
+### Disable Coverage Checking on Default State of FSM
 
 Enable unknown injection but disable coverage analysis
 
@@ -1088,7 +1088,7 @@ index 3b5537657..0496dd57e 100644
 
 ## Debugging
 
-### E**nable Signal for Waveform Debugging**
+### Enable Signal for Waveform Debugging
 
 Sometimes, some signals (e.g. content of array entries) are useful when debugging. Linting tool may complain these unused signals. We can leverage `DUMP_ENABLE` which is defined by `runr` when dumping waveform.
 

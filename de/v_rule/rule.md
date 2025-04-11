@@ -9,14 +9,6 @@ always @ (posedge clk) begin
 		p1_data <= p1_data_nx;
 end
 ```
-- [ O ] aggregate signal
-```
-// leverage the same control part for status and rdata. (Reduce similar and duplicated coding)
-assign {m2_mem_status, m2_mem_rdata} = ({(XLEN+`LSMEM_BITS){m2_ilm &  lm_support}} & {ilm_status, ilm_rdata})
-                                    | ({(XLEN+`LSMEM_BITS){m2_dlm &  lm_support}} & {dlm_status, dlm_rdata})
-                                    | ({(XLEN+`LSMEM_BITS){m2_dcu | ~lm_support}} & {dcu_status, dcu_rdata})
-                                    ;
-```
 - [ V ] signal flatten (avoid reentrancy)
 	-  不可以出現 \_taken，但心中要有這個概念，taken = valid & ready
 - [ V ] \_valid and \_ready are always independent
@@ -29,6 +21,7 @@ assign {m2_mem_status, m2_mem_rdata} = ({(XLEN+`LSMEM_BITS){m2_ilm &  lm_support
 	-  (channel)\(\#stage)\_signal...
 - [ V ] without using casez
 - [ V ] case needs unknown propagation on default syntax
+- [ V ] without using supply0 or supply1 EX: 'd0 or 'd1
 - [ V ] zero replication
     - bit extension不能是"0” EX: {0{bit_extension}}
 	- generate or extend
@@ -46,11 +39,15 @@ endgenerate
 // extend method
 assign {ext1,mshr_entry_issue_done_ext} = {{(17-MSHR_DEPTH){1'b0}},mshr_entry_issue_done};
 ```
-
-```verilog
-
+- [ O ] aggregate signal
 ```
-- bit width list
+// leverage the same control part for status and rdata. (Reduce similar and duplicated coding)
+assign {m2_mem_status, m2_mem_rdata} = ({(XLEN+`LSMEM_BITS){m2_ilm &  lm_support}} & {ilm_status, ilm_rdata})
+                                    | ({(XLEN+`LSMEM_BITS){m2_dlm &  lm_support}} & {dlm_status, dlm_rdata})
+                                    | ({(XLEN+`LSMEM_BITS){m2_dcu | ~lm_support}} & {dcu_status, dcu_rdata})
+                                    ;
+```
+- [ O ] bit width list
 ```verilog
 // BITWIDTH 
 parameter  ADDR_WIDTH = `original_default;
@@ -61,7 +58,7 @@ input  [ADDR_MSB:0] addr;
 input  [DATA_MSB:0] wdata;
 output [DATA_MSB:0] rdata;
 ```
-- parameter list
+- [ O ] parameter list
 ```verilog
 // CONST 
 localparam CONST_1 = 64'd1;
@@ -72,7 +69,7 @@ localparam STATE_IDLE = 4'd1;
 localparam STATE_EXEC = 4'd2;
 localparam STATE_DONE = 4'd3;
 ```
-- signal list
+- [ O ] signal list
 ```
 _gt_: greater than
 _ge_: greater than or equal to
@@ -85,7 +82,7 @@ _a2: ahead 2T
 _d1: delay 1T
 _d2: delay 2T
 ```
-- instance fifo
+- [ O ] instance fifo
 ```verilog
 wire d1_fifo_wr;
 wire d1_fifo_rd;
