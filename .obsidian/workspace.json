@@ -30,9 +30,7 @@
               "state": {
                 "file": "de/fpu/ref_f16div/(SQRT)Unified_Digit_Selection_for_Radix-4_Recurrence_Division_and_Square_Root.pdf",
                 "page": 1,
-                "left": -4,
-                "top": 212,
-                "zoom": 2.528571428571429
+                "zoom": 1
               },
               "icon": "lucide-file-text",
               "title": "(SQRT)Unified_Digit_Selection_for_Radix-4_Recurrence_Division_and_Square_Root"
