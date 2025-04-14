@@ -29,16 +29,28 @@
               "type": "markdown",
               "state": {
                 "file": "de/v_rule/rule.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
               "title": "rule"
             }
+          },
+          {
+            "id": "ab3765775070c80d",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "de/arithmetic/include_divider/Pasted image 20240320190733.png"
+              },
+              "icon": "lucide-image",
+              "title": "Pasted image 20240320190733"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -206,14 +218,21 @@
       "obsidian-to-anki-plugin:Obsidian_to_Anki - Scan Vault": true
     }
   },
-  "active": "cb5a3738a2ce26a4",
+  "active": "ab3765775070c80d",
   "lastOpenFiles": [
-    "de/v_rule/fctrl.md",
+    "de/arithmetic/ref_divider/38304.pdf",
+    "de/arithmetic/divider.md",
+    "c/c.md",
+    "de/v_rule/include/Pasted image 20250410143820.png",
+    "de/v_rule/include/Pasted image 20250410143759.png",
+    "de/v_rule/include/pending_buffer.svg",
+    "de/v_rule/include/pipeline.svg",
+    "README.md",
     "de/v_rule/rule.md",
+    "de/v_rule/fctrl.md",
     "de/v_rule/ref/coding_guidelines.pdf",
     "de/v_rule/ref/Andes_naming_rule.md",
     "de/amba_axi/axi.md",
-    "c/c.md",
     "de/v_rule/ref/~$20201204_Hight_Speed_RTL.pptx",
     "de/v_rule/ref/~$CodingStyle_v1.1.pptx",
     "de/v_rule/ref/Andes_design_guide.md",
@@ -226,8 +245,6 @@
     "de/v/verilog.md",
     "de/fctrl/ref/~$20201204_Hight_Speed_RTL.pptx",
     "de/v_rule/ref/nds_flag_setclr.v",
-    "Pasted image 20250410143820.png",
-    "Pasted image 20250410143759.png",
     "de/ppa/timing.md",
     "de/fpu/f16mac.md",
     "language/2024-06-03.md",
@@ -242,17 +259,13 @@
     "de/ppa/evaluation.md",
     "conflict-files-obsidian-git.md",
     "de/ppa/power.md",
-    "de/arithmetic/divider.md",
     "de/arithmetic/booth.md",
     "workflow/capslock2ctrl.md",
     "de/l2c.md",
-    "de/fpu/f16macksa.md",
     "dv/sw/include/Pasted image 20250304110537.png",
     "dv/sw/include/Pasted image 20250304112823.png",
     "dv/sw/include/Pasted image 20250304112813.png",
     "dv/sw/include/Pasted image 20250304110120.png",
-    "de/fpu/include_f16mac/csa4to2.svg",
-    "de/fpu/include_f16div/truncate_deviation.svg",
     "dv/uvm/include/uvm_do_on_pri_with.canvas",
     "uvm_factory.canvas",
     "dv/uvm/include/uvm_factory1.canvas",
