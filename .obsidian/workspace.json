@@ -13,14 +13,14 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "de/fpu/ref_f16div/(SQR)ARITH20_Nannarelli.pdf",
-                "page": 7,
+                "file": "de/fpu/ref_f16div/(DIV)Digit Selection for SRT Division and Square Root.pdf",
+                "page": 8,
                 "left": -9,
-                "top": 412,
+                "top": 284,
                 "zoom": 1.7352941176470589
               },
               "icon": "lucide-file-text",
-              "title": "(SQR)ARITH20_Nannarelli"
+              "title": "(DIV)Digit Selection for SRT Division and Square Root"
             }
           },
           {
@@ -208,6 +208,7 @@
   },
   "active": "a53fb0b1fe22e97b",
   "lastOpenFiles": [
+    "de/fpu/ref_f16div/(SQR)ARITH20_Nannarelli.pdf",
     "de/fpu/ref_f16div/(RQ)on_the_fly_redundant_conversion.pdf",
     "de/fpu/ref_f16div/(DIV)Digit Selection for SRT Division and Square Root.pdf",
     "de/fpu/ref_f16div/~$FDIV_design_spec_v0.5.pptx",
@@ -223,7 +224,6 @@
     "de/amba_axi/axi.md",
     "de/fpu/ref_f16div/high_radix_SRT.pdf",
     "de/fpu/ref_f16div/ch11.pdf",
-    "de/fpu/ref_f16div/ch9.pdf",
     "de/fpu/include_f16div/f16dsu_radix4_srt_div_uarch.svg",
     "de/fpu/include_f16div/f16dsu_radix4_srt_div_uarch 1.svg",
     "de/fpu/include_f16div/f16dsu_radix4_srt_div.svg",
