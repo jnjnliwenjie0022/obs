@@ -34,8 +34,11 @@ Q[1] = 0 + 2*(4)**(-1) = 1/2
 ```
 # f16dsu_radix4_srt_div
 ## sign
+
 [Signed zero - Wikipedia](https://en.wikipedia.org/wiki/Signed_zero)
+
 [[de/fpu/ref_f16mac/code_old_kv/VFPU/FP_design_spec_Larry/FDIV/Study/computer-arithmetic-algorithms-2nd-edition-Behrooz-Parhami.pdf#page=289&selection=338,0,346,0|computer-arithmetic-algorithms-2nd-edition-Behrooz-Parhami, page 289]]
+
 ![[Pasted image 20240402171635.png]]
 
 ## uarch

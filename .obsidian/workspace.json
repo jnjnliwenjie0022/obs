@@ -26,16 +26,25 @@
             "id": "e9e719d02b27f3df",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "de/fpu/ref_f16div/(SQRT)Unified_Digit_Selection_for_Radix-4_Recurrence_Division_and_Square_Root.pdf",
-                "page": 4,
-                "left": -6,
-                "top": 374,
-                "zoom": 2.4583333333333335
+                "file": "de/fpu/f16dsu.md",
+                "mode": "preview",
+                "source": false,
+                "backlinks": false
               },
-              "icon": "lucide-file-text",
-              "title": "(SQRT)Unified_Digit_Selection_for_Radix-4_Recurrence_Division_and_Square_Root"
+              "icon": "lucide-file",
+              "title": "f16dsu"
+            }
+          },
+          {
+            "id": "158fc91dd3f9b49c",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
             }
           }
         ],
@@ -204,25 +213,26 @@
   },
   "active": "e9e719d02b27f3df",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
+    "de/fpu/f16div.md",
+    "de/fpu/ref_f16div/(SQR)Radix-4 Square Root Without Initial PLA.pdf",
+    "de/fpu/ref_f16div/(SQRT)RADIX-4 SQUARE ROOT WITHOUT INITIAL PLA.pdf",
+    "de/fpu/ref_f16div/(SRT)INCORPORATING MULTIPLICATION INTO DIGIT- RECURRENCE DIVISION AND THE SQUARE ROOT.pdf",
     "de/fpu/ref_f16div/(SQRT)Unified_Digit_Selection_for_Radix-4_Recurrence_Division_and_Square_Root.pdf",
+    "de/fpu/ref_f16div/~$FDIV_design_spec_v0.5.pptx",
     "de/v_rule/rule.md",
+    "conflict-files-obsidian-git.md",
     "de/v_rule/ref/rtl.pptx",
     "de/v_rule/ref/nds_flag_setclr.v",
     "de/v_rule/ref/microarchitecture of network-on-chip routers a designer`s perspective.pdf",
     "de/v_rule/ref/coding_guidelines.pdf",
     "de/v_rule/ref/Network-on-Chip.ppt",
-    "de/v_rule/ref/Link-Level Flow Control and Buffering.pptx",
-    "de/v_rule/ref/CodingStyle_v1.1.pptx",
     "de/v_rule/ref/Andes_naming_rule.md",
     "de/v_rule/ref/Andes_design_guide.md",
-    "de/v_rule/ref/20201204_Hight_Speed_RTL.pptx",
     "de/v_rule/include/Pasted image 20250410143759.png",
     "de/v_rule/include/pipeline.svg",
     "de/v_rule/include/Pasted image 20250410143820.png",
     "de/v_rule/include/pending_buffer.svg",
     "de/v_rule/include/credit_fctrl.svg",
-    "de/v_rule/ref",
     "de/v_rule/fctrl.md",
     "de/fpu/f16dsu.md",
     "de/mdu/include/srt_divider_signed.svg",
@@ -242,7 +252,6 @@
     "workflow/nvim.md",
     "workflow/fzf.md",
     "workflow/eizo.md",
-    "de/fpu/f16div.md",
     "ToDoList.md",
     "de/arithmetic/booth.md",
     "dv/dump_multiple_array.md",
