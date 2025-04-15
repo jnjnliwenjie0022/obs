@@ -12,6 +12,7 @@
 2. 因爲divisor和dividend為正數所以remainder也必爲正數,如果remainder負數則quotient要減1
 # redundant_conversion
 [[(RQ)on_the_fly_redundant_conversion.pdf#page=9&selection=8,0,8,11|(RQ)on_the_fly_redundant_conversion, page 9]]
+
 ```C++
 Q[j+1] = Q[j] + q(j+1)*r**(-(j+1)) when q(j+1) >= 0
 Q[j+1] = Q[j] -r**(-(j)) + (r - abs(q(j+1)))*r**(-(j+1)) when q(j+1) < 0
@@ -39,6 +40,12 @@ Q[1] = 0 + 2*(4)**(-1) = 1/2
 ![[Pasted image 20240402171635.png]]
 
 ## uarch
+
+> [!PDF|yellow] [[Low Power Division and Square.pdf#page=49&selection=9,13,36,19&color=yellow|Low Power Division and Square, p.49]]
+> > Both d and x are normalized in [0.5, 1) and x < d for division, while x is normalized in [0.25, 1) for square root.
+> 
+> 
+
 ![[f16dsu_radix4_srt_div.svg]]
 ![[f16dsu_radix4_srt_div_uarch.svg]]
 ## algorithm
