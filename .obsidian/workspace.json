@@ -13,14 +13,14 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "de/fpu/ref_f16div/(DIV)Digit Selection for SRT Division and Square Root.pdf",
-                "page": 3,
+                "file": "de/fpu/ref_f16div/(SQR)ARITH20_Nannarelli.pdf",
+                "page": 7,
                 "left": -9,
-                "top": 706,
+                "top": 412,
                 "zoom": 1.7352941176470589
               },
               "icon": "lucide-file-text",
-              "title": "(DIV)Digit Selection for SRT Division and Square Root"
+              "title": "(SQR)ARITH20_Nannarelli"
             }
           },
           {
@@ -208,8 +208,9 @@
   },
   "active": "a53fb0b1fe22e97b",
   "lastOpenFiles": [
-    "de/fpu/ref_f16div/~$FDIV_design_spec_v0.5.pptx",
     "de/fpu/ref_f16div/(RQ)on_the_fly_redundant_conversion.pdf",
+    "de/fpu/ref_f16div/(DIV)Digit Selection for SRT Division and Square Root.pdf",
+    "de/fpu/ref_f16div/~$FDIV_design_spec_v0.5.pptx",
     "de/fpu/ref_f16div/(RQ)On-the-Fly Conversion of Redundant into Conventional.pdf",
     "de/fpu/ref_f16div/archive/algorithm for high speed shared radix 4 division asnd radix 4 square root.pdf",
     "de/fpu/ref_f16div/(SRT)INCORPORATING MULTIPLICATION INTO DIGIT- RECURRENCE DIVISION AND THE SQUARE ROOT.pdf",
@@ -226,7 +227,6 @@
     "de/fpu/include_f16div/f16dsu_radix4_srt_div_uarch.svg",
     "de/fpu/include_f16div/f16dsu_radix4_srt_div_uarch 1.svg",
     "de/fpu/include_f16div/f16dsu_radix4_srt_div.svg",
-    "de/fpu/ref_f16div/~$Radix-4 SRT p-d.xlsx",
     "de/fpu/f16mac.md",
     "de/arithmetic/include_divider/Pasted image 20240320190733.png",
     "de/arithmetic/divider.md",
