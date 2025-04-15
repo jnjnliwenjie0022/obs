@@ -4,41 +4,59 @@
     "type": "split",
     "children": [
       {
-        "id": "3fd994e2ce701ae6",
+        "id": "63cb0a32f17e745a",
         "type": "tabs",
         "children": [
           {
-            "id": "a53fb0b1fe22e97b",
+            "id": "cd9a855df1a0a4e9",
             "type": "leaf",
             "state": {
               "type": "pdf",
               "state": {
-                "file": "de/fpu/ref_f16div/(DIV)Digit Selection for SRT Division and Square Root.pdf",
-                "page": 8,
-                "left": -9,
-                "top": 284,
-                "zoom": 1.7352941176470589
+                "file": "de/fpu/ref_f16div/(SQRT)Unified_Digit_Selection_for_Radix-4_Recurrence_Division_and_Square_Root.pdf",
+                "page": 6,
+                "left": -4,
+                "top": 555,
+                "zoom": 1.8
               },
               "icon": "lucide-file-text",
-              "title": "(DIV)Digit Selection for SRT Division and Square Root"
+              "title": "(SQRT)Unified_Digit_Selection_for_Radix-4_Recurrence_Division_and_Square_Root"
             }
           },
           {
-            "id": "d12e01214d44e37f",
+            "id": "f8ff5480998f0767",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "de/fpu/f16div.md",
-                "mode": "preview",
+                "file": "de/fpu/f16dsu.md",
+                "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "f16div"
+              "title": "f16dsu"
+            }
+          },
+          {
+            "id": "c10d1dfa6eb61164",
+            "type": "leaf",
+            "dimension": 50,
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "de/fpu/ref_f16div/(RQ)on_the_fly_redundant_conversion.pdf",
+                "page": 9,
+                "left": -98,
+                "top": 191,
+                "zoom": 1.25
+              },
+              "icon": "lucide-file-text",
+              "title": "(RQ)on_the_fly_redundant_conversion"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -129,7 +147,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 281.5110321044922
+    "width": 396.5110321044922
   },
   "right": {
     "id": "cb661d0a10776c07",
@@ -206,41 +224,40 @@
       "obsidian-to-anki-plugin:Obsidian_to_Anki - Scan Vault": true
     }
   },
-  "active": "a53fb0b1fe22e97b",
+  "active": "f8ff5480998f0767",
   "lastOpenFiles": [
-    "de/fpu/ref_f16div/(SQR)ARITH20_Nannarelli.pdf",
-    "de/fpu/ref_f16div/(RQ)on_the_fly_redundant_conversion.pdf",
-    "de/fpu/ref_f16div/(DIV)Digit Selection for SRT Division and Square Root.pdf",
-    "de/fpu/ref_f16div/~$FDIV_design_spec_v0.5.pptx",
-    "de/fpu/ref_f16div/(RQ)On-the-Fly Conversion of Redundant into Conventional.pdf",
-    "de/fpu/ref_f16div/archive/algorithm for high speed shared radix 4 division asnd radix 4 square root.pdf",
-    "de/fpu/ref_f16div/(SRT)INCORPORATING MULTIPLICATION INTO DIGIT- RECURRENCE DIVISION AND THE SQUARE ROOT.pdf",
-    "de/fpu/ref_f16div/(SQRT)Unified_Digit_Selection_for_Radix-4_Recurrence_Division_and_Square_Root.pdf",
+    "de/fpu/include_f16div/f16dsu_radix4_srt_sqrt_uarch.svg",
     "de/fpu/f16dsu.md",
-    "de/fpu/ref_f16div/Low Power Division and Square.pdf",
-    "conflict-files-obsidian-git.md",
+    "de/fpu/ref_f16div/(SQRT)Unified_Digit_Selection_for_Radix-4_Recurrence_Division_and_Square_Root.pdf",
+    "de/fpu/ref_f16div/(RQ)on_the_fly_redundant_conversion.pdf",
+    "de/fpu/include_f16div/f16dsu_radix4_srt_sqrt.svg",
+    "de/fpu/include_f16div/f16dsu_radix4_srt_div.svg",
+    "de/fpu/include_f16div/f16div_exp.svg",
+    "de/fpu/include_f16div/f16div_frd_rne_correction.svg",
+    "de/fpu/include_f16div/f16div_uarch.svg",
+    "de/fpu/include_f16div/f16dsu_radix4_srt_div_uarch.svg",
+    "de/fpu/ref_f16div/(SQR)Radix-4 Square Root Without Initial PLA.pdf",
+    "de/fpu/ref_f16div/(RQ)On-the-Fly Conversion of Redundant into Conventional.pdf",
+    "de/fpu/ref_f16div/(SQRT)RADIX-4 SQUARE ROOT WITHOUT INITIAL PLA.pdf",
+    "de/fpu/ref_f16div/(SQR)ARITH20_Nannarelli.pdf",
+    "de/fpu/f16mac.md",
+    "de/fpu/ref_f16div/4-Fandrianto_division_ARITH8.pdf",
+    "de/fpu/ref_f16div/~$Radix-4 SRT Divider Verification.pptx",
+    "de/fpu/ref_f16div/~$dix4_SRT_Divider_Verification_Spec_v1.0.docx",
+    "de/fpu/ref_f16div/~$Square_Root_Algorithm.ppt",
     "de/fpu/f16div.md",
+    "de/fpu/include_f16div/valid_pd_diagram.svg",
+    "de/fpu/include_f16div/truncate_deviation.svg",
+    "conflict-files-obsidian-git.md",
     "de/v_rule/rule.md",
     "de/amba_axi/axi.md",
-    "de/fpu/ref_f16div/high_radix_SRT.pdf",
-    "de/fpu/ref_f16div/ch11.pdf",
-    "de/fpu/include_f16div/f16dsu_radix4_srt_div_uarch.svg",
-    "de/fpu/include_f16div/f16dsu_radix4_srt_div_uarch 1.svg",
-    "de/fpu/include_f16div/f16dsu_radix4_srt_div.svg",
-    "de/fpu/f16mac.md",
     "de/arithmetic/include_divider/Pasted image 20240320190733.png",
     "de/arithmetic/divider.md",
     "c/c.md",
-    "de/v_rule/include/Pasted image 20250410143820.png",
-    "de/v_rule/include/Pasted image 20250410143759.png",
-    "de/v_rule/include/pending_buffer.svg",
-    "de/v_rule/include/pipeline.svg",
     "README.md",
     "de/v_rule/fctrl.md",
     "de/v_rule/ref/Andes_naming_rule.md",
     "de/v_rule/ref/Andes_design_guide.md",
-    "de/v/include/Pasted image 20240307155712.png",
-    "de/v/include/Pasted image 20241127162031.png",
     "de/v_rule/highspeed_coding_rule.md",
     "de/v/verilog.md",
     "de/ppa/timing.md",

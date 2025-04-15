@@ -44,13 +44,79 @@ Q[1] = 0 + 2*(4)**(-1) = 1/2
 
 ## uarch
 
-> [!PDF|yellow] [[Low Power Division and Square.pdf#page=49&selection=9,13,36,19&color=yellow|Low Power Division and Square, p.49]]
-> > Both d and x are normalized in [0.5, 1) and x < d for division, while x is normalized in [0.25, 1) for square root.
-> 
-> 
+ref: [[(SQRT)Unified_Digit_Selection_for_Radix-4_Recurrence_Division_and_Square_Root.pdf#page=2&selection=2,0,8,37|(SQRT)Unified_Digit_Selection_for_Radix-4_Recurrence_Division_and_Square_Root, p.2]]
+
+ $remainder\ recurrence:r(j)=radix*r(j-1)+f(j)$
+- $r:remainder$
+- $r(j):partial\ remainder\ at\ j'th\ iteratrion$
+- $j=1,2,3$
+### div_uarch
+$q = x / d + remainder$
+- $q: quotient$
+	- $q_{0}q_{1}q_{2}q_{3}$
+	- $q_{0}=0$
+- $x: dividend$
+- $d: divisor$
+- $residual\ recurrence:r(j)=radix*r(j-1)-q_{j}*d$
+- $residual\ recurrence\ with\ radix\ 4:r(j)=4*r(j-1)-q_{j}*d$
+	- $digit\ set\ (q_{j})\ is \ [-2,-1,0,1,2]$
+	- $initialize$
+		- $2>d>=1$
+		- $2>x=r(0)>=1$
+		- $r(0)=x$
+			- $cnt=0$
+		- $q_{0}=0$
+		- $qm_0=0$
+	- $lut\_eff\_x=1.xxx$
+	- $lut\_eff\_y=Syyy.yyy$
 
 ![[f16dsu_radix4_srt_div.svg]]
+
 ![[f16dsu_radix4_srt_div_uarch.svg]]
+
+### sqrt_uarch
+
+$q = x^{1/2}$
+- $x: radicand$
+- $q: root$
+	- $q_{0}.q_{1}q_{2}q_{3}$
+	- $q_{0}=1$
+- $residual\ recurrence:r(j)=radix*r(j-1)-q_{j}(2*q(j-1)+radix^{-j}*q_{j})$
+- $residual\ recurrence\ with\ radix\ 4:r(j)=4*r(j-1)-q_{j}(2*q(j-1)+4^{-j}*q_{j})$
+	- $digit\ set\ (q_{j})\ is \ [-2,-1,0,1,2]$
+	- $initialize$
+		- $exp\ has\ to\ be\ even$
+		- $1>x>=0.25$
+		- $r(1)=4*(x-1)$
+			- $cnt=1$
+		- $q_{0}=1$
+		- $qm_0=0$
+	- $lut\_eff\_x=0.1xxx$
+	- $lut\_eff\_y=Syyy.yyy$
+- $residual\ recurrence\ with\ radix\ 4\ by\ using\ on\ the\ fly\ conversion\ into\ conventional\ representation$
+	- $r(j)=4*r(j-1)-q_{j}(2*q(j-1)+4^{-j}*q_{j})$
+	- $r(j)=4*r(j-1)-X$
+		- 帶入on-the-fly redundant conversion的公式
+			- $qm(j)=q(j)-4^{-j}$
+
+| $q_{j}$ | $OP$  | $X\ (form\ 1)$        | $X\ (form\ 2\ with\ j=1)$              | $X\ (form\ 2)$        |
+| ------- | ----- | --------------------- | -------------------------------------- | --------------------- |
+| $2$     | $sub$ | $4*q(j-1)+2^{-2*j+2}$ | $4*(q(0)+2^{-2})=4\{q(0),3'b010\}$     | $4\{q(j-1),3'b010\}$  |
+| $1$     | $sub$ | $2*q(j-1)+2^{-2*j}$   | $2*(q(0)+2^{-3})=2\{q(0),3'b001\}$     | $2\{q(j-1),3'b001\}$  |
+| $0$     | n.a   | $0$                   | $0$                                    | $0$                   |
+| $-1$    | $add$ | $2*q(j-1)-2^{-2*j}$   | $2*(qm(0)+1-2^{-3})=2\{qm(0),3'b111\}$ | $2\{qm(j-1),3'b111\}$ |
+| $-2$    | $add$ | $4*q(j-1)-2^{-2*j+2}$ | $4*(qm(0)+1+2^{-2})=4\{qm(0),3'b110\}$ | $4\{qm(j-1),3'b110\}$ |
+
+- $q(j)=\sum_{j=0}^{j=n}q_{j}*radix^{-j}$
+	- 當滿足以上的條件下可以使用這個公式（on-the-fly reductant conversion）
+		![[(RQ)on_the_fly_redundant_conversion.pdf#page=10&rect=27,512,429,613|(RQ)on_the_fly_redundant_conversion, p.10|500]]
+		![[(RQ)on_the_fly_redundant_conversion.pdf#page=9&rect=33,312,329,344|(RQ)on_the_fly_redundant_conversion, p.9|500]]
+		![[(RQ)on_the_fly_redundant_conversion.pdf#page=9&rect=186,54,468,148|(RQ)on_the_fly_redundant_conversion, p.9|500]]
+
+![[f16dsu_radix4_srt_sqrt.svg]]
+
+![[f16dsu_radix4_srt_sqrt_uarch.svg]]
+
 ## algorithm
 
 radix4_srt_div_algorithm
