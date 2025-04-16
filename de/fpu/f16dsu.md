@@ -73,7 +73,7 @@ $q = x / d + remainder$
 		- $rqst\_y\ is\ part\ of\ d\ which\ is\ 1.yyy$
 		- $yyy$
 	- $rqst\_pr$
-		-  $rqst\_y\ is\ part\ of\ r(j-1)\ which\ is\ Sxxx.xxx$
+		-  $rqst\_pr\ is\ part\ of\ r(j-1)\ which\ is\ Sxxx.xxx$
 		- $Sxxx.xxx$
 
 ![[f16dsu_radix4_srt_div.svg]]
