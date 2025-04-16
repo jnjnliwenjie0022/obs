@@ -8,9 +8,9 @@
 此爲用於floating point的DSU, 所以會以floating point的特性去設計
 # floating_point_concept
 通常除法器的處理會先將divisor和dividend轉成正數處理
-1. 根據radix4_srt_div_algirthm,第一筆pr必爲S00.1XXXX,且S為0,所以第一個rq必爲正數
+1. 根據radix4_srt_div_algirthm,第一筆pr必爲S001.XXX,且S為0,所以第一個rq必爲正數
 2. 因爲divisor和dividend為正數所以remainder也必爲正數,如果remainder負數則quotient要減1
-# redundant_conversion
+# on_the_fly_redundant_conversion
 [[(RQ)on_the_fly_redundant_conversion.pdf#page=9&selection=8,0,8,11|(RQ)on_the_fly_redundant_conversion, page 9]]
 
 ```C++
@@ -51,6 +51,7 @@ ref: [[(SQRT)Unified_Digit_Selection_for_Radix-4_Recurrence_Division_and_Square_
 - $r(j):partial\ remainder\ at\ j'th\ iteratrion$
 - $j=1,2,3$
 ### div_uarch
+
 $q = x / d + remainder$
 - $q: quotient$
 	- $q_{0}q_{1}q_{2}q_{3}$
@@ -67,8 +68,12 @@ $q = x / d + remainder$
 			- $cnt=0$
 		- $q_{0}=0$
 		- $qm_0=0$
-	- $lut\_eff\_x=1.xxx$
-	- $lut\_eff\_y=Syyy.yyy$
+	- $rqst\_y$
+		- $rqst\_y\ is\ part\ of\ d\ which\ is\ 1.yyy$
+		- $yyy$
+	- $rqst\_pr$
+		-  $rqst\_y\ is\ part\ of\ r(j-1)\ which\ is\ Sxxx.xxx$
+		- $Sxxx.xxx$
 
 ![[f16dsu_radix4_srt_div.svg]]
 
@@ -91,8 +96,17 @@ $q = x^{1/2}$
 			- $cnt=1$
 		- $q_{0}=1$
 		- $qm_0=0$
-	- $lut\_eff\_x=0.1xxx$
-	- $lut\_eff\_y=Syyy.yyy$
+	- $rqst\_y$
+		- $rqst\_y\ is\ part\ of\ q(j-1)\ which\ is\ 0.1yyy$
+		- $yyy$
+		![[(SQRT)Unified_Digit_Selection_for_Radix-4_Recurrence_Division_and_Square_Root.pdf#page=8&rect=312,620,567,674|(SQRT)Unified_Digit_Selection_for_Radix-4_Recurrence_Division_and_Square_Root, p.8|500]]
+		- $if\ j=1$
+			- $yyy=101$
+		- $if\ j>1\ and\ q(j-1)==1.0$
+			- $yyy=111$
+	- $rqst\_pr$
+		- $rqst\_y\ is\ part\ of\ r(j-1)\ which\ is\ Sxxx.xxx$
+		- $Sxxx.xxx$
 - $residual\ recurrence\ with\ radix\ 4\ by\ using\ on\ the\ fly\ conversion\ into\ conventional\ representation$
 	- $r(j)=4*r(j-1)-q_{j}(2*q(j-1)+4^{-j}*q_{j})$
 	- $r(j)=4*r(j-1)-X$
@@ -103,7 +117,7 @@ $q = x^{1/2}$
 | ------- | ----- | --------------------- | -------------------------------------- | --------------------- |
 | $2$     | $sub$ | $4*q(j-1)+2^{-2*j+2}$ | $4*(q(0)+2^{-2})=4\{q(0),3'b010\}$     | $4\{q(j-1),3'b010\}$  |
 | $1$     | $sub$ | $2*q(j-1)+2^{-2*j}$   | $2*(q(0)+2^{-3})=2\{q(0),3'b001\}$     | $2\{q(j-1),3'b001\}$  |
-| $0$     | n.a   | $0$                   | $0$                                    | $0$                   |
+| $0$     | $n.a$ | $0$                   | $0$                                    | $0$                   |
 | $-1$    | $add$ | $2*q(j-1)-2^{-2*j}$   | $2*(qm(0)+1-2^{-3})=2\{qm(0),3'b111\}$ | $2\{qm(j-1),3'b111\}$ |
 | $-2$    | $add$ | $4*q(j-1)-2^{-2*j+2}$ | $4*(qm(0)+1+2^{-2})=4\{qm(0),3'b110\}$ | $4\{qm(j-1),3'b110\}$ |
 
