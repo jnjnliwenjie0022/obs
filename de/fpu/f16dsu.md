@@ -33,7 +33,7 @@ Q[1] = 0 + 1*(4)**(-1) = 1/4
 Ex5: 0.2 = 0 + 2/4 = 1/2
 Q[1] = 0 + 2*(4)**(-1) = 1/2
 ```
-# f16dsu_radix4_srt_div
+# f16dsu_radix4_dsu
 ## sign
 
 [Signed zero - Wikipedia](https://en.wikipedia.org/wiki/Signed_zero)
@@ -44,7 +44,7 @@ Q[1] = 0 + 2*(4)**(-1) = 1/2
 
 ## uarch
 
-ref: [[(SQRT)Unified_Digit_Selection_for_Radix-4_Recurrence_Division_and_Square_Root.pdf#page=2&selection=2,0,8,37|(SQRT)Unified_Digit_Selection_for_Radix-4_Recurrence_Division_and_Square_Root, p.2]]
+ref: [[(DSU)Unified_Digit_Selection_for_Radix-4_Recurrence_Division_and_Square_Root.pdf#page=2&selection=2,0,8,37|(SQRT)Unified_Digit_Selection_for_Radix-4_Recurrence_Division_and_Square_Root, p.2]]
 
  $remainder\ recurrence:r(j)=radix*r(j-1)+f(j)$
 - $r:remainder$
@@ -79,6 +79,19 @@ $q = x / d + remainder$
 
 ![[f16dsu_radix4_srt_div_uarch.svg]]
 
+#### truncate_but_borrowin
+
+borrowin可以有效減少truncate所造成的誤差
+![[(SRT)INCORPORATING MULTIPLICATION INTO DIGIT- RECURRENCE DIVISION AND THE SQUARE ROOT.pdf#page=86&rect=186,276,454,493|(SRT)INCORPORATING MULTIPLICATION INTO DIGIT- RECURRENCE DIVISION AND THE SQUARE ROOT, p.71|500]]
+
+![[truncate_deviation.svg]]
+
+#### pd_chart
+
+合法的PD圖是兩條綫之間至少要有一個點
+
+![[valid_pd_diagram.svg]]
+
 ### sqrt_uarch
 
 $q = x^{1/2}$
@@ -99,7 +112,7 @@ $q = x^{1/2}$
 	- $rqst\_y$
 		- $rqst\_y\ is\ part\ of\ q(j-1)\ which\ is\ 0.1yyy$
 		- $yyy$
-		![[(SQRT)Unified_Digit_Selection_for_Radix-4_Recurrence_Division_and_Square_Root.pdf#page=8&rect=312,620,567,674|(SQRT)Unified_Digit_Selection_for_Radix-4_Recurrence_Division_and_Square_Root, p.8|500]]
+		![[(DSU)Unified_Digit_Selection_for_Radix-4_Recurrence_Division_and_Square_Root.pdf#page=8&rect=312,620,567,674|(SQRT)Unified_Digit_Selection_for_Radix-4_Recurrence_Division_and_Square_Root, p.8|500]]
 		- $if\ j=1$
 			- $yyy=101$
 		- $if\ j>1\ and\ q(j-1)==1.0$
@@ -131,13 +144,20 @@ $q = x^{1/2}$
 
 ![[f16dsu_radix4_srt_sqrt_uarch.svg]]
 
+### dsu_rqst
+
+- main ref: [[(DSU)Unified_Digit_Selection_for_Radix-4_Recurrence_Division_and_Square_Root.pdf#page=2&selection=2,0,8,37|(SQRT)Unified_Digit_Selection_for_Radix-4_Recurrence_Division_and_Square_Root, p.2]]
+- ref: [[Low Power Division and Square.pdf#page=48&selection=105,0,108,5|Low Power Division and Square, page 48]]
+- ref: [[(SQR)Radix-4 Square Root Without Initial PLA.pdf#page=1|(SQR)Radix-4 Square Root Without Initial PLA, p.1016]]
+
+![[Pasted image 20250416121717.png]]
+![[Pasted image 20250416121743.png]]
 ## algorithm
 
 radix4_srt_div_algorithm
 
 1. [[(DIV)Digit Selection for SRT Division and Square Root.pdf#page=1&selection=0,0,1,28|(DIV)Digit Selection for SRT Division and Square Root, page 1]]
-2. [[(SQR)Radix-4 Square Root Without Initial PLA.pdf#page=1|(SQR)Radix-4 Square Root Without Initial PLA, p.1016]]
-3. [[radix4_srt_div.xlsx]]
+2. [[radix4_srt_div.xlsx]]
 ## format
 
 PR bitwidth = sign bit + PR integral + PR fraction + extra bit
@@ -158,38 +178,15 @@ revised PR bitwidth: 14 (最佳正確)
 
 ![[(SRT)INCORPORATING MULTIPLICATION INTO DIGIT- RECURRENCE DIVISION AND THE SQUARE ROOT.pdf#page=116&rect=98,352,533,563|(SRT)INCORPORATING MULTIPLICATION INTO DIGIT- RECURRENCE DIVISION AND THE SQUARE ROOT, p.101]]
 
-## truncate_deviation
-
-ref: https://www.righto.com/2024/12/this-die-photo-of-pentium-shows.html
-
-borrow_in可以有效減少truncate所造成的誤差
-
-![[(SRT)INCORPORATING MULTIPLICATION INTO DIGIT- RECURRENCE DIVISION AND THE SQUARE ROOT.pdf#page=86&rect=186,276,454,493|(SRT)INCORPORATING MULTIPLICATION INTO DIGIT- RECURRENCE DIVISION AND THE SQUARE ROOT, p.71]]
-
-![[truncate_deviation.svg]]
-## valid_pd_diagrm
-
-合法的PD圖是兩條綫之間至少要有一個點
-
-![[valid_pd_diagram.svg]]
-
-## pd_diagram
-![[Pasted image 20240326214207.png]]
-![[Pasted image 20240326214342.png]]
-![[Pasted image 20240326214426.png]]
-![[Pasted image 20240326214614.png]]
-
-# radix4_srt_sqr_algorithm
-[[Low Power Division and Square.pdf#page=48&selection=105,0,108,5|Low Power Division and Square, page 48]]
 
 
-## algorithm
 
-## pd_diagram
+
 
 # archive
 ## radix2_srt
-[【HDL系列】除法器(3)——基2 SRT算法-CSDN博客](https://blog.csdn.net/zhouxuanyuye/article/details/109436358)
-## pentium_division_flaw
-[The Pentium Divison Flaw - Chapter 3 (daviddeley.com)](https://daviddeley.com/pentbug/pentbug3.htm)
-![[Pasted image 20240320191739.png]]
+https://zhuanlan.zhihu.com/p/271133530
+## pentium
+
+- [The Pentium Divison Flaw - Chapter 3 (daviddeley.com)](https://daviddeley.com/pentbug/pentbug3.htm)
+- https://www.righto.com/2024/12/this-die-photo-of-pentium-shows.html
