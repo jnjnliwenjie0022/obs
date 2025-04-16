@@ -4,10 +4,9 @@
 - [ V ] \_en
 ```verilog
 wire p1_data_en = p1_valid & p1_ready;
-always @ (posedge clk) begin
+always @ (posedge clk)
 	if (p1_data_en)
 		p1_data <= p1_data_nx;
-end
 ```
 - [ V ] signal flatten (avoid reentrancy)
 	-  不可以出現 \_taken，但心中要有這個概念，taken = valid & ready
@@ -15,7 +14,7 @@ end
 - [ V ] \_request and \_grant are always dependent
 - [ V ] module naming:
 	- acc_module
-	- H1_H2_H3_...module
+	- H1\_H2\_H3\_...module
 - [ V ] Inter-module signals:
 	-  module\_(channel)\_(stage)\_signal...
 	-  module\_(channel)\(\#stage)\_signal...
@@ -118,8 +117,7 @@ acc_fifo # (
 );
 
 ```
-- [ O ] file naming rule H1_H2_H3_
-	- 
+
 # highspeed
 
 # setclr_uarch
