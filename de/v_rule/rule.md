@@ -88,6 +88,7 @@ _d2: delay 2T
 ```
 - [ O ] instance fifo
 ```verilog
+// u_d1_fifo //////////////////////////////////////////////////////////////////////////
 wire d1_fifo_wr;
 wire d1_fifo_rd;
 wire d1_fifo_empty;
@@ -115,9 +116,14 @@ acc_fifo # (
     ,.empty        (d1_fifo_empty )
     ,.full         (d1_fifo_full  )
 );
-
+//////////////////////////////////////////////////////////////////////////////////////
 ```
+- [ O ] stage comment
+```
+//{{{ p0 stage
 
+}}}
+```
 # highspeed
 
 # setclr_uarch
