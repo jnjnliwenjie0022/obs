@@ -13,6 +13,12 @@
 # on_the_fly_redundant_conversion
 [[(RQ)on_the_fly_redundant_conversion.pdf#page=9&selection=8,0,8,11|(RQ)on_the_fly_redundant_conversion, page 9]]
 
+$qm(j)=q(j)-4^{-j}$
+- 可以發現qm小於q(j)，永遠差1
+- $qm=q-1$
+
+![[(RQ)on_the_fly_redundant_conversion.pdf#page=10&rect=32,101,271,354|(RQ)on_the_fly_redundant_conversion, p.10|500]]
+
 ```C++
 Q[j+1] = Q[j] + q(j+1)*r**(-(j+1)) when q(j+1) >= 0
 Q[j+1] = Q[j] -r**(-(j)) + (r - abs(q(j+1)))*r**(-(j+1)) when q(j+1) < 0
@@ -38,11 +44,35 @@ Q[1] = 0 + 2*(4)**(-1) = 1/2
 
 [Signed zero - Wikipedia](https://en.wikipedia.org/wiki/Signed_zero)
 
-[[de/fpu/ref_f16mac/code_old_kv/VFPU/FP_design_spec_Larry/FDIV/Study/computer-arithmetic-algorithms-2nd-edition-Behrooz-Parhami.pdf#page=289&selection=338,0,346,0|computer-arithmetic-algorithms-2nd-edition-Behrooz-Parhami, page 289]]
+![[de/fpu/ref_f16mac/code_old_kv/VFPU/FP_design_spec_Larry/FDIV/Study/computer-arithmetic-algorithms-2nd-edition-Behrooz-Parhami.pdf#page=289&rect=116,274,478,361|computer-arithmetic-algorithms-2nd-edition-Behrooz-Parhami, p.289]]
+注意:
+- sign(q) = sign(z) ^ sign(d)
+- 找到一組其實就足夠知道其他種組合了，所以集中目標找
+	- sign(abs(z)) = sign(abs(d)) = 0
+實作: 只找q不找s
+- 因爲sign(q) = sign(z) ^ sign(d)
+- 預設sign(z) = sign(d)
+- 所以sign(s) 必爲 0
+- 如果sign(s) 經過處理之後是 1，則q - 1, 用SRT則爲qm
+- 如果sign(s) 經過處理之後是 0，則q, 用SRT則爲q
+## bitwidth
+![[f16dsu_radix4_srt_bitwidth.svg]]
 
-![[Pasted image 20240402171635.png]]
+針對radix4而言
+
+- q_bitwidth = 2 + f(din + 1), f(din + 1)要2的倍數，如果沒有則要補
+- q_bitwidth = 2 + (din + 1) + (din + 1) % 2
+- r_bitwidth = 1 + 3 + (din + 1) + (din + 1) % 2
+	- din(f16): 11 (1+10)
+	- din(f32): 24 (1+23)
+	- din(f64): 53 (1+52)
+
+![[(SRT)INCORPORATING MULTIPLICATION INTO DIGIT- RECURRENCE DIVISION AND THE SQUARE ROOT.pdf#page=116&rect=98,352,533,563|(SRT)INCORPORATING MULTIPLICATION INTO DIGIT- RECURRENCE DIVISION AND THE SQUARE ROOT, p.101|500]]
+
 
 ## uarch
+
+注意：用SRT不建議找s，s在SRT中不好找
 
 ref: [[(DSU)Unified_Digit_Selection_for_Radix-4_Recurrence_Division_and_Square_Root.pdf#page=2&selection=2,0,8,37|(SQRT)Unified_Digit_Selection_for_Radix-4_Recurrence_Division_and_Square_Root, p.2]]
 ref: https://www.youtube.com/watch?v=51nnhi3Mcfk
@@ -69,12 +99,12 @@ $q = x / d + remainder$
 			- $cnt=0$
 		- $q_{0}=0$
 		- $qm_0=0$
-	- $rqst\_y$
-		- $rqst\_y\ is\ part\ of\ d\ which\ is\ 1.yyy$
-		- $yyy$
+	- $rqst\_pd$
+		- $rqst\_pd\ is\ part\ of\ d\ which\ is\ 1.ddd$
+		- $ddd$
 	- $rqst\_pr$
-		-  $rqst\_pr\ is\ part\ of\ r(j-1)\ which\ is\ Sxxx.xxx$
-		- $Sxxx.xxx$
+		-  $rqst\_pr\ is\ part\ of\ r(j-1)\ which\ is\ Srrr.rrr$
+		- $Srrr.rrr$
 
 ![[f16dsu_radix4_srt_div.svg]]
 
@@ -106,21 +136,25 @@ $q = x^{1/2}$
 	- $initialize$
 		- $exp\ has\ to\ be\ even$
 		- $1>x>=0.25$
+		- $1>d>=0.5$
+			- $2>2*d=(2*q(j-1)+4^{-j}*q_{j}):=2*q(j-1)>=1$
+			- $1>d=(q(j-1)+4^{-j}*q_{j}/2):=q(j-1)>=0.5$
 		- $r(1)=4*(x-1)$
 			- $cnt=1$
 		- $q_{0}=1$
 		- $qm_0=0$
-	- $rqst\_y$
-		- $rqst\_y\ is\ part\ of\ q(j-1)\ which\ is\ 0.1yyy$
-		- $yyy$
+	- $rqst\_pd$
+		- $rqst\_pd\ is\ part\ of\ q(j-1)\ which\ is\ 0.1ddd$
+		- $rqst\_pd\ is\ part\ of\ 2*q(j-1)\ which\ is\ 1.ddd$
+		- $ddd$
 		![[(DSU)Unified_Digit_Selection_for_Radix-4_Recurrence_Division_and_Square_Root.pdf#page=8&rect=312,620,567,674|(SQRT)Unified_Digit_Selection_for_Radix-4_Recurrence_Division_and_Square_Root, p.8|500]]
 		- $if\ j=1$
-			- $yyy=101$
+			- $ddd=101$
 		- $if\ j>1\ and\ q(j-1)==1.0$
-			- $yyy=111$
+			- $ddd=111$
 	- $rqst\_pr$
-		- $rqst\_y\ is\ part\ of\ r(j-1)\ which\ is\ Sxxx.xxx$
-		- $Sxxx.xxx$
+		- $rqst\_r\ is\ part\ of\ r(j-1)\ which\ is\ Srrr.rrr$
+		- $Srrr.rrr$
 - $residual\ recurrence\ with\ radix\ 4\ by\ using\ on\ the\ fly\ conversion\ into\ conventional\ representation$
 	- $r(j)=4*r(j-1)-q_{j}(2*q(j-1)+4^{-j}*q_{j})$
 	- $r(j)=4*r(j-1)-X$
@@ -140,10 +174,8 @@ $q = x^{1/2}$
 		![[(RQ)on_the_fly_redundant_conversion.pdf#page=10&rect=27,512,429,613|(RQ)on_the_fly_redundant_conversion, p.10|500]]
 		![[(RQ)on_the_fly_redundant_conversion.pdf#page=9&rect=33,312,329,344|(RQ)on_the_fly_redundant_conversion, p.9|500]]
 		![[(RQ)on_the_fly_redundant_conversion.pdf#page=9&rect=186,54,468,148|(RQ)on_the_fly_redundant_conversion, p.9|500]]
-
 ![[f16dsu_radix4_srt_sqrt.svg]]
-
-![[f16dsu_radix4_srt_sqrt_uarch.svg]]
+[[f16dsu_radix4_srt_sqrt_uarch.svg]]
 
 ### dsu_rqst
 
@@ -159,31 +191,6 @@ radix4_srt_div_algorithm
 
 1. [[(DIV)Digit Selection for SRT Division and Square Root.pdf#page=1&selection=0,0,1,28|(DIV)Digit Selection for SRT Division and Square Root, page 1]]
 2. [[radix4_srt_div.xlsx]]
-## format
-
-PR bitwidth = sign bit + PR integral + PR fraction + extra bit
-
-original PR bitwidth: 16 (嚴格正確)
-4. sign bit: 1
-5. PR integral: 2
-6. PR fraction: 11 + 1 (Rounding)
-7. extra bit: 1 (可能是給square root??)
-
-revised PR bitwidth: 14 (最佳正確)
-8. sign bit: 1
-9. PR integral: 2
-10. PR fraction: 11
-11. extra bit: 0
-	1. 滿足PR bitwidth == RQST bitwidth + 1,不滿足則要將PR補0直到滿足這個條件
-
-
-![[(SRT)INCORPORATING MULTIPLICATION INTO DIGIT- RECURRENCE DIVISION AND THE SQUARE ROOT.pdf#page=116&rect=98,352,533,563|(SRT)INCORPORATING MULTIPLICATION INTO DIGIT- RECURRENCE DIVISION AND THE SQUARE ROOT, p.101]]
-
-
-
-
-
-
 # archive
 ## radix2_srt
 https://zhuanlan.zhihu.com/p/271133530

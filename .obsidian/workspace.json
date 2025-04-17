@@ -4,22 +4,23 @@
     "type": "split",
     "children": [
       {
-        "id": "9a25f55df5e41522",
+        "id": "e40164e0d72c03ef",
         "type": "tabs",
         "children": [
           {
-            "id": "6775a0c07608f855",
+            "id": "0a1de9de21829abc",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "de/fpu/f16dsu.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
+                "file": "de/fpu/ref_f16div/B978-155860798-9%2F50008-7.pdf",
+                "page": 9,
+                "left": -8,
+                "top": 478,
+                "zoom": 1.8692528735632183
               },
-              "icon": "lucide-file",
-              "title": "f16dsu"
+              "icon": "lucide-file-text",
+              "title": "B978-155860798-9%2F50008-7"
             }
           }
         ]
@@ -82,13 +83,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "de/fpu/f16dsu.md",
+                "file": "de/fpu/ref_f16div/B978-155860798-9%2F50008-7.pdf",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of f16dsu"
+              "title": "Outline of B978-155860798-9%2F50008-7"
             }
           }
         ],
@@ -113,8 +114,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 396.5110321044922,
-    "collapsed": true
+    "width": 396.5110321044922
   },
   "right": {
     "id": "cb661d0a10776c07",
@@ -191,33 +191,34 @@
       "obsidian-to-anki-plugin:Obsidian_to_Anki - Scan Vault": true
     }
   },
-  "active": "6775a0c07608f855",
+  "active": "0a1de9de21829abc",
   "lastOpenFiles": [
-    "de/v_rule/rule.md",
-    "de/fpu/f16dsu.md",
-    "workflow/git/git.md",
-    "de/fpu/include_f16dsu/032CADC0",
-    "de/fpu/ref_f16dsu/(DSU)Unified_Digit_Selection_for_Radix-4_Recurrence_Division_and_Square_Root.pdf",
-    "de/fpu/ref_f16dsu/~$FDIV_design_spec_v0.5.pptx",
-    "de/fpu/include_f16div/valid_pd_diagram.svg",
+    "de/fpu/ref_f16div/B978-155860798-9_2F50008-7.pdf",
     "de/fpu/ref_f16div/(SRT)INCORPORATING MULTIPLICATION INTO DIGIT- RECURRENCE DIVISION AND THE SQUARE ROOT.pdf",
     "de/fpu/ref_f16div/(SQR)Radix-4 Square Root Without Initial PLA.pdf",
+    "de/fpu/ref_f16div/(SQR)ARITH20_Nannarelli.pdf",
     "de/fpu/ref_f16div/(DIV)Digit Selection for SRT Division and Square Root.pdf",
-    "de/fpu/ref_f16div/Low Power Division and Square.pdf",
+    "de/fpu/ref_f16div/(SQRT)RADIX-4 SQUARE ROOT WITHOUT INITIAL PLA.pdf",
+    "de/fpu/ref_f16div/Computer_Arithmetic_Algorithms_and_Hardware_Designs_2nd_edition.pdf",
+    "de/fpu/ref_f16div/Design_of_Double-Precision_Floating-Point_Division.pdf",
+    "de/fpu/ref_f16div/high_radix_SRT.pdf",
+    "de/fpu/f16dsu.md",
+    "de/fpu/ref_f16div/~$Square_Root_Algorithm.ppt",
+    "de/fpu/ref_f16dsu/(DSU)Unified_Digit_Selection_for_Radix-4_Recurrence_Division_and_Square_Root.pdf",
+    "de/v_rule/rule.md",
+    "de/fpu/include_f16div/f16dsu_radix4_srt_sqrt_uarch.svg",
+    "de/fpu/include_f16div/f16dsu_radix4_srt_bitwidth.svg",
+    "de/fpu/include_f16div/f16dsu_radix4_srt_div.svg",
+    "de/fpu/include_f16div/f16dsu_radix4_srt_sqrt.svg",
+    "de/fpu/f16div.md",
+    "workflow/git/git.md",
+    "de/fpu/include_f16div/valid_pd_diagram.svg",
     "de/fpu/include_f16dsu/Pasted image 20250416121717.png",
     "de/fpu/include_f16dsu/Pasted image 20250416121743.png",
-    "de/fpu/include_f16dsu/B15B7DC0",
-    "de/fpu/include_f16dsu/52DA7DC0",
-    "de/fpu/include_f16dsu/6B6A7DC0",
     "de/fpu/include_f16div/Pasted image 20240320191739.png",
-    "de/fpu/include_f16div/f16dsu_radix4_srt_sqrt_uarch.svg",
-    "de/fpu/include_f16div/f16dsu_radix4_srt_sqrt.svg",
-    "de/fpu/include_f16div/f16dsu_radix4_srt_div.svg",
     "de/fpu/include_f16div/f16div_exp.svg",
     "de/fpu/include_f16div/f16div_frd_rne_correction.svg",
-    "de/fpu/include_f16div/f16div_uarch.svg",
     "de/fpu/f16mac.md",
-    "de/fpu/f16div.md",
     "conflict-files-obsidian-git.md",
     "de/amba_axi/axi.md",
     "de/arithmetic/divider.md",
@@ -238,7 +239,6 @@
     "language/2024-05-28.md",
     "de/ppa/evaluation.md",
     "de/ppa/power.md",
-    "de/arithmetic/booth.md",
     "dv/uvm/include/uvm_do_on_pri_with.canvas",
     "uvm_factory.canvas",
     "dv/uvm/include/uvm_factory1.canvas",
