@@ -105,6 +105,9 @@ $q = x / d + remainder$
 	- $rqst\_pr$
 		-  $rqst\_pr\ is\ part\ of\ r(j-1)\ which\ is\ Srrr.rrr$
 		- $Srrr.rrr$
+	- $implementation$
+		![[(DSU)Unified_Digit_Selection_for_Radix-4_Recurrence_Division_and_Square_Root.pdf#page=3&rect=329,522,498,594|(DSU)Unified_Digit_Selection_for_Radix-4_Recurrence_Division_and_Square_Root, p.3|500]]
+		![[(DSU)Unified_Digit_Selection_for_Radix-4_Recurrence_Division_and_Square_Root.pdf#page=5&rect=58,142,217,273|(DSU)Unified_Digit_Selection_for_Radix-4_Recurrence_Division_and_Square_Root, p.5|500]]
 
 ![[f16dsu_radix4_srt_div.svg]]
 
@@ -155,6 +158,9 @@ $q = x^{1/2}$
 	- $rqst\_pr$
 		- $rqst\_r\ is\ part\ of\ r(j-1)\ which\ is\ Srrr.rrr$
 		- $Srrr.rrr$
+	- $implementation$
+		![[(DSU)Unified_Digit_Selection_for_Radix-4_Recurrence_Division_and_Square_Root.pdf#page=4&rect=330,320,506,400|(DSU)Unified_Digit_Selection_for_Radix-4_Recurrence_Division_and_Square_Root, p.4|500]]
+		![[(DSU)Unified_Digit_Selection_for_Radix-4_Recurrence_Division_and_Square_Root.pdf#page=5&rect=49,139,223,316|(DSU)Unified_Digit_Selection_for_Radix-4_Recurrence_Division_and_Square_Root, p.5|500]]
 - $residual\ recurrence\ with\ radix\ 4\ by\ using\ on\ the\ fly\ conversion\ into\ conventional\ representation$
 	- $r(j)=4*r(j-1)-q_{j}(2*q(j-1)+4^{-j}*q_{j})$
 	- $r(j)=4*r(j-1)-X$
