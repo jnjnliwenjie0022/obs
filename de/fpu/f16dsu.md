@@ -85,8 +85,7 @@ ref: https://www.youtube.com/watch?v=51nnhi3Mcfk
 
 $q = x / d + remainder$
 - $q: quotient$
-	- $q_{0}q_{1}q_{2}q_{3}$
-	- $q_{0}=0$
+	- $q_{1}.q_{2}q_{3}$
 - $x: dividend$
 - $d: divisor$
 - $residual\ recurrence:r(j)=radix*r(j-1)-q_{j}*d$
@@ -94,11 +93,11 @@ $q = x / d + remainder$
 	- $digit\ set\ (q_{j})\ is \ [-2,-1,0,1,2]$
 	- $initialize$
 		- $2>d>=1$
-		- $2>x=4*r(0)>=1$
+		- $2>x>=1$
 		- $x=4*r(0)$
 		- $cnt=0$
-		- $q_{0}=0$
-		- $qm_0=0$
+		- $q=0$
+		- $qm=0$
 	- $rqst\_pd$
 		- $rqst\_pd\ is\ part\ of\ d\ which\ is\ 1.ddd$
 		- $ddd$
@@ -145,8 +144,8 @@ $q = x^{1/2}$
 		- $r(0)=x$
 		- $4*r(1)=4*(r(0)-1)$
 		- $cnt=1$
-		- $q_{0}=1$
-		- $qm_0=0$
+		- $q=1$
+		- $qm=0$
 	- $rqst\_pd$
 		- $rqst\_pd\ is\ part\ of\ q(j-1)\ which\ is\ 0.1ddd$
 		- $rqst\_pd\ is\ part\ of\ 2*q(j-1)\ which\ is\ 1.ddd$
