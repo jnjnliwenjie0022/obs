@@ -4,16 +4,20 @@
 - [ V ] \_en
 ```verilog
 wire p1_data_en = p1_valid & p1_ready;
-always @ (posedge clk) begin
+always @ (posedge clk)
 	if (p1_data_en)
 		p1_data <= p1_data_nx;
-end
 ```
 - [ V ] signal flatten (avoid reentrancy)
 	-  不可以出現 \_taken，但心中要有這個概念，taken = valid & ready
 - [ V ] \_valid and \_ready are always independent
 - [ V ] \_request and \_grant are always dependent
+- [ V ] module naming:
+	- acc_module
+	- H1\_H2\_H3\_...module
 - [ V ] Inter-module signals:
+	-  module\_(channel)\_(stage)\_signal...
+	-  module\_(channel)\(\#stage)\_signal...
 	-  SRC\_DES\_(channel)\_(stage)\_signal...
 	-  SRC\_DES\_(channel)\(\#stage)\_signal...
 - [ V ] Intra-module signals: 
@@ -84,6 +88,7 @@ _d2: delay 2T
 ```
 - [ O ] instance fifo
 ```verilog
+// u_d1_fifo //////////////////////////////////////////////////////////////////////////
 wire d1_fifo_wr;
 wire d1_fifo_rd;
 wire d1_fifo_empty;
@@ -111,7 +116,13 @@ acc_fifo # (
     ,.empty        (d1_fifo_empty )
     ,.full         (d1_fifo_full  )
 );
+//////////////////////////////////////////////////////////////////////////////////////
+```
+- [ O ] stage comment
+```
+//{{{ p0 stage
 
+}}}
 ```
 # highspeed
 
