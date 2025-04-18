@@ -193,6 +193,8 @@
   },
   "active": "da53274feee6b735",
   "lastOpenFiles": [
+    "de/fpu/ref_f16mac/(FMA)Binary Floating Point Fused Multiply Add Unit.pdf",
+    "de/v_rule/rule.md",
     "de/fpu/f16dsu.md",
     "de/fpu/ref_f16dsu/(DSU)Unified_Digit_Selection_for_Radix-4_Recurrence_Division_and_Square_Root.pdf",
     "de/fpu/ref_f16div/Anatomy of the Pentium Bug.pdf",
@@ -204,7 +206,6 @@
     "de/fpu/ref_f16div/(SQR)ARITH20_Nannarelli.pdf",
     "de/fpu/ref_f16div/(DIV)Digit Selection for SRT Division and Square Root.pdf",
     "de/fpu/ref_f16div/(SQRT)RADIX-4 SQUARE ROOT WITHOUT INITIAL PLA.pdf",
-    "de/v_rule/rule.md",
     "de/fpu/include_f16div/f16dsu_radix4_srt_sqrt_uarch.svg",
     "de/fpu/include_f16div/f16dsu_radix4_srt_bitwidth.svg",
     "de/fpu/include_f16div/f16dsu_radix4_srt_div.svg",
