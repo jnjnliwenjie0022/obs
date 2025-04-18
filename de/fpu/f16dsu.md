@@ -156,7 +156,7 @@ $q = x^{1/2}$
 		- $if\ j>1\ and\ q(j-1)==1.0$
 			- $ddd=111$
 	- $rqst\_pr$
-		- $rqst\_r\ is\ part\ of\ r(j-1)\ which\ is\ Srrr.rrr$
+		- $rqst\_r\ is\ part\ of\ 4*r(j-1)\ which\ is\ Srrr.rrr$
 		- $Srrr.rrr$
 	- $implementation$
 		![[(DSU)Unified_Digit_Selection_for_Radix-4_Recurrence_Division_and_Square_Root.pdf#page=4&rect=330,320,506,400|(DSU)Unified_Digit_Selection_for_Radix-4_Recurrence_Division_and_Square_Root, p.4|500]]
