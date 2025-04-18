@@ -95,11 +95,11 @@ $q = x / d + remainder$
 		- $2>d>=1$
 		- $2>x>=1$
 		- $2>q>0.5$
+		- $2d/3>4*r(j-1)>=-2d/3$
 		- $x=4*r(0)$
-		- $2>4*r(j-1)>=1$
-		- $cnt=0$
-		- $q=0$
-		- $qm=0$
+		- $cnt\ init=0$
+		- $q\ init=0$
+		- $qm\ init=0$
 	- $rqst\_pd$
 		- $rqst\_pd\ is\ part\ of\ d\ which\ is\ 1.ddd$
 		- $ddd$
@@ -143,12 +143,13 @@ $q = x^{1/2}$
 		- $1>d>=0.5$
 			- $2>2*d=(2*q(j-1)+4^{-j}*q_{j}):=2*q(j-1)>=1$
 			- $1>d=(q(j-1)+4^{-j}*q_{j}/2):=q(j-1)>=0.5$
+		- $1>q>=0.5$
+		- $4q/3>4*r(j-1)>=-4q/3$
 		- $r(0)=x$
 		- $4*r(1)=4*(r(0)-1)$
-		- $1>4*r(j-1)>=0.25$
-		- $cnt=1$
-		- $q=1$
-		- $qm=0$
+		- $cnt\ init=1$
+		- $q\ init=1$
+		- $qm\ init=0$
 	- $rqst\_pd$
 		- $rqst\_pd\ is\ part\ of\ q(j-1)\ which\ is\ 0.1ddd$
 		- $rqst\_pd\ is\ part\ of\ 2*q(j-1)\ which\ is\ 1.ddd$

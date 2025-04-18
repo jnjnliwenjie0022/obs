@@ -14,9 +14,9 @@
               "type": "pdf",
               "state": {
                 "file": "de/fpu/ref_f16dsu/(DSU)Unified_Digit_Selection_for_Radix-4_Recurrence_Division_and_Square_Root.pdf",
-                "page": 3,
+                "page": 4,
                 "left": -9,
-                "top": 492,
+                "top": 732,
                 "zoom": 1.594362745098039
               },
               "icon": "lucide-file-text",
@@ -37,8 +37,26 @@
               "icon": "lucide-file",
               "title": "f16dsu"
             }
+          },
+          {
+            "id": "cef2b78e58ff39f5",
+            "type": "leaf",
+            "dimension": 50,
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "de/fpu/ref_f16div/(RQ)on_the_fly_redundant_conversion.pdf",
+                "page": 10,
+                "left": -98,
+                "top": 602,
+                "zoom": 1.25
+              },
+              "icon": "lucide-file-text",
+              "title": "(RQ)on_the_fly_redundant_conversion"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -98,13 +116,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "de/fpu/ref_f16dsu/(DSU)Unified_Digit_Selection_for_Radix-4_Recurrence_Division_and_Square_Root.pdf",
+                "file": "de/fpu/f16dsu.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of (DSU)Unified_Digit_Selection_for_Radix-4_Recurrence_Division_and_Square_Root"
+              "title": "Outline of f16dsu"
             }
           }
         ],
@@ -206,10 +224,12 @@
       "obsidian-to-anki-plugin:Obsidian_to_Anki - Scan Vault": true
     }
   },
-  "active": "da53274feee6b735",
+  "active": "ec0b428250899b4e",
   "lastOpenFiles": [
-    "de/fpu/f16dsu.md",
     "de/fpu/ref_f16dsu/(DSU)Unified_Digit_Selection_for_Radix-4_Recurrence_Division_and_Square_Root.pdf",
+    "de/fpu/ref_f16div/(RQ)on_the_fly_redundant_conversion.pdf",
+    "de/fpu/f16dsu.md",
+    "de/fpu/ref_f16dsu/~$FDIV_design_spec_v0.5.pptx",
     "de/v_rule/rule.md",
     "conflict-files-obsidian-git.md",
     "de/fpu/ref_f16mac/(FMA)Binary Floating Point Fused Multiply Add Unit.pdf",
@@ -220,7 +240,6 @@
     "de/fpu/ref_f16div/(SRT)INCORPORATING MULTIPLICATION INTO DIGIT- RECURRENCE DIVISION AND THE SQUARE ROOT.pdf",
     "de/fpu/ref_f16div/(SQR)Radix-4 Square Root Without Initial PLA.pdf",
     "de/fpu/ref_f16div/(SQR)ARITH20_Nannarelli.pdf",
-    "de/fpu/ref_f16div/(DIV)Digit Selection for SRT Division and Square Root.pdf",
     "de/fpu/include_f16div/f16dsu_radix4_srt_sqrt_uarch.svg",
     "de/fpu/include_f16div/f16dsu_radix4_srt_bitwidth.svg",
     "de/fpu/include_f16div/f16dsu_radix4_srt_div.svg",
