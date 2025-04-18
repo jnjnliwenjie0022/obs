@@ -3,10 +3,13 @@
 - [ V ] \_clr
 - [ V ] \_en
 ```verilog
-wire p1_data_en = p1_valid & p1_ready;
+//{{{ p0 stage
+
+wire p1_data_en = p0_valid & p0_ready;
 always @ (posedge clk)
 	if (p1_data_en)
 		p1_data <= p1_data_nx;
+//}}}
 ```
 - [ V ] signal flatten (avoid reentrancy)
 	-  不可以出現 \_taken，但心中要有這個概念，taken = valid & ready
@@ -118,12 +121,16 @@ acc_fifo # (
 );
 //////////////////////////////////////////////////////////////////////////////////////
 ```
+<<<<<<< HEAD
 - [ O ] stage comment
 ```
 //{{{ p0 stage
 PGP
 }}}
 ```
+=======
+
+>>>>>>> origin/master
 # highspeed
 
 # setclr_uarch
