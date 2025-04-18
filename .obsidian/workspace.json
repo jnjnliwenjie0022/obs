@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "de/fpu/f16dsu.md",
+                "file": "de/v_rule/rule.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "f16dsu"
+              "title": "rule"
             }
           }
         ]
@@ -188,6 +188,7 @@
   },
   "active": "fd8c687ba3830127",
   "lastOpenFiles": [
+    "de/fpu/f16dsu.md",
     "de/v_rule/rule.md",
     "de/fpu/f16mac.md",
     "workflow/git/git.md",
@@ -201,7 +202,6 @@
     "de/fpu/include_f16dsu/Pasted image 20250416121717.png",
     "de/fpu/include_f16dsu",
     "de/fpu/include_f16div/f16dsu_radix4_srt_bitwidth.svg",
-    "de/fpu/f16dsu.md",
     "de/fpu/include_f16div/f16dsu_radix4_srt_sqrt.svg",
     "de/fpu/ref_f16div/~$FDIV_design_spec_v0.5.pptx",
     "de/fpu/include_f16div/radix4_srt_div 1.xlsx",
