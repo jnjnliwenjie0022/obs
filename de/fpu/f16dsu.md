@@ -102,7 +102,7 @@ $q = x / d + remainder$
 		- $rqst\_pd\ is\ part\ of\ d\ which\ is\ 1.ddd$
 		- $ddd$
 	- $rqst\_pr$
-		-  $rqst\_pr\ is\ part\ of\ r(j-1)\ which\ is\ Srrr.rrr$
+		-  $rqst\_pr\ is\ part\ of\ 4*r(j-1)\ which\ is\ Srrr.rrr$
 		- $Srrr.rrr$
 	- $implementation$
 		![[(DSU)Unified_Digit_Selection_for_Radix-4_Recurrence_Division_and_Square_Root.pdf#page=3&rect=329,522,498,594|(DSU)Unified_Digit_Selection_for_Radix-4_Recurrence_Division_and_Square_Root, p.3|500]]
