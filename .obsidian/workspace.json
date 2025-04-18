@@ -11,6 +11,22 @@
             "id": "da53274feee6b735",
             "type": "leaf",
             "state": {
+              "type": "pdf",
+              "state": {
+                "file": "de/fpu/ref_f16dsu/(DSU)Unified_Digit_Selection_for_Radix-4_Recurrence_Division_and_Square_Root.pdf",
+                "page": 3,
+                "left": -9,
+                "top": 492,
+                "zoom": 1.594362745098039
+              },
+              "icon": "lucide-file-text",
+              "title": "(DSU)Unified_Digit_Selection_for_Radix-4_Recurrence_Division_and_Square_Root"
+            }
+          },
+          {
+            "id": "ec0b428250899b4e",
+            "type": "leaf",
+            "state": {
               "type": "markdown",
               "state": {
                 "file": "de/fpu/f16dsu.md",
@@ -82,13 +98,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "de/fpu/f16dsu.md",
+                "file": "de/fpu/ref_f16dsu/(DSU)Unified_Digit_Selection_for_Radix-4_Recurrence_Division_and_Square_Root.pdf",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of f16dsu"
+              "title": "Outline of (DSU)Unified_Digit_Selection_for_Radix-4_Recurrence_Division_and_Square_Root"
             }
           }
         ],
@@ -192,11 +208,11 @@
   },
   "active": "da53274feee6b735",
   "lastOpenFiles": [
+    "de/fpu/f16dsu.md",
+    "de/fpu/ref_f16dsu/(DSU)Unified_Digit_Selection_for_Radix-4_Recurrence_Division_and_Square_Root.pdf",
     "de/v_rule/rule.md",
     "conflict-files-obsidian-git.md",
     "de/fpu/ref_f16mac/(FMA)Binary Floating Point Fused Multiply Add Unit.pdf",
-    "de/fpu/f16dsu.md",
-    "de/fpu/ref_f16dsu/(DSU)Unified_Digit_Selection_for_Radix-4_Recurrence_Division_and_Square_Root.pdf",
     "de/fpu/ref_f16div/Anatomy of the Pentium Bug.pdf",
     "de/fpu/ref_f16div/~$Alpaca_FPU_Misc_v0.5_20201217.pptx",
     "de/fpu/ref_f16div/B978-155860798-9%2F50008-7.pdf",
