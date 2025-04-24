@@ -208,3 +208,5 @@ https://zhuanlan.zhihu.com/p/271133530
 
 - [The Pentium Divison Flaw - Chapter 3 (daviddeley.com)](https://daviddeley.com/pentbug/pentbug3.htm)
 - https://www.righto.com/2024/12/this-die-photo-of-pentium-shows.html
+# other
+![[Pasted image 20250424141100.png]]
