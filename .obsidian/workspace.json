@@ -11,12 +11,15 @@
             "id": "82d9cbee6f3dcd95",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "de/fpu/include_f16dsu/Pasted image 20250416121717.png"
+                "file": "de/ppa/power.md",
+                "mode": "preview",
+                "source": false,
+                "backlinks": false
               },
-              "icon": "lucide-image",
-              "title": "Pasted image 20250416121717"
+              "icon": "lucide-file",
+              "title": "power"
             }
           }
         ]
@@ -79,13 +82,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "de/fpu/include_f16dsu/Pasted image 20250416121717.png",
+                "file": "de/ppa/power.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Pasted image 20250416121717"
+              "title": "Outline of power"
             }
           }
         ],
@@ -110,7 +113,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 396.5110321044922
+    "width": 396.5110321044922,
+    "collapsed": true
   },
   "right": {
     "id": "cb661d0a10776c07",
@@ -189,6 +193,7 @@
   },
   "active": "82d9cbee6f3dcd95",
   "lastOpenFiles": [
+    "de/fpu/include_f16dsu/Pasted image 20250416121717.png",
     "de/fpu/include_f16dsu/Pasted image 20250416121743.png",
     "de/fpu/include_f16dsu/Pasted image 20250424141100.png",
     "de/fpu/f16dsu.md",
@@ -213,7 +218,6 @@
     "de/fpu/f16div.md",
     "workflow/git/git.md",
     "de/fpu/include_f16div/valid_pd_diagram.svg",
-    "de/fpu/include_f16dsu/Pasted image 20250416121717.png",
     "de/fpu/include_f16div/Pasted image 20240320191739.png",
     "de/fpu/include_f16div/f16div_exp.svg",
     "de/fpu/f16mac.md",
