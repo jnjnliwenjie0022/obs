@@ -63,12 +63,22 @@ Q[1] = 0 + 2*(4)**(-1) = 1/2
 - q_bitwidth = 2 + f(din + 1), f(din + 1)要2的倍數，如果沒有則要補
 - q_bitwidth = 2 + (din + 1) + (din + 1) % 2
 - r_bitwidth = 1 + 3 + (din + 1) + (din + 1) % 2
-	- din(f16): 11 (1+10)
-	- din(f32): 24 (1+23)
-	- din(f64): 53 (1+52)
+- cnt = q_bitwidth/2 - 1
+	- DIV cnt range: 0 to  q_bitwidth/2 - 1
+	- SQRT cnt range: 1 to  q_bitwidth/2 - 1
+	- ex:
+		- din(f16): 11 (1+10)
+			- DIV cnt=\[0:6\]
+			- SQRT cnt=\[1:6\]
+		- din(f32): 24 (1+23)
+			- DIV cnt=\[0:13\]
+			- SQRT cnt=\[1:13\]
+		- din(f64): 53 (1+52)
+			- DIV cnt=\[0:27\]
+			- SQRT cnt=\[1:27\]
 
 ![[(SRT)INCORPORATING MULTIPLICATION INTO DIGIT- RECURRENCE DIVISION AND THE SQUARE ROOT.pdf#page=116&rect=98,352,533,563|(SRT)INCORPORATING MULTIPLICATION INTO DIGIT- RECURRENCE DIVISION AND THE SQUARE ROOT, p.101|500]]
-
+![[(DSU)Low Latency Floating-Point Division and Square.pdf#page=5&rect=44,530,294,646|(DSU)Low Latency Floating-Point Division and Square, p.5|500]]
 
 ## uarch
 

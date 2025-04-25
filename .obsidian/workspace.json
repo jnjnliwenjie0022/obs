@@ -21,25 +21,8 @@
               "icon": "lucide-file",
               "title": "f16dsu"
             }
-          },
-          {
-            "id": "0cc347015249eeaf",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "de/fpu/ref_f16dsu/(DSU)Unified_Digit_Selection_for_Radix-4_Recurrence_Division_and_Square_Root.pdf",
-                "page": 2,
-                "left": -62,
-                "top": 796,
-                "zoom": 1.25
-              },
-              "icon": "lucide-file-text",
-              "title": "(DSU)Unified_Digit_Selection_for_Radix-4_Recurrence_Division_and_Square_Root"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -99,13 +82,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "de/fpu/ref_f16dsu/(DSU)Unified_Digit_Selection_for_Radix-4_Recurrence_Division_and_Square_Root.pdf",
+                "file": "de/fpu/f16dsu.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of (DSU)Unified_Digit_Selection_for_Radix-4_Recurrence_Division_and_Square_Root"
+              "title": "Outline of f16dsu"
             }
           }
         ],
@@ -208,10 +191,11 @@
       "obsidian-to-anki-plugin:Obsidian_to_Anki - Scan Vault": true
     }
   },
-  "active": "0cc347015249eeaf",
+  "active": "fd8c687ba3830127",
   "lastOpenFiles": [
-    "de/fpu/f16dsu.md",
     "de/fpu/ref_f16dsu/(DSU)Low Latency Floating-Point Division and Square.pdf",
+    "de/fpu/f16dsu.md",
+    "de/fpu/ref_f16dsu/(DSU)Unified_Digit_Selection_for_Radix-4_Recurrence_Division_and_Square_Root.pdf",
     "Low Latency Floating-Point Division and Square.pdf.md",
     "de/fpu/ref_f16dsu/Low Latency Floating-Point Division and Square.pdf",
     "de/fpu/include_f16dsu/Pasted image 20250424141100.png",
@@ -221,7 +205,6 @@
     "conflict-files-obsidian-git.md",
     "de/fpu/ref_f16div/(SQRT)Unified_Digit_Selection_for_Radix-4_Recurrence_Division_and_Square_Root.pdf",
     "de/fpu/ref_f16dsu/FDIV_design_spec_v0.5.pptx",
-    "de/fpu/ref_f16dsu/(DSU)Unified_Digit_Selection_for_Radix-4_Recurrence_Division_and_Square_Root.pdf",
     "de/fpu/ref_f16dsu",
     "de/fpu/include_f16dsu/radix4_srt_dsu.xlsx",
     "de/fpu/include_f16dsu/Pasted image 20250416121743.png",
