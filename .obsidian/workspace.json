@@ -21,8 +21,21 @@
               "icon": "lucide-file",
               "title": "f16dsu"
             }
+          },
+          {
+            "id": "b53da8e7c0c652a2",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.8.10"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.8.10"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -191,7 +204,7 @@
       "obsidian-to-anki-plugin:Obsidian_to_Anki - Scan Vault": true
     }
   },
-  "active": "fd8c687ba3830127",
+  "active": "b53da8e7c0c652a2",
   "lastOpenFiles": [
     "de/fpu/include_f16div/f16dsu_radix4_srt_sqrt_uarch.svg",
     "de/fpu/f16dsu.md",
