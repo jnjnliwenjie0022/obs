@@ -39,7 +39,7 @@ Q[1] = 0 + 1*(4)**(-1) = 1/4
 Ex5: 0.2 = 0 + 2/4 = 1/2
 Q[1] = 0 + 2*(4)**(-1) = 1/2
 ```
-# f16dsu_radix4_dsu
+# dsu
 ## sign
 
 [Signed zero - Wikipedia](https://en.wikipedia.org/wiki/Signed_zero)
@@ -205,15 +205,14 @@ radix4_srt_div_algorithm
 
 1. [[(DIV)Digit Selection for SRT Division and Square Root.pdf#page=1&selection=0,0,1,28|(DIV)Digit Selection for SRT Division and Square Root, page 1]]
 2. [[radix4_srt_div.xlsx]]
-# archive
-## radix2_srt
-https://zhuanlan.zhihu.com/p/271133530
-## pentium
+
+# pentium
 
 - [The Pentium Divison Flaw - Chapter 3 (daviddeley.com)](https://daviddeley.com/pentbug/pentbug3.htm)
 - https://www.righto.com/2024/12/this-die-photo-of-pentium-shows.html
-# other
+# others
 
 - https://projectf.io/posts/square-root-in-verilog/
+- https://zhuanlan.zhihu.com/p/271133530
 
 ![[Pasted image 20250424141100.png]]

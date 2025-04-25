@@ -23,19 +23,19 @@
             }
           },
           {
-            "id": "077aec5bd268ae34",
+            "id": "0cc347015249eeaf",
             "type": "leaf",
             "state": {
               "type": "pdf",
               "state": {
-                "file": "de/fpu/ref_f16dsu/(DSU)Low Latency Floating-Point Division and Square.pdf",
-                "page": 3,
-                "left": -10,
-                "top": 53,
-                "zoom": 1.450980392156863
+                "file": "de/fpu/ref_f16dsu/(DSU)Unified_Digit_Selection_for_Radix-4_Recurrence_Division_and_Square_Root.pdf",
+                "page": 2,
+                "left": -62,
+                "top": 796,
+                "zoom": 1.25
               },
               "icon": "lucide-file-text",
-              "title": "(DSU)Low Latency Floating-Point Division and Square"
+              "title": "(DSU)Unified_Digit_Selection_for_Radix-4_Recurrence_Division_and_Square_Root"
             }
           }
         ],
@@ -98,13 +98,18 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {},
+              "state": {
+                "file": "de/fpu/ref_f16dsu/(DSU)Unified_Digit_Selection_for_Radix-4_Recurrence_Division_and_Square_Root.pdf",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of (DSU)Unified_Digit_Selection_for_Radix-4_Recurrence_Division_and_Square_Root"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       },
       {
         "id": "ce31482b6afb7740",
@@ -203,7 +208,7 @@
       "obsidian-to-anki-plugin:Obsidian_to_Anki - Scan Vault": true
     }
   },
-  "active": "077aec5bd268ae34",
+  "active": "0cc347015249eeaf",
   "lastOpenFiles": [
     "de/fpu/f16dsu.md",
     "de/fpu/ref_f16dsu/(DSU)Low Latency Floating-Point Division and Square.pdf",
