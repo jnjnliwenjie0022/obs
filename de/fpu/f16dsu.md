@@ -82,10 +82,8 @@ Q[1] = 0 + 2*(4)**(-1) = 1/2
 
 ## uarch
 
-注意：用SRT不建議找餘數，餘數在SRT中不好找
-
-ref: [[(DSU)Unified_Digit_Selection_for_Radix-4_Recurrence_Division_and_Square_Root.pdf#page=2&selection=2,0,8,37|(SQRT)Unified_Digit_Selection_for_Radix-4_Recurrence_Division_and_Square_Root, p.2]]
-ref: https://www.youtube.com/watch?v=51nnhi3Mcfk
+- ref: [[(DSU)Unified_Digit_Selection_for_Radix-4_Recurrence_Division_and_Square_Root.pdf#page=2&selection=2,0,8,37|(SQRT)Unified_Digit_Selection_for_Radix-4_Recurrence_Division_and_Square_Root, p.2]]
+- ref: https://www.youtube.com/watch?v=51nnhi3Mcfk
 
  $remainder\ recurrence:r(j)=radix*r(j-1)+f(j)$
 - $r:remainder$
