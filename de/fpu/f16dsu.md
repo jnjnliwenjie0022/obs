@@ -61,6 +61,7 @@ Q[1] = 0 + 2*(4)**(-1) = 1/2
 針對radix4而言
 
 - q_bitwidth = 2 + f(din + 1), f(din + 1)要2的倍數，如果沒有則要補
+
 - q_bitwidth = 2 + (din + 1) + (din + 1) % 2
 - r_bitwidth = 1 + 3 + (din + 1) + (din + 1) % 2
 	- din(f16): 11 (1+10)
