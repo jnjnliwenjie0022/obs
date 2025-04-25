@@ -199,8 +199,26 @@ $q = x^{1/2}$
 		![[(RQ)on_the_fly_redundant_conversion.pdf#page=9&rect=33,312,329,344|(RQ)on_the_fly_redundant_conversion, p.9|500]]
 		![[(RQ)on_the_fly_redundant_conversion.pdf#page=9&rect=186,54,468,148|(RQ)on_the_fly_redundant_conversion, p.9|500]]
 ![[f16dsu_radix4_srt_sqrt.svg]]
-[[f16dsu_radix4_srt_sqrt_uarch.svg]]
+![[f16dsu_radix4_srt_sqrt_uarch.svg]]
 
+```verilog
+module tb;
+integer x;
+real f;
+    initial begin
+        $display("r: %f", $sqrt(3));
+        $display("r: %d", $sqrt(3));
+        $display("r: %d", $floor($sqrt(3)));
+        $finish;
+    end
+endmodule
+```
+
+```
+r: 1.732051
+r: 2
+r: 1
+```
 ### dsu_rqst
 
 - main ref: [[(DSU)Unified_Digit_Selection_for_Radix-4_Recurrence_Division_and_Square_Root.pdf#page=2&selection=2,0,8,37|(SQRT)Unified_Digit_Selection_for_Radix-4_Recurrence_Division_and_Square_Root, p.2]]
