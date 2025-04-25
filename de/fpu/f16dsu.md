@@ -61,7 +61,6 @@ Q[1] = 0 + 2*(4)**(-1) = 1/2
 針對radix4而言
 
 - q_bitwidth = 2 + f(din + 1), f(din + 1)要2的倍數，如果沒有則要補
-
 - q_bitwidth = 2 + (din + 1) + (din + 1) % 2
 - r_bitwidth = 1 + 3 + (din + 1) + (din + 1) % 2
 	- din(f16): 11 (1+10)
@@ -82,6 +81,7 @@ ref: https://www.youtube.com/watch?v=51nnhi3Mcfk
 - $r:remainder$
 - $r(j):partial\ remainder\ at\ j'th\ iteratrion$
 - $j=1,2,3$
+- $f(j)隨著DIV和SQRT改變$
 ### div_uarch
 
 $q = x / d + remainder$
@@ -143,7 +143,7 @@ $q = x^{1/2}$
 		- $1>x>=0.25$
 			- $if\ exp\ is\ even:\ 1>x>=0.5$
 			- $if\ exp\ is\ odd:\ 1>x>=0.25$
-			![[Low Latency Floating-Point Division and Square.pdf#page=4&rect=312,405,570,735|Low Latency Floating-Point Division and Square, p.4 | 500]]
+			![[(DSU)Low Latency Floating-Point Division and Square.pdf#page=4&rect=308,400,574,734|(DSU)Low Latency Floating-Point Division and Square, p.4|500]]
 		- $1>d>=0.5$
 			- $2>2*d=(2*q(j-1)+4^{-j}*q_{j}):=2*q(j-1)>=1$
 			- $1>d=(q(j-1)+4^{-j}*q_{j}/2):=q(j-1)>=0.5$

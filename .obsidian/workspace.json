@@ -21,8 +21,25 @@
               "icon": "lucide-file",
               "title": "f16dsu"
             }
+          },
+          {
+            "id": "077aec5bd268ae34",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "de/fpu/ref_f16dsu/(DSU)Low Latency Floating-Point Division and Square.pdf",
+                "page": 3,
+                "left": -10,
+                "top": 53,
+                "zoom": 1.450980392156863
+              },
+              "icon": "lucide-file-text",
+              "title": "(DSU)Low Latency Floating-Point Division and Square"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -186,11 +203,12 @@
       "obsidian-to-anki-plugin:Obsidian_to_Anki - Scan Vault": true
     }
   },
-  "active": "fd8c687ba3830127",
+  "active": "077aec5bd268ae34",
   "lastOpenFiles": [
-    "de/fpu/ref_f16dsu/(DSU)Low Latency Floating-Point Division and Square.pdf",
-    "de/fpu/ref_f16dsu/Low Latency Floating-Point Division and Square.pdf",
     "de/fpu/f16dsu.md",
+    "de/fpu/ref_f16dsu/(DSU)Low Latency Floating-Point Division and Square.pdf",
+    "Low Latency Floating-Point Division and Square.pdf.md",
+    "de/fpu/ref_f16dsu/Low Latency Floating-Point Division and Square.pdf",
     "de/fpu/include_f16dsu/Pasted image 20250424141100.png",
     "de/v_rule/rule.md",
     "de/fpu/f16mac.md",
@@ -210,7 +228,6 @@
     "de/fpu/include_f16div/radix4_srt_div 1.xlsx",
     "de/fpu/include_f16div/f16dsu_radix4_srt_sqrt_uarch.svg",
     "de/fpu/f16div.md",
-    "de/fpu/ref_f16div/(SQR)Radix-4 Square Root Without Initial PLA.pdf",
     "de/v_rule/ref/Andes_naming_rule.md",
     "de/v_rule/ref/Andes_design_guide.md",
     "de/v_rule/include/Pasted image 20250410143759.png",
@@ -233,7 +250,6 @@
     "dv/dump_multiple_array.md",
     "workflow/capslock2ctrl.md",
     "de/amba_ahb/ahb.md",
-    "synopsys.md",
     "dv/uvm/include/uvm_do_on_pri_with.canvas",
     "uvm_factory.canvas",
     "dv/uvm/include/uvm_factory1.canvas",
