@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "535c4766bc9872f7",
+        "id": "7faa449cbc97a543",
         "type": "tabs",
         "children": [
           {
-            "id": "82d9cbee6f3dcd95",
+            "id": "fd8c687ba3830127",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "de/fpu/f16dsu.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false,
                 "backlinks": false
               },
@@ -42,7 +42,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "srt",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -70,7 +70,7 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": true
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -81,14 +81,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "de/fpu/f16dsu.md",
-                "followCursor": false,
-                "showSearch": false,
-                "searchQuery": ""
-              },
+              "state": {},
               "icon": "lucide-list",
-              "title": "Outline of f16dsu"
+              "title": "Outline"
             }
           }
         ],
@@ -113,7 +108,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 396.5110321044922
+    "width": 458.5,
+    "collapsed": true
   },
   "right": {
     "id": "cb661d0a10776c07",
@@ -129,7 +125,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "de/fctrl/coding_rule.md",
+                "file": "workflow/git/git.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +135,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for coding_rule"
+              "title": "Backlinks for git"
             }
           },
           {
@@ -190,53 +186,53 @@
       "obsidian-to-anki-plugin:Obsidian_to_Anki - Scan Vault": true
     }
   },
-  "active": "82d9cbee6f3dcd95",
+  "active": "fd8c687ba3830127",
   "lastOpenFiles": [
-    "de/ppa/power.md",
-    "de/ppa/spyglass.md",
-    "de/ppa/timing.md",
-    "de/ppa/upf.md",
-    "de/ppa/evaluation.md",
-    "de/ppa/include/Pasted image 20240621182018.png",
-    "de/ppa/include/Pasted image 20240625161622.png",
-    "de/ppa/include/Pasted image 20240826141554.png",
-    "de/ppa/include/Pasted image 20240906170331.png",
-    "de/ppa/include/Pasted image 20240924140655.png",
-    "de/ppa/include/Pasted image 20240625162050.png",
-    "de/ppa/include/Pasted image 20240620171703.png",
-    "de/ppa/include/Pasted image 20240611163742.png",
-    "dv/sv/coding_guideline.md",
-    "dv/sv/iff.md",
-    "dv/sv/wait.md",
-    "de/v_rule/rule.md",
-    "de/v_rule/ref/~$CodingStyle_v1.1.pptx",
+    "de/fpu/ref_f16dsu/Low Latency Floating-Point Division and Square.pdf",
     "de/fpu/f16dsu.md",
-    "de/v_rule/ref/Andes_naming_rule.md",
-    "de/fpu/include_f16dsu/Pasted image 20250416121717.png",
-    "de/fpu/include_f16dsu/Pasted image 20250416121743.png",
-    "dv/coverge/imc_coverage_merge.md",
-    "de/v_rule/ref/~$20201204_Hight_Speed_RTL.pptx",
-    "de/fpu/ref_f16dsu/(DSU)Unified_Digit_Selection_for_Radix-4_Recurrence_Division_and_Square_Root.pdf",
-    "de/storge/ddr.md",
-    "de/fpu/ref_f16div/(RQ)on_the_fly_redundant_conversion.pdf",
-    "conflict-files-obsidian-git.md",
-    "de/fpu/ref_f16dsu/~$FDIV_design_spec_v0.5.pptx",
-    "de/fpu/ref_f16mac/(FMA)Binary Floating Point Fused Multiply Add Unit.pdf",
-    "de/fpu/ref_f16div/Anatomy of the Pentium Bug.pdf",
-    "de/fpu/ref_f16div/~$Alpaca_FPU_Misc_v0.5_20201217.pptx",
-    "de/fpu/ref_f16div/B978-155860798-9%2F50008-7.pdf",
-    "de/fpu/ref_f16div/B978-155860798-9_2F50008-7.pdf",
-    "de/fpu/f16div.md",
-    "workflow/git/git.md",
+    "de/fpu/include_f16dsu/Pasted image 20250424141100.png",
+    "de/v_rule/rule.md",
     "de/fpu/f16mac.md",
-    "de/amba_axi/axi.md",
-    "de/arithmetic/divider.md",
-    "c/c.md",
-    "README.md",
-    "de/v_rule/fctrl.md",
+    "workflow/git/git.md",
+    "conflict-files-obsidian-git.md",
+    "de/fpu/ref_f16div/(SQRT)Unified_Digit_Selection_for_Radix-4_Recurrence_Division_and_Square_Root.pdf",
+    "de/fpu/ref_f16dsu/FDIV_design_spec_v0.5.pptx",
+    "de/fpu/ref_f16dsu/(DSU)Unified_Digit_Selection_for_Radix-4_Recurrence_Division_and_Square_Root.pdf",
+    "de/fpu/ref_f16dsu",
+    "de/fpu/include_f16dsu/radix4_srt_dsu.xlsx",
+    "de/fpu/include_f16dsu/Pasted image 20250416121743.png",
+    "de/fpu/include_f16dsu/Pasted image 20250416121717.png",
+    "de/fpu/include_f16dsu",
+    "de/fpu/include_f16div/f16dsu_radix4_srt_bitwidth.svg",
+    "de/fpu/include_f16div/f16dsu_radix4_srt_sqrt.svg",
+    "de/fpu/ref_f16div/~$FDIV_design_spec_v0.5.pptx",
+    "de/fpu/include_f16div/radix4_srt_div 1.xlsx",
+    "de/fpu/include_f16div/f16dsu_radix4_srt_sqrt_uarch.svg",
+    "de/fpu/f16div.md",
+    "de/fpu/ref_f16div/(SQR)Radix-4 Square Root Without Initial PLA.pdf",
+    "de/v_rule/ref/Andes_naming_rule.md",
     "de/v_rule/ref/Andes_design_guide.md",
-    "de/v_rule/highspeed_coding_rule.md",
-    "de/v/verilog.md",
+    "de/v_rule/include/Pasted image 20250410143759.png",
+    "de/v_rule/include/pipeline.svg",
+    "de/v_rule/include/Pasted image 20250410143820.png",
+    "de/v_rule/include/pending_buffer.svg",
+    "de/v_rule/fctrl.md",
+    "dv/coverge/imc_coverage_merge.md",
+    "de/fctrl/ref/Andes_naming_rule.md",
+    "de/fctrl/coding_rule.md",
+    "c/c.md",
+    "dv/uvm/sequence.md",
+    "Gbakcup.md",
+    "de/fpu/f16macksa.md",
+    "workflow/nvim.md",
+    "workflow/fzf.md",
+    "workflow/eizo.md",
+    "ToDoList.md",
+    "de/arithmetic/booth.md",
+    "dv/dump_multiple_array.md",
+    "workflow/capslock2ctrl.md",
+    "de/amba_ahb/ahb.md",
+    "synopsys.md",
     "dv/uvm/include/uvm_do_on_pri_with.canvas",
     "uvm_factory.canvas",
     "dv/uvm/include/uvm_factory1.canvas",

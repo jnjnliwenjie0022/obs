@@ -140,6 +140,9 @@ $q = x^{1/2}$
 	- $initialize$
 		- $exp\ has\ to\ be\ even$
 		- $1>x>=0.25$
+			- $if\ exp\ is\ even:\ 1>x>=0.5$
+			- $if\ exp\ is\ odd:\ 1>x>=0.25$
+			![[Low Latency Floating-Point Division and Square.pdf#page=4&rect=312,405,570,735|Low Latency Floating-Point Division and Square, p.4 | 500]]
 		- $1>d>=0.5$
 			- $2>2*d=(2*q(j-1)+4^{-j}*q_{j}):=2*q(j-1)>=1$
 			- $1>d=(q(j-1)+4^{-j}*q_{j}/2):=q(j-1)>=0.5$
