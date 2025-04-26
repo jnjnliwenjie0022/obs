@@ -24,13 +24,13 @@ end
 	- others (0)
 - (in tb) 不可以output <= input
 	- input和ouput一定會delay一個cycle, 除非目的就是這個不然一律不建議這個寫法
-- coding style 1
+- example for monior
 
 ```verilog
 @(posedge clk iff (vif.valid && vif.ready));
 item.data = vif.data;
 ```
-- coding style 2
+- example for driver
 
 ```verilog
 vif.data <= item.data;

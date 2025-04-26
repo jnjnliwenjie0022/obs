@@ -44,7 +44,7 @@ Q[1] = 0 + 2*(4)**(-1) = 1/2
 
 [Signed zero - Wikipedia](https://en.wikipedia.org/wiki/Signed_zero)
 
-![[de/fpu/ref_f16mac/code_old_kv/VFPU/FP_design_spec_Larry/FDIV/Study/computer-arithmetic-algorithms-2nd-edition-Behrooz-Parhami.pdf#page=289&rect=116,274,478,361|computer-arithmetic-algorithms-2nd-edition-Behrooz-Parhami, p.289]]
+![[de/fpu/ref_f16mac/code_old_kv/VFPU/FP_design_spec_Larry/FDIV/Study/computer-arithmetic-algorithms-2nd-edition-Behrooz-Parhami.pdf#page=289&rect=116,274,478,361|computer-arithmetic-algorithms-2nd-edition-Behrooz-Parhami, p.289 | 1000]]
 注意:
 - sign(q) = sign(z) ^ sign(d)
 - 找到一組其實就足夠知道其他種組合了，所以集中目標找
