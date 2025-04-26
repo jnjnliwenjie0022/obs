@@ -15,48 +15,22 @@ end
 	- dut input (0+)，必須使用non-blocking (<=)
 		- 因爲input為保證為 (0+)，所以dut output必爲 (0+)，不論dut signal是否為non-blocking/blocking
 	- dut output (0+)
-- (in tb) always @ (posedge clk)内的所有變數 (0)
+- (in tb) always @ (posedge clk)
+	- clk為 (0)
+	- 内部single為 (0+)
 - (in tb) initial begin
 	- dut input (0+)
-	- dut output (0)
+	- dut output (0+)
 	- others (0)
 - (in tb) 不可以output <= input
 	- input和ouput一定會delay一個cycle, 除非目的就是這個不然一律不建議這個寫法
-# rule1
-
-針對clk and rst_n
-
-```verilog
-initial begin
-	clk = 0;
-	forever #10 clk = ~clk;
-end
-```
-
-```verilog
-initial begin
-	rst_n = 1;
-	repeat(10) @(posedge clk);
-	rst_n = 0;
-	repeat(10) @(posedge clk);
-	rst_n = 1;
-end
-```
-
-針對dut output
-
-1. 0 
-2. blocking
+- coding style 1
 
 ```verilog
 @(posedge clk iff (vif.valid && vif.ready));
 item.data = vif.data;
 ```
-
-針對dut input
-
-1. 0+ 
-2. non-blocking
+- coding style 2
 
 ```verilog
 vif.data <= item.data;
