@@ -85,6 +85,8 @@ Q[1] = 0 + 2*(4)**(-1) = 1/2
 - ref: [[(DSU)Unified_Digit_Selection_for_Radix-4_Recurrence_Division_and_Square_Root.pdf#page=2&selection=2,0,8,37|(SQRT)Unified_Digit_Selection_for_Radix-4_Recurrence_Division_and_Square_Root, p.2]]
 - ref: https://www.youtube.com/watch?v=51nnhi3Mcfk
 
+![[f16dsu_radix4_srt_div_uarch.svg]]
+
  $remainder\ recurrence:r(j)=radix*r(j-1)+f(j)$
 - $r:remainder$
 - $r(j):partial\ remainder\ at\ j'th\ iteratrion$
@@ -120,8 +122,6 @@ $q = x / d + remainder$
 		![[(DSU)Unified_Digit_Selection_for_Radix-4_Recurrence_Division_and_Square_Root.pdf#page=5&rect=58,142,217,273|(DSU)Unified_Digit_Selection_for_Radix-4_Recurrence_Division_and_Square_Root, p.5|500]]
 
 ![[f16dsu_radix4_srt_div.svg]]
-
-![[f16dsu_radix4_srt_div_uarch.svg]]
 
 #### truncate_but_borrowin
 
@@ -196,6 +196,7 @@ $q = x^{1/2}$
 		![[(RQ)on_the_fly_redundant_conversion.pdf#page=10&rect=27,512,429,613|(RQ)on_the_fly_redundant_conversion, p.10|500]]
 		![[(RQ)on_the_fly_redundant_conversion.pdf#page=9&rect=33,312,329,344|(RQ)on_the_fly_redundant_conversion, p.9|500]]
 		![[(RQ)on_the_fly_redundant_conversion.pdf#page=9&rect=186,54,468,148|(RQ)on_the_fly_redundant_conversion, p.9|500]]
+
 ![[f16dsu_radix4_srt_sqrt.svg]]
 ![[f16dsu_radix4_srt_sqrt_uarch.svg]]
 
