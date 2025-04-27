@@ -92,7 +92,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       },
       {
         "id": "ce31482b6afb7740",
@@ -113,8 +113,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 458.5,
-    "collapsed": true
+    "width": 458.5
   },
   "right": {
     "id": "cb661d0a10776c07",
@@ -191,7 +190,7 @@
       "obsidian-to-anki-plugin:Obsidian_to_Anki - Scan Vault": true
     }
   },
-  "active": "3acfe197da901deb",
+  "active": "187192ed1f4570c8",
   "lastOpenFiles": [
     "c/c.md",
     "de/fpu/f16dsu.md",

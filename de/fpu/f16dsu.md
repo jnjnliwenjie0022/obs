@@ -198,7 +198,6 @@ $q = x^{1/2}$
 		![[(RQ)on_the_fly_redundant_conversion.pdf#page=9&rect=186,54,468,148|(RQ)on_the_fly_redundant_conversion, p.9|500]]
 
 ![[f16dsu_radix4_srt_sqrt.svg]]
-![[f16dsu_radix4_srt_sqrt_uarch.svg]]
 
 ```verilog
 module tb;
@@ -226,6 +225,8 @@ r: 1
 
 ![[Pasted image 20250416121717.png]]
 ![[Pasted image 20250416121743.png]]
+
+## verification
 ## algorithm
 
 radix4_srt_div_algorithm
