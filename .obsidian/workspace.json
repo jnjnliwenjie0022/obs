@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "de/fpu/f16dsu.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false,
                 "backlinks": false
               },
@@ -193,6 +193,7 @@
   },
   "active": "3acfe197da901deb",
   "lastOpenFiles": [
+    "c/c.md",
     "de/fpu/f16dsu.md",
     "dv/sv/wait.md",
     "dv/sv/sv_rule.md",
@@ -228,7 +229,6 @@
     "dv/coverge/imc_coverage_merge.md",
     "de/fctrl/ref/Andes_naming_rule.md",
     "de/fctrl/coding_rule.md",
-    "c/c.md",
     "dv/uvm/sequence.md",
     "Gbakcup.md",
     "de/fpu/f16macksa.md",
