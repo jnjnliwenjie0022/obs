@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "9eef282436606732",
+        "id": "dbdbee6f05b960c9",
         "type": "tabs",
         "children": [
           {
-            "id": "3acfe197da901deb",
+            "id": "0e37b5f50b0fe37d",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -190,13 +190,13 @@
       "obsidian-to-anki-plugin:Obsidian_to_Anki - Scan Vault": true
     }
   },
-  "active": "3acfe197da901deb",
+  "active": "0e37b5f50b0fe37d",
   "lastOpenFiles": [
+    "financial/蔡森/蔡森-多空轉折一手抓.md",
     "Pasted image 20250427231526.png",
     "Pasted image 20250427225933.png",
     "Pasted image 20250427225904.png",
     "financial/蔡森/Pasted image 20250427214230.png",
-    "financial/蔡森/蔡森-多空轉折一手抓.md",
     "financial/others/Pasted image 20240219013644.png",
     "financial/others/Pasted image 20240122234249.png",
     "financial/others/finmind.md",
@@ -224,7 +224,6 @@
     "de/fpu/include_f16dsu/Pasted image 20250416121743.png",
     "de/fpu/include_f16dsu/Pasted image 20250416121717.png",
     "de/fpu/include_f16dsu",
-    "de/fpu/include_f16div/f16dsu_radix4_srt_bitwidth.svg",
     "de/fpu/f16div.md",
     "de/v_rule/ref/Andes_naming_rule.md",
     "de/v_rule/ref/Andes_design_guide.md",
