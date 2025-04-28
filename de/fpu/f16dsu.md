@@ -73,7 +73,9 @@ Q[1] = 0 + 2*(4)**(-1) = 1/2
 ## uarch
 
 - ref: [[(DSU)Unified_Digit_Selection_for_Radix-4_Recurrence_Division_and_Square_Root.pdf#page=2&selection=2,0,8,37|(SQRT)Unified_Digit_Selection_for_Radix-4_Recurrence_Division_and_Square_Root, p.2]]
+- ref: [[(DSU)Low Latency Floating-Point Division and Square.pdf]]
 - ref: https://www.youtube.com/watch?v=51nnhi3Mcfk
+
 
 ![[f16dsu_radix4_srt_div_uarch.svg]]
 
