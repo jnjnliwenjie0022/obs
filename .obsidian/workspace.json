@@ -6,6 +6,7 @@
       {
         "id": "535c4766bc9872f7",
         "type": "tabs",
+        "dimension": 70.49742710120069,
         "children": [
           {
             "id": "792cb7713dfc60eb",
@@ -27,6 +28,7 @@
       {
         "id": "e872dfe189933271",
         "type": "tabs",
+        "dimension": 29.50257289879931,
         "children": [
           {
             "id": "77a48f7d6c05c152",
@@ -113,7 +115,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       },
       {
         "id": "ce31482b6afb7740",
@@ -212,11 +214,11 @@
       "obsidian-to-anki-plugin:Obsidian_to_Anki - Scan Vault": true
     }
   },
-  "active": "77a48f7d6c05c152",
+  "active": "792cb7713dfc60eb",
   "lastOpenFiles": [
-    "de/fpu/f16dsu.md",
-    "de/fpu/ref_f16dsu/(DSU)Low Latency Floating-Point Division and Square.pdf",
     "de/fpu/ref_f16dsu/(DSU)Unified_Digit_Selection_for_Radix-4_Recurrence_Division_and_Square_Root.pdf",
+    "de/fpu/ref_f16dsu/(DSU)Low Latency Floating-Point Division and Square.pdf",
+    "de/fpu/f16dsu.md",
     "financial/蔡森/蔡森-多空轉折一手抓.md",
     "financial/蔡森/Pasted image 20250427214230.png",
     "financial/蔡森",

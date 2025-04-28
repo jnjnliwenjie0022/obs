@@ -106,8 +106,8 @@ $q = x / d + remainder$
 		- $2>x>=1$
 		- $2>x=4*r0>=1$
 		- $2>q>0.5$
-			- $if\ x>=d\ then\ 2<q<=1$
-			- $if\ x<d\ then\ 1<q<=0.$
+			- $if\ x>=d\ then\ 2>q>1$
+			- $if\ x<d\ then\ 1>q>0.5$
 		- $2d/3>4*r(j-1)>=-2d/3$
 		- $cnt\ init=0$
 		- $q\ init=0$
@@ -149,7 +149,10 @@ $q = x^{1/2}$
 	- $digit\ set\ (q_{j})\ is \ [-2,-1,0,1,2]$
 	- $initialize$
 		- $exp\ has\ to\ be\ even$
-		- $1>x>=0.25$
+		- $2>x>=1$
+			- $if\ exp\ is\ even\ then\ x'=x/4$
+				- $0.5>x'>0.25$
+			- $if\ exp\ is\ odd\ then\ x'=x/2$
 		- $1>d>=0.5$
 			- $2>2*d=(2*q(j-1)+4^{-j}*q_{j}):=2*q(j-1)>=1$
 			- $1>d=(q(j-1)+4^{-j}*q_{j}/2):=q(j-1)>=0.5$
