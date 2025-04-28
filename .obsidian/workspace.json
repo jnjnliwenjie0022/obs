@@ -11,15 +11,16 @@
             "id": "77a48f7d6c05c152",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "de/fpu/f16dsu.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
+                "file": "de/fpu/ref_f16dsu/(DSU)Unified_Digit_Selection_for_Radix-4_Recurrence_Division_and_Square_Root.pdf",
+                "page": 7,
+                "left": -7,
+                "top": 68,
+                "zoom": 2.2855392156862746
               },
-              "icon": "lucide-file",
-              "title": "f16dsu"
+              "icon": "lucide-file-text",
+              "title": "(DSU)Unified_Digit_Selection_for_Radix-4_Recurrence_Division_and_Square_Root"
             }
           }
         ]
@@ -82,13 +83,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "de/fpu/f16dsu.md",
+                "file": "de/fpu/ref_f16dsu/(DSU)Unified_Digit_Selection_for_Radix-4_Recurrence_Division_and_Square_Root.pdf",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of f16dsu"
+              "title": "Outline of (DSU)Unified_Digit_Selection_for_Radix-4_Recurrence_Division_and_Square_Root"
             }
           }
         ],
@@ -192,8 +193,8 @@
   },
   "active": "77a48f7d6c05c152",
   "lastOpenFiles": [
-    "de/fpu/ref_f16div/(SRT)INCORPORATING MULTIPLICATION INTO DIGIT- RECURRENCE DIVISION AND THE SQUARE ROOT.pdf",
     "de/fpu/f16dsu.md",
+    "de/fpu/ref_f16div/(SRT)INCORPORATING MULTIPLICATION INTO DIGIT- RECURRENCE DIVISION AND THE SQUARE ROOT.pdf",
     "de/fpu/ref_f16dsu/(DSU)Low Latency Floating-Point Division and Square Root Unit.pdf",
     "Pasted image 20250428123204.png",
     "de/fpu/ref_f16dsu/(DSU)Unified_Digit_Selection_for_Radix-4_Recurrence_Division_and_Square_Root.pdf",
@@ -233,7 +234,6 @@
     "de/storge/ddr.md",
     "de/fpu/ref_f16div/(RQ)on_the_fly_redundant_conversion.pdf",
     "conflict-files-obsidian-git.md",
-    "de/fpu/ref_f16dsu/~$FDIV_design_spec_v0.5.pptx",
     "de/fpu/f16div.md",
     "workflow/git/git.md",
     "de/fpu/f16mac.md",
