@@ -14,9 +14,9 @@
               "type": "pdf",
               "state": {
                 "file": "de/fpu/ref_f16dsu/(DSU)Unified_Digit_Selection_for_Radix-4_Recurrence_Division_and_Square_Root.pdf",
-                "page": 5,
-                "left": -171,
-                "top": 669,
+                "page": 3,
+                "left": -72,
+                "top": 719,
                 "zoom": 1.5
               },
               "icon": "lucide-file-text",
@@ -42,20 +42,19 @@
             "id": "e0322f90593f524d",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "de/fpu/ref_f16dsu/(DSU)Unified_Digit_Selection_for_Radix-4_Recurrence_Division_and_Square_Root.pdf",
-                "page": 5,
-                "left": -8,
-                "top": 673,
-                "zoom": 1.803921568627451
+                "file": "de/fpu/f16dsu.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
               },
-              "icon": "lucide-file-text",
-              "title": "(DSU)Unified_Digit_Selection_for_Radix-4_Recurrence_Division_and_Square_Root"
+              "icon": "lucide-file",
+              "title": "f16dsu"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -115,13 +114,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "de/fpu/ref_f16dsu/(DSU)Unified_Digit_Selection_for_Radix-4_Recurrence_Division_and_Square_Root.pdf",
+                "file": "de/fpu/f16dsu.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of (DSU)Unified_Digit_Selection_for_Radix-4_Recurrence_Division_and_Square_Root"
+              "title": "Outline of f16dsu"
             }
           }
         ],
@@ -223,11 +222,11 @@
       "obsidian-to-anki-plugin:Obsidian_to_Anki - Scan Vault": true
     }
   },
-  "active": "e0322f90593f524d",
+  "active": "a43768808ddcc7ea",
   "lastOpenFiles": [
-    "de/fpu/ref_f16dsu/(DSU)Low Latency Floating-Point Division and Square Root Unit.pdf",
-    "de/fpu/f16dsu.md",
     "de/fpu/ref_f16dsu/(DSU)Unified_Digit_Selection_for_Radix-4_Recurrence_Division_and_Square_Root.pdf",
+    "de/fpu/f16dsu.md",
+    "de/fpu/ref_f16dsu/(DSU)Low Latency Floating-Point Division and Square Root Unit.pdf",
     "de/fpu/include_f16div/f16dsu_radix4_srt_sqrt_uarch.svg",
     "de/fpu/include_f16div/truncate_deviation.svg",
     "de/fpu/include_f16dsu/~$radix4_srt_dsu.xlsx",

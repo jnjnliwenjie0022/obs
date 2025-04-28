@@ -77,6 +77,8 @@ Q[1] = 0 + 2*(4)**(-1) = 1/2
 
 ![[(SRT)INCORPORATING MULTIPLICATION INTO DIGIT- RECURRENCE DIVISION AND THE SQUARE ROOT.pdf#page=116&rect=98,352,533,563|(SRT)INCORPORATING MULTIPLICATION INTO DIGIT- RECURRENCE DIVISION AND THE SQUARE ROOT, p.101|500]]
 
+
+
 ![[(DSU)Low Latency Floating-Point Division and Square Root Unit.pdf#page=5&rect=46,527,301,644|(DSU)Low Latency Floating-Point Division and Square, p.5|500]]
 
 ## uarch
