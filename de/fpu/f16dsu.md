@@ -126,7 +126,7 @@ $q = x / d + remainder$
 
 #### truncate_but_borrowin
 
-borrowin可以有效減少truncate所造成的誤差，雖然以下的論文mei
+borrowin可以有效減少truncate所造成的誤差，雖然以下的論文沒有borrowin的實作，但是因爲此論文的fraction bit多一個關係，所以誤差可以等效成borrowin的誤差
 
 ![[(DSU)Unified_Digit_Selection_for_Radix-4_Recurrence_Division_and_Square_Root.pdf#page=5&rect=313,160,572,494|(DSU)Unified_Digit_Selection_for_Radix-4_Recurrence_Division_and_Square_Root, p.5|500]]
 
