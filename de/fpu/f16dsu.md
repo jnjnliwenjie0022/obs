@@ -44,7 +44,7 @@ Q[1] = 0 + 2*(4)**(-1) = 1/2
 
 [Signed zero - Wikipedia](https://en.wikipedia.org/wiki/Signed_zero)
 
-![[de/fpu/ref_f16mac/code_old_kv/VFPU/FP_design_spec_Larry/FDIV/Study/computer-arithmetic-algorithms-2nd-edition-Behrooz-Parhami.pdf#page=289&rect=116,274,478,361|computer-arithmetic-algorithms-2nd-edition-Behrooz-Parhami, p.289]]
+![[de/fpu/ref_f16mac/code_old_kv/VFPU/FP_design_spec_Larry/FDIV/Study/computer-arithmetic-algorithms-2nd-edition-Behrooz-Parhami.pdf#page=289&rect=116,274,478,361|computer-arithmetic-algorithms-2nd-edition-Behrooz-Parhami, p.289|1000]]
 注意:
 - sign(q) = sign(z) ^ sign(d)
 - 找到一組其實就足夠知道其他種組合了，所以集中目標找
@@ -126,7 +126,10 @@ $q = x / d + remainder$
 
 #### truncate_but_borrowin
 
-borrowin可以有效減少truncate所造成的誤差
+borrowin可以有效減少truncate所造成的誤差，雖然以下的論文mei
+
+![[(DSU)Unified_Digit_Selection_for_Radix-4_Recurrence_Division_and_Square_Root.pdf#page=5&rect=313,160,572,494|(DSU)Unified_Digit_Selection_for_Radix-4_Recurrence_Division_and_Square_Root, p.5|500]]
+
 ![[(SRT)INCORPORATING MULTIPLICATION INTO DIGIT- RECURRENCE DIVISION AND THE SQUARE ROOT.pdf#page=86&rect=186,276,454,493|(SRT)INCORPORATING MULTIPLICATION INTO DIGIT- RECURRENCE DIVISION AND THE SQUARE ROOT, p.71|500]]
 
 ![[truncate_deviation.svg]]
@@ -198,7 +201,6 @@ $q = x^{1/2}$
 		![[(RQ)on_the_fly_redundant_conversion.pdf#page=9&rect=33,312,329,344|(RQ)on_the_fly_redundant_conversion, p.9|500]]
 		![[(RQ)on_the_fly_redundant_conversion.pdf#page=9&rect=186,54,468,148|(RQ)on_the_fly_redundant_conversion, p.9|500]]
 ![[f16dsu_radix4_srt_sqrt.svg]]
-[[f16dsu_radix4_srt_sqrt_uarch.svg]]
 
 ### dsu_rqst
 
