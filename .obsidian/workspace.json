@@ -37,6 +37,22 @@
               "icon": "lucide-file",
               "title": "f16dsu"
             }
+          },
+          {
+            "id": "e0322f90593f524d",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "de/fpu/ref_f16dsu/(DSU)Low Latency Floating-Point Division and Square Root Unit.pdf",
+                "page": 3,
+                "left": -245,
+                "top": 91,
+                "zoom": 1.3
+              },
+              "icon": "lucide-file-text",
+              "title": "(DSU)Low Latency Floating-Point Division and Square Root Unit"
+            }
           }
         ],
         "currentTab": 1
@@ -210,13 +226,13 @@
   },
   "active": "a43768808ddcc7ea",
   "lastOpenFiles": [
-    "de/fpu/ref_f16dsu/(DSU)Unified_Digit_Selection_for_Radix-4_Recurrence_Division_and_Square_Root.pdf",
+    "de/fpu/ref_f16dsu/(DSU)Low Latency Floating-Point Division and Square Root Unit.pdf",
     "de/fpu/f16dsu.md",
+    "de/fpu/ref_f16dsu/(DSU)Unified_Digit_Selection_for_Radix-4_Recurrence_Division_and_Square_Root.pdf",
     "de/fpu/include_f16div/f16dsu_radix4_srt_sqrt_uarch.svg",
     "de/fpu/include_f16div/truncate_deviation.svg",
     "de/fpu/include_f16dsu/~$radix4_srt_dsu.xlsx",
     "de/fpu/ref_f16div/(SRT)INCORPORATING MULTIPLICATION INTO DIGIT- RECURRENCE DIVISION AND THE SQUARE ROOT.pdf",
-    "de/fpu/ref_f16dsu/(DSU)Low Latency Floating-Point Division and Square Root Unit.pdf",
     "Pasted image 20250428123204.png",
     "financial/蔡森/蔡森-多空轉折一手抓.md",
     "financial/蔡森/Pasted image 20250427214230.png",
