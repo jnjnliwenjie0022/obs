@@ -63,8 +63,14 @@ Q[1] = 0 + 2*(4)**(-1) = 1/2
 - q_bitwidth = 2 + f(din + 1), f(din + 1)要2的倍數，如果沒有則要補
 - q_bitwidth = 2 + (din + 1) + (din + 1) % 2
 - r_bitwidth = 1 + 3 + (din + 1) + (din + 1) % 2
+- DIV cnt: \[0:q_bitwidth/2\]
+- SQRT cnt:  \[1:q_bitwidth/2\]
 	- din(f16): 11 (1+10)
+		- DIV cnt: \[0:6\]
+		- SQRT cnt:  \[1:6\]
 	- din(f32): 24 (1+23)
+		- DIV cnt: \[0:14\]
+		- SQRT cnt:  \[1:14\]
 	- din(f64): 53 (1+52)
 
 ![[(SRT)INCORPORATING MULTIPLICATION INTO DIGIT- RECURRENCE DIVISION AND THE SQUARE ROOT.pdf#page=116&rect=98,352,533,563|(SRT)INCORPORATING MULTIPLICATION INTO DIGIT- RECURRENCE DIVISION AND THE SQUARE ROOT, p.101|500]]
@@ -75,7 +81,6 @@ Q[1] = 0 + 2*(4)**(-1) = 1/2
 - ref: [[(DSU)Unified_Digit_Selection_for_Radix-4_Recurrence_Division_and_Square_Root.pdf#page=2&selection=2,0,8,37|(SQRT)Unified_Digit_Selection_for_Radix-4_Recurrence_Division_and_Square_Root, p.2]]
 - ref: [[(DSU)Low Latency Floating-Point Division and Square.pdf]]
 - ref: https://www.youtube.com/watch?v=51nnhi3Mcfk
-
 
 ![[f16dsu_radix4_srt_div_uarch.svg]]
 

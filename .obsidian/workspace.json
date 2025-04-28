@@ -11,22 +11,6 @@
             "id": "c75171decafd1a06",
             "type": "leaf",
             "state": {
-              "type": "pdf",
-              "state": {
-                "file": "de/fpu/ref_f16dsu/(DSU)Low Latency Floating-Point Division and Square.pdf",
-                "page": 5,
-                "left": -9,
-                "top": 775,
-                "zoom": 1.5943627450980393
-              },
-              "icon": "lucide-file-text",
-              "title": "(DSU)Low Latency Floating-Point Division and Square"
-            }
-          },
-          {
-            "id": "803a7cb55ae8be76",
-            "type": "leaf",
-            "state": {
               "type": "markdown",
               "state": {
                 "file": "de/fpu/f16dsu.md",
@@ -206,11 +190,11 @@
       "obsidian-to-anki-plugin:Obsidian_to_Anki - Scan Vault": true
     }
   },
-  "active": "803a7cb55ae8be76",
+  "active": "c75171decafd1a06",
   "lastOpenFiles": [
-    "de/fpu/ref_f16dsu/(DSU)Unified_Digit_Selection_for_Radix-4_Recurrence_Division_and_Square_Root.pdf",
-    "de/fpu/f16dsu.md",
     "de/fpu/ref_f16dsu/(DSU)Low Latency Floating-Point Division and Square.pdf",
+    "de/fpu/f16dsu.md",
+    "de/fpu/ref_f16dsu/(DSU)Unified_Digit_Selection_for_Radix-4_Recurrence_Division_and_Square_Root.pdf",
     "financial/蔡森/蔡森-多空轉折一手抓.md",
     "financial/蔡森/Pasted image 20250427214230.png",
     "financial/蔡森",
