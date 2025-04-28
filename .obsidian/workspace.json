@@ -8,22 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "77a48f7d6c05c152",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "de/fpu/ref_f16dsu/(DSU)Unified_Digit_Selection_for_Radix-4_Recurrence_Division_and_Square_Root.pdf",
-                "page": 3,
-                "left": -72,
-                "top": 719,
-                "zoom": 1.5
-              },
-              "icon": "lucide-file-text",
-              "title": "(DSU)Unified_Digit_Selection_for_Radix-4_Recurrence_Division_and_Square_Root"
-            }
-          },
-          {
             "id": "a43768808ddcc7ea",
             "type": "leaf",
             "state": {
@@ -53,8 +37,7 @@
               "title": "f16dsu"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
