@@ -216,7 +216,7 @@ $q = x^{1/2}$
 	- 求gloden_r = r
 - SQRT
 	- 求gloden_q = q
-	- 求pattern_x = q0 x q0 + r
+	- 求pattern_x = **q0** * **q0** + r
 # others
 - https://zhuanlan.zhihu.com/p/271133530
 - [[(DIV)Digit Selection for SRT Division and Square Root.pdf#page=1&selection=0,0,1,28|(DIV)Digit Selection for SRT Division and Square Root, page 1]]
