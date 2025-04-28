@@ -1,9 +1,9 @@
-- ref: [直观理解SRT除法，从不恢复余数除法开始！ - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/353010136)
-- ref: [基4 SRT除法器_qds表pd图-CSDN博客](https://blog.csdn.net/zhouxuanyuye/article/details/119514007)
-- ref: [一种基于SRT－8算法的SIMD浮点除法器的设计与实现＊_参考网 (fx361.com)](https://m.fx361.com/news/2014/0323/21598588.html)
-- ref: [Index of /digital_arithmetic/files (ucla.edu)](https://web.cs.ucla.edu/digital_arithmetic/files/)
-- ref: [我校计算机学院（软件学院）周建涛教授课题组在国际顶级期刊发表研究成果-内蒙古大学新闻网 (imu.edu.cn)](https://news.imu.edu.cn/info/1153/41081.htm)
-- ref: [Low-Power Radix-4 Combined Division and Square Root (dtu.dk)](https://www.imm.dtu.dk/~alna/pubs/nl99p02/nl99p02.html)
+ [直观理解SRT除法，从不恢复余数除法开始！ - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/353010136)
+[基4 SRT除法器_qds表pd图-CSDN博客](https://blog.csdn.net/zhouxuanyuye/article/details/119514007)
+[一种基于SRT－8算法的SIMD浮点除法器的设计与实现＊_参考网 (fx361.com)](https://m.fx361.com/news/2014/0323/21598588.html)
+[Index of /digital_arithmetic/files (ucla.edu)](https://web.cs.ucla.edu/digital_arithmetic/files/)
+[我校计算机学院（软件学院）周建涛教授课题组在国际顶级期刊发表研究成果-内蒙古大学新闻网 (imu.edu.cn)](https://news.imu.edu.cn/info/1153/41081.htm)
+[Low-Power Radix-4 Combined Division and Square Root (dtu.dk)](https://www.imm.dtu.dk/~alna/pubs/nl99p02/nl99p02.html)
 
 此爲用於floating point的DSU, 所以會以floating point的特性去設計
 # floating_point_concept
@@ -39,12 +39,12 @@ Q[1] = 0 + 1*(4)**(-1) = 1/4
 Ex5: 0.2 = 0 + 2/4 = 1/2
 Q[1] = 0 + 2*(4)**(-1) = 1/2
 ```
-# dsu
+# f16dsu_radix4_dsu
 ## sign
 
 [Signed zero - Wikipedia](https://en.wikipedia.org/wiki/Signed_zero)
 
-![[de/fpu/ref_f16mac/code_old_kv/VFPU/FP_design_spec_Larry/FDIV/Study/computer-arithmetic-algorithms-2nd-edition-Behrooz-Parhami.pdf#page=289&rect=116,274,478,361|computer-arithmetic-algorithms-2nd-edition-Behrooz-Parhami, p.289 | 1000]]
+![[de/fpu/ref_f16mac/code_old_kv/VFPU/FP_design_spec_Larry/FDIV/Study/computer-arithmetic-algorithms-2nd-edition-Behrooz-Parhami.pdf#page=289&rect=116,274,478,361|computer-arithmetic-algorithms-2nd-edition-Behrooz-Parhami, p.289]]
 注意:
 - sign(q) = sign(z) ^ sign(d)
 - 找到一組其實就足夠知道其他種組合了，所以集中目標找
@@ -63,22 +63,12 @@ Q[1] = 0 + 2*(4)**(-1) = 1/2
 - q_bitwidth = 2 + f(din + 1), f(din + 1)要2的倍數，如果沒有則要補
 - q_bitwidth = 2 + (din + 1) + (din + 1) % 2
 - r_bitwidth = 1 + 3 + (din + 1) + (din + 1) % 2
-- cnt = q_bitwidth/2 - 1
-	- DIV cnt range: 0 to  q_bitwidth/2 - 1
-	- SQRT cnt range: 1 to  q_bitwidth/2 - 1
-	- ex:
-		- din(f16): 11 (1+10)
-			- DIV cnt=\[0:6\]
-			- SQRT cnt=\[1:6\]
-		- din(f32): 24 (1+23)
-			- DIV cnt=\[0:13\]
-			- SQRT cnt=\[1:13\]
-		- din(f64): 53 (1+52)
-			- DIV cnt=\[0:27\]
-			- SQRT cnt=\[1:27\]
+	- din(f16): 11 (1+10)
+	- din(f32): 24 (1+23)
+	- din(f64): 53 (1+52)
 
 ![[(SRT)INCORPORATING MULTIPLICATION INTO DIGIT- RECURRENCE DIVISION AND THE SQUARE ROOT.pdf#page=116&rect=98,352,533,563|(SRT)INCORPORATING MULTIPLICATION INTO DIGIT- RECURRENCE DIVISION AND THE SQUARE ROOT, p.101|500]]
-![[(DSU)Low Latency Floating-Point Division and Square.pdf#page=5&rect=44,530,294,646|(DSU)Low Latency Floating-Point Division and Square, p.5|500]]
+
 
 ## uarch
 
@@ -91,7 +81,6 @@ Q[1] = 0 + 2*(4)**(-1) = 1/2
 - $r:remainder$
 - $r(j):partial\ remainder\ at\ j'th\ iteratrion$
 - $j=1,2,3$
-- $f(j)隨著DIV和SQRT改變$
 ### div_uarch
 
 $q = x / d + remainder$
@@ -149,9 +138,6 @@ $q = x^{1/2}$
 	- $initialize$
 		- $exp\ has\ to\ be\ even$
 		- $1>x>=0.25$
-			- $if\ exp\ is\ even:\ 1>x>=0.5$
-			- $if\ exp\ is\ odd:\ 1>x>=0.25$
-			![[(DSU)Low Latency Floating-Point Division and Square.pdf#page=4&rect=308,400,574,734|(DSU)Low Latency Floating-Point Division and Square, p.4|500]]
 		- $1>d>=0.5$
 			- $2>2*d=(2*q(j-1)+4^{-j}*q_{j}):=2*q(j-1)>=1$
 			- $1>d=(q(j-1)+4^{-j}*q_{j}/2):=q(j-1)>=0.5$
@@ -196,27 +182,9 @@ $q = x^{1/2}$
 		![[(RQ)on_the_fly_redundant_conversion.pdf#page=10&rect=27,512,429,613|(RQ)on_the_fly_redundant_conversion, p.10|500]]
 		![[(RQ)on_the_fly_redundant_conversion.pdf#page=9&rect=33,312,329,344|(RQ)on_the_fly_redundant_conversion, p.9|500]]
 		![[(RQ)on_the_fly_redundant_conversion.pdf#page=9&rect=186,54,468,148|(RQ)on_the_fly_redundant_conversion, p.9|500]]
-
 ![[f16dsu_radix4_srt_sqrt.svg]]
+[[f16dsu_radix4_srt_sqrt_uarch.svg]]
 
-```verilog
-module tb;
-integer x;
-real f;
-    initial begin
-        $display("r: %f", $sqrt(3));
-        $display("r: %d", $sqrt(3));
-        $display("r: %d", $floor($sqrt(3)));
-        $finish;
-    end
-endmodule
-```
-
-```
-r: 1.732051
-r: 2
-r: 1
-```
 ### dsu_rqst
 
 - main ref: [[(DSU)Unified_Digit_Selection_for_Radix-4_Recurrence_Division_and_Square_Root.pdf#page=2&selection=2,0,8,37|(SQRT)Unified_Digit_Selection_for_Radix-4_Recurrence_Division_and_Square_Root, p.2]]
@@ -225,22 +193,21 @@ r: 1
 
 ![[Pasted image 20250416121717.png]]
 ![[Pasted image 20250416121743.png]]
-
-## verification
 ## algorithm
 
 radix4_srt_div_algorithm
 
 1. [[(DIV)Digit Selection for SRT Division and Square Root.pdf#page=1&selection=0,0,1,28|(DIV)Digit Selection for SRT Division and Square Root, page 1]]
 2. [[radix4_srt_div.xlsx]]
-
-# pentium
+# archive
+## radix2_srt
+https://zhuanlan.zhihu.com/p/271133530
+## pentium
 
 - [The Pentium Divison Flaw - Chapter 3 (daviddeley.com)](https://daviddeley.com/pentbug/pentbug3.htm)
 - https://www.righto.com/2024/12/this-die-photo-of-pentium-shows.html
-# others
+# other
 
 - https://projectf.io/posts/square-root-in-verilog/
-- https://zhuanlan.zhihu.com/p/271133530
 
 ![[Pasted image 20250424141100.png]]

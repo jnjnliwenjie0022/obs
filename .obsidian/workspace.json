@@ -8,13 +8,29 @@
         "type": "tabs",
         "children": [
           {
-            "id": "82d9cbee6f3dcd95",
+            "id": "c75171decafd1a06",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "de/fpu/ref_f16dsu/(DSU)Low Latency Floating-Point Division and Square.pdf",
+                "page": 5,
+                "left": -9,
+                "top": 775,
+                "zoom": 1.5943627450980393
+              },
+              "icon": "lucide-file-text",
+              "title": "(DSU)Low Latency Floating-Point Division and Square"
+            }
+          },
+          {
+            "id": "803a7cb55ae8be76",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "de/fpu/f16dsu.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false,
                 "backlinks": false
               },
@@ -22,7 +38,8 @@
               "title": "f16dsu"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -113,7 +130,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 396.5110321044922
+    "width": 396.5110321044922,
+    "collapsed": true
   },
   "right": {
     "id": "cb661d0a10776c07",
@@ -190,8 +208,11 @@
       "obsidian-to-anki-plugin:Obsidian_to_Anki - Scan Vault": true
     }
   },
-  "active": "82d9cbee6f3dcd95",
+  "active": "803a7cb55ae8be76",
   "lastOpenFiles": [
+    "de/fpu/ref_f16dsu/(DSU)Low Latency Floating-Point Division and Square.pdf",
+    "de/fpu/f16dsu.md",
+    "de/fpu/ref_f16dsu/(DSU)Unified_Digit_Selection_for_Radix-4_Recurrence_Division_and_Square_Root.pdf",
     "financial/蔡森/蔡森-多空轉折一手抓.md",
     "financial/蔡森/Pasted image 20250427214230.png",
     "financial/蔡森",
@@ -205,7 +226,6 @@
     "financial/others/finmind.md",
     "financial/others",
     "dv/sv/sv_rule.md",
-    "de/fpu/ref_f16dsu/(DSU)Low Latency Floating-Point Division and Square.pdf",
     "Pasted image 20250428030112.png",
     "Pasted image 20250428010804.png",
     "Pasted image 20250428010745.png",
@@ -224,11 +244,9 @@
     "dv/sv/wait.md",
     "de/v_rule/rule.md",
     "de/v_rule/ref/~$CodingStyle_v1.1.pptx",
-    "de/fpu/f16dsu.md",
     "de/v_rule/ref/Andes_naming_rule.md",
     "dv/coverge/imc_coverage_merge.md",
     "de/v_rule/ref/~$20201204_Hight_Speed_RTL.pptx",
-    "de/fpu/ref_f16dsu/(DSU)Unified_Digit_Selection_for_Radix-4_Recurrence_Division_and_Square_Root.pdf",
     "de/storge/ddr.md",
     "de/fpu/ref_f16div/(RQ)on_the_fly_redundant_conversion.pdf",
     "conflict-files-obsidian-git.md",
@@ -237,7 +255,6 @@
     "workflow/git/git.md",
     "de/fpu/f16mac.md",
     "de/amba_axi/axi.md",
-    "de/arithmetic/divider.md",
     "dv/uvm/include/uvm_do_on_pri_with.canvas",
     "uvm_factory.canvas",
     "dv/uvm/include/uvm_factory1.canvas",
