@@ -209,21 +209,20 @@ $q = x^{1/2}$
 
 ![[Pasted image 20250416121717.png]]
 ![[Pasted image 20250416121743.png]]
-## algorithm
+## verification
 
-radix4_srt_div_algorithm
-
-1. [[(DIV)Digit Selection for SRT Division and Square Root.pdf#page=1&selection=0,0,1,28|(DIV)Digit Selection for SRT Division and Square Root, page 1]]
-2. [[radix4_srt_div.xlsx]]
-# archive
-## radix2_srt
-https://zhuanlan.zhihu.com/p/271133530
-## pentium
-
+- DIV
+	- 求gloden_q = q
+	- 求gloden_r
+- SQRT
+	- 求gloden_q
+	- 求x = q ** 2 + r
+# others
+- https://zhuanlan.zhihu.com/p/271133530
+- [[(DIV)Digit Selection for SRT Division and Square Root.pdf#page=1&selection=0,0,1,28|(DIV)Digit Selection for SRT Division and Square Root, page 1]]
+- [[radix4_srt_div.xlsx]]
+- https://projectf.io/posts/square-root-in-verilog/
 - [The Pentium Divison Flaw - Chapter 3 (daviddeley.com)](https://daviddeley.com/pentbug/pentbug3.htm)
 - https://www.righto.com/2024/12/this-die-photo-of-pentium-shows.html
-# other
-
-- https://projectf.io/posts/square-root-in-verilog/
 
 ![[Pasted image 20250424141100.png]]
