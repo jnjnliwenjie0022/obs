@@ -77,12 +77,12 @@ Q[1] = 0 + 2*(4)**(-1) = 1/2
 
 ![[(SRT)INCORPORATING MULTIPLICATION INTO DIGIT- RECURRENCE DIVISION AND THE SQUARE ROOT.pdf#page=116&rect=98,352,533,563|(SRT)INCORPORATING MULTIPLICATION INTO DIGIT- RECURRENCE DIVISION AND THE SQUARE ROOT, p.101|500]]
 
-![[(DSU)Low Latency Floating-Point Division and Square.pdf#page=5&rect=46,527,301,644|(DSU)Low Latency Floating-Point Division and Square, p.5|500]]
+![[(DSU)Low Latency Floating-Point Division and Square Root Unit.pdf#page=5&rect=46,527,301,644|(DSU)Low Latency Floating-Point Division and Square, p.5|500]]
 
 ## uarch
 
 - ref: [[(DSU)Unified_Digit_Selection_for_Radix-4_Recurrence_Division_and_Square_Root.pdf#page=2&selection=2,0,8,37|(SQRT)Unified_Digit_Selection_for_Radix-4_Recurrence_Division_and_Square_Root, p.2]]
-- ref: [[(DSU)Low Latency Floating-Point Division and Square.pdf]]
+- ref: [[(DSU)Low Latency Floating-Point Division and Square Root Unit.pdf]]
 - ref: https://www.youtube.com/watch?v=51nnhi3Mcfk
 
 ![[f16dsu_radix4_srt_div_uarch.svg]]
