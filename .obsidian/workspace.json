@@ -44,14 +44,14 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "de/fpu/ref_f16dsu/(DSU)Low Latency Floating-Point Division and Square Root Unit.pdf",
-                "page": 1,
-                "left": -35,
-                "top": 229,
-                "zoom": 2.1
+                "file": "de/fpu/ref_f16dsu/(DSU)Unified_Digit_Selection_for_Radix-4_Recurrence_Division_and_Square_Root.pdf",
+                "page": 5,
+                "left": -8,
+                "top": 673,
+                "zoom": 1.803921568627451
               },
               "icon": "lucide-file-text",
-              "title": "(DSU)Low Latency Floating-Point Division and Square Root Unit"
+              "title": "(DSU)Unified_Digit_Selection_for_Radix-4_Recurrence_Division_and_Square_Root"
             }
           }
         ],
@@ -115,13 +115,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "de/fpu/ref_f16dsu/(DSU)Low Latency Floating-Point Division and Square Root Unit.pdf",
+                "file": "de/fpu/ref_f16dsu/(DSU)Unified_Digit_Selection_for_Radix-4_Recurrence_Division_and_Square_Root.pdf",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of (DSU)Low Latency Floating-Point Division and Square Root Unit"
+              "title": "Outline of (DSU)Unified_Digit_Selection_for_Radix-4_Recurrence_Division_and_Square_Root"
             }
           }
         ],
@@ -146,8 +146,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 396.5110321044922,
-    "collapsed": true
+    "width": 396.5110321044922
   },
   "right": {
     "id": "cb661d0a10776c07",
@@ -226,8 +225,8 @@
   },
   "active": "e0322f90593f524d",
   "lastOpenFiles": [
-    "de/fpu/f16dsu.md",
     "de/fpu/ref_f16dsu/(DSU)Low Latency Floating-Point Division and Square Root Unit.pdf",
+    "de/fpu/f16dsu.md",
     "de/fpu/ref_f16dsu/(DSU)Unified_Digit_Selection_for_Radix-4_Recurrence_Division_and_Square_Root.pdf",
     "de/fpu/include_f16div/f16dsu_radix4_srt_sqrt_uarch.svg",
     "de/fpu/include_f16div/truncate_deviation.svg",
