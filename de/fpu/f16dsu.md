@@ -130,8 +130,6 @@ borrowin可以有效減少truncate所造成的誤差，雖然以下的論文沒�
 
 ![[(DSU)Unified_Digit_Selection_for_Radix-4_Recurrence_Division_and_Square_Root.pdf#page=5&rect=313,160,572,494|(DSU)Unified_Digit_Selection_for_Radix-4_Recurrence_Division_and_Square_Root, p.5|500]]
 
-![[(SRT)INCORPORATING MULTIPLICATION INTO DIGIT- RECURRENCE DIVISION AND THE SQUARE ROOT.pdf#page=86&rect=186,276,454,493|(SRT)INCORPORATING MULTIPLICATION INTO DIGIT- RECURRENCE DIVISION AND THE SQUARE ROOT, p.71|500]]
-
 ![[truncate_deviation.svg]]
 
 #### pd_chart

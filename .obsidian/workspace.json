@@ -45,17 +45,17 @@
               "type": "pdf",
               "state": {
                 "file": "de/fpu/ref_f16dsu/(DSU)Low Latency Floating-Point Division and Square Root Unit.pdf",
-                "page": 3,
-                "left": -245,
-                "top": 91,
-                "zoom": 1.3
+                "page": 1,
+                "left": -35,
+                "top": 229,
+                "zoom": 2.1
               },
               "icon": "lucide-file-text",
               "title": "(DSU)Low Latency Floating-Point Division and Square Root Unit"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -115,13 +115,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "de/fpu/f16dsu.md",
+                "file": "de/fpu/ref_f16dsu/(DSU)Low Latency Floating-Point Division and Square Root Unit.pdf",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of f16dsu"
+              "title": "Outline of (DSU)Low Latency Floating-Point Division and Square Root Unit"
             }
           }
         ],
@@ -224,10 +224,10 @@
       "obsidian-to-anki-plugin:Obsidian_to_Anki - Scan Vault": true
     }
   },
-  "active": "a43768808ddcc7ea",
+  "active": "e0322f90593f524d",
   "lastOpenFiles": [
-    "de/fpu/ref_f16dsu/(DSU)Low Latency Floating-Point Division and Square Root Unit.pdf",
     "de/fpu/f16dsu.md",
+    "de/fpu/ref_f16dsu/(DSU)Low Latency Floating-Point Division and Square Root Unit.pdf",
     "de/fpu/ref_f16dsu/(DSU)Unified_Digit_Selection_for_Radix-4_Recurrence_Division_and_Square_Root.pdf",
     "de/fpu/include_f16div/f16dsu_radix4_srt_sqrt_uarch.svg",
     "de/fpu/include_f16div/truncate_deviation.svg",
