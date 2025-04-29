@@ -1,9 +1,14 @@
 # prerequisite
 [[f16dsu]]
 
-# uarch
+# block_diagram
+## rough
 
-![[f16div_uarch.svg]]
+![[f16div_uarch_rough.svg]]
+
+## detail
+
+![[f16div_uarch_detail.svg]]
 
 ## dz_exception
 [[de/fpu/spec/IEEE754-2019.pdf#page=54&selection=4,0,7,1|IEEE754-2019, page 54]]

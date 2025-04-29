@@ -1,11 +1,11 @@
 # uarch
 ## ref
-[ucb-bar/berkeley-softfloat-3: SoftFloat release 3 (github.com)](https://github.com/ucb-bar/berkeley-softfloat-3/tree/master)
-[Building an FPU In Verilog, Introduction](https://www.youtube.com/watch?v=rYkVdJnVJFQ&list=PLlO9sSrh8HrwcDHAtwec1ycV-m50nfUVs&index=2&ab_channel=ChrisLarsen)
-[IEEE-754 Floating Point Converter (h-schmidt.net)](https://www.h-schmidt.net/FloatConverter/IEEE754.html)
-[IEEE 754 Calculator](http://weitz.de/ieee/)
-[What Every Computer Scientist Should Know About Floating-Point Arithmetic](https://docs.oracle.com/cd/E19957-01/806-3568/ncg_goldberg.html)
-[Lecture notes - Floating Point Appreciation (wisc.edu)](https://pages.cs.wisc.edu/~markhill/cs354/Fall2008/notes/flpt.apprec.html)
+- ref: [ucb-bar/berkeley-softfloat-3: SoftFloat release 3 (github.com)](https://github.com/ucb-bar/berkeley-softfloat-3/tree/master)
+- ref: [Building an FPU In Verilog, Introduction](https://www.youtube.com/watch?v=rYkVdJnVJFQ&list=PLlO9sSrh8HrwcDHAtwec1ycV-m50nfUVs&index=2&ab_channel=ChrisLarsen)
+- ref: [IEEE-754 Floating Point Converter (h-schmidt.net)](https://www.h-schmidt.net/FloatConverter/IEEE754.html)
+- ref: [IEEE 754 Calculator](http://weitz.de/ieee/)
+- ref: [What Every Computer Scientist Should Know About Floating-Point Arithmetic](https://docs.oracle.com/cd/E19957-01/806-3568/ncg_goldberg.html)
+- ref: [Lecture notes - Floating Point Appreciation (wisc.edu)](https://pages.cs.wisc.edu/~markhill/cs354/Fall2008/notes/flpt.apprec.html)
 ## block_diagram
 ![[fma_uarch.svg]]
 
