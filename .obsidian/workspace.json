@@ -4,34 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "57e9990c872c09de",
+        "id": "dbdbee6f05b960c9",
         "type": "tabs",
         "children": [
           {
-            "id": "d78bd79c3b7b4f3d",
+            "id": "0e37b5f50b0fe37d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "de/fpu/f16mac.md",
-                "mode": "preview",
+                "file": "financial/蔡森/蔡森-多空轉折一手抓.md",
+                "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "f16mac"
-            }
-          },
-          {
-            "id": "694736be49cf32a6",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "de/fpu/include_f16mac/fma_uarch.svg"
-              },
-              "icon": "lucide-image",
-              "title": "fma_uarch"
+              "title": "蔡森-多空轉折一手抓"
             }
           }
         ]
@@ -54,7 +42,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "srt",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -82,7 +70,7 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": true
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -94,12 +82,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "financial/蔡森/蔡森-多空轉折一手抓.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of 蔡森-多空轉折一手抓"
             }
           }
         ],
@@ -124,7 +113,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 396.5110321044922
+    "width": 458.5
   },
   "right": {
     "id": "cb661d0a10776c07",
@@ -140,7 +129,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "de/fctrl/coding_rule.md",
+                "file": "workflow/git/git.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -150,7 +139,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for coding_rule"
+              "title": "Backlinks for git"
             }
           },
           {
@@ -201,54 +190,54 @@
       "obsidian-to-anki-plugin:Obsidian_to_Anki - Scan Vault": true
     }
   },
-  "active": "d78bd79c3b7b4f3d",
+  "active": "0e37b5f50b0fe37d",
   "lastOpenFiles": [
-    "de/fpu/include_f16mac/fma_uarch.svg",
-    "de/fpu/include_f16mac/fma_yz_original.svg",
-    "de/fpu/include_f16mac/fma_yz.svg",
-    "de/fpu/f16div.md",
-    "de/fpu/f16mac.md",
-    "de/fpu/include_f16div/f16div_frd_rne_correction.svg",
-    "de/fpu/include_f16mac/frd_rne_correction.svg",
-    "de/fpu/include_f16mac/frd_rne_correction_with_ksa.svg",
-    "de/fpu/include_f16mac/fma_rounding.svg",
-    "de/fpu/include_f16mac/fma_inverted_csa.svg",
-    "de/fpu/include_f16div/f16div_uarch_detail.svg",
-    "de/fpu/include_f16div/f16div_uarch_rough.svg",
-    "de/fpu/include_f16dsu/Pasted image 20240320191739.png",
-    "de/fpu/spec/IEEE754-2019.pdf",
-    "de/fpu/f16dsu.md",
-    "de/fpu/ref_f16dsu/~$FDIV_design_spec_v0.5.pptx",
-    "workflow/git/git.md",
-    "de/fpu/ref_f16dsu/(DSU)Unified_Digit_Selection_for_Radix-4_Recurrence_Division_and_Square_Root.pdf",
-    "de/fpu/ref_f16dsu/(DSU)Low Latency Floating-Point Division and Square Root Unit.pdf",
-    "de/fpu/include_f16dsu/~$radix4_srt_dsu.xlsx",
-    "de/fpu/ref_f16div/(SRT)INCORPORATING MULTIPLICATION INTO DIGIT- RECURRENCE DIVISION AND THE SQUARE ROOT.pdf",
+    "de/fpu/include_f16dsu/valid_pd_diagram.svg",
+    "de/fpu/include_f16dsu/truncate_deviation.svg",
+    "de/fpu/include_f16dsu/radix4_srt_div.xlsx",
+    "de/fpu/include_f16dsu/f16dsu_radix4_srt_sqrt_uarch.svg",
+    "de/fpu/include_f16dsu/f16dsu_radix4_srt_sqrt.svg",
+    "de/fpu/include_f16dsu/f16dsu_radix4_srt_div_uarch.svg",
+    "de/fpu/include_f16dsu/f16dsu_radix4_srt_div.svg",
+    "de/fpu/include_f16dsu/f16dsu_radix4_srt_bitwidth.svg",
+    "de/fpu/include_f16dsu/Pasted image 20240408233252.png",
+    "de/fpu/include_f16dsu/Pasted image 20240402171635.png",
+    "de/fpu/include_f16dsu/Pasted image 20240328000055.png",
+    "de/fpu/include_f16dsu/Pasted image 20240327235758.png",
     "financial/蔡森/蔡森-多空轉折一手抓.md",
-    "financial/蔡森",
-    "financial/others/總體經濟.md",
-    "financial/others/隨機漫步理論分析.md",
-    "financial/others/tradingview.txt",
-    "financial/others/RSI分析.md",
-    "financial/others/humanaction.pdf",
+    "ToDoList.md",
+    "de/fpu/f16div.md",
+    "de/fpu/f16dsu.md",
+    "de/fpu/f16mac.md",
+    "de/fpu/f16mis.md",
+    "de/mdu/mdu.md",
+    "de/fpu/ref_f16div/(DIV)Digit Selection for SRT Division and Square Root.pdf",
+    "de/fpu/ref_f16dsu/(DSU)Low Latency Floating-Point Division and Square Root Unit.pdf",
     "financial/others/finmind.md",
     "financial/others",
-    "dv/sv/sv_rule.md",
-    "Low Latency Floating-Point Division and Square.pdf.md",
-    "de/ppa/power.md",
-    "de/ppa/spyglass.md",
-    "de/ppa/timing.md",
-    "de/ppa/upf.md",
-    "de/ppa/evaluation.md",
-    "dv/sv/coding_guideline.md",
-    "dv/sv/iff.md",
+    "financial/蔡森/Untitled.md",
+    "financial/蔡森",
+    "c/c.md",
     "dv/sv/wait.md",
+    "dv/sv/sv_rule.md",
+    "de/fpu/ref_f16dsu/(DSU)Low Latency Floating-Point Division and Square.pdf",
+    "de/fpu/ref_f16dsu/(DSU)Unified_Digit_Selection_for_Radix-4_Recurrence_Division_and_Square_Root.pdf",
+    "Low Latency Floating-Point Division and Square.pdf.md",
+    "de/fpu/ref_f16dsu/Low Latency Floating-Point Division and Square.pdf",
     "de/v_rule/rule.md",
-    "de/v_rule/ref/Andes_naming_rule.md",
-    "dv/coverge/imc_coverage_merge.md",
-    "de/storge/ddr.md",
+    "workflow/git/git.md",
     "conflict-files-obsidian-git.md",
-    "de/amba_axi/axi.md",
+    "de/fpu/ref_f16div/(SQRT)Unified_Digit_Selection_for_Radix-4_Recurrence_Division_and_Square_Root.pdf",
+    "de/fpu/ref_f16dsu/FDIV_design_spec_v0.5.pptx",
+    "de/v_rule/ref/Andes_naming_rule.md",
+    "de/v_rule/ref/Andes_design_guide.md",
+    "de/v_rule/fctrl.md",
+    "dv/coverge/imc_coverage_merge.md",
+    "de/fctrl/ref/Andes_naming_rule.md",
+    "de/fctrl/coding_rule.md",
+    "dv/uvm/sequence.md",
+    "Gbakcup.md",
+    "de/fpu/f16macksa.md",
     "dv/uvm/include/uvm_do_on_pri_with.canvas",
     "uvm_factory.canvas",
     "dv/uvm/include/uvm_factory1.canvas",
