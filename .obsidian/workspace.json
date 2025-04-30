@@ -26,12 +26,15 @@
             "id": "694736be49cf32a6",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "de/fpu/include_f16mac/fma_uarch.svg"
+                "file": "de/fpu/f16macksa.md",
+                "mode": "preview",
+                "source": false,
+                "backlinks": false
               },
-              "icon": "lucide-image",
-              "title": "fma_uarch"
+              "icon": "lucide-file",
+              "title": "f16macksa"
             }
           }
         ]
@@ -203,11 +206,12 @@
   },
   "active": "d78bd79c3b7b4f3d",
   "lastOpenFiles": [
-    "de/fpu/f16mac.md",
+    "de/fpu/f16macksa.md",
+    "de/fpu/f16div.md",
     "de/fpu/include_f16mac/fma_uarch.svg",
+    "de/fpu/f16mac.md",
     "de/fpu/include_f16mac/fma_yz_original.svg",
     "de/fpu/include_f16mac/fma_yz.svg",
-    "de/fpu/f16div.md",
     "de/fpu/include_f16div/f16div_frd_rne_correction.svg",
     "de/fpu/include_f16mac/frd_rne_correction.svg",
     "de/fpu/include_f16mac/frd_rne_correction_with_ksa.svg",
