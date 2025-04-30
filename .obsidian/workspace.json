@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "de/fpu/f16div.md",
+                "file": "de/fpu/f16mac.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "f16div"
+              "title": "f16mac"
             }
           },
           {
@@ -206,9 +206,9 @@
   },
   "active": "d78bd79c3b7b4f3d",
   "lastOpenFiles": [
+    "de/fpu/f16div.md",
     "de/v_rule/rule.md",
     "dv/sv/sv_rule.md",
-    "de/fpu/f16div.md",
     "de/fpu/f16macksa.md",
     "de/fpu/include_f16mac/fma_uarch.svg",
     "de/fpu/f16mac.md",
