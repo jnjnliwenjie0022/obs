@@ -8,22 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "d78bd79c3b7b4f3d",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "de/fpu/ref_f16mac/archive/FPU Generator for Design Space Exploration.pdf",
-                "page": 1,
-                "left": -8,
-                "top": 796,
-                "zoom": 1.803921568627451
-              },
-              "icon": "lucide-file-text",
-              "title": "FPU Generator for Design Space Exploration"
-            }
-          },
-          {
             "id": "694736be49cf32a6",
             "type": "leaf",
             "state": {
@@ -205,8 +189,18 @@
       "obsidian-to-anki-plugin:Obsidian_to_Anki - Scan Vault": true
     }
   },
-  "active": "19a60b1e44f4e87a",
+  "active": "694736be49cf32a6",
   "lastOpenFiles": [
+    "de/arbiter/ref/an_arbiter_weighted.pdf",
+    "de/arbiter/ref/CN102087637B.pdf",
+    "de/arbiter/ref/an_arbiter_strict.pdf",
+    "de/arbiter/ref/an_arbiter_fairness.pdf",
+    "de/arbiter/ref/an_arbiter_dynamic.pdf",
+    "de/arbiter/ref/an_arbiter_fairness.pdf - 捷徑.lnk",
+    "de/arbiter/ref/an_arbiter_dynamic.pdf - 捷徑.lnk",
+    "de/arbiter/ref/verify arbiter.pptx",
+    "de/arbiter/arbiter.md",
+    "de/fpu/ref_f16mac/archive/FPU Generator for Design Space Exploration.pdf",
     "de/fpu/ref_f16mac/Floating-Point Multiply-Add-Fused with Reduced Latency.pptx",
     "de/fpu/f16dsu.md",
     "de/v_rule/rule.md",
@@ -225,21 +219,12 @@
     "de/fpu/include_f16mac/fma_inverted_csa.svg",
     "de/fpu/include_f16div/f16div_uarch_detail.svg",
     "de/fpu/include_f16div/f16div_uarch_rough.svg",
-    "de/fpu/spec/IEEE754-2019.pdf",
     "workflow/git/git.md",
-    "de/fpu/ref_f16dsu/(DSU)Unified_Digit_Selection_for_Radix-4_Recurrence_Division_and_Square_Root.pdf",
-    "de/fpu/ref_f16dsu/(DSU)Low Latency Floating-Point Division and Square Root Unit.pdf",
-    "de/fpu/include_f16dsu/~$radix4_srt_dsu.xlsx",
-    "de/fpu/ref_f16div/(SRT)INCORPORATING MULTIPLICATION INTO DIGIT- RECURRENCE DIVISION AND THE SQUARE ROOT.pdf",
     "financial/蔡森/蔡森-多空轉折一手抓.md",
-    "financial/蔡森",
     "financial/others/總體經濟.md",
     "financial/others/隨機漫步理論分析.md",
-    "financial/others/tradingview.txt",
     "financial/others/RSI分析.md",
-    "financial/others/humanaction.pdf",
     "financial/others/finmind.md",
-    "financial/others",
     "Low Latency Floating-Point Division and Square.pdf.md",
     "de/ppa/power.md",
     "de/ppa/spyglass.md",
@@ -252,7 +237,6 @@
     "de/v_rule/ref/Andes_naming_rule.md",
     "dv/coverge/imc_coverage_merge.md",
     "de/storge/ddr.md",
-    "conflict-files-obsidian-git.md",
     "dv/uvm/include/uvm_do_on_pri_with.canvas",
     "uvm_factory.canvas",
     "dv/uvm/include/uvm_factory1.canvas",
