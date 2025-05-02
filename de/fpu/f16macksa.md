@@ -115,7 +115,9 @@ $C_{in} = 0$的kogge_stone
 一般而言kogge_stone_prefix_adder不會實作cin, cin要另外處理
 
 $C_{in} \neq 0$的kogge_stone
+
 $G_{m:m} = G_{m} = a_{i} \land b_{i}$
+
 $P_{m:m} = P_{m} = a_{i} \oplus b_{i}$
 
 ![[kogge_stone_cin.svg]]
