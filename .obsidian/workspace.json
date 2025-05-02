@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "de/fpu/f16mac.md",
+                "file": "de/fpu/f16dsu.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "f16mac"
+              "title": "f16dsu"
             }
           }
         ]
@@ -191,9 +191,9 @@
   },
   "active": "694736be49cf32a6",
   "lastOpenFiles": [
+    "de/fpu/f16mac.md",
     "de/fpu/f16div.md",
     "de/fpu/f16dsu.md",
-    "de/fpu/f16mac.md",
     "de/fpu/f16macksa.md",
     "de/fpu/ref_f16mac/【HDL系列】Kogge-Stone加法器原理与设计_kogge stone-CSDN博客.pdf",
     "de/arbiter/ref/an_arbiter_weighted.pdf",

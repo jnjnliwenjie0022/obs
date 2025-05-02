@@ -1,9 +1,9 @@
- [直观理解SRT除法，从不恢复余数除法开始！ - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/353010136)
-[基4 SRT除法器_qds表pd图-CSDN博客](https://blog.csdn.net/zhouxuanyuye/article/details/119514007)
-[一种基于SRT－8算法的SIMD浮点除法器的设计与实现＊_参考网 (fx361.com)](https://m.fx361.com/news/2014/0323/21598588.html)
-[Index of /digital_arithmetic/files (ucla.edu)](https://web.cs.ucla.edu/digital_arithmetic/files/)
-[我校计算机学院（软件学院）周建涛教授课题组在国际顶级期刊发表研究成果-内蒙古大学新闻网 (imu.edu.cn)](https://news.imu.edu.cn/info/1153/41081.htm)
-[Low-Power Radix-4 Combined Division and Square Root (dtu.dk)](https://www.imm.dtu.dk/~alna/pubs/nl99p02/nl99p02.html)
+- [直观理解SRT除法，从不恢复余数除法开始！ - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/353010136)
+- [基4 SRT除法器_qds表pd图-CSDN博客](https://blog.csdn.net/zhouxuanyuye/article/details/119514007)
+- [一种基于SRT－8算法的SIMD浮点除法器的设计与实现＊_参考网 (fx361.com)](https://m.fx361.com/news/2014/0323/21598588.html)
+- [Index of /digital_arithmetic/files (ucla.edu)](https://web.cs.ucla.edu/digital_arithmetic/files/)
+- [我校计算机学院（软件学院）周建涛教授课题组在国际顶级期刊发表研究成果-内蒙古大学新闻网 (imu.edu.cn)](https://news.imu.edu.cn/info/1153/41081.htm)
+- [Low-Power Radix-4 Combined Division and Square Root (dtu.dk)](https://www.imm.dtu.dk/~alna/pubs/nl99p02/nl99p02.html)
 
 此爲用於floating point的DSU, 所以會以floating point的特性去設計
 # floating_point_concept
