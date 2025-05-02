@@ -34,18 +34,15 @@ wire p1_flag_nx = ~p1_flag_clr & (p1_flag_set | p1_flag);
 ```
 # pipeline_reset
 
-```
-2008 >   assign eb_fetch_cnt_en = eb_fetch_cnt_incr | eb_fetch_cnt_reset;
-   1         assign eb_fetch_cnt_nx = eb_fetch_cnt_reset ? {MSHR_CTW_WIDTH{1'b0}} : eb_fetch_cnt + const_1[MSHR_CTW_WIDTH-1:0];
-   2         assign eb_fetch_cnt_incr = eb_fetch_req & mshr_evict_fetch_grant[i];
-   3         assign eb_fetch_cnt_reset = mshr_entry_retire[i] & mshr_entry_retire_grant[i];
-   4 >   always @(posedge clk or negedge reset_n) begin
-   5 >   >   if (!reset_n)
-   6 >   >   >   eb_fetch_cnt <= {MSHR_CTW_WIDTH{1'b0}};
-   7 >   >   else if (eb_fetch_cnt_en)
-	eb_fetch_cnt <= eb_fetch_cnt_nx;
-   9 >   end
-
+```verilog
+wire p1_cnt_reset = 
+wire p1_cnt_en = 
+wire p1_cnt_nx = p1_cnt_reset ? 
+always @ (posedge clk or negedge resetn)
+	if (!resetn)
+		p1_cnt <= 'd0;
+	else if (p1_cnt_en)
+		p1_cnt <= p1_cnt_nx;
 ```
 # pending_buffer
 ![[pending_buffer.svg]]
