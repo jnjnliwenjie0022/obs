@@ -11,15 +11,16 @@
             "id": "d78bd79c3b7b4f3d",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "de/fpu/f16dsu.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
+                "file": "de/fpu/ref_f16mac/archive/FPU Generator for Design Space Exploration.pdf",
+                "page": 1,
+                "left": -8,
+                "top": 796,
+                "zoom": 1.803921568627451
               },
-              "icon": "lucide-file",
-              "title": "f16dsu"
+              "icon": "lucide-file-text",
+              "title": "FPU Generator for Design Space Exploration"
             }
           },
           {
@@ -204,12 +205,13 @@
       "obsidian-to-anki-plugin:Obsidian_to_Anki - Scan Vault": true
     }
   },
-  "active": "d78bd79c3b7b4f3d",
+  "active": "19a60b1e44f4e87a",
   "lastOpenFiles": [
-    "de/fpu/f16div.md",
+    "de/fpu/ref_f16mac/Floating-Point Multiply-Add-Fused with Reduced Latency.pptx",
     "de/fpu/f16dsu.md",
     "de/v_rule/rule.md",
     "de/fpu/ref_f16dsu/~$FDIV_design_spec_v0.5.pptx",
+    "de/fpu/f16div.md",
     "de/fpu/f16mac.md",
     "dv/sv/sv_rule.md",
     "de/fpu/f16macksa.md",
