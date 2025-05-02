@@ -32,6 +32,10 @@ wire p1_flag_set = ...
 wire p1_flag_clr = ...
 wire p1_flag_nx = ~p1_flag_clr & (p1_flag_set | p1_flag);
 ```
+# pipeline_reset
+
+```
+```
 # pending_buffer
 ![[pending_buffer.svg]]
 ```verilog
