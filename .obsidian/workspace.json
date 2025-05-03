@@ -92,7 +92,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       },
       {
         "id": "ce31482b6afb7740",
@@ -190,8 +190,10 @@
       "obsidian-to-anki-plugin:Obsidian_to_Anki - Scan Vault": true
     }
   },
-  "active": "8cb3b947f548a8b1",
+  "active": "19a60b1e44f4e87a",
   "lastOpenFiles": [
+    "de/v_rule/include/pipeline_init.svg",
+    "de/v_rule/include/pipeline - Copy.svg",
     "Pasted image 20250427231526.png",
     "Pasted image 20250428004713.png",
     "de/fpu/f16macksa.md",
@@ -214,8 +216,6 @@
     "de/fpu/include_f16mac/frd_rne_correction.svg",
     "de/fpu/include_f16mac/frd_rne_correction_with_ksa.svg",
     "de/fpu/include_f16mac/fma_rounding.svg",
-    "de/fpu/include_f16mac/fma_inverted_csa.svg",
-    "de/fpu/include_f16div/f16div_uarch_detail.svg",
     "de/fpu/spec/IEEE754-2019.pdf",
     "workflow/git/git.md",
     "de/fpu/ref_f16dsu/(DSU)Unified_Digit_Selection_for_Radix-4_Recurrence_Division_and_Square_Root.pdf",
