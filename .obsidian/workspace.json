@@ -113,7 +113,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 396.5110321044922
+    "width": 200
   },
   "right": {
     "id": "cb661d0a10776c07",
@@ -190,7 +190,7 @@
       "obsidian-to-anki-plugin:Obsidian_to_Anki - Scan Vault": true
     }
   },
-  "active": "68ed1577d19a437d",
+  "active": "8cb3b947f548a8b1",
   "lastOpenFiles": [
     "Pasted image 20250427231526.png",
     "Pasted image 20250428004713.png",
