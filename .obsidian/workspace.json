@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "de/v_rule/fctrl.md",
+                "file": "de/fpu/f16mac.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "fctrl"
+              "title": "f16mac"
             }
           }
         ]
@@ -42,7 +42,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "faster",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -91,8 +91,7 @@
               "title": "Outline of fctrl"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       },
       {
         "id": "ce31482b6afb7740",
@@ -190,8 +189,9 @@
       "obsidian-to-anki-plugin:Obsidian_to_Anki - Scan Vault": true
     }
   },
-  "active": "19a60b1e44f4e87a",
+  "active": "68ed1577d19a437d",
   "lastOpenFiles": [
+    "de/v_rule/fctrl.md",
     "de/v_rule/ref/vc_mshr.v",
     "de/v_rule/include/pipeline_init.svg",
     "de/v_rule/include/pipeline - Copy.svg",
@@ -219,7 +219,6 @@
     "de/fpu/spec/IEEE754-2019.pdf",
     "workflow/git/git.md",
     "de/fpu/ref_f16dsu/(DSU)Unified_Digit_Selection_for_Radix-4_Recurrence_Division_and_Square_Root.pdf",
-    "de/fpu/ref_f16dsu/(DSU)Low Latency Floating-Point Division and Square Root Unit.pdf",
     "financial/蔡森/蔡森-多空轉折一手抓.md",
     "financial/others/總體經濟.md",
     "financial/others/隨機漫步理論分析.md",
