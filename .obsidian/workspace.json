@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "de/fpu/f16mac.md",
+                "file": "de/v_rule/fctrl.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "f16mac"
+              "title": "fctrl"
             }
           }
         ]
@@ -42,7 +42,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "faster",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -91,7 +91,8 @@
               "title": "Outline of fctrl"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       },
       {
         "id": "ce31482b6afb7740",
@@ -191,7 +192,11 @@
   },
   "active": "68ed1577d19a437d",
   "lastOpenFiles": [
+    "de/v_rule/rule.md",
+    "de/format.md",
     "de/v_rule/fctrl.md",
+    "de/v/verilog.md",
+    "de/fpu/f16mac.md",
     "de/v_rule/ref/vc_mshr.v",
     "de/v_rule/include/pipeline_init.svg",
     "de/v_rule/include/pipeline - Copy.svg",
@@ -206,9 +211,7 @@
     "de/arbiter/ref/an_arbiter_strict.pdf",
     "de/arbiter/ref/an_arbiter_fairness.pdf",
     "de/fpu/f16div.md",
-    "de/v_rule/rule.md",
     "de/fpu/ref_f16dsu/~$FDIV_design_spec_v0.5.pptx",
-    "de/fpu/f16mac.md",
     "dv/sv/sv_rule.md",
     "de/fpu/include_f16mac/fma_uarch.svg",
     "de/fpu/include_f16mac/fma_yz_original.svg",
@@ -235,8 +238,6 @@
     "dv/sv/wait.md",
     "de/v_rule/ref/Andes_naming_rule.md",
     "dv/coverge/imc_coverage_merge.md",
-    "de/storge/ddr.md",
-    "conflict-files-obsidian-git.md",
     "dv/uvm/include/uvm_do_on_pri_with.canvas",
     "uvm_factory.canvas",
     "dv/uvm/include/uvm_factory1.canvas",
