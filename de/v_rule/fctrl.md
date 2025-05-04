@@ -32,18 +32,12 @@ wire p1_flag_set = ...
 wire p1_flag_clr = ...
 wire p1_flag_nx = ~p1_flag_clr & (p1_flag_set | p1_flag);
 ```
-# pipeline_reset
+# pipeline_init
 
-```verilog
-wire p1_cnt_reset = 
-wire p1_cnt_en = 
-wire p1_cnt_nx = p1_cnt_reset ? 
-always @ (posedge clk or negedge resetn)
-	if (!resetn)
-		p1_cnt <= 'd0;
-	else if (p1_cnt_en)
-		p1_cnt <= p1_cnt_nx;
-```
+- ref: [[vc_mshr.v]]
+
+![[pipeline_init.svg]]
+
 # pending_buffer
 ![[pending_buffer.svg]]
 ```verilog

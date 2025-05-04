@@ -192,6 +192,7 @@
   },
   "active": "19a60b1e44f4e87a",
   "lastOpenFiles": [
+    "de/v_rule/ref/vc_mshr.v",
     "de/v_rule/include/pipeline_init.svg",
     "de/v_rule/include/pipeline - Copy.svg",
     "Pasted image 20250427231526.png",
@@ -215,7 +216,6 @@
     "de/fpu/include_f16div/f16div_frd_rne_correction.svg",
     "de/fpu/include_f16mac/frd_rne_correction.svg",
     "de/fpu/include_f16mac/frd_rne_correction_with_ksa.svg",
-    "de/fpu/include_f16mac/fma_rounding.svg",
     "de/fpu/spec/IEEE754-2019.pdf",
     "workflow/git/git.md",
     "de/fpu/ref_f16dsu/(DSU)Unified_Digit_Selection_for_Radix-4_Recurrence_Division_and_Square_Root.pdf",
