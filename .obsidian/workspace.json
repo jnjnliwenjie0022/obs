@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "de/fpu/f16macksa.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false,
                 "backlinks": false
               },
@@ -192,8 +192,8 @@
   "active": "06aa79ea7f6831b9",
   "lastOpenFiles": [
     "de/fpu/f16mac.md",
-    "de/fpu/include_f16mac/fma_uarch_with_ksa.svg",
     "de/fpu/f16macksa.md",
+    "de/fpu/include_f16mac/fma_uarch_with_ksa.svg",
     "de/fpu/include_f16mac/fma_uarch.svg",
     "de/fpu/f16dsu.md",
     "de/v_rule/ref/vc_mshr.v",
