@@ -106,7 +106,7 @@ RISC-V Spec
 IEEE Spec
 [Numerical behavior of NVIDIA tensor cores [PeerJ]](https://peerj.com/articles/cs-330/)
 [IEEE 754 - Wikipedia](https://en.wikipedia.org/wiki/IEEE_754)
-1. RE(rounds to nearest, ties to even): rounding toward even
+1. RE(rounds to nearest, ties to even): rounding toward even: 四捨五入偶數
 2. RA(rounds to nearest, ties away from zero): 四捨五入
 	=RMM(round to nearest, ties to max magnitude)
 4. RD(rounds down): rounding toward -**∞**
