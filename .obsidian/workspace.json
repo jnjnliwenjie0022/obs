@@ -8,18 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "694736be49cf32a6",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "de/fpu/include_f16mac/fma_uarch.svg"
-              },
-              "icon": "lucide-image",
-              "title": "fma_uarch"
-            }
-          },
-          {
             "id": "06aa79ea7f6831b9",
             "type": "leaf",
             "state": {
@@ -31,8 +19,7 @@
               "title": "fma_uarch_with_ksa"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -203,6 +190,7 @@
   "lastOpenFiles": [
     "de/fpu/f16macksa.md",
     "de/fpu/include_f16mac/fma_uarch.svg",
+    "de/fpu/include_f16mac/fma_uarch_with_ksa.svg",
     "de/fpu/f16mac.md",
     "de/fpu/f16dsu.md",
     "de/v_rule/ref/vc_mshr.v",
@@ -227,7 +215,6 @@
     "de/fpu/include_f16mac/frd_rne_correction_with_ksa.svg",
     "de/fpu/include_f16mac/fma_rounding.svg",
     "de/fpu/include_f16mac/fma_inverted_csa.svg",
-    "de/fpu/include_f16div/f16div_uarch_detail.svg",
     "workflow/git/git.md",
     "financial/蔡森/蔡森-多空轉折一手抓.md",
     "financial/others/總體經濟.md",
