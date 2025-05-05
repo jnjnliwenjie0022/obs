@@ -11,12 +11,15 @@
             "id": "06aa79ea7f6831b9",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "de/fpu/include_f16mac/fma_uarch_with_ksa.svg"
+                "file": "de/fpu/f16mac.md",
+                "mode": "preview",
+                "source": false,
+                "backlinks": false
               },
-              "icon": "lucide-image",
-              "title": "fma_uarch_with_ksa"
+              "icon": "lucide-file",
+              "title": "f16mac"
             }
           }
         ]
@@ -188,9 +191,9 @@
   },
   "active": "06aa79ea7f6831b9",
   "lastOpenFiles": [
+    "de/fpu/include_f16mac/fma_uarch_with_ksa.svg",
     "de/fpu/f16macksa.md",
     "de/fpu/include_f16mac/fma_uarch.svg",
-    "de/fpu/include_f16mac/fma_uarch_with_ksa.svg",
     "de/fpu/f16mac.md",
     "de/fpu/f16dsu.md",
     "de/v_rule/ref/vc_mshr.v",
