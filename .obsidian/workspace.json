@@ -37,8 +37,7 @@
               "title": "f16div"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -206,8 +205,9 @@
       "obsidian-to-anki-plugin:Obsidian_to_Anki - Scan Vault": true
     }
   },
-  "active": "4a6803c51c7c5c73",
+  "active": "68ed1577d19a437d",
   "lastOpenFiles": [
+    "de/fpu/f16div.md",
     "de/fpu/f16mac.md",
     "de/fpu/ref_f16mac/(FMA)Binary Floating Point Fused Multiply Add Unit.pdf",
     "de/v_rule/fctrl.md",
@@ -227,7 +227,6 @@
     "de/arbiter/ref/an_arbiter_weighted.pdf",
     "de/arbiter/ref/an_arbiter_strict.pdf",
     "de/arbiter/ref/an_arbiter_fairness.pdf",
-    "de/fpu/f16div.md",
     "de/fpu/ref_f16dsu/~$FDIV_design_spec_v0.5.pptx",
     "dv/sv/sv_rule.md",
     "de/fpu/include_f16mac/fma_uarch.svg",
