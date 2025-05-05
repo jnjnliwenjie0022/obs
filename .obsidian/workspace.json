@@ -4,25 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "03802cb62e2f6abb",
+        "id": "57e9990c872c09de",
         "type": "tabs",
         "children": [
           {
-            "id": "68ed1577d19a437d",
+            "id": "694736be49cf32a6",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "de/v_rule/fctrl.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
+                "file": "de/fpu/include_f16mac/fma_uarch.svg"
               },
-              "icon": "lucide-file",
-              "title": "fctrl"
+              "icon": "lucide-image",
+              "title": "fma_uarch"
+            }
+          },
+          {
+            "id": "06aa79ea7f6831b9",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "de/fpu/include_f16mac/fma_uarch_with_ksa.svg"
+              },
+              "icon": "lucide-image",
+              "title": "fma_uarch_with_ksa"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -82,13 +92,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "de/v_rule/fctrl.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of fctrl"
+              "title": "Outline"
             }
           }
         ],
@@ -113,7 +122,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 396.5110321044922
   },
   "right": {
     "id": "cb661d0a10776c07",
@@ -190,38 +199,36 @@
       "obsidian-to-anki-plugin:Obsidian_to_Anki - Scan Vault": true
     }
   },
-  "active": "68ed1577d19a437d",
+  "active": "06aa79ea7f6831b9",
   "lastOpenFiles": [
-    "de/v_rule/rule.md",
-    "de/format.md",
-    "de/v_rule/fctrl.md",
-    "de/v/verilog.md",
+    "de/fpu/f16macksa.md",
+    "de/fpu/include_f16mac/fma_uarch.svg",
     "de/fpu/f16mac.md",
+    "de/fpu/f16dsu.md",
     "de/v_rule/ref/vc_mshr.v",
     "de/v_rule/include/pipeline_init.svg",
-    "de/v_rule/include/pipeline - Copy.svg",
-    "Pasted image 20250427231526.png",
-    "Pasted image 20250428004713.png",
-    "de/fpu/f16macksa.md",
-    "de/arbiter/ref/an_arbiter_dynamic.pdf",
-    "de/fpu/f16dsu.md",
-    "de/fpu/ref_f16mac/Floating-Point Multiply-Add-Fused with Reduced Latency.pptx",
-    "de/arbiter/ref/verify arbiter.pptx",
+    "de/fpu/f16div.md",
+    "de/fpu/ref_f16mac/【HDL系列】Kogge-Stone加法器原理与设计_kogge stone-CSDN博客.pdf",
     "de/arbiter/ref/an_arbiter_weighted.pdf",
+    "de/arbiter/ref/CN102087637B.pdf",
     "de/arbiter/ref/an_arbiter_strict.pdf",
     "de/arbiter/ref/an_arbiter_fairness.pdf",
-    "de/fpu/f16div.md",
-    "de/fpu/ref_f16dsu/~$FDIV_design_spec_v0.5.pptx",
+    "de/arbiter/ref/an_arbiter_dynamic.pdf",
+    "de/arbiter/ref/an_arbiter_fairness.pdf - 捷徑.lnk",
+    "de/arbiter/ref/an_arbiter_dynamic.pdf - 捷徑.lnk",
+    "de/arbiter/ref/verify arbiter.pptx",
+    "de/arbiter/arbiter.md",
+    "de/v_rule/rule.md",
     "dv/sv/sv_rule.md",
-    "de/fpu/include_f16mac/fma_uarch.svg",
     "de/fpu/include_f16mac/fma_yz_original.svg",
     "de/fpu/include_f16mac/fma_yz.svg",
     "de/fpu/include_f16div/f16div_frd_rne_correction.svg",
     "de/fpu/include_f16mac/frd_rne_correction.svg",
     "de/fpu/include_f16mac/frd_rne_correction_with_ksa.svg",
-    "de/fpu/spec/IEEE754-2019.pdf",
+    "de/fpu/include_f16mac/fma_rounding.svg",
+    "de/fpu/include_f16mac/fma_inverted_csa.svg",
+    "de/fpu/include_f16div/f16div_uarch_detail.svg",
     "workflow/git/git.md",
-    "de/fpu/ref_f16dsu/(DSU)Unified_Digit_Selection_for_Radix-4_Recurrence_Division_and_Square_Root.pdf",
     "financial/蔡森/蔡森-多空轉折一手抓.md",
     "financial/others/總體經濟.md",
     "financial/others/隨機漫步理論分析.md",
@@ -238,6 +245,7 @@
     "dv/sv/wait.md",
     "de/v_rule/ref/Andes_naming_rule.md",
     "dv/coverge/imc_coverage_merge.md",
+    "de/storge/ddr.md",
     "dv/uvm/include/uvm_do_on_pri_with.canvas",
     "uvm_factory.canvas",
     "dv/uvm/include/uvm_factory1.canvas",
