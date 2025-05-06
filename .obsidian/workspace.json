@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "de/fpu/f16dsu.md",
+                "file": "de/fpu/f16mac.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "f16dsu"
+              "title": "f16mac"
             }
           }
         ]
@@ -191,11 +191,11 @@
   },
   "active": "06aa79ea7f6831b9",
   "lastOpenFiles": [
+    "de/fpu/f16dsu.md",
     "de/fpu/f16macksa.md",
     "de/fpu/f16mac.md",
     "de/fpu/include_f16mac/fma_uarch_with_ksa.svg",
     "de/fpu/include_f16mac/fma_uarch.svg",
-    "de/fpu/f16dsu.md",
     "de/v_rule/ref/vc_mshr.v",
     "de/v_rule/include/pipeline_init.svg",
     "de/fpu/f16div.md",
