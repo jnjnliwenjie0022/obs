@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "de/fpu/f16mis.md",
+                "file": "de/fpu/f16mac.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "f16mis"
+              "title": "f16mac"
             }
           }
         ]
@@ -192,6 +192,8 @@
   },
   "active": "4a6803c51c7c5c73",
   "lastOpenFiles": [
+    "de/fpu/f16div.md",
+    "de/fpu/f16mis.md",
     "de/fpu/ref_f16mis/~$Alpaca_FPU_Misc_v0.5_20201217.pptx",
     "de/fpu/f16mac.md",
     "workflow/nvim.md",
@@ -202,7 +204,6 @@
     "de/fpu/ref_f16mis",
     "de/fpu/f16dsu.md",
     "de/fpu/f16macksa.md",
-    "de/fpu/f16div.md",
     "de/fpu/ref_f16mac/(FMA)Binary Floating Point Fused Multiply Add Unit.pdf",
     "de/v_rule/fctrl.md",
     "de/v_rule/rule.md",
@@ -218,7 +219,6 @@
     "de/arbiter/ref/verify arbiter.pptx",
     "de/arbiter/ref/an_arbiter_weighted.pdf",
     "de/arbiter/ref/an_arbiter_strict.pdf",
-    "de/arbiter/ref/an_arbiter_fairness.pdf",
     "dv/sv/sv_rule.md",
     "de/fpu/include_f16mac/fma_uarch.svg",
     "de/fpu/include_f16mac/fma_yz_original.svg",
