@@ -81,7 +81,7 @@ Qx = 瞬間短路時間 \*  瞬間短路電流
 | Wire Load                                     | Yes              | N/A                      | Yes                       | N/A           |
 | Input_Transition_Time (input訊號轉換時間)           | N/A              | 正比 **(先進製成非綫性)**         | 正比 **(先進製成非綫性)**          | N/A           |
 | Output_Capacitation                           | 正比               | N/A                      | 反比 **(先進製成非綫性)**          | N/A           |
-| Tr                                            | 正比               | 正比                       | 正比                        | N/A           |
+| Tr                                            | 正比(0->1 or 1->1) | 正比                       | 正比                        | N/A           |
 | V                                             | 正比               | 正比                       | 正比                        | 正比            |
 | Vth                                           | N/A              | N/A                      | N/A                       | 反比            |
 
