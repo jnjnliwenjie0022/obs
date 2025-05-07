@@ -127,9 +127,9 @@ IEEE Spec
 # fast_comparator
 ## csa_based_faster_comparator
 ```verilog
-Let A, B, K
-A and B can be negative but A + B must be positive
+A and B can be negative but A + B must be positive, positive means that >= 0
 K must be positive
+如果A和B有經過CSA，也是保證 A + B must be positive
 // fast comparator method 1
 A+B < K
 => A+B-K < 0
