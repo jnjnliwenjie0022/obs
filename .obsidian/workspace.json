@@ -58,7 +58,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "perl",
+                "query": "fast_com",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -107,8 +107,7 @@
               "title": "Outline of fctrl"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       },
       {
         "id": "ce31482b6afb7740",
@@ -206,7 +205,7 @@
       "obsidian-to-anki-plugin:Obsidian_to_Anki - Scan Vault": true
     }
   },
-  "active": "6fc7b6bc6506949c",
+  "active": "bbf0212cf2e79727",
   "lastOpenFiles": [
     "dv/sv/sv_rule.md",
     "de/ppa/power.md",
