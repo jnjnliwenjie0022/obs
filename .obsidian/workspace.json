@@ -37,8 +37,7 @@
               "title": "f16mac"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -205,7 +204,7 @@
       "obsidian-to-anki-plugin:Obsidian_to_Anki - Scan Vault": true
     }
   },
-  "active": "bbf0212cf2e79727",
+  "active": "4a6803c51c7c5c73",
   "lastOpenFiles": [
     "dv/sv/sv_rule.md",
     "de/ppa/power.md",
