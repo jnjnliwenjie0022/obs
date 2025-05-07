@@ -127,7 +127,9 @@ IEEE Spec
 # fast_comparator
 ## csa_based_faster_comparator
 ```verilog
-Let A, B, K without sign bit
+Let A, B, K
+A and B can be negative but A + B must be positive
+K must be positive
 // fast comparator method 1
 A+B < K
 => A+B-K < 0
