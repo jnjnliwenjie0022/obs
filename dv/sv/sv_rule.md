@@ -1,4 +1,5 @@
-[verilog blocking & non-blocking](https://www.chipverify.com/verilog/verilog-blocking-non-blocking-statements)
+ref: [verilog blocking & non-blocking](https://www.chipverify.com/verilog/verilog-blocking-non-blocking-statements)
+
 - (in tb) clk and resetn (0)
 
 ```verilog
