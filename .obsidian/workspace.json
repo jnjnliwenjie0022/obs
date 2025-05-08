@@ -37,7 +37,8 @@
               "title": "f16div"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -206,15 +207,15 @@
       "obsidian-to-anki-plugin:Obsidian_to_Anki - Scan Vault": true
     }
   },
-  "active": "caa7eba8c14cb272",
+  "active": "920578b38f23bd6d",
   "lastOpenFiles": [
-    "de/fpu/f16mac.md",
+    "de/fpu/f16dsu.md",
     "de/fpu/f16div.md",
+    "de/fpu/f16macksa.md",
+    "de/fpu/f16mac.md",
     "de/fpu/include_f16div/f16div_frd_rne_correction_standard_rouding_algorithm.svg",
     "de/fpu/include_f16div/f16div_frd_rne_correction.svg",
     "de/fpu/include_f16div/f16div_frd_rne_correction_yz_algorithm.svg",
-    "de/fpu/f16dsu.md",
-    "de/fpu/f16macksa.md",
     "dv/sv/sv_rule.md",
     "de/ppa/power.md",
     "de/fpu/f16mis.md",
