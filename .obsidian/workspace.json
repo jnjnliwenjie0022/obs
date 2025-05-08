@@ -4,41 +4,25 @@
     "type": "split",
     "children": [
       {
-        "id": "0a8da7944e14c93c",
+        "id": "03802cb62e2f6abb",
         "type": "tabs",
         "children": [
           {
-            "id": "caa7eba8c14cb272",
+            "id": "4a6803c51c7c5c73",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "de/fpu/f16macksa.md",
+                "file": "de/fpu/f16div.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "f16macksa"
-            }
-          },
-          {
-            "id": "920578b38f23bd6d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ToDoList.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "ToDoList"
+              "title": "f16div"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -58,7 +42,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "faster",
+                "query": "perl",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -129,8 +113,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 708.5,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "cb661d0a10776c07",
@@ -207,17 +190,12 @@
       "obsidian-to-anki-plugin:Obsidian_to_Anki - Scan Vault": true
     }
   },
-  "active": "920578b38f23bd6d",
+  "active": "4a6803c51c7c5c73",
   "lastOpenFiles": [
-    "de/fpu/f16div.md",
-    "de/fpu/f16dsu.md",
-    "de/fpu/f16macksa.md",
     "de/fpu/f16mac.md",
-    "de/fpu/include_f16div/f16div_frd_rne_correction_standard_rouding_algorithm.svg",
-    "de/fpu/include_f16div/f16div_frd_rne_correction.svg",
     "de/fpu/include_f16div/f16div_frd_rne_correction_yz_algorithm.svg",
-    "dv/sv/sv_rule.md",
-    "de/ppa/power.md",
+    "de/fpu/include_f16div/f16div_frd_rne_correction_standard_rouding_algorithm.svg",
+    "de/fpu/f16div.md",
     "de/fpu/f16mis.md",
     "de/fpu/ref_f16mis/~$Alpaca_FPU_Misc_v0.5_20201217.pptx",
     "workflow/nvim.md",
@@ -226,6 +204,8 @@
     "de/v_rule/ref/Andes_design_guide.md",
     "de/fpu/ref_f16mis/Alpaca_FPU_Misc_v0.5_20201217.pptx",
     "de/fpu/ref_f16mis",
+    "de/fpu/f16dsu.md",
+    "de/fpu/f16macksa.md",
     "de/fpu/ref_f16mac/(FMA)Binary Floating Point Fused Multiply Add Unit.pdf",
     "de/v_rule/fctrl.md",
     "de/v_rule/rule.md",
@@ -241,9 +221,11 @@
     "de/arbiter/ref/verify arbiter.pptx",
     "de/arbiter/ref/an_arbiter_weighted.pdf",
     "de/arbiter/ref/an_arbiter_strict.pdf",
+    "dv/sv/sv_rule.md",
     "de/fpu/include_f16mac/fma_uarch.svg",
     "de/fpu/include_f16mac/fma_yz_original.svg",
     "de/fpu/include_f16mac/fma_yz.svg",
+    "de/fpu/include_f16div/f16div_frd_rne_correction.svg",
     "workflow/git/git.md",
     "financial/蔡森/蔡森-多空轉折一手抓.md",
     "financial/others/總體經濟.md",
@@ -251,6 +233,7 @@
     "financial/others/RSI分析.md",
     "financial/others/finmind.md",
     "Low Latency Floating-Point Division and Square.pdf.md",
+    "de/ppa/power.md",
     "de/ppa/spyglass.md",
     "de/ppa/timing.md",
     "de/ppa/upf.md",
