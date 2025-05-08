@@ -31,5 +31,5 @@
 
 ## arith_exp
 ![[f16div_exp.svg]]
-## frd_rne_correction
+## frd_rne_correction_yz
 ![[f16div_frd_rne_correction.svg]]
