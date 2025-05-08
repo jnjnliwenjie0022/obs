@@ -1,28 +1,29 @@
 # prerequisite
+
 [[f16dsu]]
 
 # block_diagram
 ## rough
-- p1_rdone
-	- dsu generates r_s and r_c
-	- r = r_s + r_c
-- p1_qdone
-	- dsu generates q0 and q0_minus
-	- sticky from r
-	- sticky from q_r
-### P2_S1
-1. dsu generate q0 and q1
-2. generate r
-3. generate r_sign
-4. generate sticky from r
-
-### P2_S2
-1. generate q by r_sign
-2. generate arith_exp by  
-3. generate sticky from q
 
 ![[f16div_uarch_rough.svg]]
 
+- p0
+	- x
+- p1_rdone
+	- dsu generates r_s and r_c
+	- sqrt_arith_exp
+	- div_arith_exp
+- p1_qdone
+	- dsu generates q0 and q0_minus
+	- r = r_s + r_c
+	- remainder sign bit to select q0 or q0_minus
+	- remainder sticky
+	- adjust arith_exp (minus 1)
+	- adjust quotient (left shift 1b)
+	- subnorm detect
+	- quotient right shift
+	- quotient right shift sticky
+- p2
 ## detail
 
 ![[f16div_uarch_detail.svg]]
