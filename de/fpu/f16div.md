@@ -29,6 +29,7 @@
 2. generate arith_exp by  
 3. generate sticky from q
 
-## arith_exp_subnorm_detect
+## arith_exp
 ![[f16div_exp.svg]]
+## frd_rne_correction
 ![[f16div_frd_rne_correction.svg]]
