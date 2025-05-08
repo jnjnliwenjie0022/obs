@@ -37,8 +37,7 @@
               "title": "f16dsu"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -205,8 +204,9 @@
       "obsidian-to-anki-plugin:Obsidian_to_Anki - Scan Vault": true
     }
   },
-  "active": "920578b38f23bd6d",
+  "active": "caa7eba8c14cb272",
   "lastOpenFiles": [
+    "de/fpu/f16dsu.md",
     "de/fpu/f16mac.md",
     "de/fpu/f16div.md",
     "de/fpu/f16macksa.md",
@@ -220,7 +220,6 @@
     "de/v_rule/ref/Andes_design_guide.md",
     "de/fpu/ref_f16mis/Alpaca_FPU_Misc_v0.5_20201217.pptx",
     "de/fpu/ref_f16mis",
-    "de/fpu/f16dsu.md",
     "de/fpu/ref_f16mac/(FMA)Binary Floating Point Fused Multiply Add Unit.pdf",
     "de/v_rule/fctrl.md",
     "de/v_rule/rule.md",
