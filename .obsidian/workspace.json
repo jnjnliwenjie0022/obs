@@ -11,16 +11,15 @@
             "id": "4a6803c51c7c5c73",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "de/ppa/ref/poster.pdf",
-                "page": 1,
-                "left": -42,
-                "top": 1731,
-                "zoom": 0.4866898148148148
+                "file": "CV.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
               },
-              "icon": "lucide-file-text",
-              "title": "poster"
+              "icon": "lucide-file",
+              "title": "CV"
             }
           },
           {
@@ -224,6 +223,8 @@
   },
   "active": "4a6803c51c7c5c73",
   "lastOpenFiles": [
+    "de/ppa/ref/poster.pdf",
+    "CV.md",
     "de/ppa/ref/lecture15.pdf",
     "de/ppa/ref/iccad.2011.6105405.pdf",
     "de/ppa/ref/Domain-Specific Architecture AI for Future Tech.pdf",
@@ -247,7 +248,6 @@
     "dv/sw/script.md",
     "de/v_rule/ref/Andes_design_guide.md",
     "de/fpu/ref_f16mis/Alpaca_FPU_Misc_v0.5_20201217.pptx",
-    "de/fpu/ref_f16mis",
     "de/fpu/f16dsu.md",
     "de/v_rule/fctrl.md",
     "de/v_rule/rule.md",
@@ -269,7 +269,6 @@
     "financial/others/RSI分析.md",
     "financial/others/finmind.md",
     "Low Latency Floating-Point Division and Square.pdf.md",
-    "de/ppa/timing.md",
     "dv/uvm/include/uvm_do_on_pri_with.canvas",
     "uvm_factory.canvas",
     "dv/uvm/include/uvm_factory1.canvas",
