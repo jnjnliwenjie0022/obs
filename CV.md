@@ -188,10 +188,9 @@
 
   \section{Summary}
     \begin{itemize}[itemsep=-2pt, parsep=1pt, leftmargin=30pt]
-      \item[\ding{118}] 5+ years of working experience in digital IC design, team management.
-      \item[\ding{118}] 5+ years of working experience in system-level verification and FPGA prototype.
-      \item[\ding{118}] 3+ years of working experience in UVM block-level verification.
-      \item[\ding{118}] Build up the team and success in signing off IP with customers.
+      \item[\ding{118}] 7+ years of working experience in digital IC design and team management.
+      \item[\ding{118}] 7+ years of working experience in verification with UVM-ML/UVM-SV framework and FPGA prototyping.
+      \item[\ding{118}] Build up the team from scratch and success in silicon-proven IP and signoff.
     \end{itemize}
 
   %--------%
@@ -221,7 +220,14 @@
   \headingBf{ANDES TECHNOLOGY CORPORATION}{Hsinchu City, Taiwan}
   \headingIt{Deputy Manager}{2022/03 –- Present}
   \begin{itemize}[itemsep=-2px, parsep=1pt, leftmargin=30pt] \vspace{-10pt}
+  
     \item[\ding{118}] Project leader with 11 members in RD-Computation Acceleration Division
+    \begin{itemize}[itemsep=-2px, parsep=1pt,leftmargin=10pt] \vspace{-6pt}
+      \item[$\bullet$] \textbf{Build up the ACCeleration (ACC) team in RD-Computation Acceleration Division from scratch}.
+      \item[$\bullet$] \textbf{Success in silicon-proven IP and sign off with customers and receive the loyalty and license fee.}
+      \item[$\bullet$] Collaborate with the hardware, algorithm, application, marketing, SA, compiler and architecture teams.
+    \end{itemize} \vspace{-4pt}
+    
     \item[\ding{118}] Project: Andes Deep Learning Accelerator I400 (v1.0), I370 (v1.0/2.0) and I350 (v1.0/1.1/2.0)
     \begin{itemize}[itemsep=-2px, parsep=1pt,leftmargin=10pt] \vspace{-6pt}
       \item[$\bullet$] Responsible for architecture design and implementation for in-house DLA with float16/int32/int16/int8 arithmetic. 
@@ -306,7 +312,7 @@
 
     \vspace{5pt}
      
-    \item[{}] \textbf{Wen‐Jie Li}and Shanq-Jang Ruan, ``Energy‐Efficient Fast Convolution Algorithm for Deep Convolutional Neural Networks based on FPGA,'' in \textit{VLSI Design/CAD Symposium}, 2019/08/06.
+    \item[{}] \textbf{Wen‐Jie Li} and Shanq-Jang Ruan, ``Energy‐Efficient Fast Convolution Algorithm for Deep Convolutional Neural Networks based on FPGA,'' in \textit{VLSI Design/CAD Symposium}, 2019/08/06.
   \end{itemize} \vspace{-8pt}
   
 
