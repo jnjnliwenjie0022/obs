@@ -107,7 +107,8 @@
               "title": "Outline of fctrl"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       },
       {
         "id": "ce31482b6afb7740",
@@ -128,7 +129,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 708.5,
+    "collapsed": true
   },
   "right": {
     "id": "cb661d0a10776c07",
@@ -207,8 +209,11 @@
   },
   "active": "920578b38f23bd6d",
   "lastOpenFiles": [
-    "de/fpu/f16mac.md",
+    "de/fpu/include_f16div/f16div_frd_rne_correction_standard_rouding_algorithm.svg",
+    "de/fpu/include_f16div/f16div_frd_rne_correction.svg",
+    "de/fpu/include_f16div/f16div_frd_rne_correction_yz_algorithm.svg",
     "de/fpu/f16div.md",
+    "de/fpu/f16mac.md",
     "de/fpu/f16dsu.md",
     "de/fpu/f16macksa.md",
     "dv/sv/sv_rule.md",
@@ -239,9 +244,7 @@
     "de/fpu/include_f16mac/fma_uarch.svg",
     "de/fpu/include_f16mac/fma_yz_original.svg",
     "de/fpu/include_f16mac/fma_yz.svg",
-    "de/fpu/include_f16div/f16div_frd_rne_correction.svg",
     "de/fpu/include_f16mac/frd_rne_correction.svg",
-    "de/fpu/include_f16mac/frd_rne_correction_with_ksa.svg",
     "workflow/git/git.md",
     "financial/蔡森/蔡森-多空轉折一手抓.md",
     "financial/others/總體經濟.md",
@@ -252,7 +255,6 @@
     "de/ppa/spyglass.md",
     "de/ppa/timing.md",
     "de/ppa/upf.md",
-    "de/ppa/evaluation.md",
     "dv/uvm/include/uvm_do_on_pri_with.canvas",
     "uvm_factory.canvas",
     "dv/uvm/include/uvm_factory1.canvas",

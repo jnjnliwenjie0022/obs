@@ -31,5 +31,12 @@
 
 ## arith_exp
 ![[f16div_exp.svg]]
-## frd_rne_correction_yz
-![[f16div_frd_rne_correction.svg]]
+## frd_rne_correction
+### standard_rounding_algorithm
+![[f16div_frd_rne_correction_standard_rouding_algorithm.svg]]
+### yz_algorithm
+
+1. rounding前如果計算太過複雜，則需要yz_algorithm
+2. rounding前如果就有ovf，則需要yz_algorithm
+
+![[f16div_frd_rne_correction_yz_algorithm.svg]]
