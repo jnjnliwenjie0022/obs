@@ -6,13 +6,15 @@
 ## rough
 
 ![[f16div_uarch_rough.svg]]
-
 - p0
-	- x
+	- d becomes 2>d>1 by using lzc and barrel shift
+		- d_arith_exp
+	- x becomes 2>x>1 by using lzc and barrel shift
+		- x_arith_exp
 - p1_rdone
 	- dsu generates r_s and r_c
-	- sqrt_arith_exp
-	- div_arith_exp
+	- sqrt_arith_exp = (x_arith_exp + 2) >> 1
+	- div_arith_exp = x_arith_exp - d_arith_exp
 - p1_qdone
 	- dsu generates q0 and q0_minus
 	- r = r_s + r_c
@@ -23,11 +25,6 @@
 	- subnorm detect
 	- quotient right shift
 	- quotient right shift sticky
-- p2
-## detail
-
-![[f16div_uarch_detail.svg]]
-
 ## dz_exception
 [[de/fpu/spec/IEEE754-2019.pdf#page=54&selection=4,0,7,1|IEEE754-2019, page 54]]
 ![[Pasted image 20240408233252.png]]
