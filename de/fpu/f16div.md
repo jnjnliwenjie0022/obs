@@ -3,21 +3,13 @@
 
 # block_diagram
 ## rough
-
-![[f16div_uarch_rough.svg]]
-
-## detail
-
-![[f16div_uarch_detail.svg]]
-
-## dz_exception
-[[de/fpu/spec/IEEE754-2019.pdf#page=54&selection=4,0,7,1|IEEE754-2019, page 54]]
-![[Pasted image 20240408233252.png]]
-## P2_ST
-### P2_S0
-1. dsu generate r0 and r1
-2. generate exp
-
+- p1_rdone
+	- dsu generates r_s and r_c
+	- r = r_s + r_c
+- p1_qdone
+	- dsu generates q0 and q0_minus
+	- sticky from r
+	- sticky from q_r
 ### P2_S1
 1. dsu generate q0 and q1
 2. generate r
@@ -28,6 +20,17 @@
 1. generate q by r_sign
 2. generate arith_exp by  
 3. generate sticky from q
+
+![[f16div_uarch_rough.svg]]
+
+## detail
+
+![[f16div_uarch_detail.svg]]
+
+## dz_exception
+[[de/fpu/spec/IEEE754-2019.pdf#page=54&selection=4,0,7,1|IEEE754-2019, page 54]]
+![[Pasted image 20240408233252.png]]
+
 
 ## arith_exp
 ![[f16div_exp.svg]]
