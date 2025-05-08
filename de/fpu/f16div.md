@@ -37,7 +37,7 @@
 ![[f16div_frd_rne_correction_standard_rouding_algorithm.svg]]
 ### yz_algorithm
 
-1. rounding前如果計算太過複雜，則需要yz_algorithm
+1. rounding前如果【R】有其他計算，或是計算太複雜，則需要yz_algorithm
 2. rounding前如果就有ovf，則需要yz_algorithm
 
 ![[f16div_frd_rne_correction_yz_algorithm.svg]]
