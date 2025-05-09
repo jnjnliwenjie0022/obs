@@ -8,31 +8,15 @@
         "type": "tabs",
         "children": [
           {
-            "id": "4a6803c51c7c5c73",
-            "type": "leaf",
-            "state": {
-              "type": "diff-view",
-              "state": {
-                "file": "de/fpu/IEEE754.md",
-                "staged": false
-              },
-              "icon": "git-pull-request",
-              "title": "Diff View (IEEE754)"
-            }
-          },
-          {
             "id": "7383180aecedfe7f",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "de/fpu/f16macksa.md",
-                "mode": "preview",
-                "source": false,
-                "backlinks": false
+                "file": "de/fpu/ref_f16mac/code_old_kv/VFPU/FP_design_spec_Larry/FMIS/FMIS_Figs/fmis_fig_f6.png"
               },
-              "icon": "lucide-file",
-              "title": "f16macksa"
+              "icon": "lucide-image",
+              "title": "fmis_fig_f6"
             }
           },
           {
@@ -218,8 +202,9 @@
       "obsidian-to-anki-plugin:Obsidian_to_Anki - Scan Vault": true
     }
   },
-  "active": "4a6803c51c7c5c73",
+  "active": "7383180aecedfe7f",
   "lastOpenFiles": [
+    "de/fpu/f16macksa.md",
     "CV.md",
     "de/fpu/IEEE754.md",
     "de/fpu/ref_f16dsu/(DSU)Low Latency Floating-Point Division and Square Root Unit.pdf",
@@ -235,7 +220,6 @@
     "de/ppa/power.md",
     "de/ppa/spyglass.md",
     "de/fpu/f16mac.md",
-    "de/fpu/f16macksa.md",
     "de/fpu/ref_f16dsu/(DSU)Unified_Digit_Selection_for_Radix-4_Recurrence_Division_and_Square_Root.pdf",
     "de/fpu/f16div.md",
     "de/fpu/include_f16div/f16div_frd_rne_correction_yz_algorithm.svg",
