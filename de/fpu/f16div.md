@@ -7,9 +7,9 @@
 
 ![[f16div_uarch_rough.svg]]
 - p0
-	- d becomes 2>d>1 by using lzc and barrel shift
+	- d becomes 2>d>1 by using lzc and left barrel shift
 		- d_arith_exp
-	- x becomes 2>x>1 by using lzc and barrel shift
+	- x becomes 2>x>1 by using lzc and left barrel shift
 		- x_arith_exp
 - p1_rdone
 	- dsu generates r_s and r_c
@@ -37,7 +37,7 @@
 ![[f16div_frd_rne_correction_standard_rouding_algorithm.svg]]
 ### yz_algorithm
 
-1. rounding前如果【R】有其他計算，或是計算太複雜，則需要yz_algorithm
+1. rounding前如果【R】有其他計算，則需要yz_algorithm
 2. rounding前如果就有ovf，則需要yz_algorithm
 
 ![[f16div_frd_rne_correction_yz_algorithm.svg]]
