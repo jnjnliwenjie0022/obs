@@ -11,12 +11,15 @@
             "id": "7383180aecedfe7f",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "de/fpu/ref_f16mac/code_old_kv/VFPU/FP_design_spec_Larry/FMIS/FMIS_Figs/fmis_fig_f6.png"
+                "file": "de/fpu/IEEE754.md",
+                "mode": "preview",
+                "source": false,
+                "backlinks": false
               },
-              "icon": "lucide-image",
-              "title": "fmis_fig_f6"
+              "icon": "lucide-file",
+              "title": "IEEE754"
             }
           },
           {
@@ -202,8 +205,10 @@
       "obsidian-to-anki-plugin:Obsidian_to_Anki - Scan Vault": true
     }
   },
-  "active": "7383180aecedfe7f",
+  "active": "19a60b1e44f4e87a",
   "lastOpenFiles": [
+    "de/fpu/spec/IEEE Standard 754-2019.pdf",
+    "de/fpu/ref_f16mac/code_old_kv/VFPU/FP_design_spec_Larry/FMIS/FMIS_Figs/fmis_fig_f6.png",
     "de/fpu/f16macksa.md",
     "CV.md",
     "de/fpu/IEEE754.md",
@@ -242,7 +247,6 @@
     "de/fpu/include_f16mac/fma_uarch.svg",
     "de/fpu/include_f16mac/fma_yz_original.svg",
     "de/fpu/include_f16mac/fma_yz.svg",
-    "de/fpu/include_f16div/f16div_frd_rne_correction.svg",
     "workflow/git/git.md",
     "financial/蔡森/蔡森-多空轉折一手抓.md",
     "financial/others/總體經濟.md",
