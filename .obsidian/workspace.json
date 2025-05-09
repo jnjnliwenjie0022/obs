@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "de/fpu/IEEE754.md",
+                "file": "de/ppa/power.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "IEEE754"
+              "title": "power"
             }
           }
         ]
@@ -193,10 +193,10 @@
   },
   "active": "fc02f731c8759dbb",
   "lastOpenFiles": [
+    "de/fpu/IEEE754.md",
     "de/fpu/f16macksa.md",
     "de/fpu/f16mac.md",
     "de/fpu/f16div.md",
-    "de/fpu/IEEE754.md",
     "de/fpu/ref_f16mac/New Flexible Multiple-Precision Multiply-Accumulate Unit for Deep Neural Network Training and Inference.pdf",
     "de/fpu/ref_f16mac/~$Half-Precision FMAC_v0.2.pptx",
     "de/fpu/ref_f16mac/~$~$FMAC_design_spec_v0.1.pptx",
