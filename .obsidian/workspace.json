@@ -11,15 +11,16 @@
             "id": "fc02f731c8759dbb",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "de/ppa/power.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
+                "file": "de/fpu/spec/IEEE754-2019.pdf",
+                "page": 36,
+                "left": -11,
+                "top": 138,
+                "zoom": 1.4216344732855883
               },
-              "icon": "lucide-file",
-              "title": "power"
+              "icon": "lucide-file-text",
+              "title": "IEEE754-2019"
             }
           }
         ]
@@ -113,8 +114,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 708.5,
-    "collapsed": true
+    "width": 708.5
   },
   "right": {
     "id": "cb661d0a10776c07",
@@ -193,6 +193,9 @@
   },
   "active": "fc02f731c8759dbb",
   "lastOpenFiles": [
+    "de/fpu/f16mis.md",
+    "de/fpu/ref_f16mis/~$Alpaca_FPU_Misc_v0.5_20201217.pptx",
+    "de/ppa/power.md",
     "de/fpu/IEEE754.md",
     "de/fpu/f16macksa.md",
     "de/fpu/f16mac.md",
@@ -204,15 +207,12 @@
     "de/fpu/ref_f16mac/~$20180330_Andes_FPU.ppt",
     "de/fpu/ref_f16mac/~$IEEE Std 754.pptx",
     "de/fpu/ref_f16mac/~$Andes_FPU.ppt",
-    "de/fpu/ref_f16mis/~$Alpaca_FPU_Misc_v0.5_20201217.pptx",
     "ToDoList.md",
     "CV.md",
     "de/fpu/include_f16div/f16div_frd_rne_correction_standard_rouding_algorithm.svg",
     "de/fpu/include_f16div/f16div_frd_rne_correction.svg",
     "de/fpu/include_f16div/f16div_frd_rne_correction_yz_algorithm.svg",
     "dv/sv/sv_rule.md",
-    "de/ppa/power.md",
-    "de/fpu/f16mis.md",
     "workflow/nvim.md",
     "language/pdf_downlaod.md",
     "dv/sw/script.md",
@@ -238,7 +238,6 @@
     "financial/others/RSI分析.md",
     "financial/others/finmind.md",
     "Low Latency Floating-Point Division and Square.pdf.md",
-    "de/ppa/spyglass.md",
     "dv/uvm/include/uvm_do_on_pri_with.canvas",
     "uvm_factory.canvas",
     "dv/uvm/include/uvm_factory1.canvas",
