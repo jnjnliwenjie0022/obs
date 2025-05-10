@@ -26,15 +26,16 @@
             "id": "95f818544416ee13",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "de/fpu/IEEE754.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
+                "file": "de/fpu/spec/IEEE754-2019.pdf",
+                "page": 1,
+                "left": -9,
+                "top": 796,
+                "zoom": 1.7144607843137254
               },
-              "icon": "lucide-file",
-              "title": "IEEE754"
+              "icon": "lucide-file-text",
+              "title": "IEEE754-2019"
             }
           }
         ],
@@ -129,8 +130,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 425.5,
-    "collapsed": true
+    "width": 425.5
   },
   "right": {
     "id": "cb661d0a10776c07",
@@ -209,8 +209,10 @@
   },
   "active": "95f818544416ee13",
   "lastOpenFiles": [
-    "CV.md",
     "de/fpu/IEEE754.md",
+    "de/fpu/ref_f16mac/~$IEEE Std 754.pptx",
+    "de/fpu/ref_f16mac/code_old_kv/VFPU/~$FPU corner case.xlsx",
+    "CV.md",
     "de/fpu/ref_f16mis/~$Alpaca_FPU_Misc_v0.5_20201217.pptx",
     "de/fpu/spec/IEEE Standard 754-2019.pdf",
     "de/fpu/ref_f16mac/code_old_kv/VFPU/FP_design_spec_Larry/FMIS/FMIS_Figs/fmis_fig_f6.png",
@@ -221,8 +223,6 @@
     "de/ppa/ref/iccad.2011.6105405.pdf",
     "de/ppa/ref/Domain-Specific Architecture AI for Future Tech.pdf",
     "de/ppa/ref/Dennard-jssc1974.pdf",
-    "de/ppa/ref/Accelergy.pdf",
-    "de/ppa/ref/2019KS_Yellin-Saving_The_Future_of_Moores_Law.pdf",
     "de/ppa/evaluation.md",
     "de/ppa/power.md",
     "de/ppa/spyglass.md",
