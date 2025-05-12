@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "de/fpu/IEEE754.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false,
                 "backlinks": false
               },
@@ -113,7 +113,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 708.5
+    "width": 708.5,
+    "collapsed": true
   },
   "right": {
     "id": "cb661d0a10776c07",
