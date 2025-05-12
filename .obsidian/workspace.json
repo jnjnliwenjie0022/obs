@@ -11,15 +11,16 @@
             "id": "fc02f731c8759dbb",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "de/v/verilog.md",
-                "mode": "preview",
-                "source": false,
-                "backlinks": false
+                "file": "de/fpu/spec/IEEE754-2019.pdf",
+                "page": 43,
+                "left": -11,
+                "top": 669,
+                "zoom": 1.4216344732855883
               },
-              "icon": "lucide-file",
-              "title": "verilog"
+              "icon": "lucide-file-text",
+              "title": "IEEE754-2019"
             }
           }
         ]
@@ -113,8 +114,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 708.5,
-    "collapsed": true
+    "width": 708.5
   },
   "right": {
     "id": "cb661d0a10776c07",
@@ -193,6 +193,7 @@
   },
   "active": "fc02f731c8759dbb",
   "lastOpenFiles": [
+    "de/v/verilog.md",
     "de/fpu/IEEE754.md",
     "ToDoList.md",
     "de/fpu/f16mis.md",
@@ -224,7 +225,6 @@
     "de/v_rule/fctrl.md",
     "de/v_rule/rule.md",
     "de/format.md",
-    "de/v/verilog.md",
     "de/v_rule/include/pipeline_init.svg",
     "de/v_rule/include/pipeline - Copy.svg",
     "Pasted image 20250427231526.png",
