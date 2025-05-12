@@ -1,0 +1,39 @@
+-uvm
+-licqueue
+-uvmhome CDNS-1.2
++access+wrc
++UVM_VERDI_TRACE
++UVM_TR_RECORD
++UVM_LOG_RECORD
+//+UVM_CONFIG_DB_TRACE
+//+UVM_PHASE_TRACE
+//+UVM_OBJECTION_TRACE
++UVM_VERBOSITY=UVM_HIGH
++UVM_TESTNAME=based_test
++uvm_set_config_int=*,recording_detail,400
+-input run_batch.tcl
+
+//-gui -linedebug -uvmlinedebug
+//-sysv c_mdu.cpp
+//+svseed=random
+
+// Top-Level Testbench
+./top.sv
+
+// UVC pkg
+// ***
+
+// UVC Files
+
+// DUT Files
+-v ../kv_hdl/kv_csa3_2.v
+-v ../kv_hdl/kv_csa4_2.v
+-v ../kv_hdl/kv_nounderflow_sub.v
+-v ../kv_hdl/kv_nooverflow_add.v
+-v ../kv_hdl/kv_novf_adder_op3.v
+-v ../kv_hdl/kv_lzc_encode.v
+-v ../kv_hdl/kv_fpu_dsu.v
+-v ../kv_hdl/kv_fpu_fdiv.v
+-v ../acc_csa3to2.v
+-v ../acc_dsu.v
+-v ../acc_fdiv.v
