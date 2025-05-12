@@ -4,28 +4,6 @@
     "type": "split",
     "children": [
       {
-        "id": "589c1ae8de9e243b",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "960a80fd80d9b1c2",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "de/fpu/spec/IEEE754-2019.pdf",
-                "page": 61,
-                "left": -13,
-                "top": 623,
-                "zoom": 1.2169674429549064
-              },
-              "icon": "lucide-file-text",
-              "title": "IEEE754-2019"
-            }
-          }
-        ]
-      },
-      {
         "id": "03802cb62e2f6abb",
         "type": "tabs",
         "children": [
