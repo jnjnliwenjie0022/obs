@@ -11,15 +11,16 @@
             "id": "fc02f731c8759dbb",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "de/fpu/IEEE754.md",
-                "mode": "preview",
-                "source": false,
-                "backlinks": false
+                "file": "de/fpu/spec/IEEE754-2019.pdf",
+                "page": 40,
+                "left": 109,
+                "top": 570,
+                "zoom": 4.4
               },
-              "icon": "lucide-file",
-              "title": "IEEE754"
+              "icon": "lucide-file-text",
+              "title": "IEEE754-2019"
             }
           }
         ]
@@ -113,7 +114,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 708.5
+    "width": 512.5,
+    "collapsed": true
   },
   "right": {
     "id": "cb661d0a10776c07",
@@ -192,11 +194,11 @@
   },
   "active": "fc02f731c8759dbb",
   "lastOpenFiles": [
+    "de/fpu/IEEE754.md",
+    "de/fpu/f16mis.md",
     "de/fpu/spec/IEEE754-2019.pdf",
     "de/v/verilog.md",
-    "de/fpu/IEEE754.md",
     "ToDoList.md",
-    "de/fpu/f16mis.md",
     "de/fpu/code_f16div/acc_fdiv.v",
     "de/fpu/code_f16div/acc_dsu.v",
     "de/fpu/code_f16div/acc_csa3to2.v",
