@@ -1,3 +1,4 @@
+- ref: https://gregstoll.dyndns.org/~gregstoll/floattohex/
 - ref: https://grouper.ieee.org/groups/msc/ANSI_IEEE-Std-754-2019/background/
 - ref: https://zhuanlan.zhihu.com/p/480834719
 
