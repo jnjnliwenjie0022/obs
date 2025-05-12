@@ -1,0 +1,2 @@
+shopt -s extglob
+rm -rfv !(01|02|flist|run_batch.tcl|top.sv)
