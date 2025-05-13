@@ -6,8 +6,3 @@
 - CMP unordered
 ![[de/fpu/spec/IEEE754-2019.pdf#page=44&rect=89,615,522,661|IEEE754-2019, p.43]]
 - MAX_MIN
-<<<<<<< HEAD
-=======
-![[de/fpu/spec/IEEE754-2019.pdf#page=70&rect=125,230,524,300|IEEE754-2019, p.69]]
-
->>>>>>> origin/master
