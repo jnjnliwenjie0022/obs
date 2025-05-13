@@ -193,8 +193,9 @@
   },
   "active": "fc02f731c8759dbb",
   "lastOpenFiles": [
-    "de/fpu/spec/IEEE754-2019.pdf",
+    "conflict-files-obsidian-git.md",
     "de/fpu/f16mis.md",
+    "de/fpu/spec/IEEE754-2019.pdf",
     "resume/Wen_Jie_Li_s_CV_20250512.zip",
     "resume/Wen_Jie_Li_s_CV_20250512.pdf",
     "resume/413_531照片.jpg",
@@ -210,7 +211,6 @@
     "de/fpu/code_f16div/vip_fdiv/top.sv",
     "de/fpu/code_f16div/vip_fdiv/run_batch.tcl",
     "de/fpu/code_f16div/vip_fdiv/01",
-    "conflict-files-obsidian-git.md",
     "de/ppa/power.md",
     "de/fpu/f16macksa.md",
     "de/fpu/f16mac.md",
