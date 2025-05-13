@@ -4,6 +4,28 @@
     "type": "split",
     "children": [
       {
+        "id": "00269a2185f52588",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b4537a2550c1b698",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "de/fpu/spec/IEEE754-2019.pdf",
+                "page": 49,
+                "left": -13,
+                "top": 649,
+                "zoom": 1.1127966394338913
+              },
+              "icon": "lucide-file-text",
+              "title": "IEEE754-2019"
+            }
+          }
+        ]
+      },
+      {
         "id": "75696572d553b2e1",
         "type": "tabs",
         "children": [
@@ -113,7 +135,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 512.5
+    "width": 512.5,
+    "collapsed": true
   },
   "right": {
     "id": "cb661d0a10776c07",
@@ -192,14 +215,14 @@
   },
   "active": "fc02f731c8759dbb",
   "lastOpenFiles": [
+    "de/fpu/spec/IEEE754-2019.pdf",
+    "de/fpu/f16mis.md",
     "resume/Wen_Jie_Li_s_CV_20250512.zip",
     "resume/Wen_Jie_Li_s_CV_20250512.pdf",
     "resume/413_531照片.jpg",
     "resume/272_331照片.jpg",
     "resume/110_140照片.jpg",
     "resume",
-    "de/fpu/spec/IEEE754-2019.pdf",
-    "de/fpu/f16mis.md",
     "de/fpu/IEEE754.md",
     "de/v/verilog.md",
     "ToDoList.md",
@@ -209,7 +232,6 @@
     "de/fpu/code_f16div/vip_fdiv/top.sv",
     "de/fpu/code_f16div/vip_fdiv/run_batch.tcl",
     "de/fpu/code_f16div/vip_fdiv/01",
-    "de/fpu/code_f16div/vip_fdiv/flist",
     "conflict-files-obsidian-git.md",
     "de/ppa/power.md",
     "de/fpu/f16macksa.md",
