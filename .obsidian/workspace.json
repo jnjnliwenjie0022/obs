@@ -16,7 +16,7 @@
                 "file": "de/fpu/spec/IEEE754-2019.pdf",
                 "page": 44,
                 "left": 412,
-                "top": 186,
+                "top": 166,
                 "zoom": 3.7
               },
               "icon": "lucide-file-text",
@@ -228,11 +228,11 @@
       "obsidian-to-anki-plugin:Obsidian_to_Anki - Scan Vault": true
     }
   },
-  "active": "fc02f731c8759dbb",
+  "active": "142ebb8dce397b87",
   "lastOpenFiles": [
-    "de/fpu/spec/IEEE754-2019.pdf",
     "de/fpu/f16mis.md",
     "de/fpu/IEEE754.md",
+    "de/fpu/spec/IEEE754-2019.pdf",
     "conflict-files-obsidian-git.md",
     "resume/Wen_Jie_Li_s_CV_20250512.zip",
     "resume/Wen_Jie_Li_s_CV_20250512.pdf",
