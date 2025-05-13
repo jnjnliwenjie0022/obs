@@ -6,3 +6,4 @@
 - CMP unordered
 ![[de/fpu/spec/IEEE754-2019.pdf#page=44&rect=89,615,522,661|IEEE754-2019, p.43]]
 - MAX_MIN
+![[de/fpu/spec/IEEE754-2019.pdf#page=70&rect=126,302,526,334|IEEE754-2019, p.69]]
