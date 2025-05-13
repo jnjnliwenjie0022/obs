@@ -44,9 +44,9 @@
               "type": "pdf",
               "state": {
                 "file": "de/fpu/spec/IEEE754-2019.pdf",
-                "page": 70,
+                "page": 71,
                 "left": -6,
-                "top": 357,
+                "top": 736,
                 "zoom": 2.4988888380514145
               },
               "icon": "lucide-file-text",
@@ -54,7 +54,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -222,10 +222,10 @@
       "obsidian-to-anki-plugin:Obsidian_to_Anki - Scan Vault": true
     }
   },
-  "active": "9e0d95be4c566e68",
+  "active": "95f818544416ee13",
   "lastOpenFiles": [
-    "de/fpu/f16mis.md",
     "de/fpu/spec/IEEE754-2019.pdf",
+    "de/fpu/f16mis.md",
     "CV.md",
     "ToDoList.md",
     "de/fpu/spec/~~$IEEE754-2019.pdf",
