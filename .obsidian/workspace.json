@@ -4,23 +4,37 @@
     "type": "split",
     "children": [
       {
-        "id": "03802cb62e2f6abb",
+        "id": "75696572d553b2e1",
         "type": "tabs",
         "children": [
           {
-            "id": "9e0d95be4c566e68",
+            "id": "fc02f731c8759dbb",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "de/fpu/spec/IEEE754-2019.pdf",
-                "page": 70,
-                "left": -6,
-                "top": 575,
-                "zoom": 2.4988888380514145
+                "file": "de/fpu/f16mis.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
               },
-              "icon": "lucide-file-text",
-              "title": "IEEE754-2019"
+              "icon": "lucide-file",
+              "title": "f16mis"
+            }
+          },
+          {
+            "id": "db6083c15c0bd1d7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "de/fpu/IEEE754.md",
+                "mode": "preview",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "IEEE754"
             }
           }
         ]
@@ -43,7 +57,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "perl",
+                "query": "faster",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -114,7 +128,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 425.5
+    "width": 512.5,
+    "collapsed": true
   },
   "right": {
     "id": "cb661d0a10776c07",
@@ -191,53 +206,53 @@
       "obsidian-to-anki-plugin:Obsidian_to_Anki - Scan Vault": true
     }
   },
-  "active": "9e0d95be4c566e68",
+  "active": "fc02f731c8759dbb",
   "lastOpenFiles": [
-    "de/fpu/include_f16mis/Pasted image 20250515000243.png",
-    "CV.md",
-    "de/fpu/spec/IEEE754-2019.pdf",
-    "de/fpu/include_f16mis",
-    "Pasted image 20250429014658.png",
-    "de/fpu/f16mis.md",
-    "conflict-files-obsidian-git.md",
-    "ToDoList.md",
-    "de/fpu/spec/~~$IEEE754-2019.pdf",
-    "de/fpu/code_f16div/vip_dsu/xrun.log",
-    "de/fpu/code_f16div/vip_dsu/xrun.history",
-    "de/fpu/code_f16div/vip_dsu/top.sv",
-    "de/fpu/code_f16div/vip_dsu/run_batch.tcl",
-    "de/fpu/code_f16div/vip_dsu/flist",
-    "de/fpu/code_f16div/vip_dsu/02",
-    "de/fpu/code_f16div/vip_dsu/01",
     "de/fpu/IEEE754.md",
-    "de/fpu/ref_f16mac/code_old_kv/VFPU/FP_design_spec_Larry/FMIS/FMIS_Figs/fmis_fig_f6.png",
-    "de/fpu/f16macksa.md",
-    "de/ppa/evaluation.md",
+    "de/fpu/f16mis.md",
+    "de/fpu/include_f16mis/Pasted image 20250515000243.png",
+    "de/fpu/include_f16mis",
+    "de/fpu/spec/IEEE754-2019.pdf",
+    "conflict-files-obsidian-git.md",
+    "resume/Wen_Jie_Li_s_CV_20250512.zip",
+    "resume/Wen_Jie_Li_s_CV_20250512.pdf",
+    "resume/413_531照片.jpg",
+    "resume/272_331照片.jpg",
+    "resume/110_140照片.jpg",
+    "resume",
+    "de/v/verilog.md",
+    "ToDoList.md",
+    "de/fpu/code_f16div/acc_fdiv.v",
+    "de/fpu/code_f16div/acc_dsu.v",
+    "de/fpu/code_f16div/acc_csa3to2.v",
+    "de/fpu/code_f16div/vip_fdiv/top.sv",
+    "de/fpu/code_f16div/vip_fdiv/run_batch.tcl",
     "de/ppa/power.md",
-    "de/ppa/spyglass.md",
+    "de/fpu/f16macksa.md",
     "de/fpu/f16mac.md",
     "de/fpu/f16div.md",
-    "de/fpu/include_f16div/f16div_frd_rne_correction_yz_algorithm.svg",
+    "de/fpu/f16dsu.md",
+    "CV.md",
     "de/fpu/include_f16div/f16div_frd_rne_correction_standard_rouding_algorithm.svg",
+    "de/fpu/include_f16div/f16div_frd_rne_correction.svg",
+    "de/fpu/include_f16div/f16div_frd_rne_correction_yz_algorithm.svg",
+    "dv/sv/sv_rule.md",
     "workflow/nvim.md",
     "language/pdf_downlaod.md",
     "dv/sw/script.md",
     "de/v_rule/ref/Andes_design_guide.md",
-    "de/fpu/f16dsu.md",
     "de/v_rule/fctrl.md",
     "de/v_rule/rule.md",
     "de/format.md",
-    "de/v/verilog.md",
     "de/v_rule/include/pipeline_init.svg",
     "de/v_rule/include/pipeline - Copy.svg",
     "Pasted image 20250427231526.png",
-    "Pasted image 20250428004713.png",
-    "dv/sv/sv_rule.md",
-    "de/fpu/include_f16mac/fma_uarch.svg",
     "workflow/git/git.md",
     "financial/蔡森/蔡森-多空轉折一手抓.md",
     "financial/others/總體經濟.md",
     "financial/others/隨機漫步理論分析.md",
+    "financial/others/RSI分析.md",
+    "financial/others/finmind.md",
     "dv/uvm/include/uvm_do_on_pri_with.canvas",
     "uvm_factory.canvas",
     "dv/uvm/include/uvm_factory1.canvas",
