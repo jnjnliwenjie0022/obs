@@ -16,7 +16,7 @@
                 "file": "de/fpu/spec/IEEE754-2019.pdf",
                 "page": 38,
                 "left": -6,
-                "top": 56,
+                "top": 120,
                 "zoom": 2.4988888380514145
               },
               "icon": "lucide-file-text",
@@ -27,14 +27,18 @@
             "id": "0168d18017bcede6",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "de/fpu/f16mis.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "f16mis"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -202,17 +206,17 @@
       "obsidian-to-anki-plugin:Obsidian_to_Anki - Scan Vault": true
     }
   },
-  "active": "0168d18017bcede6",
+  "active": "9e0d95be4c566e68",
   "lastOpenFiles": [
+    "de/fpu/spec/~~$IEEE754-2019.pdf",
+    "de/fpu/f16mis.md",
     "de/fpu/spec/IEEE754-2019.pdf",
     "conflict-files-obsidian-git.md",
     "de/fpu/include_f16mis/Pasted image 20250515000243.png",
     "CV.md",
     "de/fpu/include_f16mis",
     "Pasted image 20250429014658.png",
-    "de/fpu/f16mis.md",
     "ToDoList.md",
-    "de/fpu/spec/~~$IEEE754-2019.pdf",
     "de/fpu/code_f16div/vip_dsu/xrun.log",
     "de/fpu/code_f16div/vip_dsu/xrun.history",
     "de/fpu/code_f16div/vip_dsu/top.sv",

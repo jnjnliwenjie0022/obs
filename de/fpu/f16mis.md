@@ -12,3 +12,5 @@ P.S: IEEE754中如果只有提到NaN但沒有提到是否為SNaN還是QNaN就表
 ![[de/fpu/spec/IEEE754-2019.pdf#page=44&rect=86,612,530,667|IEEE754-2019, p.43]]
 - MAX_MIN
 ![[de/fpu/spec/IEEE754-2019.pdf#page=70&rect=126,302,526,334|IEEE754-2019, p.69]]
+- CLASS
+![[de/fpu/spec/IEEE754-2019.pdf#page=39&rect=90,525,523,701|IEEE754-2019, p.38]]
