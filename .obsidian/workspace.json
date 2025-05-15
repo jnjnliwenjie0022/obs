@@ -14,9 +14,9 @@
               "type": "pdf",
               "state": {
                 "file": "de/fpu/spec/IEEE754-2019.pdf",
-                "page": 70,
+                "page": 38,
                 "left": -6,
-                "top": 583,
+                "top": 56,
                 "zoom": 2.4988888380514145
               },
               "icon": "lucide-file-text",
@@ -24,18 +24,13 @@
             }
           },
           {
-            "id": "7615aa4f67496bac",
+            "id": "0168d18017bcede6",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "conflict-files-obsidian-git.md",
-                "mode": "preview",
-                "source": false,
-                "backlinks": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "conflict-files-obsidian-git"
+              "title": "New tab"
             }
           }
         ],
@@ -207,7 +202,7 @@
       "obsidian-to-anki-plugin:Obsidian_to_Anki - Scan Vault": true
     }
   },
-  "active": "7615aa4f67496bac",
+  "active": "0168d18017bcede6",
   "lastOpenFiles": [
     "de/fpu/spec/IEEE754-2019.pdf",
     "conflict-files-obsidian-git.md",
