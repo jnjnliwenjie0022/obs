@@ -14,10 +14,10 @@
               "type": "pdf",
               "state": {
                 "file": "de/fpu/spec/IEEE754-2019.pdf",
-                "page": 38,
-                "left": -16,
-                "top": 128,
-                "zoom": 0.9301470588235294
+                "page": 42,
+                "left": -17,
+                "top": 295,
+                "zoom": 0.9301896165184029
               },
               "icon": "lucide-file-text",
               "title": "IEEE754-2019"
@@ -29,16 +29,17 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "de/fpu/f16mis.md",
+                "file": "de/fpu/f16macksa.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "f16mis"
+              "title": "f16macksa"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -206,11 +207,11 @@
       "obsidian-to-anki-plugin:Obsidian_to_Anki - Scan Vault": true
     }
   },
-  "active": "9e0d95be4c566e68",
+  "active": "0168d18017bcede6",
   "lastOpenFiles": [
-    "de/fpu/spec/~~$IEEE754-2019.pdf",
     "de/fpu/f16mis.md",
     "de/fpu/spec/IEEE754-2019.pdf",
+    "de/fpu/spec/~~$IEEE754-2019.pdf",
     "conflict-files-obsidian-git.md",
     "de/fpu/include_f16mis/Pasted image 20250515000243.png",
     "CV.md",
