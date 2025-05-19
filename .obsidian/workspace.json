@@ -15,9 +15,9 @@
               "state": {
                 "file": "de/fpu/spec/IEEE754-2019.pdf",
                 "page": 42,
-                "left": -17,
-                "top": 295,
-                "zoom": 0.9301896165184029
+                "left": -9,
+                "top": 299,
+                "zoom": 1.7145392272849083
               },
               "icon": "lucide-file-text",
               "title": "IEEE754-2019"
@@ -209,11 +209,11 @@
   },
   "active": "0168d18017bcede6",
   "lastOpenFiles": [
+    "de/fpu/spec/IEEE754-2019.pdf",
+    "de/fpu/f16mis.md",
     "de/fpu/f16macksa.md",
     "de/fpu/f16mac.md",
     "de/fpu/IEEE754.md",
-    "de/fpu/f16mis.md",
-    "de/fpu/spec/IEEE754-2019.pdf",
     "de/fpu/spec/~~$IEEE754-2019.pdf",
     "conflict-files-obsidian-git.md",
     "de/fpu/include_f16mis/Pasted image 20250515000243.png",
