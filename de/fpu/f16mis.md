@@ -1,4 +1,4 @@
-
+![[fmis_uarch.svg]]
 
 
 P.S: IEEE754中如果只有提到NaN但沒有提到是否為SNaN還是QNaN就表示為宇集合
