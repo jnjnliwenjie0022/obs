@@ -54,7 +54,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -222,10 +222,10 @@
       "obsidian-to-anki-plugin:Obsidian_to_Anki - Scan Vault": true
     }
   },
-  "active": "233b25718aa07dcb",
+  "active": "0168d18017bcede6",
   "lastOpenFiles": [
-    "de/fpu/f16mis.md",
     "de/fpu/f16div.md",
+    "de/fpu/f16mis.md",
     "conflict-files-obsidian-git.md",
     "de/fpu/include_f16mis/fmis_uarch.svg",
     "de/fpu/spec/IEEE754-2019.pdf",
