@@ -74,7 +74,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "perl",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -224,6 +224,7 @@
   },
   "active": "0168d18017bcede6",
   "lastOpenFiles": [
+    "de/fpu/ref_f16mac/code_old_kv/VFPU/FP_design_spec_Larry/~$Alpaca_FPU_Misc_v0.5_20201217.pptx",
     "de/fpu/f16div.md",
     "de/fpu/f16mis.md",
     "conflict-files-obsidian-git.md",
