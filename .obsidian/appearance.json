@@ -7,5 +7,5 @@
   "showViewHeader": false,
   "nativeMenus": false,
   "baseFontSizeAction": true,
-  "showRibbon": true
+  "showRibbon": false
 }
