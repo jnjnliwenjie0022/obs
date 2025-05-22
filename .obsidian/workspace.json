@@ -4,17 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "7021ffc0ca4cd130",
+        "id": "1024f3ca88faf1fc",
         "type": "tabs",
         "children": [
           {
-            "id": "7129a7bb4c407ae6",
+            "id": "b6281cd1e5e732bb",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "de/fpu/f16mis.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "f16mis"
             }
           }
         ]
@@ -74,8 +79,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "a0335c5b1b237dfc",
@@ -166,8 +170,11 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "7129a7bb4c407ae6",
+  "active": "b6281cd1e5e732bb",
   "lastOpenFiles": [
+    "de/fpu/f16mac.md",
+    "de/fpu/f16div.md",
+    "de/fpu/ref_f16mis/~$FMIS_design_spec_v0.5.pptx",
     "conflict-files-obsidian-git.md",
     "de/fpu/ref_f16mis/FMIS_design_spec_v0.5.pptx"
   ]
