@@ -1,10 +1,11 @@
 
 ![[fmis_uarch.svg]]
-1. airth_exp = exp - lzc
-2. l_amount = sel_subnorm ? l_amount_subnorm : l_amount_norm
-3. add_1
 
 
+
+
+
+# IEEE754_2019
 P.S: IEEE754中如果只有提到NaN但沒有提到是否為SNaN還是QNaN就表示為宇集合
 
 - rounding mode
