@@ -1,10 +1,6 @@
 - ref: [[de/fpu/ref_f16mis/FMIS_design_spec_v0.5.pptx|FMIS_design_spec_v0.5]]
 
-![[fmis_uarch.svg]]
-
-
-
-
+![[fmis_uarch.svg|1400]]
 
 # rounding
 

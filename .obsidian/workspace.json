@@ -8,33 +8,18 @@
         "type": "tabs",
         "children": [
           {
-            "id": "fab85be2516473f9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "de/fpu/f16mis.md",
-                "mode": "preview",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "f16mis"
-            }
-          },
-          {
             "id": "3d6534a715352816",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "de/fpu/f16mac.md",
-                "mode": "preview",
+                "file": "de/fpu/f16mis.md",
+                "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "f16mac"
+              "title": "f16mis"
             }
           },
           {
@@ -212,16 +197,16 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "fab85be2516473f9",
+  "active": "3d6534a715352816",
   "lastOpenFiles": [
     "de/fpu/f16mac.md",
     "de/fpu/f16mis.md",
-    "de/fpu/f16div.md",
     "de/fpu/include_f16mis/Pasted image 20250515000243.png",
+    "de/fpu/ref_f16mis/~$FMIS_design_spec_v0.5.pptx",
+    "de/fpu/f16div.md",
     "de/fpu/include_f16mis/6897CC80",
     "de/fpu/spec/IEEE754-2019.pdf",
     "de/fpu/ref_f16mis/~$Alpaca_FPU_Misc_v0.5_20201217.pptx",
-    "de/fpu/ref_f16mis/~$FMIS_design_spec_v0.5.pptx",
     "Low Latency Floating-Point Division and Square.pdf.md",
     "f16mis.standard_rounding_algorithm.md",
     "de/fpu/f16dsu.md",
