@@ -43,20 +43,11 @@ rounding的負數處理方式: 都要先轉換成正數再去判斷是否要roud
 | RTZ (Round Towards Zero)                      | 0                |
 | ROD (Round towards ODd)                       | ~L & (R \| S)    |
 
-|     |                   |
-| --- | ----------------- |
-| rn  | RNE \| RMM        |
-| ri  | (~Sign & RUP) \|  |
-| rz  |                   |
-
-# yz_algorithm
-
-
-wire f1_rn = f1_round_rne | f1_round_rmm;
-wire f1_ri = (~f1_arith_sign & f1_round_rup) | (f1_arith_sign & f1_round_rdn);
-wire f1_rz = f1_round_rtz | (~f1_arith_sign & f1_round_rdn) | (f1_arith_sign & f1_round_rup);
-
-
+| rn/ri/rz |                                      |
+| -------- | ------------------------------------ |
+| rn       | RNE \| RMM                           |
+| ri       | (~Sign & RUP) \| (Sign & RDN)        |
+| rz       | RTZ \| (~Sign & RDN) \| (Sign & RUP) |
 
 # IEEE754_2019
 
