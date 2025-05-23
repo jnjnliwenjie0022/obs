@@ -43,6 +43,12 @@ rounding的負數處理方式: 都要先轉換成正數再去判斷是否要roud
 | RTZ (Round Towards Zero)                      | 0                |
 | ROD (Round towards ODd)                       | ~L & (R \| S)    |
 
+|     |                   |
+| --- | ----------------- |
+| rn  | RNE \| RMM        |
+| ri  | (~Sign & RUP) \|  |
+| rz  |                   |
+
 # yz_algorithm
 
 
