@@ -28,7 +28,8 @@ rounding的負數處理方式: 都要先轉換成正數再去判斷是否要roud
 | 1    | 1   | 0   | 1   | 0   | 0   | 1   | 0   | 0   | 0   |
 | 1    | 1   | 1   | 0   | 1   | 0   | 1   | 0   | 1   | 0   |
 | 1    | 1   | 1   | 1   | 1   | 0   | 1   | 0   | 1   | 0   |
- 
+
+ ![[Pasted image 20250515000243.png|800]]
 ## standard_rounding_algorithm
 
 rounding的負數處理方式: 都要先轉換成正數再去判斷是否要rouding_inc
@@ -42,7 +43,15 @@ rounding的負數處理方式: 都要先轉換成正數再去判斷是否要roud
 | RTZ (Round Towards Zero)                      | 0                |
 | ROD (Round towards ODd)                       | ~L & (R \| S)    |
 
-![[Pasted image 20250515000243.png|800]]
+# yz_algorithm
+
+
+wire f1_rn = f1_round_rne | f1_round_rmm;
+wire f1_ri = (~f1_arith_sign & f1_round_rup) | (f1_arith_sign & f1_round_rdn);
+wire f1_rz = f1_round_rtz | (~f1_arith_sign & f1_round_rdn) | (f1_arith_sign & f1_round_rup);
+
+
+
 # IEEE754_2019
 
 P.S: IEEE754中如果只有提到NaN但沒有提到是否為SNaN還是QNaN就表示為宇集合
