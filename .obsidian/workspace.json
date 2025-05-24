@@ -4,22 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "03802cb62e2f6abb",
+        "id": "9334727de1cd5efd",
         "type": "tabs",
         "children": [
           {
-            "id": "779afc034fb1bbca",
+            "id": "868ad74fe1f4f285",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "de/fpu/f16mis.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "f16mis"
+              "title": "New tab"
             }
           }
         ]
@@ -191,12 +186,12 @@
       "obsidian-to-anki-plugin:Obsidian_to_Anki - Scan Vault": true
     }
   },
-  "active": "779afc034fb1bbca",
+  "active": "868ad74fe1f4f285",
   "lastOpenFiles": [
+    "de/fpu/f16mis.md",
     "de/fpu/include_f16mis/~$2comp_rounding.xlsx",
     "de/fpu/include_f16mis/Pasted image 20250524204004.png",
     "de/fpu/include_f16mis/Pasted image 20250515000243.png",
-    "de/fpu/f16mis.md",
     "de/fpu/include_f16mis/07806130",
     "de/fpu/include_f16mis/84706130",
     "de/fpu/include_f16mis/~$fmis_round.xlsx",
@@ -215,7 +210,6 @@
     "de/fpu/f16div.md",
     "de/fpu/spec/IEEE754-2019.pdf",
     "de/fpu/include_f16mis/2comp_rounding.xlsx",
-    "de/fpu/ref_f16mis/FMIS_design_spec_v0.5.pptx",
     "conflict-files-obsidian-git.md",
     "de/fpu/include_f16mis/fmis_uarch.svg",
     "de/fpu/f16macksa.md",

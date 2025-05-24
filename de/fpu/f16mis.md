@@ -11,6 +11,8 @@
 | positive int to positive float | rounding            | standard rounding algorithm                                                |
 | negative int to negative float | 2comp then rounding | 2comp then standard rounding algorithm                                     |
 
+# fast_negf2negi_rounding_algorithm
+
 ![[Pasted image 20250524204004.png]]
 ref: [[2comp_rounding.xlsx]]
 
