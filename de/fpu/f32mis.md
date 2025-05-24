@@ -2,7 +2,7 @@
 
 ![[fmis_uarch.svg|1400]]
 
-# 2comp_rounding
+# rounding_step
 
 | convert                        | rounding step       | method                                                                     |
 | ------------------------------ | ------------------- | -------------------------------------------------------------------------- |
@@ -11,12 +11,13 @@
 | positive int to positive float | rounding            | standard rounding algorithm                                                |
 | negative int to negative float | 2comp then rounding | 2comp then standard rounding algorithm                                     |
 
-# fast_negf2negi_rounding_algorithm
+## fast_negf2negi_rounding_algorithm
+
+- ref: [[2comp_rounding.xlsx]]
 
 ![[Pasted image 20250524204004.png]]
-ref: [[2comp_rounding.xlsx]]
 
-# rounding
+## rounding
 
 rounding的負數處理方式: 都要先轉換成正數再去判斷是否要rouding_inc
 

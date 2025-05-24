@@ -35,7 +35,7 @@
 ## frd_rne_correction
 ### standard_rounding_algorithm
 
-- ref: [[f16mis#standard_rounding_algorithm]]
+- ref: [[f32mis#standard_rounding_algorithm]]
 
 ![[f16div_frd_rne_correction_standard_rouding_algorithm.svg]]
 ### yz_algorithm
