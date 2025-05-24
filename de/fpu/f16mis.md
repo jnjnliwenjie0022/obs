@@ -2,7 +2,17 @@
 
 ![[fmis_uarch.svg|1400]]
 
-# sign_comp
+# 2comp_rounding
+
+| convert                        | rounding step       | method                                                                     |
+| ------------------------------ | ------------------- | -------------------------------------------------------------------------- |
+| negative float to negative int | rounding then 2comp | **fast negf2negi rounding algorithm** based on standard rounding algorithm |
+| positive float to positive int | rounding            | standard rounding algorithm                                                |
+| positive int to positive float | rounding            | standard rounding algorithm                                                |
+| negative int to negative float | 2comp then rounding | 2comp then standard rounding algorithm                                     |
+
+![[Pasted image 20250524204004.png]]
+ref: [[2comp_rounding.xlsx]]
 
 # rounding
 
