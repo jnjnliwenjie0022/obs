@@ -2,6 +2,8 @@
 
 ![[fmis_uarch.svg|1400]]
 
+# sign_comp
+
 # rounding
 
 rounding的負數處理方式: 都要先轉換成正數再去判斷是否要rouding_inc
