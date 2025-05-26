@@ -11,15 +11,12 @@
             "id": "e1a38dc2536b2126",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "dv/sw/ld.md",
-                "mode": "preview",
-                "source": false,
-                "backlinks": false
+                "file": "de/fpu/include_f16mis/fmis_uarch.svg"
               },
-              "icon": "lucide-file",
-              "title": "ld"
+              "icon": "lucide-image",
+              "title": "fmis_uarch"
             }
           }
         ]
@@ -172,6 +169,7 @@
   },
   "active": "e1a38dc2536b2126",
   "lastOpenFiles": [
+    "dv/sw/ld.md",
     "de/fpu/include_f16mis/fmis_uarch.svg",
     "de/fpu/f16div.md",
     "de/fpu/include_f16mis/~$2comp_rounding.xlsx",
