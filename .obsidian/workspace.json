@@ -8,30 +8,15 @@
         "type": "tabs",
         "children": [
           {
-            "id": "6c3f65aa9dd1a744",
+            "id": "e1a38dc2536b2126",
             "type": "leaf",
             "state": {
               "type": "image",
               "state": {
-                "file": "de/fpu/include_f16mis/Pasted image 20250515000243.png"
+                "file": "de/fpu/include_f16mis/fmis_uarch.svg"
               },
               "icon": "lucide-image",
-              "title": "Pasted image 20250515000243"
-            }
-          },
-          {
-            "id": "e1a38dc2536b2126",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "de/fpu/f16div.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "f16div"
+              "title": "fmis_uarch"
             }
           }
         ]
@@ -182,8 +167,11 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "6c3f65aa9dd1a744",
+  "active": "e1a38dc2536b2126",
   "lastOpenFiles": [
+    "de/fpu/f16div.md",
+    "de/fpu/include_f16mis/~$2comp_rounding.xlsx",
+    "de/fpu/include_f16mis/Pasted image 20250515000243.png",
     "de/fpu/f16mis.md",
     "de/v_rule/verilog.md",
     "de/v_rule/include_verilog/Pasted image 20241127162031.png",
@@ -194,9 +182,7 @@
     "de/fpu/include_f16mis/2comp_rounding.xlsx",
     "de/fpu/f32mis.md",
     "de/fpu/f16mac.md",
-    "de/fpu/include_f16mis/Pasted image 20250515000243.png",
     "de/fpu/ref_f16mis/~$FMIS_design_spec_v0.5.pptx",
-    "de/fpu/f16div.md",
     "de/fpu/include_f16mis/6897CC80",
     "de/fpu/spec/IEEE754-2019.pdf",
     "de/fpu/ref_f16mis/~$Alpaca_FPU_Misc_v0.5_20201217.pptx",
@@ -210,7 +196,6 @@
     "de/fpu/include_f16mis/~$fmis_round.xlsx",
     "conflict-files-obsidian-git.md",
     "de/fpu/include_f16mis/BFCBB880",
-    "de/fpu/include_f16mis/1B55B880",
-    "de/fpu/include_f16mis/1C238880"
+    "de/fpu/include_f16mis/1B55B880"
   ]
 }
