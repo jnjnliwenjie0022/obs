@@ -193,6 +193,7 @@
   },
   "active": "d45b3fec6d7158d5",
   "lastOpenFiles": [
+    "de/fpu/IEEE754.md",
     "de/fpu/f32mis.md",
     "de/fpu/ref_f16mis/~$FMIS_design_spec_v0.5.pptx",
     "ToDoList.md",
@@ -218,7 +219,6 @@
     "conflict-files-obsidian-git.md",
     "de/fpu/include_f16mis/fmis_uarch.svg",
     "de/fpu/f16macksa.md",
-    "de/fpu/IEEE754.md",
     "CV.md",
     "Pasted image 20250429014658.png",
     "de/fpu/ref_f16mac/code_old_kv/VFPU/FP_design_spec_Larry/FMIS/FMIS_Figs/fmis_fig_f6.png",
