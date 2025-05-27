@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "de/fpu/f32mis.md",
+                "file": "de/v_rule/ref/Andes_naming_rule.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "f32mis"
+              "title": "Andes_naming_rule"
             }
           }
         ]
@@ -54,7 +54,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "plus1",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -75,12 +75,12 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "a0335c5b1b237dfc",
@@ -173,8 +173,10 @@
   },
   "active": "e1a38dc2536b2126",
   "lastOpenFiles": [
-    "de/fpu/spec/IEEE754-2019.pdf",
+    "de/v_rule/rule.md",
+    "dv/sv/sv_rule.md",
     "de/fpu/f32mis.md",
+    "de/fpu/spec/IEEE754-2019.pdf",
     "de/fpu/include_f16mis/fmis_uarch.svg",
     "de/fpu/ref_f16mis/~$FMIS_design_spec_v0.5.pptx",
     "dv/sw/ld.md",
