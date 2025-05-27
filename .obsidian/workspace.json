@@ -1,14 +1,14 @@
 {
   "main": {
-    "id": "9f14a9d0986ad474",
+    "id": "9488bb68707b00b2",
     "type": "split",
     "children": [
       {
-        "id": "48a0af1f5b331e24",
+        "id": "85b3291b2920445a",
         "type": "tabs",
         "children": [
           {
-            "id": "d45b3fec6d7158d5",
+            "id": "e1a38dc2536b2126",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -28,24 +28,36 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "ce4ec9048f124f62",
+    "id": "77decbec7f18d613",
     "type": "split",
     "children": [
       {
-        "id": "afadd362b9dadcb6",
+        "id": "d8a4283b69fbd435",
         "type": "tabs",
-        "dimension": 62.21264367816091,
         "children": [
           {
-            "id": "bbf0212cf2e79727",
+            "id": "6915ea06b003fcd8",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "d57780648c3de8d5",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-                "query": "lzc",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
-                "collapseAll": true,
+                "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
               },
@@ -54,7 +66,7 @@
             }
           },
           {
-            "id": "8c4a1b3518c70847",
+            "id": "2422dbc280f52aaf",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -62,75 +74,28 @@
               "icon": "lucide-bookmark",
               "title": "Bookmarks"
             }
-          },
-          {
-            "id": "19a60b1e44f4e87a",
-            "type": "leaf",
-            "state": {
-              "type": "file-explorer",
-              "state": {
-                "sortOrder": "alphabetical",
-                "autoReveal": true
-              },
-              "icon": "lucide-folder-closed",
-              "title": "Files"
-            }
-          },
-          {
-            "id": "187192ed1f4570c8",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "de/v_rule/fctrl.md",
-                "followCursor": false,
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-list",
-              "title": "Outline of fctrl"
-            }
-          }
-        ],
-        "currentTab": 2
-      },
-      {
-        "id": "ce31482b6afb7740",
-        "type": "tabs",
-        "dimension": 37.787356321839084,
-        "children": [
-          {
-            "id": "8cb3b947f548a8b1",
-            "type": "leaf",
-            "state": {
-              "type": "git-view",
-              "state": {},
-              "icon": "git-pull-request",
-              "title": "Source Control"
-            }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 425.5,
+    "width": 300,
     "collapsed": true
   },
   "right": {
-    "id": "cb661d0a10776c07",
+    "id": "a0335c5b1b237dfc",
     "type": "split",
     "children": [
       {
-        "id": "12ef94254a16bc4e",
+        "id": "c4632ecd4255d02e",
         "type": "tabs",
         "children": [
           {
-            "id": "038585d6cbbd6ee7",
+            "id": "b580dc7d1219ac71",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "de/fctrl/coding_rule.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -140,111 +105,103 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for coding_rule"
+              "title": "Backlinks"
             }
           },
           {
-            "id": "583c60b2087cd011",
+            "id": "6dfb41c5398561fc",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "workflow/git/git.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from git"
+              "title": "Outgoing links"
             }
           },
           {
-            "id": "c99c08b55674a3f7",
+            "id": "3dc7da15f43b3326",
             "type": "leaf",
             "state": {
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": true
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-tags",
               "title": "Tags"
+            }
+          },
+          {
+            "id": "cbeb255d9d134875",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 452.5,
+    "width": 300,
     "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
-      "pdf-plus:PDF++: Toggle auto-copy": true,
-      "pdf-plus:PDF++: Toggle auto-focus": true,
-      "pdf-plus:PDF++: Toggle auto-paste": true,
-      "switcher:Open quick switcher": true,
-      "graph:Open graph view": true,
-      "canvas:Create new canvas": true,
-      "daily-notes:Open today's daily note": true,
-      "templates:Insert template": true,
-      "command-palette:Open command palette": true,
-      "obsidian-to-anki-plugin:Obsidian_to_Anki - Scan Vault": true
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "obsidian-to-anki-plugin:Obsidian_to_Anki - Scan Vault": false,
+      "pdf-plus:PDF++: Toggle auto-copy": false,
+      "pdf-plus:PDF++: Toggle auto-focus": false,
+      "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "d45b3fec6d7158d5",
+  "active": "e1a38dc2536b2126",
   "lastOpenFiles": [
-    "de/fpu/IEEE754.md",
-    "de/fpu/f32mis.md",
-    "de/fpu/ref_f16mis/~$FMIS_design_spec_v0.5.pptx",
-    "ToDoList.md",
-    "de/fpu/include_f16mis/~$2comp_rounding.xlsx",
-    "de/fpu/include_f16mis/Pasted image 20250524204004.png",
-    "de/fpu/include_f16mis/Pasted image 20250515000243.png",
-    "de/fpu/include_f16mis/07806130",
-    "de/fpu/include_f16mis/84706130",
-    "de/fpu/include_f16mis/~$fmis_round.xlsx",
-    "de/fpu/f16mac.md",
-    "de/fpu/ref_f16mac/archive/(lza)Efficient Decimal Leading Zero Anticipator Designs.pdf",
-    "de/v_rule/fast_design.md",
-    "de/v_rule/include_verilog/Pasted image 20241127162031.png",
-    "de/v_rule/include_verilog",
-    "de/v_rule/include_verilog/Pasted image 20240307155712.png",
-    "de/v_rule/verilog.md",
-    "de/v_rule/fctrl.md",
-    "de/v_rule/rule.md",
-    "de/fast",
-    "de/fpu/f16div.md",
     "de/fpu/spec/IEEE754-2019.pdf",
-    "de/fpu/include_f16mis/2comp_rounding.xlsx",
-    "conflict-files-obsidian-git.md",
+    "de/fpu/f32mis.md",
     "de/fpu/include_f16mis/fmis_uarch.svg",
-    "de/fpu/f16macksa.md",
-    "CV.md",
-    "Pasted image 20250429014658.png",
-    "de/fpu/ref_f16mac/code_old_kv/VFPU/FP_design_spec_Larry/FMIS/FMIS_Figs/fmis_fig_f6.png",
-    "de/ppa/evaluation.md",
-    "de/ppa/power.md",
-    "de/ppa/spyglass.md",
-    "de/fpu/include_f16div/f16div_frd_rne_correction_yz_algorithm.svg",
-    "de/fpu/include_f16div/f16div_frd_rne_correction_standard_rouding_algorithm.svg",
-    "workflow/nvim.md",
-    "language/pdf_downlaod.md",
-    "dv/sw/script.md",
-    "de/v_rule/ref/Andes_design_guide.md",
+    "de/fpu/ref_f16mis/~$FMIS_design_spec_v0.5.pptx",
+    "dv/sw/ld.md",
+    "de/fpu/f16div.md",
+    "de/fpu/include_f16mis/~$2comp_rounding.xlsx",
+    "de/fpu/include_f16mis/Pasted image 20250515000243.png",
+    "de/fpu/f16mis.md",
+    "de/v_rule/verilog.md",
+    "de/v_rule/include_verilog/Pasted image 20241127162031.png",
+    "de/v_rule/include_verilog/Pasted image 20240307155712.png",
+    "de/v_rule/include_verilog",
+    "de/v_rule/fast_design.md",
+    "de/fpu/include_f16mis/Pasted image 20250524204004.png",
+    "de/fpu/include_f16mis/2comp_rounding.xlsx",
+    "de/fpu/f16mac.md",
+    "de/fpu/include_f16mis/6897CC80",
+    "de/fpu/ref_f16mis/~$Alpaca_FPU_Misc_v0.5_20201217.pptx",
+    "Low Latency Floating-Point Division and Square.pdf.md",
+    "f16mis.standard_rounding_algorithm.md",
     "de/fpu/f16dsu.md",
-    "de/format.md",
-    "de/v_rule/include/pipeline_init.svg",
-    "dv/sv/sv_rule.md",
-    "workflow/git/git.md",
-    "financial/蔡森/蔡森-多空轉折一手抓.md",
-    "financial/others/總體經濟.md",
-    "dv/uvm/include/uvm_do_on_pri_with.canvas",
-    "uvm_factory.canvas",
-    "dv/uvm/include/uvm_factory1.canvas",
-    "dv/uvm/uvm_factory.canvas",
-    "dv/uvm/uvm_do.canvas",
-    "Untitled.canvas",
-    "Untitled 1.canvas",
-    "債券/債券.canvas"
+    "Untitled 1.md",
+    "Untitled.md",
+    "Pasted image 20250428004844.png",
+    "de/fpu/f16macksa.md",
+    "de/fpu/include_f16mis/~$fmis_round.xlsx",
+    "conflict-files-obsidian-git.md",
+    "de/fpu/include_f16mis/BFCBB880",
+    "de/fpu/include_f16mis/1B55B880"
   ]
 }
