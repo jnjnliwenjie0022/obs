@@ -6,4 +6,5 @@
 3. exclusive behavior
 4. [[f32mis]]
 5. [[fast_design]]
-6. https://github.com/tpn/pdfs/blob/master/General-Purpose%20Graphics%20Processor%20Architecture%20(2018).pdf
+6. sram power
+7. https://github.com/tpn/pdfs/blob/master/General-Purpose%20Graphics%20Processor%20Architecture%20(2018).pdf
