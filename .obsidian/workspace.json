@@ -173,6 +173,7 @@
   },
   "active": "e1a38dc2536b2126",
   "lastOpenFiles": [
+    "de/fpu/ref_f16mis/~$FMIS_design_spec_v0.5.pptx",
     "de/ppa/ref/Accelergy.pdf",
     "de/ppa/power.md",
     "de/fpu/include_f16mis/fmis_uarch.svg",
@@ -183,7 +184,6 @@
     "dv/sv/sv_rule.md",
     "de/fpu/f32mis.md",
     "de/fpu/spec/IEEE754-2019.pdf",
-    "de/fpu/ref_f16mis/~$FMIS_design_spec_v0.5.pptx",
     "dv/sw/ld.md",
     "de/fpu/f16div.md",
     "de/fpu/include_f16mis/~$2comp_rounding.xlsx",
