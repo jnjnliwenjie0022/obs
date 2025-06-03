@@ -11,12 +11,16 @@
             "id": "e1a38dc2536b2126",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "pdf",
               "state": {
-                "file": "de/fpu/include_f16mis/fmis_uarch.svg"
+                "file": "de/ppa/ref/Accelergy.pdf",
+                "page": 1,
+                "left": -11,
+                "top": 796,
+                "zoom": 1.400735294117647
               },
-              "icon": "lucide-image",
-              "title": "fmis_uarch"
+              "icon": "lucide-file-text",
+              "title": "Accelergy"
             }
           }
         ]
@@ -72,13 +76,11 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "a0335c5b1b237dfc",
@@ -171,8 +173,9 @@
   },
   "active": "e1a38dc2536b2126",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
+    "de/ppa/power.md",
     "de/fpu/include_f16mis/fmis_uarch.svg",
+    "conflict-files-obsidian-git.md",
     "de/fpu/f16mac.md",
     "de/v_rule/ref/Andes_naming_rule.md",
     "de/v_rule/rule.md",
