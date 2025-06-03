@@ -11,16 +11,15 @@
             "id": "e1a38dc2536b2126",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "de/ppa/ref/Accelergy.pdf",
-                "page": 1,
-                "left": -11,
-                "top": 796,
-                "zoom": 1.400735294117647
+                "file": "de/fpu/f32mis.md",
+                "mode": "preview",
+                "source": false,
+                "backlinks": false
               },
-              "icon": "lucide-file-text",
-              "title": "Accelergy"
+              "icon": "lucide-file",
+              "title": "f32mis"
             }
           }
         ]
@@ -80,7 +79,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "a0335c5b1b237dfc",
@@ -173,6 +173,7 @@
   },
   "active": "e1a38dc2536b2126",
   "lastOpenFiles": [
+    "de/ppa/ref/Accelergy.pdf",
     "de/ppa/power.md",
     "de/fpu/include_f16mis/fmis_uarch.svg",
     "conflict-files-obsidian-git.md",
