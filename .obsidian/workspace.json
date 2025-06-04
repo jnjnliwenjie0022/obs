@@ -11,12 +11,15 @@
             "id": "e1a38dc2536b2126",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "de/fpu/include_f16mis/fmis_uarch.svg"
+                "file": "de/fpu/f16mac.md",
+                "mode": "preview",
+                "source": false,
+                "backlinks": false
               },
-              "icon": "lucide-image",
-              "title": "fmis_uarch"
+              "icon": "lucide-file",
+              "title": "f16mac"
             }
           }
         ]
@@ -76,7 +79,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "a0335c5b1b237dfc",
@@ -169,6 +173,7 @@
   },
   "active": "e1a38dc2536b2126",
   "lastOpenFiles": [
+    "de/fpu/include_f16mis/fmis_uarch.svg",
     "de/fpu/ref_f16mac/code_old_kv/VFPU/FP_design_spec_Larry/FMIS/Achieve/~$FMIS_design_spec_v0.2.pptx",
     "de/fpu/ref_f16mac/code_old_kv/VFPU/FP_design_spec_Larry/FMIS/Achieve/~$FMIS_design_spec_v0.4.pptx",
     "de/fpu/ref_f16mac/code_old_kv/VFPU/FP_design_spec_Larry/FMIS/FMIS_Figs/fmis_fig_f4.png",
@@ -178,7 +183,6 @@
     "de/fpu/ref_f16mis/~$FMIS_design_spec_v0.5.pptx",
     "de/ppa/ref/Accelergy.pdf",
     "de/ppa/power.md",
-    "de/fpu/include_f16mis/fmis_uarch.svg",
     "conflict-files-obsidian-git.md",
     "de/fpu/f16mac.md",
     "de/v_rule/ref/Andes_naming_rule.md",
@@ -197,7 +201,6 @@
     "de/v_rule/fast_design.md",
     "de/fpu/include_f16mis/Pasted image 20250524204004.png",
     "de/fpu/include_f16mis/2comp_rounding.xlsx",
-    "de/fpu/include_f16mis/6897CC80",
     "Low Latency Floating-Point Division and Square.pdf.md",
     "f16mis.standard_rounding_algorithm.md",
     "de/fpu/f16dsu.md",
