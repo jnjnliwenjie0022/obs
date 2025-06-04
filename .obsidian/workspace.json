@@ -21,8 +21,21 @@
               "icon": "lucide-file",
               "title": "f16mac"
             }
+          },
+          {
+            "id": "080677701838f047",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "de/fpu/include_f16mis/fmis_uarch.svg"
+              },
+              "icon": "lucide-image",
+              "title": "fmis_uarch"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -171,8 +184,9 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "e1a38dc2536b2126",
+  "active": "080677701838f047",
   "lastOpenFiles": [
+    "de/fpu/f16mac.md",
     "de/fpu/include_f16mis/fmis_uarch.svg",
     "de/fpu/ref_f16mac/code_old_kv/VFPU/FP_design_spec_Larry/FMIS/Achieve/~$FMIS_design_spec_v0.2.pptx",
     "de/fpu/ref_f16mac/code_old_kv/VFPU/FP_design_spec_Larry/FMIS/Achieve/~$FMIS_design_spec_v0.4.pptx",
@@ -184,7 +198,6 @@
     "de/ppa/ref/Accelergy.pdf",
     "de/ppa/power.md",
     "conflict-files-obsidian-git.md",
-    "de/fpu/f16mac.md",
     "de/v_rule/ref/Andes_naming_rule.md",
     "de/v_rule/rule.md",
     "dv/sv/sv_rule.md",
