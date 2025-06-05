@@ -1,25 +1,25 @@
 {
   "main": {
-    "id": "9488bb68707b00b2",
+    "id": "d88e07345dcfbe5d",
     "type": "split",
     "children": [
       {
-        "id": "85b3291b2920445a",
+        "id": "6be776c98bfb820d",
         "type": "tabs",
         "children": [
           {
-            "id": "e1a38dc2536b2126",
+            "id": "bc7245cd2ca61465",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "de/fpu/f32mis.md",
+                "file": "conflict-files-obsidian-git.md",
                 "mode": "preview",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "f32mis"
+              "title": "conflict-files-obsidian-git"
             }
           }
         ]
@@ -28,15 +28,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "77decbec7f18d613",
+    "id": "46242b21f793c16c",
     "type": "split",
     "children": [
       {
-        "id": "d8a4283b69fbd435",
+        "id": "b6593a5454b0b3f1",
         "type": "tabs",
         "children": [
           {
-            "id": "6915ea06b003fcd8",
+            "id": "35a470a2c390e07e",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -49,12 +49,12 @@
             }
           },
           {
-            "id": "d57780648c3de8d5",
+            "id": "463934e073eea783",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-                "query": "fast forward",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -66,7 +66,7 @@
             }
           },
           {
-            "id": "2422dbc280f52aaf",
+            "id": "29a4d1998236b508",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -75,28 +75,27 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 448.5,
-    "collapsed": true
+    "width": 300
   },
   "right": {
-    "id": "a0335c5b1b237dfc",
+    "id": "baf9c43aba40b294",
     "type": "split",
     "children": [
       {
-        "id": "c4632ecd4255d02e",
+        "id": "b953332f08472a84",
         "type": "tabs",
         "children": [
           {
-            "id": "b580dc7d1219ac71",
+            "id": "67ef46447a2db9d8",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
+                "file": "conflict-files-obsidian-git.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,24 +105,25 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Backlinks for conflict-files-obsidian-git"
             }
           },
           {
-            "id": "6dfb41c5398561fc",
+            "id": "70b17e93822d19f9",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "conflict-files-obsidian-git.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links"
+              "title": "Outgoing links from conflict-files-obsidian-git"
             }
           },
           {
-            "id": "3dc7da15f43b3326",
+            "id": "a5478fab1b1933b6",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -138,17 +138,18 @@
             }
           },
           {
-            "id": "cbeb255d9d134875",
+            "id": "0b8a8ade04f18b08",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
+                "file": "conflict-files-obsidian-git.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of conflict-files-obsidian-git"
             }
           }
         ]
@@ -172,46 +173,6 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "e1a38dc2536b2126",
-  "lastOpenFiles": [
-    "de/fpu/f16mac.md",
-    "workflow/git/git.md",
-    "de/fpu/f16dsu.md",
-    "de/fpu/f32mis.md",
-    "de/fpu/include_f16mis/Pasted image 20250515000243.png",
-    "de/fpu/f16macksa.md",
-    "Pasted image 20250604143805.png",
-    "Pasted image 20250429014658.png",
-    "de/fpu/include_f16mis/Pasted image 20250524204004.png",
-    "de/fpu/include_f16mis/lzc_optimization.svg",
-    "de/fpu/ref_f16mac/code_old_kv/VFPU/FP_design_spec_Larry/FMIS/Achieve/~$FMIS_design_spec_v0.2.pptx",
-    "de/fpu/include_f16mis/~$2comp_rounding.xlsx",
-    "de/fpu/include_f16mis/fmis_uarch.svg",
-    "de/fpu/ref_f16mac/code_old_kv/VFPU/FP_design_spec_Larry/FMIS/Achieve/~$FMIS_design_spec_v0.4.pptx",
-    "de/fpu/ref_f16mac/code_old_kv/VFPU/FP_design_spec_Larry/FMIS/FMIS_Figs/fmis_fig_f4.png",
-    "de/fpu/ref_f16mac/code_old_kv/VFPU/FP_design_spec_Larry/~$Conversion_nb2fp_v0.1.pptx",
-    "de/fpu/ref_f16mac/code_old_kv/VFPU/FP_design_spec_Larry/FMIS/~$~$FMIS_design_spec_v0.5.pptx",
-    "de/fpu/ref_f16mis/~$FMIS_design_spec_v0.5.pptx",
-    "de/ppa/ref/Accelergy.pdf",
-    "de/ppa/power.md",
-    "conflict-files-obsidian-git.md",
-    "de/v_rule/ref/Andes_naming_rule.md",
-    "de/v_rule/rule.md",
-    "dv/sv/sv_rule.md",
-    "de/fpu/spec/IEEE754-2019.pdf",
-    "dv/sw/ld.md",
-    "de/fpu/f16div.md",
-    "de/fpu/f16mis.md",
-    "de/v_rule/verilog.md",
-    "de/v_rule/include_verilog/Pasted image 20241127162031.png",
-    "de/v_rule/include_verilog/Pasted image 20240307155712.png",
-    "de/v_rule/include_verilog",
-    "de/v_rule/fast_design.md",
-    "de/fpu/include_f16mis/2comp_rounding.xlsx",
-    "Low Latency Floating-Point Division and Square.pdf.md",
-    "f16mis.standard_rounding_algorithm.md",
-    "Untitled 1.md",
-    "Untitled.md",
-    "Pasted image 20250428004844.png"
-  ]
+  "active": "bc7245cd2ca61465",
+  "lastOpenFiles": []
 }
