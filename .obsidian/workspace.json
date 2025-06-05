@@ -4,22 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "6be776c98bfb820d",
+        "id": "4f11646c5f76009d",
         "type": "tabs",
         "children": [
           {
-            "id": "bc7245cd2ca61465",
+            "id": "0d2b3eb738081a4e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "conflict-files-obsidian-git.md",
+                "file": "de/fpu/f32mis.md",
                 "mode": "preview",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "conflict-files-obsidian-git"
+              "title": "f32mis"
             }
           }
         ]
@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "conflict-files-obsidian-git.md",
+                "file": "de/fpu/f32mis.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +105,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for conflict-files-obsidian-git"
+              "title": "Backlinks for f32mis"
             }
           },
           {
@@ -114,12 +114,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "conflict-files-obsidian-git.md",
+                "file": "de/fpu/f32mis.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from conflict-files-obsidian-git"
+              "title": "Outgoing links from f32mis"
             }
           },
           {
@@ -143,13 +143,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "conflict-files-obsidian-git.md",
+                "file": "de/fpu/f32mis.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of conflict-files-obsidian-git"
+              "title": "Outline of f32mis"
             }
           }
         ]
@@ -173,6 +173,8 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "bc7245cd2ca61465",
-  "lastOpenFiles": []
+  "active": "0d2b3eb738081a4e",
+  "lastOpenFiles": [
+    "conflict-files-obsidian-git.md"
+  ]
 }
