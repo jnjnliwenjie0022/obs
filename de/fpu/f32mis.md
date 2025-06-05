@@ -76,3 +76,5 @@ P.S: IEEE754中如果只有提到NaN但沒有提到是否為SNaN還是QNaN就表
 ![[de/fpu/spec/IEEE754-2019.pdf#page=39&rect=90,525,523,701|IEEE754-2019, p.38]]
 
 # lzc_optimization
+
+![[lzc_optimization.svg | 1000]]
