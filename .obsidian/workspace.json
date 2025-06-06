@@ -1,14 +1,14 @@
 {
   "main": {
-    "id": "d88e07345dcfbe5d",
+    "id": "9f14a9d0986ad474",
     "type": "split",
     "children": [
       {
-        "id": "4f11646c5f76009d",
+        "id": "777ae673ae64f10b",
         "type": "tabs",
         "children": [
           {
-            "id": "0d2b3eb738081a4e",
+            "id": "e3f5685e774c377d",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -28,36 +28,24 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "46242b21f793c16c",
+    "id": "ce4ec9048f124f62",
     "type": "split",
     "children": [
       {
-        "id": "b6593a5454b0b3f1",
+        "id": "afadd362b9dadcb6",
         "type": "tabs",
+        "dimension": 62.21264367816091,
         "children": [
           {
-            "id": "35a470a2c390e07e",
-            "type": "leaf",
-            "state": {
-              "type": "file-explorer",
-              "state": {
-                "sortOrder": "alphabetical",
-                "autoReveal": false
-              },
-              "icon": "lucide-folder-closed",
-              "title": "Files"
-            }
-          },
-          {
-            "id": "463934e073eea783",
+            "id": "bbf0212cf2e79727",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "lzc",
                 "matchingCase": false,
                 "explainSearch": false,
-                "collapseAll": false,
+                "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
               },
@@ -66,7 +54,7 @@
             }
           },
           {
-            "id": "29a4d1998236b508",
+            "id": "8c4a1b3518c70847",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -74,28 +62,75 @@
               "icon": "lucide-bookmark",
               "title": "Bookmarks"
             }
+          },
+          {
+            "id": "19a60b1e44f4e87a",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": true
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "187192ed1f4570c8",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "de/v_rule/fctrl.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of fctrl"
+            }
+          }
+        ],
+        "currentTab": 2
+      },
+      {
+        "id": "ce31482b6afb7740",
+        "type": "tabs",
+        "dimension": 37.787356321839084,
+        "children": [
+          {
+            "id": "8cb3b947f548a8b1",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 425.5,
+    "collapsed": true
   },
   "right": {
-    "id": "baf9c43aba40b294",
+    "id": "cb661d0a10776c07",
     "type": "split",
     "children": [
       {
-        "id": "b953332f08472a84",
+        "id": "12ef94254a16bc4e",
         "type": "tabs",
         "children": [
           {
-            "id": "67ef46447a2db9d8",
+            "id": "038585d6cbbd6ee7",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "de/fpu/f32mis.md",
+                "file": "de/fctrl/coding_rule.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,76 +140,111 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for f32mis"
+              "title": "Backlinks for coding_rule"
             }
           },
           {
-            "id": "70b17e93822d19f9",
+            "id": "583c60b2087cd011",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "de/fpu/f32mis.md",
+                "file": "workflow/git/git.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from f32mis"
+              "title": "Outgoing links from git"
             }
           },
           {
-            "id": "a5478fab1b1933b6",
+            "id": "c99c08b55674a3f7",
             "type": "leaf",
             "state": {
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": true,
-                "showSearch": false,
-                "searchQuery": ""
+                "useHierarchy": true
               },
               "icon": "lucide-tags",
               "title": "Tags"
-            }
-          },
-          {
-            "id": "0b8a8ade04f18b08",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "de/fpu/f32mis.md",
-                "followCursor": false,
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-list",
-              "title": "Outline of f32mis"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 300,
+    "width": 452.5,
     "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
-      "canvas:Create new canvas": false,
-      "daily-notes:Open today's daily note": false,
-      "templates:Insert template": false,
-      "command-palette:Open command palette": false,
-      "obsidian-to-anki-plugin:Obsidian_to_Anki - Scan Vault": false,
-      "pdf-plus:PDF++: Toggle auto-copy": false,
-      "pdf-plus:PDF++: Toggle auto-focus": false,
-      "pdf-plus:PDF++: Toggle auto-paste": false
+      "pdf-plus:PDF++: Toggle auto-copy": true,
+      "pdf-plus:PDF++: Toggle auto-focus": true,
+      "pdf-plus:PDF++: Toggle auto-paste": true,
+      "switcher:Open quick switcher": true,
+      "graph:Open graph view": true,
+      "canvas:Create new canvas": true,
+      "daily-notes:Open today's daily note": true,
+      "templates:Insert template": true,
+      "command-palette:Open command palette": true,
+      "obsidian-to-anki-plugin:Obsidian_to_Anki - Scan Vault": true
     }
   },
-  "active": "0d2b3eb738081a4e",
+  "active": "e3f5685e774c377d",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md"
+    "de/fpu/f32mis.md",
+    "conflict-files-obsidian-git.md",
+    "de/fpu/include_f16mis/lzc_optimization.svg",
+    "ToDoList.md",
+    "de/ppa/power.md",
+    "de/fpu/IEEE754.md",
+    "de/fpu/ref_f16mis/~$FMIS_design_spec_v0.5.pptx",
+    "de/fpu/include_f16mis/~$2comp_rounding.xlsx",
+    "de/fpu/include_f16mis/Pasted image 20250524204004.png",
+    "de/fpu/include_f16mis/Pasted image 20250515000243.png",
+    "de/fpu/include_f16mis/07806130",
+    "de/fpu/include_f16mis/84706130",
+    "de/fpu/include_f16mis/~$fmis_round.xlsx",
+    "de/fpu/f16mac.md",
+    "de/fpu/ref_f16mac/archive/(lza)Efficient Decimal Leading Zero Anticipator Designs.pdf",
+    "de/v_rule/fast_design.md",
+    "de/v_rule/include_verilog/Pasted image 20241127162031.png",
+    "de/v_rule/include_verilog",
+    "de/v_rule/include_verilog/Pasted image 20240307155712.png",
+    "de/v_rule/verilog.md",
+    "de/v_rule/fctrl.md",
+    "de/v_rule/rule.md",
+    "de/fast",
+    "de/fpu/f16div.md",
+    "de/fpu/spec/IEEE754-2019.pdf",
+    "de/fpu/include_f16mis/2comp_rounding.xlsx",
+    "de/fpu/include_f16mis/fmis_uarch.svg",
+    "de/fpu/f16macksa.md",
+    "CV.md",
+    "Pasted image 20250429014658.png",
+    "de/fpu/ref_f16mac/code_old_kv/VFPU/FP_design_spec_Larry/FMIS/FMIS_Figs/fmis_fig_f6.png",
+    "de/ppa/evaluation.md",
+    "de/ppa/spyglass.md",
+    "de/fpu/include_f16div/f16div_frd_rne_correction_yz_algorithm.svg",
+    "de/fpu/include_f16div/f16div_frd_rne_correction_standard_rouding_algorithm.svg",
+    "workflow/nvim.md",
+    "language/pdf_downlaod.md",
+    "dv/sw/script.md",
+    "de/v_rule/ref/Andes_design_guide.md",
+    "de/fpu/f16dsu.md",
+    "de/format.md",
+    "dv/sv/sv_rule.md",
+    "workflow/git/git.md",
+    "financial/蔡森/蔡森-多空轉折一手抓.md",
+    "financial/others/總體經濟.md",
+    "dv/uvm/include/uvm_do_on_pri_with.canvas",
+    "uvm_factory.canvas",
+    "dv/uvm/include/uvm_factory1.canvas",
+    "dv/uvm/uvm_factory.canvas",
+    "dv/uvm/uvm_do.canvas",
+    "Untitled.canvas",
+    "Untitled 1.canvas",
+    "債券/債券.canvas"
   ]
 }
