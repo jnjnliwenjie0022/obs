@@ -80,9 +80,10 @@ Let: {CSA_Cinv,1'b0}+CSA_S = (~AH)+(~CH);
 ## frd_rne_correction
 ![[frd_rne_correction.svg]]
 ## non_airth_op
-[NaN - Wikipedia](https://en.wikipedia.org/wiki/NaN#Operations_generating_NaN)
-[FP Exceptions (The GNU C Library)](https://www.gnu.org/software/libc/manual/html_node/FP-Exceptions.html)
-[Exceptions and Exception Handling (oracle.com)](https://docs.oracle.com/cd/E19957-01/806-3568/ncg_handle.html)
+
+- ref: [NaN - Wikipedia](https://en.wikipedia.org/wiki/NaN#Operations_generating_NaN)
+- ref: [FP Exceptions (The GNU C Library)](https://www.gnu.org/software/libc/manual/html_node/FP-Exceptions.html)
+- ref: [Exceptions and Exception Handling (oracle.com)](https://docs.oracle.com/cd/E19957-01/806-3568/ncg_handle.html)
 ## tininess
 RISCV is compatilbe with **`tininess after rounding`**
 Detecting tininess after rounding is usually slightly better because it results in fewer spurious underflow signals
@@ -90,11 +91,11 @@ The reason is that detecting tininess "before rounding" is simpler to implement.
 The reason is **not** because some implementations did it before IEEE 754 specified that detail. On the opposite, "after rounding" was for some time proposed to be the standard, and on this subject, Dan Zuras said in the stds-754 list in 2006: "The reason underflow after rounding was selected for section N is because Intel did it that way & it has become a de-facto standard." (Section N probably corresponded to [Annex U mentioned on Wikipedia](https://en.wikipedia.org/wiki/IEEE_754-2008_revision#Discussed_but_not_included).) Note that there were other reasons for "after rounding", such as symmetry with overflow (which is always after rounding) and avoiding some rare useless underflow exceptions.
 ![[Pasted image 20240315142306.png]]
 ## zero_sign
-[Signed zero](https://en.wikipedia.org/wiki/Signed_zero)
+
+- ref: [Signed zero](https://en.wikipedia.org/wiki/Signed_zero)
 # rounding
-ref:
-[CS 301 Lecture (uaf.edu)](https://www.cs.uaf.edu/2011/fall/cs301/lecture/11_09_weird_floats.html)
-[FPU验证那些事 – Wenhui's Rotten Pen](https://www.wenhui.space/docs/07-ic-verify/verify-notes/fpu-verify/)
+- ref: [CS 301 Lecture (uaf.edu)](https://www.cs.uaf.edu/2011/fall/cs301/lecture/11_09_weird_floats.html)
+- ref: [FPU验证那些事 – Wenhui's Rotten Pen](https://www.wenhui.space/docs/07-ic-verify/verify-notes/fpu-verify/)
 ## concept
 RISC-V Spec
 1. RNE (Round to Nearest, ties to Even)
@@ -104,8 +105,10 @@ RISC-V Spec
 5. RUP (Round up / towards positive infinity)
 
 IEEE Spec
-[Numerical behavior of NVIDIA tensor cores [PeerJ]](https://peerj.com/articles/cs-330/)
-[IEEE 754 - Wikipedia](https://en.wikipedia.org/wiki/IEEE_754)
+
+- ref: [Numerical behavior of NVIDIA tensor cores [PeerJ]](https://peerj.com/articles/cs-330/)
+- ref: [IEEE 754 - Wikipedia](https://en.wikipedia.org/wiki/IEEE_754)
+
 1. RE(rounds to nearest, ties to even): rounding toward even: 四捨五入偶數
 2. RA(rounds to nearest, ties away from zero): 四捨五入
 	=RMM(round to nearest, ties to max magnitude)
