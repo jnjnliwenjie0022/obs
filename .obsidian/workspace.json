@@ -37,8 +37,7 @@
               "title": "f16dsu"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -189,11 +188,12 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "a2ef6694da98b0ea",
+  "active": "0d2b3eb738081a4e",
   "lastOpenFiles": [
-    "de/fpu/f16mac.md",
-    "de/fpu/f16dsu.md",
+    "de/fpu/spec/IEEE754-2019.pdf",
     "de/fpu/f32mis.md",
+    "de/fpu/f16dsu.md",
+    "de/fpu/f16mac.md",
     "conflict-files-obsidian-git.md"
   ]
 }
