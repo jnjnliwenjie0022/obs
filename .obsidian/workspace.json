@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "de/amba_pq/pq_channel.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false,
                 "backlinks": false
               },
@@ -52,8 +52,7 @@
               "title": "upf"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -204,12 +203,12 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "359a12c58026f69f",
+  "active": "0d2b3eb738081a4e",
   "lastOpenFiles": [
+    "de/fpu/f16dsu.md",
+    "de/ppa/upf.md",
     "de/amba_pq/pq_channel.md",
     "de/ppa/power.md",
-    "de/ppa/upf.md",
-    "de/fpu/f16dsu.md",
     "de/amba_pq/include/ppu.svg",
     "de/amba_pq/include/pq.svg",
     "de/amba_pq/include/frd_rne_correction_with_ksa.svg",
