@@ -52,8 +52,7 @@
               "title": "upf"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -204,16 +203,16 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "359a12c58026f69f",
+  "active": "0d2b3eb738081a4e",
   "lastOpenFiles": [
-    "de/fpu/f16dsu.md",
+    "de/ppa/power.md",
     "de/amba_pq/pq_channel.md",
     "de/ppa/upf.md",
-    "de/amba_pq/include/pmu.svg",
+    "de/fpu/f16dsu.md",
+    "de/amba_pq/include/ppu.svg",
     "de/amba_pq/include/pq.svg",
     "de/amba_pq/include/frd_rne_correction_with_ksa.svg",
     "de/amba_pq/include",
-    "de/ppa/power.md",
     "de/amba_pq/ref/IHI0068D_amba_low_power_interface_spec.pdf",
     "de/amba_pq/ref/IHI0068D_amba_low_power_interface_spec.pdf.crdownload",
     "de/fpu/f16macksa.md",
