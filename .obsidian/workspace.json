@@ -4,25 +4,9 @@
     "type": "split",
     "children": [
       {
-        "id": "63245ea4b6adb347",
+        "id": "89355ece150f9920",
         "type": "tabs",
         "children": [
-          {
-            "id": "f7cb9975dc984f90",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "de/fpu/spec/IEEE754-2019.pdf",
-                "page": 42,
-                "left": -6,
-                "top": 694,
-                "zoom": 2.551587327524789
-              },
-              "icon": "lucide-file-text",
-              "title": "IEEE754-2019"
-            }
-          },
           {
             "id": "a7e31e54a8b941f1",
             "type": "leaf",
@@ -30,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "de/fpu/f32mis.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false,
                 "backlinks": false
               },
@@ -98,17 +82,17 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "de/v_rule/fctrl.md",
+                "file": "de/fpu/f32mis.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of fctrl"
+              "title": "Outline of f32mis"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       },
       {
         "id": "ce31482b6afb7740",
@@ -129,8 +113,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 425.5,
-    "collapsed": true
+    "width": 425.5
   },
   "right": {
     "id": "cb661d0a10776c07",
@@ -207,10 +190,10 @@
       "obsidian-to-anki-plugin:Obsidian_to_Anki - Scan Vault": true
     }
   },
-  "active": "f7cb9975dc984f90",
+  "active": "a7e31e54a8b941f1",
   "lastOpenFiles": [
-    "de/fpu/f32mis.md",
     "de/fpu/spec/IEEE754-2019.pdf",
+    "de/fpu/f32mis.md",
     "de/fpu/f16mac.md",
     "de/amba_pq/ref/IHI0068D_amba_low_power_interface_spec.pdf",
     "de/amba_pq/ref",

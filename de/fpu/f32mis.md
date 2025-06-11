@@ -1,3 +1,13 @@
+# exception
+
+| exception | remark |
+| --------- | ------ |
+| nv        |        |
+| dz        |        |
+| ovf       |        |
+| udf       |        |
+
+# cvt_arch
 - ref: [[de/fpu/ref_f16mis/FMIS_design_spec_v0.5.pptx|FMIS_design_spec_v0.5]]
 
 ![[fmis_uarch.svg|1400]]
@@ -74,6 +84,13 @@ P.S: IEEE754中如果只有提到NaN但沒有提到是否為SNaN還是QNaN就表
 ![[de/fpu/spec/IEEE754-2019.pdf#page=70&rect=126,302,526,334|IEEE754-2019, p.69]]
 - CLASS
 ![[de/fpu/spec/IEEE754-2019.pdf#page=39&rect=90,525,523,701|IEEE754-2019, p.38]]
+
+
+## nv_for_p2i
+
+- There is the invalid exception for floating-point to integer
+
+![[de/fpu/spec/IEEE754-2019.pdf#page=53&rect=123,219,526,252|IEEE754-2019, p.52]]
 
 # lzc_optimization
 
