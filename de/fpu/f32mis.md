@@ -1,11 +1,14 @@
 # exception
 
-| exception | remark |
-| --------- | ------ |
-| nv        |        |
-| dz        |        |
-| ovf       |        |
-| udf       |        |
+- ref: [[de/fpu/spec/IEEE754-2019.pdf#page=52&selection=4,0,8,2&color=important|7. Exceptions and default exception handling 7.]]
+
+| exception | remark                     |
+| --------- | -------------------------- |
+| nv        | iNValid exception          |
+| dz        | Division by Zero exception |
+| ovf       | OVerFlow exception         |
+| udf       | UnDerFlow exception        |
+| nx        | iNeXact exception          |
 
 # cvt_arch
 - ref: [[de/fpu/ref_f16mis/FMIS_design_spec_v0.5.pptx|FMIS_design_spec_v0.5]]
