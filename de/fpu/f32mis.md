@@ -1,9 +1,10 @@
 # terminology
 
-- half word = 16 bits
-- single word = 32 bits
-- double word = 64 bits
-- quad word = 128 bits
+- byte: 8bits
+- half word: 16 bits
+- single word: 32 bits
+- double word: 64 bits
+- quad word: 128 bits
 # exception
 
 - ref: [[de/fpu/spec/IEEE754-2019.pdf#page=52&selection=4,0,8,2&color=important|7. Exceptions and default exception handling 7.]]
