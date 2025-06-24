@@ -5,6 +5,16 @@
 - single word: 32 bits
 - double word: 64 bits
 - quad word: 128 bits
+# nan
+
+- qnan
+	- exp_all1 & signal_bit
+- snan
+	- exp_all1 & ~signal_bit & ~frac_all0
+- nan
+	- exp_all1 & ~frac_all0
+	- qnan | snan
+
 # exception
 
 - ref: [[de/fpu/spec/IEEE754-2019.pdf#page=52&selection=4,0,8,2&color=important|7. Exceptions and default exception handling 7.]]
