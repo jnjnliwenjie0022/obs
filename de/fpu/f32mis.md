@@ -71,7 +71,7 @@ rounding的負數處理方式: 都要先轉換成正數再去判斷是否要roud
 | 1    | 1   | 1   | 1   | 1   | 0   | 1   | 0   | 1   | 0   |
 
  ![[Pasted image 20250515000243.png|800]]
-## standard_rounding_algorithm
+## rounding_algorithm
 
 rounding的負數處理方式: 都要先轉換成正數再去判斷是否要rouding_inc
 
@@ -89,6 +89,8 @@ rounding的負數處理方式: 都要先轉換成正數再去判斷是否要roud
 | rn                        | RNE \| RMM                           |
 | ri                        | (~Sign & RUP) \| (Sign & RDN)        |
 | rz                        | RTZ \| (~Sign & RDN) \| (Sign & RUP) |
+
+## rouding
 
 # IEEE754_2019
 
