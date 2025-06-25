@@ -77,6 +77,9 @@ localparam STATE_EXEC = 4'd2;
 localparam STATE_DONE = 4'd3;
 ```
 - [ O ] signal list
+
+ref: [[Andes_naming_rule#Common Abbreviations]]
+
 ```
 _gt_: greater than
 _ge_: greater than or equal to
@@ -88,6 +91,9 @@ _a1: ahead 1T
 _a2: ahead 2T
 _d1: delay 1T
 _d2: delay 2T
+_inc: increase
+_dec: decrease
+_plus1: plus 1
 ```
 - [ O ] instance fifo
 ```verilog
