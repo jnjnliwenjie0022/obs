@@ -73,6 +73,11 @@ rounding的負數處理方式: 都要先轉換成正數再去判斷是否要roud
 | 1    | 1   | 1   | 1   | 1   | 0   | 1   | 0   | 1   | 0   |
 
  ![[Pasted image 20250515000243.png|800]]
+
+## rounding_rne
+
+![[Pasted image 20250625161903.png]]
+
 ## rounding_algorithm
 
 rounding的負數處理方式: 都要先轉換成正數再去判斷是否要rouding_inc
