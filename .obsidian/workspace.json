@@ -29,7 +29,7 @@
               "type": "markdown",
               "state": {
                 "file": "de/fpu/f32mis.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false,
                 "backlinks": false
               },
@@ -193,8 +193,9 @@
   "lastOpenFiles": [
     "de/fpu/include_f16mis/f16div_frd_rne_correction_rounding_inc_algorithm.svg",
     "de/fpu/f16div.md",
-    "de/fpu/include_f16div/f16div_frd_rne_correction_standard_rouding_algorithm.svg",
     "de/fpu/f32mis.md",
+    "必須配合rounding_inc_algorithm.md",
+    "de/fpu/include_f16div/f16div_frd_rne_correction_standard_rouding_algorithm.svg",
     "de/v_rule/rule.md",
     "de/v_rule/ref/Andes_naming_rule.md",
     "de/v_rule/ref/Andes_design_guide.md",

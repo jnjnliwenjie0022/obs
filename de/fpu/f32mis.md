@@ -43,6 +43,8 @@
 
 ## fast_negf2negi_rounding_algorithm
 
+必須配合[[f32mis#rounding_inc_algorithm|rounding_inc_algorithm]]
+
 - ref: [[2comp_rounding.xlsx]]
 
 ![[Pasted image 20250524204004.png]]
