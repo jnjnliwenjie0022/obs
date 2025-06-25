@@ -90,7 +90,9 @@ rounding的負數處理方式: 都要先轉換成正數再去判斷是否要roud
 | ri                        | (~Sign & RUP) \| (Sign & RDN)        |
 | rz                        | RTZ \| (~Sign & RDN) \| (Sign & RUP) |
 
-## rouding
+## rounding_inc_algorithm
+
+![[f16div_frd_rne_correction_rounding_inc_algorithm.svg]]
 
 # IEEE754_2019
 
