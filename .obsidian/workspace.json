@@ -11,12 +11,15 @@
             "id": "92cef9d98181e1b4",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "de/fpu/ref_f16mac/Pasted image 20240315142306.png"
+                "file": "de/fpu/f16mac.md",
+                "mode": "preview",
+                "source": false,
+                "backlinks": false
               },
-              "icon": "lucide-image",
-              "title": "Pasted image 20240315142306"
+              "icon": "lucide-file",
+              "title": "f16mac"
             }
           }
         ]
@@ -140,13 +143,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "de/fpu/ref_f16mac/Pasted image 20240315142306.png",
+                "file": "de/fpu/f16mac.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Pasted image 20240315142306"
+              "title": "Outline of f16mac"
             }
           }
         ],
@@ -173,6 +176,7 @@
   },
   "active": "92cef9d98181e1b4",
   "lastOpenFiles": [
+    "de/fpu/ref_f16mac/Pasted image 20240315142306.png",
     "de/fpu/f16mac.md",
     "de/fpu/ref_f16mac/~$Vicuna FPU Design Survey v0.2_20180126.pptx",
     "de/fpu/ref_f16mac/~$20180330_Andes_FPU.ppt",
