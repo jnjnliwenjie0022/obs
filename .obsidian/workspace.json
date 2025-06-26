@@ -21,24 +21,8 @@
               "icon": "lucide-file",
               "title": "f16mac"
             }
-          },
-          {
-            "id": "2ab3ee64061842ea",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "de/fpu/f32mis.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "f32mis"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -159,13 +143,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "de/fpu/f32mis.md",
+                "file": "de/fpu/f16mac.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of f32mis"
+              "title": "Outline of f16mac"
             }
           }
         ],
@@ -190,12 +174,17 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "2ab3ee64061842ea",
+  "active": "92cef9d98181e1b4",
   "lastOpenFiles": [
+    "language/2024-05-31.md",
+    "language/2024-06-03.md",
+    "language/2025-06-26.md",
+    "language/2024-05-30.md",
+    "language/~$24-08-16.docx",
+    "de/fpu/f32mis.md",
     "de/fpu/include_f16mis/Pasted image 20250625161903.png",
     "de/fpu/include_f16mis/f16div_frd_rne_correction_rounding_inc_algorithm.svg",
     "de/fpu/f16div.md",
-    "de/fpu/f32mis.md",
     "必須配合rounding_inc_algorithm.md",
     "de/fpu/include_f16div/f16div_frd_rne_correction_standard_rouding_algorithm.svg",
     "de/v_rule/rule.md",
@@ -227,7 +216,6 @@
     "de/ppa/power.md",
     "de/amba_pq/include/ppu.svg",
     "conflict-files-obsidian-git.md",
-    "de/v_rule/ref/~$20201204_Hight_Speed_RTL.pptx",
     "de/fpu/f16dsu.md",
     "de/ppa/upf.md",
     "de/amba_pq/include/pq.svg",
