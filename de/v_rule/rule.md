@@ -188,3 +188,5 @@ wire p1_valid_clr = p1_valid;
 ```
 
 ![[Pasted image 20250410143759.png]]
+
+![[Pasted image 20250626180646.png]]

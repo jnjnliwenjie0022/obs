@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "de/fpu/f16mac.md",
-                "mode": "preview",
+                "file": "de/v_rule/rule.md",
+                "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "f16mac"
+              "title": "rule"
             }
           }
         ]
@@ -144,13 +144,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "de/fpu/f16mac.md",
+                "file": "de/v_rule/rule.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of f16mac"
+              "title": "Outline of rule"
             }
           }
         ],
@@ -177,8 +177,10 @@
   },
   "active": "92cef9d98181e1b4",
   "lastOpenFiles": [
-    "de/fpu/f32mis.md",
+    "de/v_rule/include/Pasted image 20250626180646.png",
+    "de/v_rule/verilog.md",
     "de/fpu/f16mac.md",
+    "de/fpu/f32mis.md",
     "de/fpu/ref_f16mac/Pasted image 20240315142306.png",
     "de/fpu/ref_f16mac/~$Vicuna FPU Design Survey v0.2_20180126.pptx",
     "de/fpu/ref_f16mac/~$20180330_Andes_FPU.ppt",
@@ -199,7 +201,6 @@
     "de/v_rule/rule.md",
     "de/v_rule/ref/Andes_naming_rule.md",
     "de/v_rule/ref/Andes_design_guide.md",
-    "de/v_rule/verilog.md",
     "dv/sv/iff.md",
     "dv/sv/generic_memory.md",
     "dv/sv/polymorphism.md",
