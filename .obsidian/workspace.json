@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "de/fpu/f16mac.md",
+                "file": "de/fpu/f32mis.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "f16mac"
+              "title": "f32mis"
             }
           }
         ]
@@ -143,13 +143,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "de/fpu/f16mac.md",
+                "file": "de/fpu/f32mis.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of f16mac"
+              "title": "Outline of f32mis"
             }
           }
         ],
@@ -176,6 +176,7 @@
   },
   "active": "92cef9d98181e1b4",
   "lastOpenFiles": [
+    "de/fpu/f16mac.md",
     "language/2024-05-31.md",
     "language/2024-06-03.md",
     "language/2025-06-26.md",
@@ -191,7 +192,6 @@
     "de/v_rule/ref/Andes_naming_rule.md",
     "de/v_rule/ref/Andes_design_guide.md",
     "de/v_rule/verilog.md",
-    "de/fpu/f16mac.md",
     "dv/sv/iff.md",
     "dv/sv/generic_memory.md",
     "dv/sv/polymorphism.md",

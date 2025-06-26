@@ -34,14 +34,16 @@
 
 # rounding_step
 
-| convert                        | rounding step       | method                                                                     |
-| ------------------------------ | ------------------- | -------------------------------------------------------------------------- |
-| negative float to negative int | rounding then 2comp | **fast negf2negi rounding algorithm** based on standard rounding algorithm |
-| positive float to positive int | rounding            | standard rounding algorithm                                                |
-| positive int to positive float | rounding            | standard rounding algorithm                                                |
-| negative int to negative float | 2comp then rounding | 2comp then standard rounding algorithm                                     |
+| convert                        | rounding step       | method                                                            |
+| ------------------------------ | ------------------- | ----------------------------------------------------------------- |
+| negative float to negative int | rounding then 2comp | **2comp_rounding_algorithm** based on standard rounding algorithm |
+| positive float to positive int | rounding            | standard rounding algorithm                                       |
+| positive int to positive float | rounding            | standard rounding algorithm                                       |
+| negative int to negative float | 2comp then rounding | 2comp then standard rounding algorithm                            |
 
-## fast_negf2negi_rounding_algorithm
+## 2comp_rounding_algorithm
+
+2comp_rounding_algorithm: fast_negf2negi_rounding_algorithm
 
 必須配合[[f32mis#rounding_inc_algorithm|rounding_inc_algorithm]]
 
