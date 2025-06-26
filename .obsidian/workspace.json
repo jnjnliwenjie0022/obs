@@ -79,7 +79,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 653.5
+    "width": 653.5,
+    "collapsed": true
   },
   "right": {
     "id": "baf9c43aba40b294",
@@ -176,15 +177,15 @@
   },
   "active": "92cef9d98181e1b4",
   "lastOpenFiles": [
-    "de/fpu/ref_f16mac/Pasted image 20240315142306.png",
+    "de/fpu/f32mis.md",
     "de/fpu/f16mac.md",
+    "de/fpu/ref_f16mac/Pasted image 20240315142306.png",
     "de/fpu/ref_f16mac/~$Vicuna FPU Design Survey v0.2_20180126.pptx",
     "de/fpu/ref_f16mac/~$20180330_Andes_FPU.ppt",
     "de/fpu/ref_f16mac/~$Andes_FPU.ppt",
     "de/fpu/ref_f16mac/~$Half-Precision FMAC_v0.2.pptx",
     "de/fpu/ref_f16mac/~$Floating-Point Multiply-Add-Fused with Reduced Latency.pptx",
     "de/fpu/ref_f16mac/~$VFMAC_DP_spec.pptx",
-    "de/fpu/f32mis.md",
     "language/2024-05-31.md",
     "language/2024-06-03.md",
     "language/2025-06-26.md",
