@@ -11,15 +11,12 @@
             "id": "92cef9d98181e1b4",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "de/fpu/f32mis.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
+                "file": "de/fpu/ref_f16mac/Pasted image 20240315142306.png"
               },
-              "icon": "lucide-file",
-              "title": "f32mis"
+              "icon": "lucide-image",
+              "title": "Pasted image 20240315142306"
             }
           }
         ]
@@ -79,7 +76,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 258.5
+    "width": 653.5
   },
   "right": {
     "id": "baf9c43aba40b294",
@@ -143,13 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "de/fpu/f32mis.md",
+                "file": "de/fpu/ref_f16mac/Pasted image 20240315142306.png",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of f32mis"
+              "title": "Outline of Pasted image 20240315142306"
             }
           }
         ],
@@ -177,12 +174,18 @@
   "active": "92cef9d98181e1b4",
   "lastOpenFiles": [
     "de/fpu/f16mac.md",
+    "de/fpu/ref_f16mac/~$Vicuna FPU Design Survey v0.2_20180126.pptx",
+    "de/fpu/ref_f16mac/~$20180330_Andes_FPU.ppt",
+    "de/fpu/ref_f16mac/~$Andes_FPU.ppt",
+    "de/fpu/ref_f16mac/~$Half-Precision FMAC_v0.2.pptx",
+    "de/fpu/ref_f16mac/~$Floating-Point Multiply-Add-Fused with Reduced Latency.pptx",
+    "de/fpu/ref_f16mac/~$VFMAC_DP_spec.pptx",
+    "de/fpu/f32mis.md",
     "language/2024-05-31.md",
     "language/2024-06-03.md",
     "language/2025-06-26.md",
     "language/2024-05-30.md",
     "language/~$24-08-16.docx",
-    "de/fpu/f32mis.md",
     "de/fpu/include_f16mis/Pasted image 20250625161903.png",
     "de/fpu/include_f16mis/f16div_frd_rne_correction_rounding_inc_algorithm.svg",
     "de/fpu/f16div.md",
@@ -200,13 +203,7 @@
     "de/fpu/ref_f16mac/12.805157.pdf",
     "de/fpu/ref_f16mac/~$5761695.ppt",
     "de/fpu/ref_f16mac/4.508263.pdf",
-    "de/fpu/ref_f16mac/iccd.1998.727065.pdf",
-    "de/fpu/ref_f16mac/ICCD.2002.1106762.pdf",
-    "de/fpu/ref_f16mac/tc.1973.5009159.pdf",
-    "de/fpu/ref_f16mac/~$IEEE Std 754.pptx",
     "de/fpu/include_f16mis/Pasted image 20250524204004.png",
-    "de/fpu/ref_f16mis/~$Alpaca_FPU_Misc_v0.5_20201217.pptx",
-    "de/fpu/ref_f16mis/~$FMIS_design_spec_v0.5.pptx",
     "de/fpu/include_f16mis/Pasted image 20250515000243.png",
     "de/fpu/f16macksa.md",
     "de/fpu/IEEE754.md",
@@ -219,7 +216,6 @@
     "de/fpu/f16dsu.md",
     "de/ppa/upf.md",
     "de/amba_pq/include/pq.svg",
-    "de/amba_pq/include/frd_rne_correction_with_ksa.svg",
-    "de/arithmetic/booth.md"
+    "de/amba_pq/include/frd_rne_correction_with_ksa.svg"
   ]
 }
