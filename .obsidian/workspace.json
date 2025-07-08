@@ -26,16 +26,15 @@
             "id": "4f4009c9097e6977",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "dv/uvm/ref/649575fcbf99287ba25f20e8_litterick_uvm_slaves2_paper.pdf",
-                "page": 1,
-                "left": -10,
-                "top": 763,
-                "zoom": 1.5294117647058822
+                "file": "workflow/capslock2ctrl.md",
+                "mode": "preview",
+                "source": false,
+                "backlinks": false
               },
-              "icon": "lucide-file-text",
-              "title": "649575fcbf99287ba25f20e8_litterick_uvm_slaves2_paper"
+              "icon": "lucide-file",
+              "title": "capslock2ctrl"
             }
           },
           {
@@ -205,8 +204,9 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "35a470a2c390e07e",
+  "active": "4f4009c9097e6977",
   "lastOpenFiles": [
+    "dv/uvm/ref/649575fcbf99287ba25f20e8_litterick_uvm_slaves2_paper.pdf",
     "dv/uvm/ref/UVM1.1应用指南及源代码分析_20111211版.pdf",
     "dv/uvm/ref/img20240201184635.pdf",
     "dv/uvm/ref/verilab_dvcon_eu2015_6_params.pdf",
@@ -225,7 +225,6 @@
     "de/design_rule/ref/rtl.pptx",
     "de/design_rule/ref/nds_flag_setclr.v",
     "de/design_rule/ref/Network-on-Chip.ppt",
-    "de/design_rule/ref/Link-Level Flow Control and Buffering.pptx",
     "de/design_rule/ref/Andes_naming_rule.md",
     "de/design_rule/ref/Andes_design_guide.md",
     "de/design_rule/include_verilog/Pasted image 20241127162031.png",
