@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "de/arithmetic/booth.md",
+                "file": "de/fpu/f16macksa.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "booth"
+              "title": "f16macksa"
             }
           }
         ]
@@ -79,7 +79,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 653.5
+    "width": 653.5,
+    "collapsed": true
   },
   "right": {
     "id": "baf9c43aba40b294",
@@ -143,13 +144,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "de/arithmetic/booth.md",
+                "file": "de/fpu/f16macksa.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of booth"
+              "title": "Outline of f16macksa"
             }
           }
         ],
@@ -176,8 +177,8 @@
   },
   "active": "92cef9d98181e1b4",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
     "de/arithmetic/booth.md",
+    "conflict-files-obsidian-git.md",
     "dv/uvm/ref/UVM1.1应用指南及源代码分析_20111211版.pdf",
     "de/arithmetic/divider.md",
     "de/design_rule/rule.md",
