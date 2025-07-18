@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "de/fpu/f16mac.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false,
                 "backlinks": false
               },
@@ -174,9 +174,10 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "0b8a8ade04f18b08",
+  "active": "92cef9d98181e1b4",
   "lastOpenFiles": [
     "de/fpu/f16macksa.md",
+    "de/fpu/f16mac.md",
     "de/design_rule/rule.md",
     "de/fpu/include_f16dsu/valid_pd_diagram.svg",
     "workflow/git/git.md",
@@ -192,7 +193,6 @@
     "de/note.md",
     "de/design_rule/include/Pasted image 20250626180646.png",
     "de/design_rule/verilog.md",
-    "de/fpu/f16mac.md",
     "de/fpu/f32mis.md",
     "de/fpu/ref_f16mac/Pasted image 20240315142306.png",
     "de/fpu/ref_f16mac/~$Vicuna FPU Design Survey v0.2_20180126.pptx",

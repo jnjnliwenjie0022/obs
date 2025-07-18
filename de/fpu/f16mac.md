@@ -128,7 +128,7 @@ IEEE Spec
 因此只要用RA算完之後再判斷是否為0.5(R=1,S=0), 並强制將RA的LSB設爲0,即是RE
 ![[fma_rounding.svg]]
 # fast_comparator
-## csa_based_faster_comparator
+## csa_based_faster_comparator_pos
 ```verilog
 A and B can be negative but A + B must be positive, positive means that >= 0
 K must be positive
@@ -165,6 +165,15 @@ Let: {CSA_C,1'b0}+CSA_S = AH+BH+(~KH)
 => {CSA_C,C} < ~CSA_S
 ```
 
+## csa_based_faster_comparator_neg
+
+```verilog
+// Sign detection
+// note: without subnormal case, qualify [105:0] and gt2 is enough
+assign f2_complement = f2_eff_sub & ( ( ~f2_carry[MAC_MSB:MAC_LSB+1] >  f2_sum[MAC_MSB:MAC_LSB+1]));
+// | ((~f2_carry[MAC_MSB:MAC_LSB+1] == f2_sum[MAC_MSB:MAC_LSB+1]) & ~f2_carry[MAC_LSB] & ~f2_sum[MAC_LSB])); // note: analysis shows qualify [MAC_MSB:MAC_LSB+1] is enough
+
+```
 # csa
 [[csa_analysis.xlsx]]
 ## csa_compare_adder_tree
