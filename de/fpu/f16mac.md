@@ -167,10 +167,12 @@ Let: {CSA_C,1'b0}+CSA_S = AH+BH+(~KH)
 
 ## fmac_neg_detector
 
+- 想辦法轉成unsigend
+
 ```
-根據IEEE754，小於0的的條件只有A * B - K
-如果為eff_sub，則A * B < k
-A * B - K < 0
+根據IEEE754，小於0的的條件只有A * B - K (A * B >= 0, K >= 0)
+如果為eff_sub，則A * B < K (A * B >= 0, K >= 0)
+A * B - K < 0 
 根據IEEE754的屬性，會有b這個一個bit的行爲
 => A * B + ~K + b < 0
 => {CSA_C,b} < ~CSA_S
