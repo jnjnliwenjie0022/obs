@@ -130,8 +130,8 @@ IEEE Spec
 # fast_comparator
 ## csa_based_faster_comparator_pos
 
-- A and B can be negative but A + B >=0, K >= 0
-- 如果A和B有經過CSA，也是保證 A + B must be positive
+- A and B can be negative but A + B >= 0, K >= 0
+- A and B and K 有經過CSA，也是保證 A + B >= 0
 
 ```verilog
 // fast comparator method 1
@@ -187,7 +187,8 @@ Let {CSA_C,0} + CSA_S <= 0
 => {CSA_C,1'b0} + CSA_S < 0 (x-1)
 => -{CSA_C,1'b0} - CSA_S > 0
 => -{CSA_C,1'b0} > CSA_S
-
+=> {~CSA_C,1'b1} + 1'b1 > CSA_S
+=> {~CSA_C,1'b1} >= CSA_S
 ```
 
 # csa
