@@ -163,12 +163,15 @@ Let: {CSA_C,1'b0}+CSA_S = AH+BH+(~KH)
 => {CSA_C,C} < ~CSA_S
 ```
 
-## csa_based_faster_comparator_signed
+## fmac_neg_detector
 
-如果是負數的話怎麽處理
-
-- 首先要先知道A + B <= 0, K <= 0, 所以才會有f2_eff_sub的信號
-- 全部轉成>=0
+```
+根據IEEE754，A*B+K只有K可能為負數
+rug
+A*B+K < 0
+A*B+
+A+B < C
+```
 
 ```verilog
 // Sign detection
@@ -176,16 +179,6 @@ Let: {CSA_C,1'b0}+CSA_S = AH+BH+(~KH)
 assign f2_complement = f2_eff_sub & ( ( ~f2_carry[MAC_MSB:MAC_LSB+1] >  f2_sum[MAC_MSB:MAC_LSB+1]));
 // | ((~f2_carry[MAC_MSB:MAC_LSB+1] == f2_sum[MAC_MSB:MAC_LSB+1]) & ~f2_carry[MAC_LSB] & ~f2_sum[MAC_LSB])); // note: analysis shows qualify [MAC_MSB:MAC_LSB+1] is enough
 
-```
-
-```verilog
-Let {CSA_C,0} + CSA_S <= 0
-=> {CSA_C,1'b0} + CSA_S < 0
-=> {CSA_C,1'b0} + CSA_S < 0 (x-1)
-=> -{CSA_C,1'b0} - CSA_S > 0
-=> -{CSA_C,1'b0} > CSA_S
-=> {~CSA_C,1'b1} + 1'b1 > CSA_S
-=> {~CSA_C,1'b1} >= CSA_S
 ```
 
 # csa
