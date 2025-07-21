@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "de/fpu/f16mac.md",
+                "file": "de/ppa/power.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "f16mac"
+              "title": "power"
             }
           }
         ]
@@ -79,8 +79,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 653.5,
-    "collapsed": true
+    "width": 653.5
   },
   "right": {
     "id": "baf9c43aba40b294",
@@ -144,13 +143,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "de/fpu/f16mac.md",
+                "file": "de/ppa/power.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of f16mac"
+              "title": "Outline of power"
             }
           }
         ],
@@ -174,10 +173,17 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "92cef9d98181e1b4",
+  "active": "35a470a2c390e07e",
   "lastOpenFiles": [
-    "de/fpu/f16macksa.md",
+    "de/power/ref/gck.v",
+    "de/power/ref/gck.txt",
+    "de/power/ref/New Text Document.txt",
+    "de/power/ref",
+    "de/power/Untitled.md",
+    "de/ppa/power.md",
+    "de/power",
     "de/fpu/f16mac.md",
+    "de/fpu/f16macksa.md",
     "de/design_rule/rule.md",
     "de/fpu/include_f16dsu/valid_pd_diagram.svg",
     "workflow/git/git.md",
@@ -200,12 +206,10 @@
     "de/fpu/ref_f16mac/~$Andes_FPU.ppt",
     "de/fpu/ref_f16mac/~$Half-Precision FMAC_v0.2.pptx",
     "de/fpu/ref_f16mac/~$Floating-Point Multiply-Add-Fused with Reduced Latency.pptx",
-    "de/fpu/ref_f16mac/~$VFMAC_DP_spec.pptx",
     "language/2024-05-31.md",
     "language/2024-06-03.md",
     "language/2025-06-26.md",
     "language/2024-05-30.md",
-    "language/~$24-08-16.docx",
     "de/fpu/include_f16mis/Pasted image 20250625161903.png",
     "de/fpu/include_f16mis/f16div_frd_rne_correction_rounding_inc_algorithm.svg",
     "de/fpu/f16div.md",
@@ -215,10 +219,6 @@
     "de/design_rule/ref/Andes_design_guide.md",
     "dv/sv/iff.md",
     "dv/sv/generic_memory.md",
-    "dv/sv/polymorphism.md",
-    "dv/sv/sv_rule.md",
-    "de/fpu/ref_f16mac/12.805157.pdf",
-    "de/fpu/ref_f16mac/~$5761695.ppt",
     "de/fpu/include_f16mis/Pasted image 20250524204004.png",
     "de/fpu/include_f16mis/Pasted image 20250515000243.png"
   ]
