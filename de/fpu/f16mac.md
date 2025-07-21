@@ -129,10 +129,11 @@ IEEE Spec
 ![[fma_rounding.svg]]
 # fast_comparator
 ## csa_based_faster_comparator_pos
+
+- A and B can be negative but A + B >=0, K >= 0
+- 如果A和B有經過CSA，也是保證 A + B must be positive
+
 ```verilog
-A and B can be negative but A + B must be positive, positive means that >= 0
-K must be positive
-如果A和B有經過CSA，也是保證 A + B must be positive
 // fast comparator method 1
 A+B < K
 => A+B-K < 0
@@ -167,6 +168,11 @@ Let: {CSA_C,1'b0}+CSA_S = AH+BH+(~KH)
 
 ## csa_based_faster_comparator_neg
 
+如果是負數的話怎麽處理
+
+- 首先要先知道A + B <= 0, K <= 0, 所以才會有f2_eff_sub的信號
+- 全部轉成>=0
+
 ```verilog
 // Sign detection
 // note: without subnormal case, qualify [105:0] and gt2 is enough
@@ -174,6 +180,16 @@ assign f2_complement = f2_eff_sub & ( ( ~f2_carry[MAC_MSB:MAC_LSB+1] >  f2_sum[M
 // | ((~f2_carry[MAC_MSB:MAC_LSB+1] == f2_sum[MAC_MSB:MAC_LSB+1]) & ~f2_carry[MAC_LSB] & ~f2_sum[MAC_LSB])); // note: analysis shows qualify [MAC_MSB:MAC_LSB+1] is enough
 
 ```
+
+```verilog
+Let {CSA_C,0} + CSA_S <= 0
+=> {CSA_C,1'b0} + CSA_S < 0
+=> {CSA_C,1'b0} + CSA_S < 0 (x-1)
+=> -{CSA_C,1'b0} - CSA_S > 0
+=> -{CSA_C,1'b0} > CSA_S
+
+```
+
 # csa
 [[csa_analysis.xlsx]]
 ## csa_compare_adder_tree
