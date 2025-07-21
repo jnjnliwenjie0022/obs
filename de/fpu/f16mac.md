@@ -128,10 +128,7 @@ IEEE Spec
 因此只要用RA算完之後再判斷是否為0.5(R=1,S=0), 並强制將RA的LSB設爲0,即是RE
 ![[fma_rounding.svg]]
 # fast_comparator
-## csa_based_faster_comparator_pos
-
-- A and B can be negative but A + B >= 0, K >= 0
-- A and B and K 有經過CSA，也是保證 A + B >= 0
+## csa_based_faster_comparator_unsigned
 
 ```verilog
 // fast comparator method 1
@@ -166,7 +163,7 @@ Let: {CSA_C,1'b0}+CSA_S = AH+BH+(~KH)
 => {CSA_C,C} < ~CSA_S
 ```
 
-## csa_based_faster_comparator_neg
+## csa_based_faster_comparator_signed
 
 如果是負數的話怎麽處理
 
