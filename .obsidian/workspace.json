@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "de/ppa/power.md",
+                "file": "de/power/gck.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "power"
+              "title": "gck"
             }
           }
         ]
@@ -79,7 +79,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 653.5
+    "width": 653.5,
+    "collapsed": true
   },
   "right": {
     "id": "baf9c43aba40b294",
@@ -143,13 +144,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "de/ppa/power.md",
+                "file": "de/power/gck.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of power"
+              "title": "Outline of gck"
             }
           }
         ],
@@ -157,7 +158,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 346.5
+    "width": 346.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -173,13 +175,14 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "35a470a2c390e07e",
+  "active": "92cef9d98181e1b4",
   "lastOpenFiles": [
+    "de/ppa/power.md",
+    "de/power/gck.md",
     "de/power/include/gck.svg",
     "de/power/include/fifo.svg",
     "de/power/include",
     "de/power/gck.md",
-    "de/ppa/power.md",
     "de/power/ref/gck.v",
     "de/power/ref/gck.txt",
     "de/power/ref/New Text Document.txt",
@@ -219,7 +222,6 @@
     "de/design_rule/ref/Andes_naming_rule.md",
     "de/design_rule/ref/Andes_design_guide.md",
     "dv/sv/iff.md",
-    "dv/sv/generic_memory.md",
-    "de/fpu/include_f16mis/Pasted image 20250524204004.png"
+    "dv/sv/generic_memory.md"
   ]
 }
