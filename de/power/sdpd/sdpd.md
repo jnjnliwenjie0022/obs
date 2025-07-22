@@ -11,4 +11,5 @@
 | #6   | 1                   | none           | 1->1   | No Internal Power |
 | #7   | 1                   | 0->0           | none   | No Internal Power |
 | #8   | 1                   | 1->1           | none   | No Internal Power |
-- #5 and #6 暗示
+- #5 and #6 暗示 output 如果不改變，只有input改變，對internal power影響不大
+- #7 and #8 表示 input 不改改變，就不會有internal power
