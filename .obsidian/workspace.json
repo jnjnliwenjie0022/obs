@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "de/power/gck.md",
+                "file": "de/ppa/power.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "gck"
+              "title": "power"
             }
           }
         ]
@@ -144,13 +144,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "de/power/gck.md",
+                "file": "de/ppa/power.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of gck"
+              "title": "Outline of power"
             }
           }
         ],
@@ -177,8 +177,8 @@
   },
   "active": "92cef9d98181e1b4",
   "lastOpenFiles": [
-    "de/ppa/power.md",
     "de/power/gck.md",
+    "de/ppa/power.md",
     "de/power/include/gck.svg",
     "de/power/include/fifo.svg",
     "de/power/include",
