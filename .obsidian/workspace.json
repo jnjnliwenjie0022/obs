@@ -49,7 +49,8 @@
               "title": "sdpd"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -200,10 +201,10 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "92cef9d98181e1b4",
+  "active": "8ad7c04677d05eb9",
   "lastOpenFiles": [
-    "de/power/gck/gck.md",
     "de/power/reg/reg.md",
+    "de/power/gck/gck.md",
     "de/power/reg/reg.svg",
     "de/power/gck/include/gck.svg",
     "de/power/reg",
