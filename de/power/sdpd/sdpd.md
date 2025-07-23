@@ -38,3 +38,8 @@
 | #3   | 0->0   | no_switch_power |
 | #4   | 1->1   | no_switch_power |
 E = C * VDD^2
+
+# leakage_power
+| when(A,B,C,...,etc) | Table         |
+| ------------------- | ------------- |
+| 1                   | leakage_power |
