@@ -7,7 +7,8 @@
 # internal_power_cell
 
 - ref: http://www.360doc.com/content/22/0622/14/18252487_1036999755.shtml
-- ref:[[低功耗设计基础：深入理解Internal Power - 知乎.pdf]]
+- ref: [[低功耗设计基础：深入理解Internal Power - 知乎.pdf]]
+- ref: https://blog.csdn.net/i_chip_backend/article/details/118303553
 
 ```verilog
 cell (AN2D1BWP30P140) {
