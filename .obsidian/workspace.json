@@ -172,12 +172,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "de/power/sdpd/sdpd.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of sdpd"
             }
           }
         ],
@@ -185,8 +186,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 346.5,
-    "collapsed": true
+    "width": 346.5
   },
   "left-ribbon": {
     "hiddenItems": {

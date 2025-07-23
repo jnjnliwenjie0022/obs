@@ -476,16 +476,9 @@ cell (DFCNQD1BWP30P140) {
 
 ```
 
-- 用direction區分成: input/output
-	- input: 不會有related_pin
-	- output: 一定有related_pin
-- 不論是input/output: rise_power/fall_power是根據pin而言，而不是related_pin
-- index_1：input transition
-- index_2：output transition
-
-
-- Q與internal power完全無關，Q只有switch power有關
-- CLK只要有變動就有internal power
+- 基本計算跟internal_power_cell一樣
+- 特色：
+	- pin(CP)即使在Q or QN沒有變化的時候仍然會有很大的消耗能量
 # switch_power
 
 | case | pin(X) | Table           |
