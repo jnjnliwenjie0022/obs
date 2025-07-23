@@ -204,6 +204,9 @@
   },
   "active": "8ad7c04677d05eb9",
   "lastOpenFiles": [
+    "de/power/sdpd/ref/低功耗设计基础：深入理解Internal Power - 知乎.pdf",
+    "de/power/sdpd/include",
+    "de/power/sdpd/New folder",
     "de/power/reg/reg.md",
     "de/power/gck/gck.md",
     "de/power/reg/reg.svg",
@@ -229,8 +232,6 @@
     "de/power/gck",
     "de/power/include/fifo.svg",
     "de/power/gck/include",
-    "de/power/gck/ref/gck.v",
-    "de/power/ref/gck.txt",
     "de/fpu/f16mac.md",
     "de/fpu/f16macksa.md",
     "de/design_rule/rule.md",
@@ -248,7 +249,6 @@
     "de/design_rule/verilog.md",
     "de/fpu/f32mis.md",
     "language/2024-05-31.md",
-    "language/2024-06-03.md",
-    "language/2025-06-26.md"
+    "language/2024-06-03.md"
   ]
 }

@@ -1,3 +1,5 @@
+# internal_power_cell
+
 ```verilog
 cell (AN2D1BWP30P140) {
   area : 0.504;
@@ -125,25 +127,13 @@ cell (AN2D1BWP30P140) {
 }
 ```
 
-
-# internal_power_cell
-
 - 用direction區分成: input/output
-- 不論是input/output: rise_power/fall_power是根據pin
+	- input: 不會有related_pin
+	- output: 一定有related_pin
+- 不論是input/output: rise_power/fall_power是根據pin而言，而不是related_pin
+- index_1：input transition
+- index_2：output transition
 
-| case | when(A,B,C,...,etc) | related_pin(X) | pin(Y) | Table (depend on X) |
-| ---- | ------------------- | -------------- | ------ | ------------------- |
-| #1   | 1                   | 0->1           | 0->1   | rise_power          |
-| #2   | 1                   | 0->1           | 1->0   | rise_power          |
-| #3   | 1                   | 1->0           | 0->1   | fall_power          |
-| #4   | 1                   | 1->0           | 1->0   | fall_power          |
-| #5   | 1                   | none           | 0->0   | No Internal Power   |
-| #6   | 1                   | none           | 1->1   | No Internal Power   |
-| #7   | 1                   | 0->0           | none   | No Internal Power   |
-| #8   | 1                   | 1->1           | none   | No Internal Power   |
-- #1 - #4 暗示 input 和 output 都要改變才有internal power
-- #5 and #6 暗示 output 如果不改變，只有input改變，對internal power影響不大
-- #7 and #8 表示 input 不改改變，就不會有internal power
 # internal_power_reg
 
 | case | related_pin(D) | pin(CLK) | Table (depend on CLK) | value (depend on D) |
