@@ -129,7 +129,8 @@ acc_fifo # (
 ```
 # highspeed
 
-# setclr_uarch
+## setclr_uarch
+
 不論flag還是valid基本上都有3種基本結構 [[nds_flag_setclr.v]]
 
 1. high priority set
@@ -189,4 +190,11 @@ wire p1_valid_clr = p1_valid;
 
 ![[Pasted image 20250410143759.png]]
 
-![[Pasted image 20250626180646.png]]
+## setclren_uarch
+
+- 最完整的結構
+- 一定會描述3個信號
+	- en
+	- clr
+	- set
+- 
