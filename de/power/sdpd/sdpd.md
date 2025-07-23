@@ -136,6 +136,24 @@ cell (AN2D1BWP30P140) {
 
 # internal_power_reg
 
+```verilog
+cell (DFCNQD1BWP30P140) {
+  area : 2.268;
+  cell_footprint : "dfcnqd1";
+  pin(CDN) {
+    driver_waveform_fall : "tcbn28hpcplusbwp30p140ssg0p81vm40c:fall";
+    driver_waveform_rise : "tcbn28hpcplusbwp30p140ssg0p81vm40c:rise";
+    direction : input;
+    related_ground_pin : VSS;
+    related_power_pin : VDD;
+    capacitance : 0.00108651;
+    rise_capacitance : 0.00105056;
+    fall_capacitance : 0.00108651;
+
+```
+
+- 
+
 | case | related_pin(D) | pin(CLK) | Table (depend on CLK) | value (depend on D) |
 | ---- | -------------- | -------- | --------------------- | ------------------- |
 | #1   | 0->1           | 0->1     | rise_power            | data_toggle         |
