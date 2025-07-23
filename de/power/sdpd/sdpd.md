@@ -1,4 +1,5 @@
 # internal_power_cell
+- ref: http://www.360doc.com/content/22/0622/14/18252487_1036999755.shtml
 
 ```verilog
 cell (AN2D1BWP30P140) {
@@ -481,15 +482,73 @@ cell (DFCNQD1BWP30P140) {
 	- pin(CP)即使在Q or QN沒有變化的時候仍然會有很大的消耗能量
 # switch_power
 
-| case | pin(X) | Table           |
-| ---- | ------ | --------------- |
-| #1   | 0->1   | rise_power      |
-| #2   | 1->0   | fall_power      |
-| #3   | 0->0   | no_switch_power |
-| #4   | 1->1   | no_switch_power |
-E = C * VDD^2
+```verilog
+cell (AN2D1BWP30P140) {
+  area : 0.504;
+  cell_footprint : "an2d1";
+  pin(A1) {
+    driver_waveform_fall : "tcbn28hpcplusbwp30p140ssg0p81vm40c:fall";
+    driver_waveform_rise : "tcbn28hpcplusbwp30p140ssg0p81vm40c:rise";
+    direction : input;
+    related_ground_pin : VSS;
+    related_power_pin : VDD;
+    capacitance : 0.000363402;
+    rise_capacitance : 0.000363402;
+    fall_capacitance : 0.000339814;
+  pin(A2) {
+    driver_waveform_fall : "tcbn28hpcplusbwp30p140ssg0p81vm40c:fall";
+    driver_waveform_rise : "tcbn28hpcplusbwp30p140ssg0p81vm40c:rise";
+    direction : input;
+    related_ground_pin : VSS;
+    related_power_pin : VDD;
+    capacitance : 0.000403461;
+    rise_capacitance : 0.00039686;
+    fall_capacitance : 0.000403461;
+}
+```
+
+- 只會在input上
+- E=Cload * VDD^2
+	- if rise: Cload=rise_capacitance + parasitic_capacitance
+	- if fall: Cload=fall_capacitance + parasitic_capacitance
 
 # leakage_power
-| when(A,B,C,...,etc) | Table         |
-| ------------------- | ------------- |
-| 1                   | leakage_power |
+
+```verilog
+cell (AN2D1BWP30P140) {
+  area : 0.504;
+  cell_footprint : "an2d1";
+  pg_pin (VDD) {
+    pg_type : primary_power;
+    voltage_name : COREVDD1;
+  }
+  pg_pin (VSS) {
+    pg_type : primary_ground;
+    voltage_name : COREGND1;
+  }
+  leakage_power () {
+    value : 0.029081;
+    related_pg_pin : VDD;
+  }
+  leakage_power () {
+    value : 0.021586;
+    when : "!A1 !A2 !Z";
+    related_pg_pin : VDD;
+  }
+  leakage_power () {
+    value : 0.031888;
+    when : "!A1 A2 !Z";
+    related_pg_pin : VDD;
+  }
+  leakage_power () {
+    value : 0.033211;
+    when : "A1 !A2 !Z";
+    related_pg_pin : VDD;
+  }
+  leakage_power () {
+    value : 0.029637;
+    when : "A1 A2 Z";
+    related_pg_pin : VDD;
+  }
+}
+```
