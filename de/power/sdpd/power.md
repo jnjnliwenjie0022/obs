@@ -75,7 +75,6 @@ Qx = 瞬間短路時間 \*  瞬間短路電流
 
 |                                               | Switching Power  | Input Pin Internal Power | Output Pin Internal Power | Leakage Power |
 | --------------------------------------------- | ---------------- | ------------------------ | ------------------------- | ------------- |
-| Target                                        | Output Pin Power | Internal Switch Power    | Short Power               | Leakage Power |
 | Status Dependency (Input Value)               | N/A              | Yes                      | Yes                       | Yes           |
 | Path Dependency (Input Value -> Output Value) | N/A              | Yes                      | Yes                       | N/A           |
 | Wire Load                                     | Yes              | N/A                      | Yes                       | N/A           |
@@ -121,7 +120,7 @@ input pin internal power (internal switch power)
 
 output pin internal power (short power)
 
-![[Pasted image 20241030105905.png]]
+
 
 ![[Pasted image 20240924154212.png]]
 ## switch_power

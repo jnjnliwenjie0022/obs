@@ -13,6 +13,33 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "de/power/sdpd/sdpd.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "sdpd"
+            }
+          },
+          {
+            "id": "a537b51d23438f0f",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "de/ppa/include/Pasted image 20240924220150.png"
+              },
+              "icon": "lucide-image",
+              "title": "Pasted image 20240924220150"
+            }
+          },
+          {
+            "id": "dc26f808b70ed149",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "de/power/sdpd/power.md",
                 "mode": "source",
                 "source": false,
@@ -22,7 +49,8 @@
               "title": "power"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -143,13 +171,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "de/power/sdpd/power.md",
+                "file": "de/ppa/include/Pasted image 20240924220150.png",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of power"
+              "title": "Outline of Pasted image 20240924220150"
             }
           }
         ],
@@ -174,17 +202,26 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "35a470a2c390e07e",
+  "active": "a537b51d23438f0f",
   "lastOpenFiles": [
+    "de/ppa/include/Pasted image 20240924221233.png",
+    "de/ppa/include/Pasted image 20240925115502.png",
+    "de/ppa/include/Pasted image 20240925115734.png",
+    "de/ppa/include/Pasted image 20240925143438.png",
+    "de/ppa/include/Pasted image 20240926110143.png",
+    "de/ppa/include/Pasted image 20241224154514.png",
+    "de/ppa/include/Pasted image 20241224161323.png",
+    "de/ppa/include/Pasted image 20241224162722.png",
+    "de/ppa/include/Pasted image 20241224160718.png",
+    "de/ppa/include/Pasted image 20240625162050.png",
+    "de/ppa/include/Pasted image 20240611164733.png",
     "de/power/sdpd/sdpd.md",
+    "de/power/sdpd/power.md",
     "de/power/sdpd/ref/低功耗设计基础：深入理解Internal Power - 知乎.pdf",
     "de/power/reg/reg.md",
-    "de/power/reg/reg.svg",
-    "de/power/sdpd/power.md",
     "de/power/sdpd/include",
     "de/power/sdpd/New folder",
     "de/power/gck/gck.md",
-    "de/power/gck/include/gck.svg",
     "de/power/reg",
     "de/power/Untitled.md",
     "de/power/sdpd/ref",
@@ -194,19 +231,13 @@
     "workflow/neovide.md",
     "de/power/sdpd/ref/SyKdfdoUliKYAvmM.pdf",
     "de/power/sdpd/SyKdfdoUliKYAvmM.pdf.crdownload",
-    "de/ppa/include/Pasted image 20240924164530.png",
-    "de/ppa/include/Pasted image 20240924154029.png",
-    "de/ppa/include/Pasted image 20240625162050.png",
-    "de/ppa/include/Pasted image 20240621182018.png",
     "de/ppa/upf.md",
     "de/fpu/ref_f16mac/New Flexible Multiple-Precision Multiply-Accumulate Unit for Deep Neural Network Training and Inference.pdf",
     "de/power/sdpd",
     "de/power/gck",
-    "de/power/include/fifo.svg",
     "de/fpu/f16mac.md",
     "de/fpu/f16macksa.md",
     "de/design_rule/rule.md",
-    "de/fpu/include_f16dsu/valid_pd_diagram.svg",
     "workflow/git/git.md",
     "de/arithmetic/booth.md",
     "conflict-files-obsidian-git.md",
@@ -214,8 +245,6 @@
     "ticktick.md",
     "de/format.md",
     "de/lut.md",
-    "de/Pasted image 20240606151606.png",
-    "de/Pasted image 20240606125758.png",
     "de/note.md",
     "de/design_rule/verilog.md",
     "de/fpu/f32mis.md",

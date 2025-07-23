@@ -1,4 +1,11 @@
+/home/project/eda/pkgs/tsmc/TSMCHOME/digital/Front_End/timing_power_noise/NLDM/tcbn28hpcplusbwp30p140_180a/tcbn28hpcplusbwp30p140ssg0p81vm40c.lib
+/NOBACKUP/atcpcw11/chc0430/andla_i350/syndir_PPA_rc/andla_genus_28nm_500.00MHz_20250708_1710_develop_701fc18/netlist20250714155452/andla_2.vg
+
+# description
+
+![[Pasted image 20241030105905.png]]
 # internal_power_cell
+
 - ref: http://www.360doc.com/content/22/0622/14/18252487_1036999755.shtml
 - ref:[[低功耗设计基础：深入理解Internal Power - 知乎.pdf]]
 
