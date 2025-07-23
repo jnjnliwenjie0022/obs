@@ -92,7 +92,7 @@ Tr(翻轉率): Toggle_Rate * Freq
 
 ## leakage_power
 
-
+**
 1. Sub-threshold Leakage Current(ISUB):當MOS處於關閉狀態時, MOS Drain跟Source之間的漏電流,ISUB主導靜態功率消耗
 2. 與pattern（Status Dependency）有關，但實際應用差異不大，可以視爲無關，誤差為1%
 
