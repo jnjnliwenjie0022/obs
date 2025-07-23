@@ -98,8 +98,6 @@ Tr(翻轉率): Toggle_Rate * Freq
 
 ![[Pasted image 20240924153311.png]]
 
-![[Pasted image 20240924153719.png]]
-
 Static Power在65nm之後占比大幅度上升
 
 ![[Pasted image 20240925115502.png]]

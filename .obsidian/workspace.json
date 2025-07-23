@@ -8,33 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "8ad7c04677d05eb9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "de/power/sdpd/sdpd.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "sdpd"
-            }
-          },
-          {
-            "id": "a537b51d23438f0f",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "de/ppa/include/Pasted image 20240924220150.png"
-              },
-              "icon": "lucide-image",
-              "title": "Pasted image 20240924220150"
-            }
-          },
-          {
             "id": "dc26f808b70ed149",
             "type": "leaf",
             "state": {
@@ -49,8 +22,7 @@
               "title": "power"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -171,13 +143,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "de/ppa/include/Pasted image 20240924220150.png",
+                "file": "de/power/sdpd/power.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Pasted image 20240924220150"
+              "title": "Outline of power"
             }
           }
         ],
@@ -202,26 +174,26 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "a537b51d23438f0f",
+  "active": "dc26f808b70ed149",
   "lastOpenFiles": [
-    "de/ppa/include/Pasted image 20240924221233.png",
-    "de/ppa/include/Pasted image 20240925115502.png",
-    "de/ppa/include/Pasted image 20240925115734.png",
-    "de/ppa/include/Pasted image 20240925143438.png",
-    "de/ppa/include/Pasted image 20240926110143.png",
-    "de/ppa/include/Pasted image 20241224154514.png",
-    "de/ppa/include/Pasted image 20241224161323.png",
-    "de/ppa/include/Pasted image 20241224162722.png",
-    "de/ppa/include/Pasted image 20241224160718.png",
+    "de/ppa/include/Pasted image 20240924140655.png",
+    "de/ppa/include/Pasted image 20240924133224.png",
+    "de/ppa/include/Pasted image 20240906170331.png",
+    "de/ppa/include/Pasted image 20240826141554.png",
+    "de/ppa/include/Pasted image 20240719160809.png",
     "de/ppa/include/Pasted image 20240625162050.png",
-    "de/ppa/include/Pasted image 20240611164733.png",
-    "de/power/sdpd/sdpd.md",
-    "de/power/sdpd/power.md",
-    "de/power/sdpd/ref/低功耗设计基础：深入理解Internal Power - 知乎.pdf",
+    "de/ppa/include/Pasted image 20240621184044.png",
+    "de/power/gck/gck.md",
+    "de/ppa/include/Pasted image 20240924153719.png",
     "de/power/reg/reg.md",
+    "de/power/reg/reg.svg",
+    "de/power/sdpd/power.md",
+    "de/power/sdpd/sdpd.md",
+    "de/ppa/include/Pasted image 20240924154029.png",
+    "de/ppa/include/Pasted image 20240924155659.png",
+    "de/power/sdpd/ref/低功耗设计基础：深入理解Internal Power - 知乎.pdf",
     "de/power/sdpd/include",
     "de/power/sdpd/New folder",
-    "de/power/gck/gck.md",
     "de/power/reg",
     "de/power/Untitled.md",
     "de/power/sdpd/ref",
