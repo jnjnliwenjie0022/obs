@@ -79,7 +79,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 653.5
+    "width": 462.5
   },
   "right": {
     "id": "baf9c43aba40b294",
@@ -174,7 +174,7 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "8ad7c04677d05eb9",
+  "active": "35a470a2c390e07e",
   "lastOpenFiles": [
     "de/power/sdpd/sdpd.md",
     "de/power/sdpd/ref/低功耗设计基础：深入理解Internal Power - 知乎.pdf",
