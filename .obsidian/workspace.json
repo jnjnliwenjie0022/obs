@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "de/power/gck/gck.md",
+                "file": "de/power/reg/reg.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "gck"
+              "title": "reg"
             }
           },
           {
@@ -47,23 +47,6 @@
               },
               "icon": "lucide-file",
               "title": "sdpd"
-            }
-          }
-        ],
-        "currentTab": 1
-      },
-      {
-        "id": "754748174fdf41a6",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "8431e9403d4d44dd",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
             }
           }
         ]
@@ -217,11 +200,12 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "8431e9403d4d44dd",
+  "active": "92cef9d98181e1b4",
   "lastOpenFiles": [
+    "de/power/gck/gck.md",
+    "de/power/reg/reg.md",
     "de/power/reg/reg.svg",
     "de/power/gck/include/gck.svg",
-    "de/power/gck/gck.md",
     "de/power/reg",
     "de/power/Untitled.md",
     "de/power/sdpd/sdpd.md",
@@ -259,7 +243,6 @@
     "de/Pasted image 20240606151606.png",
     "de/Pasted image 20240606125758.png",
     "de/note.md",
-    "de/design_rule/include/Pasted image 20250626180646.png",
     "de/design_rule/verilog.md",
     "de/fpu/f32mis.md",
     "language/2024-05-31.md",
