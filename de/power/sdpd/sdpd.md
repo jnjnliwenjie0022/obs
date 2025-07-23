@@ -140,18 +140,207 @@ cell (AN2D1BWP30P140) {
 cell (DFCNQD1BWP30P140) {
   area : 2.268;
   cell_footprint : "dfcnqd1";
-  pin(CDN) {
+  pin(CP) {
     driver_waveform_fall : "tcbn28hpcplusbwp30p140ssg0p81vm40c:fall";
     driver_waveform_rise : "tcbn28hpcplusbwp30p140ssg0p81vm40c:rise";
+    clock : true;
     direction : input;
     related_ground_pin : VSS;
     related_power_pin : VDD;
-    capacitance : 0.00108651;
-    rise_capacitance : 0.00105056;
-    fall_capacitance : 0.00108651;
-
-
-
+    capacitance : 0.000605261;
+    rise_capacitance : 0.000584498;
+    fall_capacitance : 0.000605261;
+    internal_power () {
+      when : "CDN&D&E&Q";
+      related_pg_pin : VDD;
+      rise_power (passive_power_template_7x1) {
+        index_1 ("0.0024, 0.0104, 0.0265, 0.0588, 0.1232, 0.252, 0.5098");
+        values ( \
+          "0.00124512, 0.00123228, 0.00121102, 0.00118968, 0.00117671, 0.00117208, 0.00118678" \
+        );
+      }
+      fall_power (passive_power_template_7x1) {
+        index_1 ("0.0024, 0.0104, 0.0265, 0.0588, 0.1232, 0.252, 0.5098");
+        values ( \
+          "0.0015858, 0.00156241, 0.00154175, 0.00152198, 0.00151201, 0.00151701, 0.0015501" \
+        );
+      }
+    }
+    internal_power () {
+      when : "CDN&D&E&!Q";
+      related_pg_pin : VDD;
+      rise_power (scalar) {
+        values ( \
+          "0" \
+        );
+      }
+      fall_power (passive_power_template_7x1) {
+        index_1 ("0.0024, 0.0104, 0.0265, 0.0588, 0.1232, 0.252, 0.5098");
+        values ( \
+          "0.00276161, 0.0027376, 0.00271269, 0.00268547, 0.0026631, 0.00265075, 0.00266974" \
+        );
+      }
+    }
+    internal_power () {
+      when : "CDN&D&!E&Q";
+      related_pg_pin : VDD;
+      rise_power (passive_power_template_7x1) {
+        index_1 ("0.0024, 0.0104, 0.0265, 0.0588, 0.1232, 0.252, 0.5098");
+        values ( \
+          "0.0012245, 0.00121188, 0.00119077, 0.00116954, 0.0011565, 0.00115165, 0.0011642" \
+        );
+      }
+      fall_power (passive_power_template_7x1) {
+        index_1 ("0.0024, 0.0104, 0.0265, 0.0588, 0.1232, 0.252, 0.5098");
+        values ( \
+          "0.0016106, 0.00158715, 0.00156652, 0.00154669, 0.00153659, 0.00154138, 0.00157339" \
+        );
+      }
+    }
+    internal_power () {
+      when : "CDN&D&!E&!Q";
+      related_pg_pin : VDD;
+      rise_power (passive_power_template_7x1) {
+        index_1 ("0.0024, 0.0104, 0.0265, 0.0588, 0.1232, 0.252, 0.5098");
+        values ( \
+          "0.00113758, 0.00112482, 0.00110424, 0.0010836, 0.00107091, 0.0010661, 0.0010814" \
+        );
+      }
+      fall_power (passive_power_template_7x1) {
+        index_1 ("0.0024, 0.0104, 0.0265, 0.0588, 0.1232, 0.252, 0.5098");
+        values ( \
+          "0.00171723, 0.00169292, 0.00167167, 0.00165225, 0.00164311, 0.00164729, 0.00168021" \
+        );
+      }
+    }
+    internal_power () {
+      when : "CDN&!D&E&Q";
+      related_pg_pin : VDD;
+      rise_power (scalar) {
+        values ( \
+          "0" \
+        );
+      }
+      fall_power (passive_power_template_7x1) {
+        index_1 ("0.0024, 0.0104, 0.0265, 0.0588, 0.1232, 0.252, 0.5098");
+        values ( \
+          "0.00286987, 0.00284568, 0.00282769, 0.00281508, 0.00282331, 0.00285394, 0.00291213" \
+        );
+      }
+    }
+    internal_power () {
+      when : "CDN&!D&E&!Q";
+      related_pg_pin : VDD;
+      rise_power (passive_power_template_7x1) {
+        index_1 ("0.0024, 0.0104, 0.0265, 0.0588, 0.1232, 0.252, 0.5098");
+        values ( \
+          "0.00113184, 0.00111902, 0.00109801, 0.00107707, 0.00106427, 0.00105943, 0.00107502" \
+        );
+      }
+      fall_power (passive_power_template_7x1) {
+        index_1 ("0.0024, 0.0104, 0.0265, 0.0588, 0.1232, 0.252, 0.5098");
+        values ( \
+          "0.00172105, 0.00169666, 0.00167551, 0.00165623, 0.00164719, 0.00165159, 0.0016853" \
+        );
+      }
+    }
+    internal_power () {
+      when : "CDN&!D&!E&Q";
+      related_pg_pin : VDD;
+      rise_power (passive_power_template_7x1) {
+        index_1 ("0.0024, 0.0104, 0.0265, 0.0588, 0.1232, 0.252, 0.5098");
+        values ( \
+          "0.00120437, 0.00119191, 0.00117069, 0.00114941, 0.00113636, 0.0011316, 0.00114421" \
+        );
+      }
+      fall_power (passive_power_template_7x1) {
+        index_1 ("0.0024, 0.0104, 0.0265, 0.0588, 0.1232, 0.252, 0.5098");
+        values ( \
+          "0.00163074, 0.00160711, 0.0015866, 0.00156681, 0.00155672, 0.00156152, 0.0015933" \
+        );
+      }
+    }
+    internal_power () {
+      when : "CDN&!D&!E&!Q";
+      related_pg_pin : VDD;
+      rise_power (passive_power_template_7x1) {
+        index_1 ("0.0024, 0.0104, 0.0265, 0.0588, 0.1232, 0.252, 0.5098");
+        values ( \
+          "0.00111957, 0.00110704, 0.00108629, 0.0010656, 0.00105289, 0.00104816, 0.00106344" \
+        );
+      }
+      fall_power (passive_power_template_7x1) {
+        index_1 ("0.0024, 0.0104, 0.0265, 0.0588, 0.1232, 0.252, 0.5098");
+        values ( \
+          "0.00173544, 0.00171096, 0.00168982, 0.00167045, 0.00166129, 0.00166551, 0.00169832" \
+        );
+      }
+    }
+    internal_power () {
+      when : "!CDN&D&E&!Q";
+      related_pg_pin : VDD;
+      rise_power (passive_power_template_7x1) {
+        index_1 ("0.0024, 0.0104, 0.0265, 0.0588, 0.1232, 0.252, 0.5098");
+        values ( \
+          "0.0025257, 0.00251391, 0.0024859, 0.00244625, 0.00241779, 0.00239774, 0.00240508" \
+        );
+      }
+      fall_power (passive_power_template_7x1) {
+        index_1 ("0.0024, 0.0104, 0.0265, 0.0588, 0.1232, 0.252, 0.5098");
+        values ( \
+          "0.00271654, 0.0026922, 0.0026667, 0.00263899, 0.0026168, 0.00260435, 0.00262276" \
+        );
+      }
+    }
+    internal_power () {
+      when : "!CDN&D&!E&!Q";
+      related_pg_pin : VDD;
+      rise_power (passive_power_template_7x1) {
+        index_1 ("0.0024, 0.0104, 0.0265, 0.0588, 0.1232, 0.252, 0.5098");
+        values ( \
+          "0.00113769, 0.00112492, 0.00110431, 0.00108364, 0.00107086, 0.00106615, 0.00108139" \
+        );
+      }
+      fall_power (passive_power_template_7x1) {
+        index_1 ("0.0024, 0.0104, 0.0265, 0.0588, 0.1232, 0.252, 0.5098");
+        values ( \
+          "0.00171712, 0.00169301, 0.00167214, 0.00165287, 0.0016432, 0.00164766, 0.00168041" \
+        );
+      }
+    }
+    internal_power () {
+      when : "!CDN&!D&E&!Q";
+      related_pg_pin : VDD;
+      rise_power (passive_power_template_7x1) {
+        index_1 ("0.0024, 0.0104, 0.0265, 0.0588, 0.1232, 0.252, 0.5098");
+        values ( \
+          "0.00113196, 0.00111912, 0.00109807, 0.00107711, 0.00106429, 0.00105951, 0.00107505" \
+        );
+      }
+      fall_power (passive_power_template_7x1) {
+        index_1 ("0.0024, 0.0104, 0.0265, 0.0588, 0.1232, 0.252, 0.5098");
+        values ( \
+          "0.00172094, 0.00169675, 0.00167597, 0.00165686, 0.00164732, 0.001652, 0.00168565" \
+        );
+      }
+    }
+    internal_power () {
+      when : "!CDN&!D&!E&!Q";
+      related_pg_pin : VDD;
+      rise_power (passive_power_template_7x1) {
+        index_1 ("0.0024, 0.0104, 0.0265, 0.0588, 0.1232, 0.252, 0.5098");
+        values ( \
+          "0.00111969, 0.00110713, 0.00108636, 0.00106564, 0.00105297, 0.00104814, 0.00106347" \
+        );
+      }
+      fall_power (passive_power_template_7x1) {
+        index_1 ("0.0024, 0.0104, 0.0265, 0.0588, 0.1232, 0.252, 0.5098");
+        values ( \
+          "0.00173534, 0.00171105, 0.00169029, 0.00167107, 0.00166142, 0.00166587, 0.00169917" \
+        );
+      }
+    }
+  }
   pin(Q) {
     direction : output;
     power_down_function : "!VDD + VSS";
@@ -287,20 +476,14 @@ cell (DFCNQD1BWP30P140) {
 
 ```
 
-- 
+- 用direction區分成: input/output
+	- input: 不會有related_pin
+	- output: 一定有related_pin
+- 不論是input/output: rise_power/fall_power是根據pin而言，而不是related_pin
+- index_1：input transition
+- index_2：output transition
 
-| case | related_pin(D) | pin(CLK) | Table (depend on CLK) | value (depend on D) |
-| ---- | -------------- | -------- | --------------------- | ------------------- |
-| #1   | 0->1           | 0->1     | rise_power            | data_toggle         |
-| #2   | 0->1           | 1->0     | fall_power            | data_toggle         |
-| #3   | 1->0           | 0->1     | rise_power            | data_toggle         |
-| #4   | 1->0           | 1->0     | fall_power            | data_toggle         |
-| #5   | none           | 0->0     | No Internal Power     | No Internal Power   |
-| #6   | none           | 1->1     | No Internal Power     | No Internal Power   |
-| #7   | 0->0           | 0->1     | rise_power            | no_data_toggle      |
-| #8   | 0->0           | 1->0     | fall_power            | no_data_toggle      |
-| #9   | 1->1           | 0->1     | rise_power            | no_data_toggle      |
-| #10  | 1->1           | 1->0     | fall_power            | no_data_toggle      |
+
 - Q與internal power完全無關，Q只有switch power有關
 - CLK只要有變動就有internal power
 # switch_power
