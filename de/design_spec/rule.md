@@ -201,4 +201,3 @@ wire p1_valid_clr = p1_valid;
 	- en
 	- clr
 	- set
-- 不要視爲FSM，FSM獨立於以上所有結構之外
