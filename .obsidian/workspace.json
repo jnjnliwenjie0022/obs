@@ -11,15 +11,12 @@
             "id": "0fe833c403b3cf3a",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "de/design_spec/rule.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
+                "file": "de/verification_spec/include/verification_spec.svg"
               },
-              "icon": "lucide-file",
-              "title": "rule"
+              "icon": "lucide-image",
+              "title": "verification_spec"
             }
           }
         ]
@@ -174,11 +171,15 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "0fe833c403b3cf3a",
+  "active": "35a470a2c390e07e",
   "lastOpenFiles": [
+    "de/design_spec/include/pipeline.svg",
+    "de/verification_spec/include/verification_spec.svg",
+    "de/design_spec/rule.md",
+    "de/verification_spec/include",
+    "de/verification_spec",
     "de/design_spec/verilog.md",
     "de/design_spec/fctrl.md",
-    "de/design_spec/rule.md",
     "de/_unorganized/cosim.md",
     "de/ppa/evaluation.md",
     "de/ppa/spyglass.md",
@@ -198,7 +199,6 @@
     "de/ppa/include/Pasted image 20240924153719.png",
     "de/power/reg/reg.md",
     "de/power/reg/reg.svg",
-    "de/ppa/include/Pasted image 20240924154029.png",
     "de/power/sdpd/ref/低功耗设计基础：深入理解Internal Power - 知乎.pdf",
     "de/power/sdpd/include",
     "de/power/sdpd/New folder",
@@ -212,15 +212,12 @@
     "de/power/sdpd/ref/SyKdfdoUliKYAvmM.pdf",
     "de/power/sdpd/SyKdfdoUliKYAvmM.pdf.crdownload",
     "de/ppa/upf.md",
-    "de/fpu/ref_f16mac/New Flexible Multiple-Precision Multiply-Accumulate Unit for Deep Neural Network Training and Inference.pdf",
-    "de/power/sdpd",
     "de/fpu/f16mac.md",
     "de/fpu/f16macksa.md",
     "de/arithmetic/booth.md",
     "conflict-files-obsidian-git.md",
     "de/arithmetic/divider.md",
     "ticktick.md",
-    "de/format.md",
-    "de/lut.md"
+    "de/format.md"
   ]
 }
