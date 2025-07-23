@@ -131,12 +131,13 @@ acc_fifo # (
 
 ## setclr_uarch
 
-不論flag還是valid基本上都有3種基本結構 [[nds_flag_setclr.v]]
-
-1. high priority set
-2. high priority clr
-3. self clr
-4. debubble
+- 針對flag或是valid處理
+- 不論flag還是valid基本上都有3種基本結構 
+- 變形
+	- high priority set
+	- high priority clr
+	- self clr
+	- debubble
 ```verilog
 // high priority set
 assign p0_ready = ~p1_valid | p1_ready
@@ -192,9 +193,12 @@ wire p1_valid_clr = p1_valid;
 
 ## setclren_uarch
 
-- 最完整的結構
+- ref: [[nds_flag_setclr.v]]
+- 針對flag處理
+- 最完整的結構 setclr_uarch + en
+- 有setclr_uarch的所有屬性
 - 一定會描述3個信號
 	- en
 	- clr
 	- set
-- 
+- 不要視爲FSM，FSM獨立於以上所有結構之外
