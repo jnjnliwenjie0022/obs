@@ -11,12 +11,15 @@
             "id": "0fe833c403b3cf3a",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "de/verification_spec/include/verification_spec.svg"
+                "file": "de/power/sdpd/sdpd.md",
+                "mode": "preview",
+                "source": false,
+                "backlinks": false
               },
-              "icon": "lucide-image",
-              "title": "verification_spec"
+              "icon": "lucide-file",
+              "title": "sdpd"
             }
           }
         ]
@@ -171,10 +174,10 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "35a470a2c390e07e",
+  "active": "0fe833c403b3cf3a",
   "lastOpenFiles": [
-    "de/design_spec/include/pipeline.svg",
     "de/verification_spec/include/verification_spec.svg",
+    "de/design_spec/include/pipeline.svg",
     "de/design_spec/rule.md",
     "de/verification_spec/include",
     "de/verification_spec",
