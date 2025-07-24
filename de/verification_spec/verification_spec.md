@@ -1,8 +1,8 @@
 ![[verification_spec.svg|1000]]
 
-core coverage的要求是
-1. core interface toggle coverage
-2. core internal design
+core coverage requirement
+1. core interface toggle coverage 100%
+2. core internal design coverage 100%
 
 
 - 藍色：
