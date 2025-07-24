@@ -5,3 +5,6 @@
 	- Major Coverage: block, fsm, assert, coverage group, toggle for input/output
 - 紅色：
 	- Test Suite: IT
+	- Major Coverage: toggle for input/output
+	- Unit Design assumes that verification has done
+	- Unit Design will not col
