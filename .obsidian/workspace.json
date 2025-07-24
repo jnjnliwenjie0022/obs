@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "de/power/sdpd/sdpd.md",
+                "file": "de/verification_spec/verification_spec.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "sdpd"
+              "title": "verification_spec"
             }
           }
         ]
@@ -177,6 +177,9 @@
   "active": "0fe833c403b3cf3a",
   "lastOpenFiles": [
     "de/verification_spec/include/verification_spec.svg",
+    "de/verification_spec/verification_spec.md",
+    "de/power/sdpd/power.md",
+    "de/power/sdpd/sdpd.md",
     "de/design_spec/include/pipeline.svg",
     "de/design_spec/rule.md",
     "de/verification_spec/include",
@@ -189,8 +192,6 @@
     "de/design_spec/fast_design.md",
     "workflow/git/git.md",
     "dv/harness/ref/Verification Prowess with the UVM Harness.pdf",
-    "de/power/sdpd/sdpd.md",
-    "de/power/sdpd/power.md",
     "de/ppa/include/Pasted image 20240924140655.png",
     "de/ppa/include/Pasted image 20240924133224.png",
     "de/ppa/include/Pasted image 20240906170331.png",
@@ -201,7 +202,6 @@
     "de/power/gck/gck.md",
     "de/ppa/include/Pasted image 20240924153719.png",
     "de/power/reg/reg.md",
-    "de/power/reg/reg.svg",
     "de/power/sdpd/ref/低功耗设计基础：深入理解Internal Power - 知乎.pdf",
     "de/power/sdpd/include",
     "de/power/sdpd/New folder",
@@ -220,7 +220,6 @@
     "de/arithmetic/booth.md",
     "conflict-files-obsidian-git.md",
     "de/arithmetic/divider.md",
-    "ticktick.md",
-    "de/format.md"
+    "ticktick.md"
   ]
 }

@@ -1,0 +1,7 @@
+![[verification_spec.svg|1000]]
+
+- 藍色：
+	- Test Suite: UT
+	- Major Coverage: block, fsm, assert, coverage group, toggle for input/output
+- 紅色：
+	- Test Suite: IT
