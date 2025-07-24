@@ -7,3 +7,4 @@
 	- Test Suite: IT
 	- Major Coverage: toggle for input/output
 	- Unit Design assumes that verification has done
+	- IT的範圍是可以改變的
