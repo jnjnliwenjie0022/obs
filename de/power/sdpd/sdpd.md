@@ -351,6 +351,113 @@ cell (DFCNQD1BWP30P140) {
       }
     }
   }
+  pin(D) {
+    driver_waveform_fall : "tcbn28hpcplusbwp30p140ssg0p81vm40c:fall";
+    driver_waveform_rise : "tcbn28hpcplusbwp30p140ssg0p81vm40c:rise";
+    direction : input;
+    nextstate_type : data;
+    related_ground_pin : VSS;
+    related_power_pin : VDD;
+    capacitance : 0.00051698;
+    rise_capacitance : 0.00051698;
+    fall_capacitance : 0.000498577;
+    internal_power () {
+      when : "CDN&CP&Q";
+      related_pg_pin : VDD;
+      rise_power (passive_power_template_7x1) {
+        index_1 ("0.0024, 0.0104, 0.0265, 0.0588, 0.1232, 0.252, 0.5098");
+        values ( \
+          "-0.000166494, -0.000167317, -0.000171064, -0.000172713, -0.000173471, -0.000173863, -0.000173792" \
+        );
+      }
+      fall_power (passive_power_template_7x1) {
+        index_1 ("0.0024, 0.0104, 0.0265, 0.0588, 0.1232, 0.252, 0.5098");
+        values ( \
+          "0.000174041, 0.000172339, 0.000173907, 0.000174313, 0.000174629, 0.000174769, 0.000173792" \
+        );
+      }
+    }
+    internal_power () {
+      when : "CDN&CP&!Q";
+      related_pg_pin : VDD;
+      rise_power (passive_power_template_7x1) {
+        index_1 ("0.0024, 0.0104, 0.0265, 0.0588, 0.1232, 0.252, 0.5098");
+        values ( \
+          "-0.000174569, -0.000173698, -0.000177164, -0.000178464, -0.000179308, -0.000179604, -0.00017935" \
+        );
+      }
+      fall_power (passive_power_template_7x1) {
+        index_1 ("0.0024, 0.0104, 0.0265, 0.0588, 0.1232, 0.252, 0.5098");
+        values ( \
+          "0.000186001, 0.0001794, 0.000180064, 0.000180217, 0.000180226, 0.000180529, 0.00017949" \
+        );
+      }
+    }
+    internal_power () {
+      when : "CDN&!CP&Q";
+      related_pg_pin : VDD;
+      rise_power (passive_power_template_7x1) {
+        index_1 ("0.0024, 0.0104, 0.0265, 0.0588, 0.1232, 0.252, 0.5098");
+        values ( \
+          "0.00101189, 0.00100768, 0.000999384, 0.000991144, 0.000983281, 0.000977315, 0.000978184" \
+        );
+      }
+      fall_power (passive_power_template_7x1) {
+        index_1 ("0.0024, 0.0104, 0.0265, 0.0588, 0.1232, 0.252, 0.5098");
+        values ( \
+          "0.00138956, 0.00137987, 0.0013746, 0.00136872, 0.00136104, 0.00135523, 0.00135675" \
+        );
+      }
+    }
+    internal_power () {
+      when : "CDN&!CP&!Q";
+      related_pg_pin : VDD;
+      rise_power (passive_power_template_7x1) {
+        index_1 ("0.0024, 0.0104, 0.0265, 0.0588, 0.1232, 0.252, 0.5098");
+        values ( \
+          "0.00103703, 0.00103277, 0.00102456, 0.00101642, 0.00100854, 0.00100282, 0.00100373" \
+        );
+      }
+      fall_power (passive_power_template_7x1) {
+        index_1 ("0.0024, 0.0104, 0.0265, 0.0588, 0.1232, 0.252, 0.5098");
+        values ( \
+          "0.00136413, 0.0013544, 0.00134918, 0.00134348, 0.0013357, 0.00132979, 0.00133147" \
+        );
+      }
+    }
+    internal_power () {
+      when : "!CDN&CP&!Q";
+      related_pg_pin : VDD;
+      rise_power (passive_power_template_7x1) {
+        index_1 ("0.0024, 0.0104, 0.0265, 0.0588, 0.1232, 0.252, 0.5098");
+        values ( \
+          "-0.000174546, -0.000173662, -0.00017714, -0.000178444, -0.000179277, -0.000179534, -0.000179272" \
+        );
+      }
+      fall_power (passive_power_template_7x1) {
+        index_1 ("0.0024, 0.0104, 0.0265, 0.0588, 0.1232, 0.252, 0.5098");
+        values ( \
+          "0.000186019, 0.000179403, 0.000180077, 0.000180178, 0.000180222, 0.00018055, 0.000179272" \
+        );
+      }
+    }
+    internal_power () {
+      when : "!CDN&!CP&!Q";
+      related_pg_pin : VDD;
+      rise_power (passive_power_template_7x1) {
+        index_1 ("0.0024, 0.0104, 0.0265, 0.0588, 0.1232, 0.252, 0.5098");
+        values ( \
+          "0.00101037, 0.00100614, 0.000997936, 0.000990007, 0.000982344, 0.000977068, 0.000978226" \
+        );
+      }
+      fall_power (passive_power_template_7x1) {
+        index_1 ("0.0024, 0.0104, 0.0265, 0.0588, 0.1232, 0.252, 0.5098");
+        values ( \
+          "0.00137026, 0.00136075, 0.00135569, 0.00135013, 0.00134263, 0.00133724, 0.00133866" \
+        );
+      }
+    }
+  }
   pin(Q) {
     direction : output;
     power_down_function : "!VDD + VSS";
