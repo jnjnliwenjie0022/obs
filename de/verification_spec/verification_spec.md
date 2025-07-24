@@ -1,4 +1,4 @@
-![[verification_spec.svg|1000]]
+![[verification_spec.svg|500]]
 
 - core design requirement
 	- core interface toggle coverage 100%
@@ -10,5 +10,6 @@
 	- Module内部coverage不需要收集
 	- Module内部完成驗證的
 	- 主要是看toggle coverage
+	- pattern attri
 - Test Suite：綠色（可以調整）
 	- 不用看coverage
