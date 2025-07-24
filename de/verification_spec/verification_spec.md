@@ -7,13 +7,19 @@
 	- coverage definition:
 		- module内部都要收集coverage，包含interface
 		- coverage除了expression都要收集
+	- pattern特色:
+		- 高强度高亂度高效率pattern
 - Test Suite：紅色（可以調整範圍）
 	- coverage definition:
 		- module内部不收集coverage, 但包含interface
-		- 
-	- Module内部完成驗證的
-	- 主要是看toggle coverage
-	- pattern attribute: scenario
+		- coverage除了expression都要收集, 但主要看toogle coverage
+	- pattern特色:
+		- scenario-based pattern
+		- functional pattern
+		- power patt
 - Test Suite：綠色（可以調整範圍）
-	- 不用看coverage
-	-  pattern attribute: scenario
+	- coverage definition:
+		- 不收集coverage
+	- pattern特色:
+		- scenario-based pattern
+		- integration pattern
