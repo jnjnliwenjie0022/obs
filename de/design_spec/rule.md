@@ -129,11 +129,13 @@ acc_fifo # (
 ```
 # highspeed
 
-## setclr_uarch
+## setclr_arch
 
 - 針對flag或是valid處理
-- 不論flag還是valid基本上都有3種基本結構 
-- 變形
+- 一定會描述2個信號
+	- clr
+	- set
+- 不論flag還是valid基本上都有4種基本結構 
 	- high priority set
 	- high priority clr
 	- self clr
@@ -191,7 +193,7 @@ wire p1_valid_clr = p1_valid;
 
 ![[Pasted image 20250410143759.png]]
 
-## setclren_uarch
+## setclren_arch
 
 - ref: [[nds_flag_setclr.v]]
 - 針對flag處理
