@@ -6,8 +6,8 @@
 - Test Suite：UT（藍色）（不可以調整範圍）
 	- scope: core 内部
 	- coverage definition:
-		- module内部都要收集coverage，包含interface
-		- coverage除了expression coverage都要收集
+		- module内部都要收集coverage，包含 interface toggle coverage
+		- coverage除了 expression coverage 都要收集
 	- pattern特色:
 		- 高强度高亂度高效率的 verification pattern
 		- performance pattern
