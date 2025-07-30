@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "de/design_spec/rule.md",
+                "file": "de/verification_spec/verification_spec.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "rule"
+              "title": "verification_spec"
             }
           }
         ]
@@ -176,8 +176,8 @@
   },
   "active": "0fe833c403b3cf3a",
   "lastOpenFiles": [
-    "workflow/git/git.md",
     "de/design_spec/rule.md",
+    "workflow/git/git.md",
     "de/verification_spec/verification_spec.md",
     "de/verification_spec/include/verification_spec.svg",
     "de/power/sdpd/power.md",
