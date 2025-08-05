@@ -11,10 +11,12 @@
             "id": "e4150620d3a74bda",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
+              "type": "image",
+              "state": {
+                "file": "de/design_spec/include/Pasted image 20250626180646.png"
+              },
+              "icon": "lucide-image",
+              "title": "Pasted image 20250626180646"
             }
           }
         ]
