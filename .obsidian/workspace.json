@@ -4,19 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "f6a60ebefcd3c2cc",
+        "id": "4bab0d89bba52814",
         "type": "tabs",
         "children": [
           {
-            "id": "b367f12bfbfc192e",
+            "id": "e4150620d3a74bda",
             "type": "leaf",
             "state": {
-              "type": "image",
-              "state": {
-                "file": "de/design_spec/include/Pasted image 20250626180646.png"
-              },
-              "icon": "lucide-image",
-              "title": "Pasted image 20250626180646"
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
             }
           }
         ]
@@ -171,8 +169,9 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "b367f12bfbfc192e",
+  "active": "e4150620d3a74bda",
   "lastOpenFiles": [
+    "de/design_spec/include/Pasted image 20250626180646.png",
     "de/design_spec/include/Pasted image 20250410143820.png",
     "de/design_spec/include/Pasted image 20250410143759.png",
     "de/design_spec/rule.md",
@@ -201,7 +200,6 @@
     "de/ppa/spyglass.md",
     "de/design_spec/fast_design.md",
     "dv/harness/ref/Verification Prowess with the UVM Harness.pdf",
-    "de/ppa/include/Pasted image 20240924140655.png",
     "de/power/gck/gck.md",
     "de/power/reg/reg.md",
     "de/power/sdpd/ref/低功耗设计基础：深入理解Internal Power - 知乎.pdf",
