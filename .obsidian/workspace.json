@@ -11,12 +11,15 @@
             "id": "e4150620d3a74bda",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "de/design_spec/include/Pasted image 20250626180646.png"
+                "file": "de/tilelink/tilelink.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
               },
-              "icon": "lucide-image",
-              "title": "Pasted image 20250626180646"
+              "icon": "lucide-file",
+              "title": "tilelink"
             }
           }
         ]
@@ -171,10 +174,13 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "e4150620d3a74bda",
+  "active": "35a470a2c390e07e",
   "lastOpenFiles": [
-    "de/tilelink",
+    "de/tilelink/ref/tilelink_spec_1.9.3.pdf",
+    "de/tilelink/ref",
     "de/design_spec/include/Pasted image 20250626180646.png",
+    "de/tilelink/tilelink.md",
+    "de/tilelink",
     "de/design_spec/include/Pasted image 20250410143820.png",
     "de/design_spec/include/Pasted image 20250410143759.png",
     "de/design_spec/rule.md",
@@ -209,15 +215,12 @@
     "de/power/sdpd/New folder",
     "de/power/reg",
     "de/power/Untitled.md",
-    "de/power/sdpd/ref",
     "workflow/nvim.md",
     "workflow/tmux.md",
     "workflow/tnv.md",
     "workflow/neovide.md",
-    "de/power/sdpd/ref/SyKdfdoUliKYAvmM.pdf",
     "de/ppa/upf.md",
     "de/fpu/f16mac.md",
-    "de/fpu/f16macksa.md",
-    "de/arithmetic/booth.md"
+    "de/fpu/f16macksa.md"
   ]
 }
