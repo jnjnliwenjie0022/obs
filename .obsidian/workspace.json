@@ -173,6 +173,7 @@
   },
   "active": "e4150620d3a74bda",
   "lastOpenFiles": [
+    "de/tilelink",
     "de/design_spec/include/Pasted image 20250626180646.png",
     "de/design_spec/include/Pasted image 20250410143820.png",
     "de/design_spec/include/Pasted image 20250410143759.png",
@@ -194,7 +195,6 @@
     "de/verification_spec/include/verification_spec.svg",
     "de/power/sdpd/power.md",
     "de/power/sdpd/sdpd.md",
-    "de/design_spec/include/pipeline.svg",
     "de/verification_spec/include",
     "de/verification_spec",
     "de/_unorganized/cosim.md",
