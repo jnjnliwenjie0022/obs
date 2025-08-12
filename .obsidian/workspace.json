@@ -11,15 +11,16 @@
             "id": "e4150620d3a74bda",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "de/design_spec/rule.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
+                "file": "de/design_spec/ref/RTL Design Style Guide.pdf",
+                "page": 1,
+                "left": -10,
+                "top": 846,
+                "zoom": 1.6121848739495799
               },
-              "icon": "lucide-file",
-              "title": "rule"
+              "icon": "lucide-file-text",
+              "title": "RTL Design Style Guide"
             }
           }
         ]
@@ -174,8 +175,9 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "35a470a2c390e07e",
+  "active": "e4150620d3a74bda",
   "lastOpenFiles": [
+    "de/design_spec/rule.md",
     "de/design_spec/ref/RTL Design Style Guide.pdf",
     "de/tilelink/tilelink.md",
     "de/tilelink/ref/tilelink_spec_1.9.3.pdf",
@@ -184,7 +186,6 @@
     "de/tilelink",
     "de/design_spec/include/Pasted image 20250410143820.png",
     "de/design_spec/include/Pasted image 20250410143759.png",
-    "de/design_spec/rule.md",
     "dv/sv/include/Pasted image 20250115185221.png",
     "dv/sv/sv_rule.md",
     "workflow/git/git.md",
@@ -213,7 +214,6 @@
     "de/power/reg/reg.md",
     "de/power/sdpd/ref/低功耗设计基础：深入理解Internal Power - 知乎.pdf",
     "de/power/sdpd/include",
-    "de/power/sdpd/New folder",
     "de/power/Untitled.md",
     "workflow/nvim.md",
     "workflow/tmux.md",
