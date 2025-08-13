@@ -11,33 +11,18 @@
             "id": "e4150620d3a74bda",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "de/design_spec/ref/RTL Design Style Guide.pdf",
-                "page": 1,
-                "left": -10,
-                "top": 166,
-                "zoom": 1.6121848739495799
+                "file": "de/cache/cache_policy.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
               },
-              "icon": "lucide-file-text",
-              "title": "RTL Design Style Guide"
-            }
-          },
-          {
-            "id": "4b5dcd7ed1ce5e50",
-            "type": "leaf",
-            "state": {
-              "type": "diff-view",
-              "state": {
-                "staged": false,
-                "file": "de/power/gck/gck.md"
-              },
-              "icon": "git-pull-request",
-              "title": "Diff View (gck)"
+              "icon": "lucide-file",
+              "title": "cache_policy"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -189,12 +174,14 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "4b5dcd7ed1ce5e50",
+  "active": "e4150620d3a74bda",
   "lastOpenFiles": [
+    "de/design_spec/ref/RTL Design Style Guide.pdf",
+    "de/cache/cache_policy.md",
+    "de/cache/policy",
     "de/power/gck/gck.md",
     "de/cache/cache_policy",
     "de/cache",
-    "de/design_spec/ref/RTL Design Style Guide.pdf",
     "de/design_spec/rule.md",
     "de/tilelink/tilelink.md",
     "de/tilelink/ref/tilelink_spec_1.9.3.pdf",
@@ -226,7 +213,6 @@
     "de/ppa/evaluation.md",
     "de/ppa/spyglass.md",
     "de/design_spec/fast_design.md",
-    "dv/harness/ref/Verification Prowess with the UVM Harness.pdf",
     "de/power/reg/reg.md",
     "de/power/Untitled.md",
     "workflow/nvim.md",
@@ -234,7 +220,6 @@
     "workflow/tnv.md",
     "workflow/neovide.md",
     "de/ppa/upf.md",
-    "de/fpu/f16mac.md",
-    "de/fpu/f16macksa.md"
+    "de/fpu/f16mac.md"
   ]
 }
