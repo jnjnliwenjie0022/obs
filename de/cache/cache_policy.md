@@ -13,9 +13,9 @@
 | Write | Miss | Write No Allocate | Register directly write to memory                          |
 - Write Policy Combination
 
-| Write Policy Combination | Write Hit Policy | Write Miss Policy | Remark |
-| ------------------------ | ---------------- | ----------------- | ------ |
-| Not usual                | Write Through    | Write Allocate    |        |
-|                          | Write Through    | Write No Allocate |        |
-|                          | Write Back       | Write Allocate    |        |
-| Not usual                | Write Back       | Write No Allocate |        |
+| Write Policy Combination | Write Hit Policy | Write Miss Policy | Remark                             |
+| ------------------------ | ---------------- | ----------------- | ---------------------------------- |
+| Not usual                | Write Through    | Write Allocate    | When Write Miss:<br>When WriteHit: |
+|                          | Write Through    | Write No Allocate |                                    |
+|                          | Write Back       | Write Allocate    |                                    |
+| Not usual                | Write Back       | Write No Allocate |                                    |
