@@ -27,15 +27,13 @@
             "id": "4b5dcd7ed1ce5e50",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "diff-view",
               "state": {
-                "file": "de/power/gck/gck.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
+                "staged": false,
+                "file": "de/power/gck/gck.md"
               },
-              "icon": "lucide-file",
-              "title": "gck"
+              "icon": "git-pull-request",
+              "title": "Diff View (gck)"
             }
           }
         ],
@@ -193,8 +191,10 @@
   },
   "active": "4b5dcd7ed1ce5e50",
   "lastOpenFiles": [
-    "de/design_spec/ref/RTL Design Style Guide.pdf",
     "de/power/gck/gck.md",
+    "de/cache/cache_policy",
+    "de/cache",
+    "de/design_spec/ref/RTL Design Style Guide.pdf",
     "de/design_spec/rule.md",
     "de/tilelink/tilelink.md",
     "de/tilelink/ref/tilelink_spec_1.9.3.pdf",
@@ -228,8 +228,6 @@
     "de/design_spec/fast_design.md",
     "dv/harness/ref/Verification Prowess with the UVM Harness.pdf",
     "de/power/reg/reg.md",
-    "de/power/sdpd/ref/低功耗设计基础：深入理解Internal Power - 知乎.pdf",
-    "de/power/sdpd/include",
     "de/power/Untitled.md",
     "workflow/nvim.md",
     "workflow/tmux.md",
