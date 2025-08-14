@@ -11,12 +11,15 @@
             "id": "e4150620d3a74bda",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "de/arithmetic/csa/include/csa3to2.svg"
+                "file": "de/arithmetic/csa/csa.md",
+                "mode": "preview",
+                "source": false,
+                "backlinks": false
               },
-              "icon": "lucide-image",
-              "title": "csa3to2"
+              "icon": "lucide-file",
+              "title": "csa"
             }
           }
         ]
@@ -171,11 +174,11 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "35a470a2c390e07e",
+  "active": "e4150620d3a74bda",
   "lastOpenFiles": [
+    "de/arithmetic/csa/include/csa.svg",
     "de/arithmetic/include_booth/4b_booth.svg",
-    "de/arithmetic/csa/include/csa3to2.svg",
-    "de/arithmetic/csa/csa3to2.md",
+    "de/arithmetic/csa/csa.md",
     "de/arithmetic/csa/include/Pasted image 20241126215852.png",
     "de/Pasted image 20240606160337.png",
     "de/Pasted image 20240828160508.png",
