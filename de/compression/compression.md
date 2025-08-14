@@ -1,0 +1,5 @@
+- Golomb coding
+	- lossless
+	- 類似Huffman，但更快
+	- Run-length encoding的進階版本
+- 

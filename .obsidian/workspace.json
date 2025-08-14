@@ -11,15 +11,12 @@
             "id": "e4150620d3a74bda",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "de/cache/cache_policy.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
+                "file": "de/Pasted image 20240606160337.png"
               },
-              "icon": "lucide-file",
-              "title": "cache_policy"
+              "icon": "lucide-image",
+              "title": "Pasted image 20240606160337"
             }
           }
         ]
@@ -176,8 +173,14 @@
   },
   "active": "e4150620d3a74bda",
   "lastOpenFiles": [
-    "de/design_spec/ref/RTL Design Style Guide.pdf",
+    "de/Pasted image 20240606151606.png",
+    "de/Pasted image 20240606125937.png",
+    "de/Pasted image 20240606125758.png",
+    "de/Pasted image 20240606125055.png",
+    "de/compression/compression.md",
     "de/cache/cache_policy.md",
+    "de/compression",
+    "de/design_spec/ref/RTL Design Style Guide.pdf",
     "de/cache/policy",
     "de/power/gck/gck.md",
     "de/cache/cache_policy",
@@ -202,13 +205,9 @@
     "de/design_spec/fctrl.md",
     "de/design_spec/include_verilog/Pasted image 20241127162031.png",
     "de/design_spec/include_lint_rule",
-    "Pasted image 20250429014658.png",
-    "de/design_spec/include_verilog/Pasted image 20240307155712.png",
-    "de/verification_spec/include/verification_spec.svg",
     "de/power/sdpd/power.md",
     "de/power/sdpd/sdpd.md",
     "de/verification_spec/include",
-    "de/verification_spec",
     "de/_unorganized/cosim.md",
     "de/ppa/evaluation.md",
     "de/ppa/spyglass.md",
@@ -219,7 +218,6 @@
     "workflow/tmux.md",
     "workflow/tnv.md",
     "workflow/neovide.md",
-    "de/ppa/upf.md",
-    "de/fpu/f16mac.md"
+    "de/ppa/upf.md"
   ]
 }
