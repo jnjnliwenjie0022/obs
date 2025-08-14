@@ -11,15 +11,12 @@
             "id": "e4150620d3a74bda",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "de/design_spec/rule.md",
-                "mode": "preview",
-                "source": false,
-                "backlinks": false
+                "file": "de/Pasted image 20240606160337.png"
               },
-              "icon": "lucide-file",
-              "title": "rule"
+              "icon": "lucide-image",
+              "title": "Pasted image 20240606160337"
             }
           }
         ]
@@ -176,22 +173,22 @@
   },
   "active": "e4150620d3a74bda",
   "lastOpenFiles": [
-    "de/compression/compression.md",
-    "de/compression/include/encoding_schemes.png",
     "de/Pasted image 20240828160508.png",
+    "de/cache/cache_policy.md",
+    "de/compression/compression.md",
+    "de/compression/include/Pasted image 20240606125758.png",
+    "de/compression/include/encoding_schemes.png",
+    "de/design_spec/rule.md",
     "de/Pasted image 20240606160337.png",
     "de/Pasted image 20240606151606.png",
     "de/Pasted image 20240606125937.png",
-    "de/compression/include/Pasted image 20240606125758.png",
     "de/compression/include",
-    "de/cache/cache_policy.md",
     "de/compression",
     "de/design_spec/ref/RTL Design Style Guide.pdf",
     "de/cache/policy",
     "de/power/gck/gck.md",
     "de/cache/cache_policy",
     "de/cache",
-    "de/design_spec/rule.md",
     "de/tilelink/tilelink.md",
     "de/tilelink/ref/tilelink_spec_1.9.3.pdf",
     "de/tilelink/ref",
