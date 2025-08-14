@@ -13,10 +13,10 @@
             "state": {
               "type": "image",
               "state": {
-                "file": "de/Pasted image 20240606160337.png"
+                "file": "de/Pasted image 20240606151606.png"
               },
               "icon": "lucide-image",
-              "title": "Pasted image 20240606160337"
+              "title": "Pasted image 20240606151606"
             }
           }
         ]
@@ -173,6 +173,8 @@
   },
   "active": "e4150620d3a74bda",
   "lastOpenFiles": [
+    "de/Pasted image 20240606160337.png",
+    "de/Pasted image 20240828160508.png",
     "de/Pasted image 20240606151606.png",
     "de/Pasted image 20240606125937.png",
     "de/Pasted image 20240606125758.png",
@@ -200,10 +202,8 @@
     "de/design_spec/lint_rule.md",
     "de/design_spec/verilog.md",
     "de/design_spec/include_lint_rule/Pasted image 20250804133458.png",
-    "de/design_spec/include_lint_rule/Pasted image 20250804132816.png",
     "de/format.md",
     "de/design_spec/fctrl.md",
-    "de/design_spec/include_verilog/Pasted image 20241127162031.png",
     "de/design_spec/include_lint_rule",
     "de/power/sdpd/power.md",
     "de/power/sdpd/sdpd.md",
