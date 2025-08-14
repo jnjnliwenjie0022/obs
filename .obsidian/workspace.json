@@ -11,12 +11,15 @@
             "id": "e4150620d3a74bda",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "de/Pasted image 20240606151606.png"
+                "file": "de/compression/compression.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
               },
-              "icon": "lucide-image",
-              "title": "Pasted image 20240606151606"
+              "icon": "lucide-file",
+              "title": "compression"
             }
           }
         ]
@@ -173,13 +176,14 @@
   },
   "active": "e4150620d3a74bda",
   "lastOpenFiles": [
-    "de/Pasted image 20240606160337.png",
+    "de/compression/include/encoding_schemes.png",
+    "de/compression/compression.md",
     "de/Pasted image 20240828160508.png",
+    "de/Pasted image 20240606160337.png",
     "de/Pasted image 20240606151606.png",
     "de/Pasted image 20240606125937.png",
-    "de/Pasted image 20240606125758.png",
-    "de/Pasted image 20240606125055.png",
-    "de/compression/compression.md",
+    "de/compression/include/Pasted image 20240606125758.png",
+    "de/compression/include",
     "de/cache/cache_policy.md",
     "de/compression",
     "de/design_spec/ref/RTL Design Style Guide.pdf",
@@ -201,13 +205,11 @@
     "de/verification_spec/verification_spec.md",
     "de/design_spec/lint_rule.md",
     "de/design_spec/verilog.md",
-    "de/design_spec/include_lint_rule/Pasted image 20250804133458.png",
     "de/format.md",
     "de/design_spec/fctrl.md",
     "de/design_spec/include_lint_rule",
     "de/power/sdpd/power.md",
     "de/power/sdpd/sdpd.md",
-    "de/verification_spec/include",
     "de/_unorganized/cosim.md",
     "de/ppa/evaluation.md",
     "de/ppa/spyglass.md",
