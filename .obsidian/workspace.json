@@ -13,10 +13,10 @@
             "state": {
               "type": "image",
               "state": {
-                "file": "de/Pasted image 20240606160337.png"
+                "file": "de/arithmetic/csa/include/csa3to2.svg"
               },
               "icon": "lucide-image",
-              "title": "Pasted image 20240606160337"
+              "title": "csa3to2"
             }
           }
         ]
@@ -171,15 +171,19 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "e4150620d3a74bda",
+  "active": "35a470a2c390e07e",
   "lastOpenFiles": [
+    "de/arithmetic/include_booth/4b_booth.svg",
+    "de/arithmetic/csa/include/csa3to2.svg",
+    "de/arithmetic/csa/csa3to2.md",
+    "de/arithmetic/csa/include/Pasted image 20241126215852.png",
+    "de/Pasted image 20240606160337.png",
     "de/Pasted image 20240828160508.png",
     "de/cache/cache_policy.md",
     "de/compression/compression.md",
     "de/compression/include/Pasted image 20240606125758.png",
     "de/compression/include/encoding_schemes.png",
     "de/design_spec/rule.md",
-    "de/Pasted image 20240606160337.png",
     "de/Pasted image 20240606151606.png",
     "de/Pasted image 20240606125937.png",
     "de/compression/include",
@@ -195,8 +199,6 @@
     "de/design_spec/include/Pasted image 20250626180646.png",
     "de/tilelink",
     "de/design_spec/include/Pasted image 20250410143820.png",
-    "de/design_spec/include/Pasted image 20250410143759.png",
-    "dv/sv/include/Pasted image 20250115185221.png",
     "dv/sv/sv_rule.md",
     "workflow/git/git.md",
     "de/verification_spec/verification_spec.md",
@@ -216,7 +218,6 @@
     "workflow/nvim.md",
     "workflow/tmux.md",
     "workflow/tnv.md",
-    "workflow/neovide.md",
-    "de/ppa/upf.md"
+    "workflow/neovide.md"
   ]
 }
