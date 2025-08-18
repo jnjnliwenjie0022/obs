@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "de/arithmetic/csa/csa.md",
-                "mode": "preview",
+                "file": "de/power/genus/genus.md",
+                "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "csa"
+              "title": "genus"
             }
           }
         ]
@@ -176,9 +176,18 @@
   },
   "active": "e4150620d3a74bda",
   "lastOpenFiles": [
+    "de/ppa/evaluation.md",
+    "de/ppa/timing.md",
+    "de/ppa/upf.md",
+    "de/ppa/spyglass.md",
+    "de/power/genus/genus.md",
+    "de/power/genus/genus.md",
+    "de/power/genus/ref/How to analyze annotation report of the report_sdb_annotation command in Genus_Joules.pdf",
+    "de/power/genus/ref",
+    "de/power/genus",
+    "de/arithmetic/csa/csa.md",
     "de/arithmetic/csa/include/csa.svg",
     "de/arithmetic/include_booth/4b_booth.svg",
-    "de/arithmetic/csa/csa.md",
     "de/arithmetic/csa/include/Pasted image 20241126215852.png",
     "de/Pasted image 20240606160337.png",
     "de/Pasted image 20240828160508.png",
@@ -198,10 +207,7 @@
     "de/cache",
     "de/tilelink/tilelink.md",
     "de/tilelink/ref/tilelink_spec_1.9.3.pdf",
-    "de/tilelink/ref",
     "de/design_spec/include/Pasted image 20250626180646.png",
-    "de/tilelink",
-    "de/design_spec/include/Pasted image 20250410143820.png",
     "dv/sv/sv_rule.md",
     "workflow/git/git.md",
     "de/verification_spec/verification_spec.md",
@@ -209,18 +215,12 @@
     "de/design_spec/verilog.md",
     "de/format.md",
     "de/design_spec/fctrl.md",
-    "de/design_spec/include_lint_rule",
     "de/power/sdpd/power.md",
     "de/power/sdpd/sdpd.md",
     "de/_unorganized/cosim.md",
-    "de/ppa/evaluation.md",
-    "de/ppa/spyglass.md",
     "de/design_spec/fast_design.md",
     "de/power/reg/reg.md",
-    "de/power/Untitled.md",
     "workflow/nvim.md",
-    "workflow/tmux.md",
-    "workflow/tnv.md",
-    "workflow/neovide.md"
+    "workflow/tmux.md"
   ]
 }
