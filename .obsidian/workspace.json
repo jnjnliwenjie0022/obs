@@ -21,8 +21,21 @@
               "icon": "lucide-file",
               "title": "genus"
             }
+          },
+          {
+            "id": "572615ddf37aa210",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "de/power/genus/include/Pasted image 20250818182029.png"
+              },
+              "icon": "lucide-image",
+              "title": "Pasted image 20250818182029"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -174,13 +187,19 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "e4150620d3a74bda",
+  "active": "572615ddf37aa210",
   "lastOpenFiles": [
+    "de/power/genus/ref/How to analyze annotation report of the report_sdb_annotation command in Genus_Joules.pdf",
+    "de/power/genus/include/Pasted image 20250818182029.png",
+    "de/power/gck/gck.md",
+    "de/power/genus/include",
+    "de/power/genus/genus.md",
+    "de/ppa/include/Pasted image 20240611163742.png",
+    "de/ppa/include/Pasted image 20240621182018.png",
+    "de/ppa/include/Pasted image 20240625161622.png",
     "de/ppa/evaluation.md",
     "de/ppa/spyglass.md",
     "de/ppa/timing.md",
-    "de/power/genus/genus.md",
-    "de/power/genus/ref/How to analyze annotation report of the report_sdb_annotation command in Genus_Joules.pdf",
     "de/ppa/upf.md",
     "de/power/genus/ref",
     "de/power/genus",
@@ -193,20 +212,14 @@
     "de/cache/cache_policy.md",
     "de/compression/compression.md",
     "de/compression/include/Pasted image 20240606125758.png",
-    "de/compression/include/encoding_schemes.png",
     "de/design_spec/rule.md",
-    "de/Pasted image 20240606151606.png",
-    "de/Pasted image 20240606125937.png",
     "de/compression/include",
     "de/compression",
     "de/design_spec/ref/RTL Design Style Guide.pdf",
     "de/cache/policy",
-    "de/power/gck/gck.md",
     "de/cache/cache_policy",
     "de/cache",
     "de/tilelink/tilelink.md",
-    "de/tilelink/ref/tilelink_spec_1.9.3.pdf",
-    "de/design_spec/include/Pasted image 20250626180646.png",
     "dv/sv/sv_rule.md",
     "workflow/git/git.md",
     "de/verification_spec/verification_spec.md",
