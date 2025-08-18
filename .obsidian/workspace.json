@@ -4,38 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "4bab0d89bba52814",
+        "id": "7108ce8a5194fe4b",
         "type": "tabs",
         "children": [
           {
-            "id": "e4150620d3a74bda",
+            "id": "11bdaf104a313ed8",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "de/power/genus/genus.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "genus"
-            }
-          },
-          {
-            "id": "572615ddf37aa210",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "de/power/genus/include/Pasted image 20250818182029.png"
-              },
-              "icon": "lucide-image",
-              "title": "Pasted image 20250818182029"
+              "title": "New tab"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -187,20 +169,20 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "572615ddf37aa210",
+  "active": "11bdaf104a313ed8",
   "lastOpenFiles": [
-    "de/power/genus/ref/How to analyze annotation report of the report_sdb_annotation command in Genus_Joules.pdf",
+    "de/ppa/upf.md",
+    "de/ppa/timing.md",
+    "de/ppa/spyglass.md",
+    "de/ppa/evaluation.md",
+    "de/power/genus/genus.md",
     "de/power/genus/include/Pasted image 20250818182029.png",
+    "de/power/genus/ref/How to analyze annotation report of the report_sdb_annotation command in Genus_Joules.pdf",
     "de/power/gck/gck.md",
     "de/power/genus/include",
-    "de/power/genus/genus.md",
     "de/ppa/include/Pasted image 20240611163742.png",
     "de/ppa/include/Pasted image 20240621182018.png",
     "de/ppa/include/Pasted image 20240625161622.png",
-    "de/ppa/evaluation.md",
-    "de/ppa/spyglass.md",
-    "de/ppa/timing.md",
-    "de/ppa/upf.md",
     "de/power/genus/ref",
     "de/power/genus",
     "de/arithmetic/csa/csa.md",
