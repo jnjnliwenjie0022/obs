@@ -9,7 +9,7 @@
 	- Power report for RTL-level power need: 
 		- TCF with netlist naming
 		- Netlist
-		- Techlib: 6T, SVT, TT, Normal Volt, 25c
+		- Techlib: 6T, SVT, **TT, Normal Volt, 25c**
 		- 不需要SDF
 			- ref: https://www.youtube.com/watch?v=Iz1pTSgo8HY
 			- SDF也有會有mapping的問題，通常SDF是在Post-Pre Layout才會extract
@@ -19,7 +19,7 @@
 	- Power report for Gate-level power need: 
 		- TCF from Gate-level simulation
 		- Netlist
-		- Techlib: 6T, SVT, TT, Normal Volt, 25c
+		- Techlib: 6T, SVT, **TT, Normal Volt, 25c**
 		- 不需要SDF
 			- ref: https://www.youtube.com/watch?v=Iz1pTSgo8HY
 			- SDF也有會有mapping的問題，通常SDF是在Post-Pre Layout才會extract
