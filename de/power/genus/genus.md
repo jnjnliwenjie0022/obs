@@ -1,3 +1,5 @@
+- SDF (Standard Delay Format): has delay information for every instance, wire and register 
+- TCF (Toggle Count Format): has switching information for input, output and wire
 - RTL-level power Report
 	- RTL simulation generate: 
 		- TCF
