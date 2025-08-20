@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "de/power/genus/genus.md",
+                "file": "de/design_spec/rule.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "genus"
+              "title": "rule"
             }
           }
         ]
@@ -176,6 +176,9 @@
   },
   "active": "11bdaf104a313ed8",
   "lastOpenFiles": [
+    "de/design_spec/lint_rule.md",
+    "de/design_spec/rule.md",
+    "de/power/genus/genus.md",
     "de/power/genus/ref/How to analyze annotation report of the report_sdb_annotation command in Genus_Joules.pdf",
     "de/power/genus/include/Pasted image 20250818182029.png",
     "de/power/gck/gck.md",
@@ -190,7 +193,6 @@
     "de/ppa/timing.md",
     "de/ppa/spyglass.md",
     "de/ppa/evaluation.md",
-    "de/power/genus/genus.md",
     "de/power/genus/include",
     "de/ppa/include/Pasted image 20240611163742.png",
     "de/ppa/include/Pasted image 20240621182018.png",
@@ -205,12 +207,10 @@
     "de/cache/cache_policy.md",
     "de/compression/compression.md",
     "de/compression/include/Pasted image 20240606125758.png",
-    "de/design_spec/rule.md",
     "de/tilelink/tilelink.md",
     "dv/sv/sv_rule.md",
     "workflow/git/git.md",
     "de/verification_spec/verification_spec.md",
-    "de/design_spec/lint_rule.md",
     "de/design_spec/verilog.md",
     "de/format.md",
     "de/design_spec/fctrl.md",
