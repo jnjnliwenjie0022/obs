@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "de/power/gck/gck.md",
-                "mode": "preview",
+                "file": "de/power/genus/genus.md",
+                "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "gck"
+              "title": "genus"
             }
           }
         ]
@@ -176,6 +176,9 @@
   },
   "active": "11bdaf104a313ed8",
   "lastOpenFiles": [
+    "de/power/genus/ref/How to analyze annotation report of the report_sdb_annotation command in Genus_Joules.pdf",
+    "de/power/genus/include/Pasted image 20250818182029.png",
+    "de/power/gck/gck.md",
     "de/cdc/sync_reset/include",
     "de/cdc/sync_reset/ref/kv_sync_l2l.v",
     "de/cdc/reset_sync/New Text Document.txt",
@@ -188,15 +191,11 @@
     "de/ppa/spyglass.md",
     "de/ppa/evaluation.md",
     "de/power/genus/genus.md",
-    "de/power/genus/include/Pasted image 20250818182029.png",
-    "de/power/genus/ref/How to analyze annotation report of the report_sdb_annotation command in Genus_Joules.pdf",
-    "de/power/gck/gck.md",
     "de/power/genus/include",
     "de/ppa/include/Pasted image 20240611163742.png",
     "de/ppa/include/Pasted image 20240621182018.png",
     "de/ppa/include/Pasted image 20240625161622.png",
     "de/power/genus/ref",
-    "de/power/genus",
     "de/arithmetic/csa/csa.md",
     "de/arithmetic/csa/include/csa.svg",
     "de/arithmetic/include_booth/4b_booth.svg",

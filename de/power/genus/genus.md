@@ -3,10 +3,9 @@
 	- ref: [[How to analyze annotation report of the report_sdb_annotation command in Genus_Joules.pdf]]
 	- ![[Pasted image 20250818182029.png]]
 - RTL-level power Report
-	- RTL simulation generate: 
-		- TCF
-		- Mapping File
-	- TCF 透過 Mapping File 轉換成 Netlist 的 Naming
+	- RTL simulation generate
+		- TCF (TCF 透過 Mapping File 轉換成 Netlist 的 Naming)
+			- P.S: Mapping file 不會產生，會在Tool内部自動完成mapping，但這個流程需要額外的處理，如果沒有這個流程，Annotation Ratio會很低（失敗）
 	- Power report for RTL-level power need: 
 		- TCF with netlist naming
 		- Netlist
