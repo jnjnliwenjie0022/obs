@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "de/design_spec/rule.md",
+                "file": "de/design_spec/lint_rule.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "rule"
+              "title": "lint_rule"
             }
           }
         ]
@@ -143,13 +143,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "de/design_rule/fast_design.md",
+                "file": "de/design_spec/lint_rule.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of fast_design"
+              "title": "Outline of lint_rule"
             }
           }
         ],
@@ -157,8 +157,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 346.5,
-    "collapsed": true
+    "width": 346.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -176,8 +175,9 @@
   },
   "active": "11bdaf104a313ed8",
   "lastOpenFiles": [
-    "de/design_spec/lint_rule.md",
+    "de/design_spec/ref/~$Link-Level Flow Control and Buffering.pptx",
     "de/design_spec/rule.md",
+    "de/design_spec/lint_rule.md",
     "de/power/genus/genus.md",
     "de/power/genus/ref/How to analyze annotation report of the report_sdb_annotation command in Genus_Joules.pdf",
     "de/power/genus/include/Pasted image 20250818182029.png",
