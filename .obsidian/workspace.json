@@ -11,16 +11,15 @@
             "id": "11bdaf104a313ed8",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "de/design_spec/ref/RTL Design Style Guide.pdf",
-                "page": 1,
-                "left": -11,
-                "top": 170,
-                "zoom": 1.3865546218487397
+                "file": "de/design_spec/lint_rule.md",
+                "mode": "preview",
+                "source": false,
+                "backlinks": false
               },
-              "icon": "lucide-file-text",
-              "title": "RTL Design Style Guide"
+              "icon": "lucide-file",
+              "title": "lint_rule"
             }
           }
         ]
@@ -80,7 +79,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 294.5
+    "width": 294.5,
+    "collapsed": true
   },
   "right": {
     "id": "baf9c43aba40b294",
@@ -144,13 +144,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "de/design_spec/ref/RTL Design Style Guide.pdf",
+                "file": "de/design_spec/lint_rule.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of RTL Design Style Guide"
+              "title": "Outline of lint_rule"
             }
           }
         ],
@@ -176,8 +176,12 @@
   },
   "active": "11bdaf104a313ed8",
   "lastOpenFiles": [
-    "de/design_spec/ref/microarchitecture of network-on-chip routers a designer`s perspective.pdf",
+    "de/design_spec/include_lint_rule/Pasted image 20250804132816.png",
+    "de/design_spec/include_lint_rule/Pasted image 20250821132202.png",
+    "de/design_spec/include_lint_rule/Pasted image 20250804133458.png",
     "de/design_spec/lint_rule.md",
+    "de/design_spec/ref/microarchitecture of network-on-chip routers a designer`s perspective.pdf",
+    "de/design_spec/ref/RTL Design Style Guide.pdf",
     "de/design_spec/ref/~$Link-Level Flow Control and Buffering.pptx",
     "de/design_spec/rule.md",
     "de/power/genus/genus.md",
@@ -190,12 +194,10 @@
     "de/cdc/reset_sync/ref/Untitled",
     "de/cdc/sync_reset/ref",
     "de/cdc/sync_reset",
-    "de/cdc",
     "de/ppa/upf.md",
     "de/ppa/timing.md",
     "de/ppa/spyglass.md",
     "de/ppa/evaluation.md",
-    "de/power/genus/include",
     "de/ppa/include/Pasted image 20240611163742.png",
     "de/ppa/include/Pasted image 20240621182018.png",
     "de/ppa/include/Pasted image 20240625161622.png",
@@ -204,10 +206,8 @@
     "de/arithmetic/include_booth/4b_booth.svg",
     "de/arithmetic/csa/include/Pasted image 20241126215852.png",
     "de/Pasted image 20240606160337.png",
-    "de/Pasted image 20240828160508.png",
     "de/cache/cache_policy.md",
     "de/compression/compression.md",
-    "de/compression/include/Pasted image 20240606125758.png",
     "de/tilelink/tilelink.md",
     "dv/sv/sv_rule.md",
     "workflow/git/git.md",
