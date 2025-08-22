@@ -174,11 +174,12 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "35a470a2c390e07e",
+  "active": "11bdaf104a313ed8",
   "lastOpenFiles": [
+    "de/power/genus/include/Pasted image 20250818182029.png",
+    "de/power/genus/genus.md",
     "de/power/genus/ref/Task-5253.pdf",
     "de/power/genus/ref/How to analyze annotation report of the report_sdb_annotation command in Genus_Joules.pdf",
-    "de/power/genus/include/Pasted image 20250818182029.png",
     "de/lut.md",
     "de/Pasted image 20240606125937.png",
     "de/Pasted image 20240606151606.png",
@@ -201,10 +202,8 @@
     "de/design_spec/ref/microarchitecture of network-on-chip routers a designer`s perspective.pdf",
     "de/design_spec/ref/RTL Design Style Guide.pdf",
     "de/design_spec/ref/~$Link-Level Flow Control and Buffering.pptx",
-    "de/power/genus/genus.md",
     "de/cdc/sync_reset/include",
     "de/cdc/sync_reset/ref/kv_sync_l2l.v",
-    "de/cdc/reset_sync/New Text Document.txt",
     "de/ppa/upf.md",
     "de/ppa/timing.md",
     "de/ppa/spyglass.md",

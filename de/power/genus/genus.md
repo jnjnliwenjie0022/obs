@@ -1,7 +1,6 @@
 - SDF (Standard Delay Format): has delay information for every instance, wire and register 
 - TCF (Toggle Count Format): has switching information for input, output and wire
 	- ref: [[How to analyze annotation report of the report_sdb_annotation command in Genus_Joules.pdf]]
-	- ![[Pasted image 20250818182029.png]]
 - RTL-level power Report
 	- RTL simulation generate
 		- TCF
@@ -24,4 +23,5 @@
 			- ref: https://www.youtube.com/watch?v=Iz1pTSgo8HY
 			- SDF也有會有mapping的問題，通常SDF是在Post-Pre Layout才會extract
 
-# annotation
+# annotation_report
+
