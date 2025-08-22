@@ -21,18 +21,6 @@
               "icon": "lucide-file",
               "title": "genus"
             }
-          },
-          {
-            "id": "2b9a0f9b692e25e5",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "de/power/genus/include/Pasted image 20250822172530.png"
-              },
-              "icon": "lucide-image",
-              "title": "Pasted image 20250822172530"
-            }
           }
         ]
       }
@@ -188,9 +176,9 @@
   },
   "active": "11bdaf104a313ed8",
   "lastOpenFiles": [
-    "de/power/genus/include/Pasted image 20250822172208.png",
-    "de/power/genus/genus.md",
     "de/power/genus/include/Pasted image 20250822172530.png",
+    "de/power/genus/genus.md",
+    "de/power/genus/include/Pasted image 20250822172208.png",
     "de/power/genus/ref/Task-5253.pdf",
     "de/power/genus/ref/How to analyze annotation report of the report_sdb_annotation command in Genus_Joules.pdf",
     "de/power/genus/include/Pasted image 20250822171824.png",
