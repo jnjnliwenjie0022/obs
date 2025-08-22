@@ -22,6 +22,9 @@
 		- 不需要SDF
 			- ref: https://www.youtube.com/watch?v=Iz1pTSgo8HY
 			- SDF也有會有mapping的問題，通常SDF是在Post-Pre Layout才會extract
-
 # annotation_report
+[[Task-5253.pdf]]
 
+![[Pasted image 20250822172208.png]]
+
+![[Pasted image 20250822171824.png]]
