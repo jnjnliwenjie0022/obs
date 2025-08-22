@@ -4,10 +4,10 @@
 	- ![[Pasted image 20250818182029.png]]
 - RTL-level power Report
 	- RTL simulation generate
-		- TCF (TCF 透過 Mapping File 轉換成 Netlist 的 Naming)
-			- P.S: Mapping file 不會產生，會在Tool内部自動完成mapping，但這個流程需要額外的處理，如果沒有這個流程，Annotation Ratio會很低（失敗）
-	- Power report for RTL-level power need: 
-		- TCF with netlist naming
+		- TCF
+	- Synthesis tool with power report for RTL-level power need: 
+		- TCF with netlist naming (TCF 透過 Mapping File 轉換成 Netlist 的 Naming)
+			- P.S: Synthesis mapping file 不會自動產生，這個流程需要額外的處理，如果沒有這個流程，Annotation Ratio會很低（失敗）
 		- Netlist
 		- Techlib: 6T, SVT, **TT, Normal Volt, 25c**
 		- 不需要SDF
@@ -16,10 +16,12 @@
 - Gate-level power Report
 	- Gate simulation generate: 
 		- TCF
-	- Power report for Gate-level power need: 
+	- Synthesis tool with power report for Gate-level power need: 
 		- TCF from Gate-level simulation
 		- Netlist
 		- Techlib: 6T, SVT, **TT, Normal Volt, 25c**
 		- 不需要SDF
 			- ref: https://www.youtube.com/watch?v=Iz1pTSgo8HY
 			- SDF也有會有mapping的問題，通常SDF是在Post-Pre Layout才會extract
+
+# annotation

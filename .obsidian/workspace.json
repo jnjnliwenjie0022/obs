@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "de/lut.md",
-                "mode": "preview",
+                "file": "de/power/genus/genus.md",
+                "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "lut"
+              "title": "genus"
             }
           }
         ]
@@ -143,13 +143,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "de/lut.md",
+                "file": "de/power/genus/genus.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of lut"
+              "title": "Outline of genus"
             }
           }
         ],
@@ -174,8 +174,12 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "11bdaf104a313ed8",
+  "active": "35a470a2c390e07e",
   "lastOpenFiles": [
+    "de/power/genus/ref/Task-5253.pdf",
+    "de/power/genus/ref/How to analyze annotation report of the report_sdb_annotation command in Genus_Joules.pdf",
+    "de/power/genus/include/Pasted image 20250818182029.png",
+    "de/lut.md",
     "de/Pasted image 20240606125937.png",
     "de/Pasted image 20240606151606.png",
     "de/design_spec/lint_rule.md",
@@ -194,12 +198,10 @@
     "de/design_spec/ref/~$rtl.pptx",
     "de/design_spec/ref/~$CodingStyle_v1.1.pptx",
     "de/arithmetic/csa/csa.md",
-    "de/design_spec/include_lint_rule/Pasted image 20250804133458.png",
     "de/design_spec/ref/microarchitecture of network-on-chip routers a designer`s perspective.pdf",
     "de/design_spec/ref/RTL Design Style Guide.pdf",
     "de/design_spec/ref/~$Link-Level Flow Control and Buffering.pptx",
     "de/power/genus/genus.md",
-    "de/power/genus/ref/How to analyze annotation report of the report_sdb_annotation command in Genus_Joules.pdf",
     "de/cdc/sync_reset/include",
     "de/cdc/sync_reset/ref/kv_sync_l2l.v",
     "de/cdc/reset_sync/New Text Document.txt",
@@ -219,7 +221,6 @@
     "de/power/sdpd/sdpd.md",
     "de/_unorganized/cosim.md",
     "de/design_spec/fast_design.md",
-    "de/power/reg/reg.md",
-    "workflow/nvim.md"
+    "de/power/reg/reg.md"
   ]
 }
