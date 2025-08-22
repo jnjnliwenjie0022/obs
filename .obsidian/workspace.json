@@ -21,6 +21,34 @@
               "icon": "lucide-file",
               "title": "genus"
             }
+          },
+          {
+            "id": "8459c63e0d64373d",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "de/power/genus/include/Pasted image 20250822180319.png"
+              },
+              "icon": "lucide-image",
+              "title": "Pasted image 20250822180319"
+            }
+          },
+          {
+            "id": "4ca0d074435cb63c",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "de/power/genus/ref/How to analyze annotation report of the report_sdb_annotation command in Genus_Joules.pdf",
+                "page": 5,
+                "left": -12,
+                "top": 568,
+                "zoom": 1.289017989571883
+              },
+              "icon": "lucide-file-text",
+              "title": "How to analyze annotation report of the report_sdb_annotation command in Genus_Joules"
+            }
           }
         ]
       }
@@ -176,11 +204,12 @@
   },
   "active": "11bdaf104a313ed8",
   "lastOpenFiles": [
-    "de/power/genus/include/Pasted image 20250822172530.png",
+    "de/power/genus/include/Pasted image 20250822180319.png",
     "de/power/genus/genus.md",
-    "de/power/genus/include/Pasted image 20250822172208.png",
-    "de/power/genus/ref/Task-5253.pdf",
     "de/power/genus/ref/How to analyze annotation report of the report_sdb_annotation command in Genus_Joules.pdf",
+    "de/power/genus/ref/Task-5253.pdf",
+    "de/power/genus/include/Pasted image 20250822172530.png",
+    "de/power/genus/include/Pasted image 20250822172208.png",
     "de/power/genus/include/Pasted image 20250822171824.png",
     "de/power/genus/include/Pasted image 20250818182029.png",
     "de/lut.md",
@@ -193,7 +222,6 @@
     "de/design_spec/verilog.md",
     "de/design_spec/rule.md",
     "de/design_spec/include_lint_rule/Pasted image 20250804132816.png",
-    "de/design_spec/include_lint_rule/Pasted image 20250822152347.png",
     "Pasted image 20250822152302.png.md",
     "de/design_spec/ref/coding_guidelines.pdf",
     "de/design_spec/ref/~$rtl.pptx",

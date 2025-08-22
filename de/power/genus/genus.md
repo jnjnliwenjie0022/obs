@@ -25,6 +25,7 @@
 # annotation_report
 
 - ref: [[Task-5253.pdf]]
+- ![[Pasted image 20250822180319.png]]
 - ![[Pasted image 20250822172530.png]]
 - 結論：有沒有下write_tcf -computed, 只是report的方式不同而已，在Genus的Power中，都將Unasserted的部分推估成100%，只是寫出來的Annoation有沒有回報而已，Power Consumption結果完全一樣
 - ![[Pasted image 20250822171824.png]]
