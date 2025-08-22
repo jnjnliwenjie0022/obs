@@ -33,24 +33,9 @@
               "icon": "lucide-image",
               "title": "Pasted image 20250822180319"
             }
-          },
-          {
-            "id": "4ca0d074435cb63c",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "de/power/genus/ref/How to analyze annotation report of the report_sdb_annotation command in Genus_Joules.pdf",
-                "page": 5,
-                "left": -12,
-                "top": 568,
-                "zoom": 1.289017989571883
-              },
-              "icon": "lucide-file-text",
-              "title": "How to analyze annotation report of the report_sdb_annotation command in Genus_Joules"
-            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -171,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "de/power/genus/genus.md",
+                "file": "de/power/genus/include/Pasted image 20250822180319.png",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of genus"
+              "title": "Outline of Pasted image 20250822180319"
             }
           }
         ],
@@ -202,10 +187,10 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "11bdaf104a313ed8",
+  "active": "8459c63e0d64373d",
   "lastOpenFiles": [
-    "de/power/genus/include/Pasted image 20250822180319.png",
     "de/power/genus/genus.md",
+    "de/power/genus/include/Pasted image 20250822180319.png",
     "de/power/genus/ref/How to analyze annotation report of the report_sdb_annotation command in Genus_Joules.pdf",
     "de/power/genus/ref/Task-5253.pdf",
     "de/power/genus/include/Pasted image 20250822172530.png",
