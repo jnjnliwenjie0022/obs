@@ -26,12 +26,15 @@
             "id": "8459c63e0d64373d",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "de/power/genus/include/Pasted image 20250822180319.png"
+                "file": "de/design_spec/lint_rule.md",
+                "mode": "preview",
+                "source": false,
+                "backlinks": false
               },
-              "icon": "lucide-image",
-              "title": "Pasted image 20250822180319"
+              "icon": "lucide-file",
+              "title": "lint_rule"
             }
           }
         ],
@@ -156,13 +159,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "de/power/genus/include/Pasted image 20250822180319.png",
+                "file": "de/design_spec/lint_rule.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Pasted image 20250822180319"
+              "title": "Outline of lint_rule"
             }
           }
         ],
@@ -189,8 +192,8 @@
   },
   "active": "8459c63e0d64373d",
   "lastOpenFiles": [
-    "de/power/genus/genus.md",
     "de/power/genus/include/Pasted image 20250822180319.png",
+    "de/power/genus/genus.md",
     "de/power/genus/ref/How to analyze annotation report of the report_sdb_annotation command in Genus_Joules.pdf",
     "de/power/genus/ref/Task-5253.pdf",
     "de/power/genus/include/Pasted image 20250822172530.png",
