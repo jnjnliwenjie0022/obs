@@ -28,13 +28,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "workflow/git/git.md",
+                "file": "de/design_spec/lint_rule.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "git"
+              "title": "lint_rule"
             }
           }
         ],
@@ -159,13 +159,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "workflow/git/git.md",
+                "file": "de/design_spec/lint_rule.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of git"
+              "title": "Outline of lint_rule"
             }
           }
         ],
@@ -191,6 +191,9 @@
   },
   "active": "8459c63e0d64373d",
   "lastOpenFiles": [
+    "de/design_spec/rule.md",
+    "de/design_spec/verilog.md",
+    "workflow/git/git.md",
     "de/design_spec/lint_rule.md",
     "de/design_spec/include_lint_rule/unused_wire.svg",
     "de/verification_spec/include/verification_spec.svg",
@@ -208,8 +211,6 @@
     "de/Pasted image 20240606151606.png",
     "de/Pasted image 20240606160337.png",
     "de/power/gck/gck.md",
-    "de/design_spec/verilog.md",
-    "de/design_spec/rule.md",
     "Pasted image 20250822152302.png.md",
     "de/design_spec/ref/coding_guidelines.pdf",
     "de/design_spec/ref/~$rtl.pptx",
@@ -228,7 +229,6 @@
     "de/compression/compression.md",
     "de/tilelink/tilelink.md",
     "dv/sv/sv_rule.md",
-    "workflow/git/git.md",
     "de/format.md",
     "de/design_spec/fctrl.md",
     "de/power/sdpd/power.md",
