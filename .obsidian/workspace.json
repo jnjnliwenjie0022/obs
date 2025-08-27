@@ -28,13 +28,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "de/design_spec/lint_rule.md",
-                "mode": "preview",
+                "file": "workflow/git/git.md",
+                "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "lint_rule"
+              "title": "git"
             }
           }
         ],
@@ -159,13 +159,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "de/design_spec/lint_rule.md",
+                "file": "workflow/git/git.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of lint_rule"
+              "title": "Outline of git"
             }
           }
         ],
@@ -173,8 +173,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 346.5,
-    "collapsed": true
+    "width": 346.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -192,10 +191,10 @@
   },
   "active": "8459c63e0d64373d",
   "lastOpenFiles": [
+    "de/design_spec/lint_rule.md",
     "de/design_spec/include_lint_rule/unused_wire.svg",
     "de/verification_spec/include/verification_spec.svg",
     "de/verification_spec/verification_spec.md",
-    "de/design_spec/lint_rule.md",
     "de/power/genus/genus.md",
     "de/power/genus/ref/How to analyze annotation report of the report_sdb_annotation command in Genus_Joules.pdf",
     "de/power/genus/include/Pasted image 20250822171824.png",
@@ -208,7 +207,6 @@
     "de/Pasted image 20240606125937.png",
     "de/Pasted image 20240606151606.png",
     "de/Pasted image 20240606160337.png",
-    "de/Pasted image 20240828160508.png",
     "de/power/gck/gck.md",
     "de/design_spec/verilog.md",
     "de/design_spec/rule.md",

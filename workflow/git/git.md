@@ -312,6 +312,16 @@ git br -f <branch_name> <commit_id>
 git co <branch_name>
 ```
 
+#### trace_renaming_branch
+
+```
+git fetch -p                   (fetch remote (含修剪))
+git branch -D master           (砍掉原本local的 master)
+git branch -m master           (把當下(develop) 改名為 master)
+git branch -u origin/master    (把當下(master) 改為追蹤 origin/master)
+git pull                       (sync to origin/master)
+```
+
 ### detached
 
 ```
@@ -412,3 +422,4 @@ git worktree remove <branch_name>
 ```
 git rev-list origin/develop..origin/ft_8844
 ```
+
