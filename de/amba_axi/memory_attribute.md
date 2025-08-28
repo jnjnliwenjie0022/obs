@@ -10,7 +10,6 @@
 
 # modifiable
 
-
 - Non-modifiable transactions
 	- 不可以的行爲
 		- split into multiple transactions
@@ -34,6 +33,10 @@
 		- merged with other transactions
 		- read transaction can fetch more data than required
 		- write transaction can access a larger address range than required using the **WSTRB** signals to ensure that only the appropriate locations are updated
+	- 例外的不可以的行爲
+		- modification超過4KB
+		- a single access to a single-copy atomicity sized region to be performed as multiple accesses
+			- [[IHI0022K_amba_axi_protocol_spec.pdf#page=111&rect=52,603,561,738|IHI0022K_amba_axi_protocol_spec, p.111]]
 	- 可改變
 		- AxCACHE: 滿足 visibility rule, 只能更嚴格
 			- Bufferable -> Non-bufferable
@@ -43,4 +46,4 @@
 		- AxADDR, AxSIZE, AxLEN, AxBURST
 	- 不可改變
 		- AxLOCK, AxPROT, AxNSE
-	- 
+- 
