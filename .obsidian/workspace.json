@@ -11,16 +11,15 @@
             "id": "11bdaf104a313ed8",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "de/tilelink/ref/tilelink_spec_1.9.3.pdf",
-                "page": 1,
-                "left": -12,
-                "top": 796,
-                "zoom": 1.3480392156862746
+                "file": "de/cache/memory_attribute.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
               },
-              "icon": "lucide-file-text",
-              "title": "tilelink_spec_1.9.3"
+              "icon": "lucide-file",
+              "title": "memory_attribute"
             }
           }
         ]
@@ -144,13 +143,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "de/tilelink/ref/tilelink_spec_1.9.3.pdf",
+                "file": "de/cache/memory_attribute.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of tilelink_spec_1.9.3"
+              "title": "Outline of memory_attribute"
             }
           }
         ],
@@ -176,6 +175,9 @@
   },
   "active": "11bdaf104a313ed8",
   "lastOpenFiles": [
+    "de/cache/cache_policy.md",
+    "de/cache/memory_attribute.md",
+    "de/tilelink/ref/tilelink_spec_1.9.3.pdf",
     "de/design_spec/ref/microarchitecture of network-on-chip routers a designer`s perspective.pdf",
     "de/power/genus/genus.md",
     "de/design_spec/lint_rule.md",
@@ -205,12 +207,10 @@
     "de/arithmetic/csa/csa.md",
     "de/design_spec/ref/RTL Design Style Guide.pdf",
     "de/design_spec/ref/~$Link-Level Flow Control and Buffering.pptx",
-    "de/cdc/sync_reset/include",
     "de/ppa/upf.md",
     "de/ppa/timing.md",
     "de/ppa/spyglass.md",
     "de/ppa/evaluation.md",
-    "de/cache/cache_policy.md",
     "de/compression/compression.md",
     "de/tilelink/tilelink.md",
     "dv/sv/sv_rule.md",
