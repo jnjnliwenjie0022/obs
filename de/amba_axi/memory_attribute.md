@@ -17,7 +17,8 @@
 		- merged with other transactions
 	- 可改變
 		- ID, QoS
-		- Bufferable -> Non-bufferable
+		- AxCACHE: 滿足 visibility rule, 只能更嚴格
+			- Bufferable -> Non-bufferable
 	- 不可改變
 		- AxADDR, AxREGION, AxSIZE, AxLEN, AxBURST, AxPROT, AxNSE 
 		- Allocate, Other Allocate
@@ -34,7 +35,12 @@
 		- read transaction can fetch more data than required
 		- write transaction can access a larger address range than required using the **WSTRB** signals to ensure that only the appropriate locations are updated
 	- 可改變
+		- AxCACHE: 滿足 visibility rule, 只能更嚴格
+			- Bufferable -> Non-bufferable
+			- Cacheable -> Non-cacheable
+			- 整個 address range 的 AxCACHE 要一致性
 		- ID, QoS
 		- AxADDR, AxSIZE, AxLEN, AxBURST
 	- 不可改變
 		- AxLOCK, AxPROT, AxNSE
+	- 
