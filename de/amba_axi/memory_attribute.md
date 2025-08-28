@@ -1,5 +1,6 @@
+# bufferable
 
-| Bufferable | Modifiable |
-| ---------- | ---------- |
-|            |            |
-|            |            |
+| Type  | Bufferable | Modifiable | Allocate |
+| ----- | ---------- | ---------- | -------- |
+| Write |            |            |          |
+| Read  |            |            |          |
