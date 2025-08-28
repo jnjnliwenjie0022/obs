@@ -9,3 +9,14 @@
 | Read  | X          | 0          | X        | X              | final destination                                                        |
 
 # modifiable
+
+- Non-modifiable transactions
+	- ID and QoS 可以ba
+	- Parameter
+		- AxADDR
+		- AxREGION
+		- AxSIZE
+		- AxLEN
+		- AxBURST
+		- AxPROT
+		- AxNSE
