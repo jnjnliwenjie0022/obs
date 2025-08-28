@@ -1,6 +1,6 @@
 # bufferable
 
-| Type  | Bufferable | Modifiable | Allocate | Other Allocate | Description                                                              |
+| Type  | Bufferable | Modifiable | Allocate | Other Allocate | Response Description                                                     |
 | ----- | ---------- | ---------- | -------- | -------------- | ------------------------------------------------------------------------ |
 | Write | 0          | X          | X        | X              | final destination                                                        |
 | Write | 1          | X          | X        | X              | intermediate point                                                       |
