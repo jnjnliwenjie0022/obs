@@ -21,4 +21,5 @@
 		- Length greater than 16 can be split into multiple transactions
 			- AxLEN, AxADDR
 		- AxLOCK is asserted
-			- AxSIZE, 
+			- AxSIZE, AxLEN (只要滿足 AxSIZE \* AxLEN =  \`AxSIZE \* \`AxLEN)
+		- Downsize (data width narrower than required by Size)
