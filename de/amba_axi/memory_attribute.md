@@ -11,12 +11,14 @@
 # modifiable
 
 - Non-modifiable transactions
-	- ID and QoS 可以ba
-	- Parameter
-		- AxADDR
-		- AxREGION
-		- AxSIZE
-		- AxLEN
-		- AxBURST
-		- AxPROT
-		- AxNSE
+	- 可改變
+		- ID, QoS
+		- Bufferable -> Non-bufferable
+	- 不可改變
+		- AxADDR, AxREGION, AxSIZE, AxLEN, AxBURST, AxPROT, AxNSE 
+		- Allocate, Other Allocate
+	- 例外的可改變
+		- Length greater than 16 can be split into multiple transactions
+			- AxLEN, AxADDR
+		- AxLOCK is asserted
+			- AxSIZE, 
