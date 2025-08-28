@@ -11,16 +11,15 @@
             "id": "11bdaf104a313ed8",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "de/amba_chi/IHI0050G_amba_chi_architecture_spec.pdf",
-                "page": 1,
-                "left": -11,
-                "top": 846,
-                "zoom": 1.3859117451400698
+                "file": "de/amba_axi/memory_attribute.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
               },
-              "icon": "lucide-file-text",
-              "title": "IHI0050G_amba_chi_architecture_spec"
+              "icon": "lucide-file",
+              "title": "memory_attribute"
             }
           }
         ]
@@ -144,13 +143,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "de/amba_chi/IHI0050G_amba_chi_architecture_spec.pdf",
+                "file": "de/amba_axi/memory_attribute.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of IHI0050G_amba_chi_architecture_spec"
+              "title": "Outline of memory_attribute"
             }
           }
         ],
@@ -176,10 +175,12 @@
   },
   "active": "11bdaf104a313ed8",
   "lastOpenFiles": [
+    "de/amba_axi/ref/IHI0022K_amba_axi_protocol_spec.pdf",
+    "de/amba_axi/memory_attribute.md",
+    "de/amba_axi/IHI0022K_amba_axi_protocol_spec.pdf",
+    "de/amba_chi/ref/IHI0050G_amba_chi_architecture_spec.pdf",
     "de/amba_chi/Untitled.md",
-    "de/amba_chi/IHI0050G_amba_chi_architecture_spec.pdf",
     "de/amba_chi/ref",
-    "de/cache/memory_attribute.md",
     "de/amba_chi",
     "de/cache/cache_policy.md",
     "de/tilelink/ref/tilelink_spec_1.9.3.pdf",
@@ -206,8 +207,6 @@
     "de/Pasted image 20240606160337.png",
     "de/power/gck/gck.md",
     "Pasted image 20250822152302.png.md",
-    "de/design_spec/ref/coding_guidelines.pdf",
-    "de/design_spec/ref/~$rtl.pptx",
     "de/arithmetic/csa/csa.md",
     "de/ppa/upf.md",
     "de/ppa/timing.md",
