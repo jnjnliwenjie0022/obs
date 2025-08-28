@@ -10,7 +10,11 @@
 
 # modifiable
 
+
 - Non-modifiable transactions
+	- 不可以的行爲
+		- split into multiple transactions
+		- merged with other transactions
 	- 可改變
 		- ID, QoS
 		- Bufferable -> Non-bufferable
@@ -23,3 +27,14 @@
 		- AxLOCK is asserted
 			- AxSIZE, AxLEN (只要滿足 AxSIZE \* AxLEN =  \`AxSIZE \* \`AxLEN)
 		- Downsize (data width narrower than required by Size)
+- Modifiable transactions
+	- 可以的行爲
+		- split into multiple transactions
+		- merged with other transactions
+		- read transaction can fetch more data than required
+		- write transaction can access a larger address range than required using the **WSTRB** signals to ensure that only the appropriate locations are updated
+	- 可改變
+		- ID, QoS
+		- AxADDR, AxSIZE, AxLEN, AxBURST
+	- 不可改變
+		- AxLOCK, AxPROT, AxNSE
