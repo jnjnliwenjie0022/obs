@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "de/cache/cache_policy.md",
+                "file": "de/amba_axi/request_attribute.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "cache_policy"
+              "title": "request_attribute"
             }
           }
         ]
@@ -143,13 +143,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "de/cache/cache_policy.md",
+                "file": "de/amba_axi/request_attribute.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of cache_policy"
+              "title": "Outline of request_attribute"
             }
           }
         ],
@@ -176,8 +176,8 @@
   },
   "active": "11bdaf104a313ed8",
   "lastOpenFiles": [
-    "de/amba_axi/request_attribute.md",
     "de/cache/cache_policy.md",
+    "de/amba_axi/request_attribute.md",
     "de/amba_axi/ref/IHI0022K_amba_axi_protocol_spec.pdf",
     "de/amba_axi/IHI0022K_amba_axi_protocol_spec.pdf",
     "de/amba_chi/ref/IHI0050G_amba_chi_architecture_spec.pdf",
