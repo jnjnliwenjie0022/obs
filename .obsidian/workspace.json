@@ -21,8 +21,21 @@
               "icon": "lucide-file",
               "title": "ipa"
             }
+          },
+          {
+            "id": "79d1e59b590d15d6",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "language/ipa/include/ipa.svg"
+              },
+              "icon": "lucide-image",
+              "title": "ipa"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -143,7 +156,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "language/ipa/ipa.md",
+                "file": "language/ipa/include/ipa.svg",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -184,12 +197,12 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "26b749d77e7e720e",
+  "active": "79d1e59b590d15d6",
   "lastOpenFiles": [
+    "language/ipa/ipa.md",
     "language/ipa/include/ipa.svg",
     "language/ipa/include/IPA.svg",
     "language/book/pdf_downlaod.md",
-    "language/ipa/ipa.md",
     "language/ipa",
     "language/ipa/include",
     "language/include/Pasted image 20240529222047.png",
@@ -217,7 +230,6 @@
     "de/design_spec/include_lint_rule/Pasted image 20250822152347.png",
     "de/design_spec/include_lint_rule/Pasted image 20250804133458.png",
     "de/compression/include/Pasted image 20240606125758.png",
-    "de/compression/include/encoding_schemes.png",
     "de/compression/compression.md",
     "de/cache/cache_policy.md",
     "de/amba_axi/request_attribute.md",
