@@ -4,22 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "ab7beba2976be4a7",
+        "id": "0670c0894ccf3b89",
         "type": "tabs",
         "children": [
           {
-            "id": "0fe833c403b3cf3a",
+            "id": "92cef9d98181e1b4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "de/design_spec/rule.md",
+                "file": "de/power/sdpd/sdpd.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "rule"
+              "title": "sdpd"
             }
           }
         ]
@@ -54,7 +54,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#5/6",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -79,7 +79,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 462.5
+    "width": 653.5
   },
   "right": {
     "id": "baf9c43aba40b294",
@@ -143,13 +143,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "de/design_rule/fast_design.md",
+                "file": "de/arithmetic/booth.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of fast_design"
+              "title": "Outline of booth"
             }
           }
         ],
@@ -157,7 +157,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 346.5,
+    "width": 200,
     "collapsed": true
   },
   "left-ribbon": {
@@ -174,52 +174,52 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "0fe833c403b3cf3a",
+  "active": "92cef9d98181e1b4",
   "lastOpenFiles": [
-    "de/verification_spec/verification_spec.md",
-    "de/verification_spec/include/verification_spec.svg",
     "de/power/sdpd/power.md",
-    "de/power/sdpd/sdpd.md",
-    "de/design_spec/include/pipeline.svg",
-    "de/design_spec/rule.md",
+    "de/arithmetic/booth.md",
+    "de/verification_spec/include/verification_spec.svg",
+    "de/verification_spec/verification_spec.md",
     "de/verification_spec/include",
     "de/verification_spec",
-    "de/design_spec/verilog.md",
-    "de/design_spec/fctrl.md",
-    "de/_unorganized/cosim.md",
-    "de/ppa/evaluation.md",
-    "de/ppa/spyglass.md",
-    "de/design_spec/fast_design.md",
-    "workflow/git/git.md",
-    "dv/harness/ref/Verification Prowess with the UVM Harness.pdf",
-    "de/ppa/include/Pasted image 20240924140655.png",
-    "de/ppa/include/Pasted image 20240924133224.png",
-    "de/ppa/include/Pasted image 20240906170331.png",
-    "de/ppa/include/Pasted image 20240826141554.png",
-    "de/ppa/include/Pasted image 20240719160809.png",
-    "de/ppa/include/Pasted image 20240625162050.png",
-    "de/ppa/include/Pasted image 20240621184044.png",
-    "de/power/gck/gck.md",
-    "de/ppa/include/Pasted image 20240924153719.png",
-    "de/power/reg/reg.md",
+    "de/power/sdpd/include/Pasted image 20241030105905.png",
     "de/power/sdpd/ref/低功耗设计基础：深入理解Internal Power - 知乎.pdf",
-    "de/power/sdpd/include",
-    "de/power/sdpd/New folder",
-    "de/power/reg",
-    "de/power/Untitled.md",
-    "de/power/sdpd/ref",
-    "workflow/nvim.md",
-    "workflow/tmux.md",
-    "workflow/tnv.md",
-    "workflow/neovide.md",
     "de/power/sdpd/ref/SyKdfdoUliKYAvmM.pdf",
-    "de/power/sdpd/SyKdfdoUliKYAvmM.pdf.crdownload",
-    "de/ppa/upf.md",
-    "de/fpu/f16mac.md",
-    "de/fpu/f16macksa.md",
-    "de/arithmetic/booth.md",
+    "de/power/gck/ref/gck.v",
+    "de/power/gck/include/gck.svg",
+    "de/power/sdpd/ref",
+    "de/power/sdpd/sdpd.md",
+    "de/power/sdpd/include",
+    "de/power/reg/reg.svg",
+    "de/power/reg/reg.md",
+    "de/power/gck/ref",
+    "de/power/gck/include",
+    "de/power/gck/gck.md",
+    "de/power/sdpd",
+    "de/design_spec/verilog.md",
+    "de/design_spec/rule.md",
+    "de/design_spec/ref/Andes_naming_rule.md",
+    "de/design_spec/ref/Andes_design_guide.md",
+    "de/design_spec/include_verilog/Pasted image 20241127162031.png",
+    "de/design_spec/include_verilog/Pasted image 20240307155712.png",
+    "de/design_spec/include/pipeline_init.svg",
+    "de/design_spec/include/pipeline.svg",
+    "de/design_spec/include/Pasted image 20250626180646.png",
+    "de/design_spec/include/pending_buffer.svg",
+    "de/design_spec/fctrl.md",
+    "de/design_spec/fast_design.md",
     "conflict-files-obsidian-git.md",
     "de/arithmetic/divider.md",
-    "ticktick.md"
+    "de/design_rule/rule.md",
+    "ticktick.md",
+    "workflow/git/git.md",
+    "de/format.md",
+    "de/lut.md",
+    "de/note.md",
+    "de/design_rule/verilog.md",
+    "de/fpu/f16mac.md",
+    "de/fpu/f32mis.md",
+    "language/2024-05-31.md",
+    "language/2024-06-03.md"
   ]
 }
