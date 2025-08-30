@@ -1,0 +1,13 @@
+![[encoding_schemes.png | 800]]
+- Golomb encoding
+	- lossless
+	- 類似huffman，但更快
+	- 數字小的資料越多，壓縮率越高
+	- 理論壓縮率：87.5%
+- Run-length encoding
+	- lossless
+	- 連續的相同的越多，壓縮率越高
+	- 理論壓縮率：~100%
+- RLE-Golomb encoding
+	- 先經過RLE encoding
+	- 再經過Golomb encoding

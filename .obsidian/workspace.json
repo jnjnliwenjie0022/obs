@@ -21,8 +21,22 @@
               "icon": "lucide-file",
               "title": "sdpd"
             }
+          },
+          {
+            "id": "ce45ef564b2d1456",
+            "type": "leaf",
+            "state": {
+              "type": "diff-view",
+              "state": {
+                "file": ".obsidian/workspace.json",
+                "staged": false
+              },
+              "icon": "git-pull-request",
+              "title": "Diff View (workspace.json)"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -79,7 +93,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 653.5
+    "width": 200
   },
   "right": {
     "id": "baf9c43aba40b294",
@@ -143,22 +157,30 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "de/arithmetic/booth.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of booth"
+              "title": "Outline"
+            }
+          },
+          {
+            "id": "3cc9e143fc9b9228",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 703.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -174,52 +196,53 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "92cef9d98181e1b4",
+  "active": "ce45ef564b2d1456",
   "lastOpenFiles": [
+    "de/power/sdpd/sdpd.md",
+    "conflict-files-obsidian-git.md",
+    "de/tilelink/tilelink.md",
+    "de/tilelink/ref/tilelink_spec_1.9.3.pdf",
+    "de/tilelink/ref",
+    "de/tilelink",
+    "de/power/genus/include/Pasted image 20250822180319.png",
+    "de/power/genus/ref/Task-5253.pdf",
+    "de/power/genus/ref/How to analyze annotation report of the report_sdb_annotation command in Genus_Joules.pdf",
+    "de/power/genus/include/Pasted image 20250822172530.png",
+    "de/power/genus/include/Pasted image 20250822171824.png",
+    "de/power/genus/ref",
+    "de/power/genus/genus.md",
+    "de/power/genus/include",
+    "de/power/genus",
+    "de/design_spec/ref/RTL Design Style Guide.pdf",
+    "de/design_spec/lint_rule.md",
+    "de/design_spec/include_lint_rule/Pasted image 20250821132202.png",
+    "de/design_spec/include_lint_rule/Pasted image 20250822152347.png",
+    "de/design_spec/include_lint_rule/Pasted image 20250804133458.png",
+    "de/design_spec/include_lint_rule",
+    "de/compression/include/Pasted image 20240606125758.png",
+    "de/compression/include/encoding_schemes.png",
+    "de/compression/compression.md",
+    "de/cache/cache_policy.md",
+    "de/arithmetic/csa/include/csa.svg",
+    "de/amba_axi/request_attribute.md",
     "de/power/sdpd/power.md",
     "de/arithmetic/booth.md",
     "de/verification_spec/include/verification_spec.svg",
     "de/verification_spec/verification_spec.md",
-    "de/verification_spec/include",
-    "de/verification_spec",
-    "de/power/sdpd/include/Pasted image 20241030105905.png",
-    "de/power/sdpd/ref/低功耗设计基础：深入理解Internal Power - 知乎.pdf",
-    "de/power/sdpd/ref/SyKdfdoUliKYAvmM.pdf",
-    "de/power/gck/ref/gck.v",
-    "de/power/gck/include/gck.svg",
-    "de/power/sdpd/ref",
-    "de/power/sdpd/sdpd.md",
-    "de/power/sdpd/include",
-    "de/power/reg/reg.svg",
     "de/power/reg/reg.md",
-    "de/power/gck/ref",
-    "de/power/gck/include",
     "de/power/gck/gck.md",
-    "de/power/sdpd",
     "de/design_spec/verilog.md",
     "de/design_spec/rule.md",
     "de/design_spec/ref/Andes_naming_rule.md",
     "de/design_spec/ref/Andes_design_guide.md",
-    "de/design_spec/include_verilog/Pasted image 20241127162031.png",
-    "de/design_spec/include_verilog/Pasted image 20240307155712.png",
-    "de/design_spec/include/pipeline_init.svg",
-    "de/design_spec/include/pipeline.svg",
-    "de/design_spec/include/Pasted image 20250626180646.png",
-    "de/design_spec/include/pending_buffer.svg",
     "de/design_spec/fctrl.md",
     "de/design_spec/fast_design.md",
-    "conflict-files-obsidian-git.md",
     "de/arithmetic/divider.md",
     "de/design_rule/rule.md",
     "ticktick.md",
     "workflow/git/git.md",
     "de/format.md",
     "de/lut.md",
-    "de/note.md",
-    "de/design_rule/verilog.md",
-    "de/fpu/f16mac.md",
-    "de/fpu/f32mis.md",
-    "language/2024-05-31.md",
-    "language/2024-06-03.md"
+    "de/note.md"
   ]
 }

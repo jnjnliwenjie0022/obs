@@ -5,19 +5,6 @@
 2. timing:
 	1. Cell: multi-vt, SS, Low Volt, m40c
 	2. RAM: ulvt, SS, Low Volt, m40c
-3. power:
-	1. Cell: 6T, SVT, TT, Normal Volt, 25c
-	2. Cell: 6T, SVT, TT, Normal Volt, 25c
-	3. File requirement for RTL-Level power
-		1. .vg: generate from synthesis
-		2. verilog.tcf: generate from rtl-level simulation
-		3. techlib
-		4. .sdf: (can ignore, useful in backend)
-	4. File requirement for Gate-Level power
-		1. .vg: generate from synthesis
-		2. verilog.tcf: generate from gate-level simulation
-		3. techlib
-		4. .sdf: (can ignore, useful in backend)
 # area_evaluation
 
 ## from_cf
