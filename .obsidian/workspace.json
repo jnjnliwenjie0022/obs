@@ -33,9 +33,21 @@
               "icon": "lucide-image",
               "title": "ipa"
             }
+          },
+          {
+            "id": "9945c664773fba94",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.9.12"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.9.12"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -185,6 +197,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:Create new base": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -197,7 +210,7 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "79d1e59b590d15d6",
+  "active": "9945c664773fba94",
   "lastOpenFiles": [
     "language/ipa/ipa.md",
     "language/ipa/include/ipa.svg",
