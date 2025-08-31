@@ -38,12 +38,15 @@
             "id": "9945c664773fba94",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.9.12"
+                "file": "language/ipa/ipa.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
               },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.9.12"
+              "icon": "lucide-file",
+              "title": "ipa"
             }
           }
         ],
@@ -212,6 +215,7 @@
   },
   "active": "9945c664773fba94",
   "lastOpenFiles": [
+    "language/ipa/include/Untitled.base",
     "language/ipa/ipa.md",
     "language/ipa/include/ipa.svg",
     "language/ipa/include/IPA.svg",
@@ -234,7 +238,6 @@
     "de/tilelink",
     "de/power/genus/include/Pasted image 20250822180319.png",
     "de/power/genus/ref/Task-5253.pdf",
-    "de/power/genus/ref/How to analyze annotation report of the report_sdb_annotation command in Genus_Joules.pdf",
     "de/power/genus/include/Pasted image 20250822172530.png",
     "de/power/genus/include/Pasted image 20250822171824.png",
     "de/power/genus/genus.md",
