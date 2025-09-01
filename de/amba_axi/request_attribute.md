@@ -51,28 +51,29 @@
 		- AxLOCK, AxPROT, AxNSE
 # allocate
 
-- ARCACHE[0]在ARCACHE[3:2]有數值的情況下，不具備任何意義
-- ARCACHE[3], ARCACHE[1]一定為“1”
-- Read的行爲只與ARCACHE[2]有關
+- Read
+	- ARCACHE[0]在ARCACHE[3:2]有數值的情況下，不具備任何意義
+	- ARCACHE[3], ARCACHE[1]一定為“1”
+	- Read的行爲只與ARCACHE[2]有關
+		- Read-No-Allocate
+		- Read-Allocate
+- Write
+	- ARCACHE[2], ARCACHE[1]一定為“1”
+	- Write的行爲只與ARCACHE[3], ARCACHE[0]有關
+		- Write-No-Allocate Write-Through
+		- Write-Allocate Write-Through
+		- Write-No-Allocate Write-Back
+		- Write-Allocate Write-Back
 
-| ARCACHE[3:0] | Memory type      |
-| ------------ | ---------------- |
-| 1010         | Read-No-Allocate |
-| 1110         | Read-Allocate    |
-| 1010         | Read-No-Allocate |
-| 1110         | Read-Allocate    |
-| 1011         | Read-No-Allocate |
-| 1111         | Read-Allocate    |
-| 1011         | Read-No-Allocate |
-| 1111         | Read-Allocate    |
+| Memory type                           | ARCACHE[3:0] | Read Memory type | AWCACHE[3:0] | Write Memory type 1 | Write Memory type 2 |
+| ------------------------------------- | ------------ | ---------------- | ------------ | ------------------- | ------------------- |
+| Write-Through No-Allocate             | 1010         | Read-No-Allocate | 0110         | Write-No-Allocate   | Write-Through       |
+| Write-Through Read-Allocate           | 1110         | Read-Allocate    | 0110         | Write-No-Allocate   | Write-Through       |
+| Write-Through Write-Allocate          | 1010         | Read-No-Allocate | 1110         | Write-Allocate      | Write-Through       |
+| Write-Through Read and Write-Allocate | 1110         | Read-Allocate    | 1110         | Write-Allocate      | Write-Through       |
+| Write-Back No-Allocate                | 1011         | Read-No-Allocate | 0111         | Write-No-Allocate   | Write-Back          |
+| Write-Back Read-Allocate              | 1111         | Read-Allocate    | 0111         | Write-No-Allocate   | Write-Back          |
+| Write-Back Write-Allocate             | 1011         | Read-No-Allocate | 1111         | Write-Allocate      | Write-Back          |
+| Write-Back Read and Write-Allocate    | 1111         | Read-Allocate    | 1111         | Write-Allocate      | Write-Back          |
 
-| AWCACHE[3:0] | Memory type 1     | Memory type 2 |
-| ------------ | ----------------- | ------------- |
-| 0110         | Write-No-Allocate | Write-Through |
-| 0110         | Write-No-Allocate | Write-Through |
-|              |                   |               |
-|              |                   |               |
-|              |                   |               |
-|              |                   |               |
-|              |                   |               |
-|              |                   |               |
+
