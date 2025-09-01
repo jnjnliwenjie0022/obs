@@ -51,16 +51,28 @@
 		- AxLOCK, AxPROT, AxNSE
 # allocate
 
+- ARCACHE[0]在ARCACHE[3:2]有數值的情況下，不具備任何意義
+- ARCACHE[3], ARCACHE[1]一定為“1”
+- Read的行爲只與ARCACHE[2]有關
+
 | ARCACHE[3:0] | Memory type      |
 | ------------ | ---------------- |
-| 0000         |                  |
-| 0001         |                  |
-| 0010         |                  |
-| 0011         |                  |
-| 1010         | Read No-Allocate |
+| 1010         | Read-No-Allocate |
 | 1110         | Read-Allocate    |
-| 1010         |                  |
+| 1010         | Read-No-Allocate |
+| 1110         | Read-Allocate    |
+| 1011         | Read-No-Allocate |
+| 1111         | Read-Allocate    |
+| 1011         | Read-No-Allocate |
+| 1111         | Read-Allocate    |
 
-| AWCACHE[3:0] | Memory type |
-| ------------ | ----------- |
-|              |             |
+| AWCACHE[3:0] | Memory type       | Memory type 2 |
+| ------------ | ----------------- | ------------- |
+| 0110         | Write-No-Allocate | Write-Through |
+| 0110         | Write-No-Allocate | Write-Through |
+|              |                   |               |
+|              |                   |               |
+|              |                   |               |
+|              |                   |               |
+|              |                   |               |
+|              |                   |               |
