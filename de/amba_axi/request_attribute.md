@@ -1,15 +1,15 @@
 # bufferable
 
-| Type  | Bufferable | Modifiable | Allocate | Other Allocate | Response Description             | Visible Description                  | Data Discript |
-| ----- | ---------- | ---------- | -------- | -------------- | -------------------------------- | ------------------------------------ | ------------- |
-| Write | 0          | X          | X        | X              | response from final destination  | visible at the final destination     |               |
-| Write | 1          | X          | X        | X              | response from intermediate point | not visible at the final destination |               |
-| Read  | 0          | 1          | 0        | 0              | response from final destination  |                                      |               |
-| Read  | 1          | 1          | 0        | 0              | response from intermediate point |                                      |               |
-| Read  | X          | X          | 1        | 1              | 根據Cache Policy處理                 |                                      |               |
-| Read  | X          | X          | 1        | 0              | 根據Cache Policy處理                 |                                      |               |
-| Read  | X          | X          | 0        | 1              | 根據Cache Policy處理                 |                                      |               |
-| Read  | X          | 0          | 0        | 0              | response from final destination  |                                      |               |
+| Type  | Bufferable | Modifiable | Allocate | Other Allocate | Response Description             | Visible Description                  | Data Description |
+| ----- | ---------- | ---------- | -------- | -------------- | -------------------------------- | ------------------------------------ | ---------------- |
+| Write | 0          | X          | X        | X              | response from final destination  | visible at the final destination     |                  |
+| Write | 1          | X          | X        | X              | response from intermediate point | not visible at the final destination |                  |
+| Read  | 0          | 1          | 0        | 0              | response from final destination  |                                      |                  |
+| Read  | 1          | 1          | 0        | 0              | response from intermediate point |                                      |                  |
+| Read  | X          | X          | 1        | 1              | 根據Cache Policy處理                 |                                      |                  |
+| Read  | X          | X          | 1        | 0              | 根據Cache Policy處理                 |                                      |                  |
+| Read  | X          | X          | 0        | 1              | 根據Cache Policy處理                 |                                      |                  |
+| Read  | X          | 0          | 0        | 0              | response from final destination  |                                      |                  |
 
 # modifiable
 
