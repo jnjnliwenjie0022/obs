@@ -2,8 +2,8 @@
 
 | Type  | Bufferable | Modifiable | Allocate | Other Allocate | Response Description             | Data Description                          |
 | ----- | ---------- | ---------- | -------- | -------------- | -------------------------------- | ----------------------------------------- |
-| Write | 0          | X          | 0        | 0              | If cache ab                      | data visible at the final destination     |
-| Write | 1          | X          | 0        | 0              |                                  | data not visible at the final destination |
+| Write | 0          | X          | 0        | 0              | response from final destination  | data visible at the final destination     |
+| Write | 1          | X          | 0        | 0              | response from intermediate point | data not visible at the final destination |
 | Write | 0          | 1          | 1        | X              | response from intermediate point | data visible at the final destination     |
 | Write | 1          | 1          | 1        | X              | response from intermediate point | data not visible at the final destination |
 
