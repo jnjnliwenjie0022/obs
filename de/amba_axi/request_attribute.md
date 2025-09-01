@@ -46,4 +46,4 @@
 		- AxADDR, AxSIZE, AxLEN, AxBURST
 	- 不可改變
 		- AxLOCK, AxPROT, AxNSE
-- 
+# allocate
