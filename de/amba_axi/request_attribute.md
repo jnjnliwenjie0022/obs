@@ -48,13 +48,15 @@
 		- AxLOCK, AxPROT, AxNSE
 # allocate
 
-| ARCACHE[3:0] | Memory type |
-| ------------ | ----------- |
-| 0000         |             |
-| 0001         |             |
-| 0010         |             |
-| 0011         |             |
-| 1010         |             |
+| ARCACHE[3:0] | Memory type      |
+| ------------ | ---------------- |
+| 0000         |                  |
+| 0001         |                  |
+| 0010         |                  |
+| 0011         |                  |
+| 1010         | Read No-Allocate |
+| 1110         | Read-Allocate    |
+|              |                  |
 
 | AWCACHE[3:0] | Memory type |
 | ------------ | ----------- |
