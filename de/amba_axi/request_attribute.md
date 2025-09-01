@@ -7,7 +7,6 @@
 | Write | 0          | 1          | 1        | X              | response from intermediate point | data visible at the final destination     |
 | Write | 1          | 1          | 1        | X              | response from intermediate point | data not visible at the final destination |
 
-
 | Type | Bufferable | Modifiable | Allocate | Other Allocate | Response Description             | Data Description             |
 | ---- | ---------- | ---------- | -------- | -------------- | -------------------------------- | ---------------------------- |
 | Read | 0          | 1          | 0        | 0              | response from final destination  | data from final destination  |
@@ -78,6 +77,7 @@
 	- Write-Back: not visible at the final destination
 	- Write-Through: visible at the final destination
 	- allocation is not hard constraint
+**
 
 | Memory type                           | ARCACHE[3:0] | Read Memory type | AWCACHE[3:0] | Write Memory type 1 | Write Memory type 2 |
 | ------------------------------------- | ------------ | ---------------- | ------------ | ------------------- | ------------------- |
