@@ -6,7 +6,10 @@
 | Write | 1          | X          | X        | X              | intermediate point                                                       |
 | Read  | 0          | 1          | 0        | 0              | final destination                                                        |
 | Read  | 1          | 1          | 0        | 0              | intermediate point (write that is progressing to the final destination.) |
-| Read  | X          | 0          | X        | X              | final destination                                                        |
+| Read  | X          | X          | 1        | 1              | 根據Cache Policy處理                                                         |
+| Read  | X          | X          | 1        | 0              | 根據Cache Policy處理                                                         |
+| Read  | X          | X          | 0        | 1              | 根據Cache Policy處理                                                         |
+| Read  | X          | 0          | 0        | 0              | final destination                                                        |
 
 # modifiable
 
@@ -56,7 +59,7 @@
 | 0011         |                  |
 | 1010         | Read No-Allocate |
 | 1110         | Read-Allocate    |
-|              |                  |
+| 1010         |                  |
 
 | AWCACHE[3:0] | Memory type |
 | ------------ | ----------- |
