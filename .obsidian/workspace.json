@@ -177,6 +177,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:Create new base": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -191,8 +192,10 @@
   },
   "active": "11bdaf104a313ed8",
   "lastOpenFiles": [
-    "de/cache/cache_policy.md",
     "de/amba_axi/request_attribute.md",
+    "de/amba_axi/ref/IHI0022K_amba_axi_protocol_spec.pdf",
+    "de/amba_axi/axi.md",
+    "de/cache/cache_policy.md",
     "language/ipa/include/ipa.svg",
     "language/ipa/ipa.md",
     "language/ipa/include",
@@ -200,7 +203,6 @@
     "language/book/the_rational_male.pdf",
     "language/book/pdf_downlaod.md",
     "language/book",
-    "de/amba_axi/ref/IHI0022K_amba_axi_protocol_spec.pdf",
     "de/amba_axi/IHI0022K_amba_axi_protocol_spec.pdf",
     "de/amba_chi/ref/IHI0050G_amba_chi_architecture_spec.pdf",
     "de/amba_chi/Untitled.md",
@@ -234,7 +236,6 @@
     "de/tilelink/tilelink.md",
     "dv/sv/sv_rule.md",
     "de/format.md",
-    "de/design_spec/fctrl.md",
-    "de/power/sdpd/power.md"
+    "de/design_spec/fctrl.md"
   ]
 }

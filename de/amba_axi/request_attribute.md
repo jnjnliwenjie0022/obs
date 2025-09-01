@@ -66,7 +66,7 @@
 | 1011         | Read-No-Allocate |
 | 1111         | Read-Allocate    |
 
-| AWCACHE[3:0] | Memory type       | Memory type 2 |
+| AWCACHE[3:0] | Memory type 1     | Memory type 2 |
 | ------------ | ----------------- | ------------- |
 | 0110         | Write-No-Allocate | Write-Through |
 | 0110         | Write-No-Allocate | Write-Through |
