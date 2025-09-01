@@ -28,13 +28,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "de/cache/cache_policy.md",
-                "mode": "preview",
+                "file": "de/amba_axi/request_attribute.md",
+                "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "cache_policy"
+              "title": "request_attribute"
             }
           }
         ],
@@ -159,13 +159,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "de/cache/cache_policy.md",
+                "file": "de/amba_axi/request_attribute.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of cache_policy"
+              "title": "Outline of request_attribute"
             }
           }
         ],
@@ -192,6 +192,7 @@
   },
   "active": "0c5e69dd6e5dab9c",
   "lastOpenFiles": [
+    "de/cache/cache_policy.md",
     "de/amba_axi/request_attribute.md",
     "language/ipa/include/ipa.svg",
     "language/ipa/ipa.md",
@@ -200,7 +201,6 @@
     "language/book/the_rational_male.pdf",
     "language/book/pdf_downlaod.md",
     "language/book",
-    "de/cache/cache_policy.md",
     "de/amba_axi/ref/IHI0022K_amba_axi_protocol_spec.pdf",
     "de/amba_axi/IHI0022K_amba_axi_protocol_spec.pdf",
     "de/amba_chi/ref/IHI0050G_amba_chi_architecture_spec.pdf",
