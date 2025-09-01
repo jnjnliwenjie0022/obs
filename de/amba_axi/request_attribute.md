@@ -1,15 +1,15 @@
 # bufferable
 
-| Type  | Bufferable | Modifiable | Allocate | Other Allocate | Response Description             | Data Description |
-| ----- | ---------- | ---------- | -------- | -------------- | -------------------------------- | ---------------- |
-| Write | 0          | X          | X        | X              | response from final destination  | visible          |
-| Write | 1          | X          | X        | X              | response from intermediate point |                  |
-| Read  | 0          | 1          | 0        | 0              | response from final destination  |                  |
-| Read  | 1          | 1          | 0        | 0              | response from intermediate point |                  |
-| Read  | X          | X          | 1        | 1              | 根據Cache Policy處理                 |                  |
-| Read  | X          | X          | 1        | 0              | 根據Cache Policy處理                 |                  |
-| Read  | X          | X          | 0        | 1              | 根據Cache Policy處理                 |                  |
-| Read  | X          | 0          | 0        | 0              | response from final destination  |                  |
+| Type  | Bufferable | Modifiable | Allocate | Other Allocate | Response Description             | Visible Description                  | Data Discript |
+| ----- | ---------- | ---------- | -------- | -------------- | -------------------------------- | ------------------------------------ | ------------- |
+| Write | 0          | X          | X        | X              | response from final destination  | visible at the final destination     |               |
+| Write | 1          | X          | X        | X              | response from intermediate point | not visible at the final destination |               |
+| Read  | 0          | 1          | 0        | 0              | response from final destination  |                                      |               |
+| Read  | 1          | 1          | 0        | 0              | response from intermediate point |                                      |               |
+| Read  | X          | X          | 1        | 1              | 根據Cache Policy處理                 |                                      |               |
+| Read  | X          | X          | 1        | 0              | 根據Cache Policy處理                 |                                      |               |
+| Read  | X          | X          | 0        | 1              | 根據Cache Policy處理                 |                                      |               |
+| Read  | X          | 0          | 0        | 0              | response from final destination  |                                      |               |
 
 # modifiable
 
@@ -64,6 +64,14 @@
 		- Write-Allocate Write-Through
 		- Write-No-Allocate Write-Back
 		- Write-Allocate Write-Back
+- 不論Read,Write都滿足以下
+	- Modifiable
+	- Cacheable (need loop up cache)
+	- Read response from intermediate point
+	- Write response from intermediate point
+	- Write-Back: not visible at the final destination
+	- Write-Through: visible at the final destination
+	- allocation is not hard constraint
 
 | Memory type                           | ARCACHE[3:0] | Read Memory type | AWCACHE[3:0] | Write Memory type 1 | Write Memory type 2 |
 | ------------------------------------- | ------------ | ---------------- | ------------ | ------------------- | ------------------- |
