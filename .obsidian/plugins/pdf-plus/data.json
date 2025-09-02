@@ -220,6 +220,7 @@
   "focusEditorAfterAutoPaste": true,
   "clearSelectionAfterAutoPaste": true,
   "respectCursorPositionWhenAutoPaste": true,
+  "blankLineAboveAppendedContent": true,
   "autoCopy": false,
   "autoFocus": false,
   "autoPaste": false,
@@ -266,6 +267,7 @@
   "rectImageFormat": "file",
   "rectImageExtension": "webp",
   "zoomToFitRect": false,
+  "rectFollowAdaptToTheme": true,
   "rectEmbedResolution": 100,
   "includeColorWhenCopyingRectLink": true,
   "backlinkIconSize": 50,
@@ -275,6 +277,7 @@
   "showBacklinkIconForRect": false,
   "showBoundingRectForBacklinkedAnnot": false,
   "hideReplyAnnotation": false,
+  "hideStampAnnotation": false,
   "searchLinkHighlightAll": "true",
   "searchLinkCaseSensitive": "true",
   "searchLinkMatchDiacritics": "default",
@@ -284,6 +287,7 @@
   "defaultZoomValue": "page-width",
   "scrollModeOnLoad": 0,
   "spreadModeOnLoad": 0,
+  "usePageUpAndPageDown": true,
   "hoverableDropdownMenuInToolbar": true,
   "zoomLevelInputBoxInToolbar": true,
   "popoverPreviewOnExternalLinkHover": true,
@@ -316,5 +320,7 @@
   "vimSmoothOutlineMode": true,
   "vimHintChars": "hjklasdfgyuiopqwertnmzxcvb",
   "vimHintArgs": "all",
-  "PATH": ""
+  "PATH": "",
+  "autoCheckForUpdates": true,
+  "fixObsidianTextSelectionBug": true
 }
