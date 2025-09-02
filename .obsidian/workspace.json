@@ -176,13 +176,18 @@
   },
   "active": "29732d217ddd8476",
   "lastOpenFiles": [
-    "de/amba_axi/axi.md",
+    "ticktick.md",
+    "Untitled.md",
+    "Untitled 3.md",
+    "Untitled 1.md",
+    "Untitled 2.md",
+    "language/ipa/ipa.md",
     "de/amba_axi/request_attribute.md",
+    "de/amba_axi/axi.md",
     "de/amba_axi/ref/IHI0022K_amba_axi_protocol_spec.pdf",
     "de/amba_ahb/ref/IHI0011.pdf",
     "de/cache/cache_policy.md",
     "language/ipa/include/ipa.svg",
-    "language/ipa/ipa.md",
     "language/ipa/include",
     "language/ipa",
     "language/book/the_rational_male.pdf",
@@ -216,10 +221,6 @@
     "de/ppa/timing.md",
     "de/ppa/spyglass.md",
     "de/ppa/evaluation.md",
-    "de/compression/compression.md",
-    "de/tilelink/tilelink.md",
-    "dv/sv/sv_rule.md",
-    "de/format.md",
-    "de/design_spec/fctrl.md"
+    "de/compression/compression.md"
   ]
 }
