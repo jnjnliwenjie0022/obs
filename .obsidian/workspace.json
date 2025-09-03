@@ -21,21 +21,8 @@
               "icon": "lucide-file",
               "title": "rationalplan"
             }
-          },
-          {
-            "id": "c9dec087e46c2eb8",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "rationalplan/include/Pasted image 20250903144303.png"
-              },
-              "icon": "lucide-image",
-              "title": "Pasted image 20250903144303"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -187,11 +174,11 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "35a470a2c390e07e",
+  "active": "a72fe0ae231bbd1b",
   "lastOpenFiles": [
+    "rationalplan/include/Pasted image 20250903144303.png",
     "rationalplan/ref/rationalplan-single-6.1.2.deb",
     "rationalplan/rationalplan.md",
-    "rationalplan/include/Pasted image 20250903144303.png",
     "rationalplan/include",
     "rationalplan/ref",
     "rationalplan",
@@ -213,7 +200,6 @@
     "language/ipa/include/ipa.svg",
     "language/ipa/include",
     "language/ipa",
-    "language/book/the_rational_male.pdf",
     "language/book/pdf_downlaod.md",
     "de/amba_chi/Untitled.md",
     "de/power/genus/genus.md",
