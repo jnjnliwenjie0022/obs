@@ -4,22 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "62e987d2b73381da",
+        "id": "2917fea32c40fc37",
         "type": "tabs",
         "children": [
           {
-            "id": "a72fe0ae231bbd1b",
+            "id": "2dd9ae830ac65d49",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "split-diff-view",
               "state": {
-                "file": "de/amba_axi/request_attribute.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
+                "aFile": ".obsidian/workspace.json",
+                "bFile": ".obsidian/workspace.json",
+                "aRef": ""
               },
-              "icon": "lucide-file",
-              "title": "request_attribute"
+              "icon": "diff",
+              "title": "Diff: workspace.json"
             }
           }
         ]
@@ -150,14 +149,33 @@
               "icon": "lucide-list",
               "title": "Outline"
             }
+          },
+          {
+            "id": "36026ea0d53bab4c",
+            "type": "leaf",
+            "state": {
+              "type": "git-history-view",
+              "state": {},
+              "icon": "history",
+              "title": "History"
+            }
+          },
+          {
+            "id": "afe0a35b1c726af9",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 346.5,
-    "collapsed": true
+    "width": 346.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -174,33 +192,28 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "a72fe0ae231bbd1b",
+  "active": "2dd9ae830ac65d49",
   "lastOpenFiles": [
-    "rationalplan/rationalplan.md",
-    "rationalplan/ref/rationplan/usr/share/rationalplan-single/lib/license/swingx.license",
-    "rationalplan/ref/rationplan/usr/share/rationalplan-single/lib/license/swing-worker.license",
-    "rationalplan/ref/rationplan/usr/share/rationalplan-single/lib/license/spring.license",
-    "rationalplan/ref/rationplan/usr/share/rationalplan-single/lib/license/smartgwt.license",
-    "rationalplan/ref/rationplan/usr/share/rationalplan-single/lib/license/rationalplanViewer.license",
-    "rationalplan/ref/rationplan/usr/share/rationalplan-single/lib/license/rationalplanSingle.license",
-    "rationalplan/ref/rationplan/usr/share/rationalplan-single/lib/license/rationalplanMulti.license",
-    "rationalplan/ref/rationplan/usr/share/rationalplan-single/lib/license/quaqua.html",
-    "rationalplan/ref/rationplan/usr/share/rationalplan-single/lib/license/poi.licence",
-    "rationalplan/ref/rationplan/usr/share/rationalplan-single/lib/license/opencsv.license",
+    "sheet/sheet.md",
+    "sheet",
+    "rationalplan/ref/rationplan/usr/share/rationalplan-single/rationalplan.sh",
+    "rationalplan/ref/rationplan/usr/share/rationalplan-single/lib/swingx.jar",
+    "rationalplan/ref/rationplan/usr/share/rationalplan-single/lib/swing-worker-1.2.jar",
+    "rationalplan/ref/rationplan/usr/share/rationalplan-single/lib/sam.jar",
+    "rationalplan/ref/rationplan/usr/share/rationalplan-single/lib/rtfparserkit.jar",
+    "rationalplan/ref/rationplan/usr/share/rationalplan-single/lib/quaqua.jar",
+    "rationalplan/ref/rationplan/usr/share/rationalplan-single/lib/poi.jar",
+    "rationalplan/ref/rationplan/usr/share/rationalplan-single/lib/opencensus-contrib-http-util.jar",
+    "rationalplan/ref/rationplan/usr/share/rationalplan-single/lib/opencensus-api.jar",
     "rationalplan/ref/rationplan/usr/share/pixmaps/rationalplan-single.png",
     "rationalplan/include/Pasted image 20250903144303.png",
+    "rationalplan/rationalplan.md",
     "Pasted image 20250903144219.png",
-    "sheet/sheet.md",
     "de/amba_axi/request_attribute.md",
-    "ticktick.md",
-    "Untitled.md",
-    "Untitled 3.md",
-    "Untitled 1.md",
-    "Untitled 2.md",
-    "language/ipa/ipa.md",
-    "de/amba_axi/axi.md",
     "de/cache/cache_policy.md",
+    "de/amba_axi/axi.md",
     "language/ipa/include/ipa.svg",
+    "language/ipa/ipa.md",
     "language/book/pdf_downlaod.md",
     "de/amba_chi/Untitled.md",
     "de/power/genus/genus.md",
@@ -220,6 +233,12 @@
     "Pasted image 20250822152302.png.md",
     "de/arithmetic/csa/csa.md",
     "de/ppa/upf.md",
-    "de/ppa/timing.md"
+    "de/ppa/timing.md",
+    "de/ppa/spyglass.md",
+    "de/ppa/evaluation.md",
+    "de/compression/compression.md",
+    "de/tilelink/tilelink.md",
+    "dv/sv/sv_rule.md",
+    "de/format.md"
   ]
 }
