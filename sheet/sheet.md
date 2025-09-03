@@ -7,5 +7,7 @@
 - 支: 40/60/80/100
 - 織: 200/300/400/500
 
-- 防蟎床包: 美國寢之堡(最多國際認證)
+- 防蟎防水床包(六面) + 外層床包()
+- 防蟎床包: 3M(3M是所有防蟎技術的源頭) 
+	- ref: https://www.filtrete-bedding.com.tw/webpage/feature/index79d3.html
 - 

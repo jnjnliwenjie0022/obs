@@ -194,8 +194,10 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "9e49e8dfbec464c5",
+  "active": "35a470a2c390e07e",
   "lastOpenFiles": [
+    "sheet/ref/prevent_mite.pdf",
+    "sheet/ref",
     "sheet/sheet.md",
     "sheet",
     "rationalplan/ref/rationplan/usr/share/rationalplan-single/rationalplan.sh",
@@ -206,7 +208,6 @@
     "rationalplan/ref/rationplan/usr/share/rationalplan-single/lib/quaqua.jar",
     "rationalplan/ref/rationplan/usr/share/rationalplan-single/lib/poi.jar",
     "rationalplan/ref/rationplan/usr/share/rationalplan-single/lib/opencensus-contrib-http-util.jar",
-    "rationalplan/ref/rationplan/usr/share/rationalplan-single/lib/opencensus-api.jar",
     "rationalplan/ref/rationplan/usr/share/pixmaps/rationalplan-single.png",
     "rationalplan/include/Pasted image 20250903144303.png",
     "rationalplan/rationalplan.md",
@@ -240,7 +241,6 @@
     "de/ppa/evaluation.md",
     "de/compression/compression.md",
     "de/tilelink/tilelink.md",
-    "dv/sv/sv_rule.md",
-    "de/format.md"
+    "dv/sv/sv_rule.md"
   ]
 }
