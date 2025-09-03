@@ -1,0 +1,9 @@
+- Lunio
+- ref: https://www.pttweb.cc/bbs/e-shopping/M.1560165445.A.A5E
+- 最佳材料: 精梳棉/絲光棉(容易起毛)
+- 材料: 聚酯纖維(容易起毛球)
+- 材料: 天絲(不容易乾)(品牌:hoyacasa(平價)/pure one(平價)/hola(貴)/BBL(貴))
+	- ref: https://www.hoya-bedding.com.tw/
+- 支: 40/60/80/100
+- 織: 200/300/400/500
+- 
