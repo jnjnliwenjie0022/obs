@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "2917fea32c40fc37",
+        "id": "3a7990f14c76e54b",
         "type": "tabs",
         "children": [
           {
-            "id": "2dd9ae830ac65d49",
+            "id": "9e49e8dfbec464c5",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
-              "state": {
-                "aFile": ".obsidian/workspace.json",
-                "bFile": ".obsidian/workspace.json",
-                "aRef": ""
-              },
-              "icon": "diff",
-              "title": "Diff: workspace.json"
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
             }
           }
         ]
@@ -192,7 +188,7 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "2dd9ae830ac65d49",
+  "active": "afe0a35b1c726af9",
   "lastOpenFiles": [
     "sheet/sheet.md",
     "sheet",
