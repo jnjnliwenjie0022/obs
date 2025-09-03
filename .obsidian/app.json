@@ -3,7 +3,7 @@
   "showLineNumber": true,
   "vimMode": false,
   "strictLineBreaks": true,
-  "readableLineLength": true,
+  "readableLineLength": false,
   "livePreview": true,
   "defaultViewMode": "preview",
   "propertiesInDocument": "visible",

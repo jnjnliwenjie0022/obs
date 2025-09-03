@@ -11,10 +11,15 @@
             "id": "9e49e8dfbec464c5",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "sheet/sheet.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "sheet"
             }
           }
         ]
@@ -171,7 +176,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 346.5
+    "width": 346.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -188,7 +194,7 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "afe0a35b1c726af9",
+  "active": "9e49e8dfbec464c5",
   "lastOpenFiles": [
     "sheet/sheet.md",
     "sheet",
