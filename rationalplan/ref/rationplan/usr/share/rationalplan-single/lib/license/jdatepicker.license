@@ -1,0 +1,123 @@
+LICENSE AGREEMENT FOR STAND BY SOFT SOFTWARE:
+(Revised January 8, 2007)
+
+This License Agreement ("LICENSE") is a legal agreement between you (either an individual or a single entity) and Elmro SRL ("Elmro") for the Elmro software product accompanying this LICENSE, which includes computer software and may include associated media, printed materials, and online or electronic documentation ("SOFTWARE PRODUCT"). By installing, copying, or otherwise using the SOFTWARE PRODUCT, you agree to be bound by the terms of this LICENSE. If you do not agree to the terms of this LICENSE, do not install, copy, or use the SOFTWARE PRODUCT.
+
+The SOFTWARE PRODUCT is protected by copyright laws and international copyright treaties, as well as other intellectual property laws and treaties. The SOFTWARE PRODUCT is licensed, not sold.
+
+    RIGOROUS ENFORCEMENT OF INTELLECTUAL PROPERTY RIGHTS
+
+    If the licensed right of use for this SOFTWARE PRODUCT is purchased by you with any intent to reverse engineer, decompile, create derivative works, and the exploitation or unauthorized transfer of, any Elmro intellectual property and trade secrets, to include any exposed methods or source code where provided, no licensed right of use shall exist, and any products created as a result shall be judged illegal by definition of all applicable law. Any sale or resale of intellectual property or created derivatives so obtained will be prosecuted to the fullest extent of all local, federal and international law.
+
+    GRANT OF LICENSE
+
+    This LICENSE, if legally executed as defined herein, licenses and so grants you the following rights:
+
+        Binary License
+
+        You may install and use multiple copies of the SOFTWARE PRODUCT or any prior version legally licensed once a single developer license ("Single Developer License") has been obtained from Elmro or a reseller authorized by Elmro, generally via some form of registration. A Single Developer License for the SOFTWARE PRODUCT may not be shared or used concurrently by more than one individual developer.
+
+        If you have purchased a "multi-developer" license, the SOFTWARE PRODUCT may be used by a number of developers associated with it (e.g. the four developer license allows you to use the product by four different developers, the eight developer license allows you to use the product by eight different developers).
+
+        If you have purchased a site license for the SOFTWARE PRODUCT ("Site License"), then the LICENSE extends to include all software developers within the purchasing organization. The developer(s) for which the SOFTWARE PRODUCT has been licensed should be located at the same business address or from time to time telecommute from home or other locations external to the business address.
+
+        If you have purchased an enterprise license for the SOFTWARE PRODUCT ("Enterprise License"), then the LICENSE extends to include all software developers within the purchasing organization. The developer(s) for which the SOFTWARE PRODUCT has been licensed can be located at any business address or from time to time telecommute from home or other locations external to the business addresses.
+
+        Source Code License
+
+        In addition to the license and rights granted for a Site License, Elmro grants you the right to use and modify the Elmro source provided you licensed source code.
+
+            Elmro shall retain all right, title and interest in and to all updates, modifications, enhancements and derivative works, in whole or in part, of the Elmro Source Code created by you, including all copyrights subsisting therein, to the extent such modifications, enhancements or derivative works contain copyrightable code or expression derived from the Elmro source code; provided, however, that Elmro grants to you a fully-paid, royalty free license, to use copy and modify such updates, modifications, enhancements and derivative works or copies thereof for use as authorized in this LICENSE.
+
+            You may not distribute the Elmro source code, or any modified version or derivative work of the Elmro source code, in source code form.
+
+            Elmro require all developers who plan to access Elmro source code signing on the source code license. As long as they signed, they become registered developers. An alternative to this is to let a delegate signs source code license as an organization. The delegate will be responsible for letting other developers who plan to access the source code reviewing this license agreement first before releasing them the access.
+
+            The source code contained herein and in related files is provided to the registered developer for the purposes of education and troubleshooting. Under no circumstances may any portion of the source code be distributed, disclosed or otherwise made available to any third party without the express written consent of Elmro.
+
+            Under no circumstances may the source code be used in whole or in part, as the basis for creating a product that provides the same, or substantially the same, functionality as any Elmro products.
+
+            The registered developer acknowledges that this source code contains valuable and proprietary trade secrets of Elmro. The registered developer agrees to expend every effort to insure its confidentiality. For example, under no circumstances may the registered developer allow to put the source code on an internal network where he or she has no control.
+
+            Due to the insecurity of Java byte-code, if you plan to use classes that built from the source code directly, you must agree to obfuscate the classes before distributing it to your customers.
+
+        Non-Commercial License
+
+        You may use the non-commercial versions of the SOFTWARE PRODUCT for the limited purposes of demonstrations, trials and design time evaluations or non-commercial use. Non-commercial applications must contain this LICENSE and clearly specify they are using the SOFTWARE PRODUCT.
+
+        Academic License
+
+        The Academic License permits using of a fully-functional version of the SOFTWARE PRODUCT for non-commercial, non-adimistrative and educational purposes only. This license is available to students and teaching staff of accredited educational institutions. Elmro will not grant the license if it does not recognize the institution as accredited.
+
+    DESCRIPTION OF OTHER RIGHTS AND LIMITATIONS
+
+        Not for Resale Software
+
+        If the SOFTWARE PRODUCT is labeled and provided as "Not for Resale" or "NFR", then, notwithstanding other sections of this LICENSE, you may not resell, distribute, or otherwise transfer for value or benefit in any manner, the SOFTWARE PRODUCT or any derivative work using the SOFTWARE PRODUCT. You may not transfer, rent, lease, lend, copy, modify, translate, sublicense, time-share or electronically transmit the SOFTWARE PRODUCT, media or documentation. This also applies to any and all intermediate files, source code, and compiled executables.
+
+        Limitations on Reverse Engineering, Decompilation, and Disassembly
+
+        You may not reverse engineer, decompile, create derivative works, modify, translate, or disassemble the SOFTWARE PRODUCT, and only to the extent that such activity is expressly permitted by applicable law notwithstanding this limitation. You agree to take all reasonable, legal and appropriate measures to prohibit the illegal dissemination of the SOFTWARE PRODUCT or any of its constituent parts and redistributables to the fullest extent of all applicable local, US Codes and International Laws and Treaties regarding anti-circumvention, including but not limited to, the Geneva and Berne World Intellectual Property Organization (WIPO) Diplomatic Conferences.
+
+        Rental
+
+        You may not rent, lease, or lend the SOFTWARE PRODUCT.
+
+        Separation of Components, Their Constituent Parts and Redistributables
+
+        The SOFTWARE PRODUCT is licensed as a single product. The SOFTWARE PRODUCT and its constituent parts and any provided redistributables may not be reverse engineered, decompiled, disassembled, nor placed for distribution, sale, or resale as individual creations by you or any individual not expressly given such permission by Elmro. The provision of source code, if included with the SOFTWARE PRODUCT, does not constitute transfer of any legal rights to such code, and resale or distribution of all or any portion of all source code and intellectual property will be prosecuted to the fullest extent of all applicable local, federal and international laws. All Elmro libraries, source code, redistributables and other files remain Elmro's exclusive property. You may not distribute any files, except those that Elmro has expressly designated as Redistributable.
+        The SOFTWARE PRODUCT may include certain files ("Redistributables") intended for distribution by you to the users of programs you create. Redistributables include jar file (or class files if you intend to package all Elmro classes into your own jar). Developer Guide of SOFTWARE PRODUCT (if any) or any other documents (such as javadoc) which are intended to teach you how to use the SOFTWARE PRODUCT, and sample code are not considered as redistributables. Subject to all of the terms and conditions in this LICENSE, you may reproduce and distribute exact copies of the Redistributables, provided that such copies are made from the original copy of the SOFTWARE PRODUCT or the copy transferred to a hard disk. Copies of Redistributables may only be distributed with and for the sole purpose of executing application programs permitted under this LICENSE that you have created using the SOFTWARE PRODUCT. You may reformat or recombine the original distribution format of redistributables provided by Elmro. However Elmro will not support or have any liability for such use.
+
+        Installation and Use
+
+        The license granted in this LICENSE for you to create your own compiled programs and distribute your programs and the Redistributables (if any), is subject to all of the following conditions:
+
+            All copies of the programs you create must bear a valid copyright notice, either your own or the Elmro copyright notice that appears on the SOFTWARE PRODUCT.
+
+            You may not remove or alter any Elmro copyright, trademark or other proprietary rights notice contained in any portion of Elmro libraries, source code, Redistributables or other files that bear such a notice.
+
+            Elmro provides no warranty at all to any person, and you will remain solely responsible to anyone receiving your programs for support, service, upgrades, or technical or other assistance, and such recipients will have no right to contact Elmro for such services or assistance.
+
+            Your programs containing the SOFTWARE PRODUCT must be written using a licensed, registered copy of the SOFTWARE PRODUCT.
+
+            Your programs must add primary and substantial functionality, and may not be merely a set or subset of any of the libraries, code, Redistributables or other files of the SOFTWARE PRODUCT.
+
+        Support Services
+
+        Elmro may provide you with support services related to the SOFTWARE PRODUCT ("Support Services"). Use of Support Services is governed by Elmro policies and programs described in the user manual, in on-line documentation and/or other Elmro provided materials. Any supplemental software code provided to you as part of the Support Services shall be considered part of the SOFTWARE PRODUCT and subject to the terms and conditions of this LICENSE. With respect to technical information you provide to Elmro as part of the Support Services, Elmro may use such information for its business purposes, including for product support and development.
+
+        Software Transfer
+
+        You may NOT permanently or temporarily transfer ANY of your rights under this LICENSE to any individual or entity. Regardless of any modifications which you make and regardless of how you might compile, link, and/or package your programs, under no circumstances may the libraries, redistributables, and/or other files of the SOFTWARE PRODUCT (including any portions thereof) be used for developing programs by anyone other than you. Only you as the licensed end user have the right to use the libraries, redistributables, or other files of the SOFTWARE PRODUCT (or any portions thereof) for developing programs created with the SOFTWARE PRODUCT. In particular, you may not share copies of the Redistributables with other co-developers.
+
+        Termination
+
+        Without prejudice to any other rights or remedies, Elmro will terminate this LICENSE upon your failure to comply with all the terms and conditions of this LICENSE. In such event, you must destroy all copies of the SOFTWARE PRODUCT and all of its component parts including any related documentation, and must remove ANY and ALL use of such technology with the next generally available release from any applications using technology contained in the SOFTWARE PRODUCT developed by you, whether in native, altered or compiled state.
+
+        Time Limitation
+
+        There is no time limitation on using the SOFTWARE PRODUCT as long as you don't violate this license agreement.
+
+    UPGRADES
+
+    If the SOFTWARE PRODUCT is labeled as an upgrade, you must be properly licensed to use the SOFTWARE PRODUCT identified by Elmro as being eligible for the upgrade in order to use the SOFTWARE PRODUCT. A SOFTWARE PRODUCT labeled as an upgrade replaces and/or supplements the SOFTWARE PRODUCT that formed the basis for your eligibility for the upgrade, and together constitute a single SOFTWARE PRODUCT. You may use the resulting upgraded SOFTWARE PRODUCT only in accordance with all the terms of this LICENSE.
+
+    COPYRIGHT
+
+    All title and copyrights in and to the SOFTWARE PRODUCT (including but not limited to any images, demos, source code, intermediate files, packages, photographs, animations, video, audio, music, text, and "applets" incorporated into the SOFTWARE PRODUCT), the accompanying printed materials, and any copies of the SOFTWARE PRODUCT are owned by Elmro or its subsidiaries. The SOFTWARE PRODUCT is protected by copyright laws and international treaty provisions. Therefore, you must treat the SOFTWARE PRODUCT like any other copyrighted material except that you may install the SOFTWARE PRODUCT for use by you, a single developer. You may not copy any printed materials accompanying the SOFTWARE PRODUCT.
+
+    GENERAL PROVISIONS
+
+    This LICENSE may only be modified in writing signed by you and an authorized officer of Elmro. If any provision of this LICENSE is found void or unenforceable, the remainder will remain valid and enforceable according to its terms.
+
+    MISCELLANEOUS
+
+    You agree and ascend to the adherence to all applicable international treaties regarding copyright and intellectual property rights which shall also apply. In addition, you agree that any local law(s) to the benefit and protection of Elmro ownership of, and interest in, its intellectual property and right of recovery for damages thereto will also apply.
+
+    NO WARRANTIES
+
+    STANDBYSOFT EXPRESSLY DISCLAIMS ANY WARRANTY FOR THE SOFTWARE PRODUCT. THE PRODUCT AND ANY RELATED DOCUMENTATION IS PROVIDED "AS IS" WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING, WITHOUT LIMITATION, THE IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, OR NONINFRINGEMENT. THE ENTIRE RISK ARISING OUT OF USE OR PERFORMANCE OF THE PRODUCT REMAINS WITH YOU.
+
+    LIMITATION OF LIABILITY
+
+    TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, IN NO EVENT SHALL STANDBYSOFT OR ITS SUPPLIERS BE LIABLE FOR ANY SPECIAL, INCIDENTAL, INDIRECT, OR CONSEQUENTIAL DAMAGES WHATSOEVER (INCLUDING, WITHOUT LIMITATION, DAMAGES FOR LOSS OF BUSINESS PROFITS, BUSINESS INTERRUPTION, LOSS OF BUSINESS INFORMATION, ANY OTHER PECUNIARY LOSS, ATTORNEY FEES AND COURT COSTS) ARISING OUT OF THE USE OF OR INABILITY TO USE THE SOFTWARE PRODUCT OR THE PROVISION OF OR FAILURE TO PROVIDE SUPPORT SERVICES, EVEN IF STANDBYSOFT HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.

@@ -1,0 +1,13 @@
+[Desktop Entry]
+Version=1.0
+Encoding=UTF-8
+Terminal=false
+Icon=rationalplan-single
+Type=Application
+Categories=Application;Office;ProjectManagement;
+Exec=rationalplan-single %F
+MimeType=application/x-rationalplan-single;
+Name=RationalPlan Single
+GenericName=Single Project Management Software
+Comment=Use the Single Project version to handle independent projects by viewing WBS and Gantt charts, allocate resources and estimate costs
+Keywords=Project Management Software;Project Management Tool;Project Management Application;Task Management;Project Management;Project Planning Software;Task Scheduling;Task Schedule;Gantt Chart;Critical Path;Work Breakdown Structure;Milestones;
