@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "de/power/genus/genus.md",
-                "mode": "preview",
+                "file": "de/amba_axi/request_attribute.md",
+                "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "genus"
+              "title": "request_attribute"
             }
           }
         ]
@@ -177,11 +177,6 @@
   "active": "a72fe0ae231bbd1b",
   "lastOpenFiles": [
     "de/power/genus/include/power_flow.svg",
-    "de/power/genus/genus.md",
-    "de/ram/include/ram.svg",
-    "de/power/sdpd/sdpd.md",
-    "de/power/sdpd/power.md",
-    "de/amba_axi/request_attribute.md",
     "sheet/ref/prevent_mite.pdf",
     "sheet/ref",
     "rationalplan/rationalplan.md",
@@ -197,6 +192,7 @@
     "rationalplan/include/Pasted image 20250903144303.png",
     "Pasted image 20250903144219.png",
     "sheet/sheet.md",
+    "de/amba_axi/request_attribute.md",
     "ticktick.md",
     "Untitled.md",
     "Untitled 3.md",
@@ -208,6 +204,7 @@
     "language/ipa/include/ipa.svg",
     "language/book/pdf_downlaod.md",
     "de/amba_chi/Untitled.md",
+    "de/power/genus/genus.md",
     "de/design_spec/lint_rule.md",
     "de/design_spec/rule.md",
     "de/design_spec/verilog.md",
@@ -217,9 +214,13 @@
     "de/verification_spec/verification_spec.md",
     "de/power/genus/include/Pasted image 20250822171824.png",
     "de/power/genus/include/Pasted image 20250822172530.png",
+    "de/power/genus/include/Pasted image 20250822180319.png",
+    "de/power/genus/include/Pasted image 20250822172208.png",
     "de/lut.md",
     "de/power/gck/gck.md",
     "Pasted image 20250822152302.png.md",
-    "de/arithmetic/csa/csa.md"
+    "de/arithmetic/csa/csa.md",
+    "de/ppa/upf.md",
+    "de/ppa/timing.md"
   ]
 }
