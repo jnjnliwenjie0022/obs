@@ -1,6 +1,7 @@
 - SDF (Standard Delay Format): has delay information for every instance, wire and register 
 - TCF (Toggle Count Format): has switching information for input, output and wire
 	- ref: [[How to analyze annotation report of the report_sdb_annotation command in Genus_Joules.pdf]]
+- 切記：不論是哪個方法，TCF都要先出現，因爲Netlist會有N次iteration的緣故，TCF如果要做Renaming，需要跟著Nestlist一起iteration
 - RTL-level power Report
 	- 1st: RTL simulation generate
 		- TCF
@@ -9,17 +10,19 @@
 		- TCF from RTL-level simulation
 		- Netlist
 		- Techlib: 6T, SVT, **TT, Normal Volt, 25c**
+		- write_tcf -computed
 		- 不需要SDF
 			- ref: https://www.youtube.com/watch?v=Iz1pTSgo8HY
 			- SDF也有會有mapping的問題，通常SDF是在Post-Pre Layout才會extract
-- RTL-level power for  Report
+- RTL-level simulation with TCF renaming power Report
 	- 1st: RTL simulation generate
 		- TCF
 	- 2nd: Synthesis tool with power report for RTL-level power need: 
 		- SDC
-		- TCF from RTL-level simulation
+		- TCF from RTL-level simulation（需要處理TCF Renaming）
 		- Netlist
 		- Techlib: 6T, SVT, **TT, Normal Volt, 25c**
+		- write_tcf -computed
 		- 不需要SDF
 			- ref: https://www.youtube.com/watch?v=Iz1pTSgo8HY
 			- SDF也有會有mapping的問題，通常SDF是在Post-Pre Layout才會extract
@@ -27,9 +30,11 @@
 	- Gate simulation generate: 
 		- TCF
 	- Synthesis tool with power report for Gate-level power need: 
+		- SDC??
 		- TCF from Gate-level simulation
 		- Netlist
 		- Techlib: 6T, SVT, **TT, Normal Volt, 25c**
+		- write_tcf -computed
 		- 不需要SDF
 			- ref: https://www.youtube.com/watch?v=Iz1pTSgo8HY
 			- SDF也有會有mapping的問題，通常SDF是在Post-Pre Layout才會extract
@@ -40,3 +45,4 @@
 - ![[Pasted image 20250822172530.png]]
 - 結論：有沒有下write_tcf -computed, 只是report的方式不同而已，在Genus的Power中，都將Unasserted的部分推估成100%，只是寫出來的Annoation有沒有回報而已，Power Consumption結果完全一樣
 - ![[Pasted image 20250822171824.png]]
+- 
