@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "de/amba_axi/request_attribute.md",
+                "file": "de/power/genus/genus.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "request_attribute"
+              "title": "genus"
             }
           }
         ]
@@ -176,6 +176,9 @@
   },
   "active": "a72fe0ae231bbd1b",
   "lastOpenFiles": [
+    "de/power/sdpd/sdpd.md",
+    "de/power/sdpd/power.md",
+    "de/amba_axi/request_attribute.md",
     "sheet/ref/prevent_mite.pdf",
     "sheet/ref",
     "rationalplan/rationalplan.md",
@@ -187,12 +190,10 @@
     "rationalplan/ref/rationplan/usr/share/rationalplan-single/lib/license/rationalplanSingle.license",
     "rationalplan/ref/rationplan/usr/share/rationalplan-single/lib/license/rationalplanMulti.license",
     "rationalplan/ref/rationplan/usr/share/rationalplan-single/lib/license/quaqua.html",
-    "rationalplan/ref/rationplan/usr/share/rationalplan-single/lib/license/poi.licence",
     "rationalplan/ref/rationplan/usr/share/pixmaps/rationalplan-single.png",
     "rationalplan/include/Pasted image 20250903144303.png",
     "Pasted image 20250903144219.png",
     "sheet/sheet.md",
-    "de/amba_axi/request_attribute.md",
     "ticktick.md",
     "Untitled.md",
     "Untitled 3.md",
@@ -220,7 +221,6 @@
     "de/power/gck/gck.md",
     "Pasted image 20250822152302.png.md",
     "de/arithmetic/csa/csa.md",
-    "de/ppa/upf.md",
-    "de/ppa/timing.md"
+    "de/ppa/upf.md"
   ]
 }
