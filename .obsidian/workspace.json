@@ -13,16 +13,29 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "de/amba_axi/request_attribute.md",
+                "file": "language/ipa/ipa.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "request_attribute"
+              "title": "ipa"
+            }
+          },
+          {
+            "id": "fcf252967eb7161f",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "language/ipa/include/ipa.svg"
+              },
+              "icon": "lucide-image",
+              "title": "ipa"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -174,8 +187,10 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "a72fe0ae231bbd1b",
+  "active": "fcf252967eb7161f",
   "lastOpenFiles": [
+    "language/ipa/ipa.md",
+    "de/amba_axi/request_attribute.md",
     "de/power/genus/include/power_flow.svg",
     "sheet/ref/prevent_mite.pdf",
     "sheet/ref",
@@ -192,13 +207,11 @@
     "rationalplan/include/Pasted image 20250903144303.png",
     "Pasted image 20250903144219.png",
     "sheet/sheet.md",
-    "de/amba_axi/request_attribute.md",
     "ticktick.md",
     "Untitled.md",
     "Untitled 3.md",
     "Untitled 1.md",
     "Untitled 2.md",
-    "language/ipa/ipa.md",
     "de/amba_axi/axi.md",
     "de/cache/cache_policy.md",
     "language/ipa/include/ipa.svg",
@@ -215,7 +228,6 @@
     "de/power/genus/include/Pasted image 20250822171824.png",
     "de/power/genus/include/Pasted image 20250822172530.png",
     "de/power/genus/include/Pasted image 20250822180319.png",
-    "de/power/genus/include/Pasted image 20250822172208.png",
     "de/lut.md",
     "de/power/gck/gck.md",
     "Pasted image 20250822152302.png.md",
