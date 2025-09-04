@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "de/power/genus/genus.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false,
                 "backlinks": false
               },
@@ -176,9 +176,9 @@
   },
   "active": "a72fe0ae231bbd1b",
   "lastOpenFiles": [
-    "de/power/genus/include/power.svg",
-    "de/ram/include/ram.svg",
+    "de/power/genus/include/power_flow.svg",
     "de/power/genus/genus.md",
+    "de/ram/include/ram.svg",
     "de/power/sdpd/sdpd.md",
     "de/power/sdpd/power.md",
     "de/amba_axi/request_attribute.md",
@@ -217,7 +217,6 @@
     "de/verification_spec/verification_spec.md",
     "de/power/genus/include/Pasted image 20250822171824.png",
     "de/power/genus/include/Pasted image 20250822172530.png",
-    "de/power/genus/include/Pasted image 20250822180319.png",
     "de/lut.md",
     "de/power/gck/gck.md",
     "Pasted image 20250822152302.png.md",
