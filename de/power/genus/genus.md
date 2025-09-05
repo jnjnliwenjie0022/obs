@@ -41,9 +41,11 @@
 # annotation_report
 
 - ref: [[Task-5253.pdf]]
+- ![[Pasted image 20250905132700.png]]
 - ![[Pasted image 20250822180319.png]]
 - ![[Pasted image 20250822172530.png]]
-- 結論1: 有沒有下write_tcf -computed, 只是report的方式不同而已，在Genus的Power中，都將Unasserted的部分推估成100%，只是寫出來的Annoation有沒有回報而已，Power Consumption結果完全一樣
+- 結論1: 
+	- 有沒有下write_tcf -computed, 只是report的方式不同而已，在Genus的Power中，都將Unasserted的部分推估成100%，只是寫出來的Annoation有沒有回報而已，Power Consumption結果完全一樣
 - 結論2: 
 	- Input / Memory / Flop 在 unasserted 下，defualt toggle rate 是 2%
 	- Driver nets / RTL Driver nets / Outputs 在 unasserted下，會 propagate 計算
