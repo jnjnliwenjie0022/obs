@@ -4,25 +4,38 @@
     "type": "split",
     "children": [
       {
-        "id": "118605e3aeebb2f3",
+        "id": "62e987d2b73381da",
         "type": "tabs",
         "children": [
           {
-            "id": "208323af75ebe372",
+            "id": "a72fe0ae231bbd1b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "rationalplan/rationalplan.md",
-                "mode": "preview",
+                "file": "language/ipa/ipa.md",
+                "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "rationalplan"
+              "title": "ipa"
+            }
+          },
+          {
+            "id": "fcf252967eb7161f",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "language/ipa/include/ipa.svg"
+              },
+              "icon": "lucide-image",
+              "title": "ipa"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -174,52 +187,53 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "208323af75ebe372",
+  "active": "fcf252967eb7161f",
   "lastOpenFiles": [
-    "rationalplan/include/Pasted image 20250903144303.png",
-    "README.md",
-    "Pasted image 20250429014658.png",
-    "Pasted image 20250903144219.png",
-    "rationalplan/rationalplan.md",
     "de/power/genus/include/Pasted image 20250905132700.png",
-    "de/power/genus/genus.md",
-    "de/power/genus/ref/How to analyze annotation report of the report_sdb_annotation command in Genus_Joules.pdf",
-    "de/power/genus/ref/Task-5253.pdf",
-    "de/power/genus/include/power_flow.svg",
-    "de/power/genus/include/Pasted image 20250822172530.png",
-    "de/power/genus/include/Pasted image 20250822180319.png",
-    "de/power/genus/include/Pasted image 20250822171824.png",
-    "de/Pasted image 20240828160508.png",
-    "Pasted image 20250905130357.png",
-    "de/power/sdpd/sdpd.md",
-    "de/power/sdpd/power.md",
+    "language/ipa/ipa.md",
     "de/amba_axi/request_attribute.md",
+    "de/power/genus/include/power_flow.svg",
     "sheet/ref/prevent_mite.pdf",
     "sheet/ref",
+    "rationalplan/rationalplan.md",
     "rationalplan/ref/rationplan/usr/share/rationalplan-single/lib/license/swingx.license",
     "rationalplan/ref/rationplan/usr/share/rationalplan-single/lib/license/swing-worker.license",
     "rationalplan/ref/rationplan/usr/share/rationalplan-single/lib/license/spring.license",
     "rationalplan/ref/rationplan/usr/share/rationalplan-single/lib/license/smartgwt.license",
     "rationalplan/ref/rationplan/usr/share/rationalplan-single/lib/license/rationalplanViewer.license",
     "rationalplan/ref/rationplan/usr/share/rationalplan-single/lib/license/rationalplanSingle.license",
+    "rationalplan/ref/rationplan/usr/share/rationalplan-single/lib/license/rationalplanMulti.license",
+    "rationalplan/ref/rationplan/usr/share/rationalplan-single/lib/license/quaqua.html",
+    "rationalplan/ref/rationplan/usr/share/pixmaps/rationalplan-single.png",
+    "rationalplan/include/Pasted image 20250903144303.png",
+    "Pasted image 20250903144219.png",
     "sheet/sheet.md",
     "ticktick.md",
     "Untitled.md",
     "Untitled 3.md",
     "Untitled 1.md",
     "Untitled 2.md",
-    "language/ipa/ipa.md",
     "de/amba_axi/axi.md",
     "de/cache/cache_policy.md",
+    "language/ipa/include/ipa.svg",
     "language/book/pdf_downlaod.md",
     "de/amba_chi/Untitled.md",
+    "de/power/genus/genus.md",
     "de/design_spec/lint_rule.md",
     "de/design_spec/rule.md",
     "de/design_spec/verilog.md",
     "workflow/git/git.md",
+    "de/design_spec/include_lint_rule/unused_wire.svg",
+    "de/verification_spec/include/verification_spec.svg",
     "de/verification_spec/verification_spec.md",
+    "de/power/genus/include/Pasted image 20250822171824.png",
+    "de/power/genus/include/Pasted image 20250822172530.png",
+    "de/power/genus/include/Pasted image 20250822180319.png",
     "de/lut.md",
     "de/power/gck/gck.md",
-    "Pasted image 20250822152302.png.md"
+    "Pasted image 20250822152302.png.md",
+    "de/arithmetic/csa/csa.md",
+    "de/ppa/upf.md",
+    "de/ppa/timing.md"
   ]
 }
