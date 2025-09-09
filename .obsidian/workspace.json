@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "de/amba_axi/request_attribute.md",
-                "mode": "preview",
+                "file": "de/cdc/clk_gen/clk_gen.md",
+                "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "request_attribute"
+              "title": "clk_gen"
             }
           }
         ]
@@ -174,8 +174,14 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "208323af75ebe372",
+  "active": "35a470a2c390e07e",
   "lastOpenFiles": [
+    "de/cdc/clk_gen/ref/sample_kv_clk_gen.v",
+    "de/cdc/Untitled/ref/New Text Document.txt",
+    "de/cdc/clk_gen/ref",
+    "de/cdc/clk_gen",
+    "de/amba_axi/request_attribute.md",
+    "de/cdc/clk_gen/clk_gen.md",
     "rationalplan/rationalplan.md",
     "allergy/sheet/sheet.md",
     "allergy/sheet/ref/prevent_mite.pdf",
@@ -200,10 +206,6 @@
     "Pasted image 20250905130357.png",
     "de/power/sdpd/sdpd.md",
     "de/power/sdpd/power.md",
-    "de/amba_axi/request_attribute.md",
-    "sheet/ref/prevent_mite.pdf",
-    "sheet/ref",
-    "rationalplan/ref/rationplan/usr/share/rationalplan-single/lib/license/swingx.license",
     "sheet/sheet.md",
     "ticktick.md",
     "Untitled.md",
@@ -219,8 +221,6 @@
     "de/design_spec/rule.md",
     "de/design_spec/verilog.md",
     "workflow/git/git.md",
-    "de/verification_spec/verification_spec.md",
-    "de/lut.md",
-    "de/power/gck/gck.md"
+    "de/verification_spec/verification_spec.md"
   ]
 }
