@@ -8,3 +8,7 @@
 
 - 以下是STARC的DFT+GCK設計建議
 ![[RTL Design Style Guide.pdf#page=247&rect=94,149,520,413|RTL Design Style Guide, p.247|500]]
+
+# ICG
+
+- **ICG 的最大特點就是「安全無毛刺的時鐘閘控」**，優點在於 **降低功耗、工具支持完善、時序容易收斂**，是 ASIC 設計裡標準的 clock gating 做法。
