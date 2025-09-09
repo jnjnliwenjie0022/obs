@@ -29,7 +29,8 @@
 
 # FPGA
 
-- 需要instance特殊的cell
+- 需要instance特殊的cell，全局時鐘緩衝
+	- CE=0，Q=0，否則Q=I
 ```verilog
 	BUFGCE	TL_UL_CLK_MUX_INST (
 		.I	(clk_temp		),
