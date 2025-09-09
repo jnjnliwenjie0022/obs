@@ -13,4 +13,7 @@
 	assign clk_out = clk_temp;
 ```
 
-- 在simulation的時候要確保為“0”
+- 在simulation的時候要確保除了clk和reset為“0+”
+```
+
+```
