@@ -28,6 +28,7 @@
 ```
 
 # FPGA
+## BUFGCE
 
 - 需要instance特殊的cell，全局時鐘緩衝
 	- CE=0，Q=0，否則Q=I
@@ -38,3 +39,7 @@
 		.O	(clk_out		)
 	);
 ```
+
+## MMCM
+
+- ref: https://digilent.com/blog/vcos-mmcms-plls-and-cmts-clocking-resources-on-fpga-boards/
