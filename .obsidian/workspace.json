@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "de/power/gck/gck.md",
+                "file": "de/cdc/clk_gen/clk_gen.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "gck"
+              "title": "clk_gen"
             }
           }
         ]
@@ -176,10 +176,10 @@
   },
   "active": "208323af75ebe372",
   "lastOpenFiles": [
+    "de/power/gck/gck.md",
     "de/power/sdpd/sdpd.md",
     "allergy/book_帶孩子遠離過敏/conclude.md",
     "allergy/sheet/sheet.md",
-    "de/power/gck/gck.md",
     "de/design_spec/fast_design.md",
     "ToDoList.md",
     "ticktick.md",
