@@ -1,5 +1,7 @@
 # ASIC
 
+- 推薦使用Johnson Counter
+
 - 在simulation的時候要確保clk為“0”
 
 ```verilog
