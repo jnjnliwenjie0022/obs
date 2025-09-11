@@ -176,8 +176,9 @@
   },
   "active": "35a470a2c390e07e",
   "lastOpenFiles": [
-    "de/cdc/clk_gen/ref/kv_clk_gen.v",
+    "de/cdc/clk_gen/ref/nds_ram_model_bwe_clk_en.v",
     "de/cdc/clk_gen/ref/New Text Document.txt",
+    "de/cdc/clk_gen/ref/kv_clk_gen.v",
     "de/power/gck/gck.md",
     "de/cdc/clk_gen/clk_gen.md",
     "de/power/sdpd/sdpd.md",
@@ -203,7 +204,6 @@
     "allergy/sheet/ref",
     "allergy/sheet",
     "allergy/book_帶孩子遠離過敏",
-    "allergy",
     "rationalplan/include/Pasted image 20250903144303.png",
     "Pasted image 20250903144219.png",
     "de/power/genus/include/Pasted image 20250905132700.png",
