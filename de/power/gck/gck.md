@@ -11,5 +11,9 @@
 
 # ICG
 
+- 無glitch
+- ARP layout很近
+- Lower power
 - **ICG 的最大特點就是「安全無毛刺的時鐘閘控」**，優點在於 **降低功耗、工具支持完善、時序容易收斂**，是 ASIC 設計裡標準的 clock gating 做法。
 - 個人覺得優勢是APR的layout可以很近, 排除因爲APR帶來的所有風險
+-
