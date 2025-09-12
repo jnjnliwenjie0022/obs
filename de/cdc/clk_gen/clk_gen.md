@@ -1,7 +1,11 @@
+# notice
+
+- 注意事項:
+	- Duty Cycle 需要 50%
+	- Glitch Free
 # ASIC
 
 - 推薦使用Johnson Counter
-
 - 在simulation的時候要確保clk為“0”
 
 ```verilog

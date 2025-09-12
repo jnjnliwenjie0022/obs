@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "de/power/gck/gck.md",
+                "file": "de/cdc/clk_gen/clk_gen.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "gck"
+              "title": "clk_gen"
             }
           }
         ]
@@ -143,12 +143,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "de/cdc/clk_gen/clk_gen.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of clk_gen"
             }
           }
         ],
@@ -176,8 +177,8 @@
   },
   "active": "208323af75ebe372",
   "lastOpenFiles": [
-    "de/cdc/clk_gen/clk_gen.md",
     "de/power/gck/gck.md",
+    "de/cdc/clk_gen/clk_gen.md",
     "de/cdc/clk_gen/ref/nds_ram_model_bwe_clk_en.v",
     "de/cdc/clk_gen/ref/New Text Document.txt",
     "de/cdc/clk_gen/ref/kv_clk_gen.v",
