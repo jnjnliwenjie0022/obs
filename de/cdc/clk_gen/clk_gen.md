@@ -5,7 +5,8 @@
 	- Glitch Free
 # ASIC
 
-- 推薦使用Johnson Counter
+- 推薦使用Johnson Counte
+	- ref: https://www.chipverify.com/verilog/verilog-johnson-counter
 - 在simulation的時候要確保clk為“0”
 
 ```verilog
