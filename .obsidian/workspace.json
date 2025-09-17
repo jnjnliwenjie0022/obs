@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "de/design_spec/lint_rule.md",
-                "mode": "preview",
+                "file": "de/apr/apr.md",
+                "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "lint_rule"
+              "title": "apr"
             }
           }
         ]
@@ -143,13 +143,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "de/design_spec/lint_rule.md",
+                "file": "de/apr/apr.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of lint_rule"
+              "title": "Outline of apr"
             }
           }
         ],
@@ -177,8 +177,8 @@
   },
   "active": "208323af75ebe372",
   "lastOpenFiles": [
-    "de/design_spec/rule.md",
     "de/design_spec/lint_rule.md",
+    "de/design_spec/rule.md",
     "de/design_spec/fctrl.md",
     "de/design_spec/fast_design.md",
     "de/design_spec/ref/coding_guidelines.pdf",
