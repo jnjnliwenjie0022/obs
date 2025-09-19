@@ -44,7 +44,7 @@
               "type": "markdown",
               "state": {
                 "file": "de/apr/m2p_congestion.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false,
                 "backlinks": false
               },
@@ -208,6 +208,7 @@
   },
   "active": "6690726a0baf3d4a",
   "lastOpenFiles": [
+    "Pasted image 20250919143906.png",
     "de/power/sdpd/sdpd.md",
     "de/power/sdpd/power.md",
     "de/power/sdpd/ref/liberty07_03.pdf",
