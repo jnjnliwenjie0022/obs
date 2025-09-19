@@ -43,13 +43,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "de/apr/apr.md",
+                "file": "de/power/sdpd/sdpd.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "apr"
+              "title": "sdpd"
             }
           }
         ],
@@ -174,13 +174,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "de/apr/apr.md",
+                "file": "de/power/sdpd/sdpd.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of apr"
+              "title": "Outline of sdpd"
             }
           }
         ],
@@ -208,12 +208,14 @@
   },
   "active": "6690726a0baf3d4a",
   "lastOpenFiles": [
+    "Pasted image 20250919171901.png",
+    "Pasted image 20250919171834.png",
+    "de/apr/apr.md",
+    "de/apr/m2p_congestion.md",
     "de/apr/include/Pasted image 20250919143906.png",
     "de/apr/include/Pasted image 20250919153321 1.png",
     "de/apr/include/Pasted image 20250919153454.png",
-    "de/apr/apr.md",
     "Pasted image 20250919153321.png",
-    "de/apr/m2p_congestion.md",
     "de/apr/include",
     "de/power/sdpd/sdpd.md",
     "de/power/sdpd/power.md",
@@ -248,7 +250,6 @@
     "ToDoList.md",
     "ticktick.md",
     "README.md",
-    "Pasted image 20250429014642.png",
     "de/amba_axi/request_attribute.md",
     "rationalplan/rationalplan.md",
     "de/power/genus/genus.md",
