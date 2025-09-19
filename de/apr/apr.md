@@ -1,12 +1,17 @@
+![[Pasted image 20250919143906.png|500]]
+
+![[Pasted image 20250919153454.png|500]]
 - tcbn28hpcplusbwp30p140ssg0p81vm40c
 	- 28hpcplus
 	- bwp: cell architecture code
-	- 30P: 
+	- 9t: 沒寫就是標準的9t
+	- 30: gate length
+	- P140: horizontal pin grid
+	- ssg: ss表示nmos和pmos，g表示全域最糟（包含溫度和電壓）
+	- 0p81v: 0.81 Volt
+	- m40c: -40c
 - temn28hpcphssrammacros
 
-![[Pasted image 20250919143906.png]]
-
-![[Pasted image 20250919153454.png]]
 # wire_rc
 ref: https://www.deepchip.com/items/0582-01.html
 
