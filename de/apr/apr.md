@@ -16,7 +16,8 @@
 - ref: https://semiwiki.com/semiconductor-manufacturers/tsmc/300552-vlsi-technology-forum-short-course-logic-devices/
 
 # wire_rc
-ref: https://www.deepchip.com/items/0582-01.html
+
+- ref: https://www.deepchip.com/items/0582-01.html
 
 |                                  | N90  | N65 | N45 | N28  | N20   | N16 | N10 | N7     |
 | -------------------------------- | ---- | --- | --- | ---- | ----- | --- | --- | ------ |
@@ -32,3 +33,12 @@ Compare Max_Wire and Design_Wire
 
 ![[Pasted image 20250919153321.png|500]]
 
+# power
+
+![[Pasted image 20250919180034.png|500]]
+
+# apr_uncertainty
+
+- Placement uncertainty: 150ps
+- CTS uncertainty: Placement uncertainty * (2/3)
+- Detail route sign-off: CTS uncertainty + 10ps
