@@ -141,6 +141,7 @@ cell (AN2D1BWP30P140) {
 	- input: 不會有related_pin
 	- output: 一定有related_pin
 - 不論是input/output: rise_power/fall_power是根據pin而言，而不是related_pin
+
 - index_1：input transition
 - index_2：output transition
 

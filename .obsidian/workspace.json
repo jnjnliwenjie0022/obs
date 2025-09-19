@@ -36,9 +36,25 @@
               "icon": "lucide-file",
               "title": "sdpd"
             }
+          },
+          {
+            "id": "6690726a0baf3d4a",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "de/power/sdpd/ref/liberty07_03.pdf",
+                "page": 1,
+                "left": -9,
+                "top": 796,
+                "zoom": 1.7732843137254901
+              },
+              "icon": "lucide-file-text",
+              "title": "liberty07_03"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -159,13 +175,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "de/power/sdpd/sdpd.md",
+                "file": "de/power/sdpd/ref/liberty07_03.pdf",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of sdpd"
+              "title": "Outline of liberty07_03"
             }
           }
         ],
@@ -191,10 +207,11 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "85de735abb17fd00",
+  "active": "6690726a0baf3d4a",
   "lastOpenFiles": [
-    "de/power/sdpd/power.md",
     "de/power/sdpd/sdpd.md",
+    "de/power/sdpd/ref/liberty07_03.pdf",
+    "de/power/sdpd/power.md",
     "de/apr/m2p_congestion.md",
     "de/apr/wire_rc.md",
     "de/design_spec/rule.md",
@@ -230,14 +247,12 @@
     "Pasted image 20250429014642.png",
     "Pasted image 20250429014658.png",
     "de/cdc/clk_gen/ref/sample_kv_clk_gen.v",
-    "de/cdc/Untitled/ref/New Text Document.txt",
     "de/amba_axi/request_attribute.md",
     "rationalplan/rationalplan.md",
     "rationalplan/include/Pasted image 20250903144303.png",
     "Pasted image 20250903144219.png",
     "de/power/genus/include/Pasted image 20250905132700.png",
     "de/power/genus/genus.md",
-    "sheet/sheet.md",
-    "Untitled.md"
+    "sheet/sheet.md"
   ]
 }
