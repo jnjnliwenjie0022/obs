@@ -22,4 +22,7 @@ ref: https://www.deepchip.com/items/0582-01.html
 
 # m2p_congestion
 
-![[Pasted image 20250919153321.png]]
+Max_Wire on one side assumed floorplan is square and only use metal2 layer: ((KGate_Count \* Gate_Factor) \^ 1/2) \/ M2P
+Design_Wire on one side and only use metal2 layer: Total_Wire / (1 or 2 or 3 or 4)
+
+![[Pasted image 20250919153321.png|500]]
