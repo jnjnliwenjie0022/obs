@@ -11,6 +11,9 @@
 	- 0p81v: 0.81 Volt
 	- m40c: -40c
 - temn28hpcphssrammacros
+# mos
+
+- ref: https://semiwiki.com/semiconductor-manufacturers/tsmc/300552-vlsi-technology-forum-short-course-logic-devices/
 
 # wire_rc
 ref: https://www.deepchip.com/items/0582-01.html
@@ -28,3 +31,4 @@ Design_Wire only use metal2 layer: Total_Wire
 Compare Max_Wire and Design_Wire
 
 ![[Pasted image 20250919153321.png|500]]
+
