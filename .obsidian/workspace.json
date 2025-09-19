@@ -43,13 +43,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "de/power/sdpd/sdpd.md",
-                "mode": "source",
+                "file": "de/apr/apr.md",
+                "mode": "preview",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "sdpd"
+              "title": "apr"
             }
           }
         ],
@@ -174,13 +174,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "de/power/sdpd/sdpd.md",
+                "file": "de/apr/apr.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of sdpd"
+              "title": "Outline of apr"
             }
           }
         ],
@@ -208,6 +208,7 @@
   },
   "active": "6690726a0baf3d4a",
   "lastOpenFiles": [
+    "de/power/sdpd/sdpd.md",
     "Pasted image 20250919171901.png",
     "Pasted image 20250919171834.png",
     "de/apr/apr.md",
@@ -217,7 +218,6 @@
     "de/apr/include/Pasted image 20250919153454.png",
     "Pasted image 20250919153321.png",
     "de/apr/include",
-    "de/power/sdpd/sdpd.md",
     "de/power/sdpd/power.md",
     "de/power/sdpd/ref/liberty07_03.pdf",
     "de/design_spec/rule.md",
@@ -240,7 +240,6 @@
     "de/Pasted image 20240606125937.png",
     "de/cdc/clk_gen/clk_gen.md",
     "de/verification_spec/verification_spec.md",
-    "de/verification_spec/include/verification_spec.svg",
     "de/power/gck/gck.md",
     "de/cdc/clk_gen/ref/nds_ram_model_bwe_clk_en.v",
     "de/cdc/clk_gen/ref/New Text Document.txt",

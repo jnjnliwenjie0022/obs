@@ -142,8 +142,8 @@ cell (AN2D1BWP30P140) {
 	- output: 一定有related_pin
 - 不論是input/output: rise_power/fall_power是根據pin而言，而不是related_pin
 	- ![[liberty07_03.pdf#page=192&rect=57,228,353,393|liberty07_03, p.192|500]]
-	- ![[Pasted image 20250919171834.png]]
-	- ![[Pasted image 20250919171901.png]]
+	- ![[Pasted image 20250919171834.png|500]]
+	- ![[Pasted image 20250919171901.png|500]]
 - index_1：input transition
 - index_2：output transition
 
