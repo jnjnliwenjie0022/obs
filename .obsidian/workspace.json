@@ -13,16 +13,32 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "de/design_spec/rule.md",
+                "file": "de/apr/wire_rc.md",
                 "mode": "preview",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "rule"
+              "title": "wire_rc"
+            }
+          },
+          {
+            "id": "85de735abb17fd00",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "de/power/sdpd/sdpd.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "sdpd"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -54,7 +70,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#5/6",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -143,13 +159,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "de/design_spec/rule.md",
+                "file": "de/power/sdpd/sdpd.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of rule"
+              "title": "Outline of sdpd"
             }
           }
         ],
@@ -175,13 +191,16 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "208323af75ebe372",
+  "active": "85de735abb17fd00",
   "lastOpenFiles": [
+    "de/power/sdpd/power.md",
+    "de/power/sdpd/sdpd.md",
+    "de/apr/m2p_congestion.md",
+    "de/apr/wire_rc.md",
+    "de/design_spec/rule.md",
     "de/design_spec/verilog.md",
     "dv/uvmc/ref/module_uvm_connect_session3_converters_aerickson.pdf",
-    "de/apr/apr.md",
     "de/design_spec/lint_rule.md",
-    "de/design_spec/rule.md",
     "de/design_spec/fctrl.md",
     "de/design_spec/fast_design.md",
     "de/design_spec/ref/coding_guidelines.pdf",
@@ -199,8 +218,6 @@
     "de/cdc/clk_gen/clk_gen.md",
     "de/verification_spec/verification_spec.md",
     "de/verification_spec/include/verification_spec.svg",
-    "de/power/sdpd/sdpd.md",
-    "de/power/sdpd/power.md",
     "de/power/gck/gck.md",
     "de/cdc/clk_gen/ref/nds_ram_model_bwe_clk_en.v",
     "de/cdc/clk_gen/ref/New Text Document.txt",
@@ -221,7 +238,6 @@
     "de/power/genus/include/Pasted image 20250905132700.png",
     "de/power/genus/genus.md",
     "sheet/sheet.md",
-    "Untitled.md",
-    "Untitled 3.md"
+    "Untitled.md"
   ]
 }
