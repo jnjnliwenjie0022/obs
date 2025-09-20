@@ -11,4 +11,7 @@
 
 # ICG
 
-- **ICG 的最大特點就是「安全無毛刺的時鐘閘控」**，優點在於 **降低功耗、工具支持完善、時序容易收斂**，是 ASIC 設計裡標準的 clock gating 做法。
+- 特色
+	- 無glitch
+	- ARP layout 很近
+	- Lower power
