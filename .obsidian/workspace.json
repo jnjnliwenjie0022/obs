@@ -13,32 +13,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "de/power/genus/genus.md",
-                "mode": "preview",
+                "file": "de/apr/apr.md",
+                "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "genus"
-            }
-          },
-          {
-            "id": "5862c2d76df80a62",
-            "type": "leaf",
-            "state": {
-              "type": "split-diff-view",
-              "state": {
-                "aFile": ".obsidian/appearance.json",
-                "bFile": ".obsidian/appearance.json",
-                "aRef": "HEAD",
-                "bRef": ""
-              },
-              "icon": "diff",
-              "title": "Diff: appearance.json"
+              "title": "apr"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -159,12 +143,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "de/apr/apr.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of apr"
             }
           },
           {
@@ -178,7 +163,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -199,8 +184,11 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "0b8a8ade04f18b08",
+  "active": "208323af75ebe372",
   "lastOpenFiles": [
+    "de/power/sdpd/sdpd.md",
+    "de/apr/apr.md",
+    "de/power/gck/gck.md",
     "de/power/genus/genus.md",
     "conflict-files-obsidian-git.md",
     "de/power/sdpd/ref/liberty07_03.pdf",
@@ -210,14 +198,12 @@
     "de/apr/include/Pasted image 20250919153321 1.png",
     "de/apr/include/Pasted image 20250919143906.png",
     "de/apr/include",
-    "de/apr/apr.md",
     "de/apr",
     "Pasted image 20250919180034.png",
     "Pasted image 20250919171901.png",
     "Pasted image 20250919171834.png",
     "Pasted image 20250919153321.png",
     "de/power/sdpd/power.md",
-    "de/power/sdpd/sdpd.md",
     "language/ipa/ipa.md",
     "language/ipa/include/ipa.svg",
     "de/cdc/clk_gen/ref/sample_kv_clk_gen.v",
@@ -245,7 +231,6 @@
     "de/amba_chi/Untitled.md",
     "de/design_spec/lint_rule.md",
     "de/design_spec/rule.md",
-    "de/design_spec/verilog.md",
-    "workflow/git/git.md"
+    "de/design_spec/verilog.md"
   ]
 }
