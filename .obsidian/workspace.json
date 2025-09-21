@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "de/apr/apr.md",
+                "file": "language/ipa/ipa.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "apr"
+              "title": "ipa"
             }
           }
         ]
@@ -186,8 +186,8 @@
   },
   "active": "208323af75ebe372",
   "lastOpenFiles": [
-    "de/power/sdpd/sdpd.md",
     "de/apr/apr.md",
+    "de/power/sdpd/sdpd.md",
     "de/power/gck/gck.md",
     "de/power/genus/genus.md",
     "conflict-files-obsidian-git.md",
