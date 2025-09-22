@@ -44,6 +44,7 @@
 
 # apr_uncertainty
 
-- Placement uncertainty: 150ps
+- Synthesis uncertainty: Period \* 30%
+- Placement uncertainty: Synthesis uncertainty \* (1/2) EX: 150ps
 - CTS uncertainty: Placement uncertainty * (2/3)
 - Detail route sign-off: CTS uncertainty + 10ps
