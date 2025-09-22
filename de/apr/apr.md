@@ -45,13 +45,8 @@
 # apr_uncertainty
 
 
-|             | Synthesis     | Floorplan | Pre-CTS | CTS             | Post-CTS | Routing          | Post-Route       | Signoff |
-| ----------- | ------------- | --------- | ------- | --------------- | -------- | ---------------- | ---------------- | ------- |
-| uncertainty | Period \* 30% |           | 1/2     | Same as Pre-CTS | 2/3      | Same as Post-CTS | Same as Post-CTS |         |
-| information | N/A           | N/A       | N/A     | skew            | skew     |                  |                  |         |
-
-
-- Synthesis uncertainty: 
-- Placement uncertainty: Synthesis uncertainty \* (1/2) EX: 150ps
-- CTS uncertainty: Placement uncertainty * (2/3)
-- Detail route sign-off: CTS uncertainty + 10ps
+|                         | Synthesis                    | Floorplan                        | Pre-CTS            | CTS                            | Post-CTS           | Routing                         | Post-Route                      | Signoff |
+| ----------------------- | ---------------------------- | -------------------------------- | ------------------ | ------------------------------ | ------------------ | ------------------------------- | ------------------------------- | ------- |
+| uncertainty             | Period \* 30%<br>(EX: 300ps) | Same as Synthesis<br>(EX: 300ps) | 1/2<br>(EX: 150ps) | Same as Pre-CTS<br>(EX: 150ps) | 2/3<br>(EX: 100ps) | Same as Post-CTS<br>(EX: 100ps) | Same as Post-CTS<br>(EX: 100ps) |         |
+| uncertainty information | skew+margin                  | skew+margin                      | skew+margin        | skew+margin                    | margin             | margin                          | margin                          |         |
+| information             | N/A                          | N/A                              | N/A                | N/A                            | skew               | skew                            | skew, RC                        |         |
