@@ -44,6 +44,12 @@
 
 # apr_uncertainty
 
+
+|             | Synthesis | Placement |     |
+| ----------- | --------- | --------- | --- |
+| uncertainty |           |           |     |
+
+
 - Synthesis uncertainty: Period \* 30%
 - Placement uncertainty: Synthesis uncertainty \* (1/2) EX: 150ps
 - CTS uncertainty: Placement uncertainty * (2/3)
