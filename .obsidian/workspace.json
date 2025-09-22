@@ -125,8 +125,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 294.5,
-    "collapsed": true
+    "width": 294.5
   },
   "right": {
     "id": "baf9c43aba40b294",
@@ -222,8 +221,10 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "cfc44806f6621d73",
+  "active": "35a470a2c390e07e",
   "lastOpenFiles": [
+    "de/apr/ref/TN28CLDR002_2_1.pdf",
+    "de/apr/ref",
     "de/apr/include/Pasted image 20250919180034.png",
     "de/apr/include/Pasted image 20250919171901.png",
     "de/apr/include/Pasted image 20250919171834.png",
@@ -234,7 +235,6 @@
     "de/Pasted image 20240606125937.png",
     "de/Pasted image 20240606151606.png",
     "de/Pasted image 20240606160337.png",
-    "de/Pasted image 20240828160508.png",
     "de/apr/apr.md",
     "CV.md",
     "financial/tamp",
@@ -261,7 +261,6 @@
     "de/verification_spec/verification_spec.md",
     "de/power/gck/gck.md",
     "de/cdc/clk_gen/ref/nds_ram_model_bwe_clk_en.v",
-    "de/cdc/clk_gen/ref/New Text Document.txt",
     "allergy/book_帶孩子遠離過敏/conclude.md",
     "allergy/sheet/sheet.md",
     "ToDoList.md",
