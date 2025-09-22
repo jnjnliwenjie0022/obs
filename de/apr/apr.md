@@ -26,6 +26,11 @@
 
 # m2p_congestion
 
+- ref: https://ivlsi.com/pitch-spacing-offset-vlsi-physical-design/
+	- pitch: The distance between the center to center of the metal is called as pitch. In the below picture, B is pitch.
+	- spacing: Spacing is the distance between the edge to edge metal layers. The distance A is spacing in below picture.
+	- offset: Offset is the distance between the core and first metal layer. In below picture, C is offset.
+
 - Max_Wire on one side assumed floorplan is square and only use metal2 layer: ((KGate_Count \* Gate_Factor) \^ 1/2) \/ M2P
 - Max_Wire = Max_Wire for one side * (1 or 2 or 3 or 4)
 - Design_Wire only use metal2 layer: Total_Wire
