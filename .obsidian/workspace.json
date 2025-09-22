@@ -58,13 +58,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "de/apr/apr.md",
+                "file": "de/ahb2apb/Untitled.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "apr"
+              "title": "Untitled"
             }
           }
         ],
@@ -189,13 +189,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "de/apr/apr.md",
+                "file": "de/ahb2apb/Untitled.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of apr"
+              "title": "Outline of Untitled"
             }
           }
         ],
@@ -221,8 +221,13 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "35a470a2c390e07e",
+  "active": "cfc44806f6621d73",
   "lastOpenFiles": [
+    "de/_unorganized/cosim.md",
+    "de/ahb2apb/Untitled.md",
+    "de/ahb2apb/include",
+    "de/apr/apr.md",
+    "de/ahb2apb",
     "de/apr/ref/DB_TCBN28HPCPLUSBWP30P140_SSG0P81VM40C.pdf",
     "de/apr/ref/TN28CLDR002_2_1.pdf",
     "de/apr/ref",
@@ -236,7 +241,6 @@
     "de/Pasted image 20240606125937.png",
     "de/Pasted image 20240606151606.png",
     "de/Pasted image 20240606160337.png",
-    "de/apr/apr.md",
     "CV.md",
     "financial/tamp",
     "de/power/sdpd/sdpd.md",
@@ -253,10 +257,7 @@
     "de/design_spec/ref/coding_guidelines.pdf",
     "de/design_spec/ref/Andes_naming_rule.md",
     "de/design_spec/ref/Andes_design_guide.md",
-    "de/design_spec/ref/microarchitecture of network-on-chip routers a designer`s perspective.pdf",
-    "de/design_spec/ref/~$Link-Level Flow Control and Buffering.pptx",
     "de/Untitled.md",
-    "de/apr",
     "de/compression/compression.md",
     "de/cdc/clk_gen/clk_gen.md",
     "de/verification_spec/verification_spec.md",
@@ -267,7 +268,6 @@
     "ticktick.md",
     "README.md",
     "de/amba_axi/request_attribute.md",
-    "rationalplan/rationalplan.md",
-    "de/power/genus/genus.md"
+    "rationalplan/rationalplan.md"
   ]
 }
