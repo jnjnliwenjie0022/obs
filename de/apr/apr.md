@@ -45,12 +45,13 @@
 # apr_uncertainty
 
 
-|             | Synthesis | Placement |     |
-| ----------- | --------- | --------- | --- |
-| uncertainty |           |           |     |
+|             | Synthesis     | Floorplan | Pre-CTS | CTS             | Post-CTS | Routing          | Post-Route       | Signoff |
+| ----------- | ------------- | --------- | ------- | --------------- | -------- | ---------------- | ---------------- | ------- |
+| uncertainty | Period \* 30% |           | 1/2     | Same as Pre-CTS | 2/3      | Same as Post-CTS | Same as Post-CTS |         |
+| information | N/A           | N/A       | N/A     | skew            | skew     |                  |                  |         |
 
 
-- Synthesis uncertainty: Period \* 30%
+- Synthesis uncertainty: 
 - Placement uncertainty: Synthesis uncertainty \* (1/2) EX: 150ps
 - CTS uncertainty: Placement uncertainty * (2/3)
 - Detail route sign-off: CTS uncertainty + 10ps
