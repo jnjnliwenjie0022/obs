@@ -47,7 +47,11 @@
 	- Overflow Max < 10是Low Congestion
 	- 10 <= Overflow Max < 15是moderate Congestion
 	- Overflow Max >= 15是High Congestion
-
+- 右邊的Overflow要符合RTLA/FC Criteria
+	- GRC% < 1%是Low Congestion
+	- 1% < GRC% < 5%是moderate Congestion
+	- GRC% > 5%是High Congestion
+	
 ![[Pasted image 20250923100859.png]]
 
 # power
