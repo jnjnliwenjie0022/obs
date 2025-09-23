@@ -24,7 +24,8 @@
 | Wire RC Delay / Transistor Delay | 100  |     |     | 1000 | 10000 |     |     | 100000 |
 | Wire RC Delay的重視度                | RC輕度 |     |     | RC中度 | RC重度  |     |     | RC嚴重   |
 
-# m2p_congestion
+# congestion
+## m2p_congestion
 
 - ref: https://ivlsi.com/pitch-spacing-offset-vlsi-physical-design/
 	- pitch: The distance between the center to center of the metal is called as pitch. In the below picture, B is pitch.
@@ -37,6 +38,10 @@
 - Compare Max_Wire and Design_Wire
 
 ![[Pasted image 20250919153321.png|500]]
+
+## rtla_congestion
+
+![[Pasted image 20250923100859.png]]
 
 # power
 
