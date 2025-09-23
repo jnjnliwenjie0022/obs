@@ -175,13 +175,14 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "f9e5e87f6c87b161",
+  "active": "35a470a2c390e07e",
   "lastOpenFiles": [
+    "de/biu/ref",
     "de/amba_axi/ref/IHI0022K_amba_axi_protocol_spec.pdf",
     "de/amba_axi/request_attribute.md",
     "de/apr/apr.md",
-    "de/biu/inlude/BIU_DataPath.drawio",
-    "de/biu/inlude",
+    "de/biu/include/BIU_DataPath.drawio",
+    "de/biu/include",
     "de/biu",
     "de/power/sdpd/sdpd.md",
     "de/design_spec/rule.md",
@@ -206,7 +207,6 @@
     "CV.md",
     "financial/tamp",
     "de/apr/m2p_congestion.md",
-    "de/apr/include",
     "de/power/sdpd/power.md",
     "de/design_spec/lint_rule.md",
     "de/design_spec/fctrl.md",
