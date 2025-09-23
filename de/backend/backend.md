@@ -41,6 +41,13 @@
 
 ## rtla_congestion
 
+- 左邊的Overflow要符合Genus Congestion Criteria
+	- Genus標準是小於10,000
+- 左邊的Overflow要符合RTLA/FC Criteria
+	- Overflow Max < 10是Low Congestion
+	- 10 <= Overflow Max < 15是moderate Congestion
+	- Overflow Max >= 15是High Congestion
+
 ![[Pasted image 20250923100859.png]]
 
 # power
