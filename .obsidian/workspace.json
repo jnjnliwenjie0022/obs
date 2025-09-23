@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "de/backend/backend.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false,
                 "backlinks": false
               },
@@ -177,6 +177,9 @@
   },
   "active": "f9e5e87f6c87b161",
   "lastOpenFiles": [
+    "de/ahb2apb/ref/atcapbbrg100.v",
+    "de/ahb2apb/ref",
+    "de/ahb2apb/New folder",
     "de/backend/include/Pasted image 20250923100859.png",
     "de/backend/backend.md",
     "de/amba_ahb/ahb.md",
@@ -191,8 +194,6 @@
     "de/biu/ref/2006_biu/documents.zip",
     "de/biu/ref/2006_biu/Unconfirmed 457726.crdownload",
     "de/biu/ref/2006_biu/SDRAM Controller.doc",
-    "de/biu/ref/2006_biu/NEW_BIU_Arbiter.vsd",
-    "de/biu/ref/2006_biu/DFT.zip",
     "de/biu/ref/2007_biu/LAST_DATA must jump to LAST_DATA2 when lost grant.bmp",
     "de/biu/ref/biu/LAST_DATA must jump to LAST_DATA2 when lost grant.bmp",
     "de/power/sdpd/sdpd.md",
