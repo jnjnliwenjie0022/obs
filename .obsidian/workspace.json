@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "de/backend/backend.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false,
                 "backlinks": false
               },
@@ -79,8 +79,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 294.5,
-    "collapsed": true
+    "width": 294.5
   },
   "right": {
     "id": "baf9c43aba40b294",

@@ -41,16 +41,17 @@
 
 ## rtla_congestion
 
-- 左邊的Overflow要符合Genus Congestion Criteria
+- 左邊的Overflow要符合 Genus Congestion Criteria
 	- Genus標準是小於10,000
-- 左邊的Overflow要符合RTLA/FC Criteria
+- 左邊的Overflow要符合 Synopsys Criteria
 	- Overflow Max < 10是Low Congestion
 	- 10 <= Overflow Max < 15是moderate Congestion
 	- Overflow Max >= 15是High Congestion
-- 右邊的Overflow要符合RTLA/FC Criteria
+- 右邊的Overflow要符合 Synopsys Criteria
 	- GRC% < 1%是Low Congestion
 	- 1% < GRC% < 5%是moderate Congestion
 	- GRC% > 5%是High Congestion
+- 需要搭配看Congestion Map
 	
 ![[Pasted image 20250923100859.png]]
 
