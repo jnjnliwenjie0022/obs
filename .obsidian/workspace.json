@@ -11,14 +11,15 @@
             "id": "13a4ed9acc4e8953",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
+              "type": "markdown",
               "state": {
-                "aFile": ".obsidian/workspace.json",
-                "bFile": ".obsidian/workspace.json",
-                "aRef": ""
+                "file": "ToDoList.md",
+                "mode": "preview",
+                "source": false,
+                "backlinks": false
               },
-              "icon": "diff",
-              "title": "Diff: workspace.json"
+              "icon": "lucide-file",
+              "title": "ToDoList"
             }
           }
         ]
@@ -183,8 +184,14 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "13a4ed9acc4e8953",
+  "active": "35a470a2c390e07e",
   "lastOpenFiles": [
+    "language/word/~$w Microsoft Word Document.docx",
+    "language/word/New Microsoft Word Document.docx",
+    "language/word/Untitled.md",
+    "language/word/New Google Docs.gdoc",
+    "ToDoList.md",
+    "language/word",
     "Pasted image 20250427225904.png",
     "conflict-files-obsidian-git.md",
     "financial/tamp/Pasted image 20250429014658.png",
@@ -196,7 +203,6 @@
     "financial/tamp/Pasted image 20250429002353.png",
     "financial/tamp/Pasted image 20250428030112.png",
     "financial/tamp/Pasted image 20250429001123.png",
-    "financial/tamp/Pasted image 20250428005346.png",
     "financial/tamp",
     "de/cdc/sync_or_async_clk/sync_or_async_clk.md",
     "de/cdc/sync_or_async_clk",
@@ -205,9 +211,6 @@
     "de/biu/ref/2024_biu/atctlc2axi500_data_sheet_1022.pdf",
     "de/biu/ref/2024_biu/atctlc2axi500_data_sheet_0820.pdf",
     "de/biu/ref/2024_biu/atctlc2axi500_data_sheet_1021.pdf",
-    "de/biu/ref/2024_biu/atctlc2axi500_data_sheet_0821.pdf",
-    "de/biu/ref/2024_biu/ATCTLC2AXI500.pptx",
-    "de/biu/ref/2024_biu",
     "de/backend/backend.md",
     "de/ahb2apb/ahb2apb.md",
     "language/ipa/ipa.md",
@@ -228,8 +231,6 @@
     "Untitled 3.md",
     "Untitled 1.md",
     "Untitled 2.md",
-    "de/amba_axi/axi.md",
-    "de/cache/cache_policy.md",
-    "language/book/pdf_downlaod.md"
+    "de/amba_axi/axi.md"
   ]
 }
