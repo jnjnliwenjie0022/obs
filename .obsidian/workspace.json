@@ -11,15 +11,12 @@
             "id": "208323af75ebe372",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "language/ipa/ipa.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
+                "file": "Pasted image 20250427225904.png"
               },
-              "icon": "lucide-file",
-              "title": "ipa"
+              "icon": "lucide-image",
+              "title": "Pasted image 20250427225904"
             }
           }
         ]
@@ -186,6 +183,13 @@
   },
   "active": "208323af75ebe372",
   "lastOpenFiles": [
+    "Pasted image 20250428004844.png",
+    "Pasted image 20250428005346.png",
+    "Pasted image 20250429004759.png",
+    "Pasted image 20250429002640.png",
+    "Pasted image 20250429002540.png",
+    "Pasted image 20250919153321.png",
+    "language/ipa/ipa.md",
     "de/apr/apr.md",
     "de/power/sdpd/sdpd.md",
     "de/power/gck/gck.md",
@@ -201,11 +205,7 @@
     "de/apr",
     "Pasted image 20250919180034.png",
     "Pasted image 20250919171901.png",
-    "Pasted image 20250919171834.png",
-    "Pasted image 20250919153321.png",
     "de/power/sdpd/power.md",
-    "language/ipa/ipa.md",
-    "language/ipa/include/ipa.svg",
     "de/cdc/clk_gen/ref/sample_kv_clk_gen.v",
     "de/cdc/clk_gen/clk_gen.md",
     "de/cdc/clk_gen/ref",
@@ -215,9 +215,7 @@
     "allergy/sheet/ref/prevent_mite.pdf",
     "allergy/sheet/ref",
     "allergy/book_帶孩子遠離過敏/conclude.md",
-    "rationalplan/include/Pasted image 20250903144303.png",
     "README.md",
-    "Pasted image 20250429014658.png",
     "de/amba_axi/request_attribute.md",
     "sheet/sheet.md",
     "ticktick.md",
@@ -230,7 +228,6 @@
     "language/book/pdf_downlaod.md",
     "de/amba_chi/Untitled.md",
     "de/design_spec/lint_rule.md",
-    "de/design_spec/rule.md",
-    "de/design_spec/verilog.md"
+    "de/design_spec/rule.md"
   ]
 }
