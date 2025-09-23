@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "118605e3aeebb2f3",
+        "id": "b5afba2d73b2d969",
         "type": "tabs",
         "children": [
           {
-            "id": "208323af75ebe372",
+            "id": "13a4ed9acc4e8953",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
+              "type": "split-diff-view",
+              "state": {
+                "aFile": ".obsidian/workspace.json",
+                "bFile": ".obsidian/workspace.json",
+                "aRef": ""
+              },
+              "icon": "diff",
+              "title": "Diff: workspace.json"
             }
           }
         ]
@@ -179,8 +183,10 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "35a470a2c390e07e",
+  "active": "13a4ed9acc4e8953",
   "lastOpenFiles": [
+    "Pasted image 20250427225904.png",
+    "conflict-files-obsidian-git.md",
     "financial/tamp/Pasted image 20250429014658.png",
     "financial/tamp/Pasted image 20250429014642.png",
     "financial/tamp/Pasted image 20250429004833.png",
@@ -191,7 +197,6 @@
     "financial/tamp/Pasted image 20250428030112.png",
     "financial/tamp/Pasted image 20250429001123.png",
     "financial/tamp/Pasted image 20250428005346.png",
-    "financial/tamp/Pasted image 20250429001118.png",
     "financial/tamp",
     "de/cdc/sync_or_async_clk/sync_or_async_clk.md",
     "de/cdc/sync_or_async_clk",
@@ -210,7 +215,6 @@
     "de/power/sdpd/sdpd.md",
     "de/power/gck/gck.md",
     "de/power/genus/genus.md",
-    "conflict-files-obsidian-git.md",
     "de/power/sdpd/power.md",
     "de/cdc/clk_gen/clk_gen.md",
     "rationalplan/rationalplan.md",
