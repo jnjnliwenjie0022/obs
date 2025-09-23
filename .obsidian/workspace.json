@@ -79,7 +79,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 294.5
+    "width": 481.5
   },
   "right": {
     "id": "baf9c43aba40b294",
@@ -175,8 +175,11 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "35a470a2c390e07e",
+  "active": "f9e5e87f6c87b161",
   "lastOpenFiles": [
+    "de/biu/ref/2017_biu/~$biu_sync_fifo enhancement for the bus half-cycle transition.pptx",
+    "de/biu/ref/2022_biu/~$D23_Integrated-PIP_v0.1.pptx",
+    "de/biu/ref/2022_biu/~$D23_BIU_v0.1_0302_to_0322.pptx",
     "de/biu/ref/2010_biu/BIU timing diagram.doc",
     "de/biu/ref/2010_biu",
     "de/biu/ref/New folder",
@@ -185,9 +188,6 @@
     "de/biu/ref/2012_biu/BIU/Misc/bug7088_RC_result_compare.xls",
     "de/biu/ref/2012_biu/BIU/N801S_BIU_APB4_design_spec_v0.3.doc",
     "de/biu/ref/2012_biu/BIU/N801S_BIU_APB4_design_spec_v0.2.doc",
-    "de/biu/ref/2012_biu/BIU/N801S_BIU_APB4_design_spec_v0.1.doc",
-    "de/biu/ref/2012_biu/BIU/Misc",
-    "de/biu/ref/2012_biu/BIU/BIU_design_spec_v0.2.doc",
     "de/biu/ref/2022_biu/D23_PMP_DrawIO/utlb_pmp_resp_seq_itlb.png",
     "de/biu/ref/2022_biu/D23_PMP_DrawIO/utlb_pmp_resp_seq.png",
     "de/biu/ref/2022_biu/D23_PMP_DrawIO/utlb_pmp_resp_queue.png",
