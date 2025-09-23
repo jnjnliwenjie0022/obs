@@ -77,7 +77,7 @@
 	- Write-Back: not visible at the final destination
 	- Write-Through: visible at the final destination
 	- allocation is not hard constraint
-**
+
 
 | Memory type                           | ARCACHE[3:0] | Read Memory type | AWCACHE[3:0] | Write Memory type 1 | Write Memory type 2 |
 | ------------------------------------- | ------------ | ---------------- | ------------ | ------------------- | ------------------- |

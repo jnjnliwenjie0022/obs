@@ -11,12 +11,10 @@
             "id": "208323af75ebe372",
             "type": "leaf",
             "state": {
-              "type": "image",
-              "state": {
-                "file": "Pasted image 20250427225904.png"
-              },
-              "icon": "lucide-image",
-              "title": "Pasted image 20250427225904"
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
             }
           }
         ]
@@ -181,39 +179,42 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "208323af75ebe372",
+  "active": "35a470a2c390e07e",
   "lastOpenFiles": [
-    "Pasted image 20250428004844.png",
-    "Pasted image 20250428005346.png",
-    "Pasted image 20250429004759.png",
-    "Pasted image 20250429002640.png",
-    "Pasted image 20250429002540.png",
-    "Pasted image 20250919153321.png",
+    "financial/tamp/Pasted image 20250429014658.png",
+    "financial/tamp/Pasted image 20250429014642.png",
+    "financial/tamp/Pasted image 20250429004833.png",
+    "financial/tamp/Pasted image 20250429004759.png",
+    "financial/tamp/Pasted image 20250429002640.png",
+    "financial/tamp/Pasted image 20250429002540.png",
+    "financial/tamp/Pasted image 20250429002353.png",
+    "financial/tamp/Pasted image 20250428030112.png",
+    "financial/tamp/Pasted image 20250429001123.png",
+    "financial/tamp/Pasted image 20250428005346.png",
+    "financial/tamp/Pasted image 20250429001118.png",
+    "financial/tamp",
+    "de/cdc/sync_or_async_clk/sync_or_async_clk.md",
+    "de/cdc/sync_or_async_clk",
+    "de/biu/ref/2024_biu/atctlc2axi500_20201021.pptx",
+    "de/biu/ref/2024_biu/atctlc2axi500_data_sheet_0811.pdf",
+    "de/biu/ref/2024_biu/atctlc2axi500_data_sheet_1022.pdf",
+    "de/biu/ref/2024_biu/atctlc2axi500_data_sheet_0820.pdf",
+    "de/biu/ref/2024_biu/atctlc2axi500_data_sheet_1021.pdf",
+    "de/biu/ref/2024_biu/atctlc2axi500_data_sheet_0821.pdf",
+    "de/biu/ref/2024_biu/ATCTLC2AXI500.pptx",
+    "de/biu/ref/2024_biu",
+    "de/backend/backend.md",
+    "de/ahb2apb/ahb2apb.md",
     "language/ipa/ipa.md",
     "de/apr/apr.md",
     "de/power/sdpd/sdpd.md",
     "de/power/gck/gck.md",
     "de/power/genus/genus.md",
     "conflict-files-obsidian-git.md",
-    "de/power/sdpd/ref/liberty07_03.pdf",
-    "de/cdc/clk_gen/ref/nds_ram_model_bwe_clk_en.v",
-    "de/cdc/clk_gen/ref/kv_clk_gen.v",
-    "de/apr/include/Pasted image 20250919153454.png",
-    "de/apr/include/Pasted image 20250919153321 1.png",
-    "de/apr/include/Pasted image 20250919143906.png",
-    "de/apr/include",
-    "de/apr",
-    "Pasted image 20250919180034.png",
-    "Pasted image 20250919171901.png",
     "de/power/sdpd/power.md",
-    "de/cdc/clk_gen/ref/sample_kv_clk_gen.v",
     "de/cdc/clk_gen/clk_gen.md",
-    "de/cdc/clk_gen/ref",
-    "de/cdc/clk_gen",
     "rationalplan/rationalplan.md",
     "allergy/sheet/sheet.md",
-    "allergy/sheet/ref/prevent_mite.pdf",
-    "allergy/sheet/ref",
     "allergy/book_帶孩子遠離過敏/conclude.md",
     "README.md",
     "de/amba_axi/request_attribute.md",
@@ -225,9 +226,6 @@
     "Untitled 2.md",
     "de/amba_axi/axi.md",
     "de/cache/cache_policy.md",
-    "language/book/pdf_downlaod.md",
-    "de/amba_chi/Untitled.md",
-    "de/design_spec/lint_rule.md",
-    "de/design_spec/rule.md"
+    "language/book/pdf_downlaod.md"
   ]
 }
