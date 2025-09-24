@@ -1,4 +1,3 @@
-
 | 功能 / 訊號                 | APB2        | APB3                     | APB4                           | APB5 / APB-E                           |
 | ----------------------- | ----------- | ------------------------ | ------------------------------ | -------------------------------------- |
 | 最少傳輸週期                  | 固定 2 cycle  | ≥2 cycle (支援 wait state) | ≥2 cycle (支援 wait state)       | ≥2 cycle (支援 wait state)               |
@@ -10,3 +9,4 @@
 | 典型用途                    | 基本低頻週邊      | 加入 wait/error 的週邊        | 更細緻控制（byte write / protection） | 加入 **安全、功能安全、RME 支援**                  |
 | 功能安全 (parity / wake-up) | ❌           | ❌                        | ❌                              | ✅ Interface parity / Wake-up signaling |
 | Realm / 安全擴展 (RME)      | ❌           | ❌                        | ❌                              | ✅ 新訊號（如 PNSE），支援 ARMv9 Realm 管理        |
+
