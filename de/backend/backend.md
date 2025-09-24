@@ -58,6 +58,9 @@
 ![[Pasted image 20250923100859.png]]
 ![[Pasted image 20250923140119.png]]
 
+- GRC(Global Routing Cell / Gcell)
+	- 在LEF或是Floorplan的DEF中
+	- GCELLGRID ()
 ![[Pasted image 20250924163225.png]]
 # power_mesh
 
