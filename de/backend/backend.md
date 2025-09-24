@@ -47,6 +47,21 @@
 - Design_Wire only use metal2 layer: Total_Wire
 - Compare Max_Wire and Design_Wire
 
+# routing_flow
+
+- global route -> track assignment -> detail route
+
+- global route
+	- input: cell and macro placement
+	- analysis:
+		- wire length
+		- congestion
+		- timing
+		- 
+	- output: coarse gird routing through global routing cells (GRCs)
+## track_assignment
+## detail_route
+
 ## rtla_congestion
 
 - 右邊的Overflow要符合 Synopsys Criteria
@@ -71,5 +86,4 @@
 
 ![[Pasted image 20250919180034.png|500]]
 
-# gcell
 
