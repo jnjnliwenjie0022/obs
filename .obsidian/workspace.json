@@ -194,6 +194,7 @@
   },
   "active": "42a42b0a3b947eb4",
   "lastOpenFiles": [
+    "Pasted image 20250924163225.png",
     "de/amba_apb/apb.md",
     "de/amba_axi/request_attribute.md",
     "de/amba_ahb/ahb.md",
@@ -238,7 +239,6 @@
     "de/design_spec/ref/Andes_design_guide.md",
     "de/Untitled.md",
     "de/compression/compression.md",
-    "de/verification_spec/verification_spec.md",
-    "de/power/gck/gck.md"
+    "de/verification_spec/verification_spec.md"
   ]
 }

@@ -47,8 +47,6 @@
 - Design_Wire only use metal2 layer: Total_Wire
 - Compare Max_Wire and Design_Wire
 
-
-
 ## rtla_congestion
 
 - 右邊的Overflow要符合 Synopsys Criteria
@@ -59,6 +57,11 @@
 	
 ![[Pasted image 20250923100859.png]]
 ![[Pasted image 20250923140119.png]]
-# power
+
+![[Pasted image 20250924163225.png]]
+# power_mesh
 
 ![[Pasted image 20250919180034.png|500]]
+
+# gcell
+
