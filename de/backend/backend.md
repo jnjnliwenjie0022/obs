@@ -58,9 +58,14 @@
 ![[Pasted image 20250923100859.png]]
 ![[Pasted image 20250923140119.png]]
 
+- ref: https://blog.csdn.net/sinat_41774721/article/details/123430167
 - GRC(Global Routing Cell / Gcell)
 	- 在LEF或是Floorplan的DEF中
-	- GCELLGRID ()
+	- GCELLGRID X Start DO numColumnsRows+1 STEP Space;
+		- X: 表示V還是H
+		- Start: 表示第一個grid的位置
+		- numColumnsRows+1: 表示grid的數量
+		- Space: gird之間的間距
 ![[Pasted image 20250924163225.png]]
 # power_mesh
 
