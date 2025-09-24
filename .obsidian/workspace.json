@@ -28,13 +28,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "de/amba_ahb/ahb.md",
-                "mode": "preview",
+                "file": "de/amba_apb/apb.md",
+                "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "ahb"
+              "title": "apb"
             }
           }
         ],
@@ -95,7 +95,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 481.5
+    "width": 481.5,
+    "collapsed": true
   },
   "right": {
     "id": "baf9c43aba40b294",
@@ -159,13 +160,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "de/amba_ahb/ahb.md",
+                "file": "de/amba_apb/apb.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of ahb"
+              "title": "Outline of apb"
             }
           }
         ],
@@ -193,6 +194,10 @@
   },
   "active": "42a42b0a3b947eb4",
   "lastOpenFiles": [
+    "de/amba_axi/request_attribute.md",
+    "de/amba_apb/apb.md",
+    "de/amba_ahb/ahb.md",
+    "de/amba_apb",
     "language/word/~$w Microsoft Word Document.docx",
     "language/word/New Microsoft Word Document.docx",
     "language/word",
@@ -210,8 +215,6 @@
     "de/biu/ref/2022_biu/~$D23_Integrated-PIP_v0.1.pptx",
     "de/biu/ref/2022_biu/~$D23_BIU_v0.1_0302_to_0322.pptx",
     "de/biu/ref/2010_biu/BIU timing diagram.doc",
-    "de/biu/ref/2010_biu",
-    "de/biu/ref/New folder",
     "de/biu/ref/2022_biu/D23_PMP_DrawIO/utlb_pmp_resp_seq_itlb.png",
     "de/biu/ref/2022_biu/D23_PMP_DrawIO/utlb_pmp_resp_seq.png",
     "de/biu/ref/2022_biu/D23_PMP_DrawIO/utlb_pmp_resp_queue.png",
@@ -223,8 +226,6 @@
     "de/biu/ref/2022_biu/D23_CoreTop_DrawIO/n22_internal_timer.png",
     "de/biu/ref/2022_biu/D23_CoreTop_DrawIO/n22_internal_debug.png",
     "de/backend/backend.md",
-    "de/amba_ahb/ahb.md",
-    "de/amba_axi/request_attribute.md",
     "de/design_spec/rule.md",
     "de/design_spec/verilog.md",
     "de/_unorganized/cosim.md",
