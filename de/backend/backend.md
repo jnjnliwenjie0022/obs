@@ -1,3 +1,8 @@
+# concept
+
+- ref: https://semiwiki.com/semiconductor-manufacturers/tsmc/300552-vlsi-technology-forum-short-course-logic-devices/
+	- MOS Layout
+
 ![[Pasted image 20250919143906.png|500]]
 
 ![[Pasted image 20250919153454.png|500]]
@@ -11,11 +16,16 @@
 	- 0p81v: 0.81 Volt
 	- m40c: -40c
 - temn28hpcphssrammacros
-# mos
+# uncertainty
 
-- ref: https://semiwiki.com/semiconductor-manufacturers/tsmc/300552-vlsi-technology-forum-short-course-logic-devices/
+|                         | Synthesis                    | Floorplan                        | Pre-CTS            | CTS                            | Post-CTS           | Routing                         | Post-Route                      | Signoff |
+| ----------------------- | ---------------------------- | -------------------------------- | ------------------ | ------------------------------ | ------------------ | ------------------------------- | ------------------------------- | ------- |
+| uncertainty             | Period \* 30%<br>(EX: 300ps) | Same as Synthesis<br>(EX: 300ps) | 1/2<br>(EX: 150ps) | Same as Pre-CTS<br>(EX: 150ps) | 2/3<br>(EX: 100ps) | Same as Post-CTS<br>(EX: 100ps) | Same as Post-CTS<br>(EX: 100ps) |         |
+| uncertainty information | skew+margin                  | skew+margin                      | skew+margin        | skew+margin                    | margin             | margin                          | margin                          |         |
+| information             | N/A                          | N/A                              | N/A                | N/A                            | skew               | skew                            | skew, RC                        |         |
 
-# wire_rc
+# congestion
+## wire_load
 
 - ref: https://www.deepchip.com/items/0582-01.html
 
@@ -24,7 +34,6 @@
 | Wire RC Delay / Transistor Delay | 100  |     |     | 1000 | 10000 |     |     | 100000 |
 | Wire RC Delay的重視度                | RC輕度 |     |     | RC中度 | RC重度  |     |     | RC嚴重   |
 
-# congestion
 ## m2p_congestion
 
 - ref: https://ivlsi.com/pitch-spacing-offset-vlsi-physical-design/
@@ -33,11 +42,12 @@
 	- offset: Offset is the distance between the core and first metal layer. In below picture, C is offset.
 
 - Max_Wire on one side assumed floorplan is square and only use metal2 layer: ((KGate_Count \* Gate_Factor) \^ 1/2) \/ M2P
+	- ![[Pasted image 20250919153321.png|500]]
 - Max_Wire = Max_Wire for one side * (1 or 2 or 3 or 4)
 - Design_Wire only use metal2 layer: Total_Wire
 - Compare Max_Wire and Design_Wire
 
-![[Pasted image 20250919153321.png|500]]
+
 
 ## rtla_congestion
 
@@ -52,12 +62,3 @@
 # power
 
 ![[Pasted image 20250919180034.png|500]]
-
-# apr_uncertainty
-
-
-|                         | Synthesis                    | Floorplan                        | Pre-CTS            | CTS                            | Post-CTS           | Routing                         | Post-Route                      | Signoff |
-| ----------------------- | ---------------------------- | -------------------------------- | ------------------ | ------------------------------ | ------------------ | ------------------------------- | ------------------------------- | ------- |
-| uncertainty             | Period \* 30%<br>(EX: 300ps) | Same as Synthesis<br>(EX: 300ps) | 1/2<br>(EX: 150ps) | Same as Pre-CTS<br>(EX: 150ps) | 2/3<br>(EX: 100ps) | Same as Post-CTS<br>(EX: 100ps) | Same as Post-CTS<br>(EX: 100ps) |         |
-| uncertainty information | skew+margin                  | skew+margin                      | skew+margin        | skew+margin                    | margin             | margin                          | margin                          |         |
-| information             | N/A                          | N/A                              | N/A                | N/A                            | skew               | skew                            | skew, RC                        |         |
