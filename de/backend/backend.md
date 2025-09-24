@@ -53,12 +53,17 @@
 
 - global route
 	- input: cell and macro placement
+	- output:
+		- coarse gird routing through global routing cells (GRCs)
+		- congestion map through global routing cells
 	- analysis:
 		- wire length
 		- congestion
 		- timing
-		- 
-	- output: coarse gird routing through global routing cells (GRCs)
+		- noise/SI
+	- detail step:
+		- assign nets to specific metal layers and global routing cells (G)
+		- ties to avoid congested Gcesll
 ## track_assignment
 ## detail_route
 
