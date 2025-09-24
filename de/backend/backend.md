@@ -16,6 +16,15 @@
 	- 0p81v: 0.81 Volt
 	- m40c: -40c
 - temn28hpcphssrammacros
+# wire_load
+
+- ref: https://www.deepchip.com/items/0582-01.html
+
+|                                  | N90  | N65 | N45 | N28  | N20   | N16 | N10 | N7     |
+| -------------------------------- | ---- | --- | --- | ---- | ----- | --- | --- | ------ |
+| Wire RC Delay / Transistor Delay | 100  |     |     | 1000 | 10000 |     |     | 100000 |
+| Wire RC Delay的重視度                | RC輕度 |     |     | RC中度 | RC重度  |     |     | RC嚴重   |
+
 # uncertainty
 
 |                         | Synthesis                    | Floorplan                        | Pre-CTS            | CTS                            | Post-CTS           | Routing                         | Post-Route                      | Signoff |
@@ -25,14 +34,6 @@
 | information             | N/A                          | N/A                              | N/A                | N/A                            | skew               | skew                            | skew, RC                        |         |
 
 # congestion
-## wire_load
-
-- ref: https://www.deepchip.com/items/0582-01.html
-
-|                                  | N90  | N65 | N45 | N28  | N20   | N16 | N10 | N7     |
-| -------------------------------- | ---- | --- | --- | ---- | ----- | --- | --- | ------ |
-| Wire RC Delay / Transistor Delay | 100  |     |     | 1000 | 10000 |     |     | 100000 |
-| Wire RC Delay的重視度                | RC輕度 |     |     | RC中度 | RC重度  |     |     | RC嚴重   |
 
 ## m2p_congestion
 
@@ -47,26 +48,6 @@
 - Design_Wire only use metal2 layer: Total_Wire
 - Compare Max_Wire and Design_Wire
 
-# routing_flow
-
-- global route -> track assignment -> detail route
-
-- global route
-	- input: cell and macro placement
-	- output:
-		- coarse gird routing through global routing cells (GRCs)
-		- congestion map through global routing cells
-	- analysis:
-		- wire length
-		- congestion
-		- timing
-		- noise/SI
-	- detail step:
-		- assign nets to specific metal layers and global routing cells (G)
-		- ties to avoid congested Gcesll
-## track_assignment
-## detail_route
-
 ## rtla_congestion
 
 - 右邊的Overflow要符合 Synopsys Criteria
@@ -78,6 +59,14 @@
 ![[Pasted image 20250923100859.png]]
 ![[Pasted image 20250923140119.png]]
 
+
+# routing_flow
+
+- ref: https://blog.csdn.net/weixin_37584728/article/details/116529950?spm=1001.2101.3001.4242.2&utm_relevant_index=3
+- global route -> track assignment -> detail route
+
+# global_routing_cell
+
 - ref: https://blog.csdn.net/sinat_41774721/article/details/123430167
 - GRC(Global Routing Cell / Gcell)
 	- 在LEF或是Floorplan的DEF中
@@ -86,7 +75,37 @@
 		- Start: 表示第一個grid的位置
 		- numColumnsRows+1: 表示grid的數量
 		- Space: gird之間的間距
+
 ![[Pasted image 20250924163225.png]]
+# global_route
+
+- input: cell and macro placement
+- output:
+	- coarse gird routing through global routing cells (GRCs)
+	- congestion map through global routing cells
+- analysis:
+	- wire length
+	- congestion
+	- timing
+	- noise/SI
+- detail step:
+	- assign nets to specific metal layers and global routing cells (Gcells)
+	- ties to avoid congested Gcells while minimizing detours
+	- ties to avoid P/G (rings/straps/rails) and routing blockages
+
+## track_assignment
+
+- detail step:
+	- assign actual metal
+	- ties to make long and straight metal
+	- ties to reduce via  
+
+## detail_route
+
+
+
+
+
 # power_mesh
 
 ![[Pasted image 20250919180034.png|500]]
