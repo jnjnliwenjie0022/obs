@@ -29,7 +29,7 @@
               "type": "markdown",
               "state": {
                 "file": "de/backend/backend.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false,
                 "backlinks": false
               },
@@ -193,6 +193,7 @@
   },
   "active": "42a42b0a3b947eb4",
   "lastOpenFiles": [
+    "Pasted image 20250924180053.png",
     "Pasted image 20250924163225.png",
     "de/amba_apb/apb.md",
     "de/amba_axi/request_attribute.md",
@@ -224,7 +225,6 @@
     "de/biu/ref/2022_biu/D23_CoreTop_DrawIO/simplify_cpu_subsystem-2.png",
     "de/biu/ref/2022_biu/D23_CoreTop_DrawIO/simplify_cpu_subsystem-1.png",
     "de/biu/ref/2022_biu/D23_CoreTop_DrawIO/n22_internal_timer.png",
-    "de/biu/ref/2022_biu/D23_CoreTop_DrawIO/n22_internal_debug.png",
     "de/backend/backend.md",
     "de/design_spec/rule.md",
     "de/design_spec/verilog.md",

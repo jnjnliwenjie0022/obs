@@ -77,9 +77,11 @@
 		- Space: gird之間的間距
 
 ![[Pasted image 20250924163225.png]]
-# global_route
+## global_route
 
-- input: cell and macro placement
+- input: 
+	- cell and macro placement
+	- routing channel capacity pre layer
 - output:
 	- coarse gird routing through global routing cells (GRCs)
 	- congestion map through global routing cells
@@ -102,7 +104,11 @@
 
 ## detail_route
 
+- detail step:
+	- solve DRC and rerouting, rerouting by using sbox
+	- solve short and rerouting, rerouting by using sbox
 
+![[Pasted image 20250924180053.png]]
 
 
 
