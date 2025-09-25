@@ -11,12 +11,14 @@
 		- 不需要高精度且是同相位: 
 			- 方法1: original_clk -> counter -> en -> register
 				- 可行且**推薦**
+				- 不用處理ICG
 				- 不用處理CDC
 				- 不用處理STA
 			- 方法2: original_clk -> counter -> clk -> register
-				- 可行但不推薦
-				- 不用處理CDC
+				- 不用處理ICG
+				- 不用處理CDC (derived clock)
 				- 要處理STA
+					- create_generated_clock
 					- ref: https://www.youtube.com/watch?v=wmyelwAOSIE
 	- 針對FPGA
 		- 需要高精度
@@ -24,14 +26,9 @@
 				- ref: https://digilent.com/blog/vcos-mmcms-plls-and-cmts-clocking-resources-on-fpga-boards/
 			- 再經過BUF
 		- 不需要高精度且是同相位: 
-			- 方法1: original_clk -> counter -> BUF -> 
-			- 方法2:
-			- 先經過counter
-			- counter的結果再經過BUF(**不要**用 LUT/FF 去當做“全片時鐘”的路徑：在 FPGA 中，如果你用一般邏輯產生新時鐘，路徑不會走 global clock network，會導致 skew/jitter/無法 timing closure)
-			- 可以產生: clk 和 en
-				- 建議使用en，可以避免CDC和第二時鐘問題，減少麻煩
-				- ICG的部分Tool會自行處理
-
+			- 方法1: original_clk -> counter -> en -> register
+			- 方法2: original_clk -> counter -> clk -> 手動BUF -> clk -> register
+				- counter的clk結果需要經過BUF(**不要**用 LUT/FF 去當做“全片時鐘”的路徑：在 FPGA 中，如果你用一般邏輯產生新時鐘，路徑不走 global clock network，會導致 skew/jitter/無法 timing closure)
 # sync_clk_gen
 ## asic
 
