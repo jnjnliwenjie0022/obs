@@ -28,13 +28,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "de/cdc/sync_clk_gen/sync_clk_gen.md",
+                "file": "de/cdc/sync_clk_gen/clk_gen.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "sync_clk_gen"
+              "title": "clk_gen"
             }
           }
         ],
@@ -95,8 +95,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 481.5,
-    "collapsed": true
+    "width": 481.5
   },
   "right": {
     "id": "baf9c43aba40b294",
@@ -160,13 +159,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "de/cdc/sync_clk_gen/sync_clk_gen.md",
+                "file": "de/cdc/sync_clk_gen/clk_gen.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of sync_clk_gen"
+              "title": "Outline of clk_gen"
             }
           }
         ],
@@ -191,10 +190,10 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "42a42b0a3b947eb4",
+  "active": "35a470a2c390e07e",
   "lastOpenFiles": [
     "de/cdc/sync_or_async_clk/sync_or_async_clk.md",
-    "de/cdc/sync_clk_gen/sync_clk_gen.md",
+    "de/cdc/sync_clk_gen/clk_gen.md",
     "de/power/gck/gck.md",
     "de/backend/backend.md",
     "Pasted image 20250924180053.png",
