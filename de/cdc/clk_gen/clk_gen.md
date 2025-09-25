@@ -1,7 +1,7 @@
 # notice
 
 - 不需要高精度且是同相位的部分通常會在 subsystem 上處理
-- **使用ICG就需要CTS和CDC分析**
+- 
 - 注意事項:
 	- Duty Cycle 需要 50%
 	- Glitch Free
@@ -10,12 +10,14 @@
 		- 需要高精度
 			- 先經過PLL
 		- 不需要高精度且是同相位: 
-			- 方法1: original_clk -> ce_counter -> register
-			- 方法2: original_clk -> clk_counter 
-			- 先經過counter
-			- 可以產生: clk 和 en
-				- 建議使用en，可以避免CDC和第二時鐘問題，減少麻煩
-				- ICG的部分Tool會自行處理
+			- 方法1: original_clk -> counter -> en -> register
+				- 可行且推薦
+				- 不用處理CDC
+				- 要處理STA (**使用ICG就需要STA分析**)
+			- 方法2: original_clk -> counter -> 手動ICG -> clk -> register
+				- 可行但不推薦
+				- 不用處理CDC
+				- 要處理STA (**使用ICG就需要STA分析**)
 	- 針對FPGA
 		- 需要高精度
 			- 先經過PLL/MMCM/DCM
