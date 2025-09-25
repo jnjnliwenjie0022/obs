@@ -193,9 +193,9 @@
   },
   "active": "42a42b0a3b947eb4",
   "lastOpenFiles": [
-    "de/power/gck/gck.md",
-    "de/cdc/sync_clk_gen/sync_clk_gen.md",
     "de/cdc/sync_or_async_clk/sync_or_async_clk.md",
+    "de/cdc/sync_clk_gen/sync_clk_gen.md",
+    "de/power/gck/gck.md",
     "de/backend/backend.md",
     "Pasted image 20250924180053.png",
     "Pasted image 20250924163225.png",
