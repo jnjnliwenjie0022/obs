@@ -176,6 +176,8 @@
   },
   "active": "35a470a2c390e07e",
   "lastOpenFiles": [
+    "de/cdc/clk_gen/ref/kv_clkdiv.v",
+    "de/cdc/clk_gen/ref/New Text Document.txt",
     "de/amba_apb/ref/IHI0024E_amba_apb_architecture_spec.pdf",
     "de/amba_apb/ref/IHI0024E_amba_apb_architecture_spec (2).pdf",
     "de/amba_apb/ref/IHI0024C_amba_apb_protocol_v2_0_spec.pdf",
@@ -193,8 +195,6 @@
     "de/cdc/design/ref/atctlc2axi500/hdl/atctlc2axi500_sync_l2l.v",
     "de/cdc/design/ref/atctlc2axi500/nds_package/run_test",
     "de/cdc/design/ref/atctlc2axi500/nds_package/do_signoff_preconfig",
-    "de/cdc/design/ref/atctlc2axi500/nds_package/do_release_preconfig",
-    "de/cdc/design/ref/atctlc2axi500/nds_package/atctlc2axi500.mapping",
     "de/cdc/clk_gen/ref/Untitled.md",
     "de/cdc/clk_gen/Untitled.md",
     "de/backend/backend.md",
