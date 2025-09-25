@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "0bba99630a23971c",
+        "id": "52f9c14f5cf6a1cc",
         "type": "tabs",
         "children": [
           {
-            "id": "d52c2b053a68915b",
+            "id": "74f0aa3820db6257",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -143,16 +143,17 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "de/amba_apb/ahb2apb.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of ahb2apb"
             }
           },
           {
-            "id": "601c80ecac26546c",
+            "id": "eb0995a0769ace51",
             "type": "leaf",
             "state": {
               "type": "git-history-view",
@@ -184,45 +185,41 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "d52c2b053a68915b",
+  "active": "74f0aa3820db6257",
   "lastOpenFiles": [
-    "de/amba_apb/include/ahb2apb_async.svg",
     "de/amba_apb/include/ahb2apb_async_detail.svg",
+    "de/amba_apb/include/ahb2apb_async.svg",
     "de/amba_apb/ahb2apb.md",
-    "de/ahb2apb/ahb2apb.md",
-    "de/amba_apb/ref/IHI0024E_amba_apb_architecture_spec.pdf",
-    "de/amba_apb/ref/IHI0024C_amba_apb_protocol_v2_0_spec.pdf",
-    "de/amba_apb/ref/atcapbbrg100.v",
-    "de/amba_apb/ref",
-    "de/amba_apb/include",
-    "de/amba_apb",
-    "de/ahb2apb/ref/IHI0024E_amba_apb_architecture_spec.pdf",
-    "de/ahb2apb/ref/IHI0024C_amba_apb_protocol_v2_0_spec.pdf",
-    "de/ahb2apb/include/ahb2apb_async.svg",
-    "de/amba_apb/apb.md",
-    "de/amba_apb/include/cdc_design.svg",
-    "de/amba_apb/New folder",
-    "de/cdc/clk_gen/ref/kv_clkdiv.v",
     "de/amba_ahb/ahb.md",
-    "de/cdc/design/cdc_design.md",
+    "de/cdc/design/ref/atctlc2axi500/syn/flist.tcl",
+    "de/cdc/design/ref/atctlc2axi500/syn/atctlc2axi500.sdc",
+    "de/cdc/design/ref/atctlc2axi500/nds_package/do_signoff_preconfig",
+    "de/cdc/design/ref/atctlc2axi500/nds_package/run_test",
+    "de/cdc/design/ref/atctlc2axi500/nds_package/atctlc2axi500.mapping",
+    "de/cdc/design/ref/atctlc2axi500/nds_package/do_release_preconfig",
+    "de/cdc/design/ref/atctlc2axi500/nds_package/atctlc2axi500.release",
+    "de/cdc/design/ref/atctlc2axi500/hdl/atctlc2axi500_sync_l2l.v",
+    "de/cdc/design/ref/atctlc2axi500/hdl/atctlc2axi500_sync_fifo.v",
+    "de/cdc/design/ref/atctlc2axi500/hdl/atctlc2axi500_sink_id_pool.v",
     "de/cdc/design/include/cdc_design.svg",
-    "de/cdc/clk_gen/clk_gen.md",
-    "workflow/git/git.md",
-    "de/power/gck/gck.md",
-    "de/cdc/design/include/design.svg",
-    "de/cdc/design/include/ram.svg",
-    "de/cdc/clk_gen/ref/Untitled.md",
-    "de/cdc/clk_gen/Untitled.md",
-    "de/backend/backend.md",
+    "de/cdc/design/cdc_design.md",
     "Pasted image 20250924180053.png",
     "Pasted image 20250924163225.png",
-    "de/amba_axi/request_attribute.md",
     "de/amba_axi/axi.md",
+    "de/cdc/sync_or_async_clk/sync_or_async_clk.md",
+    "de/cdc/clk_gen/clk_gen.md",
     "de/cdc/sync_reset/Untitled.md",
     "de/power/sdpd/sdpd.md",
     "de/power/sdpd/power.md",
     "de/ram/ram.md",
+    "de/ahb2apb/ahb2apb.md",
     "de/biu/ref/2022_biu/D23_PMP_DrawIO/utlb_pmp_resp_seq_itlb.png",
+    "de/biu/ref/2022_biu/D23_PMP_DrawIO/utlb_pmp_resp_seq.png",
+    "de/biu/ref/2022_biu/D23_PMP_DrawIO/utlb_pmp_resp_queue.png",
+    "de/biu/ref/2022_biu/D23_PMP_DrawIO/utlb_PMP_0419.png",
+    "de/biu/ref/2022_biu/D23_PMP_DrawIO/utlb_PMP.png",
+    "de/backend/backend.md",
+    "de/amba_axi/request_attribute.md",
     "de/design_spec/rule.md",
     "de/design_spec/verilog.md",
     "de/_unorganized/cosim.md",
@@ -230,6 +227,10 @@
     "de/apr/m2p_congestion.md",
     "de/design_spec/lint_rule.md",
     "de/design_spec/fctrl.md",
-    "de/design_spec/fast_design.md"
+    "de/design_spec/fast_design.md",
+    "de/design_spec/ref/Andes_naming_rule.md",
+    "de/design_spec/ref/Andes_design_guide.md",
+    "de/Untitled.md",
+    "de/compression/compression.md"
   ]
 }
