@@ -8,12 +8,17 @@
 	- 針對ASIC
 		- 需要高精度
 			- 
-		- 不需要高精度
+		- 不需要高精度且是同相位且不產生新的clock給電路使用: (clock enable) 方案
+			- 先經過counter
 	- 針對FPGA
 		- 需要高精度
 			- 先經過PLL/MMCM/DCM
+				- ref: https://digilent.com/blog/vcos-mmcms-plls-and-cmts-clocking-resources-on-fpga-boards/
 			- 再經過BUF
-		- 不需要高精度
+		- 不需要高精度且是同相位且不產生新的clock給電路使用, 只ch: (clock enable) 方案
+			- 先經過counter
+			- 再經過BUF(**不要**用 LUT/FF 去當做“全片時鐘”的路徑：在 FPGA 中，如果你用一般邏輯產生新時鐘，路徑不會走 global clock network，會導致 skew/jitter/無法 timing closure)
+
 # ASIC
 
 - 推薦使用Johnson Counter
@@ -57,7 +62,3 @@
 		.O	(clk_out		)
 	);
 ```
-
-## MMCM
-
-- ref: https://digilent.com/blog/vcos-mmcms-plls-and-cmts-clocking-resources-on-fpga-boards/
