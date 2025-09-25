@@ -62,7 +62,7 @@
 ```
 
 ## fpga
-## bufgce
+### bufgce
 
 - 需要instance特殊的cell，全局時鐘緩衝
 	- CE=0，Q=0，否則Q=I
