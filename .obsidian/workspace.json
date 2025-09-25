@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "de/cdc/design/design.md",
+                "file": "de/cdc/clk_gen/clk_gen.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "design"
+              "title": "clk_gen"
             }
           },
           {
@@ -37,8 +37,7 @@
               "title": "design"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -159,13 +158,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "de/cdc/design/design.md",
+                "file": "de/cdc/clk_gen/clk_gen.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of design"
+              "title": "Outline of clk_gen"
             }
           }
         ],
@@ -190,8 +189,9 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "42a42b0a3b947eb4",
+  "active": "f9e5e87f6c87b161",
   "lastOpenFiles": [
+    "de/cdc/design/design.md",
     "de/cdc/design/include/cdc_design.svg",
     "de/cdc/design/include/design.svg",
     "de/cdc/design/include/ram.svg",
@@ -207,7 +207,6 @@
     "de/cdc/design/ref/atctlc2axi500/hdl/atctlc2axi500_sync_fifo.v",
     "de/cdc/clk_gen/clk_gen.md",
     "de/cdc/clk_gen/ref/Untitled.md",
-    "de/cdc/design/design.md",
     "de/cdc/clk_gen/Untitled.md",
     "de/power/gck/gck.md",
     "de/backend/backend.md",
@@ -227,7 +226,6 @@
     "de/biu/ref/2022_biu/D23_PMP_DrawIO/utlb_pmp_resp_queue.png",
     "de/biu/ref/2022_biu/D23_PMP_DrawIO/utlb_PMP_0419.png",
     "de/biu/ref/2022_biu/D23_PMP_DrawIO/utlb_PMP.png",
-    "de/biu/ref/2022_biu/D23_PMP_DrawIO/dtlb_pmp_resp.png",
     "de/design_spec/rule.md",
     "de/design_spec/verilog.md",
     "de/_unorganized/cosim.md",

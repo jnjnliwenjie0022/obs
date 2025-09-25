@@ -1,6 +1,7 @@
 # notice
 
 - 不需要高精度且是同相位的部分通常會在 subsystem 上處理
+- 使用ICG就需要CTS
 - 注意事項:
 	- Duty Cycle 需要 50%
 	- Glitch Free
