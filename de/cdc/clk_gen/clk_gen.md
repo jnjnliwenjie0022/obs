@@ -1,7 +1,7 @@
 # notice
 
 - 不需要高精度且是同相位的部分通常會在 subsystem 上處理
-- 使用ICG就需要CTS
+- **使用ICG就需要CTS和CDC分析**
 - 注意事項:
 	- Duty Cycle 需要 50%
 	- Glitch Free
@@ -9,8 +9,6 @@
 	- 針對ASIC
 		- 需要高精度
 			- 先經過PLL
-			- 處理CTS
-			- 分析CDC
 		- 不需要高精度且是同相位: 
 			- 先經過counter
 			- 可以產生: clk 和 en
@@ -21,7 +19,6 @@
 			- 先經過PLL/MMCM/DCM
 				- ref: https://digilent.com/blog/vcos-mmcms-plls-and-cmts-clocking-resources-on-fpga-boards/
 			- 再經過BUF
-			- 分析CDC
 		- 不需要高精度且是同相位: 
 			- 先經過counter
 			- counter的結果再經過BUF(**不要**用 LUT/FF 去當做“全片時鐘”的路徑：在 FPGA 中，如果你用一般邏輯產生新時鐘，路徑不會走 global clock network，會導致 skew/jitter/無法 timing closure)

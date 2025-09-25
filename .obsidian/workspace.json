@@ -28,16 +28,17 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "de/cdc/design/design.md",
+                "file": "de/cdc/clk_gen/clk_gen.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "design"
+              "title": "clk_gen"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -189,9 +190,10 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "f9e5e87f6c87b161",
+  "active": "42a42b0a3b947eb4",
   "lastOpenFiles": [
     "de/cdc/design/design.md",
+    "de/cdc/clk_gen/clk_gen.md",
     "de/cdc/design/include/cdc_design.svg",
     "de/cdc/design/include/design.svg",
     "de/cdc/design/include/ram.svg",
@@ -205,7 +207,6 @@
     "de/cdc/design/ref/atctlc2axi500/syn/flist.tcl",
     "de/cdc/design/ref/atctlc2axi500/syn/atctlc2axi500.sdc",
     "de/cdc/design/ref/atctlc2axi500/hdl/atctlc2axi500_sync_fifo.v",
-    "de/cdc/clk_gen/clk_gen.md",
     "de/cdc/clk_gen/ref/Untitled.md",
     "de/cdc/clk_gen/Untitled.md",
     "de/power/gck/gck.md",
