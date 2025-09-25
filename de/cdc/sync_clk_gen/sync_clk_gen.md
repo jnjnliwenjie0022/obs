@@ -1,3 +1,4 @@
+- ref: /NOBACKUP/atcpcw10/jasonli/kavalan/andes_ip/kv_core/top/hdl/ae350_scpu_cluster_subsystem.v
 # notice
 
 - 注意事項:
