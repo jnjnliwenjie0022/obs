@@ -12,6 +12,6 @@
 | Realm / 安全擴展 (RME)      | ❌           | ❌                        | ❌                              | ✅ 新訊號（如 PNSE），支援 ARMv9 Realm 管理        |
 
 
-![[ahb2apb_async.svg]]
+![[ahb2apb_async_detail.svg]]
 
 - AHB基本上都需要有3個FIFO分別是: address, wdata, rdata
