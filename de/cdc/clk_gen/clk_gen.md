@@ -1,6 +1,6 @@
-- ref: /NOBACKUP/atcpcw10/jasonli/kavalan/andes_ip/kv_core/top/hdl/ae350_scpu_cluster_subsystem.v
 # notice
 
+- 不需要高精度且是同相位的部分通常會在 subsystem 上處理
 - 注意事項:
 	- Duty Cycle 需要 50%
 	- Glitch Free
@@ -28,7 +28,8 @@
 				- 建議使用en，可以避免CDC和第二時鐘問題，減少麻煩
 				- ICG的部分Tool會自行處理
 
-# ASIC
+# sync_clk_gen
+## asic
 
 - 推薦使用Johnson Counter
 	- ref: https://www.chipverify.com/verilog/verilog-johnson-counter
@@ -59,8 +60,8 @@
 	assign clk_en   = clk_en_r;
 ```
 
-# FPGA
-## BUFGCE
+## fpga
+## bufgce
 
 - 需要instance特殊的cell，全局時鐘緩衝
 	- CE=0，Q=0，否則Q=I
