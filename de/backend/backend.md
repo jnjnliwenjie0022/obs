@@ -79,6 +79,8 @@
 ![[Pasted image 20250924163225.png]]
 ## global_route
 
+- global route 的 granularity 是以 Gcell 為單位 
+
 - input: 
 	- cell and macro placement
 	- routing channel capacity pre layer
