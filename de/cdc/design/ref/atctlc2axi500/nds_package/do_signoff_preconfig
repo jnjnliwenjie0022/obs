@@ -1,0 +1,9 @@
+#!/bin/sh
+
+rm preconfig.inc -f  
+echo "\`undef OVL_ASSERT_ON" >> preconfig.inc  
+echo "\`undef ATCTLC2AXI500_FORCE_ID_REMAP" >> preconfig.inc  
+echo "\`undef ATCTLC2AXI500_FORWARD_PROBEACKDATA" >> preconfig.inc  
+nds_softcore_specialize preconfig.inc
+rm preconfig.inc -f  
+
