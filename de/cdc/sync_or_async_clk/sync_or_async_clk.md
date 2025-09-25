@@ -1,3 +1,6 @@
+
+/NOBACKUP/atcpcw10/jasonli/kavalan/andes_ip/peripheral_ip/atctlc2axi500/hdl
+
 - async == 1
 	- aclk, aresetn for axi domain
 	- clk , resetn for tl domian
