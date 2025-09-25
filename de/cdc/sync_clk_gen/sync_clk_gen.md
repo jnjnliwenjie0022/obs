@@ -6,8 +6,14 @@
 	- Glitch Free
 - 常見實作方法
 	- 針對ASIC
-		- 
+		- 需要高精度
+			- 
+		- 不需要高精度
 	- 針對FPGA
+		- 需要高精度
+			- 先經過PLL/MMCM/DCM
+			- 再經過BUF
+		- 不需要高精度
 # ASIC
 
 - 推薦使用Johnson Counter
