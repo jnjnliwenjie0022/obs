@@ -10,6 +10,8 @@
 		- 需要高精度
 			- 先經過PLL
 		- 不需要高精度且是同相位: 
+			- 方法1: original_clk -> ce_counter -> register
+			- 方法2: original_clk -> clk_counter 
 			- 先經過counter
 			- 可以產生: clk 和 en
 				- 建議使用en，可以避免CDC和第二時鐘問題，減少麻煩
