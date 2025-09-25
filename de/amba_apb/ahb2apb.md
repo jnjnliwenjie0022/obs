@@ -13,12 +13,14 @@
 
 
 ![[ahb2apb_async_detail.svg]]
+
 - 在async_clk中
 	- AHB基本上都需要有3個FIFO分別是: address, wdata, rdata
 - 在sync_clk中
 	- AHB速度快於APB
 	- APB需要apb_clk_en
 	- 如果APB要response給AHB則
-		- 如果有FIFO,Tot, 則問題不大
-		- 如果沒FIFO, 則AHB也需要apb_clk_en
+		- 如果有FIFO,總共有3個FIFO, 則問題不大
+		- 如果沒FIFO,總共有2個FIFO, 則AHB也需要apb_clk_en
+
 ![[ahb2apb_async.svg|500]]
