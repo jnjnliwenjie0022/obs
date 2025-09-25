@@ -4,9 +4,13 @@
 - 注意事項:
 	- Duty Cycle 需要 50%
 	- Glitch Free
+- 常見實作方法
+	- 針對ASIC
+		- 
+	- 針對FPGA
 # ASIC
 
-- 推薦使用Johnson Counte
+- 推薦使用Johnson Counter
 	- ref: https://www.chipverify.com/verilog/verilog-johnson-counter
 - 在simulation的時候要確保clk為“0”
 
