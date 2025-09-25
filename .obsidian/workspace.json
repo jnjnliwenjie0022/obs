@@ -29,7 +29,7 @@
               "type": "markdown",
               "state": {
                 "file": "de/cdc/design/design.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false,
                 "backlinks": false
               },
@@ -190,7 +190,7 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "35a470a2c390e07e",
+  "active": "42a42b0a3b947eb4",
   "lastOpenFiles": [
     "de/cdc/design/ref/atctlc2axi500/hdl/atctlc2axi500_sync_l2l.v",
     "de/cdc/design/ref/atctlc2axi500/nds_package/run_test",
