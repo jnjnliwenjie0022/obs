@@ -79,7 +79,7 @@
 ![[Pasted image 20250924163225.png]]
 ## global_route
 
-- global route 的 granularity 是以 Gcell 為單位 
+- global route 的 granularity 是以 Gcell 為單位，佈綫軌道（track）沒有實際被實作，僅僅描述經過哪一個 Gcell
 
 - input: 
 	- cell and macro placement
@@ -87,11 +87,6 @@
 - output:
 	- coarse gird routing through global routing cells (GRCs)
 	- congestion map through global routing cells
-- analysis:
-	- wire length
-	- congestion
-	- timing
-	- noise/SI
 - detail step:
 	- assign nets to specific metal layers and global routing cells (Gcells)
 	- ties to avoid congested Gcells while minimizing detours
