@@ -4,22 +4,23 @@
     "type": "split",
     "children": [
       {
-        "id": "0bba99630a23971c",
+        "id": "6733f417ef4c62bf",
         "type": "tabs",
         "children": [
           {
-            "id": "d52c2b053a68915b",
+            "id": "de1afb913edb9e0b",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "de/amba_apb/atcdmac300/atcdmac300.md",
-                "mode": "preview",
-                "source": false,
-                "backlinks": false
+                "file": "de/amba_apb/ahb2apb/ref/IHI0024C_amba_apb_protocol_v2_0_spec.pdf",
+                "page": 14,
+                "left": 94,
+                "top": 431,
+                "zoom": 2.5
               },
-              "icon": "lucide-file",
-              "title": "atcdmac300"
+              "icon": "lucide-file-text",
+              "title": "IHI0024C_amba_apb_protocol_v2_0_spec"
             }
           }
         ]
@@ -184,11 +185,11 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "d52c2b053a68915b",
+  "active": "de1afb913edb9e0b",
   "lastOpenFiles": [
+    "de/amba_apb/atcdmac300/atcdmac300.md",
     "de/amba_apb/atcdmac300/include/atcbmc300.svg",
     "de/amba_apb/ahb2apb/ref/IHI0024C_amba_apb_protocol_v2_0_spec.pdf",
-    "de/amba_apb/atcdmac300/atcdmac300.md",
     "de/amba_apb/ahb2apb/include/ahb2apb_async.svg",
     "de/amba_apb/atcdmac300/include",
     "de/amba_apb/ahb2apb/ahb2apb.md",
