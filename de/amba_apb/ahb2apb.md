@@ -11,11 +11,9 @@
 | 功能安全 (parity / wake-up) | ❌           | ❌                        | ❌                              | ✅ Interface parity / Wake-up signaling |
 | Realm / 安全擴展 (RME)      | ❌           | ❌                        | ❌                              | ✅ 新訊號（如 PNSE），支援 ARMv9 Realm 管理        |
 
-
-![[ahb2apb_async_detail.svg]]
-
 - 在async_clk中
 	- AHB基本上都需要有3個FIFO分別是: address, wdata, rdata
+	- ![[ahb2apb_async_detail.svg]]
 - 在sync_clk中
 	- AHB速度快於APB
 	- APB需要apb_clk_en
