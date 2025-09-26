@@ -1,0 +1,242 @@
+// Random config for ATCBMC300's blk_sys.
+
+class config_randomizer;
+	parameter			MAX_ADDR_WIDTH = 64;
+	parameter			MAX_MASTER_NUM = 16;
+	parameter			MAX_SLAVE_NUM = 32;	// Including the internal slave.
+
+	rand int unsigned		addr_width;	// 24 ~ 64.
+	rand int unsigned		data_width;	// 32, 64, 128 or 256.
+	rand int unsigned		id_width;	// 4 ~ 8
+	rand bit			mst0_default_high_priority;
+	rand int unsigned		master_num;
+	rand bit [MAX_MASTER_NUM-1:0]	master_dist;
+	rand bit [MAX_SLAVE_NUM-1:0]	master_conns[];
+	rand bit [MAX_MASTER_NUM-1:0]	master_default_priority_reload;
+	rand int unsigned		master_outstanding_depth[];
+	rand int unsigned		slave_num;
+	rand bit [MAX_SLAVE_NUM-1:0]	slave_dist;
+	rand int unsigned		slave_sizes[];
+	rand bit [MAX_ADDR_WIDTH:0]	slave_bases[];
+	rand int unsigned		slave_fifo_depths[];
+	rand int unsigned		error_probability;
+	rand int unsigned		trans_nums[];
+
+	constraint c_addr_width {
+		addr_width >= 24 && addr_width <= MAX_ADDR_WIDTH;
+	}
+	constraint c_data_width {
+		data_width inside {32, 64, 128, 256};
+		//data_width inside {32, 64, 128};
+	}
+	constraint c_id_width {
+		id_width dist {
+			4			:= 80,
+			5			:= 10,
+			6			:= 6,
+			7			:= 3,
+			8			:= 1
+		};
+	}
+	constraint c_master_num {
+		master_num dist {
+			[2:4]			:/ 85,
+			[5:10]			:/ 12,
+			[11:MAX_MASTER_NUM]	:/ 2,
+			1			:/ 1
+		};
+	}
+	constraint c_master_dist {
+		solve master_num before master_dist;
+
+		$countones(master_dist) == master_num;
+	}
+	constraint c_master_outstanding_depth {
+		master_outstanding_depth.size() == master_num;
+		foreach (master_outstanding_depth[i])
+			master_outstanding_depth[i] inside {2, 4, 8, 16, 32};
+	}
+	constraint c_slave_num {
+		slave_num dist {
+			[1:4]			:/ 85,
+			[5:10]			:/ 13,
+			[11:MAX_SLAVE_NUM]	:/ 2
+		};
+	}
+	constraint c_slave_dist {
+		solve slave_num before slave_dist;
+
+		$countones(slave_dist) == slave_num;
+	}
+	constraint c_slave_sizes {
+		solve slave_num before slave_sizes;
+		solve addr_width before slave_sizes;
+
+		slave_sizes.size() == slave_num;
+
+		// Don't consume more than 2GB memory in total.
+		(slave_sizes.sum() with (1<<(item-1))) <= 2048;
+
+		foreach (slave_sizes[i]) {
+			// Most of the time, test small sizes.
+			slave_sizes[i] dist {
+				[1:5]	:= 50,
+				[6:10]	:/ 50
+				// [11:13]	:/ 10,
+				// [14:15]	:/  3
+			};
+			if (i == 0) {	// The internal slave?
+				slave_sizes[i] == 1;// Slave0 occupies exactly 1MB.
+			} else {
+				slave_sizes[i] >= 1 &&
+				// "-1" is necessary since a single slave can't
+				// occupy the whole space.
+				slave_sizes[i] <= (addr_width - 19) - 1;
+			}
+		}
+	}
+	constraint c_slave_bases {
+		solve slave_num before slave_bases;
+		solve addr_width before slave_bases;
+
+		slave_bases.size() == slave_num;
+
+		foreach (slave_bases[i]) {
+			// Aligned to the slave size.
+			(slave_bases[i] & ((1<<(slave_sizes[i]+19))-1)) == 0 &&
+			// Within the address space.
+			(slave_bases[i] >> addr_width) == 0;
+
+			foreach (slave_bases[j]) {
+				if (i != j) {
+					// Non-overlapped.
+					(slave_bases[i]+(1<<(slave_sizes[i]+19))) <= slave_bases[j] ||
+					slave_bases[i] >= (slave_bases[j]+(1<<(slave_sizes[j]+19)));
+				}
+			}
+		}
+	}
+	constraint c_slave_fifo_depths {
+		solve slave_num before slave_fifo_depths;
+
+		slave_fifo_depths.size() == slave_num;
+
+		foreach (slave_fifo_depths[i])
+			slave_fifo_depths[i] inside {1, 2, 4, 8, 16, 32};
+	}
+	constraint c_mst_conns {
+		solve master_num before master_conns;
+
+		master_conns.size() == master_num;
+
+		foreach (master_conns[i, j]) {
+			// No slave -> no connection.
+			!slave_dist[j] -> master_conns[i][j] == 1'b0;
+		}
+		foreach (master_conns[i])
+			master_conns[i] != 0;// Connected to at least one slave.
+	}
+
+	constraint c_error_probability {
+		error_probability dist {
+			0	:= 30,
+			[1:10]	:/ 40,
+			[11:20] :/ 25,
+			[21:30] :/  5
+		};
+	}
+
+	constraint c_trans_nums {
+		solve master_num before trans_nums;
+
+		trans_nums.size() == master_num;
+
+		foreach (trans_nums[i]) {
+			trans_nums[i] dist {
+				500	:= 80,
+				400	:= 40,
+				300	:= 20,
+				200	:= 10,
+				100	:= 5
+			};
+		}
+
+		// Less than 2500 total transactions since more transactions
+		// need more simulation memories.
+		trans_nums.sum() <= 2000;
+	}
+
+	task gen_macro;
+		int	idx;
+
+		$write(
+			`DEF, "ATCBMC300_CONFIG_VH",
+			`DEF, "NDS_ERROR_PROBABILITY=%0d", error_probability,
+			`DEF, "ATCBMC300_ADDR_WIDTH=%0d", addr_width,
+			`DEF, "ATCBMC300_DATA_WIDTH=%0d", data_width,
+			`DEF, "ATCBMC300_ID_WIDTH=%0d", id_width
+		);
+		if (master_dist[0]) begin
+			$write(
+				`DEF, "ATCBMC300_MST0_DEFAULT_HIGH_PRIORITY=%0d", mst0_default_high_priority
+			);
+		end
+		`ifdef RCFG_DEBUG
+			$write(
+				`DEF, "master_num=%0d", master_num,
+				`DEF, "slave_num=%0d", slave_num,
+				`DEF, "slave_dist='h%0h", slave_dist,
+			);
+		`endif
+
+		for (int i = 0, idx = 0; i < MAX_MASTER_NUM; i++) begin
+			if (master_dist[i] == 1'b0)
+				continue;
+			$write(
+				`DEF, "ATCBMC300_MST%0d_SUPPORT", i,
+				`DEF, "ATCBMC300_MST%0d_DEFAULT_PRIORITY_RELOAD=%0d", i, master_default_priority_reload[i],
+				`DEF, "ATCBMC300_MST%0d_OUTSTANDING_DEPTH=%0d", i, master_outstanding_depth[idx],
+				`DEF, "NDS_MST%0d_TRANS_NUM=%0d", i, trans_nums[idx],
+				`DEF, "NDS_MST%0d_DELAY_MAX=%0d", i, (10*500)/trans_nums[idx]
+			);
+			idx++;
+		end
+
+		for (int i = 0, idx = 0; i < MAX_MASTER_NUM; i++) begin
+			if (master_dist[i] == 1'b0)
+				continue;
+			$write(`DEF, "NDS_M%0d_CONNS=32'h%08h", i, master_conns[idx]);
+			idx++;
+		end
+
+		for (int i = 0, idx = 0; i < MAX_SLAVE_NUM; i++) begin
+			// Find the next non-zero bit.
+			if (slave_dist[i] == 1'b0)
+				continue;
+			if (i == 0) begin
+				// Only the base address can be changed by the user.
+				$write(
+					`DEF, "ATCBMC300_SLV%0d_SUPPORT", i,
+					`DEF, "ATCBMC300_SLV%0d_BASE_ADDR=%0d'h%0h", i, addr_width, slave_bases[idx],
+					`DEF, "ATCBMC300_SLV%0d_SIZE=%0d", i, slave_sizes[idx]
+				);
+			end
+			else begin
+				$write(
+					`DEF, "ATCBMC300_SLV%0d_SUPPORT", i,
+					`DEF, "ATCBMC300_SLV%0d_FIFO_DEPTH=%0d", i, slave_fifo_depths[idx],
+					`DEF, "ATCBMC300_SLV%0d_BASE_ADDR=%0d'h%0h", i, addr_width, slave_bases[idx],
+					`DEF, "ATCBMC300_SLV%0d_SIZE=%0d", i, slave_sizes[idx]
+				);
+			end
+			idx++;
+		end
+		`ifdef RCFG_DEBUG
+			// More debug info.
+			// `OFS,
+		`endif
+		$write("\n");
+	endtask
+endclass
+
+// vim: set filetype=systemverilog :

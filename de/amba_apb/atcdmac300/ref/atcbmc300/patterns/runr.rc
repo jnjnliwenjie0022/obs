@@ -1,0 +1,7 @@
+
+prolog_cmd =
+
+cfg_file =
+flist_dir = $PVC_LOCALDIR/andes_ip/peripheral_ip/atcbmc300/bench
+hdl_prolog_cmd = default_prepare_filelist blk_sys.f
+

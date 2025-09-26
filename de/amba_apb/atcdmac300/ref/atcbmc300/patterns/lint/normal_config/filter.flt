@@ -1,0 +1,33 @@
+@nLint rc file Version 1.0
+#[FSM_2process_coding]
+#Description="Filter the unexpected tool issue: FSM is not implemented using two-process coding"
+#Number=22063
+#
+#[stock_at_1]
+#Description="ERR: signal is stock at logic 1"
+#Number=22211
+#
+#[stock_at_0]
+#Description="ERR: signal is stock at logic 0"
+#Number=22213
+#
+#[omit_gclk]
+#Description="ignore gck.v (ERR,Warning) "
+#File=*/gck.v
+#Number=23016,22053,23003
+
+#[constant_event_control]
+#Description="ERR: constant signal used as event control in sensitivity list"
+#Number=22139
+#
+#[driven_by_constant]
+#Description="constant signal"
+#Number=22165
+#
+#[signal_loading]
+#Description="Signal with No-load/Heavy-Fan-out"
+#Number=25003,25009
+
+#[sync_loop]
+#Description="sync loop without reset detected"
+#Number=22014

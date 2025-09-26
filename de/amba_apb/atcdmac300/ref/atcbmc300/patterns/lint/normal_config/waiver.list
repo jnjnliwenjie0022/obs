@@ -1,0 +1,23 @@
+# format:
+# partial_filename ERROR_TAG optional_messsages
+# partial_filename,line ERROR_TAG optional_messsages
+#
+# detail information about tag can be found at 
+# /home/project/eda/pkgs/cadence/ius/v8.2/tools.lnx86/hal/files/help/hal.htx
+
+#ignored rules for all behavior model
+andes_vip		INTTOB #Integer 0/1 assigned to boolean
+andes_vip		PADMSB #Constant wil be left-padded by 0 bits
+andes_vip		UELASG #Unequal length operand in assignment, usually caused by "$random()%small_number"
+andes_vip		UELOPR #Unequal length operand in bit/arithmetic operator PLUS, usually caused by $random() or "+ integer"
+andes_vip		ULCMPE #Unequal length operands in equality operator encountered, usually caused by comparing value to integer
+andes_vip		ULRELE #Unequal length operands in relational operator, usually caused by comparing value to integer
+andes_vip		USEFTN #Function 'xxx' defined in module 'yyy' is unused.
+
+
+
+#general behavior model
+
+# related behavior model
+#system.v		UASWIR #Wire 'xxx' defined in module 'system' is unassigned, but drives at least an object.
+

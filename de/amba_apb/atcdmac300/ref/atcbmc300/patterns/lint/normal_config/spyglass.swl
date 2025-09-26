@@ -1,0 +1,19 @@
+#waive -file "*/gck.v" -du gck -rule "InferLatch" -msg "Latch inferred for signal 'latch_out' in module 'gck'" -comment "official gck cell"
+#waive -file "*_ram.v"         -rule ErrorAnalyzeBBox -msg "UnsynthesizedDU: Design Unit 'nds_ram_model*' (elaborated name '*') not synthesizable; SYNTH_5273 error(s) found during synthesis" -comment "ram model"
+#waive -file "lsu_cntrl.v"     -rule W240 -msg "Input 'reg_dcache_downsizing[*]' declared but not read.*" -comment "partially used"
+#waive -file "hptwk_ctrl.v"    -rule W240 -msg "Input 'mtlb_hptwk_va_s0[21:12]' declared but not read.*"
+#waive -file "*.v"             -rule W240 -msg "Input 'scan_test' declared but not read.*" -comment "ignore all scan_test input"
+#waive                         -rule W240 -msg "Input 'reg_icache_downsizing[*]' declared but not read.*"
+#
+#waive -file ieu_mdu.v      -rule W240 -msg "Input 'mdu_md_ls_index_mm[*]' declared but not read.*"
+#waive -file ieu_mdu.v      -rule W240 -msg "Input 'adu_ar_wdata_ex[*]' declared but not read.*"
+#waive -file ieu_mdu.v      -rule W240 -msg "Input 'alu_dsp_type_mm[1]' declared but not read.*"
+#waive -file ieu_mdu.v      -rule W240 -msg "Input 'mdu_mac_acc_ex' declared but not read.*"
+
+# waive -file atcbmc300.v     -rule W240 -msg "Input 'hsize[2]' declared but not read.[Hierarchy: ':atcbmc300']"
+# waive -file atcbmc300.v     -rule W240 -msg "Input 'hprot[3:0]' declared but not read.[Hierarchy: ':atcbmc300']"
+# waive -file atcbmc300.v     -rule W240 -msg "Input 'haddr[31:20]' declared but not read.[Hierarchy: ':atcbmc300']"
+
+waive -rule FlopEConst -file nds_sync_fifo_afe.v   -msg "Enable pin EN on Flop atcbmc300.ds*_ctrl.ds_wdata_bresp.\outstanding_fifo.wmid_fifo .mem[*] (master RTL_FDE) is  always disabled (tied low)(connected to atcbmc300.ds*_ctrl.ds_wdata_bresp.\outstanding_fifo.wmid_fifo .VCC)"
+waive -rule FlopEConst -file ds_addr_ctrl.v        -msg "Enable pin EN on Flop atcbmc300.ds*_araddr[*] (master RTL_FDCE) is  always disabled (tied low)(connected to atcbmc300.ds*_ctrl.ds_ar_addr.mst_avalid[*])"
+waive -rule FlopEConst -file ds_wdata_bresp_ctrl.v -msg "Enable pin EN on Flop atcbmc300.ds*_wdata[*] (master RTL_FDCE) is  always disabled (tied low)(connected to atcbmc300.ds*_ctrl.ds_wdata_bresp.wvalid_pre)"

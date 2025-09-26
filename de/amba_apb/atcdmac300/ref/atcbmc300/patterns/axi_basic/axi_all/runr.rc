@@ -1,0 +1,10 @@
+# Enable axi_master.pat and axi_slave.pat.
+defines += NDS_AXI_MASTER_MODEL_PAT NDS_AXI_SLAVE_MODEL_PAT
+
+Xno_delay = +define+NDS_DELAY_MAX=0
+
+# Exclusive options.
+Xfixed = +define+NDS_XM1_WITH="burst==0"
+Xfixed_word = +define+NDS_XM1_WITH="burst==0&&axsize==2"
+Xsingle_word = +define+NDS_XM1_WITH="axlen==0&&axsize==2"
+
