@@ -11,12 +11,16 @@
             "id": "d52c2b053a68915b",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "pdf",
               "state": {
-                "file": "de/amba_apb/atcdmac300/include/atcbmc300.svg"
+                "file": "de/amba_apb/ahb2apb/ref/IHI0024C_amba_apb_protocol_v2_0_spec.pdf",
+                "page": 1,
+                "left": -1,
+                "top": 793,
+                "zoom": 1.800755033557047
               },
-              "icon": "lucide-image",
-              "title": "atcbmc300"
+              "icon": "lucide-file-text",
+              "title": "IHI0024C_amba_apb_protocol_v2_0_spec"
             }
           }
         ]
@@ -183,8 +187,8 @@
   },
   "active": "d52c2b053a68915b",
   "lastOpenFiles": [
-    "de/amba_apb/atcdmac300/atcdmac300.md",
     "de/amba_apb/atcdmac300/include/atcbmc300.svg",
+    "de/amba_apb/atcdmac300/atcdmac300.md",
     "de/amba_apb/ahb2apb/include/ahb2apb_async.svg",
     "de/amba_apb/atcdmac300/include",
     "de/amba_apb/ahb2apb/ahb2apb.md",
