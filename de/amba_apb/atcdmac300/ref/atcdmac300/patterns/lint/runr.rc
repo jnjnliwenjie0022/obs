@@ -1,0 +1,6 @@
+# NDS_AHB_MASTER_TASKS_DISABLE is to disable checking of ahb_master_tasks.svh which contains SystemVerilog syntax 
+
+# SPYGLASS has poor support for SystemVerilog.
+spyglass_ignore_modules = axi_master_*
+
+spyglass_set_option = mthresh=16384

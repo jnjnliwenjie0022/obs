@@ -1,0 +1,2 @@
+`undef WITH_COV
+`undef ATCBMC200_EXT_ENABLE   

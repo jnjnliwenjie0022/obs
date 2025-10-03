@@ -1,5 +1,0 @@
-# SPYGLASS has poor support for SystemVerilog.
-spyglass_ignore_modules = axi_master_*
-spyglass_ignore_files = $PVC_LOCALDIR/andes_vip/monitors/hdl/scb_pkg.sv
-
-spyglass_set_option = mthresh=16384

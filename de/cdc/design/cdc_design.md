@@ -6,6 +6,8 @@
 		- clk, resetn for tl domian
 		- clk_en unused
 	- async == 0
-		- aclk, aresetn unsed
+		- aclk, aresetn unused
 		- clk, resetn for tl domian
-		- clk_en for clock ration
+		- clk_en for clock ratio
+- CDC block diagram and signal
+	- ![[cdc_design_signal.svg]]

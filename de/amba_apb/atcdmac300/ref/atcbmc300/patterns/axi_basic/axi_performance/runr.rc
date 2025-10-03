@@ -1,8 +1,0 @@
-# Enable axi_master.pat.
-defines += NDS_AXI_MASTER_MODEL_PAT
-
-# Enable the performance test.
-defines += NDS_PERFORMANCE_TEST
-
-# Disable wait cycles in axi_slave_model.v
-defines += NDS_AXI_SLAVE_NO_WAIT_CYCLE

@@ -1,0 +1,5 @@
+
+defines += NDS_APB_MASTER_MODEL_PAT
+defines += NDS_AXI_SLAVE_MODEL_PAT
+
+plusargs+= +nc64bit

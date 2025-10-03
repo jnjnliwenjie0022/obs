@@ -1,0 +1,11 @@
+queue = off # queue name to submit jobs. "off" for local mode.
+ref = off
+hdl = yes
+keep_log = everything
+
+default_config = "" # provide empty default_config to disable soft_config expansion in lint_prepare_test_pattern
+
+prolog_cmd = lint_prepare_test_pattern
+epilog_cmd = lint_check_results
+hdl_cmd = run_lint -top-module atcdmac300 -lintTop system.dmac300 -f flist
+

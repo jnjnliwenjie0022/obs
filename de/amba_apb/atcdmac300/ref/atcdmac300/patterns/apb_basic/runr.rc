@@ -1,0 +1,5 @@
+
+#defines+=NDS_AXI_SLAVE_PAT
+defines+=NDS_SCOREBOARD_EN
+
+hdl_prolog_cmd = default_prepare_filelist blk_sys.f

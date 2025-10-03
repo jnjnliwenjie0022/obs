@@ -1,0 +1,5 @@
+#!/bin/sh
+echo 'Doing preconfig in ATCDMAC300'
+
+nds_softcore_specialize $NDS_HOME/nds_package/atcdmac300_preconfig.inc
+

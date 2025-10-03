@@ -1,0 +1,5 @@
+waive -file atcdmac300_aximst.v -rule W240 -msg "Input 'bid[2:0]' declared but not read.*"
+waive -file atcdmac300_aximst.v -rule W240 -msg "Input 'rid[2:0]' declared but not read.*"
+waive -file atcdmac300_apbslv.v -rule W240 -msg "Input 'paddr[31:9, 1:0]' declared but not read.*"
+
+waive -rule CMD_define02 -msg "Macro specification '+define+NDS_ROUND_NUM_50' not used in current run"

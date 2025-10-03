@@ -1,0 +1,102 @@
+// Random config for ATCDMAC300's blk_sys.
+
+class config_randomizer;
+
+	rand int unsigned		addr_width;	// 24 to 64.
+	rand int unsigned		data_width;	// 32, 64, 128 or 256.
+	rand bit [5:0]			fifo_depth;	// 4, 8, 16 or 32
+	rand bit [4:0]			req_ack_num;	// 1 to 16
+	rand bit [3:0]			ch_num;		// 1 to 8
+	rand int			error_probability;
+	rand bit			req_sync_support;
+	rand bit			chain_transfer_support;
+	rand bit			dual_master_if_support;
+	rand bit			dual_dma_core_support;
+	rand int unsigned		round_num;
+
+	constraint c_addr_width {
+		addr_width >= 24 && addr_width <= 64;
+	}
+
+	constraint c_data_width {
+		data_width inside {32, 64, 128, 256};
+	}
+
+	constraint c_round_num {
+		solve data_width before round_num;
+		if (data_width == 256) {
+			round_num == 30;
+		}
+		else {
+			round_num == 50;
+		}
+	}
+
+	constraint c_fifo_depth {
+		fifo_depth inside {4, 8, 16, 32};
+	}
+
+	constraint c_req_ack_num {
+		req_ack_num >= 2 && req_ack_num <= 16;
+	}
+
+	constraint c_ch_num {
+		ch_num >= 1 && ch_num <= 8;
+	}
+	
+	constraint c_error_probability {
+		error_probability dist {
+			0	:= 50,
+			4	:= 50
+		};
+	}
+
+	task gen_macro;
+
+		$write(
+			`DEF, "ATCDMAC300_CONFIG_VH",
+			`DEF, "NDS_ERROR_PROBABILITY=%0d", error_probability,
+			`DEF, "ATCDMAC300_ADDR_WIDTH=%0d", addr_width,
+			`DEF, "ATCDMAC300_DATA_WIDTH_%0d", data_width,
+			`DEF, "ATCDMAC300_FIFO_DEPTH_%0d", fifo_depth,
+			`DEF, "ATCDMAC300_REQ_ACK_NUM=%0d", req_ack_num,
+			`DEF, "ATCDMAC300_CH_NUM_%0d", ch_num,
+			`DEF, "NDS_ROUND_NUM_%0d", round_num,
+			//" +nc64bit",
+		);
+		`ifdef RCFG_DEBUG
+		`endif
+		
+		if(chain_transfer_support) begin
+			$write(
+				`DEF, "ATCDMAC300_CHAIN_TRANSFER_SUPPORT",
+			);
+		end
+
+		if(req_sync_support) begin
+			$write(
+				`DEF, "ATCDMAC300_REQ_SYNC_SUPPORT",
+			);
+		end
+
+		if(dual_master_if_support) begin
+			$write(
+				`DEF, "ATCDMAC300_DUAL_MASTER_IF_SUPPORT",
+			);
+		end
+
+		if(dual_dma_core_support) begin
+			$write(
+				`DEF, "ATCDMAC300_DUAL_DMA_CORE_SUPPORT",
+			);
+		end
+
+		`ifdef RCFG_DEBUG
+			// More debug info.
+			// `OFS,
+		`endif
+		$write("\n");
+	endtask
+endclass
+
+// vim: set filetype=systemverilog :

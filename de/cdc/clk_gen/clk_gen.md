@@ -62,14 +62,30 @@
 ```
 
 ## fpga
-### bufgce
 
 - 需要instance特殊的cell，全局時鐘緩衝
 	- CE=0，Q=0，否則Q=I
 ```verilog
-	BUFGCE	TL_UL_CLK_MUX_INST (
-		.I	(clk_temp		),
-		.CE	(1'b1			),
-		.O	(clk_out		)
-	);
+BUFGCE	TL_UL_CLK_MUX_INST (
+	.I	(clk_temp		),
+	.CE	(1'b1			),
+	.O	(clk_out		)
+);
+```
+
+- BUFGCTRL是保留所有PIN的Cell
+```verilog
+BUFGCTRL DEBUG_CLK_MUX_INST (
+	.I0      (fast_clk            ),
+	.I1      (slow_clk            ),
+	.CE0     (gen_debug_clkmux_en ),
+	.CE1     (gen_debug_clkmux_en ),
+	.S0      (~smu_core_clk_sel   ),
+	.S1      ( smu_core_clk_sel   ),
+	.IGNORE0 (1'b0                ),
+	.IGNORE1 (1'b0                ),
+	.O       (dm_clk              )
+);
+
+
 ```

@@ -1,0 +1,16 @@
+andes_ip/peripheral_ip/atcdmac300/hdl/atcdmac300.v
+andes_ip/peripheral_ip/atcdmac300/hdl/atcdmac300_apbslv.v
+andes_ip/peripheral_ip/atcdmac300/hdl/atcdmac300_arbiter.v
+andes_ip/peripheral_ip/atcdmac300/hdl/atcdmac300_aximst.v
+andes_ip/peripheral_ip/atcdmac300/hdl/atcdmac300_chmux.v
+andes_ip/peripheral_ip/atcdmac300/hdl/atcdmac300_engine.v
+andes_ip/peripheral_ip/atcdmac300/hdl/atcdmac300_fifo.v
+andes_ip/peripheral_ip/atcdmac300/hdl/atcdmac300_register.v
+andes_ip/peripheral_ip/atcdmac300/hdl/include/atcdmac300_config.vh
+andes_ip/peripheral_ip/atcdmac300/hdl/include/atcdmac300_const.vh
+andes_ip/peripheral_ip/atcdmac300/syn/atcdmac300.sdc
+andes_ip/peripheral_ip/atcdmac300/syn/flist.tcl
+products/atcdmac300/nds_package/run_test                 nds_package/run_test
+products/atcdmac300/nds_package/atcdmac300_preconfig.inc  nds_package/atcdmac300_preconfig.inc
+products/atcdmac300/nds_package/do_handover_preconfig    nds_package/do_handover_preconfig
+products/atcdmac300/nds_package/do_release_preconfig     nds_package/do_release_preconfig

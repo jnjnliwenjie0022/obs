@@ -1,0 +1,18 @@
+lint_checking designunit = atcdmac300_engine
+{
+	EXTSEQ { pattern = "Extraneous logic is present in the sequential portion of the FSM" } off;
+}
+
+# Ignored temporarily until we are going to do a new release.
+lint_checking designunit = atcdmac300_register
+{
+	VERCAS { pattern = "Identifier, label, instance, or module name 'ADDR_MSB' reused with a case difference" } off;
+}
+
+# Ignored temporarily until we are going to do a new release.
+lint_checking designunit = atcdmac300_engine
+{
+	URAREG { pattern = "Local register variable 'll_state_bus_inf' defined in module 'atcdmac300_engine' is unused" } off;
+}
+
+# vim: set textwidth=0 :

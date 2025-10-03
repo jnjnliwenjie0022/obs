@@ -1,5 +1,5 @@
 - APB Protocol
-	- ![[IHI0024C_amba_apb_protocol_v2_0_spec.pdf#page=18&rect=243,591,568,732|IHI0024C_amba_apb_protocol_v2_0_spec, p.18|500]]
-	- ![[IHI0024C_amba_apb_protocol_v2_0_spec.pdf#page=18&rect=189,473,569,561|IHI0024C_amba_apb_protocol_v2_0_spec, p.18|500]]
-- APB with CDC design
-	- ![[atcbmc300.svg]]
+	- ![[IHI0024C_amba_apb_protocol_v2_0_spec.pdf#page=18&rect=243,591,568,732|IHI0024C_amba_apb_protocol_v2_0_spec, p.18|1000]]
+	- ![[IHI0024C_amba_apb_protocol_v2_0_spec.pdf#page=18&rect=189,473,569,561|IHI0024C_amba_apb_protocol_v2_0_spec, p.18|1000]]
+- APB with sync(N:1)/async design
+	- ![[atcbmc300.svg|500]]

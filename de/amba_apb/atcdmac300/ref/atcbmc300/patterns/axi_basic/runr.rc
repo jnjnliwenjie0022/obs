@@ -1,4 +1,0 @@
-
-defines += NDS_SCOREBOARD_EN NO_AXI_GEN_PACKET
-
-plusargs = +nc64bit
