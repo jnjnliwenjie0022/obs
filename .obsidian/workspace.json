@@ -167,7 +167,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 346.5
+    "width": 346.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -184,7 +185,7 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "601c80ecac26546c",
+  "active": "a76c621887185b65",
   "lastOpenFiles": [
     "conflict-files-obsidian-git.md",
     "de/amba_apb/atcdmac300/atcdmac300.md",
