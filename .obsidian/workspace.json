@@ -14,16 +14,27 @@
               "type": "pdf",
               "state": {
                 "file": "de/amba_apb/ahb2apb/ref/IHI0024C_amba_apb_protocol_v2_0_spec.pdf",
-                "page": 17,
-                "left": -1,
-                "top": 609,
-                "zoom": 1.800755033557047
+                "page": 1,
+                "zoom": 1
               },
               "icon": "lucide-file-text",
               "title": "IHI0024C_amba_apb_protocol_v2_0_spec"
             }
+          },
+          {
+            "id": "b9451d306ec71034",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.9.14"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.9.14"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -186,7 +197,7 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "a76c621887185b65",
+  "active": "b9451d306ec71034",
   "lastOpenFiles": [
     "de/amba_apb/ahb2apb/ahb2apb.md",
     "de/amba_apb/ahb2apb/ref/IHI0024C_amba_apb_protocol_v2_0_spec.pdf",
