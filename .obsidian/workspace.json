@@ -187,6 +187,7 @@
   },
   "active": "a76c621887185b65",
   "lastOpenFiles": [
+    "de/design_spec/include/fctrl.svg",
     "de/design_spec/include/fctrl_cdc.svg",
     "de/design_spec/include/pipeline - Copy.svg",
     "de/fpu/include_f16dsu/valid_pd_diagram.svg",
@@ -217,7 +218,6 @@
     "de/cdc/design/include/cdc_design_signal.svg",
     "de/cdc/design/include/cdc_design.svg",
     "de/amba_apb/ahb2apb/include/ahb2apb_async.svg",
-    "de/amba_apb/ahb2apb/include/ahb2apb_async_detail.svg",
     "de/ahb2apb/ahb2apb.md",
     "de/amba_apb/apb.md",
     "de/amba_ahb/ahb.md",
