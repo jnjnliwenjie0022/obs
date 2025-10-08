@@ -11,30 +11,18 @@
             "id": "a76c621887185b65",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "de/amba_apb/ahb2apb/ref/IHI0024C_amba_apb_protocol_v2_0_spec.pdf",
-                "page": 1,
-                "zoom": 1
+                "file": "de/design_spec/fctrl.md",
+                "mode": "preview",
+                "source": false,
+                "backlinks": false
               },
-              "icon": "lucide-file-text",
-              "title": "IHI0024C_amba_apb_protocol_v2_0_spec"
-            }
-          },
-          {
-            "id": "b9451d306ec71034",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.9.14"
-              },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.9.14"
+              "icon": "lucide-file",
+              "title": "fctrl"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -197,14 +185,16 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "b9451d306ec71034",
+  "active": "a76c621887185b65",
   "lastOpenFiles": [
+    "de/fpu/include_f16dsu/valid_pd_diagram.svg",
+    "de/fifo/include/fifo.svg",
+    "de/fifo/fifo.md",
+    "de/amba_apb/ahb2apb/ref/IHI0024C_amba_apb_protocol_v2_0_spec.pdf",
     "conflict-files-obsidian-git.md",
     "de/amba_apb/ahb2apb/ahb2apb.md",
-    "de/amba_apb/ahb2apb/ref/IHI0024C_amba_apb_protocol_v2_0_spec.pdf",
     "de/amba_apb/atcdmac300/atcdmac300.md",
     "de/cdc/clk_gen/clk_gen.md",
-    "de/fifo/fifo.md",
     "de/backend/backend.md",
     "de/cim/analysis.md",
     "Pasted image 20251003113443.png",
@@ -233,7 +223,6 @@
     "de/amba_ahb/ahb.md",
     "workflow/git/git.md",
     "de/power/gck/gck.md",
-    "de/cdc/design/include/design.svg",
     "de/cdc/clk_gen/ref/Untitled.md",
     "de/cdc/clk_gen/Untitled.md",
     "de/amba_axi/request_attribute.md",
