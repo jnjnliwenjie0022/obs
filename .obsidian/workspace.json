@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "de/design_spec/fctrl.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false,
                 "backlinks": false
               },
@@ -187,6 +187,8 @@
   },
   "active": "a76c621887185b65",
   "lastOpenFiles": [
+    "de/design_spec/include/fctrl_cdc.svg",
+    "de/design_spec/include/pipeline - Copy.svg",
     "de/fpu/include_f16dsu/valid_pd_diagram.svg",
     "de/fifo/include/fifo.svg",
     "de/fifo/fifo.md",
@@ -217,9 +219,7 @@
     "de/amba_apb/ahb2apb/include/ahb2apb_async.svg",
     "de/amba_apb/ahb2apb/include/ahb2apb_async_detail.svg",
     "de/ahb2apb/ahb2apb.md",
-    "de/ahb2apb/include/ahb2apb_async.svg",
     "de/amba_apb/apb.md",
-    "de/amba_apb/include/cdc_design.svg",
     "de/amba_ahb/ahb.md",
     "workflow/git/git.md",
     "de/power/gck/gck.md",
