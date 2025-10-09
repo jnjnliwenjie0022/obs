@@ -143,13 +143,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "de/amba_apb/ahb2apb/ref/IHI0024C_amba_apb_protocol_v2_0_spec.pdf",
+                "file": "de/power/genus/genus.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of IHI0024C_amba_apb_protocol_v2_0_spec"
+              "title": "Outline of genus"
             }
           },
           {
@@ -163,7 +163,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -185,7 +185,7 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "35a470a2c390e07e",
+  "active": "a76c621887185b65",
   "lastOpenFiles": [
     "de/backend/ref/US12190110.pdf",
     "de/backend/backend.md",
