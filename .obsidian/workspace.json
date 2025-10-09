@@ -11,15 +11,16 @@
             "id": "a76c621887185b65",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "de/power/sdpd/power.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
+                "file": "de/backend/ref/US12190110.pdf",
+                "page": 1,
+                "left": -6,
+                "top": 543,
+                "zoom": 2.343137254901961
               },
-              "icon": "lucide-file",
-              "title": "power"
+              "icon": "lucide-file-text",
+              "title": "US12190110"
             }
           }
         ]
@@ -79,7 +80,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 481.5
+    "width": 481.5,
+    "collapsed": true
   },
   "right": {
     "id": "baf9c43aba40b294",
@@ -187,6 +189,13 @@
   },
   "active": "a76c621887185b65",
   "lastOpenFiles": [
+    "de/backend/backend.md",
+    "de/backend/include/Pasted image 20250919171901.png",
+    "de/backend/ref/US12190110.pdf",
+    "de/backend/ir/ref",
+    "de/backend/ir",
+    "de/backend/include/Pasted image 20250919153321.png",
+    "de/power/sdpd/power.md",
     "de/design_spec/fctrl.md",
     "de/design_spec/include/fctrl.svg",
     "de/design_spec/include/fctrl_cdc.svg",
@@ -199,7 +208,6 @@
     "de/amba_apb/ahb2apb/ahb2apb.md",
     "de/amba_apb/atcdmac300/atcdmac300.md",
     "de/cdc/clk_gen/clk_gen.md",
-    "de/backend/backend.md",
     "de/cim/analysis.md",
     "Pasted image 20251003113443.png",
     "de/cim/cim.md",
@@ -211,13 +219,8 @@
     "de/amba_apb/atcdmac300/ref/atcdmac300/patterns/apb_basic/apb_all/apb_master.pat",
     "de/amba_apb/atcdmac300/ref/atcdmac300/patterns/lint/normal_config/runr.rc",
     "de/amba_apb/atcdmac300/ref/atcdmac300/patterns/lint/normal_config/spyglass.swl",
-    "de/amba_apb/atcdmac300/ref/atcdmac300/patterns/lint/normal_config/waiver.list",
-    "de/amba_apb/atcdmac300/ref/atcdmac300/patterns/lint/normal_config/filter.flt",
-    "de/amba_apb/atcdmac300/ref/atcdmac300/patterns/lint/normal_config/design_info.txt",
     "de/design_spec/lint_rule.md",
     "de/cdc/design/cdc_design.md",
-    "de/cdc/design/include/cdc_design_signal.svg",
-    "de/cdc/design/include/cdc_design.svg",
     "de/ahb2apb/ahb2apb.md",
     "de/amba_apb/apb.md",
     "de/amba_ahb/ahb.md",
@@ -229,9 +232,7 @@
     "de/amba_axi/axi.md",
     "de/cdc/sync_reset/Untitled.md",
     "de/power/sdpd/sdpd.md",
-    "de/power/sdpd/power.md",
     "de/ram/ram.md",
-    "de/design_spec/rule.md",
-    "de/design_spec/verilog.md"
+    "de/design_spec/rule.md"
   ]
 }
