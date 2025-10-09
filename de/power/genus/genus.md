@@ -47,7 +47,7 @@
 - 結論1: 
 	- 有沒有下write_tcf -computed, 只是report的方式不同而已，在Genus的Power中，都將Unasserted的部分推估成100%，只是寫出來的Annoation有沒有回報而已，Power Consumption結果完全一樣
 - 結論2: 
-	- Input / Memory / Flop 在 unasserted 下，defualt toggle rate 是 2%
+	- Input / Memory / Flop 在 unasserted 下，defualt toggle rate 是 2%， 且為“1”的幾率是50%
 	- Driver nets / RTL Driver nets / Outputs 在 unasserted下，會 propagate 計算
 	- Outputs 如果前級為Flop則會 unasserted
 - ![[Pasted image 20250822171824.png]]
