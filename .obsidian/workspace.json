@@ -11,16 +11,15 @@
             "id": "a76c621887185b65",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "de/backend/ref/US12190110.pdf",
-                "page": 1,
-                "left": -6,
-                "top": 543,
-                "zoom": 2.343137254901961
+                "file": "de/power/genus/genus.md",
+                "mode": "preview",
+                "source": false,
+                "backlinks": false
               },
-              "icon": "lucide-file-text",
-              "title": "US12190110"
+              "icon": "lucide-file",
+              "title": "genus"
             }
           }
         ]
@@ -55,7 +54,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tcf",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -80,8 +79,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 481.5,
-    "collapsed": true
+    "width": 481.5
   },
   "right": {
     "id": "baf9c43aba40b294",
@@ -187,11 +185,11 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "a76c621887185b65",
+  "active": "35a470a2c390e07e",
   "lastOpenFiles": [
+    "de/backend/ref/US12190110.pdf",
     "de/backend/backend.md",
     "de/backend/include/Pasted image 20250919171901.png",
-    "de/backend/ref/US12190110.pdf",
     "de/backend/ir/ref",
     "de/backend/ir",
     "de/backend/include/Pasted image 20250919153321.png",
