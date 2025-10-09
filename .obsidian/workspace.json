@@ -4,22 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "b90cfba0e75b0e84",
+        "id": "88e234b1a86cf01d",
         "type": "tabs",
         "children": [
           {
-            "id": "a76c621887185b65",
+            "id": "8e0210aa4bd02dd0",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "de/amba_apb/ahb2apb/ahb2apb.md",
-                "mode": "preview",
-                "source": false,
-                "backlinks": false
+                "file": "de/amba_apb/ahb2apb/ref/IHI0024E_amba_apb_architecture_spec.pdf",
+                "page": 1,
+                "zoom": 1
               },
-              "icon": "lucide-file",
-              "title": "ahb2apb"
+              "icon": "lucide-file-text",
+              "title": "IHI0024E_amba_apb_architecture_spec"
             }
           }
         ]
@@ -54,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tcf",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -143,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "de/amba_apb/ahb2apb/ahb2apb.md",
+                "file": "de/amba_apb/ahb2apb.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -153,7 +152,7 @@
             }
           },
           {
-            "id": "601c80ecac26546c",
+            "id": "eb0995a0769ace51",
             "type": "leaf",
             "state": {
               "type": "git-history-view",
@@ -185,53 +184,52 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "35a470a2c390e07e",
+  "active": "8e0210aa4bd02dd0",
   "lastOpenFiles": [
-    "de/amba_apb/atcdmac300/ref/macro/nds_sync_p2p_data.v",
+    "language/ipa/ipa.md",
+    "de/design_spec/include/fctrl.svg",
+    "de/backend/ref/US12190110.pdf",
     "de/amba_apb/atcdmac300/ref/macro/nds_sync_p2p.v",
+    "de/amba_apb/atcdmac300/ref/macro/nds_sync_p2p_data.v",
     "de/amba_apb/atcdmac300/ref/macro/nds_sync_l2l.v",
+    "de/amba_apb/atcdmac300/ref/macro/nds_sync_fifo_afe_clr.v",
     "de/amba_apb/atcdmac300/ref/macro/nds_sync_fifo_ll.v",
+    "de/amba_apb/atcdmac300/ref/macro/nds_lib.v",
+    "de/amba_apb/atcdmac300/ref/macro/nds_sync_fifo_afe.v",
     "de/amba_apb/atcdmac300/ref/macro/nds_sync_fifo_data.v",
     "de/amba_apb/atcdmac300/ref/macro/nds_sync_fifo_clr.v",
-    "de/amba_apb/atcdmac300/ref/macro/nds_sync_fifo_afe_clr.v",
-    "de/amba_apb/atcdmac300/ref/macro/nds_sync_fifo_afe.v",
-    "de/amba_apb/atcdmac300/ref/macro/nds_lib.v",
-    "de/amba_apb/atcdmac300/ref/macro/nds_async_fifo_clr.v",
-    "de/amba_apb/atcdmac300/ref/macro/nds_async_fifo_afe.v",
-    "de/power/genus/genus.md",
-    "de/backend/backend.md",
-    "de/backend/include/Pasted image 20250919171901.png",
-    "de/backend/include/Pasted image 20250919153321.png",
-    "de/power/sdpd/power.md",
-    "de/design_spec/fctrl.md",
-    "de/design_spec/include/fctrl.svg",
-    "de/design_spec/include/fctrl_cdc.svg",
-    "de/design_spec/include/pipeline - Copy.svg",
-    "de/fpu/include_f16dsu/valid_pd_diagram.svg",
-    "de/fifo/include/fifo.svg",
-    "de/fifo/fifo.md",
-    "conflict-files-obsidian-git.md",
-    "de/amba_apb/ahb2apb/ahb2apb.md",
-    "de/amba_apb/atcdmac300/atcdmac300.md",
-    "de/cdc/clk_gen/clk_gen.md",
-    "de/cim/analysis.md",
-    "Pasted image 20251003113443.png",
-    "de/cim/cim.md",
+    "de/tilelink/tilelink.md",
     "de/cim/include/Pasted image 20251003111225.png",
+    "de/cim/analysis.md",
+    "de/cdc/design/include/cdc_design_signal.svg",
+    "Pasted image 20251003113443.png",
     "de/amba_apb/atcdmac300/include/atcbmc300.svg",
-    "de/design_spec/lint_rule.md",
+    "de/amba_apb/atcdmac300/atcdmac300.md",
+    "de/amba_apb/ahb2apb/ahb2apb.md",
+    "de/amba_apb/ahb2apb.md",
+    "de/amba_apb/ahb2apb/include/ahb2apb_async_detail.svg",
+    "de/amba_apb/ahb2apb/include/ahb2apb_async.svg",
     "de/cdc/design/cdc_design.md",
-    "de/ahb2apb/ahb2apb.md",
-    "de/amba_apb/apb.md",
+    "de/amba_apb/include/ahb2apb_async_detail.svg",
+    "de/amba_apb/include/ahb2apb_async.svg",
     "de/amba_ahb/ahb.md",
-    "workflow/git/git.md",
-    "de/power/gck/gck.md",
-    "de/cdc/clk_gen/ref/Untitled.md",
-    "de/cdc/clk_gen/Untitled.md",
-    "de/amba_axi/request_attribute.md",
+    "de/cdc/design/include/cdc_design.svg",
     "de/amba_axi/axi.md",
+    "de/cdc/sync_or_async_clk/sync_or_async_clk.md",
+    "de/cdc/clk_gen/clk_gen.md",
     "de/cdc/sync_reset/Untitled.md",
     "de/power/sdpd/sdpd.md",
-    "de/ram/ram.md"
+    "de/power/sdpd/power.md",
+    "de/ram/ram.md",
+    "de/ahb2apb/ahb2apb.md",
+    "de/backend/backend.md",
+    "de/amba_axi/request_attribute.md",
+    "de/design_spec/rule.md",
+    "de/design_spec/verilog.md",
+    "de/_unorganized/cosim.md",
+    "CV.md",
+    "de/apr/m2p_congestion.md",
+    "de/design_spec/lint_rule.md",
+    "de/design_spec/fctrl.md"
   ]
 }
