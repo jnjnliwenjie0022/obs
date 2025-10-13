@@ -1,0 +1,7 @@
+#!/bin/sh
+
+rm preconfig.inc -f
+echo "\`undef OVL_ASSERT_ON" >> preconfig.inc
+echo "\`undef BUS_UNKNOWN_DRIVER" >> preconfig.inc
+nds_softcore_specialize preconfig.inc
+rm preconfig.inc -f

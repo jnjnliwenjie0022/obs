@@ -1,0 +1,13 @@
+#!/bin/sh
+
+# reference $PVC_LOCALIDR/products/ae210p/nds_package/run_test 
+
+case $WANTED_PRODUCT in
+	#"")		PROUDCT_TYPE="platform";;	# used in test handover
+	"atcsizedn500")	PROUDCT_TYPE="platform";;
+esac
+
+echo '+----------------------------------------------------------------+'
+echo '| run_test does not simulate any pattern when sub-IP is released |'
+echo '+----------------------------------------------------------------+'
+touch qa.log

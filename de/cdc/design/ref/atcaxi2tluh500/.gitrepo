@@ -1,0 +1,12 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = ngit@gitea:RD-VLSI/atcaxi2tluh500.git
+	branch = master
+	commit = 5b05fefc4d3ba8a6430f6c1459e2a4cdb162658a
+	parent = d01b474590c30da2fb00e0107bf1fbbd051adfbd
+	method = merge
+	cmdver = 0.4.3
