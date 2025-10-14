@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "workflow/tnv.md",
+                "file": "workflow/neovide.md",
                 "mode": "preview",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "tnv"
+              "title": "neovide"
             }
           }
         ]
@@ -143,13 +143,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "workflow/tnv.md",
+                "file": "workflow/neovide.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of tnv"
+              "title": "Outline of neovide"
             }
           },
           {
@@ -187,6 +187,7 @@
   "active": "a76c621887185b65",
   "lastOpenFiles": [
     "workflow/capslock2ctrl.md",
+    "workflow/tnv.md",
     "workflow/bypass_paywall.md",
     "workflow/eda.md",
     "workflow/eizo.md",
@@ -195,7 +196,6 @@
     "workflow/neovide.md",
     "workflow/nvim.md",
     "workflow/tmux.md",
-    "workflow/tnv.md",
     "de/amba_apb/ahb2apb/ahb2apb.md",
     "de/cdc/design/ref/atcaxi2tluh500/syn/flist.tcl",
     "de/cdc/design/ref/atcaxi2tluh500/syn/atcaxi2tluh500.sdc",
