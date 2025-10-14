@@ -11,15 +11,12 @@
             "id": "a76c621887185b65",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "de/design_spec/lint_rule.md",
-                "mode": "preview",
-                "source": false,
-                "backlinks": false
+                "file": "de/design_spec/include/fctrl.svg"
               },
-              "icon": "lucide-file",
-              "title": "lint_rule"
+              "icon": "lucide-image",
+              "title": "fctrl"
             }
           }
         ]
@@ -79,8 +76,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 481.5,
-    "collapsed": true
+    "width": 481.5
   },
   "right": {
     "id": "baf9c43aba40b294",
@@ -144,13 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "de/design_spec/lint_rule.md",
+                "file": "de/design_spec/include/fctrl.svg",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of lint_rule"
+              "title": "Outline of fctrl"
             }
           },
           {
@@ -168,7 +164,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 346.5
+    "width": 346.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -187,9 +184,13 @@
   },
   "active": "a76c621887185b65",
   "lastOpenFiles": [
+    "workflow/mobaxterm.md",
+    "workflow/ref/eda_3.pdf",
+    "workflow/tnv.md",
+    "workflow/ref/Untitled",
+    "de/design_spec/lint_rule.md",
     "workflow/neovide.md",
     "workflow/capslock2ctrl.md",
-    "workflow/tnv.md",
     "workflow/bypass_paywall.md",
     "workflow/eda.md",
     "workflow/eizo.md",
@@ -206,8 +207,6 @@
     "de/cdc/design/ref/atcaxi2tluh500/nds_package/do_release_preconfig",
     "de/cdc/design/ref/atcaxi2tluh500/nds_package/atcaxi2tluh500.release",
     "de/cdc/design/ref/atcaxi2tluh500/nds_package/atcaxi2tluh500.mapping",
-    "de/cdc/design/ref/atcaxi2tluh500/nds_package",
-    "de/cdc/design/ref/atcaxi2tluh500/hdl/atcaxi2tluh500_zero_ext.v",
     "de/power/genus/genus.md",
     "de/backend/backend.md",
     "de/backend/include/Pasted image 20250919171901.png",
@@ -228,10 +227,7 @@
     "de/cim/cim.md",
     "de/cim/include/Pasted image 20251003111225.png",
     "de/amba_apb/atcdmac300/include/atcbmc300.svg",
-    "de/design_spec/lint_rule.md",
     "de/cdc/design/cdc_design.md",
-    "de/ahb2apb/ahb2apb.md",
-    "de/amba_apb/apb.md",
-    "de/amba_ahb/ahb.md"
+    "de/ahb2apb/ahb2apb.md"
   ]
 }
