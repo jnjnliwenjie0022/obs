@@ -21,18 +21,6 @@
               "icon": "lucide-file",
               "title": "sync_resetn"
             }
-          },
-          {
-            "id": "17241c7dc07acd0a",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "de/platform_clk_resetn_gen/sync_resetn/include/resetn_design.svg"
-              },
-              "icon": "lucide-image",
-              "title": "resetn_design"
-            }
           }
         ]
       }
@@ -199,9 +187,9 @@
   },
   "active": "a76c621887185b65",
   "lastOpenFiles": [
-    "de/platform_clk_resetn_gen/sync_resetn/include/resetn_design.svg",
-    "de/platform_clk_resetn_gen/sync_resetn/sync_resetn.md",
     "de/platform_clk_resetn_gen/sync_resetn/include/resetn_tree.svg",
+    "de/platform_clk_resetn_gen/sync_resetn/sync_resetn.md",
+    "de/platform_clk_resetn_gen/sync_resetn/include/resetn_design.svg",
     "workflow/rime.md",
     "de/platform_clk_resetn_gen/sync_resetn/ref/nds_rst_sync.v",
     "de/platform_clk_rst_gen/sync_rst/ref/新增 Text Document.txt",

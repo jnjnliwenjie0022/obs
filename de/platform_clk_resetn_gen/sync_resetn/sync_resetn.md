@@ -4,3 +4,8 @@
 		- 確保進入reset的時候, 在所有clock domain下都是同時且瞬間
 		- PLL可能還沒有開始,這個方法可以避免需要clock的問題
 	- sync deassert: 確保脫離reset的時候, 是基於clk, 並使用syncer處理亞穩態
+- ![[resetn_tree.svg]]
+- Arch1:
+	- 
+- method2:
+- 
