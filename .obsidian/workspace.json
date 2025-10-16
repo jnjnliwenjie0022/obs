@@ -11,15 +11,12 @@
             "id": "a76c621887185b65",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "de/platform_clk_resetn_gen/sync_resetn/sync_resetn.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
+                "file": "de/platform_clk_resetn_gen/sync_resetn/include/resetn_tree.svg"
               },
-              "icon": "lucide-file",
-              "title": "sync_resetn"
+              "icon": "lucide-image",
+              "title": "resetn_tree"
             }
           }
         ]
@@ -185,11 +182,12 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "a76c621887185b65",
+  "active": "35a470a2c390e07e",
   "lastOpenFiles": [
-    "workflow/rime.md",
     "de/platform_clk_resetn_gen/sync_resetn/sync_resetn.md",
-    "de/platform_clk_resetn_gen/sync_resetn/include/sync_resetn.svg",
+    "de/platform_clk_resetn_gen/sync_resetn/include/resetn_tree.svg",
+    "workflow/rime.md",
+    "de/platform_clk_resetn_gen/sync_resetn/include/resetn_design.svg",
     "de/platform_clk_resetn_gen/sync_resetn/ref/nds_rst_sync.v",
     "de/platform_clk_rst_gen/sync_rst/ref/新增 Text Document.txt",
     "de/platform_clk_resetn_gen/sync_resetn/ref",
@@ -230,7 +228,6 @@
     "conflict-files-obsidian-git.md",
     "de/amba_apb/atcdmac300/atcdmac300.md",
     "de/cdc/clk_gen/clk_gen.md",
-    "de/cim/analysis.md",
-    "Pasted image 20251003113443.png"
+    "de/cim/analysis.md"
   ]
 }

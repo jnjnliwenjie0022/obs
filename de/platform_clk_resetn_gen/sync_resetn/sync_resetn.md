@@ -1,9 +1,13 @@
-- ![[sync_resetn.svg|1000]]
+- ![[resetn_design.svg|1000]]
 - sync_resetn特性
 	- async assert:
 		- 確保進入reset的時候, 在所有clock domain下都是同時且瞬間
 		- PLL可能還沒有開始,這個方法可以避免需要clock的問題
 	- sync deassert: 確保脫離reset的時候, 是基於clk, 並使用syncer處理亞穩態
 - gen_resetn
-	- o_resetn: 所有resetn的宇集合
-	- o_casc_resetn: 
+	- o_resetn:
+		- 所有resetn的宇集合
+		- 有test_mode
+	- o_casc_resetn:
+		- 只針對特定的resetn
+		- 沒有test_mode
