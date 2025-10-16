@@ -13,16 +13,29 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "de/platform_clk_rst_gen/sync_rst/sync_rst.md",
+                "file": "de/platform_clk_resetn_gen/sync_resetn/sync_resetn.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "sync_rst"
+              "title": "sync_resetn"
+            }
+          },
+          {
+            "id": "1730dfa1d240925d",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "de/platform_clk_resetn_gen/sync_resetn/include/sync_resetn.svg"
+              },
+              "icon": "lucide-image",
+              "title": "sync_resetn"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -185,26 +198,25 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "a76c621887185b65",
+  "active": "1730dfa1d240925d",
   "lastOpenFiles": [
-    "de/platform_clk_rst_gen/sync_rst/ref/nds_rst_sync.v",
+    "de/platform_clk_resetn_gen/sync_resetn/sync_resetn.md",
+    "de/platform_clk_resetn_gen/sync_resetn/ref/nds_rst_sync.v",
     "de/platform_clk_rst_gen/sync_rst/ref/新增 Text Document.txt",
-    "de/platform_clk_rst_gen/sync_rst/ref",
+    "de/platform_clk_resetn_gen/sync_resetn/ref",
     "de/platform_clk_rst_gen/sync_rst/新增資料夾",
-    "de/platform_clk_rst_gen/sync_rst/include/sync_rst.svg",
+    "de/platform_clk_resetn_gen/sync_resetn/include/sync_resetn.svg",
     "de/platform_clk_rst_gen/sync_rst/include/cdc_design.svg",
-    "de/platform_clk_rst_gen/sync_rst/include",
+    "de/platform_clk_resetn_gen/sync_resetn/include",
     "workflow/rime.md",
-    "de/platform_clk_rst_gen/sync_rst/sync_rst.md",
     "de/design_spec/include/fctrl.svg",
-    "de/platform_clk_rst_gen/sync_rst",
-    "de/platform_clk_rst_gen",
+    "de/platform_clk_resetn_gen/sync_resetn",
+    "de/platform_clk_resetn_gen",
     "workflow/autohotkey/ref/keybinding.ahk",
     "workflow/autohotkey/ref",
     "workflow/autohotkey/autohotkey.md",
     "workflow/autohotkey",
     "workflow/mobaxterm.md",
-    "workflow/ref/eda_3.pdf",
     "workflow/tnv.md",
     "de/design_spec/lint_rule.md",
     "workflow/neovide.md",
