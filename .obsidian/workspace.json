@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "de/platform_clk_resetn_gen/sync_resetn/sync_resetn.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false,
                 "backlinks": false
               },
@@ -79,7 +79,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 481.5
+    "width": 481.5,
+    "collapsed": true
   },
   "right": {
     "id": "baf9c43aba40b294",
@@ -185,7 +186,7 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "35a470a2c390e07e",
+  "active": "a76c621887185b65",
   "lastOpenFiles": [
     "de/platform_clk_resetn_gen/platform_resetn/ref/sample_ae350_rstgen.v",
     "de/platform_clk_resetn_gen/platform_resetn/ref",
