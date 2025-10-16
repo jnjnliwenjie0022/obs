@@ -8,5 +8,10 @@
 - Arch1:
 	- async assert:
 		- resetn->a_resetn
+		- resetn->b_resetn
+		- resetn->c_resetn
+	- sycn deassert:
+		- resetn, aclk -> a_resetn
+		- aresetn, bclk -> c_resetn
 - method2:
 - 
