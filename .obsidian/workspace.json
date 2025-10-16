@@ -11,12 +11,15 @@
             "id": "aa5b9c54a5cac8c4",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "de/platform_clk_resetn_gen/platform_resetn/include/pcs2_aopd_rstgen.svg"
+                "file": "de/platform_clk_resetn_gen/sync_resetn/sync_resetn.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
               },
-              "icon": "lucide-image",
-              "title": "pcs2_aopd_rstgen"
+              "icon": "lucide-file",
+              "title": "sync_resetn"
             }
           }
         ]
@@ -194,8 +197,9 @@
   },
   "active": "aa5b9c54a5cac8c4",
   "lastOpenFiles": [
-    "de/platform_clk_resetn_gen/platform_resetn/include/pcs0_aopd_rstgen.svg",
     "de/platform_clk_resetn_gen/platform_resetn/platform_resetn.md",
+    "de/platform_clk_resetn_gen/platform_resetn/include/pcs2_aopd_rstgen.svg",
+    "de/platform_clk_resetn_gen/platform_resetn/include/pcs0_aopd_rstgen.svg",
     "workflow/autohotkey/autohotkey.md",
     "workflow/rime.md",
     "de/platform_clk_resetn_gen/sync_resetn/ref/nds_rst_sync.v",
@@ -204,7 +208,6 @@
     "de/platform_clk_resetn_gen/platform_resetn/ref/sample_ae350_aopd_rstgen.v",
     "de/platform_clk_resetn_gen/sync_resetn/include/resetn_tree.svg",
     "de/platform_clk_resetn_gen/sync_resetn/include/resetn_design.svg",
-    "de/platform_clk_resetn_gen/platform_resetn/include/pcs2_aopd_rstgen.svg",
     "de/platform_clk_resetn_gen/sync_resetn/ref",
     "de/platform_clk_resetn_gen/sync_resetn/sync_resetn.md",
     "de/platform_clk_resetn_gen/platform_resetn/ref",
