@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "de/clock/platform_clk_gen/platform_clk_gen.md",
+                "file": "workflow/rime.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "platform_clk_gen"
+              "title": "rime"
             }
           }
         ]
@@ -185,10 +185,11 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "35a470a2c390e07e",
+  "active": "a76c621887185b65",
   "lastOpenFiles": [
-    "de/design_spec/include/fctrl.svg",
     "de/clock/platform_clk_gen/platform_clk_gen.md",
+    "workflow/rime.md",
+    "de/design_spec/include/fctrl.svg",
     "de/clock/platform_clk_gen",
     "de/clock",
     "workflow/autohotkey/ref/keybinding.ahk",

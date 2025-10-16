@@ -1,0 +1,2 @@
+- ref: https://sh.alynx.one/posts/My-RIME/
+- window config path: C:\Users\USERNAME\AppData\Roaming\Rime\
