@@ -6,6 +6,7 @@
 	- sync deassert: 確保脫離reset的時候, 是基於clk, 並使用syncer處理亞穩態
 - ![[resetn_tree.svg]]
 - Arch1:
-	- 
+	- async assert:
+		- resetn->a_resetn
 - method2:
 - 
