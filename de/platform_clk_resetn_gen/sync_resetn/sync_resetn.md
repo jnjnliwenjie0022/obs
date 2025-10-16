@@ -1,1 +1,5 @@
-![[sync_resetn.svg|1000]]
+- ![[sync_resetn.svg|1000]]
+- sync_resetn特性
+	- async assert：
+	- sync deassert
+	- 
