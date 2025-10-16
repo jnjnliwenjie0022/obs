@@ -1,0 +1,1 @@
+取消Hotkeys: Execute a macro

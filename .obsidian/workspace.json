@@ -163,14 +163,23 @@
               "icon": "history",
               "title": "History"
             }
+          },
+          {
+            "id": "b38429274462f125",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 346.5,
-    "collapsed": true
+    "width": 346.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -187,8 +196,12 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "aa5b9c54a5cac8c4",
+  "active": "b38429274462f125",
   "lastOpenFiles": [
+    "de/backend/ref/US12190110.pdf",
+    "conflict-files-obsidian-git.md",
+    "de/design_spec/lint_rule.md",
+    "workflow/mobaxterm.md",
     "de/amba_apb/ahb2apb/ahb2apb.md",
     "de/cdc/design/ref/atcaxi2tluh500/nds_package/run_test",
     "de/cdc/design/ref/atcaxi2tluh500/nds_package/do_signoff_preconfig",
@@ -230,9 +243,6 @@
     "de/design_spec/rule.md",
     "de/design_spec/verilog.md",
     "de/_unorganized/cosim.md",
-    "CV.md",
-    "de/apr/m2p_congestion.md",
-    "de/design_spec/lint_rule.md",
-    "de/design_spec/fctrl.md"
+    "CV.md"
   ]
 }
