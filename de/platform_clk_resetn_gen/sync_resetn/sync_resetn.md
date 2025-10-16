@@ -2,7 +2,7 @@
 - sync_resetn特性
 	- async assert:
 		- 確保進入reset的時候, 在所有clock domain下都是同時且瞬間
-		- PLL可能還沒有開始,這個方法可以避免需要clock的問題
+		- PLL可能還沒有開始,這個方法可以避免需要clock的問題,clock與assert resetn無關
 	- sync deassert: 確保脫離reset的時候, 是基於clk, 並使用syncer處理亞穩態
 - ![[resetn_tree.svg]]
 - Arch1:
@@ -21,5 +21,5 @@
 		- resetn ->a_resetn
 	- sycn deassert:
 		- {resetn, a_clk} -> a_resetn
-		- {a_resetn, b_clk} -> b_resetn
-		- {b_resetn, c_clk} -> c_resetn
+		- {a_resetn & a1_resetn, b_clk} -> b_resetn
+		- {b_resetn & b1_resetn, c_clk} -> c_resetn
