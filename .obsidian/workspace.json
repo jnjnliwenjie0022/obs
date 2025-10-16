@@ -185,8 +185,9 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "a76c621887185b65",
+  "active": "35a470a2c390e07e",
   "lastOpenFiles": [
+    "de/platform_clk_resetn_gen/sync_resetn/ref/rst_sync.v",
     "de/platform_clk_resetn_gen/sync_resetn/include/resetn_tree.svg",
     "de/platform_clk_resetn_gen/sync_resetn/sync_resetn.md",
     "de/platform_clk_resetn_gen/sync_resetn/include/resetn_design.svg",
