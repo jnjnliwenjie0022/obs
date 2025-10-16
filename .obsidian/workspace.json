@@ -13,10 +13,10 @@
             "state": {
               "type": "image",
               "state": {
-                "file": "de/platform_clk_resetn_gen/platform_resetn/include/pcs0_aopd_rstgen.svg"
+                "file": "de/platform_clk_resetn_gen/platform_resetn/include/pcs2_aopd_rstgen.svg"
               },
               "icon": "lucide-image",
-              "title": "pcs0_aopd_rstgen"
+              "title": "pcs2_aopd_rstgen"
             }
           }
         ]
@@ -182,12 +182,13 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "a76c621887185b65",
+  "active": "35a470a2c390e07e",
   "lastOpenFiles": [
+    "de/platform_clk_resetn_gen/platform_resetn/include/pcs0_aopd_rstgen.svg",
+    "de/platform_clk_resetn_gen/platform_resetn/include/pcs2_aopd_rstgen.svg",
     "de/platform_clk_resetn_gen/platform_resetn/platform_resetn.md",
     "de/platform_clk_resetn_gen/sync_resetn/include/resetn_design.svg",
     "de/platform_clk_resetn_gen/sync_resetn/include/resetn_tree.svg",
-    "de/platform_clk_resetn_gen/platform_resetn/include/pcs0_aopd_rstgen.svg",
     "de/platform_clk_resetn_gen/platform_resetn/include",
     "de/platform_clk_resetn_gen/sync_resetn/sync_resetn.md",
     "de/platform_clk_resetn_gen/platform_resetn/ref/sample_ae350_aopd_rstgen.v",
