@@ -11,15 +11,12 @@
             "id": "aa5b9c54a5cac8c4",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "de/platform_clk_resetn_gen/macro_sync_resetn/sync_resetn.md",
-                "mode": "preview",
-                "source": false,
-                "backlinks": false
+                "file": "de/platform_clk_resetn_gen/smu/include/smu_pcs.svg"
               },
-              "icon": "lucide-file",
-              "title": "sync_resetn"
+              "icon": "lucide-image",
+              "title": "smu_pcs"
             }
           }
         ]
@@ -197,10 +194,10 @@
   },
   "active": "aa5b9c54a5cac8c4",
   "lastOpenFiles": [
+    "de/platform_clk_resetn_gen/macro_sync_resetn/sync_resetn.md",
     "de/platform_clk_resetn_gen/smu/include/smu_pcs.svg",
     "de/platform_clk_resetn_gen/smu/include/smu_pcs_core.svg",
     "de/platform_clk_resetn_gen/smu/include",
-    "de/platform_clk_resetn_gen/macro_sync_resetn/sync_resetn.md",
     "de/platform_clk_resetn_gen/smu",
     "de/platform_clk_resetn_gen/platform_resetn/platform_resetn.md",
     "de/platform_clk_resetn_gen/platform_resetn/include/pcs2_aopd_rstgen.svg",
@@ -228,7 +225,6 @@
     "language/ipa/ipa.md",
     "de/design_spec/include/fctrl.svg",
     "de/tilelink/tilelink.md",
-    "de/cim/include/Pasted image 20251003111225.png",
     "de/cim/analysis.md",
     "de/amba_apb/ahb2apb.md",
     "de/cdc/design/cdc_design.md",
