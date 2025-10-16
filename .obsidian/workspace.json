@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "de/design_spec/lint_rule.md",
-                "mode": "preview",
+                "file": "workflow/autohotkey/autohotkey.md",
+                "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "lint_rule"
+              "title": "autohotkey"
             }
           }
         ]
@@ -75,13 +75,11 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 481.5,
-    "collapsed": true
+    "width": 481.5
   },
   "right": {
     "id": "baf9c43aba40b294",
@@ -179,7 +177,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 346.5
+    "width": 346.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -196,11 +195,15 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "b38429274462f125",
+  "active": "35a470a2c390e07e",
   "lastOpenFiles": [
+    "workflow/autohotkey/ref/keybinding.ahk",
+    "workflow/autohotkey/ref",
+    "workflow/autohotkey",
+    "de/design_spec/lint_rule.md",
+    "workflow/autohotkey/autohotkey.md",
     "de/backend/ref/US12190110.pdf",
     "conflict-files-obsidian-git.md",
-    "de/design_spec/lint_rule.md",
     "workflow/mobaxterm.md",
     "de/amba_apb/ahb2apb/ahb2apb.md",
     "de/cdc/design/ref/atcaxi2tluh500/nds_package/run_test",
@@ -210,9 +213,6 @@
     "de/cdc/design/ref/atcaxi2tluh500/nds_package/atcaxi2tluh500.release",
     "de/cdc/design/ref/atcaxi2tluh500/syn/flist.tcl",
     "de/cdc/design/ref/atcaxi2tluh500/hdl/atcaxi2tluh500_zero_ext.v",
-    "de/cdc/design/ref/atcaxi2tluh500/syn/atcaxi2tluh500.sdc",
-    "de/cdc/design/ref/atcaxi2tluh500/hdl/atcaxi2tluh500_tlif.v",
-    "de/cdc/design/ref/atcaxi2tluh500/hdl/atcaxi2tluh500_sync_l2l.v",
     "de/ram/include/ram 1.svg",
     "de/ram/include/ram.svg",
     "de/amba_apb/atcdmac300/atcdmac300.md",
@@ -242,7 +242,6 @@
     "de/amba_axi/request_attribute.md",
     "de/design_spec/rule.md",
     "de/design_spec/verilog.md",
-    "de/_unorganized/cosim.md",
-    "CV.md"
+    "de/_unorganized/cosim.md"
   ]
 }
