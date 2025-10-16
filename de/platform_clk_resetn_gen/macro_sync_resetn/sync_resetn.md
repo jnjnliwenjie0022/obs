@@ -6,6 +6,7 @@
 	- sync deassert: 確保脫離reset的時候, 是基於clk, 並使用syncer處理亞穩態
 	- 單看進入resetn: 只要其中一個信號進入resetn, 則輸出就要進入resetn
 	- 單看脫離resetn: 兩個信號都要脫離resetn, 同時clk爲posedge, 則脫離resetn
+	- Notice: clk必須在脫離resetn啓動, 不然無法 
 - ![[resetn_tree.svg]]
 - Arch1:
 	- async assert:

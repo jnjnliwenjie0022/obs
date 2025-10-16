@@ -11,12 +11,15 @@
             "id": "aa5b9c54a5cac8c4",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "de/platform_clk_resetn_gen/smu/include/smu_pcs.svg"
+                "file": "de/platform_clk_resetn_gen/macro_sync_resetn/sync_resetn.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
               },
-              "icon": "lucide-image",
-              "title": "smu_pcs"
+              "icon": "lucide-file",
+              "title": "sync_resetn"
             }
           }
         ]
@@ -194,8 +197,8 @@
   },
   "active": "aa5b9c54a5cac8c4",
   "lastOpenFiles": [
-    "de/platform_clk_resetn_gen/macro_sync_resetn/sync_resetn.md",
     "de/platform_clk_resetn_gen/smu/include/smu_pcs.svg",
+    "de/platform_clk_resetn_gen/macro_sync_resetn/sync_resetn.md",
     "de/platform_clk_resetn_gen/smu/include/smu_pcs_core.svg",
     "de/platform_clk_resetn_gen/smu/include",
     "de/platform_clk_resetn_gen/smu",
