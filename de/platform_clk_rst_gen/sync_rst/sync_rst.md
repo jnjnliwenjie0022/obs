@@ -1,1 +1,1 @@
-![[sycn_rst.svg]]
+![[sync_rst.svg|1000]]
