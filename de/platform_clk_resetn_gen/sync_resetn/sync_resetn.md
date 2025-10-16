@@ -11,13 +11,15 @@
 		- resetn->b_resetn
 		- resetn->c_resetn
 	- sycn deassert:
-		- resetn, aclk -> a_resetn
-		- aresetn, bclk -> c_resetn
+		- {resetn, a_clk} -> a_resetn
+		- {a_resetn, b_clk} -> b_resetn
+		- {b_resetn, c_clk} -> c_resetn
 - Arch2:
 	- async assert:
-		- resetn->a_resetn
-		- resetn->b_resetn
-		- resetn->c_resetn
+		- resetn, a1_resetn, b1_resetn ->c_resetn
+		- resetn, a1_resetn ->b_resetn
+		- resetn ->a_resetn
 	- sycn deassert:
-		- resetn, aclk -> a_resetn
-		- aresetn, bclk -> c_resetn
+		- {resetn, a_clk} -> a_resetn
+		- {a_resetn, b_clk} -> b_resetn
+		- {b_resetn, c_clk} -> c_resetn
