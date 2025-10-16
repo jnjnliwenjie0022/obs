@@ -1,5 +1,4 @@
 - ![[sync_resetn.svg|1000]]
 - sync_resetn特性
-	- async assert：
-	- sync deassert
-	- 
+	- async assert: 確保進入reset的時候, 是瞬間的
+	- sync deassert: 確保脫離reset的時候, 是基於clk, 並使用syncer處理亞穩態

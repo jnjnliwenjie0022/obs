@@ -1,2 +1,4 @@
 - ref: https://sh.alynx.one/posts/My-RIME/
-- window config path: C:\Users\USERNAME\AppData\Roaming\Rime\
+	- window config path: C:\Users\USERNAME\AppData\Roaming\Rime\
+- 中文文法中使用英文符號
+	- Ctrl+`
