@@ -21,8 +21,21 @@
               "icon": "lucide-file",
               "title": "gck"
             }
+          },
+          {
+            "id": "4681e0dca63b7824",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "de/power/gck/include/gck.svg"
+              },
+              "icon": "lucide-image",
+              "title": "gck"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -195,22 +208,22 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "aa5b9c54a5cac8c4",
+  "active": "4681e0dca63b7824",
   "lastOpenFiles": [
+    "de/power/gck/gck.md",
+    "de/power/gck/include/gck.svg",
     "de/platform_clk_resetn_gen/platform_resetn/platform_resetn.md",
     "de/Pasted image 20240606151606.png",
     "de/Pasted image 20240828160508.png",
     "Pasted image 20251003113443.png",
     "Pasted image 20250924180053.png",
     "Pasted image 20250924163225.png",
-    "de/power/gck/gck.md",
     "de/power/gck/include/Pasted image 20251017140317.png",
     "de/platform_clk_resetn_gen/macro_sync_resetn/sync_resetn.md",
     "workflow/tmux.md",
     "de/platform_clk_resetn_gen/platform_resetn/include/pcs2_aopd_rstgen.svg",
     "de/platform_clk_resetn_gen/platform_resetn/include/pcs0_aopd_rstgen.svg",
     "de/platform_clk_resetn_gen/smu/include/smu_pcs.svg",
-    "de/platform_clk_resetn_gen/smu/include/smu_pcs_core.svg",
     "de/platform_clk_resetn_gen/smu/include",
     "de/platform_clk_resetn_gen/smu",
     "workflow/autohotkey/autohotkey.md",
