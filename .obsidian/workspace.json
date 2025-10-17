@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "de/power/gck/gck.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false,
                 "backlinks": false
               },
@@ -222,6 +222,8 @@
   },
   "active": "aa5b9c54a5cac8c4",
   "lastOpenFiles": [
+    "Pasted image 20251018045341.png",
+    "Pasted image 20251018045158.png",
     "Pasted image 20251018043644.png",
     "de/power/gck/include/gck.svg",
     "de/power/gck/gck.md",
@@ -245,7 +247,6 @@
     "de/platform_clk_resetn_gen/platform_resetn/ref/sample_ae350_rstgen.v",
     "de/platform_clk_resetn_gen/platform_resetn/ref/sample_ae350_aopd_rstgen.v",
     "de/platform_clk_resetn_gen/macro_sync_resetn/include/resetn_tree.svg",
-    "de/platform_clk_resetn_gen/macro_sync_resetn/include/resetn_design.svg",
     "de/platform_clk_resetn_gen/macro_sync_resetn/ref",
     "de/platform_clk_resetn_gen/platform_resetn/ref",
     "de/platform_clk_resetn_gen/macro_sync_resetn/include",
@@ -254,7 +255,6 @@
     "conflict-files-obsidian-git.md",
     "workflow/mobaxterm.md",
     "de/amba_apb/ahb2apb/ahb2apb.md",
-    "de/ram/include/ram 1.svg",
     "de/amba_apb/atcdmac300/atcdmac300.md",
     "language/ipa/ipa.md",
     "de/tilelink/tilelink.md",
