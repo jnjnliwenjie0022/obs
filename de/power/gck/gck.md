@@ -7,8 +7,9 @@
 ![[gck.svg|1000]]
 
 - 以下是STARC的DFT+GCK設計建議
-![[RTL Design Style Guide.pdf#page=247&rect=94,149,520,413|RTL Design Style Guide, p.247|500]]
-
+	- ![[RTL Design Style Guide.pdf#page=247&rect=94,149,520,413|RTL Design Style Guide, p.247|500]]
+- 以下是Scan Chain的補充說明
+	- ![[Pasted image 20251017140317.png]]
 # ICG
 
 - 特色
