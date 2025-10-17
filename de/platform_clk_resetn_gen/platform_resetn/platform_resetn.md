@@ -1,0 +1,6 @@
+- ASIC
+	- 存在X_apod_por_b
+	- 存在X_por_b
+- FPGA:
+	- 存在X_por_b
+	- X_apod_por_b=X_por_b

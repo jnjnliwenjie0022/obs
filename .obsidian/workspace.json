@@ -11,12 +11,15 @@
             "id": "aa5b9c54a5cac8c4",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "de/platform_clk_resetn_gen/platform_resetn/include/pcs2_aopd_rstgen.svg"
+                "file": "de/platform_clk_resetn_gen/platform_resetn/platform_resetn.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
               },
-              "icon": "lucide-image",
-              "title": "pcs2_aopd_rstgen"
+              "icon": "lucide-file",
+              "title": "platform_resetn"
             }
           }
         ]
@@ -194,8 +197,8 @@
   },
   "active": "aa5b9c54a5cac8c4",
   "lastOpenFiles": [
-    "de/platform_clk_resetn_gen/platform_resetn/include/pcs0_aopd_rstgen.svg",
     "de/platform_clk_resetn_gen/platform_resetn/include/pcs2_aopd_rstgen.svg",
+    "de/platform_clk_resetn_gen/platform_resetn/include/pcs0_aopd_rstgen.svg",
     "de/platform_clk_resetn_gen/smu/include/smu_pcs.svg",
     "de/platform_clk_resetn_gen/smu/include/smu_pcs_core.svg",
     "de/platform_clk_resetn_gen/platform_resetn/platform_resetn.md",
