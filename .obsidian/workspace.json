@@ -34,8 +34,7 @@
               "title": "gck"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -208,10 +207,10 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "4681e0dca63b7824",
+  "active": "aa5b9c54a5cac8c4",
   "lastOpenFiles": [
-    "de/power/gck/gck.md",
     "de/power/gck/include/gck.svg",
+    "de/power/gck/gck.md",
     "de/platform_clk_resetn_gen/platform_resetn/platform_resetn.md",
     "de/Pasted image 20240606151606.png",
     "de/Pasted image 20240828160508.png",
