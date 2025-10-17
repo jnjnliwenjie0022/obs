@@ -9,7 +9,7 @@
 	- APR layout 問題
 - RTL Simulation 用的 GCK
 	- ![[gck.svg|500]]
-```verilog
+ ```verilog
     always #10 clk = ~clk;
     initial begin
         {clk,rst_n} = 0;
@@ -40,7 +40,7 @@
 ```verilog
 andla_RC_CG_MOD_150 andla_RC_CG_HIER_INST150(.enable (n_955), .ck_in(clk), .ck_out (andla_rc_gclk_11174), .test (1'b0));
 ```
-
+![[Pasted image 20251018043644.png]]
 
 
 - 以下是STARC的DFT+GCK設計建議
