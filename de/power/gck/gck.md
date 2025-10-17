@@ -8,6 +8,17 @@
 	- low power 問題
 	- APR layout 問題
 - RTL Simulation 用的 GCK
+	
+
+
+
+![[Pasted image 20251018041246.png]]
+- 實際  
+``` 
+andla_RC_CG_MOD_150 andla_RC_CG_HIER_INST150(.enable (n_955), .ck_in(clk), .ck_out (andla_rc_gclk_11174), .test (1'b0));
+```
+
+
 ![[gck.svg|1000]]
 
 - 以下是STARC的DFT+GCK設計建議

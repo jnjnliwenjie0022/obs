@@ -21,6 +21,30 @@
               "icon": "lucide-file",
               "title": "gck"
             }
+          },
+          {
+            "id": "85020d93d796bd36",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "de/power/gck/include/gck.svg"
+              },
+              "icon": "lucide-image",
+              "title": "gck"
+            }
+          },
+          {
+            "id": "f2c68856380e213c",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "de/power/gck/include/Pasted image 20251018041246.png"
+              },
+              "icon": "lucide-image",
+              "title": "Pasted image 20251018041246"
+            }
           }
         ]
       }
@@ -197,8 +221,10 @@
   },
   "active": "aa5b9c54a5cac8c4",
   "lastOpenFiles": [
-    "de/power/genus/genus.md",
+    "de/power/gck/include/gck.svg",
     "de/power/gck/gck.md",
+    "de/power/gck/include/Pasted image 20251018041246.png",
+    "de/power/genus/genus.md",
     "de/platform_clk_resetn_gen/cdc/clk_gen/clk_gen.md",
     "de/platform_clk_resetn_gen/cdc/cdc_design/cdc_design.md",
     "de/platform_clk_resetn_gen/platform/include/gen.svg",
@@ -229,7 +255,6 @@
     "de/ram/include/ram 1.svg",
     "de/ram/include/ram.svg",
     "de/amba_apb/atcdmac300/atcdmac300.md",
-    "de/amba_apb/atcdmac300/include/atcbmc300.svg",
     "language/ipa/ipa.md",
     "de/tilelink/tilelink.md",
     "de/cim/analysis.md",
@@ -241,7 +266,6 @@
     "de/power/sdpd/sdpd.md",
     "de/power/sdpd/power.md",
     "de/ram/ram.md",
-    "de/ahb2apb/ahb2apb.md",
-    "de/backend/backend.md"
+    "de/ahb2apb/ahb2apb.md"
   ]
 }
