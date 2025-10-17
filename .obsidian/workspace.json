@@ -11,15 +11,12 @@
             "id": "aa5b9c54a5cac8c4",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "de/platform_clk_resetn_gen/macro_sync_resetn/sync_resetn.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
+                "file": "de/platform_clk_resetn_gen/platform_resetn/include/pcs2_aopd_rstgen.svg"
               },
-              "icon": "lucide-file",
-              "title": "sync_resetn"
+              "icon": "lucide-image",
+              "title": "pcs2_aopd_rstgen"
             }
           }
         ]
@@ -197,14 +194,14 @@
   },
   "active": "aa5b9c54a5cac8c4",
   "lastOpenFiles": [
+    "de/platform_clk_resetn_gen/platform_resetn/include/pcs0_aopd_rstgen.svg",
+    "de/platform_clk_resetn_gen/platform_resetn/include/pcs2_aopd_rstgen.svg",
     "de/platform_clk_resetn_gen/smu/include/smu_pcs.svg",
-    "de/platform_clk_resetn_gen/macro_sync_resetn/sync_resetn.md",
     "de/platform_clk_resetn_gen/smu/include/smu_pcs_core.svg",
+    "de/platform_clk_resetn_gen/platform_resetn/platform_resetn.md",
+    "de/platform_clk_resetn_gen/macro_sync_resetn/sync_resetn.md",
     "de/platform_clk_resetn_gen/smu/include",
     "de/platform_clk_resetn_gen/smu",
-    "de/platform_clk_resetn_gen/platform_resetn/platform_resetn.md",
-    "de/platform_clk_resetn_gen/platform_resetn/include/pcs2_aopd_rstgen.svg",
-    "de/platform_clk_resetn_gen/platform_resetn/include/pcs0_aopd_rstgen.svg",
     "workflow/autohotkey/autohotkey.md",
     "workflow/rime.md",
     "de/platform_clk_resetn_gen/macro_sync_resetn/ref/nds_rst_sync.v",
