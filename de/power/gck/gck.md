@@ -8,10 +8,29 @@
 	- low power 問題
 	- APR layout 問題
 - RTL Simulation 用的 GCK
-	- ![[gck.svg|1000]]
-![[Pasted image 20251018041246.png]]
+	- ![[gck.svg|500]]
+```verilog
+    reg [3:0] clk_cnt;
+    always @ (posedge clk or negedge rst_n)
+        if (!rst_n)
+            clk_cnt <= 4'd0;
+        else
+            clk_cnt <= clk_cnt + 4'd1;
+
+    wire clk_en = clk_cnt[3];
+
+    reg latch_out;
+    always @(clk or clk_en)
+        if (!clk)
+            latch_out <= clk_en;
+
+    wire clk_out = clk & latch_out;
+
+```
+- 
+	- ![[Pasted image 20251018041246.png]]
 - 實際 gate-level 用的 GCK
-``` 
+```verilog
 andla_RC_CG_MOD_150 andla_RC_CG_HIER_INST150(.enable (n_955), .ck_in(clk), .ck_out (andla_rc_gclk_11174), .test (1'b0));
 ```
 

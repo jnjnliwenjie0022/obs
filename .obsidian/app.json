@@ -1,7 +1,7 @@
 {
   "promptDelete": false,
   "showLineNumber": true,
-  "vimMode": true,
+  "vimMode": false,
   "strictLineBreaks": true,
   "readableLineLength": false,
   "livePreview": true,
