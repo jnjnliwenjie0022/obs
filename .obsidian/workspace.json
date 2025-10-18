@@ -11,12 +11,15 @@
             "id": "aa5b9c54a5cac8c4",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "de/power/gck/include/gck 1.svg"
+                "file": "de/power/gck/gck.md",
+                "mode": "preview",
+                "source": false,
+                "backlinks": false
               },
-              "icon": "lucide-image",
-              "title": "gck 1"
+              "icon": "lucide-file",
+              "title": "gck"
             }
           }
         ]
