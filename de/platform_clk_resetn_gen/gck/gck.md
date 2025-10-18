@@ -1,9 +1,11 @@
 # concept
 
 - 基本觀念
+	- RLT-simulation gck 一定要被置換成有 clock 訊息描述的 CELL
+	
 - 實務應用
 	- 使用 RTL-simulation gck
-	- 使用 
+	- 使用  
 
 # verilog
 
