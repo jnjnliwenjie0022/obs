@@ -1,4 +1,4 @@
-# concept (TODO)
+# concept
 
 - ref: https://vocus.cc/article/66aa2b66fd897800016831f0
 - ref: https://www.cnblogs.com/rednodel/p/13960199.html
