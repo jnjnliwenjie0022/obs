@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "de/platform_clk_resetn_gen/sync_resetn/sync_resetn.md",
+                "file": "de/platform_clk_resetn_gen/gck/gck.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "sync_resetn"
+              "title": "gck"
             }
           }
         ]
@@ -197,26 +197,26 @@
   },
   "active": "4b7f5f1bb2c10deb",
   "lastOpenFiles": [
+    "de/platform_clk_resetn_gen/gen_clk/gen_clk.md",
+    "de/platform_clk_resetn_gen/gck/gck.md",
+    "de/platform_clk_resetn_gen/sync_resetn/sync_resetn.md",
+    "de/platform_clk_resetn_gen/sync_resetn/include/resetn_arch.svg",
     "de/platform_clk_resetn_gen/metastable_state.md",
     "de/platform_clk_resetn_gen/platform/include/gen.svg",
-    "de/platform_clk_resetn_gen/gen_clk/gen_clk.md",
     "de/platform_clk_resetn_gen/sync_resetn/books/whieRlKFPePPQxmV.pdf",
     "de/platform_clk_resetn_gen/sync_resetn/books/Unconfirmed 242558.crdownload",
-    "de/platform_clk_resetn_gen/gck/gck.md",
     "de/platform_clk_resetn_gen/cdc/clk_gen/clk_gen.md",
     "de/platform_clk_resetn_gen/gen_clk/include/clock_propagation.svg",
     "de/platform_clk_resetn_gen/gck/include/gck.svg",
     "de/platform_clk_resetn_gen/gck/include/gck_waveform.svg",
     "de/platform_clk_resetn_gen/gen_clk/include",
     "de/platform_clk_resetn_gen/gen_clk",
-    "de/platform_clk_resetn_gen/sync_resetn/sync_resetn.md",
     "de/platform_clk_resetn_gen/sync_resetn/books/CummingsSNUG2003Boston_Resets_rev1_2.pdf",
     "de/platform_clk_resetn_gen/sync_resetn/books/snug03_reset_part_deux.pdf",
     "de/platform_clk_resetn_gen/sync_resetn/books/Unconfirmed 108732.crdownload",
     "de/platform_clk_resetn_gen/sync_resetn/books",
     "de/design_spec/ref/Andes_design_guide.md",
     "de/platform_clk_resetn_gen/reg_latch.md",
-    "de/platform_clk_resetn_gen/sync_resetn/include/resetn_arch.svg",
     "de/platform_clk_resetn_gen/sync_resetn/include/resetn_tree.svg",
     "de/platform_clk_resetn_gen/sync_resetn/include/resetn_design.svg",
     "de/power/reg/reg.svg",

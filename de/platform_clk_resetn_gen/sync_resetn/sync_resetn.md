@@ -38,7 +38,8 @@
 # design
 
 - ![[resetn_design.svg|1000]]
-- 
+- i_resetn特性
+	- 可以是 blocking 或是 non-blocking
 - sync_resetn特性
 	- async assert:
 		- 確保進入reset的時候, 在所有clock domain下都是同時且瞬間
