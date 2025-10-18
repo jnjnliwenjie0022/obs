@@ -1,6 +1,11 @@
 # concept
 
--  
+- 基本觀念
+- 實務應用
+	- 使用 RTL-simulation gck
+	- 使用 
+
+# verilog
 
 - 語法對應的電路屬性
 	- ref: https://www.cnblogs.com/oomusou/archive/2010/07/30/blocking_vs_nonblocking.html
