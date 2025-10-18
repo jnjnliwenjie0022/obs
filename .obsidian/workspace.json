@@ -213,9 +213,9 @@
   "active": "ecd95adbc39b0f61",
   "lastOpenFiles": [
     "de/platform_clk_resetn_gen/sync_resetn/sync_resetn.md",
+    "de/platform_clk_resetn_gen/gck/gck.md",
     "de/platform_clk_resetn_gen/metastable_state.md",
     "de/platform_clk_resetn_gen/cdc/clk_gen/clk_gen.md",
-    "de/platform_clk_resetn_gen/gck/gck.md",
     "de/platform_clk_resetn_gen/platform/include/gen.svg",
     "de/power/reg/reg.svg",
     "de/power/reg/reg.md",
