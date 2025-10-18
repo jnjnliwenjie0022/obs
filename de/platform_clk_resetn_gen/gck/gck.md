@@ -182,9 +182,10 @@ endprimitive
 	- 這個才是我們想要的行爲
 		- ![[Pasted image 20251018045341.png]]
 	- 結論: 在 gate-level simulation 中如果有**使用 ICG CELL 一定要吃 SDF** 
-
-- 實際使用 gck 的時機
-	- 只要對頻率有任何
+- 實際使用 gck 的時機: 只要對頻率有任何處理就需要 gck
+	- 頻率選擇
+	- 製造clk_en
+	- 製造頻率
 # backend (TODO)
 
 - ref: https://vocus.cc/article/673c5345fd89780001e41b8d
