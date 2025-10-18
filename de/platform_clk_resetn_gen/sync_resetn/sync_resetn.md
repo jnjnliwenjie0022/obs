@@ -6,7 +6,7 @@
 - 基礎 resetn arch
 	- ![[resetn_arch.svg]]
 - 結論:
-	- 如果是 reset 的屬性是 sync, 即使電路設計使用 async, 也會進行 STA 分析, 安全!
+	- 如果是 reset 的屬性是 sync, 也會進行 STA 分析, 安全!
 		- reset 完全跟 clock 同步, 視爲 normal data path
 	- 如果是 reset 的屬性是 async, 要實現 async assert and sync deassert
 		- async assert 
