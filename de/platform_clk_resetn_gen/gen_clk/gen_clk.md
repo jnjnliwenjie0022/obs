@@ -48,5 +48,5 @@
 	- RTL-Simulation: 不需額外處理
 	- Gate-level Simulation: 不需額外處理
 	- 結論: 不行
-- case5: 如果是 CLKMUX 做 clk 的選擇則: 
 - case6: 如果是 RTL mux 做 clk 的選擇則: 
+- ref: https://aijishu.com/a/1060000000203564
