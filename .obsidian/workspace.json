@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "de/platform_clk_resetn_gen/gck/gck.md",
+                "file": "de/platform_clk_resetn_gen/clk/clk.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "gck"
+              "title": "clk"
             }
           }
         ]
@@ -197,11 +197,12 @@
   },
   "active": "4b7f5f1bb2c10deb",
   "lastOpenFiles": [
-    "de/platform_clk_resetn_gen/metastable_state.md",
-    "de/platform_clk_resetn_gen/gck/gck.md",
-    "de/platform_clk_resetn_gen/sync_resetn/sync_resetn.md",
-    "de/platform_clk_resetn_gen/clk.md",
     "de/platform_clk_resetn_gen/cdc/clk_gen/clk_gen.md",
+    "de/platform_clk_resetn_gen/gck/gck.md",
+    "de/platform_clk_resetn_gen/clk",
+    "de/platform_clk_resetn_gen/clk/clk.md",
+    "de/platform_clk_resetn_gen/metastable_state.md",
+    "de/platform_clk_resetn_gen/sync_resetn/sync_resetn.md",
     "de/platform_clk_resetn_gen/sync_resetn/books/CummingsSNUG2003Boston_Resets_rev1_2.pdf",
     "de/platform_clk_resetn_gen/sync_resetn/books/snug03_reset_part_deux.pdf",
     "de/platform_clk_resetn_gen/sync_resetn/books/Unconfirmed 108732.crdownload",
@@ -229,7 +230,6 @@
     "de/platform_clk_resetn_gen/sync_resetn/ref/nds_rst_sync.v",
     "de/platform_clk_resetn_gen/sync_resetn/ref/rst_sync.v",
     "de/platform_clk_resetn_gen/platform_resetn/ref/sample_ae350_rstgen.v",
-    "de/platform_clk_resetn_gen/platform_resetn/ref/sample_ae350_aopd_rstgen.v",
     "de/design_spec/lint_rule.md",
     "conflict-files-obsidian-git.md",
     "workflow/mobaxterm.md",
