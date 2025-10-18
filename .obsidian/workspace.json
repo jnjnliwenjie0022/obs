@@ -54,7 +54,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "TODO",
+                "query": "tag:#TODO",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -75,7 +75,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -195,7 +196,7 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "4b7f5f1bb2c10deb",
+  "active": "463934e073eea783",
   "lastOpenFiles": [
     "de/platform_clk_resetn_gen/sync_resetn/books/CummingsSNUG2003Boston_Resets_rev1_2.pdf",
     "de/platform_clk_resetn_gen/sync_resetn/sync_resetn.md",

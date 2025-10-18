@@ -10,12 +10,17 @@
 - 基礎 resetn arch
 	- ![[resetn_arch.svg]]
 	- ![[CummingsSNUG2003Boston_Resets_rev1_2.pdf#page=30&rect=65,543,551,719|CummingsSNUG2003Boston_Resets_rev1_2, p.30|500]]
-	- 實際設計上而言
-		- 對 core 而言
-			- 
+	- 對 frontend 而言
 		- 對 platform 而言
+			- set_false_path -from [get_ports [list i_resetn]]
+		- 對 core 而言
+			- set_false_path -from [get ports [list core_a_resetn]]
+			- set_false_path -from [get ports [list core_b_resetn]]
+			- set_false_path -from [get ports [list core_c_resetn]]
+	- 對 backend 而言
+		- #TODO
 - 基本概念:
-	- 如果是 reset 的屬性是 sync, 也會進行 STA 分析, 安全!
+	- 如果是 reset 的屬性是 sync, 會進行 STA 分析, 安全!
 		- reset 完全跟 clock 同步, 視爲 normal data path
 	- 如果是 reset 的屬性是 async, 要實現 async assert and sync deassert
 		- async assert 
