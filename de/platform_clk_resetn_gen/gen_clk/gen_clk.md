@@ -48,5 +48,13 @@
 	- RTL-Simulation: 不需額外處理
 	- Gate-level Simulation: 不需額外處理
 	- 結論: 不行
-- case6: 如果是 RTL mux 做 clk 的選擇則: 
-- ref: https://aijishu.com/a/1060000000203564
+- case6: 如果是 RTL mux 做 clk switching 則: 
+	- CELL 的使用: 使用無 CLK 訊息的 CELL, 無法 clock propagation
+	- SDC 的定義: 需要定義, 因為 clock propagation 失敗
+	- Glitch的問題: 沒處理
+	- RTL-Simulation: 不需額外處理
+	- Gate-level Simulation: 不需額外處理
+	- 結論: 不行
+- case7: 如果是 RTL glitch free clock switching 則:
+	- ref: https://aijishu.com/a/1060000000203564
+	- ref: https://www.youtube.com/watch?v=KBeumQxSyZA
