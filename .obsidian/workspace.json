@@ -4,32 +4,8 @@
     "type": "split",
     "children": [
       {
-        "id": "4702d5d94706e46c",
-        "type": "tabs",
-        "dimension": 84.10174880763115,
-        "children": [
-          {
-            "id": "64be3dfc6dfac0da",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "de/platform_clk_resetn_gen/sync_resetn/books/CummingsSNUG2003Boston_Resets_rev1_2.pdf",
-                "page": 29,
-                "left": -255,
-                "top": 223,
-                "zoom": 0.7
-              },
-              "icon": "lucide-file-text",
-              "title": "CummingsSNUG2003Boston_Resets_rev1_2"
-            }
-          }
-        ]
-      },
-      {
         "id": "00e99da7875eee42",
         "type": "tabs",
-        "dimension": 15.89825119236884,
         "children": [
           {
             "id": "4b7f5f1bb2c10deb",
@@ -219,10 +195,10 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "64be3dfc6dfac0da",
+  "active": "4b7f5f1bb2c10deb",
   "lastOpenFiles": [
-    "de/platform_clk_resetn_gen/sync_resetn/sync_resetn.md",
     "de/platform_clk_resetn_gen/sync_resetn/books/CummingsSNUG2003Boston_Resets_rev1_2.pdf",
+    "de/platform_clk_resetn_gen/sync_resetn/sync_resetn.md",
     "de/platform_clk_resetn_gen/sync_resetn/books/snug03_reset_part_deux.pdf",
     "de/platform_clk_resetn_gen/sync_resetn/books/Unconfirmed 108732.crdownload",
     "de/platform_clk_resetn_gen/sync_resetn/books",

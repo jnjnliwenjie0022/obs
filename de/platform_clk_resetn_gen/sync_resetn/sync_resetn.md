@@ -9,8 +9,12 @@
 - ref: https://www.dzsc.com/dzbbs/20050129/200765203346281152.html
 - 基礎 resetn arch
 	- ![[resetn_arch.svg]]
-		- 
-- 結論:
+	- ![[CummingsSNUG2003Boston_Resets_rev1_2.pdf#page=30&rect=65,543,551,719|CummingsSNUG2003Boston_Resets_rev1_2, p.30|500]]
+	- 實際設計上而言
+		- 對 core 而言
+			- 
+		- 對 platform 而言
+- 基本概念:
 	- 如果是 reset 的屬性是 sync, 也會進行 STA 分析, 安全!
 		- reset 完全跟 clock 同步, 視爲 normal data path
 	- 如果是 reset 的屬性是 async, 要實現 async assert and sync deassert
