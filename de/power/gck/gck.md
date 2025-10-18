@@ -147,9 +147,10 @@ primitive tsmc_dla (q, d, e, cdn, sdn, notifier);
 endprimitive
 
 ```
-- 使用後
-![[Pasted image 20251018043644.png]]
-![[Pasted image 20251018045341.png]]
+- 使用後發現 clk 會 race condition
+	- clk 從 blocking 變成  
+	- ![[Pasted image 20251018043644.png]]
+	- ![[Pasted image 20251018045341.png]]
 
 
 - 以下是STARC的DFT+GCK設計建議
