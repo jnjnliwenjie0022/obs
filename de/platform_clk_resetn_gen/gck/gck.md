@@ -8,13 +8,13 @@ always @* begin
 end
 
 // latch
-// 用在 gck
+// 用在 RTL-simulation gck, 在 synthesis 前, 這種 gck 必須被真正的 ICG Cell 取代
 always @* begin
     a <= a;
 end
 
 // register
-// 用在 gen clk, 確保 clk_out 爲 blocking
+// 用在 RTL-simulation gen clk, 確保 clk_out 爲 blocking, 這種在 synthesis 的時候沒有問題, 但 APR 的問題會有點
 always @ (posedge clk) begin
     a = a;
 end
