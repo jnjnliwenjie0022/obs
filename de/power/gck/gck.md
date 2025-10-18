@@ -148,9 +148,11 @@ endprimitive
 
 ```
 - 使用後發現 clk 會 race condition
-	- clk 從 blocking 變成  
+	- clk 從 blocking 變成 non-blocking
 	- ![[Pasted image 20251018043644.png]]
+	- 這個才是我們想要的行爲
 	- ![[Pasted image 20251018045341.png]]
+	- 結論: 在gate-level simulation 中
 
 
 - 以下是STARC的DFT+GCK設計建議
