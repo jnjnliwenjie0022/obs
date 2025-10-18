@@ -14,7 +14,7 @@ always @* begin
 end
 
 // register
-// 用在 RTL-simulation gen clk, 確保 clk_out 爲 blocking, 這種在 synthesis 的時候沒有問題, 但 APR 的問題會有點
+// 用在 RTL-simulation gen clk, 確保 clk_out 爲 blocking, 這種在 synthesis 的時候沒有問題, 但 APR 會有問題, 會破壞 phase
 always @ (posedge clk) begin
     a = a;
 end
