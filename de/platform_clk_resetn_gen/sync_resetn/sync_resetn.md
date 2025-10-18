@@ -1,21 +1,22 @@
 # concept (TODO)
 
+- ref: https://vocus.cc/article/66aa2b66fd897800016831f0
+- ref: https://www.cnblogs.com/rednodel/p/13960199.html
+- ref: https://zhuanlan.zhihu.com/p/167305718
 - 結論:
 	- 如果是 reset 的屬性是 sync, 即使電路設計使用 async, 也會進行 STA 分析, 安全!
 		- reset 完全跟 clock 同步, 視爲 normal data path
 	- 如果是 reset 的屬性是 async, 要實現 async assert and sync deassert
 		- async assert 
 			- 不做 STA 分析
-			- 需要考慮到 IR Drop, 因爲 Fanout 非常大, 當 register assert 產生瞬間大電流, 需要用 tree balance 處理
+			- 需要考慮到 skew, 因爲要考慮到 IR drop 當 register async assert 的時候
+			- 需要考慮到 IR drop, 因爲 Fanout 非常大, 當 register async assert 產生瞬間大電流, 需要用 tree balance 處理
 			- 需要考慮到 congestion
 		- sync deassert
-			- 要做 STA 分析: recovery time and removal time
-			- 需啊唷
-
-- ref: https://vocus.cc/article/66aa2b66fd897800016831f0
-- ref: https://www.cnblogs.com/rednodel/p/13960199.html
-- ref: https://zhuanlan.zhihu.com/p/167305718
-
+			- **要做 STA 分析: recovery time and removal time**
+			- 需要考慮到 skew, 不然會出現 race condition, 保持 skew 小於 1~2 clocks
+			- 需要考慮到 IR Drop
+			- 需要考慮到 congestion
 # design
 - ![[resetn_design.svg|1000]]
 - sync_resetn特性
