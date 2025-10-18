@@ -17,6 +17,7 @@
 		- sync deassert
 			- **要做 STA 分析: recovery time and removal time**
 			- 需要考慮到 skew, 不然會出現 race condition, 保持 skew 小於 1~2 clocks
+				- ref: https://www.youtube.com/watch?v=mYSEVdUPvD8&t=27s
 			- 需要考慮到 IR Drop
 			- 需要考慮到 congestion
 # design
