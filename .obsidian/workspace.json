@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "de/platform_clk_resetn_gen/sync_resetn/sync_resetn.md",
-                "mode": "preview",
+                "file": "de/platform_clk_resetn_gen/metastable_state.md",
+                "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "sync_resetn"
+              "title": "metastable_state"
             }
           },
           {
@@ -37,8 +37,7 @@
               "title": "gck"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -159,13 +158,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "de/platform_clk_resetn_gen/gck/gck.md",
+                "file": "de/platform_clk_resetn_gen/metastable_state.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of gck"
+              "title": "Outline of metastable_state"
             }
           },
           {
@@ -211,10 +210,11 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "4b7f5f1bb2c10deb",
+  "active": "ecd95adbc39b0f61",
   "lastOpenFiles": [
-    "de/platform_clk_resetn_gen/cdc/clk_gen/clk_gen.md",
     "de/platform_clk_resetn_gen/sync_resetn/sync_resetn.md",
+    "de/platform_clk_resetn_gen/metastable_state.md",
+    "de/platform_clk_resetn_gen/cdc/clk_gen/clk_gen.md",
     "de/platform_clk_resetn_gen/gck/gck.md",
     "de/platform_clk_resetn_gen/platform/include/gen.svg",
     "de/power/reg/reg.svg",
