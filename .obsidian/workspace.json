@@ -75,8 +75,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -196,15 +195,15 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "463934e073eea783",
+  "active": "35a470a2c390e07e",
   "lastOpenFiles": [
-    "de/platform_clk_resetn_gen/sync_resetn/books/CummingsSNUG2003Boston_Resets_rev1_2.pdf",
+    "de/platform_clk_resetn_gen/clk_gen.md",
+    "de/platform_clk_resetn_gen/metastable_state.md",
     "de/platform_clk_resetn_gen/sync_resetn/sync_resetn.md",
+    "de/platform_clk_resetn_gen/sync_resetn/books/CummingsSNUG2003Boston_Resets_rev1_2.pdf",
     "de/platform_clk_resetn_gen/sync_resetn/books/snug03_reset_part_deux.pdf",
     "de/platform_clk_resetn_gen/sync_resetn/books/Unconfirmed 108732.crdownload",
     "de/platform_clk_resetn_gen/sync_resetn/books",
-    "de/platform_clk_resetn_gen/clk_gen.md",
-    "de/platform_clk_resetn_gen/metastable_state.md",
     "de/platform_clk_resetn_gen/gck/gck.md",
     "de/platform_clk_resetn_gen/platform/include/gen.svg",
     "de/design_spec/ref/Andes_design_guide.md",

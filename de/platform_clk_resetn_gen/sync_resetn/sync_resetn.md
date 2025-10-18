@@ -10,19 +10,18 @@
 - 基礎 resetn arch
 	- ![[resetn_arch.svg]]
 	- ![[CummingsSNUG2003Boston_Resets_rev1_2.pdf#page=30&rect=65,543,551,719|CummingsSNUG2003Boston_Resets_rev1_2, p.30|500]]
-	- 對 frontend 而言
+	- 對 frontend 實務而言
 		- 對 platform 而言
 			- set_false_path -from [get_ports [list i_resetn]]
 		- 對 core 而言
 			- set_false_path -from [get ports [list core_a_resetn]]
 			- set_false_path -from [get ports [list core_b_resetn]]
 			- set_false_path -from [get ports [list core_c_resetn]]
-	- 對 backend 而言
-		- #TODO
 - 基本概念:
 	- 如果是 reset 的屬性是 sync, 會進行 STA 分析, 安全!
 		- reset 完全跟 clock 同步, 視爲 normal data path
 	- 如果是 reset 的屬性是 async, 要實現 async assert and sync deassert
+		- backend 需要 HFNS (High Fanout Net Synthesis)
 		- async assert 
 			- 不做 STA 分析
 			- 需要考慮到 skew, 因爲要考慮到 IR drop 當 register async assert 的時候
@@ -42,8 +41,8 @@
 		- 確保進入reset的時候, 在所有clock domain下都是同時且瞬間
 		- PLL可能還沒有開始,這個方法可以避免需要clock的問題,clock與assert resetn無關
 	- sync deassert: 確保脫離reset的時候, 是基於clk, 並使用syncer處理亞穩態
-	- 單看進入resetn: 只要其中一個信號進入resetn, 則輸出就要進入resetn
-	- 單看脫離resetn: 兩個信號都要脫離resetn, 同時clk爲posedge, 則脫離resetn
+	- 單看進入resetn: 只要其中一個信號resetn進入, 則輸出就要進入resetn
+	- 單看脫離resetn: 兩個信號resetn/i_casc_resetn都要脫離resetn, 同時clk爲posedge, 則脫離resetn
 	- Notice: clk必須在脫離resetn啓動
 - ![[resetn_tree.svg]]
 - Arch1:
