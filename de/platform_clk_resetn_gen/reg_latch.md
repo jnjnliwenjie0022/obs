@@ -1,0 +1,1 @@
+ref: https://statics.teams.cdn.office.net/evergreen-assets/safelinks/2/atp-safelinks.html

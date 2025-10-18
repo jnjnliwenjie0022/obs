@@ -20,6 +20,7 @@
 			- 需要考慮到 IR Drop
 			- 需要考慮到 congestion
 # design
+
 - ![[resetn_design.svg|1000]]
 - sync_resetn特性
 	- async assert:

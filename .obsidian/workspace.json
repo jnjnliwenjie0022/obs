@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "de/platform_clk_resetn_gen/sync_resetn/sync_resetn.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false,
                 "backlinks": false
               },
@@ -158,13 +158,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "de/platform_clk_resetn_gen/sync_resetn/sync_resetn.md",
+                "file": "de/platform_clk_resetn_gen/sync_resetn/include/resetn_arch.svg",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of sync_resetn"
+              "title": "Outline of resetn_arch"
             }
           },
           {
@@ -212,11 +212,12 @@
   },
   "active": "ecd95adbc39b0f61",
   "lastOpenFiles": [
-    "de/platform_clk_resetn_gen/sync_resetn/include/resetn_tree.svg",
     "de/platform_clk_resetn_gen/sync_resetn/include/resetn_arch.svg",
-    "de/platform_clk_resetn_gen/sync_resetn/include/resetn_design.svg",
     "de/platform_clk_resetn_gen/sync_resetn/sync_resetn.md",
     "de/platform_clk_resetn_gen/metastable_state.md",
+    "de/platform_clk_resetn_gen/reg_latch.md",
+    "de/platform_clk_resetn_gen/sync_resetn/include/resetn_tree.svg",
+    "de/platform_clk_resetn_gen/sync_resetn/include/resetn_design.svg",
     "de/platform_clk_resetn_gen/gck/gck.md",
     "de/platform_clk_resetn_gen/cdc/clk_gen/clk_gen.md",
     "de/platform_clk_resetn_gen/platform/include/gen.svg",
@@ -227,7 +228,6 @@
     "de/platform_clk_resetn_gen/gck/include/Pasted image 20251018043644.png",
     "Pasted image 20251003113443.png",
     "de/platform_clk_resetn_gen/gck/include/Pasted image 20251018041246.png",
-    "Pasted image 20251018045158.png",
     "de/power/genus/genus.md",
     "de/platform_clk_resetn_gen/cdc/cdc_design/cdc_design.md",
     "de/platform_clk_resetn_gen/platform_resetn/platform_resetn.md",
@@ -256,7 +256,6 @@
     "de/amba_axi/axi.md",
     "de/cdc/sync_or_async_clk/sync_or_async_clk.md",
     "de/cdc/sync_reset/Untitled.md",
-    "de/power/sdpd/sdpd.md",
-    "de/power/sdpd/power.md"
+    "de/power/sdpd/sdpd.md"
   ]
 }
