@@ -158,4 +158,5 @@ endprimitive
 - 以下是STARC的DFT+GCK設計建議
 	- ![[RTL Design Style Guide.pdf#page=247&rect=94,149,520,413|RTL Design Style Guide, p.247|500]]
 - 以下是Scan Chain的補充說明
+	- 中端或是後端會自新增 SE 和 SI 信號
 	- ![[Pasted image 20251017140317.png]]

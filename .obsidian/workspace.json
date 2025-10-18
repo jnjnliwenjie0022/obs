@@ -11,15 +11,12 @@
             "id": "aa5b9c54a5cac8c4",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "de/power/gck/gck.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
+                "file": "de/platform_clk_resetn_gen/platform/include/gen.svg"
               },
-              "icon": "lucide-file",
-              "title": "gck"
+              "icon": "lucide-image",
+              "title": "gen"
             }
           }
         ]
@@ -79,8 +76,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 481.5,
-    "collapsed": true
+    "width": 481.5
   },
   "right": {
     "id": "baf9c43aba40b294",
@@ -198,23 +194,23 @@
   },
   "active": "aa5b9c54a5cac8c4",
   "lastOpenFiles": [
+    "de/platform_clk_resetn_gen/cdc/clk_gen/clk_gen.md",
+    "de/power/gck/gck.md",
+    "de/power/reg/reg.svg",
+    "de/power/reg/reg.md",
     "de/power/gck/include/gck.svg",
     "de/power/gck/include/gck_waveform.svg",
-    "de/power/gck/gck.md",
     "de/power/gck/include/Pasted image 20251018043644.png",
     "Pasted image 20251003113443.png",
     "de/power/gck/include/Pasted image 20251018041246.png",
     "Pasted image 20251018045158.png",
     "de/power/gck/include/Pasted image 20251018045341.png",
     "de/power/genus/genus.md",
-    "de/platform_clk_resetn_gen/cdc/clk_gen/clk_gen.md",
     "de/platform_clk_resetn_gen/cdc/cdc_design/cdc_design.md",
     "de/platform_clk_resetn_gen/platform/include/gen.svg",
     "de/platform_clk_resetn_gen/platform_resetn/include/pcs0_aopd_rstgen.svg",
     "de/platform_clk_resetn_gen/platform_resetn/platform_resetn.md",
-    "de/platform_clk_resetn_gen/platform_resetn/include/pcs2_aopd_rstgen.svg",
     "de/platform_clk_resetn_gen/macro_sync_resetn/sync_resetn.md",
-    "de/platform_clk_resetn_gen/platform_clk/include/smu_pcs_core.svg",
     "de/platform_clk_resetn_gen/platform/include",
     "de/platform_clk_resetn_gen/platform",
     "workflow/autohotkey/autohotkey.md",
@@ -242,7 +238,6 @@
     "de/cdc/sync_reset/Untitled.md",
     "de/power/sdpd/sdpd.md",
     "de/power/sdpd/power.md",
-    "de/ram/ram.md",
-    "de/ahb2apb/ahb2apb.md"
+    "de/ram/ram.md"
   ]
 }
