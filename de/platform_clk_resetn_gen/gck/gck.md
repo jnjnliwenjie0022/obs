@@ -1,6 +1,7 @@
 # concept
 
-- ref: https://www.cnblogs.com/oomusou/archive/2010/07/30/blocking_vs_nonblocking.html
+- 語法對應的電路屬性
+	- ref: https://www.cnblogs.com/oomusou/archive/2010/07/30/blocking_vs_nonblocking.html
 ```verilog
 // logic
 always @* begin
@@ -35,7 +36,7 @@ end
 	- glitch 問題
 	- low power 問題
 	- APR layout 問題
-- RTL Simulation 用的 GCK
+- RTL Simulation 用的 gck
 	- ![[gck.svg|500]]
  ```verilog
     always #10 clk = ~clk;
@@ -64,7 +65,7 @@ end
 - DV實際結果:
 	- ![[Pasted image 20251018041246.png]]
 	- ![[gck_waveform.svg]]
-- 實際 gate-level 用的 GCK
+- 實際 gate-level 用的 gck
 ```verilog
   CKLNQOPTMAD4BWP30P140 RC_CGIC_INST(.E (enable), .CP (ck_in), .TE(test), .Q (ck_out));
 ```
@@ -180,8 +181,10 @@ endprimitive
 	- ![[Pasted image 20251018043644.png]]
 	- 這個才是我們想要的行爲
 		- ![[Pasted image 20251018045341.png]]
-	- 結論: 在gate-level simulation 中如果有**使用 ICG CELL 一定要吃 SDF** 
+	- 結論: 在 gate-level simulation 中如果有**使用 ICG CELL 一定要吃 SDF** 
 
+- 實際使用 gck 的時機
+	- 只要對頻率有任何
 # backend (TODO)
 
 - ref: https://vocus.cc/article/673c5345fd89780001e41b8d

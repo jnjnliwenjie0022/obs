@@ -197,7 +197,8 @@
   },
   "active": "4b7f5f1bb2c10deb",
   "lastOpenFiles": [
-    "de/platform_clk_resetn_gen/clk_gen.md",
+    "de/platform_clk_resetn_gen/clk.md",
+    "de/platform_clk_resetn_gen/cdc/clk_gen/clk_gen.md",
     "de/platform_clk_resetn_gen/gck/gck.md",
     "de/platform_clk_resetn_gen/sync_resetn/sync_resetn.md",
     "de/platform_clk_resetn_gen/metastable_state.md",
@@ -211,7 +212,6 @@
     "de/platform_clk_resetn_gen/sync_resetn/include/resetn_arch.svg",
     "de/platform_clk_resetn_gen/sync_resetn/include/resetn_tree.svg",
     "de/platform_clk_resetn_gen/sync_resetn/include/resetn_design.svg",
-    "de/platform_clk_resetn_gen/cdc/clk_gen/clk_gen.md",
     "de/power/reg/reg.svg",
     "de/power/reg/reg.md",
     "de/platform_clk_resetn_gen/gck/include/gck.svg",
