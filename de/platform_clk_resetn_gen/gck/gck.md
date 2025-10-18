@@ -1,5 +1,7 @@
 # concept
 
+-  
+
 - 語法對應的電路屬性
 	- ref: https://www.cnblogs.com/oomusou/archive/2010/07/30/blocking_vs_nonblocking.html
 ```verilog
@@ -182,13 +184,6 @@ endprimitive
 	- 這個才是我們想要的行爲
 		- ![[Pasted image 20251018045341.png]]
 	- 結論: 在 gate-level simulation 中如果有**使用 ICG CELL 一定要吃 SDF** 
-- 實際使用 gck
-	- 使用的原因:  因爲有 logic 的描述, 會產生 glitch, 必須透過 gck 消除
-	- 需要 gck 的例子
-		- 頻率選擇
-		- 製造clk_en
-	- 不需要 gck 的例子
-
 # backend (TODO)
 
 - ref: https://vocus.cc/article/673c5345fd89780001e41b8d

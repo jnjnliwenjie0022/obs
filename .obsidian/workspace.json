@@ -197,10 +197,10 @@
   },
   "active": "4b7f5f1bb2c10deb",
   "lastOpenFiles": [
+    "de/platform_clk_resetn_gen/sync_resetn/sync_resetn.md",
+    "de/platform_clk_resetn_gen/gck/gck.md",
     "de/platform_clk_resetn_gen/clk.md",
     "de/platform_clk_resetn_gen/cdc/clk_gen/clk_gen.md",
-    "de/platform_clk_resetn_gen/gck/gck.md",
-    "de/platform_clk_resetn_gen/sync_resetn/sync_resetn.md",
     "de/platform_clk_resetn_gen/metastable_state.md",
     "de/platform_clk_resetn_gen/sync_resetn/books/CummingsSNUG2003Boston_Resets_rev1_2.pdf",
     "de/platform_clk_resetn_gen/sync_resetn/books/snug03_reset_part_deux.pdf",
