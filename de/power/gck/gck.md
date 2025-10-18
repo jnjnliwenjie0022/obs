@@ -1,4 +1,4 @@
-# concept
+# frontend
 
 - latch也需要解setup time和hold time
 - 解決glitch
@@ -156,7 +156,8 @@ endprimitive
 		- ![[Pasted image 20251018045341.png]]
 	- 結論: 在gate-level simulation 中如果有**使用 ICG CELL 一定要吃 SDF** 
 
-
+# backend
+- ref: https://vocus.cc/article/673c5345fd89780001e41b8d
 - 以下是STARC的DFT+GCK設計建議
 	- ![[RTL Design Style Guide.pdf#page=247&rect=94,149,520,413|RTL Design Style Guide, p.247|500]]
 - 以下是Scan Chain的補充說明
