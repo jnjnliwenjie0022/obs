@@ -1,6 +1,8 @@
-- ref: https://blog.csdn.net/zhenhuagege/article/details/102837173
+# concept
+
 - latch也需要解setup time和hold time
 - 解決glitch
+	- ref: https://blog.csdn.net/zhenhuagege/article/details/102837173
 	- CLK is 0, update latch, Output always "0" (無glitch)
 	- CLK is 1, latch engage, Output is depended on ENL (無glitch, 因爲input是latch out)
 - 實際的ICG Cell考慮到
