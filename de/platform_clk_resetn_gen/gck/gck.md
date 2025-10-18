@@ -1,14 +1,7 @@
 # concept
 
 - 基本觀念
-	- 沒有標記 CLK 的 CELL 無法 clock propagation, 導致 STA 無法正確執行
 	- 
-	- 會晉國
-	- RLT-simulation gck 一定要被置換成有 clock 訊息描述的 CELL
-	- 
-- 實務應用
-	- 使用 RTL-simulation gck
-	- 使用  
 
 # verilog
 
