@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "de/power/gck/gck.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false,
                 "backlinks": false
               },
@@ -79,7 +79,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 481.5
+    "width": 481.5,
+    "collapsed": true
   },
   "right": {
     "id": "baf9c43aba40b294",
@@ -198,7 +199,7 @@
   "active": "aa5b9c54a5cac8c4",
   "lastOpenFiles": [
     "de/power/gck/include/gck.svg",
-    "de/power/gck/include/gck 1.svg",
+    "de/power/gck/include/gck_waveform.svg",
     "de/power/gck/gck.md",
     "de/power/gck/include/Pasted image 20251018043644.png",
     "Pasted image 20251003113443.png",

@@ -34,8 +34,8 @@
 ////////////////////////////////////
 ```
 - DV實際結果:
-	- 
 	- ![[Pasted image 20251018041246.png]]
+	- ![[gck_waveform.svg]]
 - 實際 gate-level 用的 GCK
 ```verilog
   CKLNQOPTMAD4BWP30P140 RC_CGIC_INST(.E (enable), .CP (ck_in), .TE(test), .Q (ck_out));
