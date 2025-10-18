@@ -1,3 +1,8 @@
+# concept (TODO)
+
+- ref: https://vocus.cc/article/66aa2b66fd897800016831f0
+- ref: https://bbs.eetop.cn/blog-1768385-6961434.html
+# design
 - ![[resetn_design.svg|1000]]
 - sync_resetn特性
 	- async assert:
