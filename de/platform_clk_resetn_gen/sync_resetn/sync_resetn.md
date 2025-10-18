@@ -38,6 +38,7 @@
 # design
 
 - ![[resetn_design.svg|1000]]
+- 
 - sync_resetn特性
 	- async assert:
 		- 確保進入reset的時候, 在所有clock domain下都是同時且瞬間
