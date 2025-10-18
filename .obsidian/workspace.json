@@ -11,39 +11,12 @@
             "id": "aa5b9c54a5cac8c4",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "de/power/gck/gck.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "gck"
-            }
-          },
-          {
-            "id": "85020d93d796bd36",
-            "type": "leaf",
-            "state": {
               "type": "image",
               "state": {
-                "file": "de/power/gck/include/gck.svg"
+                "file": "de/power/gck/include/gck 1.svg"
               },
               "icon": "lucide-image",
-              "title": "gck"
-            }
-          },
-          {
-            "id": "f2c68856380e213c",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "de/power/gck/include/Pasted image 20251018041246.png"
-              },
-              "icon": "lucide-image",
-              "title": "Pasted image 20251018041246"
+              "title": "gck 1"
             }
           }
         ]
@@ -103,8 +76,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 481.5,
-    "collapsed": true
+    "width": 481.5
   },
   "right": {
     "id": "baf9c43aba40b294",
@@ -222,12 +194,14 @@
   },
   "active": "aa5b9c54a5cac8c4",
   "lastOpenFiles": [
-    "Pasted image 20251018045341.png",
-    "Pasted image 20251018045158.png",
-    "Pasted image 20251018043644.png",
     "de/power/gck/include/gck.svg",
+    "de/power/gck/include/gck 1.svg",
     "de/power/gck/gck.md",
+    "de/power/gck/include/Pasted image 20251018043644.png",
+    "Pasted image 20251003113443.png",
     "de/power/gck/include/Pasted image 20251018041246.png",
+    "Pasted image 20251018045158.png",
+    "de/power/gck/include/Pasted image 20251018045341.png",
     "de/power/genus/genus.md",
     "de/platform_clk_resetn_gen/cdc/clk_gen/clk_gen.md",
     "de/platform_clk_resetn_gen/cdc/cdc_design/cdc_design.md",
@@ -237,7 +211,6 @@
     "de/platform_clk_resetn_gen/platform_resetn/include/pcs2_aopd_rstgen.svg",
     "de/platform_clk_resetn_gen/macro_sync_resetn/sync_resetn.md",
     "de/platform_clk_resetn_gen/platform_clk/include/smu_pcs_core.svg",
-    "de/power/gck/include/Pasted image 20251017140317.png",
     "de/platform_clk_resetn_gen/platform/include",
     "de/platform_clk_resetn_gen/platform",
     "workflow/autohotkey/autohotkey.md",
@@ -246,7 +219,6 @@
     "de/platform_clk_resetn_gen/macro_sync_resetn/ref/rst_sync.v",
     "de/platform_clk_resetn_gen/platform_resetn/ref/sample_ae350_rstgen.v",
     "de/platform_clk_resetn_gen/platform_resetn/ref/sample_ae350_aopd_rstgen.v",
-    "de/platform_clk_resetn_gen/macro_sync_resetn/include/resetn_tree.svg",
     "de/platform_clk_resetn_gen/macro_sync_resetn/ref",
     "de/platform_clk_resetn_gen/platform_resetn/ref",
     "de/platform_clk_resetn_gen/macro_sync_resetn/include",
