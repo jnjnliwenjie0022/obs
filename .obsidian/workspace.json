@@ -11,15 +11,16 @@
             "id": "4b7f5f1bb2c10deb",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "de/platform_clk_resetn_gen/sync_resetn/sync_resetn.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
+                "file": "de/platform_clk_resetn_gen/sync_resetn/books/CummingsSNUG2003Boston_Resets_rev1_2.pdf",
+                "page": 1,
+                "left": -10,
+                "top": 796,
+                "zoom": 1.4791666666666667
               },
-              "icon": "lucide-file",
-              "title": "sync_resetn"
+              "icon": "lucide-file-text",
+              "title": "CummingsSNUG2003Boston_Resets_rev1_2"
             }
           }
         ]
@@ -197,12 +198,14 @@
   },
   "active": "4b7f5f1bb2c10deb",
   "lastOpenFiles": [
+    "de/platform_clk_resetn_gen/sync_resetn/sync_resetn.md",
+    "de/platform_clk_resetn_gen/sync_resetn/books/CummingsSNUG2003Boston_Resets_rev1_2.pdf",
+    "de/platform_clk_resetn_gen/sync_resetn/books",
     "de/platform_clk_resetn_gen/clk_gen.md",
     "de/platform_clk_resetn_gen/metastable_state.md",
     "de/platform_clk_resetn_gen/gck/gck.md",
     "de/platform_clk_resetn_gen/platform/include/gen.svg",
     "de/design_spec/ref/Andes_design_guide.md",
-    "de/platform_clk_resetn_gen/sync_resetn/sync_resetn.md",
     "de/platform_clk_resetn_gen/reg_latch.md",
     "de/platform_clk_resetn_gen/sync_resetn/include/resetn_arch.svg",
     "de/platform_clk_resetn_gen/sync_resetn/include/resetn_tree.svg",
@@ -228,8 +231,6 @@
     "de/platform_clk_resetn_gen/platform_resetn/ref/sample_ae350_aopd_rstgen.v",
     "de/platform_clk_resetn_gen/sync_resetn/ref",
     "de/platform_clk_resetn_gen/platform_resetn/ref",
-    "de/platform_clk_resetn_gen/sync_resetn/include",
-    "de/platform_clk_resetn_gen/platform_resetn/include",
     "de/design_spec/lint_rule.md",
     "conflict-files-obsidian-git.md",
     "workflow/mobaxterm.md",
@@ -241,7 +242,6 @@
     "de/amba_apb/ahb2apb.md",
     "de/amba_ahb/ahb.md",
     "de/amba_axi/axi.md",
-    "de/cdc/sync_or_async_clk/sync_or_async_clk.md",
-    "de/cdc/sync_reset/Untitled.md"
+    "de/cdc/sync_or_async_clk/sync_or_async_clk.md"
   ]
 }

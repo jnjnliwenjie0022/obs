@@ -3,8 +3,11 @@
 - ref: https://vocus.cc/article/66aa2b66fd897800016831f0
 - ref: https://www.cnblogs.com/rednodel/p/13960199.html
 - ref: https://zhuanlan.zhihu.com/p/167305718
+- ref: https://www.dzsc.com/dzbbs/20050129/200765203346281152.html
+- ref: https://blog.csdn.net/s1_mple/article/details/145100716
 - 基礎 resetn arch
 	- ![[resetn_arch.svg]]
+		- 
 - 結論:
 	- 如果是 reset 的屬性是 sync, 也會進行 STA 分析, 安全!
 		- reset 完全跟 clock 同步, 視爲 normal data path
