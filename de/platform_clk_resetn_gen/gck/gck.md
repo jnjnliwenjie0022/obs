@@ -1,5 +1,28 @@
 # concept
 - ref: https://www.cnblogs.com/oomusou/archive/2010/07/30/blocking_vs_nonblocking.html
+```verilog
+// logic
+always @* begin
+    a = a;
+end
+
+// latch
+// 用在 gck
+always @* begin
+    a <= a;
+end
+
+// register
+// 用在 gen clk, 確保 clk_out 爲 blocking
+always @ (posedge clk) begin
+    a = a;
+end
+
+// register
+always @ (posedge clk) begin
+    a <= a;
+end
+```
 # frontend
 
 - latch也需要解setup time和hold time
