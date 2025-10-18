@@ -56,7 +56,7 @@ module CKLNQOPTMAD4BWP30P140 (TE, E, CP, Q);
         and (Q, Q_buf, CP_d);
     `else 
         pullup (CDN);
-        pullup (SDN);
+   +     pullup (SDN);
         or (D_i, E, TE);
         not (CPB, CP);
         tsmc_dla (Q_buf, D_i, CPB, CDN, SDN, notifier);
