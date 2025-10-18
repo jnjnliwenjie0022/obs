@@ -5,6 +5,8 @@
 - ref: https://zhuanlan.zhihu.com/p/167305718
 - ref: https://www.dzsc.com/dzbbs/20050129/200765203346281152.html
 - ref: https://blog.csdn.net/s1_mple/article/details/145100716
+- ref: [[CummingsSNUG2003Boston_Resets_rev1_2.pdf]]
+- ref: https://www.dzsc.com/dzbbs/20050129/200765203346281152.html
 - 基礎 resetn arch
 	- ![[resetn_arch.svg]]
 		- 
