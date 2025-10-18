@@ -11,12 +11,15 @@
             "id": "ecd95adbc39b0f61",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "de/platform_clk_resetn_gen/sync_resetn/include/resetn_arch.svg"
+                "file": "de/platform_clk_resetn_gen/sync_resetn/sync_resetn.md",
+                "mode": "preview",
+                "source": false,
+                "backlinks": false
               },
-              "icon": "lucide-image",
-              "title": "resetn_arch"
+              "icon": "lucide-file",
+              "title": "sync_resetn"
             }
           },
           {
@@ -155,13 +158,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "de/platform_clk_resetn_gen/sync_resetn/include/resetn_arch.svg",
+                "file": "de/platform_clk_resetn_gen/sync_resetn/sync_resetn.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of resetn_arch"
+              "title": "Outline of sync_resetn"
             }
           },
           {
@@ -209,9 +212,9 @@
   },
   "active": "ecd95adbc39b0f61",
   "lastOpenFiles": [
-    "de/platform_clk_resetn_gen/sync_resetn/include/resetn_design.svg",
-    "de/platform_clk_resetn_gen/sync_resetn/include/resetn_arch.svg",
     "de/platform_clk_resetn_gen/sync_resetn/include/resetn_tree.svg",
+    "de/platform_clk_resetn_gen/sync_resetn/include/resetn_arch.svg",
+    "de/platform_clk_resetn_gen/sync_resetn/include/resetn_design.svg",
     "de/platform_clk_resetn_gen/sync_resetn/sync_resetn.md",
     "de/platform_clk_resetn_gen/metastable_state.md",
     "de/platform_clk_resetn_gen/gck/gck.md",
