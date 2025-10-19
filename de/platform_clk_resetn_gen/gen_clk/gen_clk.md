@@ -1,7 +1,7 @@
-# concept
+# glitch
 
-- 基本觀念: 
-	- 合法的 clk 需要滿足一下
+- 對於 Clock 而言, Glitch 是絕對致命的, 小於最小 Clock Period 的行為就是 Glitch
+- 對於 Data 而言, Glitch 不是什麼大問題
 
 # gen_clk
 
