@@ -62,7 +62,7 @@
 		- 如果是 async clk
 			- set_clock_groups -physically_exclusive -name async_clk_group -group {get_clock clk0} -group {get_clock ck1}
 		- 如果是 sync clk
-			- 
+			- set_false_path
 	- Glitch的問題: 沒處理
 	- RTL-Simulation: 不需額外處理
 	- Gate-level Simulation: 不需額外處理

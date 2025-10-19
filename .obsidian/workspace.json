@@ -11,15 +11,12 @@
             "id": "4b7f5f1bb2c10deb",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "de/platform_clk_resetn_gen/gen_clk/gen_clk.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
+                "file": "de/platform_clk_resetn_gen/gen_clk/include/aclkmux.svg"
               },
-              "icon": "lucide-file",
-              "title": "gen_clk"
+              "icon": "lucide-image",
+              "title": "aclkmux"
             }
           }
         ]
@@ -197,9 +194,9 @@
   },
   "active": "4b7f5f1bb2c10deb",
   "lastOpenFiles": [
+    "de/platform_clk_resetn_gen/gen_clk/gen_clk.md",
     "de/platform_clk_resetn_gen/gen_clk/include/clock_propagation.svg",
     "de/platform_clk_resetn_gen/gen_clk/include/aclkmux.svg",
-    "de/platform_clk_resetn_gen/gen_clk/gen_clk.md",
     "de/platform_clk_resetn_gen/gck/gck.md",
     "de/platform_clk_resetn_gen/sync_resetn/sync_resetn.md",
     "de/platform_clk_resetn_gen/sync_resetn/include/resetn_arch.svg",
