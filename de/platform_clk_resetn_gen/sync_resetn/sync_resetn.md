@@ -37,6 +37,9 @@
 			- 需要考慮到 congestion
 # design
 
+- reset 的基本特性:
+	- #TODO 
+
 - ![[resetn_design.svg|1000]]
 - i_resetn特性
 	- 可以是 blocking 或是 non-blocking
