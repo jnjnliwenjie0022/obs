@@ -75,17 +75,18 @@
 
 - ![[Pasted image 20251020003416.png|500]]
 
-- 從圖中我們可以發現用 SR-NOR 的電路沒有{1,1}的輸出, {1,1}的輸出會使 clk 行為異常, 但
+- 從圖中我們可以發現用 SR-NOR 的電路沒有{1,1}的輸出, {1,1}的輸出會使 clk 行為異常, 但不會出錯, 所以選擇 SR-NOR 的電路較好
 - ![[aclkmux_sr.svg]]
 ## design
 
+- ref: https://aijishu.com/a/1060000000203564
+- ref: https://www.youtube.com/watch?v=KBeumQxSyZA
  - 目標:
 	- 找到 glitch 的 mux 電路 (主要)
 	- 處理 syncer
 	- 處理 gck
 	- 處理 tr tf
 	- 處理 50% duty cycle
-- ![[aclkmux.svg]]
+- 以下是架構圖
+	- ![[aclkmux.svg]]
 
-- ref: https://aijishu.com/a/1060000000203564
-- ref: https://www.youtube.com/watch?v=KBeumQxSyZA
