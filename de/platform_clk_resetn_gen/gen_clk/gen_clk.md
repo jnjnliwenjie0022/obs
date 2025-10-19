@@ -74,10 +74,17 @@
 ## concept
 
 - ![[Pasted image 20251020003416.png|500]]
-- 從圖中我們可以發現用 SR-NOR 的電路沒有{0,0}的輸出, 
+
+- 從圖中我們可以發現用 SR-NOR 的電路沒有{1,1}的輸出, {1,1}的輸出會使 clk 行為異常, 但
 - ![[aclkmux_sr.svg]]
 ## design
 
+ - 目標:
+	- 找到 glitch 的 mux 電路 (主要)
+	- 處理 syncer
+	- 處理 gck
+	- 處理 tr tf
+	- 處理 50% duty cycle
 - ![[aclkmux.svg]]
 
 - ref: https://aijishu.com/a/1060000000203564
