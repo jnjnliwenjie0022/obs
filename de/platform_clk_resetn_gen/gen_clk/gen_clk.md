@@ -58,7 +58,9 @@
 - case7: 如果是 RTL glitch free clock switching 則:
 	- CELL 的使用: 使用無 CLK 訊息的 CELL, 無法 clock propagation
 	- SDC 的定義:
+		- ref: https://blog.csdn.net/tbzj_2000/article/details/78775995
 		- 如果是 async clk
+			- set_clock_groups -physically_exclusive -name async_clk_group -group {get_clock clk0} -group {get_clock ck1}
 		- 如果是 sync clk
 	- Glitch的問題: 沒處理
 	- RTL-Simulation: 不需額外處理
