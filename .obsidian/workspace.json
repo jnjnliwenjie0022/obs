@@ -11,15 +11,12 @@
             "id": "4b7f5f1bb2c10deb",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "de/platform_clk_resetn_gen/gen_clk/gen_clk.md",
-                "mode": "preview",
-                "source": false,
-                "backlinks": false
+                "file": "de/platform_clk_resetn_gen/gen_clk/include/clock_propagation.svg"
               },
-              "icon": "lucide-file",
-              "title": "gen_clk"
+              "icon": "lucide-image",
+              "title": "clock_propagation"
             }
           }
         ]
@@ -197,8 +194,10 @@
   },
   "active": "4b7f5f1bb2c10deb",
   "lastOpenFiles": [
-    "de/platform_clk_resetn_gen/gck/gck.md",
+    "de/platform_clk_resetn_gen/gen_clk/include/aclkmux.svg",
+    "de/platform_clk_resetn_gen/gen_clk/include/clock_propagation.svg",
     "de/platform_clk_resetn_gen/gen_clk/gen_clk.md",
+    "de/platform_clk_resetn_gen/gck/gck.md",
     "de/platform_clk_resetn_gen/sync_resetn/sync_resetn.md",
     "de/platform_clk_resetn_gen/sync_resetn/include/resetn_arch.svg",
     "de/platform_clk_resetn_gen/metastable_state.md",
@@ -206,7 +205,6 @@
     "de/platform_clk_resetn_gen/sync_resetn/books/whieRlKFPePPQxmV.pdf",
     "de/platform_clk_resetn_gen/sync_resetn/books/Unconfirmed 242558.crdownload",
     "de/platform_clk_resetn_gen/cdc/clk_gen/clk_gen.md",
-    "de/platform_clk_resetn_gen/gen_clk/include/clock_propagation.svg",
     "de/platform_clk_resetn_gen/gck/include/gck.svg",
     "de/platform_clk_resetn_gen/gck/include/gck_waveform.svg",
     "de/platform_clk_resetn_gen/gen_clk/include",
@@ -222,7 +220,6 @@
     "de/power/reg/reg.svg",
     "de/power/reg/reg.md",
     "de/platform_clk_resetn_gen/gck/include/Pasted image 20251018043644.png",
-    "Pasted image 20251003113443.png",
     "de/power/genus/genus.md",
     "de/platform_clk_resetn_gen/cdc/cdc_design/cdc_design.md",
     "de/platform_clk_resetn_gen/platform_resetn/platform_resetn.md",
