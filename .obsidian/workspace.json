@@ -34,8 +34,7 @@
               "title": "aclkmux_sr"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -208,11 +207,12 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "35a470a2c390e07e",
+  "active": "4b7f5f1bb2c10deb",
   "lastOpenFiles": [
-    "de/platform_clk_resetn_gen/gen_clk/include/aclkmux.svg",
+    "Pasted image 20251020003416.png",
     "de/platform_clk_resetn_gen/gen_clk/include/aclkmux_sr.svg",
     "de/platform_clk_resetn_gen/gen_clk/gen_clk.md",
+    "de/platform_clk_resetn_gen/gen_clk/include/aclkmux.svg",
     "de/platform_clk_resetn_gen/gck/gck.md",
     "de/platform_clk_resetn_gen/gen_clk/include/clock_propagation.svg",
     "de/platform_clk_resetn_gen/sync_resetn/sync_resetn.md",
@@ -236,7 +236,6 @@
     "de/platform_clk_resetn_gen/sync_resetn/include/resetn_design.svg",
     "de/power/reg/reg.svg",
     "de/power/reg/reg.md",
-    "de/platform_clk_resetn_gen/gck/include/Pasted image 20251018043644.png",
     "de/power/genus/genus.md",
     "de/platform_clk_resetn_gen/cdc/cdc_design/cdc_design.md",
     "de/platform_clk_resetn_gen/platform_resetn/platform_resetn.md",

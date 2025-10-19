@@ -71,6 +71,13 @@
 
 # aclkmux
 
+## concept
+
+- ![[Pasted image 20251020003416.png|500]]
+- 從圖中我們可以發現用 SR-NOR 的電路沒有{0,0}的輸出, 
+- ![[aclkmux_sr.svg]]
+## design
+
 - ![[aclkmux.svg]]
 
 - ref: https://aijishu.com/a/1060000000203564
