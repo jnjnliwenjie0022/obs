@@ -56,8 +56,10 @@
 	- Gate-level Simulation: 不需額外處理
 	- 結論: 不行
 - case7: 如果是 RTL glitch free clock switching 則:
-	-  CELL 的使用: 使用無 CLK 訊息的 CELL, 無法 clock propagation
-	- SDC 的定義: 需要定義, 因為 clock propagation 失敗
+	- CELL 的使用: 使用無 CLK 訊息的 CELL, 無法 clock propagation
+	- SDC 的定義:
+		- 如果是 async clk
+		- 如果是 sync clk
 	- Glitch的問題: 沒處理
 	- RTL-Simulation: 不需額外處理
 	- Gate-level Simulation: 不需額外處理
