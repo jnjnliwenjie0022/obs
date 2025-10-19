@@ -20,8 +20,7 @@
 	- SDC 的定義: 需要定義, 因為 clock propagation 失敗
 	- Glitch的問題: RTL 處理, 本身邏輯是 glitch free
 	- RTL-Simulation: 不需額外處理
-	- Gate-level Simulation: N/A
-		- PS: 建議都吃SDF
+	- Gate-level Simulation: GCK 被 replacement 之後, 一定需要吃SDF
 	- 結論: 可以
 - case3: 如果是 RTL 同相除頻器則:
 	- CELL 的使用: 使用無 CLK 訊息的 CELL, 無法 clock propagation
@@ -60,12 +59,19 @@
 	- SDC 的定義:
 		- ref: https://blog.csdn.net/tbzj_2000/article/details/78775995
 		- 如果是 async clk
+			- ref: https://zhuanlan.zhihu.com/p/25638298398
 			- set_clock_groups -physically_exclusive -name async_clk_group -group {get_clock clk0} -group {get_clock ck1}
 		- 如果是 sync clk
-			- set_false_path
-	- Glitch的問題: 沒處理
+			- ref: https://bbs.eetop.cn/thread-920953-1-1.html
+			-  #TODO 
+	- Glitch的問題: 有
 	- RTL-Simulation: 不需額外處理
-	- Gate-level Simulation: 不需額外處理
+	- Gate-level Simulation: GCK 和 CLKOR CELL 被 replacement 之後, 一定需要吃SDF
 	- 結論: 不行
-	- ref: https://aijishu.com/a/1060000000203564
-	- ref: https://www.youtube.com/watch?v=KBeumQxSyZA
+
+# aclkmux
+
+- ![[aclkmux.svg]]
+
+- ref: https://aijishu.com/a/1060000000203564
+- ref: https://www.youtube.com/watch?v=KBeumQxSyZA
