@@ -11,12 +11,15 @@
             "id": "bf8a1a04978aa104",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "de/platform_clk_resetn_gen/gen_clk/include/clkmux.svg"
+                "file": "de/platform_clk_resetn_gen/gen_clk/gen_clk.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
               },
-              "icon": "lucide-image",
-              "title": "clkmux"
+              "icon": "lucide-file",
+              "title": "gen_clk"
             }
           }
         ]
@@ -194,8 +197,8 @@
   },
   "active": "bf8a1a04978aa104",
   "lastOpenFiles": [
-    "de/platform_clk_resetn_gen/gen_clk/include/aclkmux.svg",
     "de/platform_clk_resetn_gen/gen_clk/include/clkmux.svg",
+    "de/platform_clk_resetn_gen/gen_clk/include/aclkmux.svg",
     "de/platform_clk_resetn_gen/gen_clk/include/aclkmux_sr.svg",
     "de/platform_clk_resetn_gen/platform/include/gen.svg",
     "de/platform_clk_resetn_gen/gen_clk/gen_clk.md",
