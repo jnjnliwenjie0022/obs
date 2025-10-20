@@ -4,6 +4,7 @@
 - 對於 Clock 而言, Glitch 是絕對致命的
 	- set_min_pulse_width -high 0.4 [get_clocks CLK]
 	- set_min_pulse_width -low 0.4 [get_clocks CLK]
+	- 在 RTL-level 實務設計上, Clock Glitch 的定義就是最快頻率的最小週期
 - 對於 Data 而言, Glitch 不是什麼大問題, 因為 Data 的 Glitch 問題可以被 setup time / hold time detect 到
 
 # gen_clk
