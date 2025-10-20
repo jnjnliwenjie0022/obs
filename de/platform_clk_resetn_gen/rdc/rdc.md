@@ -9,9 +9,10 @@ always @ (posedge clk or negedge resetn)
 			- assert: sync
 			- deassert: async
 		- power-on reset
-			- assert: 
+			- assert: sync
+			- 
 			- deassert: 
-	- software reset
+	- soft reset
 		- assert: 
 		- deassert: 
 	- delay reset
