@@ -195,8 +195,9 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "35a470a2c390e07e",
+  "active": "bf8a1a04978aa104",
   "lastOpenFiles": [
+    "Pasted image 20251020155026.png",
     "de/platform_clk_resetn_gen/gen_clk/code",
     "de/platform_clk_resetn_gen/gen_clk/include/clkmux.svg",
     "de/platform_clk_resetn_gen/gen_clk/include/aclkmux.svg",
@@ -229,7 +230,6 @@
     "de/platform_clk_resetn_gen/cdc/cdc_design/cdc_design.md",
     "de/platform_clk_resetn_gen/platform_resetn/platform_resetn.md",
     "de/platform_clk_resetn_gen/platform/include",
-    "de/platform_clk_resetn_gen/platform",
     "workflow/autohotkey/autohotkey.md",
     "workflow/rime.md",
     "de/design_spec/lint_rule.md",

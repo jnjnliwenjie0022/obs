@@ -94,3 +94,7 @@
 	- ![[aclkmux.svg]]
 - 以下是 sync clock mux 架構圖
 	- ![[clkmux.svg]]
+
+
+- 以下是 only gck 架構圖 (錯誤)
+- ![[Pasted image 20251020155026.png]]
