@@ -4,5 +4,16 @@
 always @ (posedge clk or negedge resetn)
 ```
 - resetn 的屬性有以下幾種
+	- hard reset
+		- hardware reset
+			- assert: sync
+			- deassert: async
+		- power-on reset
+			- assert: 
+			- deassert: 
 	- software reset
-	- hardware resetn
+		- assert: 
+		- deassert: 
+	- delay reset
+		- assert: 
+		- deassert: 
