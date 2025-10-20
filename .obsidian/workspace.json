@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "de/platform_clk_resetn_gen/gen_clk/gen_clk.md",
+                "file": "de/platform_clk_resetn_gen/sync_resetn/sync_resetn.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "gen_clk"
+              "title": "sync_resetn"
             }
           }
         ]
@@ -75,7 +75,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -197,6 +198,9 @@
   },
   "active": "bf8a1a04978aa104",
   "lastOpenFiles": [
+    "de/platform_clk_resetn_gen/handshake.md",
+    "de/platform_clk_resetn_gen/sync_resetn/sync_resetn.md",
+    "de/platform_clk_resetn_gen/gen_clk/gen_clk.md",
     "de/platform_clk_resetn_gen/gen_clk/code/test_clkmux/run_batch.tcl",
     "de/platform_clk_resetn_gen/gen_clk/code/test_clkmux/flist",
     "de/platform_clk_resetn_gen/gen_clk/code/test_clkmux/02",
@@ -215,10 +219,6 @@
     "de/platform_clk_resetn_gen/gen_clk/include/aclkmux.svg",
     "de/platform_clk_resetn_gen/gen_clk/include/aclkmux_sr.svg",
     "de/platform_clk_resetn_gen/platform/include/gen.svg",
-    "de/platform_clk_resetn_gen/gen_clk/gen_clk.md",
-    "de/platform_clk_resetn_gen/sync_resetn/sync_resetn.md",
-    "de/platform_clk_resetn_gen/handshake.md",
-    "de/platform_clk_resetn_gen/sync_resetn/books/whieRlKFPePPQxmV.pdf",
     "de/platform_clk_resetn_gen/cdc/clk_gen/clk_gen.md",
     "Pasted image 20251020003416.png",
     "de/platform_clk_resetn_gen/gck/gck.md",

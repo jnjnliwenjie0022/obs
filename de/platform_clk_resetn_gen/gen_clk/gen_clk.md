@@ -94,9 +94,9 @@
 	- ![[clkmux.svg]]
 	- 以下是 sync clk mux waveform (正確)
 		- ![[Pasted image 20251020155629.png]]
-	- SDC
+	- SDC #REVIEW
 		- ref: https://blog.csdn.net/tbzj_2000/article/details/78775995
-		- ref: - ref: https://zhuanlan.zhihu.com/p/25638298398
+		- ref: https://zhuanlan.zhihu.com/p/25638298398
 		- ref: https://bbs.eetop.cn/thread-920953-1-1.html
 		- 對 clkmux 約束
 		- 對頻率重新約束, 因為 clock propagation 消失的緣故
@@ -114,6 +114,6 @@
 		- ![[Pasted image 20251020155734.png]]
 	- SDC
 		- ref: https://blog.csdn.net/tbzj_2000/article/details/78775995
-		- 不對 clkmux 約束
-		- 不對頻率重新約束
+		- 不對 clkmux 約束, 因為是 async
+		- 不對頻率重新約束, 因為是 async
 		- set_clock_groups -asynchronous -name async_clk_group -group {get_clock clk0} -group {get_clock ck1}
