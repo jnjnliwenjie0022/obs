@@ -1,4 +1,4 @@
-# concept
+# arch
 
 - ref: https://vocus.cc/article/66aa2b66fd897800016831f0
 - ref: https://www.cnblogs.com/rednodel/p/13960199.html
@@ -17,6 +17,7 @@
 			- set_false_path -from [get ports [list core_a_resetn]]
 			- set_false_path -from [get ports [list core_b_resetn]]
 			- set_false_path -from [get ports [list core_c_resetn]]
+- 
 - 基本概念:
 	- 如果是 reset 的屬性是 sync, 會進行 STA 分析, 安全!
 		- EX: always @(posedge clk) if (~resetn)
@@ -37,8 +38,6 @@
 			- 需要考慮到 congestion
 # design
 
-- reset 的基本特性:
-	- #TODO 
 
 - ![[resetn_design.svg|1000]]
 - i_resetn特性
