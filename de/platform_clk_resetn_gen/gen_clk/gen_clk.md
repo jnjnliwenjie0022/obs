@@ -99,7 +99,7 @@
 		- ref: https://docs.amd.com/r/en-US/ug903-vivado-using-constraints/Multicycle-Paths
 		- 對 clkmux 約束
 			- 沒有 async clock mux 簡單, 要下 set_multicycle_path
-			- 不約束也行
+			- 不約束也行, 但條件會變的非常嚴格, 
 		- 對頻率重新約束, 因為 clock propagation 消失的緣故
 - 以下是 async clock mux 架構圖 (不論 sync 或是 async 都可以使用)
 	- ![[aclkmux.svg]]
