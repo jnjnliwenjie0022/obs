@@ -63,10 +63,8 @@
 		- ref: https://blog.csdn.net/tbzj_2000/article/details/78775995
 		- 如果是 async clk
 			- ref: https://zhuanlan.zhihu.com/p/25638298398
-			- set_clock_groups -physically_exclusive -name async_clk_group -group {get_clock clk0} -group {get_clock ck1}
 		- 如果是 sync clk
 			- ref: https://bbs.eetop.cn/thread-920953-1-1.html
-			-  #TODO 
 	- Glitch的問題: 有
 	- RTL-Simulation: 不需額外處理
 	- Gate-level Simulation: GCK 和 CLKOR CELL 被 replacement 之後, 一定需要吃SDF
@@ -78,7 +76,7 @@
 
 - ![[Pasted image 20251020003416.png|500]]
 
-- 從圖中我們可以發現用 SR-NOR 的電路沒有{1,1}的輸出, {1,1}的輸出會使 clk 行為異常, 但不會出錯, 所以選擇 SR-NOR 的電路較好
+- 從圖中我們可以發現用 SR-NOR 的電路沒有{1,1}的輸出
 - ![[aclkmux_sr.svg]]
 ## design
 
@@ -101,7 +99,12 @@
 	- ![[clkmux.svg]]
 	- 以下是 sync clk mux waveform (正確)
 		- ![[Pasted image 20251020155629.png]]
+	- SDC
+		- Method 1:
+			- set_false_path -from [get_cell dff0 to ]
 - 以下是 async clock mux 架構圖
 	- ![[aclkmux.svg]]
 	- 以下是 async clk mux waveform (正確)
 		- ![[Pasted image 20251020155734.png]]
+	- SDC
+		- set_clock_groups -physically_exclusive -name async_clk_group -group {get_clock clk0} -group {get_clock ck1}
