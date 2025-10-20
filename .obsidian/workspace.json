@@ -11,16 +11,15 @@
             "id": "bf8a1a04978aa104",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "de/platform_clk_resetn_gen/gen_resetn/books/CummingsSNUG2003Boston_Resets_rev1_2.pdf",
-                "page": 38,
-                "left": -8,
-                "top": 382,
-                "zoom": 2.1323529411764706
+                "file": "de/platform_clk_resetn_gen/domain_cross.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
               },
-              "icon": "lucide-file-text",
-              "title": "CummingsSNUG2003Boston_Resets_rev1_2"
+              "icon": "lucide-file",
+              "title": "domain_cross"
             }
           }
         ]
@@ -198,8 +197,10 @@
   },
   "active": "bf8a1a04978aa104",
   "lastOpenFiles": [
-    "de/platform_clk_resetn_gen/gen_resetn/books/synchronous & Synchronous Reset Design Techniques - Part Deux.pdf",
+    "de/platform_clk_resetn_gen/rdc/rdc.md",
+    "de/platform_clk_resetn_gen/rdc/books/Techniques to identify reset metastability issues due to soft resets.pdf",
     "de/platform_clk_resetn_gen/gen_resetn/books/CummingsSNUG2003Boston_Resets_rev1_2.pdf",
+    "de/platform_clk_resetn_gen/gen_resetn/books/synchronous & Synchronous Reset Design Techniques - Part Deux.pdf",
     "de/platform_clk_resetn_gen/gen_resetn/gen_resetn.md",
     "de/platform_clk_resetn_gen/rdc/books",
     "de/platform_clk_resetn_gen/rdc",
@@ -213,7 +214,6 @@
     "de/platform_clk_resetn_gen/gen_clk/book/基于 BUFGMUX 与 DCM 的 FPGA 时钟电路设计.pdf",
     "de/platform_clk_resetn_gen/gck/gck.md",
     "de/platform_clk_resetn_gen/gen_clk/book/Unconfirmed 871597.crdownload",
-    "de/platform_clk_resetn_gen/gen_clk/book",
     "de/platform_clk_resetn_gen/handshake.md",
     "de/platform_clk_resetn_gen/metastable_state.md",
     "de/power/genus/genus.md",
@@ -241,7 +241,6 @@
     "de/amba_apb/atcdmac300/atcdmac300.md",
     "language/ipa/ipa.md",
     "de/tilelink/tilelink.md",
-    "de/cim/analysis.md",
-    "de/amba_apb/ahb2apb.md"
+    "de/cim/analysis.md"
   ]
 }
