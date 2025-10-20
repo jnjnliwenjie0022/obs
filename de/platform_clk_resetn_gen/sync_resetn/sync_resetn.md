@@ -17,7 +17,7 @@
 			- set_false_path -from [get ports [list core_a_resetn]]
 			- set_false_path -from [get ports [list core_b_resetn]]
 			- set_false_path -from [get ports [list core_c_resetn]]
-- Power-on-reset 流程
+- Power-On-Reset (POR) 流程
 	- Power On
 	- reset assert, 可以在 clock 開始之前或是之後
 	- reset deassert, 只能在 clock 開始之後
@@ -40,7 +40,6 @@
 			- 需要考慮到 IR Drop
 			- 需要考慮到 congestion
 # design
-
 
 - ![[resetn_design.svg|1000]]
 - i_resetn特性
@@ -72,3 +71,6 @@
 		- {resetn, a_clk} -> a_resetn
 		- {a_resetn & a1_resetn, b_clk} -> b_resetn
 		- {b_resetn & b1_resetn, c_clk} -> c_resetn
+# rdc
+#TODO 
+- ref: https://zhuanlan.zhihu.com/p/688124932?share_code=184pakQ1DLvVB&utm_psn=1963302042274607187/

@@ -30,7 +30,7 @@
 	- Gate simulation generate: 
 		- TCF
 	- Synthesis tool with power report for Gate-level power need: 
-		- SDC??
+		- SDC
 		- TCF from Gate-level simulation
 		- Netlist
 		- Techlib: 6T, SVT, **TT, Normal Volt, 25c**
