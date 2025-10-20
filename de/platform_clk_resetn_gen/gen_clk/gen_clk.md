@@ -87,6 +87,7 @@
 	- 處理 gck
 	- 處理 tr tf
 	- 處理 50% duty cycle
-- 以下是架構圖
+- 以下是 async clock mux 架構圖
 	- ![[aclkmux.svg]]
-
+- 以下是 sync clock mux 架構圖
+	- 
