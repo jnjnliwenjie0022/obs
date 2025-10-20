@@ -11,15 +11,16 @@
             "id": "bf8a1a04978aa104",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "de/power/sdpd/sdpd.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
+                "file": "de/platform_clk_resetn_gen/gen_resetn/books/CummingsSNUG2003Boston_Resets_rev1_2.pdf",
+                "page": 38,
+                "left": -8,
+                "top": 382,
+                "zoom": 2.1323529411764706
               },
-              "icon": "lucide-file",
-              "title": "sdpd"
+              "icon": "lucide-file-text",
+              "title": "CummingsSNUG2003Boston_Resets_rev1_2"
             }
           }
         ]
@@ -197,27 +198,27 @@
   },
   "active": "bf8a1a04978aa104",
   "lastOpenFiles": [
-    "de/platform_clk_resetn_gen/sync_resetn/sync_resetn.md",
+    "de/platform_clk_resetn_gen/gen_resetn/books/synchronous & Synchronous Reset Design Techniques - Part Deux.pdf",
+    "de/platform_clk_resetn_gen/gen_resetn/books/CummingsSNUG2003Boston_Resets_rev1_2.pdf",
+    "de/platform_clk_resetn_gen/gen_resetn/gen_resetn.md",
+    "de/platform_clk_resetn_gen/rdc/books",
+    "de/platform_clk_resetn_gen/rdc",
+    "de/platform_clk_resetn_gen/gen_clk/book/4C3_DVCon_India_2023_Final_Paper_2722.pdf",
+    "de/platform_clk_resetn_gen/gen_clk/book/Unconfirmed 911581.crdownload",
+    "de/platform_clk_resetn_gen/gen_clk/gen_clk.md",
+    "de/power/sdpd/sdpd.md",
+    "de/platform_clk_resetn_gen/reset",
     "de/platform_clk_resetn_gen/domain_cross.md",
     "de/platform_clk_resetn_gen/cdc/clk_gen/clk_gen.md",
-    "de/platform_clk_resetn_gen/gen_clk/gen_clk.md",
     "de/platform_clk_resetn_gen/gen_clk/book/基于 BUFGMUX 与 DCM 的 FPGA 时钟电路设计.pdf",
     "de/platform_clk_resetn_gen/gck/gck.md",
     "de/platform_clk_resetn_gen/gen_clk/book/Unconfirmed 871597.crdownload",
     "de/platform_clk_resetn_gen/gen_clk/book",
-    "de/platform_clk_resetn_gen/gen_clk/New folder",
     "de/platform_clk_resetn_gen/handshake.md",
     "de/platform_clk_resetn_gen/metastable_state.md",
     "de/power/genus/genus.md",
     "de/power/reg/reg.md",
     "de/power/reg/reg.svg",
-    "de/power/sdpd/sdpd.md",
-    "de/platform_clk_resetn_gen/gen_clk/code/test_clkmux/run_batch.tcl",
-    "de/platform_clk_resetn_gen/gen_clk/code/test_clkmux/flist",
-    "de/platform_clk_resetn_gen/gen_clk/code/test_clkmux/02",
-    "de/platform_clk_resetn_gen/gen_clk/code/test_clkmux/01",
-    "de/platform_clk_resetn_gen/gen_clk/code/test_clkmux/vip/top_tb.sv",
-    "de/platform_clk_resetn_gen/gen_clk/code/test_clkmux/vip/gck.v",
     "Pasted image 20251020155734.png",
     "Pasted image 20251020155629.png",
     "Pasted image 20251020155456.png",
