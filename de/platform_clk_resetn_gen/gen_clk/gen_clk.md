@@ -60,7 +60,6 @@
 - case7: 如果是 RTL glitch free clock switching 則:
 	- CELL 的使用: 使用無 CLK 訊息的 CELL, 無法 clock propagation
 	- SDC 的定義:
-		- ref: https://blog.csdn.net/tbzj_2000/article/details/78775995
 		- 如果是 async clk
 			- ref: https://zhuanlan.zhihu.com/p/25638298398
 		- 如果是 sync clk
@@ -100,11 +99,23 @@
 	- 以下是 sync clk mux waveform (正確)
 		- ![[Pasted image 20251020155629.png]]
 	- SDC
-		- Method 1:
-			- set_false_path -from [get_cell dff0 to ]
+		- ref: https://blog.csdn.net/tbzj_2000/article/details/78775995
+		- ref: - ref: https://zhuanlan.zhihu.com/p/25638298398
+		- ref: https://bbs.eetop.cn/thread-920953-1-1.html
+		- 對 clkmux 約束, 也因為 clock propagation 消失的緣故, 需要對頻率重新約束
+		- 對 clkmuxMethod 1:
+			- set_false_path -from [get_cells dff0 to [get_cells dff1]]
+			- set_false_path -from [get_cells dff1 to [get_cells dff2]]
+		- 對 clkmux Method 2:
+			- foreach_in_collection a [get_cells -hier * -filter "ref_name =~*mux_clk_gfree*"]
+			- set name [get_object_name $a]
+			- set_false_path -from [get_cells ${name}/diff0] -to [get_cell ${name}/diff1]
+			- set_false_path -from [get_cells ${name}/diff1] -to [get_cell ${name}/diff0]
 - 以下是 async clock mux 架構圖
 	- ![[aclkmux.svg]]
 	- 以下是 async clk mux waveform (正確)
 		- ![[Pasted image 20251020155734.png]]
 	- SDC
+		- ref: https://blog.csdn.net/tbzj_2000/article/details/78775995
+		- 對 clkmux 約束, 雖然 clock propagation 消失, 但因為是 aysnc, 所以不用重新頻率重新約束
 		- set_clock_groups -physically_exclusive -name async_clk_group -group {get_clock clk0} -group {get_clock ck1}
