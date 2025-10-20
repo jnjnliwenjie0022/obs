@@ -29,7 +29,7 @@
 		- EX: always @(posedge clk or negedge resetn) if (~resetn)
 		- backend 需要 HFNS (High Fanout Net Synthesis)
 		- async assert 
-			- 不做 STA 分析
+			- 不做 STA 分析 (不做 STA 分析必然產生 metastable state)
 			- 需要考慮到 skew, 因爲要考慮到 IR drop 當 register async assert 的時候
 			- 需要考慮到 IR drop, 因爲 Fanout 非常大, 當 register async assert 產生瞬間大電流, 需要用 tree balance 處理
 			- 需要考慮到 congestion
