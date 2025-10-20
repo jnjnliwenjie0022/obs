@@ -100,20 +100,25 @@
 		- ref: https://bbs.eetop.cn/thread-920953-1-1.html
 		- 對 clkmux 約束
 		- 對頻率重新約束, 因為 clock propagation 消失的緣故
-		- 對 clkmuxMethod 1:
-			- set_false_path -from [get_cells dff0 to [get_cells dff1]]
-			- set_false_path -from [get_cells dff1 to [get_cells dff2]]
-		- 對 clkmux Method 2:
-			- foreach_in_collection a [get_cells -hier * -filter "ref_name =~*mux_clk_gfree*"]
-			- set name [get_object_name $a]
-			- set_false_path -from [get_cells ${name}/diff0] -to [get_cell ${name}/diff1]
-			- set_false_path -from [get_cells ${name}/diff1] -to [get_cell ${name}/diff0]
+
 - 以下是 async clock mux 架構圖
 	- ![[aclkmux.svg]]
 	- 以下是 async clk mux waveform (正確)
 		- ![[Pasted image 20251020155734.png]]
 	- SDC
 		- ref: https://blog.csdn.net/tbzj_2000/article/details/78775995
-		- 不對 clkmux 約束, 因為是 async
-		- 不對頻率重新約束, 因為是 async
-		- set_clock_groups -asynchronous -name async_clk_group -group {get_clock clk0} -group {get_clock ck1}
+		- 對於 Async 而言
+			- 不對 clkmux 約束, 因為是 async
+			- 不對頻率重新約束, 因為是 async
+			- set_clock_groups -asynchronous -name async_clk_group -group {get_clock clk0} -group {get_clock ck1}
+		- 對於 Sync 而言
+			- 對 clkmux 約束
+			- 對頻率重新約束, 因為 clock propagation 消失的緣故
+			- 對 clkmuxMethod 1:
+				- set_false_path -from [get_cells dff0 to [get_cells dff1]]
+				- set_false_path -from [get_cells dff1 to [get_cells dff2]]
+			- 對 clkmux Method 2:
+				- foreach_in_collection a [get_cells -hier * -filter "ref_name =~*mux_clk_gfree*"]
+				- set name [get_object_name $a]
+				- set_false_path -from [get_cells ${name}/diff0] -to [get_cell ${name}/diff1]
+				- set_false_path -from [get_cells ${name}/diff1] -to [get_cell ${name}/diff0]
