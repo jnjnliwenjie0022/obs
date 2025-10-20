@@ -7,13 +7,15 @@ always @ (posedge clk or negedge resetn)
 	- hard reset
 		- hardware reset
 			- assert: async
-			- deassert: async
+			- deassert: sync
 		- power-on reset
 			- assert: async
-			- deassert: async
+			- deassert: sync
 	- soft reset
 		- assert: sync
-		- deassert: async 
+		- deassert: sync
+		- source: CPU
 	- delay reset
 		- assert: sync
-		- deassert: 
+		- deassert: sync
+		- source: HW
