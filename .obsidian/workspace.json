@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "de/platform_clk_resetn_gen/rdc/rdc.md",
+                "file": "de/cim/cim.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "rdc"
+              "title": "cim"
             }
           }
         ]
@@ -197,8 +197,9 @@
   },
   "active": "bf8a1a04978aa104",
   "lastOpenFiles": [
-    "de/platform_clk_resetn_gen/gen_resetn/gen_resetn.md",
+    "workflow/autohotkey/autohotkey.md",
     "de/platform_clk_resetn_gen/rdc/rdc.md",
+    "de/platform_clk_resetn_gen/gen_resetn/gen_resetn.md",
     "de/platform_clk_resetn_gen/domain_cross.md",
     "Pasted image 20251021022807.png",
     "de/platform_clk_resetn_gen/rdc/books/Techniques to identify reset metastability issues due to soft resets.pdf",
@@ -232,7 +233,6 @@
     "de/platform_clk_resetn_gen/reg_latch.md",
     "de/platform_clk_resetn_gen/cdc/cdc_design/cdc_design.md",
     "de/platform_clk_resetn_gen/platform_resetn/platform_resetn.md",
-    "workflow/autohotkey/autohotkey.md",
     "workflow/rime.md",
     "de/design_spec/lint_rule.md",
     "conflict-files-obsidian-git.md",
