@@ -93,4 +93,4 @@
 - 以下是 async clock mux 架構圖
 	- ![[aclkmux.svg]]
 - 以下是 sync clock mux 架構圖
-	- 
+	- ![[clkmux.svg]]
