@@ -1,8 +1,10 @@
 # glitch
 
-- 
+- Glitch 對於 1 和 0 都有要求, 小於 cell 規範允許的最小寬度, 就是非法
 - 對於 Clock 而言, Glitch 是絕對致命的
-- 對於 Data 而言, Glitch 不是什麼大問題
+	- set_min_pulse_width -high 0.4 [get_clocks CLK]
+	- set_min_pulse_width -low 0.4 [get_clocks CLK]
+- 對於 Data 而言, Glitch 不是什麼大問題, 因為 Data 的 Glitch 問題可以被 setup time / hold time detect 到
 
 # gen_clk
 

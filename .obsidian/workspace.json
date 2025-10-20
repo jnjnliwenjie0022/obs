@@ -195,8 +195,9 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "bf8a1a04978aa104",
+  "active": "35a470a2c390e07e",
   "lastOpenFiles": [
+    "de/platform_clk_resetn_gen/gen_clk/code",
     "de/platform_clk_resetn_gen/gen_clk/include/clkmux.svg",
     "de/platform_clk_resetn_gen/gen_clk/include/aclkmux.svg",
     "de/platform_clk_resetn_gen/gen_clk/include/aclkmux_sr.svg",
@@ -223,7 +224,6 @@
     "de/design_spec/ref/Andes_design_guide.md",
     "de/platform_clk_resetn_gen/reg_latch.md",
     "de/platform_clk_resetn_gen/sync_resetn/include/resetn_tree.svg",
-    "de/platform_clk_resetn_gen/sync_resetn/include/resetn_design.svg",
     "de/power/reg/reg.md",
     "de/power/genus/genus.md",
     "de/platform_clk_resetn_gen/cdc/cdc_design/cdc_design.md",
