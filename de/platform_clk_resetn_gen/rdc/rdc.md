@@ -30,3 +30,7 @@ always @ (posedge clk or negedge resetn)
 		- 可以做 STA 分析, 可以分析 reset -> Q, 如果做 STA 分析, 則無 RDC 問題
 			- ref: [[Techniques to identify reset metastability issues due to soft resets.pdf]]
 		- 大多數情況下不分析 STA, 所以有 RDC 問題
+
+
+
+此時一地方耳機歷史社會這是一個複雜問
