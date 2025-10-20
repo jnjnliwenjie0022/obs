@@ -95,7 +95,7 @@
 	- ![[clkmux.svg]]
 	- 以下是 sync clk mux waveform (正確)
 		- ![[Pasted image 20251020155629.png]]
-	- SDC #REVIEW
+	- SDC
 		- ref: https://zhuanlan.zhihu.com/p/25638298398
 		- ref: https://docs.amd.com/r/en-US/ug903-vivado-using-constraints/Multicycle-Paths
 		- SDC 很不好處理, 就SDC而言, 不是很推薦這個設計方式
@@ -123,3 +123,4 @@
 					- set_false_path -from [get_cells ${name}/diff1] -to [get_cell ${name}/diff0]
 			- 對頻率重新約束, 因為 clock propagation 消失的緣故
 				- ref: https://www.sohu.com/a/359504187_99955608
+				- #REVIEW 
