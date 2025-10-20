@@ -100,9 +100,7 @@
 		- ref: https://docs.amd.com/r/en-US/ug903-vivado-using-constraints/Multicycle-Paths
 		- 對 clkmux 約束
 			- 沒有 async clock mux 簡單, 要下 set_multicycle_path
-				- 不約束也行, 但條件會變的非常嚴格 #REVIEW 
 			- 對頻率重新約束, 因為 clock propagation 消失的緣故
-				- 不約束也行, 但條件會變的非常嚴格 #REVIEW 
 - 以下是 async clock mux 架構圖 (不論 sync 或是 async 都可以使用)
 	- ![[aclkmux.svg]]
 	- 以下是 async clk mux waveform (正確)
@@ -110,6 +108,7 @@
 	- SDC
 		- ref: https://blog.csdn.net/tbzj_2000/article/details/78775995
 		- ref: https://bbs.eetop.cn/thread-920953-1-1.html
+		- ref: https://cloud.tencent.com/developer/article/1819634
 		- 對於 Async 而言
 			- 不對 clkmux 約束, 因為是 async
 			- 不對頻率重新約束, 因為是 async
@@ -125,4 +124,3 @@
 					- set_false_path -from [get_cells ${name}/diff0] -to [get_cell ${name}/diff1]
 					- set_false_path -from [get_cells ${name}/diff1] -to [get_cell ${name}/diff0]
 			- 對頻率重新約束, 因為 clock propagation 消失的緣故
-				- 不約束也行, 但條件會變的非常嚴格 #REVIEW 
