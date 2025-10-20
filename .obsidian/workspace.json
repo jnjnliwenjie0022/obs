@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "de/platform_clk_resetn_gen/domain_cross.md",
+                "file": "de/platform_clk_resetn_gen/rdc/rdc.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "domain_cross"
+              "title": "rdc"
             }
           }
         ]
@@ -197,6 +197,8 @@
   },
   "active": "bf8a1a04978aa104",
   "lastOpenFiles": [
+    "de/platform_clk_resetn_gen/domain_cross.md",
+    "Pasted image 20251021022807.png",
     "de/platform_clk_resetn_gen/rdc/rdc.md",
     "de/platform_clk_resetn_gen/rdc/books/Techniques to identify reset metastability issues due to soft resets.pdf",
     "de/platform_clk_resetn_gen/gen_resetn/books/CummingsSNUG2003Boston_Resets_rev1_2.pdf",
@@ -209,7 +211,6 @@
     "de/platform_clk_resetn_gen/gen_clk/gen_clk.md",
     "de/power/sdpd/sdpd.md",
     "de/platform_clk_resetn_gen/reset",
-    "de/platform_clk_resetn_gen/domain_cross.md",
     "de/platform_clk_resetn_gen/cdc/clk_gen/clk_gen.md",
     "de/platform_clk_resetn_gen/gen_clk/book/基于 BUFGMUX 与 DCM 的 FPGA 时钟电路设计.pdf",
     "de/platform_clk_resetn_gen/gck/gck.md",
@@ -227,7 +228,6 @@
     "de/platform_clk_resetn_gen/gen_clk/include/aclkmux.svg",
     "de/platform_clk_resetn_gen/gen_clk/include/aclkmux_sr.svg",
     "de/platform_clk_resetn_gen/platform/include/gen.svg",
-    "Pasted image 20251020003416.png",
     "de/design_spec/ref/Andes_design_guide.md",
     "de/platform_clk_resetn_gen/reg_latch.md",
     "de/platform_clk_resetn_gen/cdc/cdc_design/cdc_design.md",
