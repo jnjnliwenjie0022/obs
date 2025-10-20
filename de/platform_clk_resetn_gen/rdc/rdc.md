@@ -3,4 +3,6 @@
 ```verilog
 always @ (posedge clk or negedge resetn)
 ```
-- resetn 的
+- resetn 的屬性有以下幾種
+	- software reset
+	- hardware resetn
