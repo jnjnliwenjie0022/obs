@@ -96,15 +96,16 @@
 		- ![[Pasted image 20251020155629.png]]
 	- SDC #REVIEW
 		- ref: https://zhuanlan.zhihu.com/p/25638298398
-		- ref: https://bbs.eetop.cn/thread-920953-1-1.html
+		- ref: https://docs.amd.com/r/en-US/ug903-vivado-using-constraints/Example-One-Setup-5/Hold-Moved-Accordingly
 		- 對 clkmux 約束
 		- 對頻率重新約束, 因為 clock propagation 消失的緣故
-- 以下是 async clock mux 架構圖
+- 以下是 async clock mux 架構圖 (不論 sync 或是 async 都可以使用)
 	- ![[aclkmux.svg]]
 	- 以下是 async clk mux waveform (正確)
 		- ![[Pasted image 20251020155734.png]]
 	- SDC
 		- ref: https://blog.csdn.net/tbzj_2000/article/details/78775995
+		- ref: https://bbs.eetop.cn/thread-920953-1-1.html
 		- 對於 Async 而言
 			- 不對 clkmux 約束, 因為是 async
 			- 不對頻率重新約束, 因為是 async
