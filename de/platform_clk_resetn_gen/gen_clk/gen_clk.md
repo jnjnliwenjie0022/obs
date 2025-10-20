@@ -7,7 +7,7 @@
 	- 在 RTL-level 實務設計上, Clock Glitch 的定義就是最快頻率的最小週期
 - 對於 Data 而言, Glitch 不是什麼大問題, 因為 Data 的 Glitch 問題可以被 setup time / hold time detect 到
 
-# gen_clk
+# gen_asic_clk
 
 - 合法的 clk 需要考慮到 frontend 和 backend
 	- 核心需求: glitch free 以及 clock propagation
@@ -124,3 +124,8 @@
 			- 對頻率重新約束, 因為 clock propagation 消失的緣故
 				- ref: https://www.sohu.com/a/359504187_99955608
 				- #REVIEW 
+# gen_fpga_clk
+
+- ref: [[基于 BUFGMUX 与 DCM 的 FPGA 时钟电路设计.pdf]]
+
+#TODO 

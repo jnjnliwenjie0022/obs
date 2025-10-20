@@ -1,0 +1,3 @@
+- 有兩種 domain cross 的情景
+	- CDC (Cross Domain Cross)
+	- RDC (Reset Domain Cross)

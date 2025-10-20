@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "de/platform_clk_resetn_gen/gen_clk/gen_clk.md",
+                "file": "de/platform_clk_resetn_gen/domain_cross.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "gen_clk"
+              "title": "domain_cross"
             }
           }
         ]
@@ -54,7 +54,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "review",
+                "query": "tag:#TODO ",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -75,8 +75,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -196,36 +195,37 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "463934e073eea783",
+  "active": "bf8a1a04978aa104",
   "lastOpenFiles": [
-    "de/platform_clk_resetn_gen/sync_resetn/sync_resetn.md",
+    "de/platform_clk_resetn_gen/cdc/clk_gen/clk_gen.md",
+    "de/platform_clk_resetn_gen/gen_clk/gen_clk.md",
+    "de/platform_clk_resetn_gen/gen_clk/book/基于 BUFGMUX 与 DCM 的 FPGA 时钟电路设计.pdf",
+    "de/platform_clk_resetn_gen/gck/gck.md",
+    "de/platform_clk_resetn_gen/domain_cross.md",
+    "de/platform_clk_resetn_gen/gen_clk/book/Unconfirmed 871597.crdownload",
+    "de/platform_clk_resetn_gen/gen_clk/book",
+    "de/platform_clk_resetn_gen/gen_clk/New folder",
     "de/platform_clk_resetn_gen/handshake.md",
     "de/platform_clk_resetn_gen/metastable_state.md",
+    "de/platform_clk_resetn_gen/sync_resetn/sync_resetn.md",
     "de/power/genus/genus.md",
     "de/power/reg/reg.md",
     "de/power/reg/reg.svg",
     "de/power/sdpd/sdpd.md",
-    "de/platform_clk_resetn_gen/gen_clk/gen_clk.md",
-    "de/platform_clk_resetn_gen/gck/gck.md",
     "de/platform_clk_resetn_gen/gen_clk/code/test_clkmux/run_batch.tcl",
     "de/platform_clk_resetn_gen/gen_clk/code/test_clkmux/flist",
     "de/platform_clk_resetn_gen/gen_clk/code/test_clkmux/02",
     "de/platform_clk_resetn_gen/gen_clk/code/test_clkmux/01",
     "de/platform_clk_resetn_gen/gen_clk/code/test_clkmux/vip/top_tb.sv",
     "de/platform_clk_resetn_gen/gen_clk/code/test_clkmux/vip/gck.v",
-    "de/platform_clk_resetn_gen/gen_clk/code/test_clkmux/vip/aclkmux.v",
-    "de/platform_clk_resetn_gen/gen_clk/code/test_clkmux/vip",
-    "de/platform_clk_resetn_gen/gen_clk/code/test_clkmux",
     "Pasted image 20251020155734.png",
     "Pasted image 20251020155629.png",
     "Pasted image 20251020155456.png",
     "Pasted image 20251020155026.png",
-    "de/platform_clk_resetn_gen/gen_clk/code",
     "de/platform_clk_resetn_gen/gen_clk/include/clkmux.svg",
     "de/platform_clk_resetn_gen/gen_clk/include/aclkmux.svg",
     "de/platform_clk_resetn_gen/gen_clk/include/aclkmux_sr.svg",
     "de/platform_clk_resetn_gen/platform/include/gen.svg",
-    "de/platform_clk_resetn_gen/cdc/clk_gen/clk_gen.md",
     "Pasted image 20251020003416.png",
     "de/design_spec/ref/Andes_design_guide.md",
     "de/platform_clk_resetn_gen/reg_latch.md",
@@ -241,7 +241,6 @@
     "language/ipa/ipa.md",
     "de/tilelink/tilelink.md",
     "de/cim/analysis.md",
-    "de/amba_apb/ahb2apb.md",
-    "de/amba_ahb/ahb.md"
+    "de/amba_apb/ahb2apb.md"
   ]
 }
