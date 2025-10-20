@@ -20,7 +20,7 @@
 - Power-on-reset 流程
 	- Power On
 	- reset assert 可以在 clock 開始之前或是之後
-	- reset deseert
+	- reset deassert 只能在 clock 開始之後
 - 基本概念:
 	- 如果是 reset 的屬性是 sync, 會進行 STA 分析, 安全!
 		- EX: always @(posedge clk) if (~resetn)
