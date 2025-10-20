@@ -90,11 +90,19 @@
 	- 處理 gck
 	- 處理 tr tf
 	- 處理 50% duty cycle
-- 以下是 async clock mux 架構圖
+以下是 only mux waveform (錯誤)
+	- ref: https://www.eetimes.com/techniques-to-make-clock-switching-glitch-free/
+	- ![[Pasted image 20251020155456.png]]
+	- 結論: 只有 mux 一定有 glitch
+- 以下是 only gck waveform (錯誤)
+	- ![[Pasted image 20251020155026.png]]
+	- 結論: 只有 gck 也還是有glitch
+- - 以下是 async clock mux 架構圖
 	- ![[aclkmux.svg]]
+	- 以下是 async clk mux waveform (正確)
+		- ![[Pasted image 20251020155734.png]]
+
 - 以下是 sync clock mux 架構圖
 	- ![[clkmux.svg]]
-
-
-- 以下是 only gck 架構圖 (錯誤)
-- ![[Pasted image 20251020155026.png]]
+	- 以下是 sync clk mux waveform (正確)
+		- ![[Pasted image 20251020155629.png]]
