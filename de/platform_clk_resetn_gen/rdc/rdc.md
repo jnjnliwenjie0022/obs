@@ -19,3 +19,9 @@ always @ (posedge clk or negedge resetn)
 		- assert: sync
 		- deassert: sync
 		- source: HW
+- 分析方式
+	- assert sync:
+		- 無法做 STA 分析
+	- deassert sync:
+		- 會做 STA 分析
+		- 針對 recovery time and removal time
