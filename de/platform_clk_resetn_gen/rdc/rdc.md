@@ -6,15 +6,14 @@ always @ (posedge clk or negedge resetn)
 - resetn 的屬性有以下幾種
 	- hard reset
 		- hardware reset
-			- assert: sync
+			- assert: async
 			- deassert: async
 		- power-on reset
-			- assert: sync
-			- 
-			- deassert: 
+			- assert: async
+			- deassert: async
 	- soft reset
-		- assert: 
-		- deassert: 
+		- assert: sync
+		- deassert: async 
 	- delay reset
-		- assert: 
+		- assert: sync
 		- deassert: 
