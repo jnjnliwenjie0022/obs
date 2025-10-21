@@ -35,4 +35,7 @@ always @ (posedge clk or negedge resetn)
 			- ref: https://blog.csdn.net/dongdongnihao_/article/details/133487705
 			- 大多數情況下不分析 STA, 因為一定有 assert async behavior, 至少 power-on reset 就是一種, assert sync behavior (soft reset) 只是其中一種 reset 情景而已, 所以有 RDC 問題
 - RDC 特性說明
-	- ref: 
+	- ref: https://besttechviews.com/reset-domain-crossing-asynchronous-resets-rdc/
+	- 只要 reset domain 就會發生, 不論是 sync clock 或是 async clock 都有機會
+	- RDC 需要 global 分析, CDC 只需要 local 分析
+	- RDC 的 MTBF (T / failure_times) 比 CDC 高
