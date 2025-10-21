@@ -60,7 +60,7 @@ always @ (posedge clk or negedge resetn)
 - 主要問題: RDC (async assert reset 導致的 setup / hold time violation)
 - 方法1: 後級一起 reset assert 
 - 方法2: 後級停止頻率
-- 方法3: clamp register 使 RDC 路徑目標的數值在 assert reset 的一段時間都不改變
+- 方法3: clamp register 使 RDC 路徑目標的數值在 assert reset 的一段時間都不改變, 不改變也意味着不存在 metastable state 
 
 # reset_deassert
 
@@ -68,9 +68,9 @@ always @ (posedge clk or negedge resetn)
 - 主要問題:  reset release 的時間不一致
 - 方法1: 降頻後 reset
 - 方法2: 停止頻率後 reset
-- 方法3: clamp register 使 RDC 路徑目標的數值在 deassert reset 確定前都不改變
+- 方法3: clamp register 使 RDC 路徑目標的數值在 deassert reset 確定前都不改變, 不改變也意味着不存在 metastable state 
 
-# reset_sequence
+# reset_clock_sequence
 
 
 
