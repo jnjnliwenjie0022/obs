@@ -63,3 +63,5 @@ always @ (posedge clk or negedge resetn)
 
 - ref: https://zhuanlan.zhihu.com/p/668905496?share_code=XdnvLO2sWikt&utm_psn=1963768132570183217
 - #TODO 
+- 方法1: 降頻後 reset
+- 方法2: 
