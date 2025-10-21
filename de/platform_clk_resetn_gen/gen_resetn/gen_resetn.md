@@ -43,8 +43,8 @@
 	- clk0: clk 啓動在 sync deassert reset 之後
 	- clk1: clk 啓動在 async assert reset 與 sync deassert reset 之間
 	- clk2: clk 啓動在 async assert reset 之前
-- clk0: 可以, 保證 async deassert reset 的時候 clk 穩定就行
-- clk1: 通用情景, 保證 async deassert reset 的時候 clk 穩定就行, Power-On-Reset 也是屬於這類
+- clk0: 保證 async deassert reset 的時候 clk 穩定就行
+- clk1: 保證 async deassert reset 的時候 clk 穩定就行, Power-On-Reset 也是屬於這類
 	- ![[Pasted image 20251021221901.png|1000]]
 - clk2: 可以, 保證 async deassert reset 的時候 clk 穩定就行
 
