@@ -68,3 +68,13 @@ always @ (posedge clk or negedge resetn)
 - 主要問題:  reset release 的時間不一致
 - 方法1: 降頻後 reset
 - 方法2: 停止頻率後 reset
+- 方法3: clamp register 使 RDC 路徑目標的數值在 deassert reset 確定前都不改變
+
+# reset_sequence
+
+
+
+- Power-On-Reset (POR) 流程
+	- Power On
+	- reset assert, 可以在 clock 開始之前或是之後
+	- reset deassert, 只能在 clock 開始之後
