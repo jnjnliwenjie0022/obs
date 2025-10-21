@@ -26,7 +26,8 @@ always @ (posedge clk or negedge resetn)
 	- deassert sync behavior:
 		- 會做 STA 分析, 針對 recovery time and removal time
 		- 無 RDC 問題, 因為 sync behavior 可以 STA 分析, 不會出現 RDC 問題
-		- Notice: 雖然不會有 metastable state 的問題, 但代表行爲在 reset 之後正確, 因爲 reset release 在不同頻率下有差異, 可能導致行爲錯誤, 譬如 afifo
+		- Notice: 雖然不會有 metastable state 的問題, 但代表行爲在 reset 之後正確
+			- 1. 因爲 reset release 在不同頻率下有差異, 可能導致行爲錯誤, 譬如 afifo
 	- assert sync behavior:
 		- 非主要情景:
 			- ref: [[Techniques to identify reset metastability issues due to soft resets.pdf]]
@@ -64,6 +65,6 @@ always @ (posedge clk or negedge resetn)
 
 - ref: https://zhuanlan.zhihu.com/p/668905496?share_code=XdnvLO2sWikt&utm_psn=1963768132570183217
 - #TODO 
-- 主要問題: 
+- 主要問題: 脫離 reset 
 - 方法1: 降頻後 reset
 - 方法2: 停止頻率後 reset
