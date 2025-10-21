@@ -48,6 +48,8 @@ always @ (posedge clk or negedge resetn)
 
 - ref: https://zhuanlan.zhihu.com/p/668905496?share_code=XdnvLO2sWikt&utm_psn=1963768132570183217
 - 需要 clk
-	- register + or + register
-- 不需要 clk
+	- counter
+- 不需要 clk, 但會受到環境參與製成影響
 	- delay cell
+# reset_assert
+# reset_deassert
