@@ -26,6 +26,7 @@ always @ (posedge clk or negedge resetn)
 	- deassert sync behavior:
 		- 會做 STA 分析, 針對 recovery time and removal time
 		- 無 RDC 問題, 因為 sync behavior 可以 STA 分析, 不會出現 RDC 問題
+		- Notice**
 	- assert sync behavior:
 		- 非主要情景:
 			- ref: [[Techniques to identify reset metastability issues due to soft resets.pdf]]
@@ -40,5 +41,5 @@ always @ (posedge clk or negedge resetn)
 	- RDC 需要 global 分析, CDC 只需要 local 分析
 	- RDC 的 MTBF (T / failure_times) 比 CDC 高
 - reset metastable state 發生情景
-	- RDC
-	- reset glitch
+	- RDC (因爲 async assert reset 導致的 setup / hold time violation)
+	- reset glitch (async 電路的 glitch 限制)

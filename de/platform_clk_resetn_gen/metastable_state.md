@@ -1,3 +1,6 @@
 - ref: https://blog.csdn.net/qq_36045093/article/details/119394457
 - metastable state 發生在以下情景
-	- 
+	- RDC (因爲 async assert reset 導致的 setup / hold time violation)
+	- reset glitch (async 電路的 glitch 限制)
+	- CDC (setup / hold time violation)
+	- clock glitch (async 電路的 glitch 限制)
