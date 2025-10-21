@@ -44,8 +44,9 @@
 	- clk1: clk 啓動在 async assert reset 與 sync deassert reset 之間
 	- clk2: clk 啓動在 async assert reset 之前
 - clk0: 必須保證 clk0 在啓動的時候就是穩定的, 不然系統會全部進去 metastable state
-- clk1: 標準做法, Power-On-Reset 
-- clk2: 可以
+- clk1: 標準做法, 保證 async deassert reset 的時候 clk 穩定就行, Power-On-Reset 也是屬於這類
+	- ![[Pasted image 20251021221901.png|1000]]
+- clk2: 可以, 保證 async deassert reset 的時候 clk 穩定就行
 # sync_resetn
 
 - ![[resetn_design.svg|1000]]
