@@ -72,7 +72,7 @@ always @ (posedge clk or negedge resetn)
 
 # reset_clock_sequence
 
-
+- 
 
 - Power-On-Reset (POR) 流程
 	- Power On
