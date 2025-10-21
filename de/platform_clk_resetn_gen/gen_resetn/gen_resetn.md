@@ -35,7 +35,24 @@
 				- ref: https://www.youtube.com/watch?v=mYSEVdUPvD8&t=27s
 			- 需要考慮到 IR Drop
 			- 需要考慮到 congestion
-# design
+
+# reset_clock_sequence
+
+- ![[reset_clock_sequence.svg]]
+- 以上有是那種情景
+	- clk0: clk 啓動在 sync deassert reset 之後
+	- clk1: clk 啓動在 async assert reset 與 sync deassert reset 之間
+	- clk2: clk 啓動在 async assert reset 之前
+- clk0: 保證 async deassert reset 的時候 clk 穩定就行
+- clk1: 保證 async deassert reset 的時候 clk 穩定就行, Power-On-Reset 也是屬於這類
+	- ![[Pasted image 20251021221901.png|1000]]
+- clk2: 可以, 保證 async deassert reset 的時候 clk 穩定就行
+
+# power_on_reset_simulation
+
+- ![[power_on_reset_clock_sequence.svg]]
+
+# sync_resetn
 
 - ![[resetn_design.svg|1000]]
 - i_resetn特性
