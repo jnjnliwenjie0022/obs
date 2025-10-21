@@ -28,8 +28,11 @@ always @ (posedge clk or negedge resetn)
 		- 無 RDC 問題, 因為 sync behavior 可以 STA 分析, 不會出現 RDC 問題
 	- assert sync behavior:
 		- 非主要情景:
+			- ref: [[Techniques to identify reset metastability issues due to soft resets.pdf]]
 			- 可以做 STA 分析, 可以分析 reset -> Q, 如果做 STA 分析, 則無 RDC 問題
-				- ref: [[Techniques to identify reset metastability issues due to soft resets.pdf]]
 		- 主要情景: 
+			- ref: https://bbs.eetop.cn/thread-887603-2-1.html
+			- ref: https://blog.csdn.net/dongdongnihao_/article/details/133487705
 			- 大多數情況下不分析 STA, 因為一定有 assert async behavior, 至少 power-on reset 就是一種, assert sync behavior (soft reset) 只是其中一種 reset 情景而已, 所以有 RDC 問題
-				- ref: https://bbs.eetop.cn/thread-887603-2-1.html
+- RDC 特性說明
+	- ref: 
