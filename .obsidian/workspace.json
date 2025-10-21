@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "de/platform_clk_resetn_gen/metastable_state.md",
+                "file": "de/platform_clk_resetn_gen/rdc/rdc.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "metastable_state"
+              "title": "rdc"
             }
           }
         ]
@@ -198,11 +198,11 @@
   },
   "active": "84bfbc528c49916e",
   "lastOpenFiles": [
+    "de/platform_clk_resetn_gen/gen_resetn/gen_resetn.md",
     "de/platform_clk_resetn_gen/rdc/rdc.md",
+    "de/platform_clk_resetn_gen/domain_cross.md",
     "de/platform_clk_resetn_gen/handshake.md",
     "de/platform_clk_resetn_gen/metastable_state.md",
-    "de/platform_clk_resetn_gen/domain_cross.md",
-    "de/platform_clk_resetn_gen/gen_resetn/gen_resetn.md",
     "de/platform_clk_resetn_gen/rdc/books/Techniques to identify reset metastability issues due to soft resets.pdf",
     "de/cim/cim.md",
     "conflict-files-obsidian-git.md",

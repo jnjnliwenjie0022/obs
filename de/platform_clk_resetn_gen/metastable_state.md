@@ -4,5 +4,5 @@
 	- reset glitch (async 電路的 glitch 限制)
 	- CDC (setup / hold time violation)
 	- clock glitch (async 電路的 glitch 限制)
-	- reset recovery and   violation
-	- data violation
+	- recovery and removal time violation (Tool 會處理, 針對 sync deassert reset)
+	- setup and hole time violation (Tool 會處理, 針對 data)

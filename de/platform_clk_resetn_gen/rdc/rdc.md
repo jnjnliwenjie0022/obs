@@ -43,3 +43,8 @@ always @ (posedge clk or negedge resetn)
 - reset metastable state 發生情景
 	- RDC (因爲 async assert reset 導致的 setup / hold time violation)
 	- reset glitch (async 電路的 glitch 限制)
+	- recovery and removal time violation (Tool 會處理, 針對 sync deassert reset)
+# reset_glitch
+
+- ref: https://zhuanlan.zhihu.com/p/668905496?share_code=XdnvLO2sWikt&utm_psn=1963768132570183217
+- 
