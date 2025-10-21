@@ -54,6 +54,7 @@ always @ (posedge clk or negedge resetn)
 # reset_assert
 
 - ref: https://zhuanlan.zhihu.com/p/688124932?share_code=184pakQ1DLvVB&utm_psn=1963302042274607187
+- ref: https://blog.csdn.net/cy413026/article/details/134078287
 - 方法1: 請後級一起 reset assert 
 - 方法2: 關掉 clock
 - 方法3: clamp register 使 RDC 路徑目標的數值在 assert -> deassert 之間都不改變

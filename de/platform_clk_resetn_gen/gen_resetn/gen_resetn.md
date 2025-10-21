@@ -71,6 +71,3 @@
 		- {resetn, a_clk} -> a_resetn
 		- {a_resetn & a1_resetn, b_clk} -> b_resetn
 		- {b_resetn & b1_resetn, c_clk} -> c_resetn
-# rdc
-#TODO 
-- ref: https://zhuanlan.zhihu.com/p/688124932?share_code=184pakQ1DLvVB&utm_psn=1963302042274607187/
