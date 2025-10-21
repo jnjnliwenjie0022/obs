@@ -53,7 +53,12 @@ always @ (posedge clk or negedge resetn)
 	- delay cell
 # reset_assert
 
-- 
+- ref: https://zhuanlan.zhihu.com/p/688124932?share_code=184pakQ1DLvVB&utm_psn=1963302042274607187
+- 方法1: 請後級一起 reset assert 
+- 方法2: 關掉 clock
+- 方法3: clamp register 使 RDC 路徑目標的數值在 assert -> deassert 之間都不改變
+
 # reset_deassert
 
 - ref: https://zhuanlan.zhihu.com/p/668905496?share_code=XdnvLO2sWikt&utm_psn=1963768132570183217
+- #TODO 

@@ -199,9 +199,9 @@
   "active": "84bfbc528c49916e",
   "lastOpenFiles": [
     "de/platform_clk_resetn_gen/gen_resetn/gen_resetn.md",
+    "de/platform_clk_resetn_gen/rdc/rdc.md",
     "de/platform_clk_resetn_gen/gen_resetn/books/synchronous & Synchronous Reset Design Techniques - Part Deux.pdf",
     "de/platform_clk_resetn_gen/gen_resetn/books/CummingsSNUG2003Boston_Resets_rev1_2.pdf",
-    "de/platform_clk_resetn_gen/rdc/rdc.md",
     "de/platform_clk_resetn_gen/domain_cross.md",
     "de/platform_clk_resetn_gen/handshake.md",
     "de/platform_clk_resetn_gen/metastable_state.md",
