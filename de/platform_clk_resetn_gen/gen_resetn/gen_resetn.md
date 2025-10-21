@@ -45,10 +45,7 @@
 	- clk2: clk 啓動在 async assert reset 之前
 - clk0: 必須保證 clk0 在啓動的時候就是穩定的, 不然系統會全部進去 metastable state
 - clk1: 標準做法, Power-On-Reset 
-- Power-On-Reset (POR) 流程
-	- Power On
-	- reset assert, 可以在 clock 開始之前或是之後
-	- reset deassert, 只能在 clock 開始之後
+- clk2: 可以
 # sync_resetn
 
 - ![[resetn_design.svg|1000]]
