@@ -11,14 +11,11 @@
             "id": "84bfbc528c49916e",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "de/platform_clk_resetn_gen/rdc/include/reset_clock_sequence.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
+                "file": "de/platform_clk_resetn_gen/rdc/include/reset_clock_sequence.svg"
               },
-              "icon": "lucide-file",
+              "icon": "lucide-image",
               "title": "reset_clock_sequence"
             }
           }
@@ -195,8 +192,11 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "84bfbc528c49916e",
+  "active": "35a470a2c390e07e",
   "lastOpenFiles": [
+    "de/platform_clk_resetn_gen/gen_resetn/include/resetn_design.svg",
+    "de/platform_clk_resetn_gen/rdc/include/reset_clock_sequence.svg",
+    "de/platform_clk_resetn_gen/gen_resetn/include/resetn_tree.svg",
     "de/platform_clk_resetn_gen/gen_resetn/gen_resetn.md",
     "de/platform_clk_resetn_gen/rdc/include/reset_clock_sequence.md",
     "de/platform_clk_resetn_gen/rdc/rdc.md",
@@ -231,8 +231,6 @@
     "Pasted image 20251020155026.png",
     "de/platform_clk_resetn_gen/gen_clk/include/clkmux.svg",
     "de/platform_clk_resetn_gen/gen_clk/include/aclkmux.svg",
-    "de/platform_clk_resetn_gen/gen_clk/include/aclkmux_sr.svg",
-    "de/platform_clk_resetn_gen/platform/include/gen.svg",
     "de/design_spec/ref/Andes_design_guide.md",
     "de/platform_clk_resetn_gen/reg_latch.md",
     "de/platform_clk_resetn_gen/cdc/cdc_design/cdc_design.md",
