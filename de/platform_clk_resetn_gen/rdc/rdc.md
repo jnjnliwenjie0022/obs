@@ -47,4 +47,7 @@ always @ (posedge clk or negedge resetn)
 # reset_glitch
 
 - ref: https://zhuanlan.zhihu.com/p/668905496?share_code=XdnvLO2sWikt&utm_psn=1963768132570183217
-- 
+- 需要 clk
+	- register + or + register
+- 不需要 clk
+	- delay cell

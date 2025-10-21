@@ -199,6 +199,8 @@
   "active": "84bfbc528c49916e",
   "lastOpenFiles": [
     "de/platform_clk_resetn_gen/gen_resetn/gen_resetn.md",
+    "de/platform_clk_resetn_gen/gen_resetn/books/synchronous & Synchronous Reset Design Techniques - Part Deux.pdf",
+    "de/platform_clk_resetn_gen/gen_resetn/books/CummingsSNUG2003Boston_Resets_rev1_2.pdf",
     "de/platform_clk_resetn_gen/rdc/rdc.md",
     "de/platform_clk_resetn_gen/domain_cross.md",
     "de/platform_clk_resetn_gen/handshake.md",
@@ -208,8 +210,6 @@
     "conflict-files-obsidian-git.md",
     "workflow/autohotkey/autohotkey.md",
     "Pasted image 20251021022807.png",
-    "de/platform_clk_resetn_gen/gen_resetn/books/CummingsSNUG2003Boston_Resets_rev1_2.pdf",
-    "de/platform_clk_resetn_gen/gen_resetn/books/synchronous & Synchronous Reset Design Techniques - Part Deux.pdf",
     "de/platform_clk_resetn_gen/rdc/books",
     "de/platform_clk_resetn_gen/rdc",
     "de/platform_clk_resetn_gen/gen_clk/book/4C3_DVCon_India_2023_Final_Paper_2722.pdf",
