@@ -65,7 +65,6 @@ always @ (posedge clk or negedge resetn)
 # reset_deassert
 
 - ref: https://zhuanlan.zhihu.com/p/668905496?share_code=XdnvLO2sWikt&utm_psn=1963768132570183217
-- #TODO 
 - 主要問題:  reset release 的時間不一致
 - 方法1: 降頻後 reset
 - 方法2: 停止頻率後 reset
