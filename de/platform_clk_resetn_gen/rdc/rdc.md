@@ -55,6 +55,7 @@ always @ (posedge clk or negedge resetn)
 
 - ref: https://zhuanlan.zhihu.com/p/688124932?share_code=184pakQ1DLvVB&utm_psn=1963302042274607187
 - ref: https://blog.csdn.net/cy413026/article/details/134078287
+- 主要問題: RDC (async assert reset 導致的 setup / hold time violation)
 - 方法1: 後級一起 reset assert 
 - 方法2: 關掉 clock
 - 方法3: clamp register 使 RDC 路徑目標的數值在 assert reset 的一段時間都不改變
@@ -63,5 +64,6 @@ always @ (posedge clk or negedge resetn)
 
 - ref: https://zhuanlan.zhihu.com/p/668905496?share_code=XdnvLO2sWikt&utm_psn=1963768132570183217
 - #TODO 
+- 主要問題: 
 - 方法1: 降頻後 reset
-- 方法2: 
+- 方法2: 停止頻率後 reset
