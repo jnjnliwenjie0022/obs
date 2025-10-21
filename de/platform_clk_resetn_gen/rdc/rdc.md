@@ -26,8 +26,9 @@ always @ (posedge clk or negedge resetn)
 	- deassert sync behavior:
 		- 會做 STA 分析, 針對 recovery time and removal time
 		- 無 RDC 問題, 因為 sync behavior 可以 STA 分析, 不會出現 RDC 問題
-		- Notice: 雖然不會有 metastable state 的問題, 但代表行爲在 reset 之後正確
-			- 1. 因爲 reset release 在不同頻率下有差異, 可能導致行爲錯誤, 譬如 afifo
+		- Notice: 雖然不會有 metastable state 的問題, 但 reset release 的時間不一致, 導致邏輯錯誤
+			- 原因1: deassert reset 即使同時接受到 deassert reset, 在不同頻率下, 導致脫離 reset 的時間有差異, 譬如 afifo
+			- 原因2: deassert reset 因爲 delay 的關係, 接收到 deassert reset 時間有差異, 導致脫離 reset 的時間有差異
 	- assert sync behavior:
 		- 非主要情景:
 			- ref: [[Techniques to identify reset metastability issues due to soft resets.pdf]]
@@ -58,13 +59,13 @@ always @ (posedge clk or negedge resetn)
 - ref: https://blog.csdn.net/cy413026/article/details/134078287
 - 主要問題: RDC (async assert reset 導致的 setup / hold time violation)
 - 方法1: 後級一起 reset assert 
-- 方法2: 關掉 clock
+- 方法2: 後級停止頻率
 - 方法3: clamp register 使 RDC 路徑目標的數值在 assert reset 的一段時間都不改變
 
 # reset_deassert
 
 - ref: https://zhuanlan.zhihu.com/p/668905496?share_code=XdnvLO2sWikt&utm_psn=1963768132570183217
 - #TODO 
-- 主要問題: 脫離 reset 
+- 主要問題:  reset release 的時間不一致
 - 方法1: 降頻後 reset
 - 方法2: 停止頻率後 reset
