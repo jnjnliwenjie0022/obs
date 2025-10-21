@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "de/platform_clk_resetn_gen/rdc/rdc.md",
+                "file": "de/platform_clk_resetn_gen/metastable_state.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "rdc"
+              "title": "metastable_state"
             }
           }
         ]
@@ -79,8 +79,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 341.5,
-    "collapsed": true
+    "width": 341.5
   },
   "right": {
     "id": "baf9c43aba40b294",
@@ -198,13 +197,14 @@
   },
   "active": "bf8a1a04978aa104",
   "lastOpenFiles": [
-    "de/platform_clk_resetn_gen/gen_resetn/gen_resetn.md",
+    "de/platform_clk_resetn_gen/domain_cross.md",
+    "de/platform_clk_resetn_gen/metastable_state.md",
     "de/platform_clk_resetn_gen/rdc/rdc.md",
+    "de/platform_clk_resetn_gen/gen_resetn/gen_resetn.md",
     "de/platform_clk_resetn_gen/rdc/books/Techniques to identify reset metastability issues due to soft resets.pdf",
     "de/cim/cim.md",
     "conflict-files-obsidian-git.md",
     "workflow/autohotkey/autohotkey.md",
-    "de/platform_clk_resetn_gen/domain_cross.md",
     "Pasted image 20251021022807.png",
     "de/platform_clk_resetn_gen/gen_resetn/books/CummingsSNUG2003Boston_Resets_rev1_2.pdf",
     "de/platform_clk_resetn_gen/gen_resetn/books/synchronous & Synchronous Reset Design Techniques - Part Deux.pdf",
@@ -220,7 +220,6 @@
     "de/platform_clk_resetn_gen/gck/gck.md",
     "de/platform_clk_resetn_gen/gen_clk/book/Unconfirmed 871597.crdownload",
     "de/platform_clk_resetn_gen/handshake.md",
-    "de/platform_clk_resetn_gen/metastable_state.md",
     "de/power/genus/genus.md",
     "de/power/reg/reg.md",
     "de/power/reg/reg.svg",
