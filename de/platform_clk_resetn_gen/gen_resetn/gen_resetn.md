@@ -45,12 +45,11 @@
 	- clk2: clk 啓動在 async assert reset 之前
 - clk0: 保證 async deassert reset 的時候 clk 穩定就行
 - clk1: 保證 async deassert reset 的時候 clk 穩定就行, Power-On-Reset 也是屬於這類
-	- ![[Pasted image 20251021221901.png|1000]]
 - clk2: 可以, 保證 async deassert reset 的時候 clk 穩定就行
-
-# power_on_reset_simulation
-
-- ![[power_on_reset_clock_sequence.svg]]
+- power-on reset
+	- ![[Pasted image 20251021221901.png|1000]]
+	- ![[Pasted image 20251022072848.png|1000]]
+	- ![[power_on_reset_clock_sequence.svg]]
 
 # sync_resetn
 
