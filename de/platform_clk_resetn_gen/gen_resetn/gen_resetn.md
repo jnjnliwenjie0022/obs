@@ -48,7 +48,10 @@
 	- ![[Pasted image 20251021221901.png|1000]]
 - clk2: 可以, 保證 async deassert reset 的時候 clk 穩定就行
 
-# por_ 
+# power_on_reset_simulation
+
+- ![[power_on_reset_clock_sequence.svg]]
+
 # sync_resetn
 
 - ![[resetn_design.svg|1000]]
