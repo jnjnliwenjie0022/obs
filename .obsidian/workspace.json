@@ -11,12 +11,15 @@
             "id": "84bfbc528c49916e",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "de/platform_clk_resetn_gen/rdc/include/reset_clock_sequence.svg"
+                "file": "de/platform_clk_resetn_gen/gen_resetn/gen_resetn.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
               },
-              "icon": "lucide-image",
-              "title": "reset_clock_sequence"
+              "icon": "lucide-file",
+              "title": "gen_resetn"
             }
           }
         ]
@@ -192,14 +195,15 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "35a470a2c390e07e",
+  "active": "84bfbc528c49916e",
   "lastOpenFiles": [
-    "de/platform_clk_resetn_gen/gen_resetn/include/resetn_design.svg",
-    "de/platform_clk_resetn_gen/rdc/include/reset_clock_sequence.svg",
-    "de/platform_clk_resetn_gen/gen_resetn/include/resetn_tree.svg",
+    "de/platform_clk_resetn_gen/gen_resetn/include/reset_clock_sequence.svg",
+    "de/platform_clk_resetn_gen/platform/include/gen.svg",
     "de/platform_clk_resetn_gen/gen_resetn/gen_resetn.md",
-    "de/platform_clk_resetn_gen/rdc/include/reset_clock_sequence.md",
     "de/platform_clk_resetn_gen/rdc/rdc.md",
+    "de/platform_clk_resetn_gen/gen_resetn/include/resetn_design.svg",
+    "de/platform_clk_resetn_gen/gen_resetn/include/resetn_tree.svg",
+    "de/platform_clk_resetn_gen/rdc/include/reset_clock_sequence.md",
     "de/platform_clk_resetn_gen/cdc_wihtout_clk.md",
     "de/platform_clk_resetn_gen/rdc/include",
     "de/platform_clk_resetn_gen/cdc_with_clk.md",
@@ -230,7 +234,6 @@
     "Pasted image 20251020155456.png",
     "Pasted image 20251020155026.png",
     "de/platform_clk_resetn_gen/gen_clk/include/clkmux.svg",
-    "de/platform_clk_resetn_gen/gen_clk/include/aclkmux.svg",
     "de/design_spec/ref/Andes_design_guide.md",
     "de/platform_clk_resetn_gen/reg_latch.md",
     "de/platform_clk_resetn_gen/cdc/cdc_design/cdc_design.md",

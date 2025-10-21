@@ -70,11 +70,3 @@ always @ (posedge clk or negedge resetn)
 - 方法2: 停止頻率後 reset
 - 方法3: clamp register 使 RDC 路徑目標的數值在 deassert reset 確定前都不改變, 不改變也意味着不存在 metastable state 
 
-# reset_clock_sequence
-
-- 
-
-- Power-On-Reset (POR) 流程
-	- Power On
-	- reset assert, 可以在 clock 開始之前或是之後
-	- reset deassert, 只能在 clock 開始之後

@@ -35,7 +35,21 @@
 				- ref: https://www.youtube.com/watch?v=mYSEVdUPvD8&t=27s
 			- 需要考慮到 IR Drop
 			- 需要考慮到 congestion
-# design
+
+# reset_clock_sequence
+
+- ![[reset_clock_sequence.svg]]
+- 以上有是那種情景
+	- clk0: clk 啓動在 sync deassert reset 之後
+	- clk1: clk 啓動在 async assert reset 與 sync deassert reset 之間
+	- clk2: clk 啓動在 async assert reset 之前
+- clk0: 必須保證 clk0 在啓動的時候就是穩定的, 不然系統會全部進去 metastable state
+- clk1: 標準做法, Power-On-Reset 
+- Power-On-Reset (POR) 流程
+	- Power On
+	- reset assert, 可以在 clock 開始之前或是之後
+	- reset deassert, 只能在 clock 開始之後
+# sync_resetn
 
 - ![[resetn_design.svg|1000]]
 - i_resetn特性
