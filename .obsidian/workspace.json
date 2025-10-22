@@ -195,6 +195,7 @@
   "active": "84bfbc528c49916e",
   "lastOpenFiles": [
     "de/platform_clk_resetn_gen/platform/platform.md",
+    "de/platform_clk_resetn_gen/platform/include/gen.svg",
     "de/platform_clk_resetn_gen/gen_resetn/include/resetn_tree.svg",
     "de/platform_clk_resetn_gen/gen_resetn/gen_resetn.md",
     "conflict-files-obsidian-git.md",
@@ -212,7 +213,6 @@
     "de/platform_clk_resetn_gen/gen_resetn/books/Unconfirmed 650494.crdownload",
     "Pasted image 20251022093525.png",
     "de/platform_clk_resetn_gen/rdc/rdc.md",
-    "language/ipa/include/ipa.svg",
     "de/platform_clk_resetn_gen/rdc/include/reset_clock_sequence.md",
     "de/platform_clk_resetn_gen/cdc_wihtout_clk.md",
     "de/platform_clk_resetn_gen/rdc/include",
