@@ -46,9 +46,18 @@
 - clk0: 保證 async deassert reset 的時候 clk 穩定就行
 - clk1: 保證 async deassert reset 的時候 clk 穩定就行
 - clk2: 保證 async deassert reset 的時候 clk 穩定就行
-- 在 simulation 的時候用一下行爲模擬
+- 在 simulation 的時候不建議這個行爲, 因爲這個行爲的定義不明確
 	- ![[power_on_reset_clock_sequence.svg]]
-	- 
+```verilog
+always @ (negedge start) flag <= start;
+initial start = 0;
+```
+ - ![[Pasted image 20251022161641.png]]
+```verilog
+initial start = 0;
+always @ (negedge start) flag <= start;
+```
+- ![[Pasted image 20251022161939.png]]
 # power_on_reset_clock_sequence
 
 - power-on reset 基於 RC 完成 , deassert 是 async
@@ -57,7 +66,7 @@
 - power-on reset 基於 PLL 完成, deassert 是 sync
 	- 解決方式: 需要確保 reset release 的時候, clock 穩定既可
 - power-on reset 基於 RC 或是特殊事件, deassert 是 async, 但 clock 已經啓動, 完蛋!
-		- 解決方式: 直接上 sync_resetn design3 就行
+		- 解決方式: 直接上 sync_resetn design3 就行, metastable state 不會產生
 	- 
 	- ![[reset_anti_metastability.svg]]
 	- P.S: DFF 在 D=Q 的情況下, 不會出現 metastable state, 不論 clk 還是 reset 的情況是如何
