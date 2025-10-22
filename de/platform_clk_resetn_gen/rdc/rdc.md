@@ -46,13 +46,7 @@ always @ (posedge clk or negedge resetn)
 	- RDC (因爲 async assert reset 導致的 setup / hold time violation)
 	- reset glitch (async 電路的 glitch 限制)
 	- recovery and removal time violation (Tool 會處理, 針對 sync deassert reset)
-# reset_glitch
 
-- ref: https://zhuanlan.zhihu.com/p/668905496?share_code=XdnvLO2sWikt&utm_psn=1963768132570183217
-- 需要 clk
-	- counter
-- 不需要 clk, 但會受到環境參與製成影響
-	- delay cell
 # reset_assert
 
 - ref: https://zhuanlan.zhihu.com/p/688124932?share_code=184pakQ1DLvVB&utm_psn=1963302042274607187

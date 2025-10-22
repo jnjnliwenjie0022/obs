@@ -36,6 +36,14 @@
 			- 需要考慮到 IR Drop
 			- 需要考慮到 congestion
 
+# reset_glitch
+
+- ref: https://zhuanlan.zhihu.com/p/668905496?share_code=XdnvLO2sWikt&utm_psn=1963768132570183217
+- 需要 clk
+	- counter
+- 不需要 clk, 但會受到環境參與製成影響
+	- delay cell
+
 # reset_clock_sequence
 
 - ![[reset_clock_sequence.svg]]
@@ -66,8 +74,9 @@ always @ (negedge start) flag <= start;
 - power-on reset 基於 PLL 完成, deassert 是 sync
 	- 解決方式: 需要確保 reset release 的時候, clock 穩定既可
 - power-on reset 基於 RC 或是特殊事件, deassert 是 async, 但 clock 已經啓動, 完蛋!
-		- 解決方式: 直接上 sync_resetn design3 就行, metastable state 不會產生
-	- 
+	- 解決方式: 
+		- 直接上 sync_resetn design 就行, metastable state 不會產生, 第一級 register (但這個 metastable 也會經過 syncer 後消除)
+		- 記得 o_resetn 需要再經過一個 counter 去消除 power-on reset 基於 RC 或是特殊事件所導致的在 sync_resetn 中第一級 register 產生 metastable state 所產生的 toggle
 	- ![[reset_anti_metastability.svg]]
 	- P.S: DFF 在 D=Q 的情況下, 不會出現 metastable state, 不論 clk 還是 reset 的情況是如何
 - 以下是 power-on-reset 基於 RC 產生
