@@ -23,15 +23,16 @@
             "id": "9dd9c719c56832c7",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "de/platform_clk_resetn_gen/gen_resetn/gen_resetn.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
+                "file": "de/platform_clk_resetn_gen/rdc/books/Techniques to identify reset metastability issues due to soft resets.pdf",
+                "page": 2,
+                "left": -9,
+                "top": 501,
+                "zoom": 1.8566176470588236
               },
-              "icon": "lucide-file",
-              "title": "gen_resetn"
+              "icon": "lucide-file-text",
+              "title": "Techniques to identify reset metastability issues due to soft resets"
             }
           }
         ],
@@ -210,13 +211,13 @@
   },
   "active": "9dd9c719c56832c7",
   "lastOpenFiles": [
+    "de/platform_clk_resetn_gen/gen_resetn/books/CummingsSNUG2003Boston_Resets_rev1_2.pdf",
+    "de/platform_clk_resetn_gen/gen_resetn/books/Measurement of De-assertion Threshold of Power-on-Reset Circuits.pdf",
+    "de/platform_clk_resetn_gen/gen_resetn/books/synchronous & Synchronous Reset Design Techniques - Part Deux.pdf",
+    "de/platform_clk_resetn_gen/gen_resetn/gen_resetn.md",
     "de/platform_clk_resetn_gen/gen_resetn/include/reset_high_fanout.svg",
     "de/platform_clk_resetn_gen/gen_resetn/include/reset_anti_metastability.svg",
     "de/platform_clk_resetn_gen/gen_resetn/include/reset_clock_sequence.svg",
-    "de/platform_clk_resetn_gen/gen_resetn/books/synchronous & Synchronous Reset Design Techniques - Part Deux.pdf",
-    "de/platform_clk_resetn_gen/gen_resetn/books/CummingsSNUG2003Boston_Resets_rev1_2.pdf",
-    "de/platform_clk_resetn_gen/gen_resetn/books/Measurement of De-assertion Threshold of Power-on-Reset Circuits.pdf",
-    "de/platform_clk_resetn_gen/gen_resetn/gen_resetn.md",
     "de/platform_clk_resetn_gen/gen_resetn/include/power_on_reset_clock_sequence.svg",
     "de/platform_clk_resetn_gen/rdc/rdc.md",
     "de/platform_clk_resetn_gen/platform/include/gen.svg",
