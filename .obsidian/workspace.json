@@ -11,12 +11,15 @@
             "id": "84bfbc528c49916e",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "language/ipa/include/ipa.svg"
+                "file": "de/platform_clk_resetn_gen/gen_resetn/gen_resetn.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
               },
-              "icon": "lucide-image",
-              "title": "ipa"
+              "icon": "lucide-file",
+              "title": "gen_resetn"
             }
           }
         ]
@@ -76,7 +79,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 341.5
+    "width": 341.5,
+    "collapsed": true
   },
   "right": {
     "id": "baf9c43aba40b294",
@@ -194,8 +198,10 @@
   },
   "active": "84bfbc528c49916e",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
+    "Pasted image 20251022093525.png",
+    "de/platform_clk_resetn_gen/rdc/rdc.md",
     "language/ipa/include/ipa.svg",
+    "conflict-files-obsidian-git.md",
     "de/platform_clk_resetn_gen/gen_resetn/gen_resetn.md",
     "Pasted image 20251022072848.png",
     "de/platform_clk_resetn_gen/platform/include/gen.svg",
@@ -203,7 +209,6 @@
     "de/platform_clk_resetn_gen/gen_resetn/include/power_on_reset_clock_sequence.svg",
     "Pasted image 20251021221901.png",
     "de/platform_clk_resetn_gen/gen_resetn/include/reset_clock_sequence.svg",
-    "de/platform_clk_resetn_gen/rdc/rdc.md",
     "de/platform_clk_resetn_gen/gen_resetn/include/resetn_design.svg",
     "de/platform_clk_resetn_gen/rdc/include/reset_clock_sequence.md",
     "de/platform_clk_resetn_gen/cdc_wihtout_clk.md",
