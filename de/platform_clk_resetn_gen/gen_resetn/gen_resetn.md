@@ -50,14 +50,16 @@
 	- ![[power_on_reset_clock_sequence.svg]]
 # power_on_reset_clock_sequence
 
-- 以下是 power-on-reset 的 reset 產生器
+- power-on reset 基於 RC 完成 , deassert 是 async
+	- 解決方式: 需要確保 reset release 之後, clock 才啓動, 且 clock 穩定
+- power-on reset 基於 PLL 完成, deassert 是 sync
+	- 解決方式: 需要確保 reset release 的時候, clock 穩定既可
+- 以下是 power-on-reset 基於 RC 產生
 	- ![[Measurement of De-assertion Threshold of Power-on-Reset Circuits.pdf#page=1&rect=316,130,544,466|Measurement of De-assertion Threshold of Power-on-Reset Circuits, p.1|500]]
-- ref: https://stevenlin08.blogspot.com/2013/08/blog-post_9813.html
-- ![[Pasted image 20251022072848.png|800]]
-	- power-on reset 基於 RLC 完成 , deassert 是 async
-		- 解決方式: 需要確保 reset release 之後, clock 才啓動, 且 clock 穩定
-	- power-on reset 基於 PLL 完成, deassert 是 sync
-		- 解決方式: 需要確保
+- 以下是 power-on-reset 基於 PLL 產生
+	- ref: https://stevenlin08.blogspot.com/2013/08/blog-post_9813.html
+	- ![[Pasted image 20251022072848.png|800]]
+
 
 # sync_resetn
 
