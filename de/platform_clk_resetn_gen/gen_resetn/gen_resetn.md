@@ -60,7 +60,11 @@
 	- ref: https://stevenlin08.blogspot.com/2013/08/blog-post_9813.html
 	- ![[Pasted image 20251022072848.png|800]]
 
-https://www.embedded.com/asynchronous-reset-synchronization-and-distribution-asics-and-fpgas/
+# reset_high_fout
+
+- 
+
+ref: https://www.embedded.com/asynchronous-reset-synchronization-and-distribution-asics-and-fpgas/
 # sync_resetn
 
 - ![[resetn_design.svg|1000]]
