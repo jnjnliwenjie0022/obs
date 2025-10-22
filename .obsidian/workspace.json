@@ -11,15 +11,12 @@
             "id": "b18a05ea569f2d80",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "de/platform_clk_resetn_gen/gen_resetn/gen_resetn.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
+                "file": "de/platform_clk_resetn_gen/gen_resetn/include/reset_high_fanout.svg"
               },
-              "icon": "lucide-file",
-              "title": "gen_resetn"
+              "icon": "lucide-image",
+              "title": "reset_high_fanout"
             }
           }
         ]
@@ -197,21 +194,24 @@
   },
   "active": "b18a05ea569f2d80",
   "lastOpenFiles": [
+    "de/platform_clk_resetn_gen/gen_resetn/include/resetn_arch.svg",
+    "de/platform_clk_resetn_gen/gen_resetn/gen_resetn.md",
+    "de/platform_clk_resetn_gen/gen_resetn/include/reset_high_fanout.svg",
+    "de/platform_clk_resetn_gen/gen_resetn/include/reset_clock_sequence 1.svg",
+    "de/platform_clk_resetn_gen/gen_resetn/include/reset_clock_sequence.svg",
+    "de/platform_clk_resetn_gen/gen_resetn/include/power_on_reset_clock_sequence.svg",
     "de/platform_clk_resetn_gen/rdc/rdc.md",
     "workflow/greenshot.md",
-    "de/platform_clk_resetn_gen/gen_resetn/gen_resetn.md",
     "de/platform_clk_resetn_gen/metastable_state.md",
     "conflict-files-obsidian-git.md",
     "de/platform_clk_resetn_gen/gen_resetn/books/Measurement of De-assertion Threshold of Power-on-Reset Circuits.pdf",
     "Pasted image 20251022093525.png",
     "Pasted image 20251021221901.png",
     "de/platform_clk_resetn_gen/platform/include/gen.svg",
-    "de/platform_clk_resetn_gen/gen_resetn/include/power_on_reset_clock_sequence.svg",
     "Pasted image 20251022072848.png",
     "de/platform_clk_resetn_gen/cdc_wihtout_clk.md",
     "de/platform_clk_resetn_gen/cdc_with_clk.md",
     "de/platform_clk_resetn_gen/domain_cross.md",
-    "de/platform_clk_resetn_gen/gen_resetn/include/reset_clock_sequence.svg",
     "de/platform_clk_resetn_gen/rdc/include/reset_clock_sequence.md",
     "de/platform_clk_resetn_gen/rdc/include",
     "de/platform_clk_resetn_gen/gen_clk/gen_clk.md",
@@ -221,8 +221,6 @@
     "Pasted image 20251020155734.png",
     "de/platform_clk_resetn_gen/rdc/books",
     "de/platform_clk_resetn_gen/rdc",
-    "de/platform_clk_resetn_gen/gen_resetn/include/resetn_tree.svg",
-    "de/platform_clk_resetn_gen/gen_resetn/include/resetn_design.svg",
     "de/platform_clk_resetn_gen/gen_resetn/ref/rst_sync.v",
     "de/platform_clk_resetn_gen/gen_resetn/ref/nds_rst_sync.v",
     "de/platform_clk_resetn_gen/gen_resetn/books/synchronous & Synchronous Reset Design Techniques - Part Deux.pdf",
@@ -241,7 +239,6 @@
     "de/design_spec/lint_rule.md",
     "workflow/mobaxterm.md",
     "de/amba_apb/ahb2apb/ahb2apb.md",
-    "de/amba_apb/atcdmac300/atcdmac300.md",
-    "language/ipa/ipa.md"
+    "de/amba_apb/atcdmac300/atcdmac300.md"
   ]
 }
