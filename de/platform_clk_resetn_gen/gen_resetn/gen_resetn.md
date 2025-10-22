@@ -67,6 +67,8 @@
 - high fanout 會造成
 	- IR Drop
 	- EM (ElectroMigration)
+- 方法1: pipeline
+- 方法2: counter + clock enable + multi-cycle path (.sdc)
 - 
 
 ref: 
