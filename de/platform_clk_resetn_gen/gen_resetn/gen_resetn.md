@@ -61,11 +61,15 @@
 	- ref: https://stevenlin08.blogspot.com/2013/08/blog-post_9813.html
 	- ![[Pasted image 20251022072848.png|800]]
 
-# reset_high_fout
+# reset_high_fanout
 
+- ref: https://www.embedded.com/asynchronous-reset-synchronization-and-distribution-asics-and-fpgas/
+- high fanout 會造成
+	- IR Drop
+	- EM (ElectroMigration)
 - 
 
-ref: https://www.embedded.com/asynchronous-reset-synchronization-and-distribution-asics-and-fpgas/
+ref: 
 # sync_resetn
 
 - ![[resetn_design.svg|1000]]
