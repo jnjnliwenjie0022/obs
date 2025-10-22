@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "workflow/greenshot.md",
+                "file": "de/platform_clk_resetn_gen/gen_resetn/gen_resetn.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "greenshot"
+              "title": "gen_resetn"
             }
           }
         ]
@@ -197,14 +197,14 @@
   },
   "active": "b18a05ea569f2d80",
   "lastOpenFiles": [
-    "de/platform_clk_resetn_gen/gen_resetn/gen_resetn.md",
+    "de/platform_clk_resetn_gen/rdc/rdc.md",
     "workflow/greenshot.md",
+    "de/platform_clk_resetn_gen/gen_resetn/gen_resetn.md",
     "de/platform_clk_resetn_gen/metastable_state.md",
     "conflict-files-obsidian-git.md",
     "de/platform_clk_resetn_gen/gen_resetn/books/Measurement of De-assertion Threshold of Power-on-Reset Circuits.pdf",
     "Pasted image 20251022093525.png",
     "Pasted image 20251021221901.png",
-    "de/platform_clk_resetn_gen/rdc/rdc.md",
     "de/platform_clk_resetn_gen/platform/include/gen.svg",
     "de/platform_clk_resetn_gen/gen_resetn/include/power_on_reset_clock_sequence.svg",
     "Pasted image 20251022072848.png",

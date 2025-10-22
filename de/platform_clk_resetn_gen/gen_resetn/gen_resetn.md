@@ -70,8 +70,6 @@
 - 方法1: pipeline
 - 方法2: counter + clock enable + multi-cycle path (.sdc)
 - 
-
-ref: 
 # sync_resetn
 
 - ![[resetn_design.svg|1000]]
