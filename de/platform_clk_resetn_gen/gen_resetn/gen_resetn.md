@@ -68,8 +68,10 @@
 	- IR Drop
 	- EM (ElectroMigration)
 - 方法1: pipeline
-- 方法2: counter + clock enable + multi-cycle path (.sdc)
-- 
+- 方法2: 
+	- counter + clock enable + multi-cycle path (.sdc)
+	- counter +
+- ![[reset_clock_sequence 1.svg|1000]]
 # sync_resetn
 
 - ![[resetn_design.svg|1000]]

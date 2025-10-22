@@ -11,12 +11,15 @@
             "id": "b18a05ea569f2d80",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "de/platform_clk_resetn_gen/gen_resetn/include/reset_high_fanout.svg"
+                "file": "de/platform_clk_resetn_gen/gen_resetn/gen_resetn.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
               },
-              "icon": "lucide-image",
-              "title": "reset_high_fanout"
+              "icon": "lucide-file",
+              "title": "gen_resetn"
             }
           }
         ]
@@ -194,10 +197,13 @@
   },
   "active": "b18a05ea569f2d80",
   "lastOpenFiles": [
-    "de/platform_clk_resetn_gen/gen_resetn/include/resetn_arch.svg",
-    "de/platform_clk_resetn_gen/gen_resetn/gen_resetn.md",
-    "de/platform_clk_resetn_gen/gen_resetn/include/reset_high_fanout.svg",
+    "de/platform_clk_resetn_gen/platform/include/gen.svg",
+    "de/platform_clk_resetn_gen/gen_resetn/include/resetn_tree.svg",
+    "de/platform_clk_resetn_gen/gen_resetn/include/resetn_design.svg",
     "de/platform_clk_resetn_gen/gen_resetn/include/reset_clock_sequence 1.svg",
+    "de/platform_clk_resetn_gen/gen_resetn/include/resetn_arch.svg",
+    "de/platform_clk_resetn_gen/gen_resetn/include/reset_high_fanout.svg",
+    "de/platform_clk_resetn_gen/gen_resetn/gen_resetn.md",
     "de/platform_clk_resetn_gen/gen_resetn/include/reset_clock_sequence.svg",
     "de/platform_clk_resetn_gen/gen_resetn/include/power_on_reset_clock_sequence.svg",
     "de/platform_clk_resetn_gen/rdc/rdc.md",
@@ -207,7 +213,6 @@
     "de/platform_clk_resetn_gen/gen_resetn/books/Measurement of De-assertion Threshold of Power-on-Reset Circuits.pdf",
     "Pasted image 20251022093525.png",
     "Pasted image 20251021221901.png",
-    "de/platform_clk_resetn_gen/platform/include/gen.svg",
     "Pasted image 20251022072848.png",
     "de/platform_clk_resetn_gen/cdc_wihtout_clk.md",
     "de/platform_clk_resetn_gen/cdc_with_clk.md",
@@ -217,8 +222,6 @@
     "de/platform_clk_resetn_gen/gen_clk/gen_clk.md",
     "de/platform_clk_resetn_gen/rdc/books/Techniques to identify reset metastability issues due to soft resets.pdf",
     "de/platform_clk_resetn_gen/handshake.md",
-    "Pasted image 20251020155629.png",
-    "Pasted image 20251020155734.png",
     "de/platform_clk_resetn_gen/rdc/books",
     "de/platform_clk_resetn_gen/rdc",
     "de/platform_clk_resetn_gen/gen_resetn/ref/rst_sync.v",
