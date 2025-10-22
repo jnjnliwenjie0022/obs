@@ -44,8 +44,8 @@
 	- clk1: clk 啓動在 async assert reset 與 sync deassert reset 之間
 	- clk2: clk 啓動在 async assert reset 之前
 - clk0: 保證 async deassert reset 的時候 clk 穩定就行
-- clk1: 保證 async deassert reset 的時候 clk 穩定就行, Power-On-Reset 也是屬於這類
-- clk2: 可以, 保證 async deassert reset 的時候 clk 穩定就行
+- clk1: 保證 async deassert reset 的時候 clk 穩定就行
+- clk2: 保證 async deassert reset 的時候 clk 穩定就行
 - 在 simulation 的時候用一下行爲模擬 power-on reset clock sequence 就行
 	- ![[power_on_reset_clock_sequence.svg]]
 # power_on_reset_clock_sequence
@@ -55,6 +55,9 @@
 	- P.S: 在 reset 狀態下, clock 不穩定, 不會造成 metastable state
 - power-on reset 基於 PLL 完成, deassert 是 sync
 	- 解決方式: 需要確保 reset release 的時候, clock 穩定既可
+- power-on reset 基於 RC 或是特殊事件, deassert 是 async, 但 clock 已經啓動, 完蛋!
+	- 解決方式: 
+	- P.S: 在 clock 穩定下
 - 以下是 power-on-reset 基於 RC 產生
 	- ![[Measurement of De-assertion Threshold of Power-on-Reset Circuits.pdf#page=1&rect=316,130,544,466|Measurement of De-assertion Threshold of Power-on-Reset Circuits, p.1|500]]
 - 以下是 power-on-reset 基於 PLL 產生

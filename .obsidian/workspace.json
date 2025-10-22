@@ -11,12 +11,15 @@
             "id": "b18a05ea569f2d80",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "de/platform_clk_resetn_gen/platform/include/gen.svg"
+                "file": "de/platform_clk_resetn_gen/gen_resetn/gen_resetn.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
               },
-              "icon": "lucide-image",
-              "title": "gen"
+              "icon": "lucide-file",
+              "title": "gen_resetn"
             }
           }
         ]
@@ -192,13 +195,13 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "35a470a2c390e07e",
+  "active": "b18a05ea569f2d80",
   "lastOpenFiles": [
-    "de/platform_clk_resetn_gen/rdc/books/Techniques to identify reset metastability issues due to soft resets.pdf",
     "de/platform_clk_resetn_gen/rdc/rdc.md",
+    "de/platform_clk_resetn_gen/platform/include/gen.svg",
+    "de/platform_clk_resetn_gen/rdc/books/Techniques to identify reset metastability issues due to soft resets.pdf",
     "de/platform_clk_resetn_gen/cdc_wihtout_clk.md",
     "de/platform_clk_resetn_gen/gen_resetn/gen_resetn.md",
-    "de/platform_clk_resetn_gen/platform/include/gen.svg",
     "de/platform_clk_resetn_gen/gen_resetn/include/resetn_tree.svg",
     "de/platform_clk_resetn_gen/gen_resetn/include/resetn_design.svg",
     "de/platform_clk_resetn_gen/gen_resetn/include/reset_clock_sequence 1.svg",
