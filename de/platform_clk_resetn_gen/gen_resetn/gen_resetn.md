@@ -47,7 +47,7 @@
 - clk1: 保證 async deassert reset 的時候 clk 穩定就行, Power-On-Reset 也是屬於這類
 - clk2: 可以, 保證 async deassert reset 的時候 clk 穩定就行
 - power-on reset
-	- ![[Pasted image 20251021221901.png|1000]]
+	- ![[Pasted image 20251021221901.png|500]]
 	- ![[Pasted image 20251022072848.png|1000]]
 	- ![[power_on_reset_clock_sequence.svg]]
 
