@@ -50,11 +50,11 @@
 	- ![[power_on_reset_clock_sequence.svg]]
 # power_on_reset_clock_sequence
 
-- 以下是 power-on-reset 電路
-- - ![[Pasted image 20251022093525.png|500]]
+- 以下是 power-on-reset 的 reset 產生器
+	- ![[Measurement of De-assertion Threshold of Power-on-Reset Circuits.pdf#page=1&rect=316,130,544,466|Measurement of De-assertion Threshold of Power-on-Reset Circuits, p.1|500]]
 - ref: https://stevenlin08.blogspot.com/2013/08/blog-post_9813.html
 - ![[Pasted image 20251022072848.png|800]]
-	
+	- power-on-reset 
 
 # sync_resetn
 
