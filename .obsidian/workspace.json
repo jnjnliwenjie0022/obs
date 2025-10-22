@@ -11,30 +11,31 @@
             "id": "b18a05ea569f2d80",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "de/platform_clk_resetn_gen/gen_resetn/gen_resetn.md",
-                "mode": "preview",
-                "source": false,
-                "backlinks": false
+                "file": "de/platform_clk_resetn_gen/gen_resetn/include/reset_anti_metastability.svg"
               },
-              "icon": "lucide-file",
-              "title": "gen_resetn"
+              "icon": "lucide-image",
+              "title": "reset_anti_metastability"
             }
           },
           {
             "id": "9dd9c719c56832c7",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "de/platform_clk_resetn_gen/gen_resetn/include/reset_high_fanout.svg"
+                "file": "de/platform_clk_resetn_gen/gen_resetn/gen_resetn.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
               },
-              "icon": "lucide-image",
-              "title": "reset_high_fanout"
+              "icon": "lucide-file",
+              "title": "gen_resetn"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -207,15 +208,16 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "b18a05ea569f2d80",
+  "active": "9dd9c719c56832c7",
   "lastOpenFiles": [
-    "de/platform_clk_resetn_gen/gen_resetn/include/reset_anti_metastability.svg",
-    "de/platform_clk_resetn_gen/gen_resetn/gen_resetn.md",
     "de/platform_clk_resetn_gen/gen_resetn/include/reset_high_fanout.svg",
+    "de/platform_clk_resetn_gen/gen_resetn/include/reset_anti_metastability.svg",
     "de/platform_clk_resetn_gen/gen_resetn/include/reset_clock_sequence.svg",
-    "de/platform_clk_resetn_gen/gen_resetn/include/power_on_reset_clock_sequence.svg",
     "de/platform_clk_resetn_gen/gen_resetn/books/synchronous & Synchronous Reset Design Techniques - Part Deux.pdf",
+    "de/platform_clk_resetn_gen/gen_resetn/books/CummingsSNUG2003Boston_Resets_rev1_2.pdf",
     "de/platform_clk_resetn_gen/gen_resetn/books/Measurement of De-assertion Threshold of Power-on-Reset Circuits.pdf",
+    "de/platform_clk_resetn_gen/gen_resetn/gen_resetn.md",
+    "de/platform_clk_resetn_gen/gen_resetn/include/power_on_reset_clock_sequence.svg",
     "de/platform_clk_resetn_gen/rdc/rdc.md",
     "de/platform_clk_resetn_gen/platform/include/gen.svg",
     "de/platform_clk_resetn_gen/rdc/books/Techniques to identify reset metastability issues due to soft resets.pdf",
@@ -238,7 +240,6 @@
     "de/platform_clk_resetn_gen/rdc",
     "de/platform_clk_resetn_gen/gen_resetn/ref/rst_sync.v",
     "de/platform_clk_resetn_gen/gen_resetn/ref/nds_rst_sync.v",
-    "de/platform_clk_resetn_gen/gen_resetn/books/CummingsSNUG2003Boston_Resets_rev1_2.pdf",
     "de/platform_clk_resetn_gen/gen_resetn/include",
     "de/platform_clk_resetn_gen/macro_sync_resetn/sync_resetn.md",
     "de/platform_clk_resetn_gen/gck/gck.md",

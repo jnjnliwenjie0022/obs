@@ -56,8 +56,10 @@
 - power-on reset 基於 PLL 完成, deassert 是 sync
 	- 解決方式: 需要確保 reset release 的時候, clock 穩定既可
 - power-on reset 基於 RC 或是特殊事件, deassert 是 async, 但 clock 已經啓動, 完蛋!
-	- 解決方式: 
-	- P.S: 在 clock 穩定下
+	- 解決方式: 直接上 sync_resetn desing 就行
+	- 
+	- ![[reset_anti_metastability.svg]]
+	- P.S: DFF 在 D=Q 的情況下, 不會出現 metastable state, 不論 clk 還是 reset 的情況是如何
 - 以下是 power-on-reset 基於 RC 產生
 	- ![[Measurement of De-assertion Threshold of Power-on-Reset Circuits.pdf#page=1&rect=316,130,544,466|Measurement of De-assertion Threshold of Power-on-Reset Circuits, p.1|500]]
 - 以下是 power-on-reset 基於 PLL 產生
