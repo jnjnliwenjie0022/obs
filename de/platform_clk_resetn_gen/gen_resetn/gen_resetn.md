@@ -36,6 +36,14 @@
 			- 需要考慮到 IR Drop
 			- 需要考慮到 congestion
 
+# reset_unstable
+
+- ref: https://zhuanlan.zhihu.com/p/668905496?share_code=XdnvLO2sWikt&utm_psn=1963768132570183217
+- 解決: unstable toggle, 需要 clk
+	- counter
+- 解決: glitch, 不需要 clk, 但會受到環境參與製成影響
+	- delay cell
+
 # reset_clock_sequence
 
 - ![[reset_clock_sequence.svg]]
@@ -44,23 +52,50 @@
 	- clk1: clk 啓動在 async assert reset 與 sync deassert reset 之間
 	- clk2: clk 啓動在 async assert reset 之前
 - clk0: 保證 async deassert reset 的時候 clk 穩定就行
-- clk1: 保證 async deassert reset 的時候 clk 穩定就行, Power-On-Reset 也是屬於這類
-- clk2: 可以, 保證 async deassert reset 的時候 clk 穩定就行
-- 在 simulation 的時候用一下行爲模擬 power-on reset clock sequence 就行
+- clk1: 保證 async deassert reset 的時候 clk 穩定就行
+- clk2: 保證 async deassert reset 的時候 clk 穩定就行
+- 在 simulation 的時候不建議這個行爲, 因爲這個行爲的定義不明確
 	- ![[power_on_reset_clock_sequence.svg]]
+```verilog
+always @ (negedge start) flag <= start;
+initial start = 0;
+```
+ - ![[Pasted image 20251022161641.png]]
+```verilog
+initial start = 0;
+always @ (negedge start) flag <= start;
+```
+- ![[Pasted image 20251022161939.png]]
 # power_on_reset_clock_sequence
 
 - power-on reset 基於 RC 完成 , deassert 是 async
 	- 解決方式: 需要確保 reset release 之後, clock 才啓動, 且 clock 穩定
+	- P.S: 在 reset 狀態下, clock 不穩定, 不會造成 metastable state
 - power-on reset 基於 PLL 完成, deassert 是 sync
 	- 解決方式: 需要確保 reset release 的時候, clock 穩定既可
+- power-on reset 基於 RC 或是特殊事件, deassert 是 async, 但 clock 已經啓動, 完蛋!
+	- 解決方式: 
+		- 直接上 sync_resetn design 就行, metastable state 不會產生, 第一級 register (但這個 metastable 也會經過 syncer 後消除)
+		- 記得 o_resetn 需要再經過一個 counter 去消除 power-on reset 基於 RC 或是特殊事件所導致的在 sync_resetn 中第一級 register 產生 metastable state 所產生的 toggle
+	- ![[reset_anti_metastability.svg]]
+	- P.S: DFF 在 D=Q 的情況下, 不會出現 metastable state, 不論 clk 還是 reset 的情況是如何
 - 以下是 power-on-reset 基於 RC 產生
 	- ![[Measurement of De-assertion Threshold of Power-on-Reset Circuits.pdf#page=1&rect=316,130,544,466|Measurement of De-assertion Threshold of Power-on-Reset Circuits, p.1|500]]
 - 以下是 power-on-reset 基於 PLL 產生
 	- ref: https://stevenlin08.blogspot.com/2013/08/blog-post_9813.html
 	- ![[Pasted image 20251022072848.png|800]]
 
-https://www.embedded.com/asynchronous-reset-synchronization-and-distribution-asics-and-fpgas/
+# reset_high_fanout
+
+- ref: https://www.embedded.com/asynchronous-reset-synchronization-and-distribution-asics-and-fpgas/
+- high fanout 會造成
+	- IR Drop
+	- EM (ElectroMigration)
+- 方法1: pipeline
+- 方法2: 
+	- counter + clock enable + multi-cycle path (.sdc)
+	- counter + clock enable
+- ![[reset_high_fanout.svg|1000]]
 # sync_resetn
 
 - ![[resetn_design.svg|1000]]
