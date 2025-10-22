@@ -11,6 +11,22 @@
             "id": "b18a05ea569f2d80",
             "type": "leaf",
             "state": {
+              "type": "pdf",
+              "state": {
+                "file": "de/platform_clk_resetn_gen/gen_resetn/books/synchronous & Synchronous Reset Design Techniques - Part Deux.pdf",
+                "page": 20,
+                "left": -11,
+                "top": 115,
+                "zoom": 1.4346590909090908
+              },
+              "icon": "lucide-file-text",
+              "title": "synchronous & Synchronous Reset Design Techniques - Part Deux"
+            }
+          },
+          {
+            "id": "9dd9c719c56832c7",
+            "type": "leaf",
+            "state": {
               "type": "markdown",
               "state": {
                 "file": "de/platform_clk_resetn_gen/gen_resetn/gen_resetn.md",
@@ -197,11 +213,13 @@
   },
   "active": "b18a05ea569f2d80",
   "lastOpenFiles": [
+    "de/platform_clk_resetn_gen/gen_resetn/gen_resetn.md",
+    "de/platform_clk_resetn_gen/gen_resetn/books/synchronous & Synchronous Reset Design Techniques - Part Deux.pdf",
+    "de/platform_clk_resetn_gen/gen_resetn/books/Measurement of De-assertion Threshold of Power-on-Reset Circuits.pdf",
     "de/platform_clk_resetn_gen/rdc/rdc.md",
     "de/platform_clk_resetn_gen/platform/include/gen.svg",
     "de/platform_clk_resetn_gen/rdc/books/Techniques to identify reset metastability issues due to soft resets.pdf",
     "de/platform_clk_resetn_gen/cdc_wihtout_clk.md",
-    "de/platform_clk_resetn_gen/gen_resetn/gen_resetn.md",
     "de/platform_clk_resetn_gen/gen_resetn/include/resetn_tree.svg",
     "de/platform_clk_resetn_gen/gen_resetn/include/resetn_design.svg",
     "de/platform_clk_resetn_gen/gen_resetn/include/reset_clock_sequence 1.svg",
@@ -212,7 +230,6 @@
     "workflow/greenshot.md",
     "de/platform_clk_resetn_gen/metastable_state.md",
     "conflict-files-obsidian-git.md",
-    "de/platform_clk_resetn_gen/gen_resetn/books/Measurement of De-assertion Threshold of Power-on-Reset Circuits.pdf",
     "Pasted image 20251022093525.png",
     "Pasted image 20251021221901.png",
     "de/platform_clk_resetn_gen/cdc_with_clk.md",
@@ -225,7 +242,6 @@
     "de/platform_clk_resetn_gen/rdc",
     "de/platform_clk_resetn_gen/gen_resetn/ref/rst_sync.v",
     "de/platform_clk_resetn_gen/gen_resetn/ref/nds_rst_sync.v",
-    "de/platform_clk_resetn_gen/gen_resetn/books/synchronous & Synchronous Reset Design Techniques - Part Deux.pdf",
     "de/platform_clk_resetn_gen/gen_resetn/books/CummingsSNUG2003Boston_Resets_rev1_2.pdf",
     "de/platform_clk_resetn_gen/gen_resetn/include",
     "de/platform_clk_resetn_gen/macro_sync_resetn/sync_resetn.md",
