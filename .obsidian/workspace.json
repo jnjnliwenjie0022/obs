@@ -197,8 +197,9 @@
   },
   "active": "b18a05ea569f2d80",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
+    "de/platform_clk_resetn_gen/metastable_state.md",
     "de/platform_clk_resetn_gen/gen_resetn/gen_resetn.md",
+    "conflict-files-obsidian-git.md",
     "de/platform_clk_resetn_gen/gen_resetn/books/Measurement of De-assertion Threshold of Power-on-Reset Circuits.pdf",
     "Pasted image 20251022093525.png",
     "Pasted image 20251021221901.png",
@@ -209,7 +210,6 @@
     "de/platform_clk_resetn_gen/cdc_wihtout_clk.md",
     "de/platform_clk_resetn_gen/cdc_with_clk.md",
     "de/platform_clk_resetn_gen/domain_cross.md",
-    "de/platform_clk_resetn_gen/metastable_state.md",
     "de/platform_clk_resetn_gen/gen_resetn/include/reset_clock_sequence.svg",
     "de/platform_clk_resetn_gen/rdc/include/reset_clock_sequence.md",
     "de/platform_clk_resetn_gen/rdc/include",

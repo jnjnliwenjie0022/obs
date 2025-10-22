@@ -52,6 +52,7 @@
 
 - power-on reset 基於 RC 完成 , deassert 是 async
 	- 解決方式: 需要確保 reset release 之後, clock 才啓動, 且 clock 穩定
+	- P.S: 在 reset 狀態下, clock 不穩定, 不會造成 metastable state
 - power-on reset 基於 PLL 完成, deassert 是 sync
 	- 解決方式: 需要確保 reset release 的時候, clock 穩定既可
 - 以下是 power-on-reset 基於 RC 產生
