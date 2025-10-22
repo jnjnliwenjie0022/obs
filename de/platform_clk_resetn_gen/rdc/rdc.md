@@ -70,3 +70,6 @@ always @ (posedge clk or negedge resetn)
 - 方法2: 停止頻率後 reset
 - 方法3: clamp register 使 RDC 路徑目標的數值在 deassert reset 確定前都不改變, 不改變也意味着不存在 metastable state 
 
+# soft_reset
+
+- ref: https://zhuanlan.zhihu.com/p/668905496?share_code=XdnvLO2sWikt&utm_psn=1963768132570183217
