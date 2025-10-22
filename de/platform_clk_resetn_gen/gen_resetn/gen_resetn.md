@@ -36,12 +36,12 @@
 			- 需要考慮到 IR Drop
 			- 需要考慮到 congestion
 
-# reset_glitch
+# reset_unstable
 
 - ref: https://zhuanlan.zhihu.com/p/668905496?share_code=XdnvLO2sWikt&utm_psn=1963768132570183217
-- 需要 clk
+- 解決: unstable toggle, 需要 clk
 	- counter
-- 不需要 clk, 但會受到環境參與製成影響
+- 解決: glitch, 不需要 clk, 但會受到環境參與製成影響
 	- delay cell
 
 # reset_clock_sequence
