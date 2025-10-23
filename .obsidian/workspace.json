@@ -33,9 +33,25 @@
               "icon": "lucide-file",
               "title": "platform"
             }
+          },
+          {
+            "id": "26eea1a77e216e86",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "de/amba_pq/ref/IHI0068D_amba_low_power_interface_spec.pdf",
+                "page": 1,
+                "left": -9,
+                "top": 364,
+                "zoom": 1.9096638655462186
+              },
+              "icon": "lucide-file-text",
+              "title": "IHI0068D_amba_low_power_interface_spec"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -208,12 +224,13 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "9dd9c719c56832c7",
+  "active": "26eea1a77e216e86",
   "lastOpenFiles": [
+    "de/amba_pq/pq_channel.md",
+    "de/platform_clk_resetn_gen/platform/platform.md",
     "de/platform_clk_resetn_gen/gen_resetn/gen_resetn.md",
     "de/platform_clk_resetn_gen/gen_resetn/include/reset_anti_metastability.svg",
     "de/platform_clk_resetn_gen/platform/include/gen.svg",
-    "de/platform_clk_resetn_gen/platform/platform.md",
     "de/platform_clk_resetn_gen/rdc/rdc.md",
     "Pasted image 20251022161939.png",
     "Pasted image 20251022161641.png",
