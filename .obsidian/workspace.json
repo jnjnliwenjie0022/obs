@@ -23,16 +23,15 @@
             "id": "9dd9c719c56832c7",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "de/amba_pq/ref/IHI0068D_amba_low_power_interface_spec.pdf",
-                "page": 30,
-                "left": -9,
-                "top": 287,
-                "zoom": 1.9096638655462186
+                "file": "de/platform_clk_resetn_gen/gen_resetn/gen_resetn.md",
+                "mode": "preview",
+                "source": false,
+                "backlinks": false
               },
-              "icon": "lucide-file-text",
-              "title": "IHI0068D_amba_low_power_interface_spec"
+              "icon": "lucide-file",
+              "title": "gen_resetn"
             }
           }
         ],
@@ -211,8 +210,8 @@
   },
   "active": "9dd9c719c56832c7",
   "lastOpenFiles": [
-    "de/amba_pq/include/ppu.svg",
     "de/amba_pq/ref/IHI0068D_amba_low_power_interface_spec.pdf",
+    "de/amba_pq/include/ppu.svg",
     "de/platform_clk_resetn_gen/platform/platform.md",
     "de/amba_pq/pq_channel.md",
     "de/platform_clk_resetn_gen/gen_resetn/gen_resetn.md",
@@ -231,7 +230,6 @@
     "de/platform_clk_resetn_gen/cdc_wihtout_clk.md",
     "de/platform_clk_resetn_gen/gen_resetn/include/resetn_tree.svg",
     "de/platform_clk_resetn_gen/gen_resetn/include/resetn_design.svg",
-    "de/platform_clk_resetn_gen/gen_resetn/include/resetn_arch.svg",
     "workflow/greenshot.md",
     "de/platform_clk_resetn_gen/metastable_state.md",
     "conflict-files-obsidian-git.md",
