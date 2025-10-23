@@ -52,6 +52,8 @@
 	- clk1: clk 啓動在 async assert reset 與 sync deassert reset 之間
 	- clk2: clk 啓動在 async assert reset 之前
 - clk0: 保證 async deassert reset 的時候 clk 穩定就行
+	- 這種模式通常發生在 clk 已經穩定了
+	- 通常需要搭配 clk_en
 - clk1: 保證 async deassert reset 的時候 clk 穩定就行
 - clk2: 保證 async deassert reset 的時候 clk 穩定就行
 - 在 simulation 的時候不建議這個行爲, 因爲這個行爲的定義不明確
