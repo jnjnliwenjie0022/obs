@@ -86,7 +86,8 @@ always @ (negedge start) flag <= start;
 - 以下是 power-on-reset 基於 PLL 產生
 	- ref: https://stevenlin08.blogspot.com/2013/08/blog-post_9813.html
 	- ![[Pasted image 20251022072848.png|800]]
-
+- 以下是 power-on-reset 基於 PLL 和 RC 個別產生
+- ![[Pasted image 20251023151127.png]]
 # reset_high_fanout
 
 - ref: https://www.embedded.com/asynchronous-reset-synchronization-and-distribution-asics-and-fpgas/
