@@ -23,16 +23,15 @@
             "id": "9dd9c719c56832c7",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "de/amba_pq/ref/IHI0068D_amba_low_power_interface_spec.pdf",
-                "page": 6,
-                "left": -9,
-                "top": 726,
-                "zoom": 1.9096638655462186
+                "file": "workflow/git/git.md",
+                "mode": "preview",
+                "source": false,
+                "backlinks": false
               },
-              "icon": "lucide-file-text",
-              "title": "IHI0068D_amba_low_power_interface_spec"
+              "icon": "lucide-file",
+              "title": "git"
             }
           }
         ],
@@ -211,8 +210,8 @@
   },
   "active": "9dd9c719c56832c7",
   "lastOpenFiles": [
-    "de/amba_pq/include/ppu.svg",
     "de/amba_pq/ref/IHI0068D_amba_low_power_interface_spec.pdf",
+    "de/amba_pq/include/ppu.svg",
     "de/amba_pq/pq_channel.md",
     "de/platform_clk_resetn_gen/platform/include/gen.svg",
     "de/platform_clk_resetn_gen/platform/platform.md",
