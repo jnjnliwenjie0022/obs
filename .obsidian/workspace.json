@@ -26,9 +26,9 @@
               "type": "pdf",
               "state": {
                 "file": "de/amba_pq/ref/IHI0068D_amba_low_power_interface_spec.pdf",
-                "page": 5,
+                "page": 6,
                 "left": -9,
-                "top": 460,
+                "top": 726,
                 "zoom": 1.9096638655462186
               },
               "icon": "lucide-file-text",
@@ -211,8 +211,9 @@
   },
   "active": "9dd9c719c56832c7",
   "lastOpenFiles": [
-    "de/amba_pq/pq_channel.md",
+    "de/amba_pq/include/ppu.svg",
     "de/amba_pq/ref/IHI0068D_amba_low_power_interface_spec.pdf",
+    "de/amba_pq/pq_channel.md",
     "de/platform_clk_resetn_gen/platform/include/gen.svg",
     "de/platform_clk_resetn_gen/platform/platform.md",
     "de/platform_clk_resetn_gen/gen_resetn/include/resetn_tree.svg",
@@ -220,7 +221,6 @@
     "Pasted image 20251023151127.png",
     "de/platform_clk_resetn_gen/gen_resetn/books/AN4053.pdf",
     "de/platform_clk_resetn_gen/gen_resetn/books/Unconfirmed 580003.crdownload",
-    "de/amba_pq/include/ppu.svg",
     "de/platform_clk_resetn_gen/gen_resetn/include/reset_anti_metastability.svg",
     "de/platform_clk_resetn_gen/rdc/rdc.md",
     "Pasted image 20251022161939.png",
