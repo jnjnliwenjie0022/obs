@@ -23,15 +23,12 @@
             "id": "9dd9c719c56832c7",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "de/platform_clk_resetn_gen/gen_resetn/gen_resetn.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
+                "file": "de/platform_clk_resetn_gen/platform/include/gen.svg"
               },
-              "icon": "lucide-file",
-              "title": "gen_resetn"
+              "icon": "lucide-image",
+              "title": "gen"
             }
           }
         ],
@@ -210,14 +207,15 @@
   },
   "active": "9dd9c719c56832c7",
   "lastOpenFiles": [
+    "de/platform_clk_resetn_gen/platform/platform.md",
+    "de/platform_clk_resetn_gen/gen_resetn/include/resetn_tree.svg",
+    "de/platform_clk_resetn_gen/gen_resetn/gen_resetn.md",
     "Pasted image 20251023151127.png",
     "de/platform_clk_resetn_gen/gen_resetn/books/AN4053.pdf",
     "de/platform_clk_resetn_gen/gen_resetn/books/Unconfirmed 580003.crdownload",
     "de/amba_pq/ref/IHI0068D_amba_low_power_interface_spec.pdf",
     "de/amba_pq/include/ppu.svg",
-    "de/platform_clk_resetn_gen/platform/platform.md",
     "de/amba_pq/pq_channel.md",
-    "de/platform_clk_resetn_gen/gen_resetn/gen_resetn.md",
     "de/platform_clk_resetn_gen/gen_resetn/include/reset_anti_metastability.svg",
     "de/platform_clk_resetn_gen/platform/include/gen.svg",
     "de/platform_clk_resetn_gen/rdc/rdc.md",
@@ -231,8 +229,6 @@
     "de/platform_clk_resetn_gen/gen_resetn/include/reset_clock_sequence.svg",
     "de/platform_clk_resetn_gen/gen_resetn/include/power_on_reset_clock_sequence.svg",
     "de/platform_clk_resetn_gen/cdc_wihtout_clk.md",
-    "de/platform_clk_resetn_gen/gen_resetn/include/resetn_tree.svg",
-    "de/platform_clk_resetn_gen/gen_resetn/include/resetn_design.svg",
     "workflow/greenshot.md",
     "de/platform_clk_resetn_gen/metastable_state.md",
     "conflict-files-obsidian-git.md",
