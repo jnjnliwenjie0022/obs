@@ -23,15 +23,16 @@
             "id": "9dd9c719c56832c7",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "workflow/git/git.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
+                "file": "de/amba_pq/ref/IHI0068D_amba_low_power_interface_spec.pdf",
+                "page": 6,
+                "left": -10,
+                "top": 730,
+                "zoom": 1.4722689075630253
               },
-              "icon": "lucide-file",
-              "title": "git"
+              "icon": "lucide-file-text",
+              "title": "IHI0068D_amba_low_power_interface_spec"
             }
           }
         ],
@@ -92,8 +93,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 481.5,
-    "collapsed": true
+    "width": 481.5
   },
   "right": {
     "id": "baf9c43aba40b294",
@@ -157,13 +157,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "workflow/git/git.md",
+                "file": "de/amba_pq/ref/IHI0068D_amba_low_power_interface_spec.pdf",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of git"
+              "title": "Outline of IHI0068D_amba_low_power_interface_spec"
             }
           },
           {
@@ -208,8 +208,9 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "0b8a8ade04f18b08",
+  "active": "9dd9c719c56832c7",
   "lastOpenFiles": [
+    "workflow/git/git.md",
     "de/amba_pq/ref/IHI0068D_amba_low_power_interface_spec.pdf",
     "de/amba_pq/include/ppu.svg",
     "de/amba_pq/pq_channel.md",
