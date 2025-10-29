@@ -26,7 +26,7 @@
               "type": "markdown",
               "state": {
                 "file": "workflow/git/git.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false,
                 "backlinks": false
               },
@@ -92,7 +92,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 481.5
+    "width": 481.5,
+    "collapsed": true
   },
   "right": {
     "id": "baf9c43aba40b294",
@@ -156,13 +157,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "de/amba_apb/ahb2apb.md",
+                "file": "workflow/git/git.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of ahb2apb"
+              "title": "Outline of git"
             }
           },
           {
@@ -186,12 +187,11 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 346.5,
-    "collapsed": true
+    "width": 346.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -208,7 +208,7 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "9dd9c719c56832c7",
+  "active": "0b8a8ade04f18b08",
   "lastOpenFiles": [
     "de/amba_pq/ref/IHI0068D_amba_low_power_interface_spec.pdf",
     "de/amba_pq/include/ppu.svg",
