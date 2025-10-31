@@ -375,6 +375,25 @@ git push --force-with-lease origin 'HEAD^:<branch_name>' # 刪除已經 push 到
 git push --force-with-lease origin 'HEAD~<number>:<branch_name>'
 git reset --hard origin/<branch_name>
 ```
+
+- 最標準的 push, 如果跟 git 的連線有問題, 可以用這個取代原本的 git push 機制, 作爲錯誤排除
+
+```
+
+git push --set-upstream origin master
+```
+### git remote
+
+
+```
+git remote -v
+```
+
+- SSH to HTTPS  or HTTPS to SSH
+
+```
+git remote set-url origin git@github.com:myname/myrepo.git
+```
 ### conflict_tool
 
 ref: https://www.youtube.com/watch?v=57x4ZzzCr2Y
