@@ -50,7 +50,8 @@
               "title": "git"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -171,13 +172,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "de/platform_clk_resetn_gen/gen_resetn/include/reset_anti_metastability.svg",
+                "file": "workflow/git/git.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of reset_anti_metastability"
+              "title": "Outline of git"
             }
           },
           {
@@ -223,9 +224,10 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "b18a05ea569f2d80",
+  "active": "dc155badee71bf23",
   "lastOpenFiles": [
     "de/amba_pq/ref/IHI0068D_amba_low_power_interface_spec.pdf",
+    "de/platform_clk_resetn_gen/gen_resetn/include/reset_anti_metastability.svg",
     "workflow/git/git.md",
     "de/amba_pq/include/ppu.svg",
     "de/amba_pq/pq_channel.md",
@@ -236,7 +238,6 @@
     "Pasted image 20251023151127.png",
     "de/platform_clk_resetn_gen/gen_resetn/books/AN4053.pdf",
     "de/platform_clk_resetn_gen/gen_resetn/books/Unconfirmed 580003.crdownload",
-    "de/platform_clk_resetn_gen/gen_resetn/include/reset_anti_metastability.svg",
     "de/platform_clk_resetn_gen/rdc/rdc.md",
     "Pasted image 20251022161939.png",
     "Pasted image 20251022161641.png",
