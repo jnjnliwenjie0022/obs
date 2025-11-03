@@ -11,12 +11,15 @@
             "id": "b18a05ea569f2d80",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "de/platform_clk_resetn_gen/gen_resetn/include/reset_anti_metastability.svg"
+                "file": "workflow/autohotkey/autohotkey.md",
+                "mode": "preview",
+                "source": false,
+                "backlinks": false
               },
-              "icon": "lucide-image",
-              "title": "reset_anti_metastability"
+              "icon": "lucide-file",
+              "title": "autohotkey"
             }
           },
           {
@@ -156,13 +159,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "de/platform_clk_resetn_gen/gen_resetn/include/reset_anti_metastability.svg",
+                "file": "workflow/autohotkey/autohotkey.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of reset_anti_metastability"
+              "title": "Outline of autohotkey"
             }
           },
           {
@@ -210,9 +213,9 @@
   },
   "active": "b18a05ea569f2d80",
   "lastOpenFiles": [
+    "de/platform_clk_resetn_gen/gen_resetn/include/reset_anti_metastability.svg",
     "de/amba_pq/ref/IHI0068D_amba_low_power_interface_spec.pdf",
     "workflow/git/git.md",
-    "de/platform_clk_resetn_gen/gen_resetn/include/reset_anti_metastability.svg",
     "de/amba_pq/include/ppu.svg",
     "de/amba_pq/pq_channel.md",
     "de/platform_clk_resetn_gen/platform/include/gen.svg",
