@@ -4,22 +4,38 @@
     "type": "split",
     "children": [
       {
-        "id": "5d22839ce2f6975b",
+        "id": "16252f818e3ebb7c",
         "type": "tabs",
         "children": [
           {
-            "id": "84bfbc528c49916e",
+            "id": "b18a05ea569f2d80",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "workflow/audacity.md",
+                "file": "workflow/git/git.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "audacity"
+              "title": "git"
+            }
+          },
+          {
+            "id": "9dd9c719c56832c7",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "de/amba_pq/ref/IHI0068D_amba_low_power_interface_spec.pdf",
+                "page": 39,
+                "left": -9,
+                "top": 441,
+                "zoom": 1.9096638655462186
+              },
+              "icon": "lucide-file-text",
+              "title": "IHI0068D_amba_low_power_interface_spec"
             }
           }
         ]
@@ -54,7 +70,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#TODO ",
+                "query": "high_fan",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -79,7 +95,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 341.5
+    "width": 481.5
   },
   "right": {
     "id": "baf9c43aba40b294",
@@ -143,13 +159,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "de/platform_clk_resetn_gen/gck/gck.md",
+                "file": "workflow/git/git.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of gck"
+              "title": "Outline of git"
             }
           },
           {
@@ -195,53 +211,53 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "84bfbc528c49916e",
+  "active": "b18a05ea569f2d80",
   "lastOpenFiles": [
-    "workflow/capslock2ctrl.md",
     "workflow/audacity.md",
-    "workflow/bypass_paywall.md",
-    "3C ranking.md",
-    "ToDoList.md",
+    "workflow/autohotkey/autohotkey.md",
+    "de/platform_clk_resetn_gen/gen_resetn/include/reset_anti_metastability.svg",
+    "de/amba_pq/ref/IHI0068D_amba_low_power_interface_spec.pdf",
+    "workflow/git/git.md",
+    "de/amba_pq/include/ppu.svg",
+    "de/amba_pq/pq_channel.md",
     "de/platform_clk_resetn_gen/platform/include/gen.svg",
-    "de/platform_clk_resetn_gen/gen_resetn/books/AN4053.pdf",
-    "Pasted image 20251023151127.png",
     "de/platform_clk_resetn_gen/platform/platform.md",
     "de/platform_clk_resetn_gen/gen_resetn/include/resetn_tree.svg",
     "de/platform_clk_resetn_gen/gen_resetn/gen_resetn.md",
-    "conflict-files-obsidian-git.md",
-    "workflow/greenshot.md",
-    "de/platform_clk_resetn_gen/gen_resetn/include/reset_high_fanout.svg",
-    "de/platform_clk_resetn_gen/gen_resetn/include/reset_anti_metastability.svg",
+    "Pasted image 20251023151127.png",
+    "de/platform_clk_resetn_gen/gen_resetn/books/AN4053.pdf",
+    "de/platform_clk_resetn_gen/gen_resetn/books/Unconfirmed 580003.crdownload",
+    "de/platform_clk_resetn_gen/rdc/rdc.md",
     "Pasted image 20251022161939.png",
     "Pasted image 20251022161641.png",
-    "de/platform_clk_resetn_gen/gen_resetn/include/reset_clock_sequence.svg",
-    "de/platform_clk_resetn_gen/gen_resetn/include/resetn_arch.svg",
-    "de/platform_clk_resetn_gen/gen_resetn/include/resetn_design.svg",
+    "de/platform_clk_resetn_gen/rdc/books/Techniques to identify reset metastability issues due to soft resets.pdf",
+    "de/platform_clk_resetn_gen/gen_resetn/books/CummingsSNUG2003Boston_Resets_rev1_2.pdf",
     "de/platform_clk_resetn_gen/gen_resetn/books/Measurement of De-assertion Threshold of Power-on-Reset Circuits.pdf",
     "de/platform_clk_resetn_gen/gen_resetn/books/synchronous & Synchronous Reset Design Techniques - Part Deux.pdf",
-    "de/platform_clk_resetn_gen/gen_resetn/books/wadhwa2015.pdf",
-    "de/platform_clk_resetn_gen/gen_resetn/books/Unconfirmed 650494.crdownload",
-    "de/platform_clk_resetn_gen/rdc/rdc.md",
-    "de/platform_clk_resetn_gen/rdc/include/reset_clock_sequence.md",
+    "de/platform_clk_resetn_gen/gen_resetn/include/reset_high_fanout.svg",
+    "de/platform_clk_resetn_gen/gen_resetn/include/reset_clock_sequence.svg",
+    "de/platform_clk_resetn_gen/gen_resetn/include/power_on_reset_clock_sequence.svg",
     "de/platform_clk_resetn_gen/cdc_wihtout_clk.md",
-    "de/platform_clk_resetn_gen/rdc/include",
-    "de/platform_clk_resetn_gen/cdc_with_clk.md",
-    "de/platform_clk_resetn_gen/gen_clk/gen_clk.md",
-    "de/platform_clk_resetn_gen/gen_resetn/books/CummingsSNUG2003Boston_Resets_rev1_2.pdf",
-    "de/platform_clk_resetn_gen/domain_cross.md",
+    "workflow/greenshot.md",
     "de/platform_clk_resetn_gen/metastable_state.md",
-    "de/platform_clk_resetn_gen/rdc/books/Techniques to identify reset metastability issues due to soft resets.pdf",
-    "de/cim/cim.md",
-    "workflow/autohotkey/autohotkey.md",
+    "conflict-files-obsidian-git.md",
+    "de/platform_clk_resetn_gen/cdc_with_clk.md",
+    "de/platform_clk_resetn_gen/domain_cross.md",
+    "de/platform_clk_resetn_gen/rdc/include/reset_clock_sequence.md",
+    "de/platform_clk_resetn_gen/rdc/include",
+    "de/platform_clk_resetn_gen/gen_clk/gen_clk.md",
+    "de/platform_clk_resetn_gen/handshake.md",
     "de/platform_clk_resetn_gen/rdc/books",
     "de/platform_clk_resetn_gen/rdc",
-    "de/power/sdpd/sdpd.md",
-    "de/platform_clk_resetn_gen/cdc/clk_gen/clk_gen.md",
+    "de/platform_clk_resetn_gen/macro_sync_resetn/sync_resetn.md",
     "de/platform_clk_resetn_gen/gck/gck.md",
-    "de/power/genus/genus.md",
-    "de/power/reg/reg.md",
-    "de/design_spec/ref/Andes_design_guide.md",
-    "de/platform_clk_resetn_gen/reg_latch.md",
-    "de/platform_clk_resetn_gen/cdc/cdc_design/cdc_design.md"
+    "de/platform_clk_resetn_gen/cdc/cdc_design/cdc_design.md",
+    "de/platform_clk_resetn_gen/cdc/design/cdc_design.md",
+    "de/platform_clk_resetn_gen/cdc/clk_gen/clk_gen.md",
+    "de/power/gck/gck.md",
+    "de/platform_clk_resetn_gen/platform_resetn/platform_resetn.md",
+    "workflow/tmux.md",
+    "workflow/rime.md",
+    "de/design_spec/lint_rule.md"
   ]
 }
