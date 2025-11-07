@@ -3,8 +3,7 @@ https://github.com/jnjnliwenjie0022/obs
 ## window
 
 ref: https://www.youtube.com/watch?v=5YZz38U20ws
-
-https://git-scm.com/download/win
+ref: https://git-scm.com/download/win
 ```
 winget install --id Git.Git -e --source winget
 ```
