@@ -13,13 +13,29 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "workflow/vcxsrv.md",
+                "file": "workflow/git/git.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "vcxsrv"
+              "title": "git"
+            }
+          },
+          {
+            "id": "9dd9c719c56832c7",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "de/amba_pq/ref/IHI0068D_amba_low_power_interface_spec.pdf",
+                "page": 39,
+                "left": -9,
+                "top": 441,
+                "zoom": 1.9096638655462186
+              },
+              "icon": "lucide-file-text",
+              "title": "IHI0068D_amba_low_power_interface_spec"
             }
           }
         ]
@@ -158,8 +174,8 @@
             "state": {
               "type": "git-history-view",
               "state": {},
-              "icon": "lucide-ghost",
-              "title": "git-history-view"
+              "icon": "history",
+              "title": "History"
             }
           },
           {
@@ -168,8 +184,8 @@
             "state": {
               "type": "git-view",
               "state": {},
-              "icon": "lucide-ghost",
-              "title": "git-view"
+              "icon": "git-pull-request",
+              "title": "Source Control"
             }
           }
         ],
@@ -182,6 +198,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "obsidian-git:Open Git source control": false,
       "bases:Create new base": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
@@ -189,7 +206,6 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "obsidian-git:Open Git source control": false,
       "pdf-plus:PDF++: Toggle auto-copy": false,
       "pdf-plus:PDF++: Toggle auto-focus": false,
       "pdf-plus:PDF++: Toggle auto-paste": false
@@ -197,14 +213,12 @@
   },
   "active": "b18a05ea569f2d80",
   "lastOpenFiles": [
-    "workflow/git/git.md",
     "workflow/vcxsrv.md",
-    "README.md",
-    "workflow/capslock2ctrl.md",
-    "de/amba_pq/ref/IHI0068D_amba_low_power_interface_spec.pdf",
     "workflow/audacity.md",
     "workflow/autohotkey/autohotkey.md",
     "de/platform_clk_resetn_gen/gen_resetn/include/reset_anti_metastability.svg",
+    "de/amba_pq/ref/IHI0068D_amba_low_power_interface_spec.pdf",
+    "workflow/git/git.md",
     "de/amba_pq/include/ppu.svg",
     "de/amba_pq/pq_channel.md",
     "de/platform_clk_resetn_gen/platform/include/gen.svg",
@@ -242,6 +256,8 @@
     "de/platform_clk_resetn_gen/cdc/design/cdc_design.md",
     "de/platform_clk_resetn_gen/cdc/clk_gen/clk_gen.md",
     "de/power/gck/gck.md",
-    "de/platform_clk_resetn_gen/platform_resetn/platform_resetn.md"
+    "de/platform_clk_resetn_gen/platform_resetn/platform_resetn.md",
+    "workflow/tmux.md",
+    "workflow/rime.md"
   ]
 }
