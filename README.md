@@ -1,9 +1,7 @@
 # github
 https://github.com/jnjnliwenjie0022/obs
 ## window
-### method1
-Download https://desktop.github.com/
-### method2
+
 ref: https://www.youtube.com/watch?v=5YZz38U20ws
 
 https://git-scm.com/download/win
