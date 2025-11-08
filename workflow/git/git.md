@@ -287,7 +287,8 @@ git cherry-pick <begin_commit_id>^ <end_commit_id>
 
 #### rebase -i
 
-將已經push remote的多個commit合并成一個commit
+- ref: https://www.youtube.com/watch?v=42392W7SgnE
+- 將已經push remote的多個commit合并成一個commit
 
 ```
 git rebase -i HEAD~<number>
