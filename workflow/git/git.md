@@ -2,7 +2,8 @@
 https://www.youtube.com/watch?v=hZS96dwKvt0
 
 ![[git.svg]]
-create_new_repo
+# create_new_repo
+
 ```
 git config --global user.name "jnjn0022"
 git config --global user.email "jnjn0022@gmail.com"
