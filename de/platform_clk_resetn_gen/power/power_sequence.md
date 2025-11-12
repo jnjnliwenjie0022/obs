@@ -1,13 +1,24 @@
 # hw_power_sequence
 
-- hw power down sequence
+- hw deep sleep mode power down sequence
+	- at active mode
+	- at wait mode
+	- disable clock
 	- enable iso_en (isolation)
 	- enable ret_en (retention)
+	- assert resetn
+	- power down
+		- enable ESD power clamp (UPF simulation)
+		- disable power (UPF simulation)
+	- at deep sleep mode
+- hw light sleep mode power down sequence
+	- at active mode
+	- at wait mode
 	- disable clock
-	- enable ESD power clamp (UPF simulation)
-	- disable power (UPF simulation)
+	- enable iso_en (isolation)
+	- enable ret_en (retention)
 	- assert resetn
-- hw power up sequence
-	- assert resetn
-	- enable clock
-	- 
+	- power down
+		- enable ESD power clamp (UPF simulation)
+		- disable power (UPF simulation)
+	- at deep sleep mode
