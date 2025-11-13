@@ -76,17 +76,16 @@
               "type": "pdf",
               "state": {
                 "file": "de/platform_clk_resetn_gen/power/ref/Power Control Sequencing.pdf",
-                "page": 1,
+                "page": 2,
                 "left": -9,
-                "top": 795,
+                "top": 586,
                 "zoom": 1.8566176470588236
               },
               "icon": "lucide-file-text",
               "title": "Power Control Sequencing"
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "vertical"
@@ -207,13 +206,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "de/platform_clk_resetn_gen/power/ref/Power Control Sequencing.pdf",
+                "file": "de/platform_clk_resetn_gen/power/power_sequence.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Power Control Sequencing"
+              "title": "Outline of power_sequence"
             }
           },
           {
@@ -259,17 +258,17 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "2c6c5fb098c67346",
+  "active": "b18a05ea569f2d80",
   "lastOpenFiles": [
-    "de/platform_clk_resetn_gen/power/power_sequence.md",
+    "de/design_spec/lint_rule.md",
+    "de/platform_clk_resetn_gen/cdc/cdc_design/cdc_design.md",
     "de/platform_clk_resetn_gen/power/ref/Power Control Sequencing.pdf",
+    "de/platform_clk_resetn_gen/power/power_sequence.md",
     "de/platform_clk_resetn_gen/power/ref",
     "de/platform_clk_resetn_gen/gck/gck.md",
     "de/platform_clk_resetn_gen/gen_clk/gen_clk.md",
     "de/ppa/upf.md",
     "de/ppa/timing.md",
-    "de/platform_clk_resetn_gen/cdc/cdc_design/cdc_design.md",
-    "de/design_spec/lint_rule.md",
     "de/amba_pq/ref/IHI0068D_amba_low_power_interface_spec.pdf",
     "de/power/genus/genus.md",
     "de/power/sdpd/sdpd.md",
