@@ -4,9 +4,15 @@
 - hw deep sleep mode power down sequence
 	- at active status
 	- at wait status
-	- disable clock
-	- enable iso_en (isolation)
-	- enable ret_en (retention)
+	- clock
+		- when power down, disable clock
+		- when power up, enable clock
+	- iso_en
+		- when power down, assert iso_en
+		- when power up, deassert iso_en
+	- ret_en (retention)
+		- when power down, assert ret_en
+		- when power up, deassert ret_en
 	- resetn
 		- when power down, assert resetn
 		- when power up , deassert resetn
