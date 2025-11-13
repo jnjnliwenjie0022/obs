@@ -1,20 +1,22 @@
 # hw_power_sequence
 
 - hw deep sleep mode power down sequence
-	- at active mode
-	- at wait mode
+	- at active status
+	- at wait status
 	- disable clock
 	- enable iso_en (isolation)
 	- enable ret_en (retention)
 	- resetn
 		- when power down, assert resetn
 		- when power up , deassert resetn
-	- power down
-	- at deep sleep mode
+	- power
+		- when power down, disable power
+		- when power up, enable power
+	- at deep sleep status
 	- PS: hw deep sleep mode power up sequence 就是反過來操作
 - hw light sleep mode power down sequence
-	- at active mode
-	- at wait mode
+	- at active status
+	- at wait status
 	- disable clock
-	- at deep sleep mode
+	- at deep sleep status
 	- PS: hw light sleep mode power up sequence 就是反過來操作
