@@ -1,7 +1,6 @@
 # hw_power_sequence
 
 - ref: [[Power Control Sequencing.pdf]]
-
 - hw deep sleep mode power down sequence
 	- at active status
 	- at wait status
