@@ -67,8 +67,26 @@
               "icon": "lucide-file",
               "title": "cdc_design"
             }
+          },
+          {
+            "id": "2c6c5fb098c67346",
+            "type": "leaf",
+            "dimension": 25,
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "de/platform_clk_resetn_gen/power/ref/Power Control Sequencing.pdf",
+                "page": 1,
+                "left": -9,
+                "top": 795,
+                "zoom": 1.8566176470588236
+              },
+              "icon": "lucide-file-text",
+              "title": "Power Control Sequencing"
+            }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -189,13 +207,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "de/platform_clk_resetn_gen/power/power_sequence.md",
+                "file": "de/platform_clk_resetn_gen/power/ref/Power Control Sequencing.pdf",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of power_sequence"
+              "title": "Outline of Power Control Sequencing"
             }
           },
           {
@@ -241,10 +259,10 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "b18a05ea569f2d80",
+  "active": "2c6c5fb098c67346",
   "lastOpenFiles": [
-    "de/platform_clk_resetn_gen/power/ref/Power Control Sequencing.pdf",
     "de/platform_clk_resetn_gen/power/power_sequence.md",
+    "de/platform_clk_resetn_gen/power/ref/Power Control Sequencing.pdf",
     "de/platform_clk_resetn_gen/power/ref",
     "de/platform_clk_resetn_gen/gck/gck.md",
     "de/platform_clk_resetn_gen/gen_clk/gen_clk.md",
