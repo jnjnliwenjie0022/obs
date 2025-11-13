@@ -10,8 +10,8 @@
 		- when power down, assert resetn
 		- when power up , deassert resetn
 	- power
-		- when power down, disable power
-		- when power up, enable power
+		- when power down, assert power-gate signal
+		- when power up, deassert power-gate signal
 	- at deep sleep status
 	- PS: hw deep sleep mode power up sequence 就是反過來操作
 - hw light sleep mode power down sequence
