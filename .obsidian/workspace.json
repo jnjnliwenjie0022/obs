@@ -11,15 +11,16 @@
             "id": "b18a05ea569f2d80",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "de/platform_clk_resetn_gen/gen_resetn/gen_resetn.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
+                "file": "de/platform_clk_resetn_gen/power/ref/Low Power Methodology Manual For System-on-Chip Design.pdf",
+                "page": 71,
+                "left": -10,
+                "top": 671,
+                "zoom": 1.4715862893850922
               },
-              "icon": "lucide-file",
-              "title": "gen_resetn"
+              "icon": "lucide-file-text",
+              "title": "Low Power Methodology Manual For System-on-Chip Design"
             }
           },
           {
@@ -140,8 +141,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 481.5,
-    "collapsed": true
+    "width": 481.5
   },
   "right": {
     "id": "baf9c43aba40b294",
@@ -205,13 +205,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "de/platform_clk_resetn_gen/gen_resetn/gen_resetn.md",
+                "file": "de/platform_clk_resetn_gen/power/ref/Low Power Methodology Manual For System-on-Chip Design.pdf",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of gen_resetn"
+              "title": "Outline of Low Power Methodology Manual For System-on-Chip Design"
             }
           },
           {
@@ -258,11 +258,11 @@
   },
   "active": "b18a05ea569f2d80",
   "lastOpenFiles": [
+    "de/platform_clk_resetn_gen/gen_resetn/gen_resetn.md",
     "de/platform_clk_resetn_gen/power/power_sequence.md",
     "de/power/sdpd/power.md",
     "de/platform_clk_resetn_gen/power/ref/Low Power Methodology Manual For System-on-Chip Design.pdf",
     "de/platform_clk_resetn_gen/power/ref/Power Control Sequencing.pdf",
-    "de/platform_clk_resetn_gen/gen_resetn/gen_resetn.md",
     "de/platform_clk_resetn_gen/gen_resetn/include/reset_property.svg",
     "de/power/sdpd/sdpd.md",
     "de/amba_pq/ref/IHI0068D_amba_low_power_interface_spec.pdf",
