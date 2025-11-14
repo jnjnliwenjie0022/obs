@@ -99,8 +99,7 @@
               "title": "Power Control Sequencing"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -157,7 +156,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 481.5
+    "width": 481.5,
+    "collapsed": true
   },
   "right": {
     "id": "baf9c43aba40b294",
@@ -221,13 +221,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "de/power/sdpd/power.md",
+                "file": "de/platform_clk_resetn_gen/gen_resetn/gen_resetn.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of power"
+              "title": "Outline of gen_resetn"
             }
           },
           {
@@ -272,10 +272,10 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "9dd9c719c56832c7",
+  "active": "b18a05ea569f2d80",
   "lastOpenFiles": [
-    "de/power/sdpd/sdpd.md",
     "de/power/sdpd/power.md",
+    "de/power/sdpd/sdpd.md",
     "de/amba_pq/ref/IHI0068D_amba_low_power_interface_spec.pdf",
     "de/platform_clk_resetn_gen/power/ref/Power Control Sequencing.pdf",
     "de/platform_clk_resetn_gen/gen_resetn/gen_resetn.md",
