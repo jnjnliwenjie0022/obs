@@ -21,8 +21,21 @@
               "icon": "lucide-file",
               "title": "git"
             }
+          },
+          {
+            "id": "76fc6a4b58042868",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.10.3"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.10.3"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -195,7 +208,7 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "35a470a2c390e07e",
+  "active": "76fc6a4b58042868",
   "lastOpenFiles": [
     "resume/CORP-25-071_備忘錄-李文傑.pdf",
     "de/platform_clk_resetn_power_gen/rdc/books/Techniques to identify reset metastability issues due to soft resets.pdf",
