@@ -17,4 +17,4 @@
 	- at wait status
 	- clock
 	- at deep sleep status
-- Notice: 根據以上的設計原則, 我們可以知道, reset 必須只能是 async, 如果是 sync, power on sequence 必然錯誤在 resetn assert -> power off -> power on -> resetn deassert -> clock 的 clock
+- Notice: 根據以上的設計原則, 我們可以知道, reset 必須只能是 async, 如果是 sync, power on sequence 必然錯誤在 resetn assert -> power off -> power on -> resetn deassert -> clock 的過程中, power on 之後 register init 永遠爲 unknown value

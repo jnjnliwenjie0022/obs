@@ -13,61 +13,32 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "de/platform_clk_resetn_power_gen/gen_power/power_sequence/power_sequence.md",
+                "file": "de/ppa/upf.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "power_sequence"
+              "title": "upf"
             }
           },
           {
-            "id": "9dd9c719c56832c7",
+            "id": "7a661f65f850302f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "de/power/sdpd/power.md",
-                "mode": "preview",
+                "file": "de/platform_clk_resetn_power_gen/gen_clk/gen_clk.md",
+                "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "power"
-            }
-          },
-          {
-            "id": "da26ab566b2f749f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "de/design_spec/lint_rule.md",
-                "mode": "preview",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "lint_rule"
-            }
-          },
-          {
-            "id": "f43ee69d3143f043",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "de/platform_clk_resetn_power_gen/cdc/cdc_design/cdc_design.md",
-                "mode": "preview",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "cdc_design"
+              "title": "gen_clk"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -188,13 +159,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "de/platform_clk_resetn_power_gen/gen_power/power_sequence/power_sequence.md",
+                "file": "de/platform_clk_resetn_power_gen/gen_clk/gen_clk.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of power_sequence"
+              "title": "Outline of gen_clk"
             }
           },
           {
@@ -275,55 +246,55 @@
         "y": 20,
         "width": 851,
         "height": 1064,
-        "maximize": true,
+        "maximize": false,
         "zoom": 0
       }
     ]
   },
-  "active": "b18a05ea569f2d80",
+  "active": "35a470a2c390e07e",
   "lastOpenFiles": [
-    "de/platform_clk_resetn_power_gen/rdc/rdc.md",
-    "de/platform_clk_resetn_power_gen/gen_power/power_gating/power_gating.md",
+    "de/platform_clk_resetn_power_gen/gen_clk/book/CommIC_07.pdf",
+    "de/ppa/upf.md",
+    "de/platform_clk_resetn_power_gen/cdc/clk_gen/book",
+    "de/platform_clk_resetn_power_gen/gen_power/low_power_design.md",
     "de/platform_clk_resetn_power_gen/gen_power/power_sequence/power_sequence.md",
+    "de/power/sdpd/power.md",
+    "de/platform_clk_resetn_power_gen/cdc/cdc_design/cdc_design.md",
+    "de/design_spec/lint_rule.md",
+    "de/platform_clk_resetn_power_gen/platform/platform.md",
+    "de/ppa/evaluation.md",
+    "de/ppa/spyglass.md",
+    "de/ppa/timing.md",
+    "de/power/genus/genus.md",
+    "de/power/sdpd/sdpd.md",
+    "de/platform_clk_resetn_power_gen/gen_power/power_gating/power_gating.md",
+    "de/platform_clk_resetn_power_gen/rdc/rdc.md",
     "de/platform_clk_resetn_power_gen/gen_power/power_gating",
     "de/platform_clk_resetn_power_gen/gen_power/power_sequence",
-    "de/power/genus/genus.md",
     "de/platform_clk_resetn_power_gen/cdc_wihtout_clk.md",
     "de/platform_clk_resetn_power_gen/gen_power/power_sequence/ref/Low Power Methodology Manual For System-on-Chip Design.pdf",
-    "de/platform_clk_resetn_power_gen/cdc/cdc_design/cdc_design.md",
     "de/platform_clk_resetn_power_gen/gen_resetn/gen_resetn.md",
-    "de/power/sdpd/power.md",
     "de/platform_clk_resetn_gen/power/ref/Power Control Sequencing.pdf",
     "de/platform_clk_resetn_power_gen/gen_resetn/include/reset_property.svg",
-    "de/power/sdpd/sdpd.md",
     "de/amba_pq/ref/IHI0068D_amba_low_power_interface_spec.pdf",
     "de/platform_clk_resetn_power_gen/gck/gck.md",
-    "de/platform_clk_resetn_power_gen/platform/platform.md",
     "de/platform_clk_resetn_power_gen/cdc_with_clk.md",
     "de/platform_clk_resetn_power_gen/domain_cross.md",
     "de/platform_clk_resetn_power_gen/metastable_state.md",
-    "de/design_spec/lint_rule.md",
     "de/platform_clk_resetn_power_gen/gen_power/power_sequence/ref",
     "de/platform_clk_resetn_power_gen/gen_clk/gen_clk.md",
-    "de/ppa/upf.md",
-    "de/ppa/timing.md",
     "de/platform_clk_resetn_power_gen/platform/include/gen.svg",
     "de/platform_clk_resetn_power_gen/gen_power",
     "de/power/hw_power_sequence.md",
     "de/power/sdpd/ref/低功耗设计基础：深入理解Internal Power - 知乎.pdf",
     "de/power/reg/reg.md",
-    "de/ppa/spyglass.md",
     "de/platform_clk_resetn_power_gen/cdc/clk_gen/clk_gen.md",
     "workflow/git/git.md",
-    "workflow/vcxsrv.md",
-    "workflow/audacity.md",
-    "workflow/autohotkey/autohotkey.md",
     "de/platform_clk_resetn_power_gen/gen_resetn/include/reset_anti_metastability.svg",
     "de/amba_pq/include/ppu.svg",
     "de/platform_clk_resetn_power_gen/gen_resetn/include/resetn_tree.svg",
     "Pasted image 20251023151127.png",
     "de/platform_clk_resetn_power_gen/gen_resetn/books/AN4053.pdf",
-    "de/platform_clk_resetn_gen/gen_resetn/books/Unconfirmed 580003.crdownload",
     "Pasted image 20251022161939.png",
     "Pasted image 20251022161641.png",
     "de/platform_clk_resetn_power_gen/gen_resetn/include/reset_high_fanout.svg",
