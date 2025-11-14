@@ -4,22 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "16252f818e3ebb7c",
+        "id": "bed0c654bcfae3d1",
         "type": "tabs",
         "children": [
           {
-            "id": "b18a05ea569f2d80",
+            "id": "cfefc17e5952c34d",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "workflow/git/git.md",
-                "mode": "preview",
-                "source": false,
-                "backlinks": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "git"
+              "title": "New tab"
             }
           }
         ]
@@ -195,9 +190,10 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "b18a05ea569f2d80",
+  "active": "cfefc17e5952c34d",
   "lastOpenFiles": [
     "resume/CORP-25-071_備忘錄-李文傑.pdf",
+    "workflow/git/git.md",
     "de/platform_clk_resetn_power_gen/rdc/books/Techniques to identify reset metastability issues due to soft resets.pdf",
     "de/platform_clk_resetn_power_gen/rdc/rdc.md",
     "de/platform_clk_resetn_power_gen/rdc/books",
@@ -219,7 +215,6 @@
     "de/platform_clk_resetn_power_gen/gen_resetn/include/resetn_tree.svg",
     "de/platform_clk_resetn_power_gen/gen_resetn/include/power_on_reset_clock_sequence.svg",
     "de/platform_clk_resetn_power_gen/gen_resetn/books/Measurement of De-assertion Threshold of Power-on-Reset Circuits.pdf",
-    "de/platform_clk_resetn_power_gen/gen_resetn/books/synchronous & Synchronous Reset Design Techniques - Part Deux.pdf",
     "de/platform_clk_resetn_power_gen/gen_resetn/gen_resetn.md",
     "de/platform_clk_resetn_power_gen/gen_power/power_sequence/power_sequence.md",
     "de/platform_clk_resetn_power_gen/gen_power/power_gating/power_gating.md",
@@ -235,7 +230,6 @@
     "workflow/rime.md",
     "workflow/weasel.md",
     "workflow/vcxsrv.md",
-    "workflow/git/git.md",
     "README.md",
     "workflow/capslock2ctrl.md",
     "workflow/audacity.md",
