@@ -4,6 +4,28 @@
     "type": "split",
     "children": [
       {
+        "id": "ff17ce2ecf9e4d4b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d076846bde53f8af",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "de/platform_clk_resetn_gen/power/ref/Low Power Methodology Manual For System-on-Chip Design.pdf",
+                "page": 65,
+                "left": -16,
+                "top": 33,
+                "zoom": 1.0066758948790142
+              },
+              "icon": "lucide-file-text",
+              "title": "Low Power Methodology Manual For System-on-Chip Design"
+            }
+          }
+        ]
+      },
+      {
         "id": "16252f818e3ebb7c",
         "type": "tabs",
         "children": [
@@ -66,22 +88,6 @@
               "icon": "lucide-file",
               "title": "cdc_design"
             }
-          },
-          {
-            "id": "2c6c5fb098c67346",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "de/platform_clk_resetn_gen/power/ref/Power Control Sequencing.pdf",
-                "page": 2,
-                "left": -9,
-                "top": 586,
-                "zoom": 1.8566176470588236
-              },
-              "icon": "lucide-file-text",
-              "title": "Power Control Sequencing"
-            }
           }
         ]
       }
@@ -140,7 +146,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 481.5
+    "width": 481.5,
+    "collapsed": true
   },
   "right": {
     "id": "baf9c43aba40b294",
@@ -204,13 +211,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "de/platform_clk_resetn_gen/power/power_sequence.md",
+                "file": "de/platform_clk_resetn_gen/power/ref/Low Power Methodology Manual For System-on-Chip Design.pdf",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of power_sequence"
+              "title": "Outline of Low Power Methodology Manual For System-on-Chip Design"
             }
           },
           {
@@ -255,11 +262,12 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "b18a05ea569f2d80",
+  "active": "d076846bde53f8af",
   "lastOpenFiles": [
-    "de/platform_clk_resetn_gen/power/ref/Low Power Methodology Manual For System-on-Chip Design.pdf",
-    "de/platform_clk_resetn_gen/gen_resetn/gen_resetn.md",
     "de/platform_clk_resetn_gen/power/power_sequence.md",
+    "de/platform_clk_resetn_gen/power/ref/Low Power Methodology Manual For System-on-Chip Design.pdf",
+    "de/platform_clk_resetn_gen/cdc/cdc_design/cdc_design.md",
+    "de/platform_clk_resetn_gen/gen_resetn/gen_resetn.md",
     "de/power/sdpd/power.md",
     "de/platform_clk_resetn_gen/power/ref/Power Control Sequencing.pdf",
     "de/platform_clk_resetn_gen/gen_resetn/include/reset_property.svg",
@@ -272,7 +280,6 @@
     "de/platform_clk_resetn_gen/domain_cross.md",
     "de/platform_clk_resetn_gen/metastable_state.md",
     "de/power/genus/genus.md",
-    "de/platform_clk_resetn_gen/cdc/cdc_design/cdc_design.md",
     "de/design_spec/lint_rule.md",
     "de/platform_clk_resetn_gen/power/ref",
     "de/platform_clk_resetn_gen/gen_clk/gen_clk.md",
