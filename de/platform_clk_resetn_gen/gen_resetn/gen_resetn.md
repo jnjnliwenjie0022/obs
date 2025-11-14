@@ -73,7 +73,7 @@ always @ (negedge start) flag <= start;
 
 - rtl 終究是描述語言, reset 的實際硬體行爲與 rtl 描述不符合
 	- 只要有 power, 只要在 reset assert 與 reset deassert 之間, Q port 必定是 reset status 的數值, 即使沒有 clock, 沒有 D port
-- ![[reset_property.svg]]
+	- ![[reset_property.svg]]
 # aopd_power_on_sequence
 
 - aopd-power-on reset 基於 RC 完成 , deassert 是 async
