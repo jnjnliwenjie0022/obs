@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "de/platform_clk_resetn_gen/gen_resetn/gen_resetn.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false,
                 "backlinks": false
               },
@@ -156,7 +156,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 481.5
+    "width": 481.5,
+    "collapsed": true
   },
   "right": {
     "id": "baf9c43aba40b294",
