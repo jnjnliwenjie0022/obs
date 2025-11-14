@@ -42,16 +42,15 @@
             "id": "9dd9c719c56832c7",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "de/amba_pq/ref/IHI0068D_amba_low_power_interface_spec.pdf",
-                "page": 21,
-                "left": -7,
-                "top": 742,
-                "zoom": 2.0798319327731094
+                "file": "de/power/sdpd/power.md",
+                "mode": "preview",
+                "source": false,
+                "backlinks": false
               },
-              "icon": "lucide-file-text",
-              "title": "IHI0068D_amba_low_power_interface_spec"
+              "icon": "lucide-file",
+              "title": "power"
             }
           },
           {
@@ -158,8 +157,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 481.5,
-    "collapsed": true
+    "width": 481.5
   },
   "right": {
     "id": "baf9c43aba40b294",
@@ -223,13 +221,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "de/amba_pq/ref/IHI0068D_amba_low_power_interface_spec.pdf",
+                "file": "de/power/sdpd/power.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of IHI0068D_amba_low_power_interface_spec"
+              "title": "Outline of power"
             }
           },
           {
@@ -276,6 +274,9 @@
   },
   "active": "9dd9c719c56832c7",
   "lastOpenFiles": [
+    "de/power/sdpd/sdpd.md",
+    "de/power/sdpd/power.md",
+    "de/amba_pq/ref/IHI0068D_amba_low_power_interface_spec.pdf",
     "de/platform_clk_resetn_gen/power/ref/Power Control Sequencing.pdf",
     "de/platform_clk_resetn_gen/gen_resetn/gen_resetn.md",
     "de/platform_clk_resetn_gen/power/power_sequence.md",
@@ -286,11 +287,8 @@
     "de/platform_clk_resetn_gen/domain_cross.md",
     "de/platform_clk_resetn_gen/metastable_state.md",
     "de/power/genus/genus.md",
-    "de/power/sdpd/power.md",
-    "de/power/sdpd/sdpd.md",
     "de/platform_clk_resetn_gen/cdc/cdc_design/cdc_design.md",
     "de/design_spec/lint_rule.md",
-    "de/amba_pq/ref/IHI0068D_amba_low_power_interface_spec.pdf",
     "de/platform_clk_resetn_gen/power/ref",
     "de/platform_clk_resetn_gen/gen_clk/gen_clk.md",
     "de/ppa/upf.md",
