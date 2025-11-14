@@ -210,51 +210,11 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "floating": {
-    "id": "e73aae54231407f2",
-    "type": "floating",
-    "children": [
-      {
-        "id": "afa76fe107d403e8",
-        "type": "window",
-        "children": [
-          {
-            "id": "3ccbacd3259a2378",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "d076846bde53f8af",
-                "type": "leaf",
-                "state": {
-                  "type": "pdf",
-                  "state": {
-                    "file": "de/platform_clk_resetn_power_gen/gen_power/power_sequence/ref/Low Power Methodology Manual For System-on-Chip Design.pdf",
-                    "page": 66,
-                    "left": -127,
-                    "top": 672,
-                    "zoom": 1.8
-                  },
-                  "icon": "lucide-file-text",
-                  "title": "Low Power Methodology Manual For System-on-Chip Design"
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical",
-        "x": 598,
-        "y": 20,
-        "width": 851,
-        "height": 1064,
-        "maximize": false,
-        "zoom": 0
-      }
-    ]
-  },
   "active": "7a661f65f850302f",
   "lastOpenFiles": [
-    "de/platform_clk_resetn_power_gen/gen_resetn/include/resetn_tree.svg",
+    "de/platform_clk_resetn_power_gen/gen_power/power_sequence/ref/Low Power Methodology Manual For System-on-Chip Design.pdf",
     "de/platform_clk_resetn_power_gen/gen_resetn/gen_resetn.md",
+    "de/platform_clk_resetn_power_gen/gen_resetn/include/resetn_tree.svg",
     "de/platform_clk_resetn_power_gen/gen_power/power_sequence/power_sequence.md",
     "de/platform_clk_resetn_power_gen/gen_clk/book/基于 BUFGMUX 与 DCM 的 FPGA 时钟电路设计.pdf",
     "de/platform_clk_resetn_power_gen/gen_clk/book/CommIC_07.pdf",
@@ -276,7 +236,6 @@
     "de/platform_clk_resetn_power_gen/gen_power/power_gating",
     "de/platform_clk_resetn_power_gen/gen_power/power_sequence",
     "de/platform_clk_resetn_power_gen/cdc_wihtout_clk.md",
-    "de/platform_clk_resetn_power_gen/gen_power/power_sequence/ref/Low Power Methodology Manual For System-on-Chip Design.pdf",
     "de/platform_clk_resetn_gen/power/ref/Power Control Sequencing.pdf",
     "de/platform_clk_resetn_power_gen/gen_resetn/include/reset_property.svg",
     "de/amba_pq/ref/IHI0068D_amba_low_power_interface_spec.pdf",
