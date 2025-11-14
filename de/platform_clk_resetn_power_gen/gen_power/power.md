@@ -17,3 +17,7 @@
 	- at wait status
 	- clock
 	- at deep sleep status
+
+# power_gating
+
+- ref: https://www.cnblogs.com/-9-8/p/5495224.html
