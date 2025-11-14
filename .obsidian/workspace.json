@@ -14,28 +14,12 @@
               "type": "markdown",
               "state": {
                 "file": "de/platform_clk_resetn_gen/power/power_sequence.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
               "title": "power_sequence"
-            }
-          },
-          {
-            "id": "059b6f0de3eb77f1",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "de/platform_clk_resetn_gen/power/ref/Power Control Sequencing.pdf",
-                "page": 1,
-                "left": -7,
-                "top": 94,
-                "zoom": 2.0220588235294117
-              },
-              "icon": "lucide-file-text",
-              "title": "Power Control Sequencing"
             }
           },
           {
@@ -99,8 +83,7 @@
               "title": "Power Control Sequencing"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -157,8 +140,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 481.5,
-    "collapsed": true
+    "width": 481.5
   },
   "right": {
     "id": "baf9c43aba40b294",
@@ -222,13 +204,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "de/platform_clk_resetn_gen/power/ref/Power Control Sequencing.pdf",
+                "file": "de/platform_clk_resetn_gen/power/power_sequence.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Power Control Sequencing"
+              "title": "Outline of power_sequence"
             }
           },
           {
@@ -273,13 +255,14 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "059b6f0de3eb77f1",
+  "active": "b18a05ea569f2d80",
   "lastOpenFiles": [
+    "de/platform_clk_resetn_gen/power/ref/Low Power Methodology Manual For System-on-Chip Design.pdf",
+    "de/power/sdpd/power.md",
     "de/platform_clk_resetn_gen/power/power_sequence.md",
+    "de/platform_clk_resetn_gen/power/ref/Power Control Sequencing.pdf",
     "de/platform_clk_resetn_gen/gen_resetn/gen_resetn.md",
     "de/platform_clk_resetn_gen/gen_resetn/include/reset_property.svg",
-    "de/power/sdpd/power.md",
-    "de/platform_clk_resetn_gen/power/ref/Power Control Sequencing.pdf",
     "de/power/sdpd/sdpd.md",
     "de/amba_pq/ref/IHI0068D_amba_low_power_interface_spec.pdf",
     "de/platform_clk_resetn_gen/gck/gck.md",
@@ -317,7 +300,6 @@
     "Pasted image 20251022161641.png",
     "de/platform_clk_resetn_gen/rdc/books/Techniques to identify reset metastability issues due to soft resets.pdf",
     "de/platform_clk_resetn_gen/gen_resetn/books/CummingsSNUG2003Boston_Resets_rev1_2.pdf",
-    "de/platform_clk_resetn_gen/gen_resetn/books/Measurement of De-assertion Threshold of Power-on-Reset Circuits.pdf",
     "de/platform_clk_resetn_gen/gen_resetn/include/reset_high_fanout.svg",
     "de/platform_clk_resetn_gen/gen_resetn/include/reset_clock_sequence.svg"
   ]

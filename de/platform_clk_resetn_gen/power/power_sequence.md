@@ -1,6 +1,7 @@
 # hw_power_sequence
 
-- ref: [[Power Control Sequencing.pdf]]
+- ref: [[Low Power Methodology Manual For System-on-Chip Design.pdf#page=115|Low Power Methodology Manual For System-on-Chip Design, p.115]]
+- ref: [[Low Power Methodology Manual For System-on-Chip Design.pdf#page=71|Low Power Methodology Manual For System-on-Chip Design, p.71]]
 - hw deep sleep mode power down sequence
 	- at active status
 	- at wait status
