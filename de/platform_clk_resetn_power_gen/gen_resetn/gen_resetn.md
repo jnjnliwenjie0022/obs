@@ -68,25 +68,31 @@ initial start = 0;
 always @ (negedge start) flag <= start;
 ```
 - ![[Pasted image 20251022161939.png]]
-# power_on_reset_clock_sequence
 
-- power-on reset 基於 RC 完成 , deassert 是 async
+# reset_property
+
+- rtl 終究是描述語言, reset 的實際硬體行爲與 rtl 描述不符合
+	- 只要有 power, 只要在 reset assert 與 reset deassert 之間, Q port 必定是 reset status 的數值, 即使沒有 clock, 沒有 D port
+	- ![[reset_property.svg]]
+# aopd_power_on_sequence
+
+- aopd-power-on reset 基於 RC 完成 , deassert 是 async
 	- 解決方式: 需要確保 reset release 之後, clock 才啓動, 且 clock 穩定
 	- P.S: 在 reset 狀態下, clock 不穩定, 不會造成 metastable state
-- power-on reset 基於 PLL 完成, deassert 是 sync
+- aopd-power-on reset 基於 PLL 完成, deassert 是 sync
 	- 解決方式: 需要確保 reset release 的時候, clock 穩定既可
-- power-on reset 基於 RC 或是特殊事件, deassert 是 async, 但 clock 已經啓動, 完蛋!
+- aopd-power-on reset 基於 RC 或是特殊事件, deassert 是 async, 但 clock 已經啓動, 完蛋!
 	- 解決方式: 
-		- 直接上 sync_resetn design 就行, metastable state 不會產生, 第一級 register (但這個 metastable 也會經過 syncer 後消除)
+		- 直接上 sync_resetn design 就行, metastable state 不會產生, 除了第一級 register (但這個 metastable 也會經過 syncer 後消除)
 		- 記得 o_resetn 需要再經過一個 counter 去消除 power-on reset 基於 RC 或是特殊事件所導致的在 sync_resetn 中第一級 register 產生 metastable state 所產生的 toggle
 	- ![[reset_anti_metastability.svg]]
 	- P.S: DFF 在 D=Q 的情況下, 不會出現 metastable state, 不論 clk 還是 reset 的情況是如何
-- 以下是 power-on-reset 基於 RC 產生
+- 以下是 aopd-power-on reset 基於 RC 產生
 	- ![[Measurement of De-assertion Threshold of Power-on-Reset Circuits.pdf#page=1&rect=316,130,544,466|Measurement of De-assertion Threshold of Power-on-Reset Circuits, p.1|500]]
-- 以下是 power-on-reset 基於 PLL 產生
+- 以下是 aopd-power-on reset 基於 PLL 產生
 	- ref: https://stevenlin08.blogspot.com/2013/08/blog-post_9813.html
 	- ![[Pasted image 20251022072848.png|800]]
-- 以下是 power-on-reset 基於 PLL 和 RC 個別產生
+- 以下是 aopd-power-on reset 基於 PLL 和 RC 個別產生
 - ![[Pasted image 20251023151127.png]]
 # reset_high_fanout
 
