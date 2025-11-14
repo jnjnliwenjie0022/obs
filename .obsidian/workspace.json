@@ -31,7 +31,7 @@
                 "file": "de/platform_clk_resetn_gen/power/ref/Power Control Sequencing.pdf",
                 "page": 1,
                 "left": -9,
-                "top": 356,
+                "top": 715,
                 "zoom": 1.8566176470588236
               },
               "icon": "lucide-file-text",
@@ -101,7 +101,8 @@
               "title": "Power Control Sequencing"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -222,13 +223,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "de/platform_clk_resetn_gen/power/power_sequence.md",
+                "file": "de/platform_clk_resetn_gen/power/ref/Power Control Sequencing.pdf",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of power_sequence"
+              "title": "Outline of Power Control Sequencing"
             }
           },
           {
@@ -274,11 +275,11 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "b18a05ea569f2d80",
+  "active": "059b6f0de3eb77f1",
   "lastOpenFiles": [
+    "de/platform_clk_resetn_gen/power/power_sequence.md",
     "de/amba_pq/ref/IHI0068D_amba_low_power_interface_spec.pdf",
     "de/platform_clk_resetn_gen/power/ref/Power Control Sequencing.pdf",
-    "de/platform_clk_resetn_gen/power/power_sequence.md",
     "de/design_spec/lint_rule.md",
     "de/platform_clk_resetn_gen/cdc/cdc_design/cdc_design.md",
     "de/platform_clk_resetn_gen/power/ref",
