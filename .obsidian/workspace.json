@@ -4,28 +4,6 @@
     "type": "split",
     "children": [
       {
-        "id": "ff17ce2ecf9e4d4b",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "d076846bde53f8af",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "de/platform_clk_resetn_gen/power/ref/Low Power Methodology Manual For System-on-Chip Design.pdf",
-                "page": 65,
-                "left": -16,
-                "top": 33,
-                "zoom": 1.0066758948790142
-              },
-              "icon": "lucide-file-text",
-              "title": "Low Power Methodology Manual For System-on-Chip Design"
-            }
-          }
-        ]
-      },
-      {
         "id": "16252f818e3ebb7c",
         "type": "tabs",
         "children": [
@@ -261,6 +239,47 @@
       "pdf-plus:PDF++: Toggle auto-focus": false,
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
+  },
+  "floating": {
+    "id": "e73aae54231407f2",
+    "type": "floating",
+    "children": [
+      {
+        "id": "afa76fe107d403e8",
+        "type": "window",
+        "children": [
+          {
+            "id": "3ccbacd3259a2378",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "d076846bde53f8af",
+                "type": "leaf",
+                "state": {
+                  "type": "pdf",
+                  "state": {
+                    "file": "de/platform_clk_resetn_gen/power/ref/Low Power Methodology Manual For System-on-Chip Design.pdf",
+                    "page": 66,
+                    "left": -127,
+                    "top": 672,
+                    "zoom": 1.8
+                  },
+                  "icon": "lucide-file-text",
+                  "title": "Low Power Methodology Manual For System-on-Chip Design"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": 598,
+        "y": 20,
+        "width": 851,
+        "height": 1064,
+        "maximize": true,
+        "zoom": 0
+      }
+    ]
   },
   "active": "d076846bde53f8af",
   "lastOpenFiles": [
