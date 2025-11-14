@@ -195,8 +195,9 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "b18a05ea569f2d80",
+  "active": "35a470a2c390e07e",
   "lastOpenFiles": [
+    "resume/CORP-25-071_備忘錄-李文傑.pdf",
     "de/platform_clk_resetn_power_gen/rdc/books/Techniques to identify reset metastability issues due to soft resets.pdf",
     "de/platform_clk_resetn_power_gen/rdc/rdc.md",
     "de/platform_clk_resetn_power_gen/rdc/books",
@@ -219,7 +220,6 @@
     "de/platform_clk_resetn_power_gen/gen_resetn/include/power_on_reset_clock_sequence.svg",
     "de/platform_clk_resetn_power_gen/gen_resetn/books/Measurement of De-assertion Threshold of Power-on-Reset Circuits.pdf",
     "de/platform_clk_resetn_power_gen/gen_resetn/books/synchronous & Synchronous Reset Design Techniques - Part Deux.pdf",
-    "de/platform_clk_resetn_power_gen/gen_resetn/books/CummingsSNUG2003Boston_Resets_rev1_2.pdf",
     "de/platform_clk_resetn_power_gen/gen_resetn/gen_resetn.md",
     "de/platform_clk_resetn_power_gen/gen_power/power_sequence/power_sequence.md",
     "de/platform_clk_resetn_power_gen/gen_power/power_gating/power_gating.md",
