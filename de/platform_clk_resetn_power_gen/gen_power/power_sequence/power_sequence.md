@@ -17,7 +17,4 @@
 	- at wait status
 	- clock
 	- at deep sleep status
-
-# power_gating
-
-- ref: https://www.cnblogs.com/-9-8/p/5495224.html
+- Notice: 根據以上的設計原則, 我們可以知道, reset 必須只能是 async, 如果是 sync, power on sequence 必然錯誤

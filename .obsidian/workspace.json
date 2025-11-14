@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "de/platform_clk_resetn_power_gen/gen_power/Untitled.md",
+                "file": "de/platform_clk_resetn_power_gen/gen_power/power_sequence/power_sequence.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Untitled"
+              "title": "power_sequence"
             }
           },
           {
@@ -188,13 +188,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "de/platform_clk_resetn_power_gen/gen_power/Untitled.md",
+                "file": "de/platform_clk_resetn_power_gen/gen_power/power_sequence/power_sequence.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Untitled"
+              "title": "Outline of power_sequence"
             }
           },
           {
@@ -257,7 +257,7 @@
                 "state": {
                   "type": "pdf",
                   "state": {
-                    "file": "de/platform_clk_resetn_power_gen/gen_power/ref/Low Power Methodology Manual For System-on-Chip Design.pdf",
+                    "file": "de/platform_clk_resetn_power_gen/gen_power/power_sequence/ref/Low Power Methodology Manual For System-on-Chip Design.pdf",
                     "page": 66,
                     "left": -127,
                     "top": 672,
@@ -282,11 +282,14 @@
   },
   "active": "b18a05ea569f2d80",
   "lastOpenFiles": [
-    "de/platform_clk_resetn_power_gen/gen_power/power.md",
-    "de/platform_clk_resetn_power_gen/gen_power/Untitled.md",
+    "de/platform_clk_resetn_power_gen/rdc/rdc.md",
+    "de/platform_clk_resetn_power_gen/gen_power/power_gating/power_gating.md",
+    "de/platform_clk_resetn_power_gen/gen_power/power_sequence/power_sequence.md",
+    "de/platform_clk_resetn_power_gen/gen_power/power_gating",
+    "de/platform_clk_resetn_power_gen/gen_power/power_sequence",
     "de/power/genus/genus.md",
     "de/platform_clk_resetn_power_gen/cdc_wihtout_clk.md",
-    "de/platform_clk_resetn_power_gen/gen_power/ref/Low Power Methodology Manual For System-on-Chip Design.pdf",
+    "de/platform_clk_resetn_power_gen/gen_power/power_sequence/ref/Low Power Methodology Manual For System-on-Chip Design.pdf",
     "de/platform_clk_resetn_power_gen/cdc/cdc_design/cdc_design.md",
     "de/platform_clk_resetn_power_gen/gen_resetn/gen_resetn.md",
     "de/power/sdpd/power.md",
@@ -300,7 +303,7 @@
     "de/platform_clk_resetn_power_gen/domain_cross.md",
     "de/platform_clk_resetn_power_gen/metastable_state.md",
     "de/design_spec/lint_rule.md",
-    "de/platform_clk_resetn_power_gen/gen_power/ref",
+    "de/platform_clk_resetn_power_gen/gen_power/power_sequence/ref",
     "de/platform_clk_resetn_power_gen/gen_clk/gen_clk.md",
     "de/ppa/upf.md",
     "de/ppa/timing.md",
@@ -317,15 +320,12 @@
     "workflow/autohotkey/autohotkey.md",
     "de/platform_clk_resetn_power_gen/gen_resetn/include/reset_anti_metastability.svg",
     "de/amba_pq/include/ppu.svg",
-    "de/amba_pq/pq_channel.md",
     "de/platform_clk_resetn_power_gen/gen_resetn/include/resetn_tree.svg",
     "Pasted image 20251023151127.png",
     "de/platform_clk_resetn_power_gen/gen_resetn/books/AN4053.pdf",
     "de/platform_clk_resetn_gen/gen_resetn/books/Unconfirmed 580003.crdownload",
     "Pasted image 20251022161939.png",
     "Pasted image 20251022161641.png",
-    "de/platform_clk_resetn_power_gen/rdc/books/Techniques to identify reset metastability issues due to soft resets.pdf",
-    "de/platform_clk_resetn_power_gen/gen_resetn/books/CummingsSNUG2003Boston_Resets_rev1_2.pdf",
     "de/platform_clk_resetn_power_gen/gen_resetn/include/reset_high_fanout.svg",
     "de/platform_clk_resetn_power_gen/gen_resetn/include/reset_clock_sequence.svg"
   ]
