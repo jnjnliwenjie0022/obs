@@ -30,8 +30,8 @@
               "state": {
                 "file": "de/platform_clk_resetn_gen/power/ref/Power Control Sequencing.pdf",
                 "page": 2,
-                "left": -7,
-                "top": 598,
+                "left": -10,
+                "top": 602,
                 "zoom": 2.0220588235294117
               },
               "icon": "lucide-file-text",
@@ -156,8 +156,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 481.5,
-    "collapsed": true
+    "width": 481.5
   },
   "right": {
     "id": "baf9c43aba40b294",
@@ -274,11 +273,12 @@
   },
   "active": "b18a05ea569f2d80",
   "lastOpenFiles": [
+    "de/platform_clk_resetn_gen/gen_resetn/include/reset_property.svg",
     "de/power/sdpd/power.md",
-    "de/power/sdpd/sdpd.md",
-    "de/amba_pq/ref/IHI0068D_amba_low_power_interface_spec.pdf",
     "de/platform_clk_resetn_gen/power/ref/Power Control Sequencing.pdf",
     "de/platform_clk_resetn_gen/gen_resetn/gen_resetn.md",
+    "de/power/sdpd/sdpd.md",
+    "de/amba_pq/ref/IHI0068D_amba_low_power_interface_spec.pdf",
     "de/platform_clk_resetn_gen/power/power_sequence.md",
     "de/platform_clk_resetn_gen/gck/gck.md",
     "de/platform_clk_resetn_gen/platform/platform.md",
@@ -317,7 +317,6 @@
     "de/platform_clk_resetn_gen/gen_resetn/books/CummingsSNUG2003Boston_Resets_rev1_2.pdf",
     "de/platform_clk_resetn_gen/gen_resetn/books/Measurement of De-assertion Threshold of Power-on-Reset Circuits.pdf",
     "de/platform_clk_resetn_gen/gen_resetn/include/reset_high_fanout.svg",
-    "de/platform_clk_resetn_gen/gen_resetn/include/reset_clock_sequence.svg",
-    "de/platform_clk_resetn_gen/gen_resetn/include/power_on_reset_clock_sequence.svg"
+    "de/platform_clk_resetn_gen/gen_resetn/include/reset_clock_sequence.svg"
   ]
 }
