@@ -30,9 +30,9 @@
               "state": {
                 "file": "de/platform_clk_resetn_gen/power/ref/Power Control Sequencing.pdf",
                 "page": 2,
-                "left": -9,
-                "top": 590,
-                "zoom": 1.8566176470588236
+                "left": -7,
+                "top": 598,
+                "zoom": 2.0220588235294117
               },
               "icon": "lucide-file-text",
               "title": "Power Control Sequencing"
@@ -46,9 +46,9 @@
               "state": {
                 "file": "de/amba_pq/ref/IHI0068D_amba_low_power_interface_spec.pdf",
                 "page": 21,
-                "left": -9,
-                "top": 735,
-                "zoom": 1.9096638655462186
+                "left": -7,
+                "top": 742,
+                "zoom": 2.0798319327731094
               },
               "icon": "lucide-file-text",
               "title": "IHI0068D_amba_low_power_interface_spec"
@@ -100,7 +100,8 @@
               "title": "Power Control Sequencing"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -222,13 +223,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "de/platform_clk_resetn_gen/gen_resetn/gen_resetn.md",
+                "file": "de/amba_pq/ref/IHI0068D_amba_low_power_interface_spec.pdf",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of gen_resetn"
+              "title": "Outline of IHI0068D_amba_low_power_interface_spec"
             }
           },
           {
@@ -273,12 +274,13 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "b18a05ea569f2d80",
+  "active": "9dd9c719c56832c7",
   "lastOpenFiles": [
     "de/platform_clk_resetn_gen/power/ref/Power Control Sequencing.pdf",
+    "de/platform_clk_resetn_gen/gen_resetn/gen_resetn.md",
+    "de/platform_clk_resetn_gen/power/power_sequence.md",
     "de/platform_clk_resetn_gen/gck/gck.md",
     "de/platform_clk_resetn_gen/platform/platform.md",
-    "de/platform_clk_resetn_gen/power/power_sequence.md",
     "de/platform_clk_resetn_gen/cdc_wihtout_clk.md",
     "de/platform_clk_resetn_gen/cdc_with_clk.md",
     "de/platform_clk_resetn_gen/domain_cross.md",
@@ -308,7 +310,6 @@
     "de/amba_pq/include/ppu.svg",
     "de/amba_pq/pq_channel.md",
     "de/platform_clk_resetn_gen/gen_resetn/include/resetn_tree.svg",
-    "de/platform_clk_resetn_gen/gen_resetn/gen_resetn.md",
     "Pasted image 20251023151127.png",
     "de/platform_clk_resetn_gen/gen_resetn/books/AN4053.pdf",
     "de/platform_clk_resetn_gen/gen_resetn/books/Unconfirmed 580003.crdownload",
