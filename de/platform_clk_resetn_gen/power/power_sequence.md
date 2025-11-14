@@ -2,29 +2,18 @@
 
 - ref: [[Low Power Methodology Manual For System-on-Chip Design.pdf#page=115|Low Power Methodology Manual For System-on-Chip Design, p.115]]
 - ref: [[Low Power Methodology Manual For System-on-Chip Design.pdf#page=71|Low Power Methodology Manual For System-on-Chip Design, p.71]]
+- PS: hw deep / light sleep mode power up sequence 就是反過來操作
 - hw deep sleep mode power down sequence
 	- at active status
 	- at wait status
 	- clock
-		- when power down, disable clock
-		- when power up, enable clock
 	- iso_en
-		- when power down, assert iso_en
-		- when power up, deassert iso_en
 	- ret_en (retention)
-		- when power down, assert ret_en
-		- when power up, deassert ret_en
 	- resetn
-		- when power down, assert resetn
-		- when power up , deassert resetn
 	- power
-		- when power down, assert power-gate signal
-		- when power up, deassert power-gate signal
 	- at deep sleep status
-	- PS: hw deep sleep mode power up sequence 就是反過來操作
 - hw light sleep mode power down sequence
 	- at active status
 	- at wait status
-	- disable clock
+	- clock
 	- at deep sleep status
-	- PS: hw light sleep mode power up sequence 就是反過來操作
