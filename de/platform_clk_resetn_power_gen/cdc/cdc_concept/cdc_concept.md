@@ -10,7 +10,7 @@
 		- 改善 MTBF
 	- receiver control path input 必須有 syncer
 		- 解決 metastable state
-	- receiver control path input 如果是 level 信號, 必須轉成 pulse 信號
+	- receiver control path input 如果是 pulse 信號, 必須轉成 level 信號
 	- receiver control path input 的 syncer 必須是 2 stages 以上
 # cdc_without_clk
 
@@ -32,5 +32,5 @@
 
 # cdc_with_clk
 
-#TODO
-
+- pulse signal to level signal then level signal to pulse signal
+- ![[Pasted image 20251115202803.png]]
