@@ -4,8 +4,8 @@
 - CDC 設計原則遵守
 	- sender data path output 必須是 register
 		- data path 的 delay 必須小於 control path 的 delay
-		- APR: 因爲 control path input 必有 syncer, 所以 data path 必然比 control path 的 delay 小
-		- APR:
+		- APR前: 因爲 control path input 必有 syncer, 所以 data path 必然比 control path 的 delay 小
+		- APR後: datapath 和 cont
 	- sender control path output 必須是 register
 		- 改善 MTBF
 	- receiver control path input 必須有 syncer

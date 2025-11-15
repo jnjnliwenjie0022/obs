@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "de/platform_clk_resetn_power_gen/gen_resetn/gen_resetn.md",
+                "file": "de/platform_clk_resetn_power_gen/cdc.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "gen_resetn"
+              "title": "cdc"
             }
           }
         ]
@@ -198,6 +198,7 @@
   },
   "active": "cfefc17e5952c34d",
   "lastOpenFiles": [
+    "de/platform_clk_resetn_power_gen/gen_resetn/gen_resetn.md",
     "de/platform_clk_resetn_power_gen/metastable_state.md",
     "de/platform_clk_resetn_power_gen/gck/gck.md",
     "de/platform_clk_resetn_power_gen/cdc.md",
@@ -232,7 +233,6 @@
     "de/platform_clk_resetn_power_gen/gen_resetn/include/resetn_arch.svg",
     "de/platform_clk_resetn_power_gen/gen_resetn/include/resetn_tree.svg",
     "de/platform_clk_resetn_power_gen/gen_resetn/include/power_on_reset_clock_sequence.svg",
-    "de/platform_clk_resetn_power_gen/gen_resetn/gen_resetn.md",
     "de/platform_clk_resetn_power_gen/gen_power/power_sequence/power_sequence.md",
     "de/platform_clk_resetn_power_gen/gen_power/power_gating/power_gating.md",
     "de/platform_clk_resetn_power_gen/gen_clk/include/clock_propagation.svg",
