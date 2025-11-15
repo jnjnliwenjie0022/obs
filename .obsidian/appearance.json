@@ -1,11 +1,14 @@
 {
   "accentColor": "",
-  "baseFontSize": 24,
+  "baseFontSize": 20,
   "translucency": false,
   "theme": "moonstone",
   "cssTheme": "",
   "showViewHeader": false,
   "nativeMenus": false,
   "baseFontSizeAction": true,
-  "showRibbon": false
+  "showRibbon": false,
+  "textFontFamily": "Cascadia Mono",
+  "interfaceFontFamily": "Cascadia Mono",
+  "monospaceFontFamily": "Cascadia Mono"
 }
