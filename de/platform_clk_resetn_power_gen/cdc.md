@@ -1,4 +1,12 @@
-# handshake
+# concept
+
+- ref: https://hackmd.io/@TRChen/S1DOZOOS6
+- CDC 設計原則遵守
+	- data path output 必須是 register
+	- control path output 必須是 register
+	- control path input 必須是 syncer
+	- syncer 必須是 2 stages 以上
+# cdc_without_clk
 
 - ref: https://aijishu.com/a/1060000000200711
 - 4 phase handshake
@@ -16,7 +24,7 @@
 	- livelock
 		- sender 和 receiver 要確切執行 handshake, 以 valid-ready handshake 爲例子, sender 和 receiver 都必須確實出現 valid == 1 && ready == 1
 
+# cdc_with_clk
 
 #TODO
 
-ref: https://hackmd.io/@TRChen/S1DOZOOS6

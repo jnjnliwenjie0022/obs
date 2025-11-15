@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "de/platform_clk_resetn_power_gen/cdc_wihtout_clk.md",
+                "file": "de/platform_clk_resetn_power_gen/cdc.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "cdc_wihtout_clk"
+              "title": "cdc"
             }
           }
         ]
@@ -197,8 +197,9 @@
   },
   "active": "cfefc17e5952c34d",
   "lastOpenFiles": [
-    "de/platform_clk_resetn_power_gen/cdc_with_clk.md",
     "de/platform_clk_resetn_power_gen/domain_cross.md",
+    "de/platform_clk_resetn_power_gen/cdc.md",
+    "de/platform_clk_resetn_power_gen/cdc_with_clk.md",
     "de/platform_clk_resetn_power_gen/metastable_state.md",
     "de/power/genus/genus.md",
     "de/power/sdpd/power.md",
@@ -235,7 +236,6 @@
     "de/platform_clk_resetn_power_gen/gen_clk/include/clock_propagation.svg",
     "de/platform_clk_resetn_power_gen/gen_clk/gen_clk.md",
     "de/platform_clk_resetn_power_gen/gck/gck.md",
-    "de/platform_clk_resetn_power_gen/cdc_wihtout_clk.md",
     "de/platform_clk_resetn_power_gen/cdc/clk_gen/clk_gen.md",
     "de/platform_clk_resetn_power_gen/cdc/cdc_design/cdc_design.md",
     "workflow/tnv.md",
