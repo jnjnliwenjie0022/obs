@@ -2,10 +2,16 @@
 
 - ref: https://hackmd.io/@TRChen/S1DOZOOS6
 - CDC 設計原則遵守
-	- data path output 必須是 register
-	- control path output 必須是 register
-	- control path input 必須是 syncer
-	- syncer 必須是 2 stages 以上
+	- sender data path output 必須是 register
+		- data path 的 delay 必須小於 control path 的 delay
+		- APR: 因爲 control path input 必有 syncer, 所以 data path 必然比 control path 的 delay 小
+		- APR:
+	- sender control path output 必須是 register
+		- 改善 MTBF
+	- receiver control path input 必須有 syncer
+		- 解決 metastable state
+	- receiver control path input 如果是 level 信號, 必須轉成 pulse 信號
+	- receiver control path input 的 syncer 必須是 2 stages 以上
 # cdc_without_clk
 
 - ref: https://aijishu.com/a/1060000000200711
