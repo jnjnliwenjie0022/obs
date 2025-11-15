@@ -11,10 +11,15 @@
             "id": "cfefc17e5952c34d",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "de/platform_clk_resetn_power_gen/cdc_wihtout_clk.md",
+                "mode": "preview",
+                "source": false,
+                "backlinks": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "cdc_wihtout_clk"
             }
           }
         ]
@@ -192,6 +197,17 @@
   },
   "active": "cfefc17e5952c34d",
   "lastOpenFiles": [
+    "de/platform_clk_resetn_power_gen/cdc_with_clk.md",
+    "de/platform_clk_resetn_power_gen/domain_cross.md",
+    "de/platform_clk_resetn_power_gen/metastable_state.md",
+    "de/power/genus/genus.md",
+    "de/power/sdpd/power.md",
+    "de/power/sdpd/sdpd.md",
+    "de/arithmetic/divider.md",
+    "de/design_spec/rule.md",
+    "de/design_spec/verilog.md",
+    "de/fifo/fifo.md",
+    "language/word/~$w Microsoft Word Document.docx",
     "resume/CORP-25-071_備忘錄-李文傑.pdf",
     "workflow/git/git.md",
     "de/platform_clk_resetn_power_gen/rdc/books/Techniques to identify reset metastability issues due to soft resets.pdf",
@@ -203,7 +219,6 @@
     "de/platform_clk_resetn_power_gen/platform/platform.md",
     "de/platform_clk_resetn_power_gen/platform/include",
     "de/platform_clk_resetn_power_gen/platform",
-    "de/platform_clk_resetn_power_gen/metastable_state.md",
     "de/platform_clk_resetn_power_gen/gen_resetn/ref/rst_sync.v",
     "de/platform_clk_resetn_power_gen/gen_resetn/ref/nds_rst_sync.v",
     "de/platform_clk_resetn_power_gen/gen_resetn/include/reset_property.svg",
@@ -214,15 +229,12 @@
     "de/platform_clk_resetn_power_gen/gen_resetn/include/resetn_arch.svg",
     "de/platform_clk_resetn_power_gen/gen_resetn/include/resetn_tree.svg",
     "de/platform_clk_resetn_power_gen/gen_resetn/include/power_on_reset_clock_sequence.svg",
-    "de/platform_clk_resetn_power_gen/gen_resetn/books/Measurement of De-assertion Threshold of Power-on-Reset Circuits.pdf",
     "de/platform_clk_resetn_power_gen/gen_resetn/gen_resetn.md",
     "de/platform_clk_resetn_power_gen/gen_power/power_sequence/power_sequence.md",
     "de/platform_clk_resetn_power_gen/gen_power/power_gating/power_gating.md",
     "de/platform_clk_resetn_power_gen/gen_clk/include/clock_propagation.svg",
     "de/platform_clk_resetn_power_gen/gen_clk/gen_clk.md",
     "de/platform_clk_resetn_power_gen/gck/gck.md",
-    "de/platform_clk_resetn_power_gen/domain_cross.md",
-    "de/platform_clk_resetn_power_gen/cdc_with_clk.md",
     "de/platform_clk_resetn_power_gen/cdc_wihtout_clk.md",
     "de/platform_clk_resetn_power_gen/cdc/clk_gen/clk_gen.md",
     "de/platform_clk_resetn_power_gen/cdc/cdc_design/cdc_design.md",
@@ -230,12 +242,6 @@
     "workflow/rime.md",
     "workflow/weasel.md",
     "workflow/vcxsrv.md",
-    "README.md",
-    "workflow/capslock2ctrl.md",
-    "workflow/audacity.md",
-    "workflow/autohotkey/autohotkey.md",
-    "de/amba_pq/pq_channel.md",
-    "de/platform_clk_resetn_gen/platform/platform.md",
-    "de/platform_clk_resetn_gen/gen_resetn/gen_resetn.md"
+    "README.md"
   ]
 }
