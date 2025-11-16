@@ -49,14 +49,17 @@
 - ![[reset_clock_sequence.svg]]
 - 以上有是那種情景
 	- clk0: clk 啓動在 sync deassert reset 之後
+		- 適用於 aysnc reset 的架構
 	- clk1: clk 啓動在 async assert reset 與 sync deassert reset 之間
+		- 適用於 async / sync reset 的架構
 	- clk2: clk 啓動在 async assert reset 之前
-- clk0: 保證 async deassert reset 的時候 clk 穩定就行
-	- 這種模式通常發生在 clk 已經穩定了
-	- 通常需要搭配 clk_en
-- clk1: 保證 async deassert reset 的時候 clk 穩定就行
-- clk2: 保證 async deassert reset 的時候 clk 穩定就行
-- 在 simulation 的時候不建議這個行爲, 因爲這個行爲的定義不明確
+		- 目前沒有遇到過
+# reset_property
+
+- rtl 終究是描述語言, reset 的實際硬體行爲與 rtl 描述不符合
+	- 只要有 power, 只要在 reset assert 與 reset deassert 之間, Q port 必定是 reset status 的數值, 即使沒有 clock, 沒有 D port
+	- ![[reset_property.svg]]
+- systemverilog 的描述有不確定的因素, simulation的時候不建議以下行爲
 	- ![[power_on_reset_clock_sequence.svg]]
 ```verilog
 always @ (negedge start) flag <= start;
@@ -69,11 +72,6 @@ always @ (negedge start) flag <= start;
 ```
 - ![[Pasted image 20251022161939.png]]
 
-# reset_property
-
-- rtl 終究是描述語言, reset 的實際硬體行爲與 rtl 描述不符合
-	- 只要有 power, 只要在 reset assert 與 reset deassert 之間, Q port 必定是 reset status 的數值, 即使沒有 clock, 沒有 D port
-	- ![[reset_property.svg]]
 # aopd_power_on_sequence
 
 - aopd-power-on reset 基於 RC 完成 , deassert 是 async
