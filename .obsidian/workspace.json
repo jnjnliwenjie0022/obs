@@ -21,21 +21,8 @@
               "icon": "lucide-file",
               "title": "pq_channel"
             }
-          },
-          {
-            "id": "a36882f7b2026da1",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "de/amba_pq/include/ppu.svg"
-              },
-              "icon": "lucide-image",
-              "title": "ppu"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -208,8 +195,9 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "a36882f7b2026da1",
+  "active": "1bfbd8cb344b7c8a",
   "lastOpenFiles": [
+    "de/amba_pq/include/ppu.svg",
     "de/amba_pq/pq_channel.md",
     "de/platform_clk_resetn_power_gen/gen_power/power_sequence/power_sequence.md",
     "de/platform_clk_resetn_power_gen/gen_resetn/gen_resetn.md",
@@ -250,11 +238,9 @@
     "de/platform_clk_resetn_power_gen/gen_resetn/include/reset_anti_metastability.svg",
     "de/platform_clk_resetn_power_gen/gen_resetn/include/resetn_arch.svg",
     "de/platform_clk_resetn_power_gen/gen_resetn/include/resetn_tree.svg",
-    "de/platform_clk_resetn_power_gen/gen_resetn/include/power_on_reset_clock_sequence.svg",
     "de/platform_clk_resetn_power_gen/gen_power/power_gating/power_gating.md",
     "workflow/tnv.md",
     "workflow/rime.md",
-    "workflow/weasel.md",
-    "workflow/vcxsrv.md"
+    "workflow/weasel.md"
   ]
 }
