@@ -26,16 +26,15 @@
             "id": "7a661f65f850302f",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "de/amba_pq/ref/IHI0068D_amba_low_power_interface_spec.pdf",
-                "page": 18,
-                "left": 136,
-                "top": 479,
-                "zoom": 3.3
+                "file": "de/platform_clk_resetn_power_gen/gck/gck.md",
+                "mode": "preview",
+                "source": false,
+                "backlinks": false
               },
-              "icon": "lucide-file-text",
-              "title": "IHI0068D_amba_low_power_interface_spec"
+              "icon": "lucide-file",
+              "title": "gck"
             }
           }
         ],
@@ -96,8 +95,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 481.5,
-    "collapsed": true
+    "width": 481.5
   },
   "right": {
     "id": "baf9c43aba40b294",
@@ -161,13 +159,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "de/amba_pq/ref/IHI0068D_amba_low_power_interface_spec.pdf",
+                "file": "de/platform_clk_resetn_power_gen/gck/gck.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of IHI0068D_amba_low_power_interface_spec"
+              "title": "Outline of gck"
             }
           },
           {
@@ -215,6 +213,10 @@
   },
   "active": "7a661f65f850302f",
   "lastOpenFiles": [
+    "de/power/sdpd/sdpd.md",
+    "de/power/genus/genus.md",
+    "de/power/sdpd/power.md",
+    "de/power/reg/reg.svg",
     "de/amba_pq/ref/IHI0068D_amba_low_power_interface_spec.pdf",
     "de/amba_pq/include/ppu.svg",
     "de/amba_pq/pq_channel.md",
@@ -238,19 +240,15 @@
     "de/ppa/upf.md",
     "de/platform_clk_resetn_power_gen/cdc/clk_gen/book",
     "de/platform_clk_resetn_power_gen/gen_power/low_power_design.md",
-    "de/power/sdpd/power.md",
     "de/platform_clk_resetn_power_gen/cdc/cdc_design/cdc_design.md",
     "de/design_spec/lint_rule.md",
     "de/ppa/evaluation.md",
     "de/ppa/spyglass.md",
     "de/ppa/timing.md",
-    "de/power/genus/genus.md",
-    "de/power/sdpd/sdpd.md",
     "de/platform_clk_resetn_power_gen/gen_power/power_gating/power_gating.md",
     "de/platform_clk_resetn_power_gen/gen_power/power_gating",
     "de/platform_clk_resetn_power_gen/gen_power/power_sequence",
     "de/platform_clk_resetn_power_gen/cdc_wihtout_clk.md",
-    "de/platform_clk_resetn_gen/power/ref/Power Control Sequencing.pdf",
     "de/platform_clk_resetn_power_gen/gck/gck.md",
     "de/platform_clk_resetn_power_gen/cdc_with_clk.md",
     "de/platform_clk_resetn_power_gen/domain_cross.md",
@@ -259,7 +257,6 @@
     "de/power/hw_power_sequence.md",
     "de/power/reg/reg.md",
     "de/platform_clk_resetn_power_gen/gen_resetn/include/reset_anti_metastability.svg",
-    "Pasted image 20251023151127.png",
-    "Pasted image 20251022161939.png"
+    "Pasted image 20251023151127.png"
   ]
 }
