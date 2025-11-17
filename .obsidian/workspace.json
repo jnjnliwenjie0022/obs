@@ -26,16 +26,15 @@
             "id": "7a661f65f850302f",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "de/amba_pq/ref/IHI0068D_amba_low_power_interface_spec.pdf",
-                "page": 18,
-                "left": -9,
-                "top": 495,
-                "zoom": 1.9096638655462186
+                "file": "de/platform_clk_resetn_power_gen/platform/platform.md",
+                "mode": "preview",
+                "source": false,
+                "backlinks": false
               },
-              "icon": "lucide-file-text",
-              "title": "IHI0068D_amba_low_power_interface_spec"
+              "icon": "lucide-file",
+              "title": "platform"
             }
           }
         ],
@@ -160,13 +159,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "de/amba_pq/ref/IHI0068D_amba_low_power_interface_spec.pdf",
+                "file": "de/platform_clk_resetn_power_gen/platform/platform.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of IHI0068D_amba_low_power_interface_spec"
+              "title": "Outline of platform"
             }
           },
           {
@@ -212,10 +211,12 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "7a661f65f850302f",
+  "active": "35a470a2c390e07e",
   "lastOpenFiles": [
-    "de/amba_pq/pq_channel.md",
+    "de/platform_clk_resetn_power_gen/platform/Untitled",
     "de/amba_pq/ref/IHI0068D_amba_low_power_interface_spec.pdf",
+    "de/amba_pq/include/ppu.svg",
+    "de/amba_pq/pq_channel.md",
     "de/design_spec/fast_design.md",
     "de/design_spec/fctrl.md",
     "de/design_spec/lint_rule.md",
@@ -230,7 +231,6 @@
     "de/power/genus/genus.md",
     "de/power/sdpd/power.md",
     "de/power/reg/reg.svg",
-    "de/amba_pq/include/ppu.svg",
     "de/platform_clk_resetn_power_gen/gen_power/power_sequence/power_sequence.md",
     "de/platform_clk_resetn_power_gen/rdc/rdc.md",
     "de/platform_clk_resetn_power_gen/platform/platform.md",
