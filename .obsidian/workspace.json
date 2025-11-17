@@ -30,8 +30,8 @@
               "state": {
                 "file": "de/amba_pq/ref/IHI0068D_amba_low_power_interface_spec.pdf",
                 "page": 18,
-                "left": -8,
-                "top": 487,
+                "left": -9,
+                "top": 495,
                 "zoom": 1.9096638655462186
               },
               "icon": "lucide-file-text",
@@ -215,6 +215,7 @@
   "active": "7a661f65f850302f",
   "lastOpenFiles": [
     "de/amba_pq/pq_channel.md",
+    "de/amba_pq/ref/IHI0068D_amba_low_power_interface_spec.pdf",
     "de/design_spec/fast_design.md",
     "de/design_spec/fctrl.md",
     "de/design_spec/lint_rule.md",
@@ -229,7 +230,6 @@
     "de/power/genus/genus.md",
     "de/power/sdpd/power.md",
     "de/power/reg/reg.svg",
-    "de/amba_pq/ref/IHI0068D_amba_low_power_interface_spec.pdf",
     "de/amba_pq/include/ppu.svg",
     "de/platform_clk_resetn_power_gen/gen_power/power_sequence/power_sequence.md",
     "de/platform_clk_resetn_power_gen/rdc/rdc.md",
@@ -256,7 +256,6 @@
     "de/platform_clk_resetn_power_gen/cdc_wihtout_clk.md",
     "de/platform_clk_resetn_power_gen/cdc_with_clk.md",
     "de/platform_clk_resetn_power_gen/domain_cross.md",
-    "de/platform_clk_resetn_power_gen/metastable_state.md",
     "de/platform_clk_resetn_power_gen/platform/include/gen.svg",
     "de/platform_clk_resetn_power_gen/gen_resetn/include/reset_anti_metastability.svg",
     "Pasted image 20251023151127.png"
