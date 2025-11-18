@@ -4,39 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "16252f818e3ebb7c",
+        "id": "f7335556bbcc9482",
         "type": "tabs",
         "children": [
           {
-            "id": "b18a05ea569f2d80",
+            "id": "466eed5461bc0290",
             "type": "leaf",
             "state": {
-              "type": "pdf",
-              "state": {
-                "file": "de/platform_clk_resetn_power_gen/platform/arm_solution/ref/LOW_POWER_DESIGN_IN_SOC_USING_ARM IP.pdf",
-                "page": 14,
-                "left": -9,
-                "top": 690,
-                "zoom": 1.9096638655462186
-              },
-              "icon": "lucide-file-text",
-              "title": "LOW_POWER_DESIGN_IN_SOC_USING_ARM IP"
-            }
-          },
-          {
-            "id": "7a661f65f850302f",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "de/platform_clk_resetn_power_gen/platform/arm_solution/ref/LOW_POWER_DESIGN_IN_SOC_USING_ARM IP.pdf",
-                "page": 14,
-                "left": -9,
-                "top": 686,
-                "zoom": 1.9096638655462186
-              },
-              "icon": "lucide-file-text",
-              "title": "LOW_POWER_DESIGN_IN_SOC_USING_ARM IP"
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
             }
           }
         ]
@@ -160,13 +138,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "de/platform_clk_resetn_power_gen/platform/arm_solution/ref/LOW_POWER_DESIGN_IN_SOC_USING_ARM IP.pdf",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of LOW_POWER_DESIGN_IN_SOC_USING_ARM IP"
+              "title": "Outline"
             }
           },
           {
@@ -212,11 +189,11 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "b18a05ea569f2d80",
+  "active": "466eed5461bc0290",
   "lastOpenFiles": [
+    "de/platform_clk_resetn_power_gen/platform/arm_solution/ref/LOW_POWER_DESIGN_IN_SOC_USING_ARM IP.pdf",
     "de/platform_clk_resetn_power_gen/platform/concept/concept.md",
     "de/platform_clk_resetn_power_gen/platform/andes_solution/include/gen.svg",
-    "de/platform_clk_resetn_power_gen/platform/arm_solution/ref/LOW_POWER_DESIGN_IN_SOC_USING_ARM IP.pdf",
     "de/platform_clk_resetn_power_gen/platform/andes_solution",
     "de/ppa/upf.md",
     "de/platform_clk_resetn_power_gen/platform/concept",
