@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "de/ppa/upf.md",
+                "file": "de/platform_clk_resetn_power_gen/platform/concept/concept.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "upf"
+              "title": "concept"
             }
           },
           {
@@ -29,17 +29,16 @@
               "type": "pdf",
               "state": {
                 "file": "de/platform_clk_resetn_power_gen/platform/arm_solution/ref/LOW_POWER_DESIGN_IN_SOC_USING_ARM IP.pdf",
-                "page": 2,
+                "page": 14,
                 "left": -7,
-                "top": 416,
+                "top": 682,
                 "zoom": 2.515966386554622
               },
               "icon": "lucide-file-text",
               "title": "LOW_POWER_DESIGN_IN_SOC_USING_ARM IP"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -96,8 +95,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 481.5,
-    "collapsed": true
+    "width": 481.5
   },
   "right": {
     "id": "baf9c43aba40b294",
@@ -161,13 +159,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "de/platform_clk_resetn_power_gen/platform/arm_solution/ref/LOW_POWER_DESIGN_IN_SOC_USING_ARM IP.pdf",
+                "file": "de/platform_clk_resetn_power_gen/platform/concept/concept.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of LOW_POWER_DESIGN_IN_SOC_USING_ARM IP"
+              "title": "Outline of concept"
             }
           },
           {
@@ -213,11 +211,14 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "7a661f65f850302f",
+  "active": "b18a05ea569f2d80",
   "lastOpenFiles": [
-    "de/platform_clk_resetn_power_gen/platform/concept/concept.md",
-    "de/platform_clk_resetn_power_gen/platform/concept",
     "de/platform_clk_resetn_power_gen/platform/arm_solution/ref/LOW_POWER_DESIGN_IN_SOC_USING_ARM IP.pdf",
+    "de/platform_clk_resetn_power_gen/platform/andes_solution",
+    "de/platform_clk_resetn_power_gen/platform/andes_solution/include/gen.svg",
+    "de/platform_clk_resetn_power_gen/platform/concept/concept.md",
+    "de/ppa/upf.md",
+    "de/platform_clk_resetn_power_gen/platform/concept",
     "de/platform_clk_resetn_power_gen/platform/arm_solution/ref",
     "de/platform_clk_resetn_power_gen/platform/arm_solution",
     "de/amba_pq/ref/IHI0068D_amba_low_power_interface_spec.pdf",
@@ -247,7 +248,6 @@
     "de/platform_clk_resetn_power_gen/gen_power/power_sequence/ref/Low Power Methodology Manual For System-on-Chip Design.pdf",
     "de/platform_clk_resetn_power_gen/gen_clk/book/基于 BUFGMUX 与 DCM 的 FPGA 时钟电路设计.pdf",
     "de/platform_clk_resetn_power_gen/gen_clk/gen_clk.md",
-    "de/ppa/upf.md",
     "de/platform_clk_resetn_power_gen/gen_power/low_power_design.md",
     "de/platform_clk_resetn_power_gen/cdc/cdc_design/cdc_design.md",
     "de/ppa/evaluation.md",
@@ -257,7 +257,6 @@
     "de/platform_clk_resetn_power_gen/cdc_wihtout_clk.md",
     "de/platform_clk_resetn_power_gen/cdc_with_clk.md",
     "de/platform_clk_resetn_power_gen/domain_cross.md",
-    "de/platform_clk_resetn_power_gen/platform/concept/include/gen.svg",
     "de/platform_clk_resetn_power_gen/gen_resetn/include/reset_anti_metastability.svg",
     "Pasted image 20251023151127.png"
   ]
