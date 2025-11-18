@@ -13,14 +13,14 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "de/amba_pq/ref/IHI0068D_amba_low_power_interface_spec.pdf",
-                "page": 19,
-                "left": -6,
-                "top": 743,
-                "zoom": 2.5159663865546222
+                "file": "de/platform_clk_resetn_power_gen/platform/arm_solution/ref/LOW_POWER_DESIGN_IN_SOC_USING_ARM IP.pdf",
+                "page": 14,
+                "left": -9,
+                "top": 690,
+                "zoom": 1.9096638655462186
               },
               "icon": "lucide-file-text",
-              "title": "IHI0068D_amba_low_power_interface_spec"
+              "title": "LOW_POWER_DESIGN_IN_SOC_USING_ARM IP"
             }
           }
         ]
@@ -80,8 +80,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 481.5,
-    "collapsed": true
+    "width": 481.5
   },
   "right": {
     "id": "baf9c43aba40b294",
