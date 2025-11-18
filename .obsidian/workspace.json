@@ -11,15 +11,16 @@
             "id": "873d10d7e54bb1d0",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "de/amba_pq/pq_channel.md",
-                "mode": "preview",
-                "source": false,
-                "backlinks": false
+                "file": "de/platform_clk_resetn_power_gen/platform/arm_solution/ref/LOW_POWER_DESIGN_IN_SOC_USING_ARM IP.pdf",
+                "page": 4,
+                "left": -8,
+                "top": 88,
+                "zoom": 1.9096638655462186
               },
-              "icon": "lucide-file",
-              "title": "pq_channel"
+              "icon": "lucide-file-text",
+              "title": "LOW_POWER_DESIGN_IN_SOC_USING_ARM IP"
             }
           },
           {
@@ -29,17 +30,16 @@
               "type": "pdf",
               "state": {
                 "file": "de/platform_clk_resetn_power_gen/platform/arm_solution/ref/LOW_POWER_DESIGN_IN_SOC_USING_ARM IP.pdf",
-                "page": 5,
+                "page": 4,
                 "left": -7,
-                "top": 346,
+                "top": 84,
                 "zoom": 2.515966386554622
               },
               "icon": "lucide-file-text",
               "title": "LOW_POWER_DESIGN_IN_SOC_USING_ARM IP"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -96,8 +96,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 481.5,
-    "collapsed": true
+    "width": 481.5
   },
   "right": {
     "id": "baf9c43aba40b294",
@@ -212,11 +211,11 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "bf4ed8b1c9eec093",
+  "active": "873d10d7e54bb1d0",
   "lastOpenFiles": [
     "de/amba_pq/pq_channel.md",
-    "de/amba_pq/ref/IHI0068D_amba_low_power_interface_spec.pdf",
     "de/platform_clk_resetn_power_gen/platform/arm_solution/ref/LOW_POWER_DESIGN_IN_SOC_USING_ARM IP.pdf",
+    "de/amba_pq/ref/IHI0068D_amba_low_power_interface_spec.pdf",
     "de/amba_pq/include/ppu.svg",
     "de/platform_clk_resetn_power_gen/platform/concept/concept.md",
     "de/platform_clk_resetn_power_gen/platform/andes_solution/include/gen.svg",
