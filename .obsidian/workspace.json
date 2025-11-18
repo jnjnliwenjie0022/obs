@@ -11,15 +11,16 @@
             "id": "b18a05ea569f2d80",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "de/platform_clk_resetn_power_gen/platform/concept/concept.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
+                "file": "de/platform_clk_resetn_power_gen/platform/arm_solution/ref/LOW_POWER_DESIGN_IN_SOC_USING_ARM IP.pdf",
+                "page": 14,
+                "left": -9,
+                "top": 690,
+                "zoom": 1.9096638655462186
               },
-              "icon": "lucide-file",
-              "title": "concept"
+              "icon": "lucide-file-text",
+              "title": "LOW_POWER_DESIGN_IN_SOC_USING_ARM IP"
             }
           },
           {
@@ -159,13 +160,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "de/platform_clk_resetn_power_gen/platform/concept/concept.md",
+                "file": "de/platform_clk_resetn_power_gen/platform/arm_solution/ref/LOW_POWER_DESIGN_IN_SOC_USING_ARM IP.pdf",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of concept"
+              "title": "Outline of LOW_POWER_DESIGN_IN_SOC_USING_ARM IP"
             }
           },
           {
@@ -213,9 +214,9 @@
   },
   "active": "b18a05ea569f2d80",
   "lastOpenFiles": [
+    "de/platform_clk_resetn_power_gen/platform/concept/concept.md",
     "de/platform_clk_resetn_power_gen/platform/andes_solution/include/gen.svg",
     "de/platform_clk_resetn_power_gen/platform/arm_solution/ref/LOW_POWER_DESIGN_IN_SOC_USING_ARM IP.pdf",
-    "de/platform_clk_resetn_power_gen/platform/concept/concept.md",
     "de/platform_clk_resetn_power_gen/platform/andes_solution",
     "de/ppa/upf.md",
     "de/platform_clk_resetn_power_gen/platform/concept",

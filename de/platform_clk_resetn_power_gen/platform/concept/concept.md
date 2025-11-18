@@ -9,6 +9,12 @@
 	- RSTGEN
 	- CLKGEN
 - Low_power_mode
-	- Normal
+	- Normal:
+		- power on
+		- clock on
 	- Light Sleep
+		- power on
+		- clock off
 	- Deep Sleep
+		- power off
+		- clock off
