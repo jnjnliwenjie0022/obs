@@ -11,10 +11,38 @@
             "id": "466eed5461bc0290",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
+              "type": "pdf",
+              "state": {
+                "file": "de/amba_pq/ref/IHI0068D_amba_low_power_interface_spec.pdf",
+                "page": 20,
+                "left": -12,
+                "top": 139,
+                "zoom": 1.2252100840336135
+              },
+              "icon": "lucide-file-text",
+              "title": "IHI0068D_amba_low_power_interface_spec"
+            }
+          }
+        ]
+      },
+      {
+        "id": "7c25bd8c8bcc2f8a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "873d10d7e54bb1d0",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "de/amba_pq/ref/IHI0068D_amba_low_power_interface_spec.pdf",
+                "page": 20,
+                "left": -12,
+                "top": 223,
+                "zoom": 1.2252100840336135
+              },
+              "icon": "lucide-file-text",
+              "title": "IHI0068D_amba_low_power_interface_spec"
             }
           }
         ]
@@ -74,7 +102,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 481.5
+    "width": 481.5,
+    "collapsed": true
   },
   "right": {
     "id": "baf9c43aba40b294",
@@ -189,8 +218,11 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "466eed5461bc0290",
+  "active": "873d10d7e54bb1d0",
   "lastOpenFiles": [
+    "de/amba_pq/ref/IHI0068D_amba_low_power_interface_spec.pdf",
+    "de/amba_pq/pq_channel.md",
+    "de/amba_pq/include/ppu.svg",
     "de/platform_clk_resetn_power_gen/platform/arm_solution/ref/LOW_POWER_DESIGN_IN_SOC_USING_ARM IP.pdf",
     "de/platform_clk_resetn_power_gen/platform/concept/concept.md",
     "de/platform_clk_resetn_power_gen/platform/andes_solution/include/gen.svg",
@@ -199,9 +231,6 @@
     "de/platform_clk_resetn_power_gen/platform/concept",
     "de/platform_clk_resetn_power_gen/platform/arm_solution/ref",
     "de/platform_clk_resetn_power_gen/platform/arm_solution",
-    "de/amba_pq/ref/IHI0068D_amba_low_power_interface_spec.pdf",
-    "de/amba_pq/include/ppu.svg",
-    "de/amba_pq/pq_channel.md",
     "de/design_spec/fast_design.md",
     "de/design_spec/fctrl.md",
     "de/design_spec/lint_rule.md",
