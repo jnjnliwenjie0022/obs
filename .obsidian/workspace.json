@@ -30,9 +30,9 @@
               "state": {
                 "file": "de/platform_clk_resetn_power_gen/platform/arm_solution/ref/LOW_POWER_DESIGN_IN_SOC_USING_ARM IP.pdf",
                 "page": 14,
-                "left": -7,
-                "top": 682,
-                "zoom": 2.515966386554622
+                "left": -9,
+                "top": 686,
+                "zoom": 1.9096638655462186
               },
               "icon": "lucide-file-text",
               "title": "LOW_POWER_DESIGN_IN_SOC_USING_ARM IP"
@@ -213,10 +213,10 @@
   },
   "active": "b18a05ea569f2d80",
   "lastOpenFiles": [
-    "de/platform_clk_resetn_power_gen/platform/arm_solution/ref/LOW_POWER_DESIGN_IN_SOC_USING_ARM IP.pdf",
-    "de/platform_clk_resetn_power_gen/platform/andes_solution",
     "de/platform_clk_resetn_power_gen/platform/andes_solution/include/gen.svg",
+    "de/platform_clk_resetn_power_gen/platform/arm_solution/ref/LOW_POWER_DESIGN_IN_SOC_USING_ARM IP.pdf",
     "de/platform_clk_resetn_power_gen/platform/concept/concept.md",
+    "de/platform_clk_resetn_power_gen/platform/andes_solution",
     "de/ppa/upf.md",
     "de/platform_clk_resetn_power_gen/platform/concept",
     "de/platform_clk_resetn_power_gen/platform/arm_solution/ref",
@@ -246,7 +246,6 @@
     "de/platform_clk_resetn_power_gen/cdc/cdc_concept/cdc_concept.md",
     "de/platform_clk_resetn_power_gen/cdc/cdc_concept",
     "de/platform_clk_resetn_power_gen/gen_power/power_sequence/ref/Low Power Methodology Manual For System-on-Chip Design.pdf",
-    "de/platform_clk_resetn_power_gen/gen_clk/book/基于 BUFGMUX 与 DCM 的 FPGA 时钟电路设计.pdf",
     "de/platform_clk_resetn_power_gen/gen_clk/gen_clk.md",
     "de/platform_clk_resetn_power_gen/gen_power/low_power_design.md",
     "de/platform_clk_resetn_power_gen/cdc/cdc_design/cdc_design.md",

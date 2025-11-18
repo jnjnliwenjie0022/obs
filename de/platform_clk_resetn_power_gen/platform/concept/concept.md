@@ -2,9 +2,13 @@
 - ref: https://zhuanlan.zhihu.com/p/161010994
 - ref: https://zhuanlan.zhihu.com/p/161194737
 - ref: https://zhuanlan.zhihu.com/p/161787237
-- always_on_power_domian
+- always_on_power_domain
 	- PMU
 	- RTC
 	- Watchdog
 	- RSTGEN
 	- CLKGEN
+- Low_power_mode
+	- Normal
+	- Light Sleep
+	- Deep Sleep
