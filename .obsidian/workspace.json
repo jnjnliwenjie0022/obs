@@ -4,28 +4,6 @@
     "type": "split",
     "children": [
       {
-        "id": "f7335556bbcc9482",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "466eed5461bc0290",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "de/amba_pq/ref/IHI0068D_amba_low_power_interface_spec.pdf",
-                "page": 20,
-                "left": -12,
-                "top": 139,
-                "zoom": 1.2252100840336135
-              },
-              "icon": "lucide-file-text",
-              "title": "IHI0068D_amba_low_power_interface_spec"
-            }
-          }
-        ]
-      },
-      {
         "id": "7c25bd8c8bcc2f8a",
         "type": "tabs",
         "children": [
@@ -36,10 +14,10 @@
               "type": "pdf",
               "state": {
                 "file": "de/amba_pq/ref/IHI0068D_amba_low_power_interface_spec.pdf",
-                "page": 20,
-                "left": -12,
-                "top": 223,
-                "zoom": 1.2252100840336135
+                "page": 19,
+                "left": -6,
+                "top": 743,
+                "zoom": 2.5159663865546222
               },
               "icon": "lucide-file-text",
               "title": "IHI0068D_amba_low_power_interface_spec"
