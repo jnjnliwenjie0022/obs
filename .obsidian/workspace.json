@@ -6,7 +6,7 @@
       {
         "id": "0cc74aff1fa29940",
         "type": "tabs",
-        "dimension": 54.541015625,
+        "dimension": 53.7109375,
         "children": [
           {
             "id": "60543bc324a30b18",
@@ -15,9 +15,9 @@
               "type": "pdf",
               "state": {
                 "file": "de/amba_pq/ref/IHI0068D_amba_low_power_interface_spec.pdf",
-                "page": 23,
+                "page": 20,
                 "left": 95,
-                "top": 644,
+                "top": 799,
                 "zoom": 1.8
               },
               "icon": "lucide-file-text",
@@ -29,7 +29,7 @@
       {
         "id": "7c25bd8c8bcc2f8a",
         "type": "tabs",
-        "dimension": 45.458984375,
+        "dimension": 46.2890625,
         "children": [
           {
             "id": "873d10d7e54bb1d0",
@@ -235,10 +235,10 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "bf4ed8b1c9eec093",
+  "active": "60543bc324a30b18",
   "lastOpenFiles": [
-    "de/amba_pq/ref/IHI0068D_amba_low_power_interface_spec.pdf",
     "de/amba_pq/pq_channel.md",
+    "de/amba_pq/ref/IHI0068D_amba_low_power_interface_spec.pdf",
     "de/platform_clk_resetn_power_gen/platform/arm_solution/ref/LOW_POWER_DESIGN_IN_SOC_USING_ARM IP.pdf",
     "de/amba_pq/include/ppu.svg",
     "de/platform_clk_resetn_power_gen/platform/concept/concept.md",
