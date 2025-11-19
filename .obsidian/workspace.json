@@ -196,6 +196,7 @@
   },
   "active": "266aefab38f209bc",
   "lastOpenFiles": [
+    "Pasted image 20251119143418.png",
     "Pasted image 20251119142044.png",
     "de/platform_clk_resetn_power_gen/platform/andes_solution/ref/Mpcore_power_flow/SMU/~$ATCSMU100 v0.7.pptx",
     "de/platform_clk_resetn_power_gen/platform/arm_solution/ref/LOW_POWER_DESIGN_IN_SOC_USING_ARM IP.pdf",
@@ -240,7 +241,6 @@
     "de/ppa/timing.md",
     "de/platform_clk_resetn_power_gen/cdc_wihtout_clk.md",
     "de/platform_clk_resetn_power_gen/cdc_with_clk.md",
-    "de/platform_clk_resetn_power_gen/gen_resetn/include/reset_anti_metastability.svg",
-    "Pasted image 20251023151127.png"
+    "de/platform_clk_resetn_power_gen/gen_resetn/include/reset_anti_metastability.svg"
   ]
 }

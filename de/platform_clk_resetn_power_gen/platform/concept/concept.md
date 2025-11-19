@@ -19,5 +19,4 @@
 		- power off
 		- clock off
 		- Need micro-second to wake up
-- - 
-- ![[Pasted image 20251119142044.png]]
+- ![[Pasted image 20251119143418.png]]
