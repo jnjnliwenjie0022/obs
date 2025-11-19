@@ -11,12 +11,16 @@
             "id": "873d10d7e54bb1d0",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "pdf",
               "state": {
-                "file": "de/platform_clk_resetn_power_gen/platform/andes_solution/include/gen.svg"
+                "file": "de/platform_clk_resetn_power_gen/platform/andes_solution/ref/Mpcore_power_flow/lec02-rocket.pdf",
+                "page": 11,
+                "left": -5,
+                "top": 8,
+                "zoom": 3.1315887386828725
               },
-              "icon": "lucide-image",
-              "title": "gen"
+              "icon": "lucide-file-text",
+              "title": "lec02-rocket"
             }
           },
           {
@@ -207,8 +211,10 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "35a470a2c390e07e",
+  "active": "873d10d7e54bb1d0",
   "lastOpenFiles": [
+    "de/platform_clk_resetn_power_gen/platform/andes_solution/ref/Mpcore_power_flow/~$Mpcore low power interface.pptx",
+    "de/platform_clk_resetn_power_gen/platform/andes_solution/include/gen.svg",
     "de/platform_clk_resetn_power_gen/platform/andes_solution/ref/SMU/Thumbs.db",
     "de/platform_clk_resetn_power_gen/platform/andes_solution/ref/SMU/RISCV_SBI_vs_ARM_PSCI_v9.pdf",
     "de/platform_clk_resetn_power_gen/platform/andes_solution/ref/SMU/Power_Control_Flow_190304.pdf",
@@ -219,11 +225,9 @@
     "de/platform_clk_resetn_power_gen/platform/andes_solution/ref/Mpcore_power_flow/SMU/Archive/Vicuna_AE350_SMU_design_spec_v4.pptx",
     "de/platform_clk_resetn_power_gen/platform/andes_solution/ref/Mpcore_power_flow/SMU/Archive/Vicuna_AE350_SMU_design_spec_v3.pptx",
     "de/platform_clk_resetn_power_gen/platform/andes_solution/ref/Mpcore_power_flow/SMU/Archive/Vicuna_AE350_SMU_design_spec_v2.pptx",
-    "de/platform_clk_resetn_power_gen/platform/andes_solution/ref/Mpcore_power_flow/SMU/Archive/Vicuna_AE350_SMU_design_spec_v1.pptx",
     "de/amba_pq/pq_channel.md",
     "de/amba_pq/include/ppu.svg",
     "de/platform_clk_resetn_power_gen/platform/concept/concept.md",
-    "de/platform_clk_resetn_power_gen/platform/andes_solution/include/gen.svg",
     "de/ppa/upf.md",
     "de/design_spec/fast_design.md",
     "de/design_spec/fctrl.md",
