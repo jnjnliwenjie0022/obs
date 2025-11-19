@@ -4,39 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "7c25bd8c8bcc2f8a",
+        "id": "51a186ab99dc8100",
         "type": "tabs",
         "children": [
           {
-            "id": "873d10d7e54bb1d0",
+            "id": "266aefab38f209bc",
             "type": "leaf",
             "state": {
-              "type": "pdf",
-              "state": {
-                "file": "de/platform_clk_resetn_power_gen/platform/andes_solution/ref/Mpcore_power_flow/lec02-rocket.pdf",
-                "page": 11,
-                "left": -5,
-                "top": 8,
-                "zoom": 3.1315887386828725
-              },
-              "icon": "lucide-file-text",
-              "title": "lec02-rocket"
-            }
-          },
-          {
-            "id": "bf4ed8b1c9eec093",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "de/platform_clk_resetn_power_gen/platform/arm_solution/ref/LOW_POWER_DESIGN_IN_SOC_USING_ARM IP.pdf",
-                "page": 4,
-                "left": -7,
-                "top": 84,
-                "zoom": 2.515966386554622
-              },
-              "icon": "lucide-file-text",
-              "title": "LOW_POWER_DESIGN_IN_SOC_USING_ARM IP"
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
             }
           }
         ]
@@ -211,20 +189,20 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "873d10d7e54bb1d0",
+  "active": "266aefab38f209bc",
   "lastOpenFiles": [
+    "de/platform_clk_resetn_power_gen/platform/arm_solution/ref/LOW_POWER_DESIGN_IN_SOC_USING_ARM IP.pdf",
+    "de/platform_clk_resetn_power_gen/platform/andes_solution/ref/Mpcore_power_flow/smp_low_power/Power management.pdf",
+    "de/platform_clk_resetn_power_gen/platform/andes_solution/ref/Mpcore_power_flow/SMU/~$CSMU100 Design Specification & Integration on AE350 v0.6.docx",
+    "de/platform_clk_resetn_power_gen/platform/andes_solution/ref/Mpcore_power_flow/smp_low_power/Power_Policy_Unit_Architecture_Specification_V_1_1_ARM_DEN_0051E.pdf",
+    "de/platform_clk_resetn_power_gen/platform/andes_solution/ref/Mpcore_power_flow/smp_low_power/Understanding_And_Using_SMP_Multicore_Processors_Anderson.pdf",
+    "de/platform_clk_resetn_power_gen/platform/andes_solution/ref/SMU/Power_Control_Flow_190304.pdf",
+    "de/platform_clk_resetn_power_gen/platform/andes_solution/ref/SMU/RISCV_SBI_vs_ARM_PSCI_v9.pdf",
+    "de/platform_clk_resetn_power_gen/platform/andes_solution/ref/SMU/~$Power Management Overview.pptx",
+    "de/platform_clk_resetn_power_gen/platform/andes_solution/ref/Mpcore_power_flow/lec02-rocket.pdf",
+    "de/platform_clk_resetn_power_gen/platform/andes_solution/ref/Mpcore_power_flow/~$vcmp_low_power_flow.pptx",
     "de/platform_clk_resetn_power_gen/platform/andes_solution/ref/Mpcore_power_flow/~$Mpcore low power interface.pptx",
     "de/platform_clk_resetn_power_gen/platform/andes_solution/include/gen.svg",
-    "de/platform_clk_resetn_power_gen/platform/andes_solution/ref/SMU/Thumbs.db",
-    "de/platform_clk_resetn_power_gen/platform/andes_solution/ref/SMU/RISCV_SBI_vs_ARM_PSCI_v9.pdf",
-    "de/platform_clk_resetn_power_gen/platform/andes_solution/ref/SMU/Power_Control_Flow_190304.pdf",
-    "de/platform_clk_resetn_power_gen/platform/andes_solution/ref/SMU/Power Management Overview.pptx",
-    "de/platform_clk_resetn_power_gen/platform/andes_solution/ref/SMU",
-    "de/platform_clk_resetn_power_gen/platform/andes_solution/ref/Mpcore_power_flow/SMU/Archive/~$Vicuna_AE350_SMU_design_spec_v5.pptx",
-    "de/platform_clk_resetn_power_gen/platform/andes_solution/ref/Mpcore_power_flow/SMU/Archive/Vicuna_AE350_SMU_design_spec_v5.pptx",
-    "de/platform_clk_resetn_power_gen/platform/andes_solution/ref/Mpcore_power_flow/SMU/Archive/Vicuna_AE350_SMU_design_spec_v4.pptx",
-    "de/platform_clk_resetn_power_gen/platform/andes_solution/ref/Mpcore_power_flow/SMU/Archive/Vicuna_AE350_SMU_design_spec_v3.pptx",
-    "de/platform_clk_resetn_power_gen/platform/andes_solution/ref/Mpcore_power_flow/SMU/Archive/Vicuna_AE350_SMU_design_spec_v2.pptx",
     "de/amba_pq/pq_channel.md",
     "de/amba_pq/include/ppu.svg",
     "de/platform_clk_resetn_power_gen/platform/concept/concept.md",
