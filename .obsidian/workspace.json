@@ -11,16 +11,15 @@
             "id": "266aefab38f209bc",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "de/platform_clk_resetn_power_gen/platform/andes_solution/ref/Mpcore_power_flow/smp_low_power/Power management.pdf",
-                "page": 1,
-                "left": -1,
-                "top": 166,
-                "zoom": 1.9064597315436242
+                "file": "de/platform_clk_resetn_power_gen/platform/concept/concept.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
               },
-              "icon": "lucide-file-text",
-              "title": "Power management"
+              "icon": "lucide-file",
+              "title": "concept"
             }
           }
         ]
@@ -80,7 +79,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 481.5
+    "width": 774.5
   },
   "right": {
     "id": "baf9c43aba40b294",
@@ -197,6 +196,8 @@
   },
   "active": "266aefab38f209bc",
   "lastOpenFiles": [
+    "de/platform_clk_resetn_power_gen/platform/andes_solution/ref/Mpcore_power_flow/smp_low_power/Power management.pdf",
+    "de/platform_clk_resetn_power_gen/platform/andes_solution/ref/Mpcore_power_flow/SMU/~$CSMU100 Design Specification & Integration on AE350 v0.7.docx",
     "de/platform_clk_resetn_power_gen/platform/andes_solution/ref/SMU/~$Power Management Overview.pptx",
     "de/platform_clk_resetn_power_gen/platform/andes_solution/ref/Mpcore_power_flow/lec02-rocket.pdf",
     "de/platform_clk_resetn_power_gen/platform/andes_solution/ref/Mpcore_power_flow/~$Mpcore low power interface.pptx",
@@ -212,8 +213,6 @@
     "de/platform_clk_resetn_power_gen/platform/andes_solution/ref/Mpcore_power_flow/SMU/~$CSMU100 Design Specification & Integration on AE350 v0.6.docx",
     "de/platform_clk_resetn_power_gen/platform/andes_solution/ref/Mpcore_power_flow/SMU/~$U Design Specification v0.4.docx",
     "de/platform_clk_resetn_power_gen/gen_power/power_gating/power_gating.md",
-    "de/platform_clk_resetn_power_gen/platform/andes_solution/ref/Mpcore_power_flow/smp_low_power/Power management.pdf",
-    "de/platform_clk_resetn_power_gen/platform/andes_solution/ref/Mpcore_power_flow/smp_low_power/Power_Policy_Unit_Architecture_Specification_V_1_1_ARM_DEN_0051E.pdf",
     "de/amba_pq/pq_channel.md",
     "de/amba_pq/include/ppu.svg",
     "de/ppa/upf.md",
