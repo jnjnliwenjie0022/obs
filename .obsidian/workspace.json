@@ -209,6 +209,7 @@
   },
   "active": "35a470a2c390e07e",
   "lastOpenFiles": [
+    "de/platform_clk_resetn_power_gen/platform/andes_solution/ref",
     "de/platform_clk_resetn_power_gen/platform/arm_solution/ref/LOW_POWER_DESIGN_IN_SOC_USING_ARM IP.pdf",
     "de/amba_pq/pq_channel.md",
     "de/amba_pq/ref/IHI0068D_amba_low_power_interface_spec.pdf",
