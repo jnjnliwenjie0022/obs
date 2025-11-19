@@ -11,10 +11,15 @@
             "id": "266aefab38f209bc",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "de/platform_clk_resetn_power_gen/platform/concept/concept.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "concept"
             }
           }
         ]

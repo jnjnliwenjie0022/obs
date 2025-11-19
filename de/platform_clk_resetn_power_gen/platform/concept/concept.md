@@ -18,3 +18,4 @@
 	- Deep Sleep
 		- power off
 		- clock off
+		- Need ms to wake up
