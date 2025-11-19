@@ -79,7 +79,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 774.5
+    "width": 450.5
   },
   "right": {
     "id": "baf9c43aba40b294",
@@ -196,6 +196,11 @@
   },
   "active": "266aefab38f209bc",
   "lastOpenFiles": [
+    "Pasted image 20251119142044.png",
+    "de/platform_clk_resetn_power_gen/platform/andes_solution/ref/Mpcore_power_flow/SMU/~$ATCSMU100 v0.7.pptx",
+    "de/platform_clk_resetn_power_gen/platform/arm_solution/ref/LOW_POWER_DESIGN_IN_SOC_USING_ARM IP.pdf",
+    "de/platform_clk_resetn_power_gen/platform/concept/concept.md",
+    "de/platform_clk_resetn_power_gen/gen_resetn/gen_resetn.md",
     "de/platform_clk_resetn_power_gen/platform/andes_solution/ref/Mpcore_power_flow/smp_low_power/Power management.pdf",
     "de/platform_clk_resetn_power_gen/platform/andes_solution/ref/Mpcore_power_flow/SMU/~$CSMU100 Design Specification & Integration on AE350 v0.7.docx",
     "de/platform_clk_resetn_power_gen/platform/andes_solution/ref/SMU/~$Power Management Overview.pptx",
@@ -203,15 +208,10 @@
     "de/platform_clk_resetn_power_gen/platform/andes_solution/ref/Mpcore_power_flow/~$Mpcore low power interface.pptx",
     "de/platform_clk_resetn_power_gen/platform/andes_solution/include/gen.svg",
     "de/platform_clk_resetn_power_gen/platform/andes_solution/ref/Mpcore_power_flow/SMU/~$ATCSMU100 v0.7(for SW).pptx",
-    "de/platform_clk_resetn_power_gen/platform/andes_solution/ref/Mpcore_power_flow/SMU/~$ATCSMU100 v0.7.pptx",
-    "de/platform_clk_resetn_power_gen/platform/arm_solution/ref/LOW_POWER_DESIGN_IN_SOC_USING_ARM IP.pdf",
-    "de/platform_clk_resetn_power_gen/platform/concept/concept.md",
     "de/platform_clk_resetn_power_gen/gen_power/power_sequence/ref/Low Power Methodology Manual For System-on-Chip Design.pdf",
     "de/platform_clk_resetn_power_gen/gen_power/power_sequence/power_sequence.md",
-    "de/platform_clk_resetn_power_gen/gen_resetn/gen_resetn.md",
     "de/platform_clk_resetn_power_gen/metastable_state.md",
     "de/platform_clk_resetn_power_gen/platform/andes_solution/ref/Mpcore_power_flow/SMU/~$CSMU100 Design Specification & Integration on AE350 v0.6.docx",
-    "de/platform_clk_resetn_power_gen/platform/andes_solution/ref/Mpcore_power_flow/SMU/~$U Design Specification v0.4.docx",
     "de/platform_clk_resetn_power_gen/gen_power/power_gating/power_gating.md",
     "de/amba_pq/pq_channel.md",
     "de/amba_pq/include/ppu.svg",
