@@ -11,15 +11,12 @@
             "id": "266aefab38f209bc",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "de/platform_clk_resetn_power_gen/platform/concept/concept.md",
-                "mode": "preview",
-                "source": false,
-                "backlinks": false
+                "file": "de/platform_clk_resetn_power_gen/platform/andes_solution/include/gen.svg"
               },
-              "icon": "lucide-file",
-              "title": "concept"
+              "icon": "lucide-image",
+              "title": "gen"
             }
           }
         ]
@@ -194,23 +191,23 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "266aefab38f209bc",
+  "active": "35a470a2c390e07e",
   "lastOpenFiles": [
+    "de/platform_clk_resetn_power_gen/platform/arm_solution/ref/LOW_POWER_DESIGN_IN_SOC_USING_ARM IP.pdf",
+    "de/platform_clk_resetn_power_gen/platform/concept/concept.md",
+    "de/platform_clk_resetn_power_gen/gen_power/power_sequence/ref/Low Power Methodology Manual For System-on-Chip Design.pdf",
+    "de/platform_clk_resetn_power_gen/gen_power/power_sequence/power_sequence.md",
+    "de/platform_clk_resetn_power_gen/gen_resetn/gen_resetn.md",
+    "de/platform_clk_resetn_power_gen/metastable_state.md",
     "de/platform_clk_resetn_power_gen/platform/andes_solution/ref/Mpcore_power_flow/SMU/~$CSMU100 Design Specification & Integration on AE350 v0.6.docx",
     "de/platform_clk_resetn_power_gen/platform/andes_solution/ref/Mpcore_power_flow/SMU/~$U Design Specification v0.4.docx",
     "de/platform_clk_resetn_power_gen/platform/andes_solution/ref/Mpcore_power_flow/SMU/~$ATCSMU100 v0.7.pptx",
-    "de/platform_clk_resetn_power_gen/gen_resetn/gen_resetn.md",
-    "de/platform_clk_resetn_power_gen/gen_power/power_sequence/ref/Low Power Methodology Manual For System-on-Chip Design.pdf",
     "de/platform_clk_resetn_power_gen/gen_power/power_gating/power_gating.md",
-    "de/platform_clk_resetn_power_gen/gen_power/power_sequence/power_sequence.md",
-    "de/platform_clk_resetn_power_gen/platform/arm_solution/ref/LOW_POWER_DESIGN_IN_SOC_USING_ARM IP.pdf",
-    "de/platform_clk_resetn_power_gen/platform/concept/concept.md",
     "de/platform_clk_resetn_power_gen/platform/andes_solution/ref/Mpcore_power_flow/smp_low_power/Power management.pdf",
     "de/platform_clk_resetn_power_gen/platform/andes_solution/ref/Mpcore_power_flow/smp_low_power/Power_Policy_Unit_Architecture_Specification_V_1_1_ARM_DEN_0051E.pdf",
     "de/platform_clk_resetn_power_gen/platform/andes_solution/ref/Mpcore_power_flow/smp_low_power/Understanding_And_Using_SMP_Multicore_Processors_Anderson.pdf",
     "de/platform_clk_resetn_power_gen/platform/andes_solution/ref/SMU/Power_Control_Flow_190304.pdf",
     "de/platform_clk_resetn_power_gen/platform/andes_solution/ref/SMU/RISCV_SBI_vs_ARM_PSCI_v9.pdf",
-    "de/platform_clk_resetn_power_gen/platform/andes_solution/ref/SMU/~$Power Management Overview.pptx",
     "de/platform_clk_resetn_power_gen/platform/andes_solution/include/gen.svg",
     "de/amba_pq/pq_channel.md",
     "de/amba_pq/include/ppu.svg",
@@ -239,7 +236,6 @@
     "de/ppa/timing.md",
     "de/platform_clk_resetn_power_gen/cdc_wihtout_clk.md",
     "de/platform_clk_resetn_power_gen/cdc_with_clk.md",
-    "de/platform_clk_resetn_power_gen/domain_cross.md",
     "de/platform_clk_resetn_power_gen/gen_resetn/include/reset_anti_metastability.svg",
     "Pasted image 20251023151127.png"
   ]
