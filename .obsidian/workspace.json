@@ -11,32 +11,15 @@
             "id": "266aefab38f209bc",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "de/platform_clk_resetn_power_gen/platform/arm_solution/ref/Power_Policy_Unit_Architecture_Specification_V_1_1_ARM_DEN_0051E.pdf",
-                "page": 62,
-                "left": -8,
-                "top": 730,
-                "zoom": 1.8767634018540909
+                "file": "de/platform_clk_resetn_power_gen/platform/arm_solution/arm_solution.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
               },
-              "icon": "lucide-file-text",
-              "title": "Power_Policy_Unit_Architecture_Specification_V_1_1_ARM_DEN_0051E"
-            }
-          },
-          {
-            "id": "3b993b52c232c00d",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "de/platform_clk_resetn_power_gen/platform/andes_solution/ref/Mpcore_power_flow/lec02-rocket.pdf",
-                "page": 13,
-                "left": -5,
-                "top": 260,
-                "zoom": 3.1956674521476707
-              },
-              "icon": "lucide-file-text",
-              "title": "lec02-rocket"
+              "icon": "lucide-file",
+              "title": "arm_solution"
             }
           }
         ]
@@ -213,20 +196,21 @@
   },
   "active": "266aefab38f209bc",
   "lastOpenFiles": [
+    "de/platform_clk_resetn_power_gen/platform/arm_solution/ref/Power_Policy_Unit_Architecture_Specification_V_1_1_ARM_DEN_0051E.pdf",
+    "de/platform_clk_resetn_power_gen/platform/arm_solution/ref/LOW_POWER_DESIGN_IN_SOC_USING_ARM IP.pdf",
+    "de/platform_clk_resetn_power_gen/platform/andes_solution/andes_solution.md",
+    "de/platform_clk_resetn_power_gen/platform/arm_solution/arm_solution.md",
+    "de/platform_clk_resetn_power_gen/platform/andes_solution/ref/Mpcore_power_flow/lec02-rocket.pdf",
+    "de/platform_clk_resetn_power_gen/platform/arm_solution/ref/arm_ethos-u85_npu_technical_reference_manual_102685_0000_05_en.pdf",
     "de/platform_clk_resetn_power_gen/platform/andes_solution/ref/Mpcore_power_flow/smp_low_power/Power_Policy_Unit_Architecture_Specification_V_1_1_ARM_DEN_0051E.pdf",
-    "de/platform_clk_resetn_power_gen/platform/arm_solution/ref/Power_Policy_Unit_Architecture_Specification_V_1_1_ARM_DEN_0051E.pdf",
     "de/platform_clk_resetn_power_gen/gen_power/power_gating/power_gating.md",
-    "de/platform_clk_resetn_power_gen/platform/arm_solution/ref/Power_Policy_Unit_Architecture_Specification_V_1_1_ARM_DEN_0051E.pdf",
     "de/platform_clk_resetn_power_gen/platform/andes_solution/ref/Mpcore_power_flow/smp_low_power/Understanding_And_Using_SMP_Multicore_Processors_Anderson.pdf",
     "de/platform_clk_resetn_power_gen/platform/andes_solution/ref/Mpcore_power_flow/smp_low_power/Power management.pdf",
     "de/platform_clk_resetn_power_gen/platform/andes_solution/include/gen.svg",
-    "de/platform_clk_resetn_power_gen/platform/andes_solution/andes_solution.md",
-    "de/platform_clk_resetn_power_gen/platform/andes_solution/ref/Mpcore_power_flow/lec02-rocket.pdf",
     "de/platform_clk_resetn_power_gen/platform/andes_solution/ref/Mpcore_power_flow/SMU/~$U Design Specification v0.4.docx",
     "de/platform_clk_resetn_power_gen/platform/andes_solution/ref/Mpcore_power_flow/~$Mpcore low power interface.pptx",
     "de/platform_clk_resetn_power_gen/platform/andes_solution/ref/SMU/Power_Control_Flow_190304.pdf",
     "de/platform_clk_resetn_power_gen/platform/andes_solution/ref/Mpcore_power_flow/~$vcmp_low_power_flow.pptx",
-    "de/platform_clk_resetn_power_gen/platform/andes_solution/ref/SMU/RISCV_SBI_vs_ARM_PSCI_v9.pdf",
     "de/amba_pq/pq_channel.md",
     "Pasted image 20251119143418.png",
     "Pasted image 20251119142044.png",
@@ -257,7 +241,6 @@
     "de/ppa/evaluation.md",
     "de/ppa/spyglass.md",
     "de/ppa/timing.md",
-    "de/platform_clk_resetn_power_gen/cdc_wihtout_clk.md",
-    "de/platform_clk_resetn_power_gen/cdc_with_clk.md"
+    "de/platform_clk_resetn_power_gen/cdc_wihtout_clk.md"
   ]
 }
