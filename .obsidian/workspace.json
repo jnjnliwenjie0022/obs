@@ -13,14 +13,14 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "de/amba_pq/ref/IHI0068D_amba_low_power_interface_spec.pdf",
-                "page": 18,
-                "left": -8,
-                "top": 676,
-                "zoom": 1.878151260504202
+                "file": "de/platform_clk_resetn_power_gen/platform/arm_solution/ref/arm_ethos-u85_npu_technical_reference_manual_102685_0000_05_en.pdf",
+                "page": 1,
+                "left": -9,
+                "top": 796,
+                "zoom": 1.8259803921568627
               },
               "icon": "lucide-file-text",
-              "title": "IHI0068D_amba_low_power_interface_spec"
+              "title": "arm_ethos-u85_npu_technical_reference_manual_102685_0000_05_en"
             }
           }
         ]
@@ -197,11 +197,12 @@
   },
   "active": "266aefab38f209bc",
   "lastOpenFiles": [
-    "de/amba_pq/pq_channel.md",
-    "de/platform_clk_resetn_power_gen/platform/arm_solution/ref/arm_ethos-u85_npu_technical_reference_manual_102685_0000_05_en.pdf",
     "de/platform_clk_resetn_power_gen/platform/arm_solution/ref/LOW_POWER_DESIGN_IN_SOC_USING_ARM IP.pdf",
     "de/platform_clk_resetn_power_gen/platform/arm_solution/ref/Power_Policy_Unit_Architecture_Specification_V_1_1_ARM_DEN_0051E.pdf",
     "de/platform_clk_resetn_power_gen/platform/arm_solution/arm_solution.md",
+    "de/amba_pq/ref/IHI0068D_amba_low_power_interface_spec.pdf",
+    "de/amba_pq/pq_channel.md",
+    "de/platform_clk_resetn_power_gen/platform/arm_solution/ref/arm_ethos-u85_npu_technical_reference_manual_102685_0000_05_en.pdf",
     "de/platform_clk_resetn_power_gen/platform/andes_solution/andes_solution.md",
     "de/platform_clk_resetn_power_gen/platform/andes_solution/ref/Mpcore_power_flow/lec02-rocket.pdf",
     "de/platform_clk_resetn_power_gen/platform/andes_solution/ref/Mpcore_power_flow/smp_low_power/Power_Policy_Unit_Architecture_Specification_V_1_1_ARM_DEN_0051E.pdf",
@@ -211,7 +212,6 @@
     "de/platform_clk_resetn_power_gen/platform/andes_solution/include/gen.svg",
     "de/platform_clk_resetn_power_gen/platform/andes_solution/ref/Mpcore_power_flow/SMU/~$U Design Specification v0.4.docx",
     "de/platform_clk_resetn_power_gen/platform/andes_solution/ref/Mpcore_power_flow/~$Mpcore low power interface.pptx",
-    "de/platform_clk_resetn_power_gen/platform/andes_solution/ref/SMU/Power_Control_Flow_190304.pdf",
     "Pasted image 20251119143418.png",
     "Pasted image 20251119142044.png",
     "de/platform_clk_resetn_power_gen/gen_resetn/gen_resetn.md",
