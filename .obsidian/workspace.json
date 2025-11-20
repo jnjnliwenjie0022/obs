@@ -4,22 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "27094d19900bf36b",
+        "id": "f2264ed5f54fc2bd",
         "type": "tabs",
         "children": [
           {
-            "id": "1bfbd8cb344b7c8a",
+            "id": "1f66194031d6f9c6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "de/amba_pq/pq_channel.md",
-                "mode": "source",
+                "file": "de/platform_clk_resetn_power_gen/platform/arm_solution/arm_solution.md",
+                "mode": "preview",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "pq_channel"
+              "title": "arm_solution"
             }
           }
         ]
@@ -54,7 +54,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "high_fan",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -79,7 +79,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 481.5
+    "width": 506.5
   },
   "right": {
     "id": "baf9c43aba40b294",
@@ -143,13 +143,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "workflow/git/git.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of git"
+              "title": "Outline"
             }
           },
           {
@@ -158,8 +157,8 @@
             "state": {
               "type": "git-history-view",
               "state": {},
-              "icon": "lucide-ghost",
-              "title": "git-history-view"
+              "icon": "history",
+              "title": "History"
             }
           },
           {
@@ -168,8 +167,8 @@
             "state": {
               "type": "git-view",
               "state": {},
-              "icon": "lucide-ghost",
-              "title": "git-view"
+              "icon": "git-pull-request",
+              "title": "Source Control"
             }
           }
         ],
@@ -182,6 +181,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "obsidian-git:Open Git source control": false,
       "bases:Create new base": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
@@ -189,59 +189,57 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "obsidian-git:Open Git source control": false,
       "pdf-plus:PDF++: Toggle auto-copy": false,
       "pdf-plus:PDF++: Toggle auto-focus": false,
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "35a470a2c390e07e",
+  "active": "1f66194031d6f9c6",
   "lastOpenFiles": [
+    "de/platform_clk_resetn_power_gen/platform/andes_solution/andes_solution.md",
+    "de/platform_clk_resetn_power_gen/platform/andes_solution/ref/SMU/Power_Control_Flow_190304.pdf",
+    "de/platform_clk_resetn_power_gen/platform/andes_solution/ref/Mpcore_power_flow/SMU/~$CSMU100 Design Specification & Integration on AE350 v0.7.docx",
+    "de/platform_clk_resetn_power_gen/platform/andes_solution/ref/SMU/~$Power Management Overview.pptx",
+    "de/platform_clk_resetn_power_gen/platform/andes_solution/ref/SMU/RISCV_SBI_vs_ARM_PSCI_v9.pdf",
+    "de/platform_clk_resetn_power_gen/platform/andes_solution/ref/Mpcore_power_flow/smp_low_power/Power management.pdf",
+    "de/platform_clk_resetn_power_gen/platform/andes_solution/ref/Mpcore_power_flow/smp_low_power/Power_Policy_Unit_Architecture_Specification_V_1_1_ARM_DEN_0051E.pdf",
+    "de/platform_clk_resetn_power_gen/platform/andes_solution/ref/Mpcore_power_flow/smp_low_power/Understanding_And_Using_SMP_Multicore_Processors_Anderson.pdf",
+    "de/platform_clk_resetn_power_gen/platform/andes_solution/ref/Mpcore_power_flow/SMU/~$U Design Specification v0.4.docx",
+    "de/platform_clk_resetn_power_gen/platform/andes_solution/include/gen.svg",
+    "de/platform_clk_resetn_power_gen/platform/arm_solution/arm_solution.md",
     "de/platform_clk_resetn_power_gen/platform/arm_solution/ref/arm_ethos-u85_npu_technical_reference_manual_102685_0000_05_en.pdf",
-    "de/platform_clk_resetn_power_gen/platform/arm_solution/ref/Power_Policy_Unit_Architecture_Specification_V_1_1_ARM_DEN_0051E.pdf",
-    "de/platform_clk_resetn_power_gen/platform/andes_solution/ref/Mpcore_power_flow/SMU/Archive/Vicuna_AE350_SMU_design_result_v1.pptx",
-    "de/platform_clk_resetn_power_gen/platform/andes_solution/ref/Mpcore_power_flow/SMU/Archive/~$Vicuna_AE350_SMU_design_spec_v5.pptx",
-    "de/platform_clk_resetn_power_gen/platform/andes_solution/ref/Mpcore_power_flow/SMU/Archive/Vicuna_AE350_SMU_design_spec_v5.pptx",
-    "de/platform_clk_resetn_power_gen/platform/andes_solution/ref/Mpcore_power_flow/SMU/Archive/Vicuna_AE350_SMU_design_spec_v4.pptx",
-    "de/platform_clk_resetn_power_gen/platform/andes_solution/ref/Mpcore_power_flow/SMU/Archive/Vicuna_AE350_SMU_design_spec_v3.pptx",
-    "de/platform_clk_resetn_power_gen/platform/andes_solution/ref/Mpcore_power_flow/SMU/Archive/Vicuna_AE350_SMU_design_spec_v2.pptx",
-    "de/platform_clk_resetn_power_gen/platform/andes_solution/ref/Mpcore_power_flow/SMU/Archive/Vicuna_AE350_SMU_design_spec_v1.pptx",
-    "de/platform_clk_resetn_power_gen/platform/andes_solution/ref/Mpcore_power_flow/SMU/Archive/Thumbs.db",
-    "de/platform_clk_resetn_power_gen/platform/andes_solution/ref/Mpcore_power_flow/SMU/Archive/Power_Control_flow.pptx",
+    "de/platform_clk_resetn_power_gen/platform/arm_solution/ref/LOW_POWER_DESIGN_IN_SOC_USING_ARM IP.pdf",
+    "de/amba_pq/pq_channel.md",
+    "de/platform_clk_resetn_power_gen/gen_power/power_gating/power_gating.md",
     "Pasted image 20251119143418.png",
     "Pasted image 20251119142044.png",
-    "de/platform_clk_resetn_power_gen/platform/concept/concept.md",
-    "de/platform_clk_resetn_power_gen/platform/andes_solution/include/gen.svg",
-    "de/amba_pq/include/ppu.svg",
-    "de/amba_pq/pq_channel.md",
-    "de/platform_clk_resetn_power_gen/gen_power/power_sequence/power_sequence.md",
     "de/platform_clk_resetn_power_gen/gen_resetn/gen_resetn.md",
-    "de/platform_clk_resetn_power_gen/gen_clk/gen_clk.md",
-    "de/platform_clk_resetn_power_gen/platform/platform.md",
-    "de/platform_clk_resetn_power_gen/cdc/cdc_concept/cdc_concept.md",
-    "de/platform_clk_resetn_power_gen/cdc/cdc_design/cdc_design.md",
-    "de/platform_clk_resetn_power_gen/cdc/cdc_concept/include/Pasted image 20251115202803.png",
+    "de/platform_clk_resetn_power_gen/gen_power/power_sequence/power_sequence.md",
     "de/platform_clk_resetn_power_gen/metastable_state.md",
-    "de/platform_clk_resetn_power_gen/domain_cross.md",
+    "de/amba_pq/include/ppu.svg",
+    "de/ppa/upf.md",
+    "de/design_spec/fast_design.md",
+    "de/design_spec/fctrl.md",
+    "de/design_spec/lint_rule.md",
+    "de/platform_clk_resetn_power_gen/gen_resetn/include/reset_property.svg",
+    "de/platform_clk_resetn_power_gen/gen_resetn/include/resetn_arch.svg",
+    "de/platform_clk_resetn_power_gen/gen_resetn/include/resetn_design.svg",
+    "de/platform_clk_resetn_power_gen/gen_resetn/include/resetn_tree.svg",
     "de/platform_clk_resetn_power_gen/cdc/clk_gen/clk_gen.md",
     "de/platform_clk_resetn_power_gen/gck/gck.md",
-    "de/platform_clk_resetn_power_gen/cdc_with_clk.md",
+    "de/power/sdpd/sdpd.md",
     "de/power/genus/genus.md",
     "de/power/sdpd/power.md",
-    "de/power/sdpd/sdpd.md",
-    "de/arithmetic/divider.md",
-    "de/design_spec/rule.md",
-    "de/design_spec/verilog.md",
-    "de/fifo/fifo.md",
-    "workflow/git/git.md",
+    "de/power/reg/reg.svg",
     "de/platform_clk_resetn_power_gen/rdc/rdc.md",
-    "de/platform_clk_resetn_power_gen/platform/include/gen.svg",
-    "de/platform_clk_resetn_power_gen/gen_resetn/include/reset_property.svg",
-    "de/platform_clk_resetn_power_gen/gen_resetn/include/reset_high_fanout.svg",
-    "de/platform_clk_resetn_power_gen/gen_resetn/include/reset_clock_sequence.svg",
-    "de/platform_clk_resetn_power_gen/gen_resetn/include/resetn_design.svg",
-    "de/platform_clk_resetn_power_gen/gen_power/power_gating/power_gating.md",
-    "workflow/tnv.md",
-    "workflow/rime.md"
+    "de/platform_clk_resetn_power_gen/cdc/cdc_concept/include/Pasted image 20251115202803.png",
+    "de/platform_clk_resetn_power_gen/cdc/cdc_concept/cdc_concept.md",
+    "de/platform_clk_resetn_power_gen/gen_clk/gen_clk.md",
+    "de/platform_clk_resetn_power_gen/gen_power/low_power_design.md",
+    "de/platform_clk_resetn_power_gen/cdc/cdc_design/cdc_design.md",
+    "de/ppa/evaluation.md",
+    "de/ppa/spyglass.md",
+    "de/ppa/timing.md",
+    "de/platform_clk_resetn_power_gen/cdc_wihtout_clk.md"
   ]
 }
