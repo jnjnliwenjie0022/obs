@@ -4,23 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "51a186ab99dc8100",
+        "id": "f2264ed5f54fc2bd",
         "type": "tabs",
         "children": [
           {
-            "id": "266aefab38f209bc",
+            "id": "1f66194031d6f9c6",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "image",
               "state": {
-                "file": "de/platform_clk_resetn_power_gen/platform/arm_solution/ref/arm_ethos-u85_npu_technical_reference_manual_102685_0000_05_en.pdf",
-                "page": 1,
-                "left": -9,
-                "top": 796,
-                "zoom": 1.8259803921568627
+                "file": "de/platform_clk_resetn_power_gen/platform/andes_solution/include/gen.svg"
               },
-              "icon": "lucide-file-text",
-              "title": "arm_ethos-u85_npu_technical_reference_manual_102685_0000_05_en"
+              "icon": "lucide-image",
+              "title": "gen"
             }
           }
         ]
@@ -195,15 +191,15 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "266aefab38f209bc",
+  "active": "1f66194031d6f9c6",
   "lastOpenFiles": [
+    "de/platform_clk_resetn_power_gen/platform/andes_solution/andes_solution.md",
+    "de/platform_clk_resetn_power_gen/platform/arm_solution/arm_solution.md",
+    "de/platform_clk_resetn_power_gen/platform/arm_solution/ref/arm_ethos-u85_npu_technical_reference_manual_102685_0000_05_en.pdf",
     "de/platform_clk_resetn_power_gen/platform/arm_solution/ref/LOW_POWER_DESIGN_IN_SOC_USING_ARM IP.pdf",
     "de/platform_clk_resetn_power_gen/platform/arm_solution/ref/Power_Policy_Unit_Architecture_Specification_V_1_1_ARM_DEN_0051E.pdf",
-    "de/platform_clk_resetn_power_gen/platform/arm_solution/arm_solution.md",
     "de/amba_pq/ref/IHI0068D_amba_low_power_interface_spec.pdf",
     "de/amba_pq/pq_channel.md",
-    "de/platform_clk_resetn_power_gen/platform/arm_solution/ref/arm_ethos-u85_npu_technical_reference_manual_102685_0000_05_en.pdf",
-    "de/platform_clk_resetn_power_gen/platform/andes_solution/andes_solution.md",
     "de/platform_clk_resetn_power_gen/platform/andes_solution/ref/Mpcore_power_flow/lec02-rocket.pdf",
     "de/platform_clk_resetn_power_gen/platform/andes_solution/ref/Mpcore_power_flow/smp_low_power/Power_Policy_Unit_Architecture_Specification_V_1_1_ARM_DEN_0051E.pdf",
     "de/platform_clk_resetn_power_gen/gen_power/power_gating/power_gating.md",
