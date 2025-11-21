@@ -1,0 +1,53 @@
+
+// Random config for AE350_chip.
+
+class config_randomizer;
+
+	rand int	addr_width;
+	rand bit	axi_support;
+
+	rand bit	dma_support;
+	rand bit	xip_support;
+
+	rand bit	spi1_support;
+	rand bit	spi2_support;
+
+	rand bit	i2c_support;
+
+	rand bit	uart1_support;
+	rand bit	uart2_support;
+
+	constraint c_axi_support {
+		axi_support == 1;
+	}
+
+	constraint c_addr_width {
+		addr_width == 32;
+	}
+
+	//
+	// Tasks.
+	//
+	task gen_macro;
+
+		$write(`DEF, "AE350_CONFIG_VH");	// Disable ae350_chip_config.vh.
+
+		$write(`DEF, "AE350_ADDR_WIDTH_%0d", addr_width);
+
+		if (axi_support   )	$write(`DEF, "AE350_AXI_SUPPORT");
+		if (dma_support   )	$write(`DEF, "AE350_DMA_SUPPORT");
+		if (xip_support   )	$write(`DEF, "AE350_XIP_SUPPORT");
+
+		if (spi1_support  )	$write(`DEF, "AE350_SPI1_SUPPORT");
+		if (spi2_support  )	$write(`DEF, "AE350_SPI2_SUPPORT");
+
+		if (i2c_support   )	$write(`DEF, "AE350_I2C_SUPPORT");
+
+		if (uart1_support )	$write(`DEF, "AE350_UART1_SUPPORT");
+		if (uart2_support )	$write(`DEF, "AE350_UART2_SUPPORT");
+
+		$write("\n");
+	endtask
+endclass
+
+// vim: set filetype=systemverilog :

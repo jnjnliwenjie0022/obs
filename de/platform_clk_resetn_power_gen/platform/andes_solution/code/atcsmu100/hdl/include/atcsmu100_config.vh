@@ -1,0 +1,7 @@
+`ifdef ATCSMU100_CONFIG_VH
+`else
+`define ATCSMU100_CONFIG_VH
+
+
+`endif // ATCSMU100_CONFIG_VH
+

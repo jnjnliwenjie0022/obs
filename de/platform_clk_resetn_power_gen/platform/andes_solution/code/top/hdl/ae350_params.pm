@@ -1,0 +1,110 @@
+#!/usr/bin/env perl
+
+# $in_bus_connector = ($vmod->{module_name} eq "ae350_bus_connector") ? 1 : 0;
+# $in_chip = ($vmod->{module_name} eq "ae350_chip") ? 1 : 0;
+
+if ($0 =~ /ae350_params.pm/) {
+	foreach my $f (qw(
+		andes_ip/vcmp_core/top/hdl/ae350_cpu_subsystem.v
+		andes_ip/ae350/top/hdl/ae350_bus_connector.v
+		andes_ip/ae350/top/hdl/ae350_chip.v
+		andes_vip/bench/vcmp_core/system.sv
+		)) {
+		print("vperl \$PVC_LOCALDIR/$f...");
+		system("vperl $ENV{PVC_LOCALDIR}/$f");
+		print("done!\n");
+	}
+	exit(0);
+}
+
+&IFDEF("NDS_NHART");
+	&LOCALPARAM("NHART                    = `NDS_NHART");
+&ELSE("NDS_NHART");
+	&LOCALPARAM("NHART                    = 1");
+&ENDIF("NDS_NHART");
+
+&LOCALPARAM("PALEN			= `NDS_BIU_ADDR_WIDTH");
+&LOCALPARAM("BIU_ADDR_WIDTH		= `NDS_BIU_ADDR_WIDTH");
+&LOCALPARAM("BIU_ADDR_MSB		= BIU_ADDR_WIDTH - 1");
+&LOCALPARAM("ISA_BASE			= `NDS_ISA_BASE");
+&LOCALPARAM("XLEN			= ISA_BASE == \"rv64i\" ? 64 : 32");
+&LOCALPARAM("MMU_SCHEME			= `NDS_MMU_SCHEME");
+&LOCALPARAM("VALEN			= (MMU_SCHEME == \"bare\") ? PALEN : (MMU_SCHEME == \"sv32\") ? 32 : (MMU_SCHEME == \"sv39\") ? 39: 48");
+
+&IFDEF("PLATFORM_FORCE_4GB_SPACE");
+	&LOCALPARAM("ADDR_WIDTH			= 32");
+&ELSE("PLATFORM_FORCE_4GB_SPACE");
+	&LOCALPARAM("ADDR_WIDTH			= PALEN");
+&ENDIF("PLATFORM_FORCE_4GB_SPACE");
+
+&LOCALPARAM("ADDR_MSB			= ADDR_WIDTH - 1");
+
+&LOCALPARAM("CPUCORE_BIU_ID_WIDTH	= `NDS_BIU_ID_WIDTH");
+&LOCALPARAM("CPUCORE_BIU_ID_MSB		= CPUCORE_BIU_ID_WIDTH - 1");
+&LOCALPARAM("CPUCORE_BIU_DATA_WIDTH	= `NDS_BIU_DATA_WIDTH");
+&LOCALPARAM("CPUCORE_BIU_DATA_MSB	= CPUCORE_BIU_DATA_WIDTH - 1");
+&LOCALPARAM("CPUCORE_BIU_WSTRB_WIDTH	= CPUCORE_BIU_DATA_WIDTH / 8");
+&LOCALPARAM("CPUCORE_BIU_WSTRB_MSB	= CPUCORE_BIU_WSTRB_WIDTH - 1");
+
+&LOCALPARAM("SNOOP_DISABLED		= `NDS_SNOOP_DISABLED");
+
+&IFDEF("NDS_NHART");
+
+	# For MP, the data bus width of the CPU subsystem will use L2C's.
+	&LOCALPARAM("CPUSUB_BIU_DATA_WIDTH	= `NDS_L2C_BIU_DATA_WIDTH");
+
+	&LOCALPARAM("L2C_COHERENCE_PORT		= `NDS_L2C_COHERENCE_PORT");
+
+	# L2C adds additional 3 bits to designate the master (including M4) index when there are two or more masters.
+	&LOCALPARAM("CPUSUB_BIU_ID_WIDTH	= ((L2C_COHERENCE_PORT==\"no\") && (NHART==1)) ? `NDS_BIU_ID_WIDTH : (`NDS_BIU_ID_WIDTH + 3)");
+
+	# When there exists the coherence port, DMAC's AXI interfaces are connected indirectly to M4
+	# so use the ID width of the CPU core. Otherwise, DMAC's AXI interfaces are connected to BMC
+	# so use the ID width of the CPU subsystem which have four more bits than the CPU core's.
+	# MAC will use the same parameters.
+	&LOCALPARAM("DMAC_DATA_WIDTH		= (L2C_COHERENCE_PORT==\"yes\") ? CPUCORE_BIU_DATA_WIDTH : CPUSUB_BIU_DATA_WIDTH");
+	&LOCALPARAM("DMAC_ID_WIDTH		= (L2C_COHERENCE_PORT==\"yes\") ? CPUCORE_BIU_ID_WIDTH : CPUSUB_BIU_ID_WIDTH");
+
+&ELSE("NDS_NHART");
+
+	&LOCALPARAM("CPUSUB_BIU_DATA_WIDTH	= `NDS_BIU_DATA_WIDTH");
+	&LOCALPARAM("CPUSUB_BIU_ID_WIDTH	= `NDS_BIU_ID_WIDTH");
+
+	# For single-core systems, DMAC's AXI interfaces are directly connected to the BMC.
+	&LOCALPARAM("DMAC_DATA_WIDTH		= CPUSUB_BIU_DATA_WIDTH");
+	&LOCALPARAM("DMAC_ID_WIDTH		= CPUSUB_BIU_ID_WIDTH");
+
+&ENDIF("NDS_NHART");
+
+&LOCALPARAM("CPUSUB_BIU_ID_MSB		= CPUSUB_BIU_ID_WIDTH - 1");
+
+&LOCALPARAM("DMAC_WSTRB_WIDTH		= DMAC_DATA_WIDTH / 8");
+
+&LOCALPARAM("CPUSUB_BIU_DATA_MSB	= CPUSUB_BIU_DATA_WIDTH - 1");
+&LOCALPARAM("CPUSUB_BIU_WSTRB_WIDTH	= CPUSUB_BIU_DATA_WIDTH / 8");
+&LOCALPARAM("CPUSUB_BIU_WSTRB_MSB	= CPUSUB_BIU_WSTRB_WIDTH - 1");
+
+&LOCALPARAM("SLVPORT_DATA_WIDTH		= `NDS_SLAVE_PORT_DATA_WIDTH");
+&LOCALPARAM("SLVPORT_DATA_MSB		= SLVPORT_DATA_WIDTH - 1");
+&LOCALPARAM("SLVPORT_WSTRB_WIDTH	= SLVPORT_DATA_WIDTH / 8");
+&LOCALPARAM("SLVPORT_WSTRB_MSB		= SLVPORT_WSTRB_WIDTH - 1");
+
+&IFDEF("AE350_AXI_SUPPORT");
+	&LOCALPARAM("SYSTEM_BUS_TYPE		= \"axi\"");
+&ELSE("AE350_AXI_SUPPORT");
+	&LOCALPARAM("SYSTEM_BUS_TYPE		= \"ahb\"");
+&ENDIF("AE350_AXI_SUPPORT");
+
+&IFDEF("AE350_AXI_SUPPORT");
+	&LOCALPARAM("ROMHBMC_DATA_WIDTH		= 32");
+&ELSE("AE350_AXI_SUPPORT");
+	&LOCALPARAM("ROMHBMC_DATA_WIDTH		= CPUSUB_BIU_DATA_WIDTH");
+&ENDIF("AE350_AXI_SUPPORT");
+
+&LOCALPARAM("SYNC_STAGE                 = `NDS_SYNC_STAGE");
+
+&LOCALPARAM("ROMHBMC_DATA_MSB		= ROMHBMC_DATA_WIDTH - 1");
+&MACRO_ORDER("PLATFORM_DEBUG_PORT");
+&MACRO_ORDER("PLATFORM_JTAG_TWOWIRE");
+
+# vim : set tw=0 :
