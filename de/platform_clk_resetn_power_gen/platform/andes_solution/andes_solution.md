@@ -22,7 +22,7 @@
 		- clock off
 		- Need micro-second to wake up
 
-# andes_solution
+# hw_sw_sequence
 
 - 這個是 Andes CPU 的 power sequence, 需要注意的是他們要求中途一定要 CPU 進入 WFI
 	- CPU power off 前, PC 必須被記錄, 並進入 WFI

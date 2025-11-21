@@ -11,12 +11,15 @@
             "id": "1f66194031d6f9c6",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "de/platform_clk_resetn_power_gen/platform/andes_solution/include/system_management_unit.svg"
+                "file": "de/platform_clk_resetn_power_gen/platform/andes_solution/andes_solution.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
               },
-              "icon": "lucide-image",
-              "title": "system_management_unit"
+              "icon": "lucide-file",
+              "title": "andes_solution"
             }
           }
         ]
@@ -193,8 +196,10 @@
   },
   "active": "1f66194031d6f9c6",
   "lastOpenFiles": [
-    "de/platform_clk_resetn_power_gen/platform/andes_solution/include/power_control_slot.svg",
+    "de/platform_clk_resetn_power_gen/domain_cross.md",
+    "de/platform_clk_resetn_power_gen/metastable_state.md",
     "de/platform_clk_resetn_power_gen/platform/andes_solution/include/system_management_unit.svg",
+    "de/platform_clk_resetn_power_gen/platform/andes_solution/include/power_control_slot.svg",
     "de/platform_clk_resetn_power_gen/platform/andes_solution/include/gen.svg",
     "de/platform_clk_resetn_power_gen/platform/andes_solution/ref/Mpcore_power_flow/SMU/~$CSMU100 Design Specification & Integration on AE350 v0.6.docx",
     "de/platform_clk_resetn_power_gen/platform/andes_solution/include/pcs.svg",
@@ -216,7 +221,6 @@
     "Pasted image 20251119142044.png",
     "de/platform_clk_resetn_power_gen/gen_resetn/gen_resetn.md",
     "de/platform_clk_resetn_power_gen/gen_power/power_sequence/power_sequence.md",
-    "de/platform_clk_resetn_power_gen/metastable_state.md",
     "de/amba_pq/include/ppu.svg",
     "de/ppa/upf.md",
     "de/design_spec/fast_design.md",
