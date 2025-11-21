@@ -14,15 +14,32 @@
               "type": "markdown",
               "state": {
                 "file": "de/platform_clk_resetn_power_gen/gen_clk/gen_clk.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
               "title": "gen_clk"
             }
+          },
+          {
+            "id": "b45983fabe3b90a3",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "de/platform_clk_resetn_power_gen/gen_clk/book/基于 BUFGMUX 与 DCM 的 FPGA 时钟电路设计.pdf",
+                "page": 1,
+                "left": -7,
+                "top": 88,
+                "zoom": 2.079063203521387
+              },
+              "icon": "lucide-file-text",
+              "title": "基于 BUFGMUX 与 DCM 的 FPGA 时钟电路设计"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -79,7 +96,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 506.5
+    "width": 506.5,
+    "collapsed": true
   },
   "right": {
     "id": "baf9c43aba40b294",
@@ -143,12 +161,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "de/platform_clk_resetn_power_gen/gen_clk/book/基于 BUFGMUX 与 DCM 的 FPGA 时钟电路设计.pdf",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of 基于 BUFGMUX 与 DCM 的 FPGA 时钟电路设计"
             }
           },
           {
@@ -176,8 +195,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 346.5,
-    "collapsed": true
+    "width": 346.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -194,8 +212,10 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "1f66194031d6f9c6",
+  "active": "b45983fabe3b90a3",
   "lastOpenFiles": [
+    "de/platform_clk_resetn_power_gen/gen_clk/gen_clk.md",
+    "de/platform_clk_resetn_power_gen/gen_clk/book/基于 BUFGMUX 与 DCM 的 FPGA 时钟电路设计.pdf",
     "de/platform_clk_resetn_power_gen/platform/andes_solution/include/gen.svg",
     "de/platform_clk_resetn_power_gen/platform/andes_solution/include/system_management_unit.svg",
     "de/platform_clk_resetn_power_gen/platform/andes_solution/include/power_control_slot.svg",
@@ -212,7 +232,6 @@
     "de/platform_clk_resetn_power_gen/platform/andes_solution/code/top/hdl/iso_cell_fpga.v",
     "de/platform_clk_resetn_power_gen/platform/andes_solution/code/top/hdl/include",
     "de/platform_clk_resetn_power_gen/platform/andes_solution/code/top/hdl/ae350_vol_ctrl.v",
-    "de/platform_clk_resetn_power_gen/platform/andes_solution/code/top/hdl/ae350_testgen.v",
     "de/platform_clk_resetn_power_gen/platform/andes_solution/code.md",
     "de/platform_clk_resetn_power_gen/platform/arm_solution/arm_solution.md",
     "de/amba_pq/pq_channel.md",
@@ -236,7 +255,6 @@
     "de/power/sdpd/power.md",
     "de/platform_clk_resetn_power_gen/rdc/rdc.md",
     "de/platform_clk_resetn_power_gen/cdc/cdc_concept/cdc_concept.md",
-    "de/platform_clk_resetn_power_gen/gen_clk/gen_clk.md",
     "de/platform_clk_resetn_power_gen/gen_power/low_power_design.md",
     "de/platform_clk_resetn_power_gen/cdc/cdc_design/cdc_design.md",
     "de/ppa/evaluation.md",

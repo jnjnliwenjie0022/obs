@@ -58,13 +58,13 @@
 	- RTL-Simulation: 不需額外處理
 	- Gate-level Simulation: 不需額外處理
 	- 結論: 不行
-- case7: 如果是 RTL glitch free clock switching 則:
+- case7: 如果是 RTL glitch free clock switching (ex: aclkmux) 則:
 	- CELL 的使用: 使用無 CLK 訊息的 CELL, 無法 clock propagation
-	- SDC 的定義:  需要定義, 因為 clock propagation 失敗
-	- Glitch的問題: 有
+	- SDC 的定義: 需要定義, 因為 clock propagation 失敗
+	- Glitch的問題: RTL 處理
 	- RTL-Simulation: 不需額外處理
 	- Gate-level Simulation: GCK 和 CLKOR CELL 被 replacement 之後, 一定需要吃SDF
-	- 結論: 不行
+	- 結論:  可以
 
 # aclkmux
 
@@ -126,6 +126,7 @@
 				- #REVIEW 
 # gen_fpga_clk
 
+- wire Delay > cell Delay
+- clock 有專門的 place and route
+- 
 - ref: [[基于 BUFGMUX 与 DCM 的 FPGA 时钟电路设计.pdf]]
-
-#TODO 
