@@ -70,7 +70,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "high_fan",
+                "query": "tag:#TODO ",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -91,7 +91,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -214,8 +215,9 @@
   },
   "active": "1f66194031d6f9c6",
   "lastOpenFiles": [
-    "de/platform_clk_resetn_power_gen/gen_clk/book/基于 BUFGMUX 与 DCM 的 FPGA 时钟电路设计.pdf",
+    "de/platform_clk_resetn_power_gen/gen_power/power_gating/power_gating.md",
     "de/platform_clk_resetn_power_gen/gen_clk/gen_clk.md",
+    "de/platform_clk_resetn_power_gen/gen_clk/book/基于 BUFGMUX 与 DCM 的 FPGA 时钟电路设计.pdf",
     "de/platform_clk_resetn_power_gen/gck/gck.md",
     "de/platform_clk_resetn_power_gen/cdc/clk_gen/clk_gen.md",
     "de/platform_clk_resetn_power_gen/platform/andes_solution/include/gen.svg",
@@ -237,7 +239,6 @@
     "de/platform_clk_resetn_power_gen/platform/andes_solution/code.md",
     "de/platform_clk_resetn_power_gen/platform/arm_solution/arm_solution.md",
     "de/amba_pq/pq_channel.md",
-    "de/platform_clk_resetn_power_gen/gen_power/power_gating/power_gating.md",
     "Pasted image 20251119143418.png",
     "Pasted image 20251119142044.png",
     "de/platform_clk_resetn_power_gen/gen_resetn/gen_resetn.md",

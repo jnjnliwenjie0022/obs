@@ -132,7 +132,7 @@
 - clock network 已經經過 balance, 可以保證 clock 進入 Configurable Logic Block (CLB) 的 skew 在一個範圍內
 - clock 需要透過專門的 cell 進入專門的 clock network
 	- CELL: BUFG 開頭的 CELL (ex: BUFGCTRL/BUFGMUX/BUFGCE)
-	- 這種 CELL 具有 high driving 和 low latency 的特性, 適合處理 clock signal
+	- 具有 high driving 和 low latency 的特性
 	- 不論是哪一種 CELL, 都是基於 BUFGCTRL
 - BUFGCTRL 是保留所有 PIN 的 BUFG
 ```verilog
@@ -156,4 +156,20 @@ BUFGCE	TL_UL_CLK_MUX_INST (
 	.O	(clk_out		)
 );
 ```
-- MMCM
+- MMCM/DCM 分別用來倍頻和分頻
+	- 具有 high driving 和 low latency 的特性
+```
+mmcm1 ae350_fpga_clkgen (
+	.resetn		(main_rstn		),
+	.clk_in1	(T_osch			),
+	.clkfb_in	(clkfb_in		),
+	.clkfb_out	(clkfb_in		),
+	.clk_out1	(clk_60m		),	// 60M
+	.clk_out2	(clk_30m		),	// 30M
+	.clk_out3	(clk_40m		),	// 40M
+	.clk_out4	(clk_20m_0		),	// 20M
+	.clk_out5	(clk_20m_1		),	// 20M
+	.clk_out6	(clk_66m		),	// 66M
+	.clk_out7	(clk_100m		)	// 100M
+);
+```
