@@ -215,6 +215,8 @@
   },
   "active": "1f66194031d6f9c6",
   "lastOpenFiles": [
+    "Pasted image 20251121145514.png",
+    "Pasted image 20251121145030.png",
     "Pasted image 20251121144903.png",
     "de/platform_clk_resetn_power_gen/gen_power/power_gating/power_gating.md",
     "de/platform_clk_resetn_power_gen/gen_clk/gen_clk.md",
@@ -250,8 +252,6 @@
     "de/design_spec/fctrl.md",
     "de/design_spec/lint_rule.md",
     "de/platform_clk_resetn_power_gen/gen_resetn/include/reset_property.svg",
-    "de/platform_clk_resetn_power_gen/gen_resetn/include/resetn_arch.svg",
-    "de/platform_clk_resetn_power_gen/gen_resetn/include/resetn_design.svg",
     "de/power/sdpd/sdpd.md",
     "de/power/genus/genus.md",
     "de/power/sdpd/power.md",
