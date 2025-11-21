@@ -169,7 +169,7 @@ BUFGCE	TL_UL_CLK_MUX_INST (
 ```
 - MMCM/DCM 分別用來倍頻和分頻
 	- 具有 high driving 和 low latency 的特性
-```
+```verilog
 mmcm1 ae350_fpga_clkgen (
 	.resetn		(main_rstn		),
 	.clk_in1	(T_osch			),
