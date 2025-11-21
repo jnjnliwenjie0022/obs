@@ -128,10 +128,11 @@
 
 - ref: [[基于 BUFGMUX 与 DCM 的 FPGA 时钟电路设计.pdf]]
 - wire delay > cell delay
-- clock 有專門的 place and route 所形成的 network
+- clock 有專門的 place and route 所形成的 clock network
+- clock network 已經經過 balance, 可以保證 clock 進入 Configurable Logic Block (CLB) 的 skew 在一個範圍內
 - clock 需要透過專門的 cell 進入專門的 clock network
-	- CELL:
-	- 進入 clock network 的 clock 可以保證 skew 在定義的一個範圍內
+	- CELL: BUF 開頭的 CELL
+	- 這種 CELL 具有 high driving 和 low latency 的特性
 
 
 - 需要instance特殊的cell，全局時鐘緩衝
