@@ -134,6 +134,7 @@
 	- CELL: BUFG 開頭的 CELL (ex: BUFGCTRL/BUFGMUX/BUFGCE)
 	- 具有 high driving 和 low latency 的特性
 	- 不論是哪一種 CELL, 都是基於 BUFGCTRL
+- ![[Pasted image 20251121144903.png]]
 - BUFGCTRL 是保留所有 PIN 的 BUFG
 ```verilog
 BUFGCTRL DEBUG_CLK_MUX_INST (
@@ -173,3 +174,4 @@ mmcm1 ae350_fpga_clkgen (
 	.clk_out7	(clk_100m		)	// 100M
 );
 ```
+
