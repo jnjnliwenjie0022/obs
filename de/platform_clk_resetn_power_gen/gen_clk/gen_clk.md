@@ -134,9 +134,17 @@
 	- CELL: BUFG 開頭的 CELL (ex: BUFGCTRL/BUFGMUX/BUFGCE)
 	- 具有 high driving 和 low latency 的特性
 	- 不論是哪一種 CELL, 都是基於 BUFGCTRL
-- clock 用 BUFGCTRL 實作 cascase
+- clock 用 BUFGCTRL 實作 cascade
 	- ref: https://docs.amd.com/r/en-US/ug949-vivado-design-methodology/Cascaded-Clock-Buffers
 	- ![[Pasted image 20251121144903.png]]
+- clock with balanced clock mux 最多 4:1, 如果超過就用 BUFGCTRL-based clock multiplexers 結構
+	- ref: https://docs.amd.com/r/en-US/ug949-vivado-design-methodology/Clock-Multiplexing
+	- balanced clock mux 可適用於 sync clock (same phase)
+	- BUFGCTRL-based clock multiplexers 只適用於 async clock
+	- ![[Pasted image 20251121151455.png]]
+	- ![[Pasted image 20251121151504.png]]
+- 以下是 AndesTech 在 FPGA 上遵守的 rules (很嚴格)
+	- ![[Pasted image 20251121151803.png]]
 - BUFGCTRL 是保留所有 PIN 的 BUFG
 ```verilog
 BUFGCTRL DEBUG_CLK_MUX_INST (
