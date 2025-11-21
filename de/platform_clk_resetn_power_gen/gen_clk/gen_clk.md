@@ -131,12 +131,17 @@
 - clock 有專門的 place and route 所形成的 clock network
 - clock network 已經經過 balance, 可以保證 clock 進入 Configurable Logic Block (CLB) 的 skew 在一個範圍內
 - clock 需要透過專門的 cell 進入專門的 clock network
-	- CELL: BUF 開頭的 CELL
-	- 這種 CELL 具有 high driving 和 low latency 的特性
-
-
-- 需要instance特殊的cell，全局時鐘緩衝
-	- CE=0，Q=0，否則Q=I
+	- CELL: BUFG 開頭的 CELL (ex: BUFGCTRL/BUFGMUX/BUFGCE)
+```verilog
+BUFGCE	TL_UL_CLK_MUX_INST (
+	.I	(clk_temp		),
+	.CE	(1'b1			),
+	.O	(clk_out		)
+);
+```
+	- 這種 CELL 具有 high driving 和 low latency 的特性, 適合處理 clock signal
+	- 不論是哪一種 CELL, 都是基於 BUFGCTRL
+- 分平
 ```verilog
 BUFGCE	TL_UL_CLK_MUX_INST (
 	.I	(clk_temp		),
