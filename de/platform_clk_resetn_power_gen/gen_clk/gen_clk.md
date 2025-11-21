@@ -134,11 +134,9 @@
 	- CELL: BUFG 開頭的 CELL (ex: BUFGCTRL/BUFGMUX/BUFGCE)
 	- 具有 high driving 和 low latency 的特性
 	- 不論是哪一種 CELL, 都是基於 BUFGCTRL
-- 不要使用 BUFGCE 做 cascade, 而是用 BUFGCTRL
-	- ![[Pasted image 20251121144903.png]]
-- clock BUFG cascade 的數量上限是2個, 不能是3個, 也包含 BUFGCE 的使用
+- clock 用 BUFGCTRL 實作 cascase
 	- ref: https://docs.amd.com/r/en-US/ug949-vivado-design-methodology/Cascaded-Clock-Buffers
-	- ![[Pasted image 20251121145514.png]]
+	- ![[Pasted image 20251121144903.png]]
 - BUFGCTRL 是保留所有 PIN 的 BUFG
 ```verilog
 BUFGCTRL DEBUG_CLK_MUX_INST (
