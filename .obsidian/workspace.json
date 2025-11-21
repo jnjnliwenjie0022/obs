@@ -194,8 +194,11 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "1f66194031d6f9c6",
+  "active": "35a470a2c390e07e",
   "lastOpenFiles": [
+    "de/platform_clk_resetn_power_gen/platform/andes_solution/ref_ds/AndesCore_AX27_DS163_V1.9.pdf",
+    "de/platform_clk_resetn_power_gen/platform/andes_solution/ref_ds/AndesCore_NX25(F)_DS131_V3.1.pdf",
+    "de/platform_clk_resetn_power_gen/platform/andes_solution/ref_ds",
     "de/platform_clk_resetn_power_gen/platform/andes_solution/code.md",
     "de/platform_clk_resetn_power_gen/platform/andes_solution/code",
     "de/platform_clk_resetn_power_gen/platform/andes_solution/andes_solution.md",
@@ -207,9 +210,7 @@
     "de/platform_clk_resetn_power_gen/platform/andes_solution/ref/Mpcore_power_flow/smp_low_power/Power management.pdf",
     "de/platform_clk_resetn_power_gen/platform/andes_solution/ref/Mpcore_power_flow/smp_low_power/Power_Policy_Unit_Architecture_Specification_V_1_1_ARM_DEN_0051E.pdf",
     "de/platform_clk_resetn_power_gen/platform/andes_solution/ref/Mpcore_power_flow/smp_low_power/Understanding_And_Using_SMP_Multicore_Processors_Anderson.pdf",
-    "de/platform_clk_resetn_power_gen/platform/andes_solution/ref/Mpcore_power_flow/SMU/~$U Design Specification v0.4.docx",
     "de/platform_clk_resetn_power_gen/platform/andes_solution/include/gen.svg",
-    "de/platform_clk_resetn_power_gen/platform/arm_solution/ref/arm_ethos-u85_npu_technical_reference_manual_102685_0000_05_en.pdf",
     "de/amba_pq/pq_channel.md",
     "de/platform_clk_resetn_power_gen/gen_power/power_gating/power_gating.md",
     "Pasted image 20251119143418.png",
