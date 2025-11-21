@@ -126,7 +126,37 @@
 				- #REVIEW 
 # gen_fpga_clk
 
-- wire Delay > cell Delay
-- clock 有專門的 place and route
-- 
 - ref: [[基于 BUFGMUX 与 DCM 的 FPGA 时钟电路设计.pdf]]
+- wire delay > cell delay
+- clock 有專門的 place and route 所形成的 network
+- clock 需要透過專門的 cell 進入專門的 clock network
+	- CELL:
+	- 進入 clock network 的 clock 可以保證 skew 在定義的一個範圍內
+
+
+- 需要instance特殊的cell，全局時鐘緩衝
+	- CE=0，Q=0，否則Q=I
+```verilog
+BUFGCE	TL_UL_CLK_MUX_INST (
+	.I	(clk_temp		),
+	.CE	(1'b1			),
+	.O	(clk_out		)
+);
+```
+
+- BUFGCTRL是保留所有PIN的Cell
+```verilog
+BUFGCTRL DEBUG_CLK_MUX_INST (
+	.I0      (fast_clk            ),
+	.I1      (slow_clk            ),
+	.CE0     (gen_debug_clkmux_en ),
+	.CE1     (gen_debug_clkmux_en ),
+	.S0      (~smu_core_clk_sel   ),
+	.S1      ( smu_core_clk_sel   ),
+	.IGNORE0 (1'b0                ),
+	.IGNORE1 (1'b0                ),
+	.O       (dm_clk              )
+);
+
+
+```
