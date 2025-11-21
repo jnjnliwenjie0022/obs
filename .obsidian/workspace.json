@@ -11,15 +11,12 @@
             "id": "1f66194031d6f9c6",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "de/platform_clk_resetn_power_gen/platform/andes_solution/andes_solution.md",
-                "mode": "preview",
-                "source": false,
-                "backlinks": false
+                "file": "de/platform_clk_resetn_power_gen/platform/andes_solution/include/system_management_unit.svg"
               },
-              "icon": "lucide-file",
-              "title": "andes_solution"
+              "icon": "lucide-image",
+              "title": "system_management_unit"
             }
           }
         ]
@@ -194,8 +191,14 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "35a470a2c390e07e",
+  "active": "1f66194031d6f9c6",
   "lastOpenFiles": [
+    "de/platform_clk_resetn_power_gen/platform/andes_solution/include/power_control_slot.svg",
+    "de/platform_clk_resetn_power_gen/platform/andes_solution/include/system_management_unit.svg",
+    "de/platform_clk_resetn_power_gen/platform/andes_solution/include/gen.svg",
+    "de/platform_clk_resetn_power_gen/platform/andes_solution/ref/Mpcore_power_flow/SMU/~$CSMU100 Design Specification & Integration on AE350 v0.6.docx",
+    "de/platform_clk_resetn_power_gen/platform/andes_solution/include/pcs.svg",
+    "de/platform_clk_resetn_power_gen/platform/andes_solution/andes_solution.md",
     "de/platform_clk_resetn_power_gen/platform/andes_solution/code/top/hdl/include/ae350_const.vh",
     "de/platform_clk_resetn_power_gen/platform/andes_solution/code/top/hdl/include/ae350_config.vh",
     "de/platform_clk_resetn_power_gen/platform/andes_solution/code/top/hdl/rst_sync.v",
@@ -205,12 +208,8 @@
     "de/platform_clk_resetn_power_gen/platform/andes_solution/code/top/hdl/include",
     "de/platform_clk_resetn_power_gen/platform/andes_solution/code/top/hdl/ae350_vol_ctrl.v",
     "de/platform_clk_resetn_power_gen/platform/andes_solution/code/top/hdl/ae350_testgen.v",
-    "de/platform_clk_resetn_power_gen/platform/andes_solution/code/top/hdl/ae350_system.rcfg",
-    "de/platform_clk_resetn_power_gen/platform/andes_solution/code/top/hdl/ae350_rstgen.v",
     "de/platform_clk_resetn_power_gen/platform/andes_solution/code.md",
-    "de/platform_clk_resetn_power_gen/platform/andes_solution/andes_solution.md",
     "de/platform_clk_resetn_power_gen/platform/arm_solution/arm_solution.md",
-    "de/platform_clk_resetn_power_gen/platform/andes_solution/include/gen.svg",
     "de/amba_pq/pq_channel.md",
     "de/platform_clk_resetn_power_gen/gen_power/power_gating/power_gating.md",
     "Pasted image 20251119143418.png",
@@ -226,15 +225,12 @@
     "de/platform_clk_resetn_power_gen/gen_resetn/include/reset_property.svg",
     "de/platform_clk_resetn_power_gen/gen_resetn/include/resetn_arch.svg",
     "de/platform_clk_resetn_power_gen/gen_resetn/include/resetn_design.svg",
-    "de/platform_clk_resetn_power_gen/gen_resetn/include/resetn_tree.svg",
     "de/platform_clk_resetn_power_gen/cdc/clk_gen/clk_gen.md",
     "de/platform_clk_resetn_power_gen/gck/gck.md",
     "de/power/sdpd/sdpd.md",
     "de/power/genus/genus.md",
     "de/power/sdpd/power.md",
-    "de/power/reg/reg.svg",
     "de/platform_clk_resetn_power_gen/rdc/rdc.md",
-    "de/platform_clk_resetn_power_gen/cdc/cdc_concept/include/Pasted image 20251115202803.png",
     "de/platform_clk_resetn_power_gen/cdc/cdc_concept/cdc_concept.md",
     "de/platform_clk_resetn_power_gen/gen_clk/gen_clk.md",
     "de/platform_clk_resetn_power_gen/gen_power/low_power_design.md",
