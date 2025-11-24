@@ -11,15 +11,16 @@
             "id": "30294248ccdd5771",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "de/platform_clk_resetn_power_gen/domain_cross.md",
-                "mode": "preview",
-                "source": false,
-                "backlinks": false
+                "file": "de/platform_clk_resetn_power_gen/platform/arm_solution/ref/arm_ethos-u85_npu_technical_reference_manual_102685_0000_05_en.pdf",
+                "page": 27,
+                "left": -9,
+                "top": 555,
+                "zoom": 1.8259803921568627
               },
-              "icon": "lucide-file",
-              "title": "domain_cross"
+              "icon": "lucide-file-text",
+              "title": "arm_ethos-u85_npu_technical_reference_manual_102685_0000_05_en"
             }
           }
         ]
@@ -197,12 +198,13 @@
   },
   "active": "30294248ccdd5771",
   "lastOpenFiles": [
+    "de/platform_clk_resetn_power_gen/platform/arm_solution/ref/Power_Policy_Unit_Architecture_Specification_V_1_1_ARM_DEN_0051E.pdf",
+    "de/platform_clk_resetn_power_gen/platform/arm_solution/ref/LOW_POWER_DESIGN_IN_SOC_USING_ARM IP.pdf",
+    "de/platform_clk_resetn_power_gen/domain_cross.md",
     "de/platform_clk_resetn_power_gen/metastable_state.md",
     "de/platform_clk_resetn_power_gen/rdc/rdc.md",
     "de/platform_clk_resetn_power_gen/rdc/books/Techniques to identify reset metastability issues due to soft resets.pdf",
     "de/platform_clk_resetn_power_gen/platform/arm_solution/ref/arm_ethos-u85_npu_technical_reference_manual_102685_0000_05_en.pdf",
-    "de/platform_clk_resetn_power_gen/platform/arm_solution/ref/LOW_POWER_DESIGN_IN_SOC_USING_ARM IP.pdf",
-    "de/platform_clk_resetn_power_gen/platform/arm_solution/ref/Power_Policy_Unit_Architecture_Specification_V_1_1_ARM_DEN_0051E.pdf",
     "de/platform_clk_resetn_power_gen/gen_power/power_sequence/power_sequence.md",
     "de/platform_clk_resetn_power_gen/gen_power/power_gating/power_gating.md",
     "de/ppa/timing.md",
@@ -226,7 +228,6 @@
     "de/platform_clk_resetn_power_gen/platform/andes_solution/include/system_management_unit.svg",
     "de/platform_clk_resetn_power_gen/platform/andes_solution/include/power_control_slot.svg",
     "de/platform_clk_resetn_power_gen/platform/andes_solution/andes_solution.md",
-    "de/platform_clk_resetn_power_gen/domain_cross.md",
     "de/platform_clk_resetn_power_gen/platform/andes_solution/ref/Mpcore_power_flow/SMU/~$CSMU100 Design Specification & Integration on AE350 v0.6.docx",
     "de/platform_clk_resetn_power_gen/platform/andes_solution/code/top/hdl/include/ae350_const.vh",
     "de/platform_clk_resetn_power_gen/platform/andes_solution/code/top/hdl/include/ae350_config.vh",
