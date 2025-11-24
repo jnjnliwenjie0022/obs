@@ -11,16 +11,15 @@
             "id": "30294248ccdd5771",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "de/platform_clk_resetn_power_gen/gen_power/power_sequence/ref/Low Power Methodology Manual For System-on-Chip Design.pdf",
-                "page": 73,
-                "left": -8,
-                "top": 469,
-                "zoom": 1.8772804547806399
+                "file": "de/platform_clk_resetn_power_gen/gen_power/power_sequence/power_sequence.md",
+                "mode": "preview",
+                "source": false,
+                "backlinks": false
               },
-              "icon": "lucide-file-text",
-              "title": "Low Power Methodology Manual For System-on-Chip Design"
+              "icon": "lucide-file",
+              "title": "power_sequence"
             }
           },
           {
@@ -38,8 +37,7 @@
               "title": "power_sequence"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -212,7 +210,7 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "73dc0a1b95fb12ee",
+  "active": "30294248ccdd5771",
   "lastOpenFiles": [
     "de/platform_clk_resetn_power_gen/gen_power/power_sequence/ref/Low Power Methodology Manual For System-on-Chip Design.pdf",
     "de/platform_clk_resetn_power_gen/gen_power/power_sequence/power_sequence.md",
