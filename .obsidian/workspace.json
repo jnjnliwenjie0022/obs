@@ -11,15 +11,16 @@
             "id": "30294248ccdd5771",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "de/platform_clk_resetn_power_gen/gck/gck.md",
-                "mode": "preview",
-                "source": false,
-                "backlinks": false
+                "file": "de/platform_clk_resetn_power_gen/platform/arm_solution/ref/arm_ethos-u85_npu_technical_reference_manual_102685_0000_05_en.pdf",
+                "page": 34,
+                "left": -9,
+                "top": 637,
+                "zoom": 1.8259803921568627
               },
-              "icon": "lucide-file",
-              "title": "gck"
+              "icon": "lucide-file-text",
+              "title": "arm_ethos-u85_npu_technical_reference_manual_102685_0000_05_en"
             }
           }
         ]
@@ -197,8 +198,18 @@
   },
   "active": "30294248ccdd5771",
   "lastOpenFiles": [
-    "de/platform_clk_resetn_power_gen/gen_clk/gen_clk.md",
+    "de/platform_clk_resetn_power_gen/platform/arm_solution/ref/LOW_POWER_DESIGN_IN_SOC_USING_ARM IP.pdf",
+    "de/platform_clk_resetn_power_gen/platform/arm_solution/ref/Power_Policy_Unit_Architecture_Specification_V_1_1_ARM_DEN_0051E.pdf",
+    "de/platform_clk_resetn_power_gen/gen_power/power_sequence/power_sequence.md",
+    "de/platform_clk_resetn_power_gen/gen_power/power_gating/power_gating.md",
+    "de/ppa/timing.md",
+    "de/ppa/spyglass.md",
+    "de/ppa/evaluation.md",
+    "de/ppa/ref/PVT (Process, Voltage, Temperature) - VLSI- Physical Design For Freshers.pdf",
+    "de/ppa/ref/slides.pdf",
+    "de/amba_pq/pq_channel.md",
     "de/platform_clk_resetn_power_gen/gck/gck.md",
+    "de/platform_clk_resetn_power_gen/gen_clk/gen_clk.md",
     "Pasted image 20251121154103.png",
     "de/platform_clk_resetn_power_gen/gen_clk/book/基于 BUFGMUX 与 DCM 的 FPGA 时钟电路设计.pdf",
     "Pasted image 20251121151803.png",
@@ -207,7 +218,6 @@
     "Pasted image 20251121145514.png",
     "Pasted image 20251121145030.png",
     "Pasted image 20251121144903.png",
-    "de/platform_clk_resetn_power_gen/gen_power/power_gating/power_gating.md",
     "de/platform_clk_resetn_power_gen/cdc/clk_gen/clk_gen.md",
     "de/platform_clk_resetn_power_gen/platform/andes_solution/include/gen.svg",
     "de/platform_clk_resetn_power_gen/platform/andes_solution/include/system_management_unit.svg",
@@ -221,14 +231,9 @@
     "de/platform_clk_resetn_power_gen/platform/andes_solution/code/top/hdl/rst_sync.v",
     "de/platform_clk_resetn_power_gen/platform/andes_solution/code/top/hdl/pd_vol_ctrl.v",
     "de/platform_clk_resetn_power_gen/platform/andes_solution/code/top/hdl/pd_clk_ctrl.v",
-    "de/platform_clk_resetn_power_gen/platform/andes_solution/code/top/hdl/iso_cell_fpga.v",
-    "de/platform_clk_resetn_power_gen/platform/andes_solution/code/top/hdl/include",
-    "de/platform_clk_resetn_power_gen/platform/andes_solution/code/top/hdl/ae350_vol_ctrl.v",
     "de/platform_clk_resetn_power_gen/platform/andes_solution/code.md",
     "de/platform_clk_resetn_power_gen/platform/arm_solution/arm_solution.md",
-    "de/amba_pq/pq_channel.md",
     "de/platform_clk_resetn_power_gen/gen_resetn/gen_resetn.md",
-    "de/platform_clk_resetn_power_gen/gen_power/power_sequence/power_sequence.md",
     "de/ppa/upf.md",
     "de/design_spec/fast_design.md",
     "de/design_spec/fctrl.md",
@@ -238,9 +243,6 @@
     "de/power/sdpd/power.md",
     "de/platform_clk_resetn_power_gen/rdc/rdc.md",
     "de/platform_clk_resetn_power_gen/cdc/cdc_concept/cdc_concept.md",
-    "de/platform_clk_resetn_power_gen/gen_power/low_power_design.md",
-    "de/platform_clk_resetn_power_gen/cdc/cdc_design/cdc_design.md",
-    "de/ppa/evaluation.md",
-    "de/ppa/spyglass.md"
+    "de/platform_clk_resetn_power_gen/gen_power/low_power_design.md"
   ]
 }
