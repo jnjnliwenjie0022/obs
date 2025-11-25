@@ -1,7 +1,7 @@
 # hw_power_sequence
 
 - ref: power sequence
-	- ![[Low Power Methodology Manual For System-on-Chip Design.pdf#page=73&rect=130,212,462,330|Low Power Methodology Manual For System-on-Chip Design, p.73|1000]]
+	- ![[Low Power Methodology Manual For System-on-Chip Design.pdf#page=72&rect=134,243,458,378|Low Power Methodology Manual For System-on-Chip Design, p.72|1000]]
 - ref: power architecture
 	- ![[Low Power Methodology Manual For System-on-Chip Design.pdf#page=88&rect=127,147,465,302|Low Power Methodology Manual For System-on-Chip Design, p.88 | 1000]]
 - PS: hw deep / light sleep mode power up sequence 就是反過來操作
