@@ -4,45 +4,6 @@
     "type": "split",
     "children": [
       {
-        "id": "735a7cf7eec43257",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "964e473264a34c21",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "de/platform_clk_resetn_power_gen/gen_power/power_sequence/ref/Low Power Methodology Manual For System-on-Chip Design.pdf",
-                "page": 1,
-                "left": 75,
-                "top": 45,
-                "zoom": 1.3
-              },
-              "icon": "lucide-file-text",
-              "title": "Low Power Methodology Manual For System-on-Chip Design"
-            }
-          },
-          {
-            "id": "1ec83483cc36ae6b",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "de/amba_pq/ref/IHI0068D_amba_low_power_interface_spec.pdf",
-                "page": 23,
-                "left": -18,
-                "top": 615,
-                "zoom": 0.9063025210084035
-              },
-              "icon": "lucide-file-text",
-              "title": "IHI0068D_amba_low_power_interface_spec"
-            }
-          }
-        ],
-        "currentTab": 1
-      },
-      {
         "id": "3acdbe6ecbac2337",
         "type": "tabs",
         "children": [
@@ -249,9 +210,10 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "1ec83483cc36ae6b",
+  "active": "30294248ccdd5771",
   "lastOpenFiles": [
     "de/platform_clk_resetn_power_gen/gen_power/power_sequence/ref/Low Power Methodology Manual For System-on-Chip Design.pdf",
+    "de/amba_pq/ref/IHI0068D_amba_low_power_interface_spec.pdf",
     "de/platform_clk_resetn_power_gen/gen_power/power_sequence/power_sequence.md",
     "de/platform_clk_resetn_power_gen/platform/arm_solution/ref/Power_Policy_Unit_Architecture_Specification_V_1_1_ARM_DEN_0051E.pdf",
     "de/platform_clk_resetn_power_gen/platform/arm_solution/ref/LOW_POWER_DESIGN_IN_SOC_USING_ARM IP.pdf",
