@@ -4,6 +4,28 @@
     "type": "split",
     "children": [
       {
+        "id": "9019f3c5cd2e8f76",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "58e1ab7a27171e1c",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "de/platform_clk_resetn_power_gen/gen_power/power_sequence/ref/Low Power Methodology Manual For System-on-Chip Design.pdf",
+                "page": 73,
+                "left": -18,
+                "top": 376,
+                "zoom": 0.9058823134142819
+              },
+              "icon": "lucide-file-text",
+              "title": "Low Power Methodology Manual For System-on-Chip Design"
+            }
+          }
+        ]
+      },
+      {
         "id": "3acdbe6ecbac2337",
         "type": "tabs",
         "children": [
@@ -210,10 +232,10 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "30294248ccdd5771",
+  "active": "58e1ab7a27171e1c",
   "lastOpenFiles": [
-    "de/platform_clk_resetn_power_gen/gen_power/power_sequence/ref/Low Power Methodology Manual For System-on-Chip Design.pdf",
     "de/platform_clk_resetn_power_gen/gen_power/power_sequence/power_sequence.md",
+    "de/platform_clk_resetn_power_gen/gen_power/power_sequence/ref/Low Power Methodology Manual For System-on-Chip Design.pdf",
     "de/platform_clk_resetn_power_gen/platform/arm_solution/ref/Power_Policy_Unit_Architecture_Specification_V_1_1_ARM_DEN_0051E.pdf",
     "de/platform_clk_resetn_power_gen/platform/arm_solution/ref/LOW_POWER_DESIGN_IN_SOC_USING_ARM IP.pdf",
     "de/platform_clk_resetn_power_gen/platform/arm_solution/ref/arm_ethos-u85_npu_technical_reference_manual_102685_0000_05_en.pdf",
