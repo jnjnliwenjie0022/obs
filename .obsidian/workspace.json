@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "de/platform_clk_resetn_power_gen/gen_power/power_sequence/power_sequence.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false,
                 "backlinks": false
               },
@@ -212,9 +212,10 @@
   },
   "active": "30294248ccdd5771",
   "lastOpenFiles": [
-    "de/platform_clk_resetn_power_gen/gen_power/power_sequence/ref/Low Power Methodology Manual For System-on-Chip Design.pdf",
     "de/amba_pq/ref/IHI0068D_amba_low_power_interface_spec.pdf",
+    "de/amba_pq/pq_channel.md",
     "de/platform_clk_resetn_power_gen/gen_power/power_sequence/power_sequence.md",
+    "de/platform_clk_resetn_power_gen/gen_power/power_sequence/ref/Low Power Methodology Manual For System-on-Chip Design.pdf",
     "de/platform_clk_resetn_power_gen/platform/arm_solution/ref/Power_Policy_Unit_Architecture_Specification_V_1_1_ARM_DEN_0051E.pdf",
     "de/platform_clk_resetn_power_gen/platform/arm_solution/ref/LOW_POWER_DESIGN_IN_SOC_USING_ARM IP.pdf",
     "de/platform_clk_resetn_power_gen/platform/arm_solution/ref/arm_ethos-u85_npu_technical_reference_manual_102685_0000_05_en.pdf",
@@ -228,7 +229,6 @@
     "de/ppa/evaluation.md",
     "de/ppa/ref/PVT (Process, Voltage, Temperature) - VLSI- Physical Design For Freshers.pdf",
     "de/ppa/ref/slides.pdf",
-    "de/amba_pq/pq_channel.md",
     "de/platform_clk_resetn_power_gen/gck/gck.md",
     "de/platform_clk_resetn_power_gen/gen_clk/gen_clk.md",
     "Pasted image 20251121154103.png",
@@ -245,7 +245,6 @@
     "de/platform_clk_resetn_power_gen/platform/andes_solution/include/power_control_slot.svg",
     "de/platform_clk_resetn_power_gen/platform/andes_solution/andes_solution.md",
     "de/platform_clk_resetn_power_gen/platform/andes_solution/ref/Mpcore_power_flow/SMU/~$CSMU100 Design Specification & Integration on AE350 v0.6.docx",
-    "de/platform_clk_resetn_power_gen/platform/andes_solution/code/top/hdl/include/ae350_const.vh",
     "de/platform_clk_resetn_power_gen/platform/andes_solution/code.md",
     "de/platform_clk_resetn_power_gen/platform/arm_solution/arm_solution.md",
     "de/platform_clk_resetn_power_gen/gen_resetn/gen_resetn.md",
