@@ -13,10 +13,10 @@
             "state": {
               "type": "image",
               "state": {
-                "file": "de/platform_clk_resetn_power_gen/platform/andes_solution/include/gen.svg"
+                "file": "de/platform_clk_resetn_power_gen/platform/andes_solution/include/power_control_slot.svg"
               },
               "icon": "lucide-image",
-              "title": "gen"
+              "title": "power_control_slot"
             }
           }
         ]
@@ -194,10 +194,10 @@
   },
   "active": "30294248ccdd5771",
   "lastOpenFiles": [
-    "de/platform_clk_resetn_power_gen/platform/andes_solution/include/power_control_slot.svg",
     "de/platform_clk_resetn_power_gen/platform/andes_solution/include/system_management_unit.svg",
-    "de/platform_clk_resetn_power_gen/platform/andes_solution/andes_solution.md",
     "de/platform_clk_resetn_power_gen/platform/andes_solution/include/gen.svg",
+    "de/platform_clk_resetn_power_gen/platform/andes_solution/include/power_control_slot.svg",
+    "de/platform_clk_resetn_power_gen/platform/andes_solution/andes_solution.md",
     "de/platform_clk_resetn_power_gen/platform/andes_solution/ref/SMU/RISCV_SBI_vs_ARM_PSCI_v9.pdf",
     "de/platform_clk_resetn_power_gen/platform/andes_solution/ref_andescore/AndesCore_NX25(F)_DS131_V3.1.pdf",
     "de/platform_clk_resetn_power_gen/platform/andes_solution/ref/Mpcore_power_flow/smp_low_power/Understanding_And_Using_SMP_Multicore_Processors_Anderson.pdf",
