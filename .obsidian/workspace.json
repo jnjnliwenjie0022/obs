@@ -13,26 +13,13 @@
             "state": {
               "type": "image",
               "state": {
-                "file": "de/platform_clk_resetn_power_gen/platform/andes_solution/include/system_management_unit.svg"
+                "file": "de/platform_clk_resetn_power_gen/platform/andes_solution/include/gen.svg"
               },
               "icon": "lucide-image",
-              "title": "system_management_unit"
-            }
-          },
-          {
-            "id": "9ab3dcc87ddeaac4",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.10.6"
-              },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.10.6"
+              "title": "gen"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -205,10 +192,10 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "9ab3dcc87ddeaac4",
+  "active": "35a470a2c390e07e",
   "lastOpenFiles": [
-    "de/platform_clk_resetn_power_gen/platform/andes_solution/include/power_control_slot.svg",
     "de/platform_clk_resetn_power_gen/platform/andes_solution/include/system_management_unit.svg",
+    "de/platform_clk_resetn_power_gen/platform/andes_solution/include/power_control_slot.svg",
     "de/platform_clk_resetn_power_gen/platform/andes_solution/include/gen.svg",
     "de/platform_clk_resetn_power_gen/platform/andes_solution/andes_solution.md",
     "de/platform_clk_resetn_power_gen/platform/andes_solution/ref/SMU/RISCV_SBI_vs_ARM_PSCI_v9.pdf",
