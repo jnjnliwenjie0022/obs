@@ -4,19 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "3acdbe6ecbac2337",
+        "id": "27094d19900bf36b",
         "type": "tabs",
         "children": [
           {
-            "id": "30294248ccdd5771",
+            "id": "1bfbd8cb344b7c8a",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "de/platform_clk_resetn_power_gen/platform/andes_solution/include/system_management_unit.svg"
+                "file": "de/amba_pq/pq_channel.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
               },
-              "icon": "lucide-image",
-              "title": "system_management_unit"
+              "icon": "lucide-file",
+              "title": "pq_channel"
             }
           }
         ]
@@ -76,7 +79,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 506.5
+    "width": 481.5
   },
   "right": {
     "id": "baf9c43aba40b294",
@@ -140,13 +143,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "de/platform_clk_resetn_power_gen/gck/gck.md",
+                "file": "workflow/git/git.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of gck"
+              "title": "Outline of git"
             }
           },
           {
@@ -155,8 +158,8 @@
             "state": {
               "type": "git-history-view",
               "state": {},
-              "icon": "history",
-              "title": "History"
+              "icon": "lucide-ghost",
+              "title": "git-history-view"
             }
           },
           {
@@ -165,8 +168,8 @@
             "state": {
               "type": "git-view",
               "state": {},
-              "icon": "git-pull-request",
-              "title": "Source Control"
+              "icon": "lucide-ghost",
+              "title": "git-view"
             }
           }
         ],
@@ -179,7 +182,6 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "obsidian-git:Open Git source control": false,
       "bases:Create new base": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
@@ -187,39 +189,27 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
+      "obsidian-git:Open Git source control": false,
       "pdf-plus:PDF++: Toggle auto-copy": false,
       "pdf-plus:PDF++: Toggle auto-focus": false,
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "30294248ccdd5771",
+  "active": "35a470a2c390e07e",
   "lastOpenFiles": [
-    "de/platform_clk_resetn_power_gen/platform/andes_solution/include/power_control_slot.svg",
-    "de/platform_clk_resetn_power_gen/platform/andes_solution/include/gen.svg",
-    "de/platform_clk_resetn_power_gen/platform/andes_solution/andes_solution.md",
-    "de/platform_clk_resetn_power_gen/platform/andes_solution/ref/SMU/RISCV_SBI_vs_ARM_PSCI_v9.pdf",
-    "de/platform_clk_resetn_power_gen/platform/andes_solution/ref/Mpcore_power_flow/SMU/~$CSMU100 Design Specification & Integration on AE350 v0.7.docx",
-    "de/platform_clk_resetn_power_gen/platform/andes_solution/ref/SMU/~$Power Management Overview.pptx",
-    "de/platform_clk_resetn_power_gen/platform/andes_solution/ref/SMU/Power_Control_Flow_190304.pdf",
-    "de/platform_clk_resetn_power_gen/platform/andes_solution/include/system_management_unit.svg",
-    "de/platform_clk_resetn_power_gen/gen_power/power_sequence/power_sequence.md",
-    "de/platform_clk_resetn_power_gen/gck/gck.md",
-    "de/platform_clk_resetn_power_gen/gen_resetn/gen_resetn.md",
-    "de/platform_clk_resetn_power_gen/domain_cross.md",
-    "de/platform_clk_resetn_power_gen/metastable_state.md",
     "de/platform_clk_resetn_power_gen/platform/andes_solution/ref_andescore/AndesCore_NX25(F)_DS131_V3.1.pdf",
-    "de/platform_clk_resetn_power_gen/platform/andes_solution/ref/Mpcore_power_flow/smp_low_power/Understanding_And_Using_SMP_Multicore_Processors_Anderson.pdf",
-    "de/platform_clk_resetn_power_gen/platform/andes_solution/ref/Mpcore_power_flow/smp_low_power/Power_Policy_Unit_Architecture_Specification_V_1_1_ARM_DEN_0051E.pdf",
-    "de/platform_clk_resetn_power_gen/platform/andes_solution/ref/Mpcore_power_flow/smp_low_power/Power management.pdf",
-    "de/amba_pq/ref/IHI0068D_amba_low_power_interface_spec.pdf",
-    "de/amba_pq/pq_channel.md",
-    "de/platform_clk_resetn_power_gen/gen_power/power_sequence/ref/Low Power Methodology Manual For System-on-Chip Design.pdf",
-    "de/platform_clk_resetn_power_gen/rdc/rdc.md",
-    "de/platform_clk_resetn_power_gen/gen_power/power_gating/power_gating.md",
-    "de/ppa/timing.md",
-    "de/ppa/spyglass.md",
-    "de/ppa/evaluation.md",
-    "de/platform_clk_resetn_power_gen/gen_clk/gen_clk.md",
+    "de/platform_clk_resetn_power_gen/platform/andes_solution/ref_andescore/AndesCore_AX27_DS163_V1.9.pdf",
+    "de/platform_clk_resetn_power_gen/platform/andes_solution/ref_andescore",
+    "de/platform_clk_resetn_power_gen/platform/andes_solution/include/system_management_unit.svg",
+    "de/platform_clk_resetn_power_gen/platform/andes_solution/include/power_control_slot.svg",
+    "de/platform_clk_resetn_power_gen/platform/andes_solution/code/top/hdl/include/ae350_const.vh",
+    "de/platform_clk_resetn_power_gen/platform/andes_solution/code/top/hdl/include/ae350_config.vh",
+    "de/platform_clk_resetn_power_gen/platform/andes_solution/code/atcsmu100/hdl/include/atcsmu100_const.vh",
+    "de/platform_clk_resetn_power_gen/platform/andes_solution/code/atcsmu100/hdl/include/atcsmu100_config.vh",
+    "de/platform_clk_resetn_power_gen/platform/andes_solution/code/top/hdl/rst_sync.v",
+    "de/platform_clk_resetn_power_gen/platform/andes_solution/code/top/hdl/pd_vol_ctrl.v",
+    "de/platform_clk_resetn_power_gen/platform/andes_solution/code/top/hdl/pd_clk_ctrl.v",
+    "de/platform_clk_resetn_power_gen/platform/andes_solution/code/top/hdl/iso_cell_fpga.v",
     "Pasted image 20251121154103.png",
     "Pasted image 20251121151803.png",
     "Pasted image 20251121151504.png",
@@ -227,17 +217,31 @@
     "Pasted image 20251121145514.png",
     "Pasted image 20251121145030.png",
     "Pasted image 20251121144903.png",
+    "Pasted image 20251119143418.png",
+    "de/platform_clk_resetn_power_gen/platform/concept/concept.md",
+    "de/amba_pq/pq_channel.md",
+    "de/platform_clk_resetn_power_gen/gen_power/power_sequence/power_sequence.md",
+    "de/platform_clk_resetn_power_gen/gen_resetn/gen_resetn.md",
+    "de/platform_clk_resetn_power_gen/gen_clk/gen_clk.md",
+    "de/platform_clk_resetn_power_gen/platform/platform.md",
+    "de/platform_clk_resetn_power_gen/cdc/cdc_concept/cdc_concept.md",
+    "de/platform_clk_resetn_power_gen/cdc/cdc_design/cdc_design.md",
+    "de/platform_clk_resetn_power_gen/metastable_state.md",
+    "de/platform_clk_resetn_power_gen/domain_cross.md",
     "de/platform_clk_resetn_power_gen/cdc/clk_gen/clk_gen.md",
-    "de/platform_clk_resetn_power_gen/platform/andes_solution/code.md",
-    "de/platform_clk_resetn_power_gen/platform/arm_solution/arm_solution.md",
-    "de/ppa/upf.md",
-    "de/design_spec/fast_design.md",
-    "de/design_spec/fctrl.md",
-    "de/design_spec/lint_rule.md",
-    "de/power/sdpd/sdpd.md",
+    "de/platform_clk_resetn_power_gen/gck/gck.md",
+    "de/platform_clk_resetn_power_gen/cdc_with_clk.md",
     "de/power/genus/genus.md",
     "de/power/sdpd/power.md",
-    "de/platform_clk_resetn_power_gen/cdc/cdc_concept/cdc_concept.md",
-    "de/platform_clk_resetn_power_gen/gen_power/low_power_design.md"
+    "de/power/sdpd/sdpd.md",
+    "de/arithmetic/divider.md",
+    "de/design_spec/rule.md",
+    "de/design_spec/verilog.md",
+    "de/fifo/fifo.md",
+    "workflow/git/git.md",
+    "de/platform_clk_resetn_power_gen/rdc/rdc.md",
+    "de/platform_clk_resetn_power_gen/gen_power/power_gating/power_gating.md",
+    "workflow/tnv.md",
+    "workflow/rime.md"
   ]
 }
