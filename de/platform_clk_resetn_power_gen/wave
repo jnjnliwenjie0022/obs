@@ -1,0 +1,10 @@
+{signal: [
+  {name: 'cs',             wave: '3.4...5x...................', data:['Active','Wait','Freq']},
+  {name: 'cmd',            wave: 'x3x........................', data:'Sleep'},
+  {name: 'pcs_slv_req',    wave: 'l.h.l.....................'},
+  {name: 'pcs_slv_ack',    wave: 'l..h.l....................'},
+  {name: 'pcs_clkgen_req', wave: 'h.....l...................'},
+  {name: 'pcs_clkgen_ack', wave: 'h......l..................'},
+  {name: 'clk',            wave: 'P......l..................'},
+]}
+

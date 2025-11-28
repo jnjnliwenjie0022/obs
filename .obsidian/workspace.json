@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "de/platform_clk_resetn_power_gen/gen_clk/gen_clk.md",
-                "mode": "preview",
+                "file": "de/platform_clk_resetn_power_gen/platform/andes_solution/andes_solution.md",
+                "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "gen_clk"
+              "title": "andes_solution"
             }
           }
         ]
@@ -195,10 +195,11 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "30294248ccdd5771",
+  "active": "35a470a2c390e07e",
   "lastOpenFiles": [
-    "de/platform_clk_resetn_power_gen/gck/gck.md",
+    "de/platform_clk_resetn_power_gen/wave",
     "de/platform_clk_resetn_power_gen/gen_clk/gen_clk.md",
+    "de/platform_clk_resetn_power_gen/gck/gck.md",
     "de/platform_clk_resetn_power_gen/platform/andes_solution/include/system_management_unit.svg",
     "de/platform_clk_resetn_power_gen/platform/andes_solution/include/power_control_slot.svg",
     "de/platform_clk_resetn_power_gen/platform/andes_solution/include/gen.svg",
