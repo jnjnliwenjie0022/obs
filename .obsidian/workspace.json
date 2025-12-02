@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "de/platform_clk_resetn_power_gen/platform/andes_solution/andes_solution.md",
+                "file": "de/platform_clk_resetn_power_gen/gen_power/power_sequence/power_sequence.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "andes_solution"
+              "title": "power_sequence"
             }
           }
         ]
@@ -195,15 +195,15 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "35a470a2c390e07e",
+  "active": "30294248ccdd5771",
   "lastOpenFiles": [
+    "de/platform_clk_resetn_power_gen/platform/andes_solution/andes_solution.md",
     "de/platform_clk_resetn_power_gen/wave",
     "de/platform_clk_resetn_power_gen/gen_clk/gen_clk.md",
     "de/platform_clk_resetn_power_gen/gck/gck.md",
     "de/platform_clk_resetn_power_gen/platform/andes_solution/include/system_management_unit.svg",
     "de/platform_clk_resetn_power_gen/platform/andes_solution/include/power_control_slot.svg",
     "de/platform_clk_resetn_power_gen/platform/andes_solution/include/gen.svg",
-    "de/platform_clk_resetn_power_gen/platform/andes_solution/andes_solution.md",
     "de/platform_clk_resetn_power_gen/platform/andes_solution/ref/SMU/RISCV_SBI_vs_ARM_PSCI_v9.pdf",
     "de/platform_clk_resetn_power_gen/platform/andes_solution/ref/Mpcore_power_flow/SMU/~$CSMU100 Design Specification & Integration on AE350 v0.7.docx",
     "de/platform_clk_resetn_power_gen/platform/andes_solution/ref/SMU/~$Power Management Overview.pptx",
@@ -218,7 +218,6 @@
     "de/platform_clk_resetn_power_gen/platform/andes_solution/ref/Mpcore_power_flow/smp_low_power/Power management.pdf",
     "de/amba_pq/ref/IHI0068D_amba_low_power_interface_spec.pdf",
     "de/amba_pq/pq_channel.md",
-    "de/platform_clk_resetn_power_gen/gen_power/power_sequence/ref/Low Power Methodology Manual For System-on-Chip Design.pdf",
     "de/platform_clk_resetn_power_gen/rdc/rdc.md",
     "de/platform_clk_resetn_power_gen/gen_power/power_gating/power_gating.md",
     "de/ppa/timing.md",
