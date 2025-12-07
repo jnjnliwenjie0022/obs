@@ -11,15 +11,16 @@
             "id": "1bfbd8cb344b7c8a",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "de/platform_clk_resetn_power_gen/platform/andes_solution/andes_solution.md",
-                "mode": "preview",
-                "source": false,
-                "backlinks": false
+                "file": "de/platform_clk_resetn_power_gen/platform/andes_solution/ref/Mpcore_power_flow/smp_low_power/Understanding_And_Using_SMP_Multicore_Processors_Anderson.pdf",
+                "page": 12,
+                "left": 308,
+                "top": -22,
+                "zoom": 0.6938836104513065
               },
-              "icon": "lucide-file",
-              "title": "andes_solution"
+              "icon": "lucide-file-text",
+              "title": "Understanding_And_Using_SMP_Multicore_Processors_Anderson"
             }
           }
         ]
@@ -79,7 +80,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 317.5
+    "width": 449.5
   },
   "right": {
     "id": "baf9c43aba40b294",
@@ -197,6 +198,10 @@
   },
   "active": "1bfbd8cb344b7c8a",
   "lastOpenFiles": [
+    "de/platform_clk_resetn_power_gen/platform/andes_solution/ref/Mpcore_power_flow/SMU/~$CSMU100 Design Specification & Integration on AE350 v0.7.docx",
+    "de/platform_clk_resetn_power_gen/platform/andes_solution/ref/Mpcore_power_flow/smp_low_power/Power_Policy_Unit_Architecture_Specification_V_1_1_ARM_DEN_0051E.pdf",
+    "de/platform_clk_resetn_power_gen/platform/andes_solution/ref/Mpcore_power_flow/smp_low_power/Power management.pdf",
+    "de/platform_clk_resetn_power_gen/platform/andes_solution/andes_solution.md",
     "de/platform_clk_resetn_power_gen/domain_cross.md",
     "de/platform_clk_resetn_power_gen/rdc/rdc.md",
     "de/platform_clk_resetn_power_gen/platform/arm_solution/ref/arm_ethos-u85_npu_technical_reference_manual_102685_0000_05_en.pdf",
@@ -204,8 +209,6 @@
     "de/platform_clk_resetn_power_gen/platform/arm_solution/ref/LOW_POWER_DESIGN_IN_SOC_USING_ARM IP.pdf",
     "de/platform_clk_resetn_power_gen/platform/andes_solution/ref/Mpcore_power_flow/smp_low_power/Understanding_And_Using_SMP_Multicore_Processors_Anderson.pdf",
     "de/platform_clk_resetn_power_gen/platform/andes_solution/ref/Mpcore_power_flow/~$vcmp_low_power_flow.pptx",
-    "de/platform_clk_resetn_power_gen/platform/andes_solution/ref/Mpcore_power_flow/smp_low_power/Power_Policy_Unit_Architecture_Specification_V_1_1_ARM_DEN_0051E.pdf",
-    "de/platform_clk_resetn_power_gen/platform/andes_solution/ref/Mpcore_power_flow/smp_low_power/Power management.pdf",
     "de/platform_clk_resetn_power_gen/platform/andes_solution/include/power_control_slot.svg",
     "de/platform_clk_resetn_power_gen/metastable_state.md",
     "de/platform_clk_resetn_power_gen/platform/andes_solution/ref/SMU/~$Power Management Overview.pptx",
@@ -240,7 +243,6 @@
     "de/design_spec/verilog.md",
     "de/fifo/fifo.md",
     "workflow/git/git.md",
-    "de/platform_clk_resetn_power_gen/gen_power/power_gating/power_gating.md",
-    "workflow/tnv.md"
+    "de/platform_clk_resetn_power_gen/gen_power/power_gating/power_gating.md"
   ]
 }
