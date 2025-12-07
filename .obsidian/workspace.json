@@ -21,8 +21,21 @@
               "icon": "lucide-file",
               "title": "pq_channel"
             }
+          },
+          {
+            "id": "ab81b1d8ea2a27d9",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.10.6"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.10.6"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -79,7 +92,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 481.5
+    "width": 481.5,
+    "collapsed": true
   },
   "right": {
     "id": "baf9c43aba40b294",
@@ -195,7 +209,7 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "35a470a2c390e07e",
+  "active": "ab81b1d8ea2a27d9",
   "lastOpenFiles": [
     "de/platform_clk_resetn_power_gen/platform/andes_solution/ref_andescore/AndesCore_NX25(F)_DS131_V3.1.pdf",
     "de/platform_clk_resetn_power_gen/platform/andes_solution/ref_andescore/AndesCore_AX27_DS163_V1.9.pdf",
