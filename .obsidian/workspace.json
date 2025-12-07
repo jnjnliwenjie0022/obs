@@ -11,16 +11,15 @@
             "id": "1bfbd8cb344b7c8a",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "de/platform_clk_resetn_power_gen/platform/andes_solution/ref/Mpcore_power_flow/smp_low_power/Understanding_And_Using_SMP_Multicore_Processors_Anderson.pdf",
-                "page": 1,
-                "left": -4,
-                "top": -18,
-                "zoom": 0.8114608076009502
+                "file": "de/platform_clk_resetn_power_gen/platform/andes_solution/andes_solution.md",
+                "mode": "preview",
+                "source": false,
+                "backlinks": false
               },
-              "icon": "lucide-file-text",
-              "title": "Understanding_And_Using_SMP_Multicore_Processors_Anderson"
+              "icon": "lucide-file",
+              "title": "andes_solution"
             }
           }
         ]
@@ -198,6 +197,13 @@
   },
   "active": "1bfbd8cb344b7c8a",
   "lastOpenFiles": [
+    "de/platform_clk_resetn_power_gen/domain_cross.md",
+    "de/platform_clk_resetn_power_gen/rdc/rdc.md",
+    "de/platform_clk_resetn_power_gen/platform/arm_solution/ref/arm_ethos-u85_npu_technical_reference_manual_102685_0000_05_en.pdf",
+    "de/platform_clk_resetn_power_gen/platform/arm_solution/ref/Power_Policy_Unit_Architecture_Specification_V_1_1_ARM_DEN_0051E.pdf",
+    "de/platform_clk_resetn_power_gen/platform/arm_solution/ref/LOW_POWER_DESIGN_IN_SOC_USING_ARM IP.pdf",
+    "de/platform_clk_resetn_power_gen/platform/andes_solution/ref/Mpcore_power_flow/smp_low_power/Understanding_And_Using_SMP_Multicore_Processors_Anderson.pdf",
+    "de/platform_clk_resetn_power_gen/platform/andes_solution/ref/Mpcore_power_flow/~$vcmp_low_power_flow.pptx",
     "de/platform_clk_resetn_power_gen/platform/andes_solution/ref/Mpcore_power_flow/smp_low_power/Power_Policy_Unit_Architecture_Specification_V_1_1_ARM_DEN_0051E.pdf",
     "de/platform_clk_resetn_power_gen/platform/andes_solution/ref/Mpcore_power_flow/smp_low_power/Power management.pdf",
     "de/platform_clk_resetn_power_gen/platform/andes_solution/include/power_control_slot.svg",
@@ -207,13 +213,7 @@
     "conflict-files-obsidian-git.md",
     "de/platform_clk_resetn_power_gen/wave",
     "de/platform_clk_resetn_power_gen/platform/andes_solution/ref_andescore/AndesCore_NX25(F)_DS131_V3.1.pdf",
-    "de/platform_clk_resetn_power_gen/platform/andes_solution/ref_andescore/AndesCore_AX27_DS163_V1.9.pdf",
-    "de/platform_clk_resetn_power_gen/platform/andes_solution/ref_andescore",
     "de/platform_clk_resetn_power_gen/platform/andes_solution/include/system_management_unit.svg",
-    "de/platform_clk_resetn_power_gen/platform/andes_solution/code/top/hdl/include/ae350_const.vh",
-    "de/platform_clk_resetn_power_gen/platform/andes_solution/code/top/hdl/include/ae350_config.vh",
-    "de/platform_clk_resetn_power_gen/platform/andes_solution/code/atcsmu100/hdl/include/atcsmu100_const.vh",
-    "de/platform_clk_resetn_power_gen/platform/andes_solution/code/atcsmu100/hdl/include/atcsmu100_config.vh",
     "Pasted image 20251121154103.png",
     "Pasted image 20251121151803.png",
     "Pasted image 20251121151504.png",
@@ -229,7 +229,6 @@
     "de/platform_clk_resetn_power_gen/platform/platform.md",
     "de/platform_clk_resetn_power_gen/cdc/cdc_concept/cdc_concept.md",
     "de/platform_clk_resetn_power_gen/cdc/cdc_design/cdc_design.md",
-    "de/platform_clk_resetn_power_gen/domain_cross.md",
     "de/platform_clk_resetn_power_gen/cdc/clk_gen/clk_gen.md",
     "de/platform_clk_resetn_power_gen/gck/gck.md",
     "de/platform_clk_resetn_power_gen/cdc_with_clk.md",
@@ -241,7 +240,6 @@
     "de/design_spec/verilog.md",
     "de/fifo/fifo.md",
     "workflow/git/git.md",
-    "de/platform_clk_resetn_power_gen/rdc/rdc.md",
     "de/platform_clk_resetn_power_gen/gen_power/power_gating/power_gating.md",
     "workflow/tnv.md"
   ]
