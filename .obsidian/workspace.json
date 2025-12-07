@@ -92,7 +92,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "de/fpu/f32mis.md",
+                "file": "de/_unorganized/master/src/pics/复位结构.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for f32mis"
+              "title": "Backlinks for 复位结构"
             }
           },
           {
@@ -140,13 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "workflow/git/git.md",
+                "file": "de/_unorganized/master/src/pics/复位结构.png",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of git"
+              "title": "Outline of 复位结构"
             }
           },
           {
@@ -169,8 +169,7 @@
               "title": "git-view"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
