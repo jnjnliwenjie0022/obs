@@ -23,16 +23,14 @@
 	- req == 0 && ack == 1 的時候資料不合法
 	- req == 0 && ack == 0 的時候資料不合法
 	- 不易發生deadlock
-- 2 phase handshake (不推薦)
+- 2 phase handshake (不推薦, 所以 AMBA P/Q-Channel 才採用 4 phase handshake)
 	- ![[Ultra Low Cost Asynchronous Handshake Checker.pdf#page=2&rect=54,86,294,163|Ultra Low Cost Asynchronous Handshake Checker, p.2|500]]
 	- 必須有2個phase
 	- req ^ ack 的時候資料合法
 	- req == ack 的時候資料不合法
 	- 容易發生 deadlock
 		- rdc (sender.req = 1 發送後, receiver.req = 1, 但 sender 被 reset, 導致雙方都在等待 toggle)
-		- clock off
-		- power off
-		-  
+		- 環形 deadlock (A等待B, B等待C, C等待A)
 - 其實只要是 handshake 結構就會發生 deadlock or livelock, 解決方式如下
 	- ref: https://fpgacpu.ca/fpga/handshake.html
 	- deadlock
