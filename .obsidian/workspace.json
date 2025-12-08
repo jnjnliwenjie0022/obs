@@ -21,8 +21,21 @@
               "icon": "lucide-file",
               "title": "andes_solution"
             }
+          },
+          {
+            "id": "596725f33675d442",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "de/platform_clk_resetn_power_gen/platform/andes_solution/include/power_control_slot.svg"
+              },
+              "icon": "lucide-image",
+              "title": "power_control_slot"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -196,8 +209,9 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "30294248ccdd5771",
+  "active": "596725f33675d442",
   "lastOpenFiles": [
+    "de/platform_clk_resetn_power_gen/platform/andes_solution/andes_solution.md",
     "Pasted image 20251208191132.png",
     "de/platform_clk_resetn_power_gen/cdc/cdc_concept/cdc_concept.md",
     "de/platform_clk_resetn_power_gen/cdc/cdc_concept/ref/Ultra Low Cost Asynchronous Handshake Checker.pdf",
@@ -218,7 +232,6 @@
     "de/_unorganized/master/src/pics/CDC总结.assets/image-20200807104727032.png",
     "de/_unorganized/master/src/pics/CDC总结.assets/image-20200807104711308.png",
     "de/_unorganized/master/src/pics/CDC总结.assets/image-20200807104436685.png",
-    "de/_unorganized/master/src/pics/CDC总结.assets/image-20200807104421226.png",
     "de/_unorganized/master/src/pics/面试题目总结.assets",
     "de/_unorganized/master/src/pics/CDC总结.assets",
     "de/_unorganized/master/src/pics",
