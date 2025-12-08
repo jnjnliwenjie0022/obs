@@ -21,13 +21,16 @@
 	- rsp == 1 && ack == 1 的時候資料合法
 	- rsp == 0 && ack == 1 的時候資料不合法
 	- rsp == 0 && ack == 0 的時候資料不合法
+	- 不易發生deadlock
 - 2 phase handshake
 	- ref: https://zhuanlan.zhihu.com/p/530973109
 	- 必須有2個phase
 	- rsp ^ ack 的時候資料合法
 	- rsp == ack 的時候資料不合法
+	- 如果 receiver 和 sender 不同 owner 完成, 可能發生 deadlock
+		- ref: https://zhuanlan.zhihu.com/p/530973109
 - 其實只要是 handshake 結構就會發生 deadlock or livelock, 解決方式如下
-	- - ref: https://fpgacpu.ca/fpga/handshake.html
+	- ref: https://fpgacpu.ca/fpga/handshake.html
 	- deadlock
 		- sender 的 valid 不能 depend on ready
 	- livelock
