@@ -11,15 +11,16 @@
             "id": "30294248ccdd5771",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "de/power/genus/genus.md",
-                "mode": "preview",
-                "source": false,
-                "backlinks": false
+                "file": "de/platform_clk_resetn_power_gen/platform/andes_solution/ref/Mpcore_power_flow/smp_low_power/Power_Policy_Unit_Architecture_Specification_V_1_1_ARM_DEN_0051E.pdf",
+                "page": 46,
+                "left": -8,
+                "top": 686,
+                "zoom": 1.8767634018540909
               },
-              "icon": "lucide-file",
-              "title": "genus"
+              "icon": "lucide-file-text",
+              "title": "Power_Policy_Unit_Architecture_Specification_V_1_1_ARM_DEN_0051E"
             }
           }
         ]
@@ -197,9 +198,12 @@
   },
   "active": "30294248ccdd5771",
   "lastOpenFiles": [
+    "de/platform_clk_resetn_power_gen/platform/andes_solution/ref/Mpcore_power_flow/smp_low_power/Understanding_And_Using_SMP_Multicore_Processors_Anderson.pdf",
+    "de/platform_clk_resetn_power_gen/platform/andes_solution/ref/Mpcore_power_flow/smp_low_power/Power management.pdf",
+    "de/platform_clk_resetn_power_gen/platform/andes_solution/ref/Mpcore_power_flow/smp_low_power/Power_Policy_Unit_Architecture_Specification_V_1_1_ARM_DEN_0051E.pdf",
+    "de/power/genus/genus.md",
     "de/platform_clk_resetn_power_gen/platform/andes_solution/ref/Mpcore_power_flow/SMU/~$U Design Specification v0.4.docx",
     "de/power/sdpd/power.md",
-    "de/power/genus/genus.md",
     "de/power/sdpd/sdpd.md",
     "de/platform_clk_resetn_power_gen/platform/andes_solution/include/system_management_unit.svg",
     "conflict-files-obsidian-git.md",
@@ -221,9 +225,6 @@
     "de/_unorganized/master/src/docs/轻松实现高速串行.pdf",
     "de/_unorganized/master/src/docs/跨越鸿沟_同步世界中的异步信号.pdf",
     "de/_unorganized/master/src/docs/跨时钟域处理3大方法揭秘.pdf",
-    "de/_unorganized/master/src/docs/综合与时序分析的设计约束.pdf",
-    "de/_unorganized/master/src/docs/硬件架构的艺术.pdf",
-    "de/_unorganized/master/src/docs/深度不是2的幂的异步FIFO存储器设计.pdf",
     "de/_unorganized/master/src/docs/波形捕获率.md",
     "de/_unorganized/master/src/docs/时序约束整理.md",
     "de/_unorganized/master/src/docs/异步FIFO面试题.md",
