@@ -16,6 +16,7 @@
 
 - ref: https://aijishu.com/a/1060000000200711
 - 4 phase handshake
+	- ![[Ultra Low Cost Asynchronous Handshake Checker.pdf#page=2&rect=55,107,295,183|Ultra Low Cost Asynchronous Handshake Checker, p.2|500]]
 	- 必須有4個 phase
 	- rsp == 1 && ack == 0 的時候資料合法
 	- rsp == 1 && ack == 1 的時候資料合法
@@ -23,7 +24,7 @@
 	- rsp == 0 && ack == 0 的時候資料不合法
 	- 不易發生deadlock
 - 2 phase handshake
-	- ref: https://zhuanlan.zhihu.com/p/530973109
+	- ![[Ultra Low Cost Asynchronous Handshake Checker.pdf#page=2&rect=54,86,294,163|Ultra Low Cost Asynchronous Handshake Checker, p.2|500]]
 	- 必須有2個phase
 	- rsp ^ ack 的時候資料合法
 	- rsp == ack 的時候資料不合法

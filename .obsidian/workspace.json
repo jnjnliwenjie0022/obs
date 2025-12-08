@@ -197,6 +197,9 @@
   },
   "active": "30294248ccdd5771",
   "lastOpenFiles": [
+    "de/platform_clk_resetn_power_gen/cdc/cdc_concept/ref/Ultra Low Cost Asynchronous Handshake Checker.pdf",
+    "de/platform_clk_resetn_power_gen/cdc/cdc_concept/cdc_concept.md",
+    "de/platform_clk_resetn_power_gen/cdc/cdc_concept/include/Pasted image 20251115202803.png",
     "de/Pasted image 20240606125937.png",
     "de/platform_clk_resetn_power_gen/platform/andes_solution/ref/Mpcore_power_flow/smp_low_power/Power_Policy_Unit_Architecture_Specification_V_1_1_ARM_DEN_0051E.pdf",
     "de/platform_clk_resetn_power_gen/platform/andes_solution/ref/Mpcore_power_flow/smp_low_power/Understanding_And_Using_SMP_Multicore_Processors_Anderson.pdf",
@@ -214,8 +217,6 @@
     "de/_unorganized/master/src/pics/CDC总结.assets/image-20200807104711308.png",
     "de/_unorganized/master/src/pics/CDC总结.assets/image-20200807104436685.png",
     "de/_unorganized/master/src/pics/CDC总结.assets/image-20200807104421226.png",
-    "de/_unorganized/master/src/pics/CDC总结.assets/image-20200807104639983.png",
-    "de/_unorganized/master/src/pics/CDC总结.assets/image-20200807104431345.png",
     "de/_unorganized/master/src/pics/面试题目总结.assets",
     "de/_unorganized/master/src/pics/CDC总结.assets",
     "de/_unorganized/master/src/pics",
@@ -223,7 +224,6 @@
     "de/_unorganized/master/src/docs/逻辑问题汇总整理.md",
     "de/_unorganized/master/src/docs/逻辑问题汇总.xmind",
     "de/_unorganized/master/src/docs/轻松实现高速串行.pdf",
-    "de/_unorganized/master/src/docs/跨越鸿沟_同步世界中的异步信号.pdf",
     "de/_unorganized/master/src/docs/波形捕获率.md",
     "de/_unorganized/master/src/docs/时序约束整理.md",
     "de/_unorganized/master/src/docs/异步FIFO面试题.md",
@@ -241,7 +241,6 @@
     "de/_unorganized/master/src/code/cdc_code.md",
     "de/_unorganized/master/src/code/debounce.md",
     "de/_unorganized/master/src/code/async_fifo_verilog.md",
-    "de/_unorganized/master/readme.md",
-    "de/platform_clk_resetn_power_gen/platform/andes_solution/andes_solution.md"
+    "de/_unorganized/master/readme.md"
   ]
 }
