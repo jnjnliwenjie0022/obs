@@ -197,6 +197,7 @@
   },
   "active": "30294248ccdd5771",
   "lastOpenFiles": [
+    "de/platform_clk_resetn_power_gen/platform/andes_solution/ref/Mpcore_power_flow/SMU/~$U Design Specification v0.4.docx",
     "de/power/sdpd/power.md",
     "de/power/genus/genus.md",
     "de/power/sdpd/sdpd.md",
@@ -241,7 +242,6 @@
     "de/_unorganized/master/src/code/debounce.md",
     "de/_unorganized/master/src/code/async_fifo_verilog.md",
     "de/_unorganized/master/readme.md",
-    "de/platform_clk_resetn_power_gen/platform/andes_solution/andes_solution.md",
-    "de/platform_clk_resetn_power_gen/platform/arm_solution/arm_solution.md"
+    "de/platform_clk_resetn_power_gen/platform/andes_solution/andes_solution.md"
   ]
 }
