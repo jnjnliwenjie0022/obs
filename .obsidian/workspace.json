@@ -11,12 +11,15 @@
             "id": "30294248ccdd5771",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "de/platform_clk_resetn_power_gen/platform/andes_solution/include/system_management_unit.svg"
+                "file": "de/power/genus/genus.md",
+                "mode": "preview",
+                "source": false,
+                "backlinks": false
               },
-              "icon": "lucide-image",
-              "title": "system_management_unit"
+              "icon": "lucide-file",
+              "title": "genus"
             }
           }
         ]
@@ -194,8 +197,10 @@
   },
   "active": "30294248ccdd5771",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
+    "de/power/sdpd/power.md",
+    "de/power/sdpd/sdpd.md",
     "de/platform_clk_resetn_power_gen/platform/andes_solution/include/system_management_unit.svg",
+    "conflict-files-obsidian-git.md",
     "de/_unorganized/master/src/pics/面试题目总结.assets/image-20200807101323009.png",
     "de/_unorganized/master/src/pics/CDC总结.assets/image-20200807112220676.png",
     "de/_unorganized/master/src/pics/CDC总结.assets/image-20200807112118594.png",
@@ -237,7 +242,6 @@
     "de/_unorganized/master/readme.md",
     "de/platform_clk_resetn_power_gen/platform/andes_solution/andes_solution.md",
     "de/platform_clk_resetn_power_gen/platform/arm_solution/arm_solution.md",
-    "de/platform_clk_resetn_power_gen/gen_power/power_sequence/power_sequence.md",
-    "de/platform_clk_resetn_power_gen/gen_clk/gen_clk.md"
+    "de/platform_clk_resetn_power_gen/gen_power/power_sequence/power_sequence.md"
   ]
 }
