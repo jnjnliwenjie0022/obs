@@ -11,16 +11,15 @@
             "id": "30294248ccdd5771",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "de/platform_clk_resetn_power_gen/platform/andes_solution/ref/Mpcore_power_flow/smp_low_power/Power_Policy_Unit_Architecture_Specification_V_1_1_ARM_DEN_0051E.pdf",
-                "page": 46,
-                "left": -8,
-                "top": 686,
-                "zoom": 1.8767634018540909
+                "file": "de/platform_clk_resetn_power_gen/cdc/cdc_concept/cdc_concept.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
               },
-              "icon": "lucide-file-text",
-              "title": "Power_Policy_Unit_Architecture_Specification_V_1_1_ARM_DEN_0051E"
+              "icon": "lucide-file",
+              "title": "cdc_concept"
             }
           }
         ]
@@ -55,7 +54,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "handshake",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -198,9 +197,10 @@
   },
   "active": "30294248ccdd5771",
   "lastOpenFiles": [
+    "de/Pasted image 20240606125937.png",
+    "de/platform_clk_resetn_power_gen/platform/andes_solution/ref/Mpcore_power_flow/smp_low_power/Power_Policy_Unit_Architecture_Specification_V_1_1_ARM_DEN_0051E.pdf",
     "de/platform_clk_resetn_power_gen/platform/andes_solution/ref/Mpcore_power_flow/smp_low_power/Understanding_And_Using_SMP_Multicore_Processors_Anderson.pdf",
     "de/platform_clk_resetn_power_gen/platform/andes_solution/ref/Mpcore_power_flow/smp_low_power/Power management.pdf",
-    "de/platform_clk_resetn_power_gen/platform/andes_solution/ref/Mpcore_power_flow/smp_low_power/Power_Policy_Unit_Architecture_Specification_V_1_1_ARM_DEN_0051E.pdf",
     "de/power/genus/genus.md",
     "de/platform_clk_resetn_power_gen/platform/andes_solution/ref/Mpcore_power_flow/SMU/~$U Design Specification v0.4.docx",
     "de/power/sdpd/power.md",
@@ -224,7 +224,6 @@
     "de/_unorganized/master/src/docs/逻辑问题汇总.xmind",
     "de/_unorganized/master/src/docs/轻松实现高速串行.pdf",
     "de/_unorganized/master/src/docs/跨越鸿沟_同步世界中的异步信号.pdf",
-    "de/_unorganized/master/src/docs/跨时钟域处理3大方法揭秘.pdf",
     "de/_unorganized/master/src/docs/波形捕获率.md",
     "de/_unorganized/master/src/docs/时序约束整理.md",
     "de/_unorganized/master/src/docs/异步FIFO面试题.md",

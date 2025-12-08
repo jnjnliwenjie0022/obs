@@ -18,6 +18,9 @@
 - 4 phase handshake
 	- 必須有4個 phase
 	- rsp == 1 && ack == 0 的時候資料合法
+	- rsp == 1 && ack == 1 的時候資料合法
+	- rsp == 0 && ack == 1 的時候資料不合法
+	- rsp == 0 && ack == 0 的時候資料不合法
 - 2 phase handshake
 	- ref: https://zhuanlan.zhihu.com/p/530973109
 	- 必須有2個phase
