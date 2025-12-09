@@ -29,7 +29,7 @@
               "type": "markdown",
               "state": {
                 "file": "de/platform_clk_resetn_power_gen/gen_clk/gen_clk.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false,
                 "backlinks": false
               },
@@ -37,8 +37,7 @@
               "title": "gen_clk"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -111,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "de/platform_clk_resetn_power_gen/gen_clk/gen_clk.md",
+                "file": "de/platform_clk_resetn_power_gen/cdc/clk_gen/clk_gen.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -121,7 +120,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for gen_clk"
+              "title": "Backlinks for clk_gen"
             }
           },
           {
@@ -130,12 +129,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "de/platform_clk_resetn_power_gen/gen_clk/gen_clk.md",
+                "file": "de/platform_clk_resetn_power_gen/cdc/clk_gen/clk_gen.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from gen_clk"
+              "title": "Outgoing links from clk_gen"
             }
           },
           {
@@ -159,13 +158,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "de/platform_clk_resetn_power_gen/gen_clk/gen_clk.md",
+                "file": "de/platform_clk_resetn_power_gen/cdc/clk_gen/clk_gen.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of gen_clk"
+              "title": "Outline of clk_gen"
             }
           },
           {
@@ -192,7 +191,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 346.5
+    "width": 346.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -209,10 +209,11 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "6c813dd01e85813c",
+  "active": "35a470a2c390e07e",
   "lastOpenFiles": [
-    "de/platform_clk_resetn_power_gen/cdc/clk_gen/clk_gen.md",
+    "de/platform_clk_resetn_power_gen/gen_clk/code/sample_clk_gen",
     "de/platform_clk_resetn_power_gen/gen_clk/gen_clk.md",
+    "de/platform_clk_resetn_power_gen/cdc/clk_gen/clk_gen.md",
     "de/_unorganized/master/src/docs/轻松实现高速串行.pdf",
     "de/_unorganized/master/src/docs/FPGA相关知识.pdf",
     "de/_unorganized/master/src/docs/FPGA&数字IC开发工程师笔试116题.pdf",
@@ -255,7 +256,6 @@
     "de/_unorganized/master/src/docs/建立时间保持时间.md",
     "de/_unorganized/master/src/docs/低功耗笔记.md",
     "de/_unorganized/master/src/docs/FPGA设计与验证流程.md",
-    "de/_unorganized/master/src/docs/ASIC&FPGA设计流程.md",
-    "de/_unorganized/master/src/code/pwm_cnt.md"
+    "de/_unorganized/master/src/docs/ASIC&FPGA设计流程.md"
   ]
 }
