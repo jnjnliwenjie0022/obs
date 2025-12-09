@@ -38,7 +38,10 @@
 # high_fanin_cell
 
 - ref: https://blog.csdn.net/LogicYarn/article/details/149078684
-- 
+- AOI
+	- ![[Pasted image 20251209135504.png|500]]
+	- 優點: Low Latency
+	- 缺點: high fanin
 
 ## m2p_congestion
 
