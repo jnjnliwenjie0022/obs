@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "de/platform_clk_resetn_power_gen/gen_clk/gen_clk.md",
+                "file": "de/platform/gen_clk/gen_clk.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
@@ -26,15 +26,12 @@
             "id": "6c813dd01e85813c",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "de/design_spec/fctrl.md",
-                "mode": "preview",
-                "source": false,
-                "backlinks": false
+                "file": "de/platform/platform/andes_solution/include/gen.svg"
               },
-              "icon": "lucide-file",
-              "title": "fctrl"
+              "icon": "lucide-image",
+              "title": "gen"
             }
           }
         ],
@@ -111,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "de/design_spec/fctrl.md",
+                "file": "de/platform/platform/andes_solution/include/gen.svg",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -121,7 +118,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for fctrl"
+              "title": "Backlinks for gen"
             }
           },
           {
@@ -130,12 +127,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "de/design_spec/fctrl.md",
+                "file": "de/platform/platform/andes_solution/include/gen.svg",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from fctrl"
+              "title": "Outgoing links from gen"
             }
           },
           {
@@ -159,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "de/design_spec/fctrl.md",
+                "file": "de/platform/platform/andes_solution/include/gen.svg",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of fctrl"
+              "title": "Outline of gen"
             }
           },
           {
@@ -210,8 +207,11 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "6c813dd01e85813c",
+  "active": "35a470a2c390e07e",
   "lastOpenFiles": [
+    "de/platform/platform/andes_solution/include/power_control_slot.svg",
+    "de/platform/platform/andes_solution/include/system_management_unit.svg",
+    "de/design_spec/fctrl.md",
     "de/design_spec/fast_design.md",
     "de/domain_cross/cdc/cdc_design/cdc_design.md",
     "de/domain_cross/cdc/cdc_concept/cdc_concept.md",
@@ -220,10 +220,10 @@
     "de/domain_cross/metastable_state.md",
     "de/domain_cross/domain_cross.md",
     "de/domain_cross",
-    "de/platform_clk_resetn_power_gen/gen_clk/gen_clk.md",
+    "de/platform/gen_clk/gen_clk.md",
     "de/platform_clk_resetn_power_gen/cdc/clk_gen/clk_gen.md",
     "de/platform_clk_resetn_power_gen/gck/code/gck",
-    "de/platform_clk_resetn_power_gen/gen_clk/code/clk_gen",
+    "de/platform/gen_clk/code/clk_gen",
     "de/_unorganized/master/src/docs/轻松实现高速串行.pdf",
     "de/_unorganized/master/src/docs/FPGA相关知识.pdf",
     "de/_unorganized/master/src/docs/FPGA&数字IC开发工程师笔试116题.pdf",
@@ -235,17 +235,16 @@
     "de/backend/include/Pasted image 20251209135504.png",
     "de/_unorganized/master/src/docs/H-Verilog典型电路设计.pdf",
     "de/_unorganized/master/readme.md",
-    "de/platform_clk_resetn_power_gen/gen_resetn/gen_resetn.md",
-    "de/platform_clk_resetn_power_gen/gen_resetn/include/Pasted image 20251022072848.png",
-    "de/platform_clk_resetn_power_gen/gen_resetn/include/Pasted image 20251022161641.png",
+    "de/platform/gen_resetn/gen_resetn.md",
+    "de/platform/gen_resetn/include/Pasted image 20251022072848.png",
+    "de/platform/gen_resetn/include/Pasted image 20251022161641.png",
     "de/cim/include/uarch.svg",
     "de/cim/include/Pasted image 20251003111225.png",
     "de/cim/include/dataflow.svg",
     "Pasted image 20251022093525.png",
     "de/cim/include/Pasted image 20251003113443.png",
     "de/cim/analysis.md",
-    "de/platform_clk_resetn_power_gen/platform/andes_solution/include/Pasted image 20251208191132.png",
-    "de/platform_clk_resetn_power_gen/platform/andes_solution/andes_solution.md",
+    "de/platform/platform/andes_solution/andes_solution.md",
     "de/power/genus/genus.md",
     "de/power/sdpd/power.md",
     "de/power/sdpd/sdpd.md",
@@ -255,8 +254,6 @@
     "de/_unorganized/master/src/docs/波形捕获率.md",
     "de/_unorganized/master/src/docs/时序约束整理.md",
     "de/_unorganized/master/src/docs/异步FIFO面试题.md",
-    "de/_unorganized/master/src/docs/异步FIFO.md",
-    "de/_unorganized/master/src/docs/建立时间保持时间.md",
-    "de/_unorganized/master/src/docs/低功耗笔记.md"
+    "de/_unorganized/master/src/docs/异步FIFO.md"
   ]
 }
