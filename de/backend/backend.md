@@ -35,6 +35,11 @@
 
 # congestion
 
+# high_fanin_cell
+
+- ref: https://blog.csdn.net/LogicYarn/article/details/149078684
+- 
+
 ## m2p_congestion
 
 - ref: https://ivlsi.com/pitch-spacing-offset-vlsi-physical-design/
