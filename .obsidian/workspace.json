@@ -4,19 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "27094d19900bf36b",
+        "id": "a9f0456738b162bc",
         "type": "tabs",
         "children": [
           {
-            "id": "1bfbd8cb344b7c8a",
+            "id": "7913bc19109f5cb2",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "de/_unorganized/master/src/pics/复位结构.png"
+                "file": "de/backend/backend.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
               },
-              "icon": "lucide-image",
-              "title": "复位结构"
+              "icon": "lucide-file",
+              "title": "backend"
             }
           }
         ]
@@ -51,7 +54,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "handshake",
+                "query": "congestion",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -76,7 +79,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 449.5
+    "width": 506.5
   },
   "right": {
     "id": "baf9c43aba40b294",
@@ -92,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "de/_unorganized/master/src/pics/复位结构.png",
+                "file": "de/backend/backend.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +105,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 复位结构"
+              "title": "Backlinks for backend"
             }
           },
           {
@@ -111,12 +114,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "de/fpu/f32mis.md",
+                "file": "de/backend/backend.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from f32mis"
+              "title": "Outgoing links from backend"
             }
           },
           {
@@ -140,13 +143,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "de/_unorganized/master/src/pics/复位结构.png",
+                "file": "de/backend/backend.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 复位结构"
+              "title": "Outline of backend"
             }
           },
           {
@@ -155,8 +158,8 @@
             "state": {
               "type": "git-history-view",
               "state": {},
-              "icon": "lucide-ghost",
-              "title": "git-history-view"
+              "icon": "history",
+              "title": "History"
             }
           },
           {
@@ -165,19 +168,19 @@
             "state": {
               "type": "git-view",
               "state": {},
-              "icon": "lucide-ghost",
-              "title": "git-view"
+              "icon": "git-pull-request",
+              "title": "Source Control"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 346.5,
-    "collapsed": true
+    "width": 346.5
   },
   "left-ribbon": {
     "hiddenItems": {
+      "obsidian-git:Open Git source control": false,
       "bases:Create new base": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
@@ -185,7 +188,6 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "obsidian-git:Open Git source control": false,
       "pdf-plus:PDF++: Toggle auto-copy": false,
       "pdf-plus:PDF++: Toggle auto-focus": false,
       "pdf-plus:PDF++: Toggle auto-paste": false
@@ -193,40 +195,42 @@
   },
   "active": "35a470a2c390e07e",
   "lastOpenFiles": [
-    "de/platform_clk_resetn_power_gen/gen_clk/include/Pasted image 20251121151455.png",
-    "de/platform_clk_resetn_power_gen/gen_clk/include/Pasted image 20251121144903.png",
-    "de/platform_clk_resetn_power_gen/gen_clk/include/Pasted image 20251020155734.png",
-    "de/platform_clk_resetn_power_gen/gen_clk/include/Pasted image 20251020155629.png",
-    "de/platform_clk_resetn_power_gen/gen_clk/include/Pasted image 20251020155456.png",
-    "de/platform_clk_resetn_power_gen/gen_clk/include/Pasted image 20251020155026.png",
-    "de/platform_clk_resetn_power_gen/gen_clk/include/Pasted image 20251020003416.png",
-    "de/platform_clk_resetn_power_gen/gck/include/Pasted image 20251121154103.png",
-    "de/platform_clk_resetn_power_gen/domain_cross/include/Pasted image 20251021022807.png",
-    "de/platform_clk_resetn_power_gen/domain_cross/include",
-    "de/platform_clk_resetn_power_gen/domain_cross/domain_cross.md",
-    "de/platform_clk_resetn_power_gen/domain_cross",
-    "de/cim/include/Pasted image 20251003113443.png",
-    "de/backend/include/Pasted image 20250924180053.png",
-    "de/_unorganized/master/src/docs/~$CDC--讲师卢子威.pptx",
-    "de/_unorganized/master/src/code/async_fifo_verilog.md",
+    "de/_unorganized/master/src/docs/H-Verilog典型电路设计.pdf",
+    "de/_unorganized/master/src/docs/Constraining_Designs_for_Synthesis_and_Timing_Analysis.pdf",
+    "de/_unorganized/master/src/docs/CrossClockDomain_design.pdf",
+    "de/backend/backend.md",
     "de/_unorganized/master/readme.md",
-    "de/_unorganized/master/src/vedio/CMOS Example [Inv(A+BC)C+D].mp4",
-    "de/_unorganized/master/src/code/cdc_code.md",
-    "de/_unorganized/master/src/code/pwm_cnt.md",
-    "de/_unorganized/master/src/code/glitch_free.md",
-    "de/_unorganized/master/src/code/easy_serdes_code.md",
-    "de/_unorganized/master/src/code/divide_three.md",
-    "de/_unorganized/master/src/code/debounce.md",
-    "de/_unorganized/master/src/code/crc_code.md",
-    "de/_unorganized/cosim.md",
-    "de/_unorganized/master/src/pics/面试题目总结.assets",
-    "de/_unorganized/master/src/pics/CDC总结.assets",
+    "de/platform_clk_resetn_power_gen/gen_resetn/gen_resetn.md",
+    "de/platform_clk_resetn_power_gen/gen_resetn/include/Pasted image 20251022072848.png",
+    "de/platform_clk_resetn_power_gen/gen_resetn/include/Pasted image 20251022161641.png",
+    "de/cim/include/uarch.svg",
+    "de/cim/include/Pasted image 20251003111225.png",
+    "de/cim/include/dataflow.svg",
+    "Pasted image 20251022093525.png",
+    "de/cim/include/Pasted image 20251003113443.png",
+    "de/platform_clk_resetn_power_gen/gen_resetn/books/Measurement of De-assertion Threshold of Power-on-Reset Circuits.pdf",
+    "de/platform_clk_resetn_power_gen/domain_cross/include/Pasted image 20251021022807.png",
+    "de/platform_clk_resetn_power_gen/domain_cross/domain_cross.md",
+    "de/platform_clk_resetn_power_gen/cdc/clk_gen/clk_gen.md",
+    "de/platform_clk_resetn_power_gen/cdc/cdc_design/cdc_design.md",
+    "de/platform_clk_resetn_power_gen/cdc/cdc_concept/cdc_concept.md",
+    "de/platform_clk_resetn_power_gen/cdc/cdc_concept/ref/Ultra Low Cost Asynchronous Handshake Checker.pdf",
+    "de/platform_clk_resetn_power_gen/domain_cross/include",
+    "de/platform_clk_resetn_power_gen/domain_cross",
+    "de/cim/analysis.md",
+    "de/platform_clk_resetn_power_gen/platform/andes_solution/include/Pasted image 20251208191132.png",
+    "de/platform_clk_resetn_power_gen/platform/andes_solution/include/Pasted image 20251119143418.png",
+    "de/platform_clk_resetn_power_gen/platform/andes_solution/andes_solution.md",
+    "de/platform_clk_resetn_power_gen/platform/andes_solution/ref/Mpcore_power_flow/smp_low_power/Power_Policy_Unit_Architecture_Specification_V_1_1_ARM_DEN_0051E.pdf",
+    "de/platform_clk_resetn_power_gen/platform/andes_solution/ref/Mpcore_power_flow/smp_low_power/Understanding_And_Using_SMP_Multicore_Processors_Anderson.pdf",
+    "de/platform_clk_resetn_power_gen/platform/andes_solution/ref/Mpcore_power_flow/smp_low_power/Power management.pdf",
+    "de/power/genus/genus.md",
+    "de/platform_clk_resetn_power_gen/platform/andes_solution/ref/Mpcore_power_flow/SMU/~$U Design Specification v0.4.docx",
+    "de/power/sdpd/power.md",
+    "de/power/sdpd/sdpd.md",
+    "conflict-files-obsidian-git.md",
     "de/_unorganized/master/src/docs/面试题目总结.md",
     "de/_unorganized/master/src/docs/逻辑问题汇总整理.md",
-    "de/_unorganized/master/src/docs/逻辑问题汇总.xmind",
-    "de/_unorganized/master/src/docs/深度不是2的幂的异步FIFO存储器设计.pdf",
-    "de/_unorganized/master/src/docs/轻松实现高速串行.pdf",
-    "de/_unorganized/master/src/docs/跨越鸿沟_同步世界中的异步信号.pdf",
     "de/_unorganized/master/src/docs/波形捕获率.md",
     "de/_unorganized/master/src/docs/时序约束整理.md",
     "de/_unorganized/master/src/docs/异步FIFO面试题.md",
@@ -236,8 +240,6 @@
     "de/_unorganized/master/src/docs/FPGA设计与验证流程.md",
     "de/_unorganized/master/src/docs/CDC总结.md",
     "de/_unorganized/master/src/docs/ASIC&FPGA设计流程.md",
-    "de/platform_clk_resetn_power_gen/cdc/cdc_concept/cdc_concept.md",
-    "de/platform_clk_resetn_power_gen/cdc/cdc_design/cdc_design.md",
-    "de/platform_clk_resetn_power_gen/cdc/clk_gen/clk_gen.md"
+    "de/_unorganized/master/src/code/pwm_cnt.md"
   ]
 }
