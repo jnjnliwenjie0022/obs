@@ -11,12 +11,15 @@
             "id": "30294248ccdd5771",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "de/platform_clk_resetn_power_gen/platform/andes_solution/include/system_management_unit.svg"
+                "file": "de/backend/backend.md",
+                "mode": "preview",
+                "source": false,
+                "backlinks": false
               },
-              "icon": "lucide-image",
-              "title": "system_management_unit"
+              "icon": "lucide-file",
+              "title": "backend"
             }
           }
         ]
@@ -92,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "de/fpu/f32mis.md",
+                "file": "de/backend/backend.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +105,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for f32mis"
+              "title": "Backlinks for backend"
             }
           },
           {
@@ -111,12 +114,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "de/fpu/f32mis.md",
+                "file": "de/backend/backend.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from f32mis"
+              "title": "Outgoing links from backend"
             }
           },
           {
@@ -140,13 +143,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "de/platform_clk_resetn_power_gen/gck/gck.md",
+                "file": "de/backend/backend.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of gck"
+              "title": "Outline of backend"
             }
           },
           {
@@ -169,13 +172,11 @@
               "title": "Source Control"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 346.5,
-    "collapsed": true
+    "width": 346.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -192,15 +193,23 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "35a470a2c390e07e",
+  "active": "30294248ccdd5771",
   "lastOpenFiles": [
-    "de/platform_clk_resetn_power_gen/platform/andes_solution/include/power_control_slot.svg",
+    "Pasted image 20250924163225.png",
+    "Pasted image 20250924180053.png",
+    "Pasted image 20251003113443.png",
+    "de/backend/backend.md",
+    "de/Pasted image 20240606125937.png",
+    "Pasted image 20251020155734.png",
+    "Pasted image 20251022093525.png",
+    "Pasted image 20251023151127.png",
     "de/platform_clk_resetn_power_gen/platform/andes_solution/andes_solution.md",
+    "de/platform_clk_resetn_power_gen/platform/andes_solution/include/system_management_unit.svg",
+    "de/platform_clk_resetn_power_gen/platform/andes_solution/include/power_control_slot.svg",
     "Pasted image 20251208191132.png",
     "de/platform_clk_resetn_power_gen/cdc/cdc_concept/cdc_concept.md",
     "de/platform_clk_resetn_power_gen/cdc/cdc_concept/ref/Ultra Low Cost Asynchronous Handshake Checker.pdf",
     "de/platform_clk_resetn_power_gen/cdc/cdc_concept/include/Pasted image 20251115202803.png",
-    "de/Pasted image 20240606125937.png",
     "de/platform_clk_resetn_power_gen/platform/andes_solution/ref/Mpcore_power_flow/smp_low_power/Power_Policy_Unit_Architecture_Specification_V_1_1_ARM_DEN_0051E.pdf",
     "de/platform_clk_resetn_power_gen/platform/andes_solution/ref/Mpcore_power_flow/smp_low_power/Understanding_And_Using_SMP_Multicore_Processors_Anderson.pdf",
     "de/platform_clk_resetn_power_gen/platform/andes_solution/ref/Mpcore_power_flow/smp_low_power/Power management.pdf",
@@ -208,13 +217,7 @@
     "de/platform_clk_resetn_power_gen/platform/andes_solution/ref/Mpcore_power_flow/SMU/~$U Design Specification v0.4.docx",
     "de/power/sdpd/power.md",
     "de/power/sdpd/sdpd.md",
-    "de/platform_clk_resetn_power_gen/platform/andes_solution/include/system_management_unit.svg",
     "conflict-files-obsidian-git.md",
-    "de/_unorganized/master/src/pics/面试题目总结.assets/image-20200807101323009.png",
-    "de/_unorganized/master/src/pics/CDC总结.assets/image-20200807112220676.png",
-    "de/_unorganized/master/src/pics/CDC总结.assets/image-20200807112118594.png",
-    "de/_unorganized/master/src/pics/CDC总结.assets/image-20200807104727032.png",
-    "de/_unorganized/master/src/pics/CDC总结.assets/image-20200807104711308.png",
     "de/_unorganized/master/src/pics/面试题目总结.assets",
     "de/_unorganized/master/src/pics/CDC总结.assets",
     "de/_unorganized/master/src/pics",
@@ -237,7 +240,6 @@
     "de/_unorganized/master/src/code/easy_serdes_code.md",
     "de/_unorganized/master/src/code/crc_code.md",
     "de/_unorganized/master/src/code/cdc_code.md",
-    "de/_unorganized/master/src/code/debounce.md",
-    "de/_unorganized/master/src/code/async_fifo_verilog.md"
+    "de/_unorganized/master/src/code/debounce.md"
   ]
 }
