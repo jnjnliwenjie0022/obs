@@ -189,3 +189,40 @@ mmcm1 ae350_fpga_clkgen (
 
 - Johnson Counter
 	- ref: https://www.chipverify.com/verilog/verilog-johnson-counter
+- sample clock generator
+	- ref: [[sample_kv_clk_gen.v]]
+
+
+
+
+# notice #TODO 
+
+- 不需要高精度且是同相位的部分通常會在 subsystem 上處理
+- 注意事項:
+	- Duty Cycle 需要 50%
+	- Glitch Free
+- 常見實作方法
+	- 針對ASIC
+		- 需要高精度
+			- 先經過PLL
+		- 不需要高精度且是同相位: 
+			- 方法1: original_clk -> counter -> en -> register
+				- 可行且**推薦**
+				- 不用處理ICG
+				- 不用處理CDC
+				- 不用處理STA
+			- 方法2: original_clk -> counter -> clk -> register
+				- 不用處理ICG
+				- 不用處理CDC (derived clock)
+				- 要處理STA
+					- create_generated_clock
+					- ref: https://www.youtube.com/watch?v=wmyelwAOSIE
+	- 針對FPGA
+		- 需要高精度
+			- 先經過PLL/MMCM/DCM
+				- ref: https://digilent.com/blog/vcos-mmcms-plls-and-cmts-clocking-resources-on-fpga-boards/
+			- 再經過BUF
+		- 不需要高精度且是同相位: 
+			- 方法1: original_clk -> counter -> en -> register
+			- 方法2: original_clk -> counter -> clk -> 手動BUF -> clk -> register
+				- counter的clk結果需要經過BUF(**不要**用 LUT/FF 去當做“全片時鐘”的路徑：在 FPGA 中，如果你用一般邏輯產生新時鐘，路徑不走 global clock network，會導致 skew/jitter/無法 timing closure)
