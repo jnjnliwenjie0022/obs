@@ -185,3 +185,7 @@ mmcm1 ae350_fpga_clkgen (
 );
 ```
 
+# gen_asic_clk
+
+- Johnson Counter
+	- ref: https://www.chipverify.com/verilog/verilog-johnson-counter

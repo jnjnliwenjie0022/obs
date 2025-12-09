@@ -32,8 +32,7 @@
 # sync_clk_gen
 ## asic
 
-- 推薦使用Johnson Counter
-	- ref: https://www.chipverify.com/verilog/verilog-johnson-counter
+
 - 在simulation的時候要確保clk為“0” (blocking)
 	- ref: https://www.cnblogs.com/oomusou/archive/2010/07/30/blocking_vs_nonblocking.html
 
