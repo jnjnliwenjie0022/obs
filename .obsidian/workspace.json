@@ -4,19 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "27094d19900bf36b",
+        "id": "3acdbe6ecbac2337",
         "type": "tabs",
         "children": [
           {
-            "id": "1bfbd8cb344b7c8a",
+            "id": "30294248ccdd5771",
             "type": "leaf",
             "state": {
               "type": "image",
               "state": {
-                "file": "de/_unorganized/master/src/pics/复位结构.png"
+                "file": "de/platform_clk_resetn_power_gen/platform/andes_solution/include/system_management_unit.svg"
               },
               "icon": "lucide-image",
-              "title": "复位结构"
+              "title": "system_management_unit"
             }
           }
         ]
@@ -76,7 +76,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 449.5
+    "width": 506.5
   },
   "right": {
     "id": "baf9c43aba40b294",
@@ -92,7 +92,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "de/_unorganized/master/src/pics/复位结构.png",
+                "file": "de/fpu/f32mis.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 复位结构"
+              "title": "Backlinks for f32mis"
             }
           },
           {
@@ -140,13 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "de/_unorganized/master/src/pics/复位结构.png",
+                "file": "de/platform_clk_resetn_power_gen/gck/gck.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 复位结构"
+              "title": "Outline of gck"
             }
           },
           {
@@ -155,8 +155,8 @@
             "state": {
               "type": "git-history-view",
               "state": {},
-              "icon": "lucide-ghost",
-              "title": "git-history-view"
+              "icon": "history",
+              "title": "History"
             }
           },
           {
@@ -165,11 +165,12 @@
             "state": {
               "type": "git-view",
               "state": {},
-              "icon": "lucide-ghost",
-              "title": "git-view"
+              "icon": "git-pull-request",
+              "title": "Source Control"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -178,6 +179,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "obsidian-git:Open Git source control": false,
       "bases:Create new base": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
@@ -185,7 +187,6 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "obsidian-git:Open Git source control": false,
       "pdf-plus:PDF++: Toggle auto-copy": false,
       "pdf-plus:PDF++: Toggle auto-focus": false,
       "pdf-plus:PDF++: Toggle auto-paste": false
@@ -193,39 +194,34 @@
   },
   "active": "35a470a2c390e07e",
   "lastOpenFiles": [
+    "de/platform_clk_resetn_power_gen/platform/andes_solution/include/power_control_slot.svg",
+    "de/platform_clk_resetn_power_gen/platform/andes_solution/andes_solution.md",
     "Pasted image 20251208191132.png",
-    "de/_unorganized/master/src/docs/~$CDC--讲师卢子威.pptx",
-    "de/_unorganized/master/src/pics/建立时间计算数据的到达时间.png",
-    "de/_unorganized/master/src/pics/建立时间计算Setup的裕量.png",
-    "de/_unorganized/master/src/pics/Tco的由来.png",
-    "de/_unorganized/master/src/pics/set_multicycle_path_holdup_timing.png",
-    "de/_unorganized/master/src/pics/PrimaryClockPath2.png",
-    "de/_unorganized/master/src/pics/PrimaryClockPath.png",
-    "de/_unorganized/master/src/pics/PrimaryClockPathFromSerdes.png",
-    "de/_unorganized/master/src/pics/GeneratedClockSourceClock.png",
-    "de/_unorganized/master/src/pics/GeneratedClcokConstraints.png",
-    "de/_unorganized/master/src/pics/clk_skew很大.png",
-    "de/_unorganized/master/src/code/async_fifo_verilog.md",
-    "de/_unorganized/master/readme.md",
-    "de/_unorganized/master/src/vedio/CMOS Example [Inv(A+BC)C+D].mp4",
-    "de/_unorganized/master/src/code/cdc_code.md",
-    "de/_unorganized/master/src/code/pwm_cnt.md",
-    "de/_unorganized/master/src/code/glitch_free.md",
-    "de/_unorganized/master/src/code/easy_serdes_code.md",
-    "de/_unorganized/master/src/code/divide_three.md",
-    "de/_unorganized/master/src/code/debounce.md",
-    "de/_unorganized/master/src/code/crc_code.md",
-    "de/_unorganized/cosim.md",
+    "de/platform_clk_resetn_power_gen/cdc/cdc_concept/cdc_concept.md",
+    "de/platform_clk_resetn_power_gen/cdc/cdc_concept/ref/Ultra Low Cost Asynchronous Handshake Checker.pdf",
+    "de/platform_clk_resetn_power_gen/cdc/cdc_concept/include/Pasted image 20251115202803.png",
+    "de/Pasted image 20240606125937.png",
+    "de/platform_clk_resetn_power_gen/platform/andes_solution/ref/Mpcore_power_flow/smp_low_power/Power_Policy_Unit_Architecture_Specification_V_1_1_ARM_DEN_0051E.pdf",
+    "de/platform_clk_resetn_power_gen/platform/andes_solution/ref/Mpcore_power_flow/smp_low_power/Understanding_And_Using_SMP_Multicore_Processors_Anderson.pdf",
+    "de/platform_clk_resetn_power_gen/platform/andes_solution/ref/Mpcore_power_flow/smp_low_power/Power management.pdf",
+    "de/power/genus/genus.md",
+    "de/platform_clk_resetn_power_gen/platform/andes_solution/ref/Mpcore_power_flow/SMU/~$U Design Specification v0.4.docx",
+    "de/power/sdpd/power.md",
+    "de/power/sdpd/sdpd.md",
+    "de/platform_clk_resetn_power_gen/platform/andes_solution/include/system_management_unit.svg",
+    "conflict-files-obsidian-git.md",
+    "de/_unorganized/master/src/pics/面试题目总结.assets/image-20200807101323009.png",
+    "de/_unorganized/master/src/pics/CDC总结.assets/image-20200807112220676.png",
+    "de/_unorganized/master/src/pics/CDC总结.assets/image-20200807112118594.png",
+    "de/_unorganized/master/src/pics/CDC总结.assets/image-20200807104727032.png",
+    "de/_unorganized/master/src/pics/CDC总结.assets/image-20200807104711308.png",
     "de/_unorganized/master/src/pics/面试题目总结.assets",
     "de/_unorganized/master/src/pics/CDC总结.assets",
+    "de/_unorganized/master/src/pics",
     "de/_unorganized/master/src/docs/面试题目总结.md",
     "de/_unorganized/master/src/docs/逻辑问题汇总整理.md",
     "de/_unorganized/master/src/docs/逻辑问题汇总.xmind",
-    "de/_unorganized/master/src/docs/深度不是2的幂的异步FIFO存储器设计.pdf",
     "de/_unorganized/master/src/docs/轻松实现高速串行.pdf",
-    "de/_unorganized/master/src/docs/跨越鸿沟_同步世界中的异步信号.pdf",
-    "de/_unorganized/master/src/docs/跨时钟域处理3大方法揭秘.pdf",
-    "de/_unorganized/master/src/docs/综合与时序分析的设计约束.pdf",
     "de/_unorganized/master/src/docs/波形捕获率.md",
     "de/_unorganized/master/src/docs/时序约束整理.md",
     "de/_unorganized/master/src/docs/异步FIFO面试题.md",
@@ -235,9 +231,13 @@
     "de/_unorganized/master/src/docs/FPGA设计与验证流程.md",
     "de/_unorganized/master/src/docs/CDC总结.md",
     "de/_unorganized/master/src/docs/ASIC&FPGA设计流程.md",
-    "de/platform_clk_resetn_power_gen/cdc/cdc_concept/cdc_concept.md",
-    "de/platform_clk_resetn_power_gen/cdc/cdc_design/cdc_design.md",
-    "de/platform_clk_resetn_power_gen/cdc/clk_gen/clk_gen.md",
-    "de/platform_clk_resetn_power_gen/platform/andes_solution/andes_solution.md"
+    "de/_unorganized/master/src/code/pwm_cnt.md",
+    "de/_unorganized/master/src/code/glitch_free.md",
+    "de/_unorganized/master/src/code/divide_three.md",
+    "de/_unorganized/master/src/code/easy_serdes_code.md",
+    "de/_unorganized/master/src/code/crc_code.md",
+    "de/_unorganized/master/src/code/cdc_code.md",
+    "de/_unorganized/master/src/code/debounce.md",
+    "de/_unorganized/master/src/code/async_fifo_verilog.md"
   ]
 }
