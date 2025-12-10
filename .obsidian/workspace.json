@@ -23,16 +23,15 @@
             "id": "6c813dd01e85813c",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "de/_unorganized/master/src/docs/SoC设计方法与实现_第3版.pdf",
-                "page": 140,
-                "left": -5,
-                "top": 349,
-                "zoom": 2.8775519847435223
+                "file": "de/domain_cross/cdc/cdc.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
               },
-              "icon": "lucide-file-text",
-              "title": "SoC设计方法与实现_第3版"
+              "icon": "lucide-file",
+              "title": "cdc"
             }
           }
         ],
@@ -109,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "de/_unorganized/master/src/docs/SoC设计方法与实现_第3版.pdf",
+                "file": "de/domain_cross/cdc/cdc.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +118,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for SoC设计方法与实现_第3版"
+              "title": "Backlinks for cdc"
             }
           },
           {
@@ -128,12 +127,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "de/_unorganized/master/src/docs/SoC设计方法与实现_第3版.pdf",
+                "file": "de/domain_cross/cdc/cdc.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from SoC设计方法与实现_第3版"
+              "title": "Outgoing links from cdc"
             }
           },
           {
@@ -157,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "de/_unorganized/master/src/docs/SoC设计方法与实现_第3版.pdf",
+                "file": "de/domain_cross/cdc/cdc.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of SoC设计方法与实现_第3版"
+              "title": "Outline of cdc"
             }
           },
           {
@@ -210,14 +209,17 @@
   },
   "active": "6c813dd01e85813c",
   "lastOpenFiles": [
+    "de/domain_cross/cdc/ref/SoC设计方法与实现_第3版.pdf",
+    "de/domain_cross/cdc/cdc.md",
+    "de/domain_cross/cdc/Untitled",
+    "de/domain_cross/cdc/include/Pasted image 20251115202803.png",
+    "de/domain_cross/cdc/include/cdc_design_signal.svg",
+    "de/domain_cross/cdc/include/cdc_design.svg",
     "de/platform/platform/andes_solution/include/gen.svg",
     "de/domain_cross/domain_cross.md",
-    "de/_unorganized/master/src/docs/SoC设计方法与实现_第3版.pdf",
-    "de/domain_cross/cdc/cdc.md",
     "de/domain_cross/include/Pasted image 20251021022807.png",
     "de/domain_cross/rdc/rdc.md",
     "de/domain_cross/metastable_state.md",
-    "de/domain_cross/cdc/include/Pasted image 20251115202803.png",
     "de/domain_cross/cdc/code",
     "de/domain_cross/cdc/cdc_design/cdc_design.md",
     "Pasted image 20251210150354.png",
@@ -236,14 +238,11 @@
     "de/_unorganized/master/src/docs/FPGA相关知识.pdf",
     "de/_unorganized/master/src/docs/FPGA&数字IC开发工程师笔试116题.pdf",
     "de/_unorganized/master/src/docs/fifodepthcalculationmadeeasy2.pdf",
-    "de/_unorganized/master/src/docs/CrossClockDomain_design.pdf",
     "de/_unorganized/master/src/docs/CDC总结.md",
     "de/backend/backend.md",
     "de/backend/include/Pasted image 20251209135504.png",
     "de/_unorganized/master/readme.md",
     "de/platform/gen_resetn/gen_resetn.md",
-    "de/platform/gen_resetn/include/Pasted image 20251022072848.png",
-    "de/platform/gen_resetn/include/Pasted image 20251022161641.png",
     "de/cim/analysis.md",
     "de/power/genus/genus.md",
     "de/power/sdpd/power.md",

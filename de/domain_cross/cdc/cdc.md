@@ -30,6 +30,7 @@
 	- req ^ ack 的時候資料合法
 	- req == ack 的時候資料不合法
 	- 容易發生 deadlock
+		- ![[SoC设计方法与实现_第3版.pdf#page=140&rect=25,57,485,95|SoC设计方法与实现_第3版, p.124]]
 		- rdc (sender.req = 1 發送後, receiver.req = 1, 但 sender 被 reset, 導致雙方都在等待 toggle)
 		- ![[Pasted image 20251210150334.png]]
 		- 環形 deadlock (A等待B, B等待C, C等待A)
