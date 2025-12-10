@@ -177,7 +177,7 @@ SystemVerilog验证--测试平台编写指南：
 
 ### SOC相关
 
-[SoC设计方法与实现_第3版.pdf](./src/docs/SoC设计方法与实现_第3版.pdf)
+[SoC设计方法与实现_第3版.pdf](SoC设计方法与实现_第3版.pdf)
 
 [DarkRISC-V开源代码](https://github.com/darklife/darkriscv)
 
@@ -283,7 +283,7 @@ risc-v介绍博客：[从零开始写RISC-V处理器](https://liangkangnan.gitee
 
 [数字IC设计前端推荐书籍](https://zhuanlan.zhihu.com/p/105718069)
 
-[SoC设计方法与实现](./src/docs/SoC设计方法与实现_第3版.pdf)
+[SoC设计方法与实现](SoC设计方法与实现_第3版.pdf)
 
 [DarkRISC-V开源代码](https://github.com/darklife/darkriscv)
 

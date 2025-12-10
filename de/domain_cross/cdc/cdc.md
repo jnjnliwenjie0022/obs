@@ -12,7 +12,7 @@
 		- 解決 metastable state
 	- receiver control path input 如果是 pulse 信號, 必須轉成 level 信號
 	- receiver control path input 的 syncer 必須是 2 stages 以上
-# cdc_without_clk
+# phase_handshake
 
 - ref: https://aijishu.com/a/1060000000200711
 - 4 phase handshake
@@ -23,22 +23,55 @@
 	- req == 0 && ack == 1 的時候資料不合法
 	- req == 0 && ack == 0 的時候資料不合法
 	- 不易發生deadlock
+	- ![[Pasted image 20251210150354.png]]
 - 2 phase handshake (不推薦, 所以 AMBA P/Q-Channel 才採用 4 phase handshake)
 	- ![[Ultra Low Cost Asynchronous Handshake Checker.pdf#page=2&rect=54,86,294,163|Ultra Low Cost Asynchronous Handshake Checker, p.2|500]]
 	- 必須有2個phase
 	- req ^ ack 的時候資料合法
 	- req == ack 的時候資料不合法
 	- 容易發生 deadlock
+		- ![[SoC设计方法与实现_第3版.pdf#page=140&rect=25,57,485,95|SoC设计方法与实现_第3版, p.124]]
 		- rdc (sender.req = 1 發送後, receiver.req = 1, 但 sender 被 reset, 導致雙方都在等待 toggle)
+		- ![[Pasted image 20251210150334.png]]
 		- 環形 deadlock (A等待B, B等待C, C等待A)
-- 其實只要是 handshake 結構就會發生 deadlock or livelock, 解決方式如下
+```json
+{ signal: [
+  { name: 'req',               wave: 'LH.L.H.L..' },
+  { name: 'ack',               wave: 'L.H.L.H.L.' },
+  { name: 'cs',                wave: 'x.3x......', data:['reset']},
+  { name: '2phase',            wave: 'x==x......', data:['valid','valid']},
+  { name: '2phase.sender.req', wave: 'LHL.......' },
+  { name: '2phase.sender.ack', wave: 'L.HL......' },
+  { name: 'req',               wave: 'LH.L.H.L..' },
+  { name: 'ack',               wave: 'L.H.L.H.L.' },
+  { name: 'cs',                wave: 'x.3x......', data:['reset']},
+  { name: '4phase',            wave: 'x.........' },
+  { name: '4phase.sender.req', wave: 'LHL.......' },
+  { name: '4phase.sender.ack', wave: 'L.........' },
+]}
+```
+- valid ready handshake
 	- ref: https://fpgacpu.ca/fpga/handshake.html
 	- deadlock
 		- sender 的 valid 不能 depend on ready
 	- livelock
 		- sender 和 receiver 要確切執行 handshake, 以 valid-ready handshake 爲例子, sender 和 receiver 都必須確實出現 valid == 1 && ready == 1
 
-# cdc_with_clk
+# handshake_with_clk
 
 - pulse signal to level signal then level signal to pulse signal
-- ![[Pasted image 20251115202803.png]]
+- ![[Pasted image 20251115202803.png|1000]]
+
+- divclk_gen
+	- ![[cdc_design.svg|500]]
+- CDC design rule
+	- async == 1
+		- aclk, aresetn for axi domain
+		- clk, resetn for tl domian
+		- clk_en unused
+	- async == 0
+		- aclk, aresetn unused
+		- clk, resetn for tl domian
+		- clk_en for clock ratio
+- CDC block diagram and signal
+	- ![[cdc_design_signal.svg]]
