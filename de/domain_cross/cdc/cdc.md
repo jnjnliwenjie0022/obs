@@ -60,3 +60,17 @@
 
 - pulse signal to level signal then level signal to pulse signal
 - ![[Pasted image 20251115202803.png|1000]]
+
+- divclk_gen
+	- ![[cdc_design.svg|500]]
+- CDC design rule
+	- async == 1
+		- aclk, aresetn for axi domain
+		- clk, resetn for tl domian
+		- clk_en unused
+	- async == 0
+		- aclk, aresetn unused
+		- clk, resetn for tl domian
+		- clk_en for clock ratio
+- CDC block diagram and signal
+	- ![[cdc_design_signal.svg]]

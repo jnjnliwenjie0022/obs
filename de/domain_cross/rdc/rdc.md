@@ -1,4 +1,3 @@
-
 - 以下是 resetn 在 RTL 上的描述, 必然是一個 aync 的電路設計, 雖然電路設計是 async, 但不代表 signal behavior 是 async
 ```verilog
 always @ (posedge clk or negedge resetn)
