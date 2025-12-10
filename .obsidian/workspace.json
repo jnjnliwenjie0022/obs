@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "financial/蔡森/蔡森-多空轉折一手抓.md",
+                "file": "de/domain_cross/cdc/cdc.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "蔡森-多空轉折一手抓"
+              "title": "cdc"
             }
           }
         ]
@@ -196,8 +196,8 @@
   },
   "active": "1bfbd8cb344b7c8a",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
     "financial/蔡森/蔡森-多空轉折一手抓.md",
+    "conflict-files-obsidian-git.md",
     "de/domain_cross/cdc/ref/Ultra Low Cost Asynchronous Handshake Checker.pdf",
     "de/domain_cross/cdc/ref/SoC设计方法与实现_第3版.pdf",
     "de/domain_cross/cdc/ref",
