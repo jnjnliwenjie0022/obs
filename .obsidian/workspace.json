@@ -35,7 +35,8 @@
               "title": "SoC设计方法与实现_第3版"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -108,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "de/platform/platform/andes_solution/include/gen.svg",
+                "file": "de/_unorganized/master/src/docs/SoC设计方法与实现_第3版.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +119,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for gen"
+              "title": "Backlinks for SoC设计方法与实现_第3版"
             }
           },
           {
@@ -127,12 +128,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "de/platform/platform/andes_solution/include/gen.svg",
+                "file": "de/_unorganized/master/src/docs/SoC设计方法与实现_第3版.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from gen"
+              "title": "Outgoing links from SoC设计方法与实现_第3版"
             }
           },
           {
@@ -156,13 +157,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "de/platform/platform/andes_solution/include/gen.svg",
+                "file": "de/_unorganized/master/src/docs/SoC设计方法与实现_第3版.pdf",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of gen"
+              "title": "Outline of SoC设计方法与实现_第3版"
             }
           },
           {
@@ -207,10 +208,10 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "7913bc19109f5cb2",
+  "active": "6c813dd01e85813c",
   "lastOpenFiles": [
-    "de/domain_cross/domain_cross.md",
     "de/platform/platform/andes_solution/include/gen.svg",
+    "de/domain_cross/domain_cross.md",
     "de/_unorganized/master/src/docs/SoC设计方法与实现_第3版.pdf",
     "de/domain_cross/cdc/cdc.md",
     "de/domain_cross/include/Pasted image 20251021022807.png",
