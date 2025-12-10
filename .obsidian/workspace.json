@@ -207,9 +207,11 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "35a470a2c390e07e",
+  "active": "7913bc19109f5cb2",
   "lastOpenFiles": [
     "de/domain_cross/domain_cross.md",
+    "de/platform/platform/andes_solution/include/gen.svg",
+    "de/_unorganized/master/src/docs/SoC设计方法与实现_第3版.pdf",
     "de/domain_cross/cdc/cdc.md",
     "de/domain_cross/include/Pasted image 20251021022807.png",
     "de/domain_cross/rdc/rdc.md",
@@ -217,14 +219,12 @@
     "de/domain_cross/cdc/include/Pasted image 20251115202803.png",
     "de/domain_cross/cdc/code",
     "de/domain_cross/cdc/cdc_design/cdc_design.md",
-    "de/_unorganized/master/src/docs/SoC设计方法与实现_第3版.pdf",
     "Pasted image 20251210150354.png",
     "Pasted image 20251210150334.png",
     "de/platform/gen_clk/gen_clk.md",
     "de/platform/platform/andes_solution/andes_solution.md",
     "de/platform/platform/andes_solution/include/power_control_slot.svg",
     "de/platform/platform/andes_solution/include/system_management_unit.svg",
-    "de/platform/platform/andes_solution/include/gen.svg",
     "de/design_spec/fctrl.md",
     "de/design_spec/fast_design.md",
     "de/domain_cross",
