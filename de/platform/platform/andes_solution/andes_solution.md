@@ -40,7 +40,9 @@
 # waveform
 
 ![[Pasted image 20251208191132.png]]
-- notice: async handshake 不要使用 4 phase handshake, 使用 2 phase handshake 比較安全
+- notice: 
+	- ref: 
+	- async handshake(req/ack) 不要使用 2 phase handshake, 使用 4 phase handshake 比較安全
 ```json
 {signal: [
   {name: 'cs',               wave: '3.4.5.6789.=....9.8765.3...', data:['active','wait','frq','iso','ret','rst','pwr','sleep','pwr','rst','ret','iso','frq','active']},
