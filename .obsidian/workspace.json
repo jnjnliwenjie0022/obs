@@ -11,12 +11,15 @@
             "id": "1bfbd8cb344b7c8a",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "de/_unorganized/master/src/pics/复位结构.png"
+                "file": "financial/蔡森/蔡森-多空轉折一手抓.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
               },
-              "icon": "lucide-image",
-              "title": "复位结构"
+              "icon": "lucide-file",
+              "title": "蔡森-多空轉折一手抓"
             }
           }
         ]
@@ -191,8 +194,12 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "35a470a2c390e07e",
+  "active": "1bfbd8cb344b7c8a",
   "lastOpenFiles": [
+    "financial/tamp/Pasted image 20250429002353.png",
+    "financial/tamp/Pasted image 20250428005346.png",
+    "financial/蔡森/蔡森-多空轉折一手抓.md",
+    "de/_unorganized/master/src/pics/复位结构.png",
     "de/platform/platform/arm_solution/ref/Power_Policy_Unit_Architecture_Specification_V_1_1_ARM_DEN_0051E.pdf",
     "de/platform/platform/arm_solution/ref/LOW_POWER_DESIGN_IN_SOC_USING_ARM IP.pdf",
     "de/platform/platform/arm_solution/ref/arm_ethos-u85_npu_technical_reference_manual_102685_0000_05_en.pdf",
@@ -204,7 +211,6 @@
     "de/platform/platform/andes_solution/ref_andescore",
     "de/platform/platform/andes_solution/ref/SMU/Thumbs.db",
     "de/platform/platform/andes_solution/ref/SMU/RISCV_SBI_vs_ARM_PSCI_v9.pdf",
-    "de/platform/platform/andes_solution/ref/SMU/Power_Control_Flow_190304.pdf",
     "de/platform/platform/andes_solution/include/system_management_unit.svg",
     "de/platform/platform/andes_solution/include/power_control_slot.svg",
     "de/platform/platform/andes_solution/include/Pasted image 20251208191132.png",
@@ -216,8 +222,6 @@
     "de/platform/gen_resetn/include/reset_property.svg",
     "de/platform/gen_resetn/include/reset_high_fanout.svg",
     "de/platform/gen_resetn/include/reset_clock_sequence.svg",
-    "de/platform/gen_resetn/include/reset_anti_metastability.svg",
-    "de/platform/gen_resetn/include/resetn_tree.svg",
     "de/platform/gen_resetn/gen_resetn.md",
     "de/platform/gen_clk/gen_clk.md",
     "de/platform/gck/gck.md",
@@ -237,7 +241,6 @@
     "de/_unorganized/master/src/code/debounce.md",
     "de/_unorganized/master/src/code/crc_code.md",
     "de/_unorganized/cosim.md",
-    "de/_unorganized/master/src/docs/面试题目总结.md",
-    "de/_unorganized/master/src/docs/逻辑问题汇总整理.md"
+    "de/_unorganized/master/src/docs/面试题目总结.md"
   ]
 }
