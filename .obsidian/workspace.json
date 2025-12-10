@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "de/platform/gen_clk/gen_clk.md",
+                "file": "de/domain_cross/cdc/cdc_concept/cdc_concept.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "gen_clk"
+              "title": "cdc_concept"
             }
           },
           {
@@ -29,17 +29,16 @@
               "type": "pdf",
               "state": {
                 "file": "de/_unorganized/master/src/docs/SoC设计方法与实现_第3版.pdf",
-                "page": 1,
+                "page": 140,
                 "left": -4,
-                "top": 726,
+                "top": 345,
                 "zoom": 4.048261292220755
               },
               "icon": "lucide-file-text",
               "title": "SoC设计方法与实现_第3版"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -112,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "de/_unorganized/master/src/docs/SoC设计方法与实现_第3版.pdf",
+                "file": "de/domain_cross/cdc/cdc_concept/cdc_concept.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +121,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for SoC设计方法与实现_第3版"
+              "title": "Backlinks for cdc_concept"
             }
           },
           {
@@ -131,12 +130,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "de/_unorganized/master/src/docs/SoC设计方法与实现_第3版.pdf",
+                "file": "de/domain_cross/cdc/cdc_concept/cdc_concept.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from SoC设计方法与实现_第3版"
+              "title": "Outgoing links from cdc_concept"
             }
           },
           {
@@ -160,13 +159,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "de/_unorganized/master/src/docs/SoC设计方法与实现_第3版.pdf",
+                "file": "de/domain_cross/cdc/cdc_concept/cdc_concept.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of SoC设计方法与实现_第3版"
+              "title": "Outline of cdc_concept"
             }
           },
           {
@@ -211,8 +210,10 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "6c813dd01e85813c",
+  "active": "7913bc19109f5cb2",
   "lastOpenFiles": [
+    "de/platform/gen_clk/gen_clk.md",
+    "de/_unorganized/master/src/docs/SoC设计方法与实现_第3版.pdf",
     "de/domain_cross/cdc/cdc_concept/cdc_concept.md",
     "de/domain_cross/cdc/cdc_design/cdc_design.md",
     "de/platform/platform/andes_solution/andes_solution.md",
@@ -226,7 +227,6 @@
     "de/domain_cross/metastable_state.md",
     "de/domain_cross/domain_cross.md",
     "de/domain_cross",
-    "de/platform/gen_clk/gen_clk.md",
     "de/platform_clk_resetn_power_gen/cdc/clk_gen/clk_gen.md",
     "de/platform_clk_resetn_power_gen/gck/code/gck",
     "de/platform/gen_clk/code/clk_gen",
@@ -239,7 +239,6 @@
     "de/_unorganized/master/src/docs/CDC总结.md",
     "de/backend/backend.md",
     "de/backend/include/Pasted image 20251209135504.png",
-    "de/_unorganized/master/src/docs/H-Verilog典型电路设计.pdf",
     "de/_unorganized/master/readme.md",
     "de/platform/gen_resetn/gen_resetn.md",
     "de/platform/gen_resetn/include/Pasted image 20251022072848.png",
