@@ -26,15 +26,16 @@
             "id": "6c813dd01e85813c",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "de/domain_cross/cdc/cdc_concept/cdc_concept.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
+                "file": "de/_unorganized/master/src/docs/SoC设计方法与实现_第3版.pdf",
+                "page": 1,
+                "left": -4,
+                "top": 726,
+                "zoom": 4.048261292220755
               },
-              "icon": "lucide-file",
-              "title": "cdc_concept"
+              "icon": "lucide-file-text",
+              "title": "SoC设计方法与实现_第3版"
             }
           }
         ],
@@ -111,7 +112,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "de/domain_cross/cdc/cdc_concept/cdc_concept.md",
+                "file": "de/_unorganized/master/src/docs/SoC设计方法与实现_第3版.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -121,7 +122,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for cdc_concept"
+              "title": "Backlinks for SoC设计方法与实现_第3版"
             }
           },
           {
@@ -130,12 +131,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "de/domain_cross/cdc/cdc_concept/cdc_concept.md",
+                "file": "de/_unorganized/master/src/docs/SoC设计方法与实现_第3版.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from cdc_concept"
+              "title": "Outgoing links from SoC设计方法与实现_第3版"
             }
           },
           {
@@ -159,13 +160,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "de/domain_cross/cdc/cdc_concept/cdc_concept.md",
+                "file": "de/_unorganized/master/src/docs/SoC设计方法与实现_第3版.pdf",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of cdc_concept"
+              "title": "Outline of SoC设计方法与实现_第3版"
             }
           },
           {
@@ -212,8 +213,8 @@
   },
   "active": "6c813dd01e85813c",
   "lastOpenFiles": [
-    "de/domain_cross/cdc/cdc_design/cdc_design.md",
     "de/domain_cross/cdc/cdc_concept/cdc_concept.md",
+    "de/domain_cross/cdc/cdc_design/cdc_design.md",
     "de/platform/platform/andes_solution/andes_solution.md",
     "de/platform/platform/andes_solution/include/power_control_slot.svg",
     "de/platform/platform/andes_solution/include/system_management_unit.svg",
