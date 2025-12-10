@@ -31,7 +31,7 @@
 	- 容易發生 deadlock
 		- rdc (sender.req = 1 發送後, receiver.req = 1, 但 sender 被 reset, 導致雙方都在等待 toggle)
 		- 環形 deadlock (A等待B, B等待C, C等待A)
-- 其實只要是 handshake 結構就會發生 deadlock or livelock, 解決方式如下
+- valid ready protocal
 	- ref: https://fpgacpu.ca/fpga/handshake.html
 	- deadlock
 		- sender 的 valid 不能 depend on ready
