@@ -31,7 +31,7 @@
 	- 容易發生 deadlock
 		- rdc (sender.req = 1 發送後, receiver.req = 1, 但 sender 被 reset, 導致雙方都在等待 toggle)
 		- 環形 deadlock (A等待B, B等待C, C等待A)
-- valid ready protocal
+- valid ready handshake
 	- ref: https://fpgacpu.ca/fpga/handshake.html
 	- deadlock
 		- sender 的 valid 不能 depend on ready
