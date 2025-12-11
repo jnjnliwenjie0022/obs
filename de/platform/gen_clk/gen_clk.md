@@ -169,7 +169,8 @@ BUFGCE	TL_UL_CLK_MUX_INST (
 ```
 - MMCM/DCM 分別用來倍頻和分頻
 	- 具有 high driving 和 low latency 的特性
-	- 可以設定 dynamic reconfiguration
+	- 可以設定 phase alignment 使 phase 完全一致
+		- ref: https://blog.csdn.net/u011565038/article/details/138144289?spm=1001.2101.3001.4242.1&utm_relevant_index=3
 ```verilog
 mmcm1 ae350_fpga_clkgen (
 	.resetn		(main_rstn		),
