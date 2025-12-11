@@ -41,7 +41,7 @@
 
 ![[Pasted image 20251208191132.png]]
 - notice: 
-	- ref: 
+	- ref: [[cdc]]
 	- async handshake(req/ack) 不要使用 2 phase handshake, 使用 4 phase handshake 比較安全
 ```json
 {signal: [
