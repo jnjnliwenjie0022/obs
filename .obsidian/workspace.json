@@ -4,25 +4,53 @@
     "type": "split",
     "children": [
       {
-        "id": "27094d19900bf36b",
+        "id": "a9f0456738b162bc",
         "type": "tabs",
         "children": [
           {
-            "id": "1bfbd8cb344b7c8a",
+            "id": "7913bc19109f5cb2",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "de/platform/platform/andes_solution/include/gen.svg"
+              },
+              "icon": "lucide-image",
+              "title": "gen"
+            }
+          },
+          {
+            "id": "6c813dd01e85813c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "de/domain_cross/domain_cross.md",
+                "file": "de/domain_cross/cdc/cdc.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "cdc"
+            }
+          },
+          {
+            "id": "4eec65f5b41354c6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "de/fpu/f16mac.md",
                 "mode": "preview",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "domain_cross"
+              "title": "f16mac"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -54,7 +82,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "handshake",
+                "query": "congestion",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -79,7 +107,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 449.5
+    "width": 506.5
   },
   "right": {
     "id": "baf9c43aba40b294",
@@ -95,7 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "de/_unorganized/master/src/pics/复位结构.png",
+                "file": "de/fpu/f16mac.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +133,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 复位结构"
+              "title": "Backlinks for f16mac"
             }
           },
           {
@@ -114,12 +142,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "de/fpu/f32mis.md",
+                "file": "de/fpu/f16mac.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from f32mis"
+              "title": "Outgoing links from f16mac"
             }
           },
           {
@@ -143,13 +171,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "de/_unorganized/master/src/pics/复位结构.png",
+                "file": "de/fpu/f16mac.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 复位结构"
+              "title": "Outline of f16mac"
             }
           },
           {
@@ -158,8 +186,8 @@
             "state": {
               "type": "git-history-view",
               "state": {},
-              "icon": "lucide-ghost",
-              "title": "git-history-view"
+              "icon": "history",
+              "title": "History"
             }
           },
           {
@@ -168,8 +196,8 @@
             "state": {
               "type": "git-view",
               "state": {},
-              "icon": "lucide-ghost",
-              "title": "git-view"
+              "icon": "git-pull-request",
+              "title": "Source Control"
             }
           }
         ]
@@ -181,6 +209,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "obsidian-git:Open Git source control": false,
       "bases:Create new base": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
@@ -188,58 +217,57 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "obsidian-git:Open Git source control": false,
       "pdf-plus:PDF++: Toggle auto-copy": false,
       "pdf-plus:PDF++: Toggle auto-focus": false,
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "1bfbd8cb344b7c8a",
+  "active": "4eec65f5b41354c6",
   "lastOpenFiles": [
-    "de/platform/gen_power/power_sequence/power_sequence.md",
-    "de/platform/gen_power/power_sequence/ref/Low Power Methodology Manual For System-on-Chip Design.pdf",
-    "de/domain_cross/domain_cross.md",
-    "de/domain_cross/rdc/rdc.md",
     "de/domain_cross/cdc/cdc.md",
-    "financial/蔡森/蔡森-多空轉折一手抓.md",
-    "conflict-files-obsidian-git.md",
-    "de/domain_cross/cdc/ref/Ultra Low Cost Asynchronous Handshake Checker.pdf",
     "de/domain_cross/cdc/ref/SoC设计方法与实现_第3版.pdf",
-    "de/domain_cross/cdc/ref",
-    "de/domain_cross/cdc/include/cdc_design_signal.svg",
+    "de/domain_cross/cdc/Untitled",
     "de/domain_cross/cdc/include/Pasted image 20251115202803.png",
+    "de/domain_cross/cdc/include/cdc_design_signal.svg",
     "de/domain_cross/cdc/include/cdc_design.svg",
-    "de/domain_cross/cdc/include",
-    "de/domain_cross/cdc/code/atctlc2axi500/syn/flist.tcl",
-    "de/domain_cross/cdc/code/atctlc2axi500/syn/atctlc2axi500.sdc",
-    "de/domain_cross/cdc/code/atctlc2axi500/nds_package/run_test",
-    "de/domain_cross/cdc/code/atctlc2axi500/nds_package/do_signoff_preconfig",
-    "de/domain_cross/cdc/code/atctlc2axi500/nds_package/do_release_preconfig",
+    "de/platform/platform/andes_solution/include/gen.svg",
+    "de/domain_cross/domain_cross.md",
+    "de/domain_cross/include/Pasted image 20251021022807.png",
+    "de/domain_cross/rdc/rdc.md",
+    "de/domain_cross/metastable_state.md",
+    "de/domain_cross/cdc/code",
+    "de/domain_cross/cdc/cdc_design/cdc_design.md",
     "Pasted image 20251210150354.png",
     "Pasted image 20251210150334.png",
-    "financial/tamp/Pasted image 20250429002353.png",
-    "financial/tamp/Pasted image 20250428005346.png",
-    "de/_unorganized/master/src/pics/复位结构.png",
-    "de/platform/platform/arm_solution/arm_solution.md",
-    "de/platform/platform/andes_solution/include/system_management_unit.svg",
-    "de/platform/platform/andes_solution/include/power_control_slot.svg",
-    "de/platform/platform/andes_solution/andes_solution.md",
-    "de/platform/gen_power/power_gating/power_gating.md",
-    "de/platform/gen_resetn/gen_resetn.md",
     "de/platform/gen_clk/gen_clk.md",
-    "de/platform/gck/gck.md",
-    "de/domain_cross/cdc/cdc_design/cdc_design.md",
-    "de/domain_cross/cdc/cdc_concept/cdc_concept.md",
-    "de/domain_cross/metastable_state.md",
-    "de/platform_clk_resetn_power_gen/domain_cross/domain_cross.md",
-    "de/_unorganized/master/src/code/async_fifo_verilog.md",
+    "de/platform/platform/andes_solution/andes_solution.md",
+    "de/platform/platform/andes_solution/include/power_control_slot.svg",
+    "de/platform/platform/andes_solution/include/system_management_unit.svg",
+    "de/design_spec/fctrl.md",
+    "de/design_spec/fast_design.md",
+    "de/domain_cross",
+    "de/platform_clk_resetn_power_gen/cdc/clk_gen/clk_gen.md",
+    "de/platform_clk_resetn_power_gen/gck/code/gck",
+    "de/platform/gen_clk/code/clk_gen",
+    "de/_unorganized/master/src/docs/轻松实现高速串行.pdf",
+    "de/_unorganized/master/src/docs/FPGA相关知识.pdf",
+    "de/_unorganized/master/src/docs/FPGA&数字IC开发工程师笔试116题.pdf",
+    "de/_unorganized/master/src/docs/fifodepthcalculationmadeeasy2.pdf",
+    "de/_unorganized/master/src/docs/CDC总结.md",
+    "de/backend/backend.md",
+    "de/backend/include/Pasted image 20251209135504.png",
     "de/_unorganized/master/readme.md",
-    "de/_unorganized/master/src/code/cdc_code.md",
-    "de/_unorganized/master/src/code/pwm_cnt.md",
-    "de/_unorganized/master/src/code/glitch_free.md",
-    "de/_unorganized/master/src/code/easy_serdes_code.md",
-    "de/_unorganized/master/src/code/divide_three.md",
-    "de/_unorganized/master/src/code/debounce.md",
-    "de/_unorganized/master/src/code/crc_code.md"
+    "de/platform/gen_resetn/gen_resetn.md",
+    "de/cim/analysis.md",
+    "de/power/genus/genus.md",
+    "de/power/sdpd/power.md",
+    "de/power/sdpd/sdpd.md",
+    "conflict-files-obsidian-git.md",
+    "de/_unorganized/master/src/docs/面试题目总结.md",
+    "de/_unorganized/master/src/docs/逻辑问题汇总整理.md",
+    "de/_unorganized/master/src/docs/波形捕获率.md",
+    "de/_unorganized/master/src/docs/时序约束整理.md",
+    "de/_unorganized/master/src/docs/异步FIFO面试题.md",
+    "de/_unorganized/master/src/docs/异步FIFO.md"
   ]
 }
