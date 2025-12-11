@@ -4,28 +4,6 @@
     "type": "split",
     "children": [
       {
-        "id": "f57e4a721277f910",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "45544fd832bd03d3",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "de/platform/gen_clk/book/基于 BUFGMUX 与 DCM 的 FPGA 时钟电路设计.pdf",
-                "page": 1,
-                "left": -13,
-                "top": 846,
-                "zoom": 1.1642753939719768
-              },
-              "icon": "lucide-file-text",
-              "title": "基于 BUFGMUX 与 DCM 的 FPGA 时钟电路设计"
-            }
-          }
-        ]
-      },
-      {
         "id": "a9f0456738b162bc",
         "type": "tabs",
         "children": [
@@ -36,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "de/platform/gen_clk/gen_clk.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false,
                 "backlinks": false
               },
@@ -147,7 +125,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "de/platform/gen_clk/book/基于 BUFGMUX 与 DCM 的 FPGA 时钟电路设计.pdf",
+                "file": "de/platform/gen_clk/gen_clk.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -157,7 +135,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 基于 BUFGMUX 与 DCM 的 FPGA 时钟电路设计"
+              "title": "Backlinks for gen_clk"
             }
           },
           {
@@ -166,12 +144,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "de/platform/gen_clk/book/基于 BUFGMUX 与 DCM 的 FPGA 时钟电路设计.pdf",
+                "file": "de/platform/gen_clk/gen_clk.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from 基于 BUFGMUX 与 DCM 的 FPGA 时钟电路设计"
+              "title": "Outgoing links from gen_clk"
             }
           },
           {
@@ -195,13 +173,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "de/platform/gen_clk/book/基于 BUFGMUX 与 DCM 的 FPGA 时钟电路设计.pdf",
+                "file": "de/platform/gen_clk/gen_clk.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 基于 BUFGMUX 与 DCM 的 FPGA 时钟电路设计"
+              "title": "Outline of gen_clk"
             }
           },
           {
@@ -246,8 +224,9 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "45544fd832bd03d3",
+  "active": "7913bc19109f5cb2",
   "lastOpenFiles": [
+    "de/platform/gen_clk/book/基于 BUFGMUX 与 DCM 的 FPGA 时钟电路设计.pdf",
     "de/platform/gen_clk/gen_clk.md",
     "de/platform/platform/andes_solution/include/gen.svg",
     "de/domain_cross/cdc/cdc.md",
