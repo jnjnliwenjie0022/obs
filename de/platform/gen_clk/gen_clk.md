@@ -143,7 +143,7 @@
 	- BUFGCTRL-based clock multiplexers 只適用於 async clock
 	- ![[Pasted image 20251121151455.png]]
 	- ![[Pasted image 20251121151504.png]]
-- 以下是 AndesTech 在 FPGA 上遵守的 rules (很嚴格)
+- 以下是 AndesTech 在 FPGA 上遵守的 rules (很嚴格, 雖然最後也沒有遵守 哈!!)
 	- ![[Pasted image 20251121151803.png]]
 - BUFGCTRL 是保留所有 PIN 的 BUFG
 ```verilog
