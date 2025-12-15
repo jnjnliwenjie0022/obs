@@ -32,7 +32,7 @@
 
 - ![[system_management_unit.svg]]
 
-# ppu
+# pcs
 
 - ![[power_control_slot.svg]]
 	- 爲了設計的安全性, output 一律 register out
