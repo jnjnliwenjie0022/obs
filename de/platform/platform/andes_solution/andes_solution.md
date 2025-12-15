@@ -71,6 +71,5 @@
 
 # soft_reset
 
-
-將  
+將 soft_reset 分成 assert 和 deassert 是一個聰明的做法, 
 ![[arm_ethos-u85_npu_technical_reference_manual_102685_0000_05_en.pdf#page=34&rect=80,334,558,529|arm_ethos-u85_npu_technical_reference_manual_102685_0000_05_en, p.34]]
