@@ -11,16 +11,15 @@
             "id": "7913bc19109f5cb2",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "de/platform/platform/arm_solution/ref/arm_ethos-u85_npu_technical_reference_manual_102685_0000_05_en.pdf",
-                "page": 27,
-                "left": -6,
-                "top": 115,
-                "zoom": 2.3284313725490198
+                "file": "de/platform/platform/andes_solution/andes_solution.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
               },
-              "icon": "lucide-file-text",
-              "title": "arm_ethos-u85_npu_technical_reference_manual_102685_0000_05_en"
+              "icon": "lucide-file",
+              "title": "andes_solution"
             }
           }
         ]
@@ -96,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "de/platform/platform/arm_solution/ref/arm_ethos-u85_npu_technical_reference_manual_102685_0000_05_en.pdf",
+                "file": "de/platform/platform/andes_solution/andes_solution.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,7 +105,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for arm_ethos-u85_npu_technical_reference_manual_102685_0000_05_en"
+              "title": "Backlinks for andes_solution"
             }
           },
           {
@@ -115,12 +114,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "de/platform/platform/arm_solution/ref/arm_ethos-u85_npu_technical_reference_manual_102685_0000_05_en.pdf",
+                "file": "de/platform/platform/andes_solution/andes_solution.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from arm_ethos-u85_npu_technical_reference_manual_102685_0000_05_en"
+              "title": "Outgoing links from andes_solution"
             }
           },
           {
@@ -144,13 +143,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "de/platform/platform/arm_solution/ref/arm_ethos-u85_npu_technical_reference_manual_102685_0000_05_en.pdf",
+                "file": "de/platform/platform/andes_solution/andes_solution.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of arm_ethos-u85_npu_technical_reference_manual_102685_0000_05_en"
+              "title": "Outline of andes_solution"
             }
           },
           {
@@ -197,7 +196,9 @@
   },
   "active": "7913bc19109f5cb2",
   "lastOpenFiles": [
+    "de/platform/platform/arm_solution/arm_solution.md",
     "de/platform/platform/andes_solution/andes_solution.md",
+    "de/platform/platform/arm_solution/ref/arm_ethos-u85_npu_technical_reference_manual_102685_0000_05_en.pdf",
     "de/platform/gen_resetn/gen_resetn.md",
     "de/platform/gen_clk/gen_clk.md",
     "de/domain_cross/cdc/cdc.md",
@@ -229,7 +230,6 @@
     "de/platform/gen_clk/code/clk_gen",
     "de/_unorganized/master/src/docs/轻松实现高速串行.pdf",
     "de/_unorganized/master/src/docs/FPGA相关知识.pdf",
-    "de/_unorganized/master/src/docs/FPGA&数字IC开发工程师笔试116题.pdf",
     "de/_unorganized/master/src/docs/CDC总结.md",
     "de/backend/backend.md",
     "de/backend/include/Pasted image 20251209135504.png",

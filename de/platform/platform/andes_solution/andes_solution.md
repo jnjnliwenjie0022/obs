@@ -68,3 +68,9 @@
   {name: 'clk',              wave: 'x............|l........p...'},
 ]}
 ```
+
+# soft_reset
+
+
+將  
+![[arm_ethos-u85_npu_technical_reference_manual_102685_0000_05_en.pdf#page=34&rect=80,334,558,529|arm_ethos-u85_npu_technical_reference_manual_102685_0000_05_en, p.34]]
