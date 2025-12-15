@@ -11,15 +11,16 @@
             "id": "7913bc19109f5cb2",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "de/platform/platform/andes_solution/andes_solution.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
+                "file": "de/platform/platform/arm_solution/ref/arm_ethos-u85_npu_technical_reference_manual_102685_0000_05_en.pdf",
+                "page": 27,
+                "left": -6,
+                "top": 115,
+                "zoom": 2.3284313725490198
               },
-              "icon": "lucide-file",
-              "title": "andes_solution"
+              "icon": "lucide-file-text",
+              "title": "arm_ethos-u85_npu_technical_reference_manual_102685_0000_05_en"
             }
           }
         ]
@@ -95,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "de/platform/platform/andes_solution/andes_solution.md",
+                "file": "de/platform/platform/arm_solution/ref/arm_ethos-u85_npu_technical_reference_manual_102685_0000_05_en.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +106,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for andes_solution"
+              "title": "Backlinks for arm_ethos-u85_npu_technical_reference_manual_102685_0000_05_en"
             }
           },
           {
@@ -114,12 +115,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "de/platform/platform/andes_solution/andes_solution.md",
+                "file": "de/platform/platform/arm_solution/ref/arm_ethos-u85_npu_technical_reference_manual_102685_0000_05_en.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from andes_solution"
+              "title": "Outgoing links from arm_ethos-u85_npu_technical_reference_manual_102685_0000_05_en"
             }
           },
           {
@@ -143,13 +144,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "de/platform/platform/andes_solution/andes_solution.md",
+                "file": "de/platform/platform/arm_solution/ref/arm_ethos-u85_npu_technical_reference_manual_102685_0000_05_en.pdf",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of andes_solution"
+              "title": "Outline of arm_ethos-u85_npu_technical_reference_manual_102685_0000_05_en"
             }
           },
           {
@@ -196,13 +197,13 @@
   },
   "active": "7913bc19109f5cb2",
   "lastOpenFiles": [
+    "de/platform/platform/andes_solution/andes_solution.md",
     "de/platform/gen_resetn/gen_resetn.md",
     "de/platform/gen_clk/gen_clk.md",
     "de/domain_cross/cdc/cdc.md",
     "de/arithmetic/booth.md",
     "de/platform/gen_clk/book/基于 BUFGMUX 与 DCM 的 FPGA 时钟电路设计.pdf",
     "de/platform/platform/andes_solution/include/gen.svg",
-    "de/platform/platform/andes_solution/andes_solution.md",
     "de/arithmetic/divider.md",
     "de/domain_cross/domain_cross.md",
     "de/fpu/f16mac.md",
