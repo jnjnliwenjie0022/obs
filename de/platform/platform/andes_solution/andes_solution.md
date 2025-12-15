@@ -71,5 +71,5 @@
 
 # soft_reset
 
-將 soft_reset 分成 assert 和 deassert 是一個聰明的做法, 
-![[arm_ethos-u85_npu_technical_reference_manual_102685_0000_05_en.pdf#page=34&rect=80,334,558,529|arm_ethos-u85_npu_technical_reference_manual_102685_0000_05_en, p.34]]
+- 將 soft_reset 分成 assert 和 deassert 是一個聰明的做法, 但在 synthesis 的時候會有問題, async 和 sync 電路會混合, 直接導致合成出現 warning, 對於 SoC 公司而言無所謂, 但對於 IP 公司而言是個麻煩, 因爲 IP 公司不處理 SoC 的 synthesis, 需要跟客戶直接說明這個 warning, 太麻煩, 不推薦, ARM U-series 的解決方式是不做 soft_reset, 將 soft_reset 和 hard_reset 共用一個 reset, 這個 reset 用 hard reset 實作
+- ![[arm_ethos-u85_npu_technical_reference_manual_102685_0000_05_en.pdf#page=34&rect=80,334,558,529|arm_ethos-u85_npu_technical_reference_manual_102685_0000_05_en, p.34]]
