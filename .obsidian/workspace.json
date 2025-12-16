@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "de/platform/platform/platform.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false,
                 "backlinks": false
               },
@@ -172,7 +172,8 @@
               "title": "Source Control"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",

@@ -22,7 +22,11 @@
 		- clock off
 		- Need micro-second to wake up
 
-# sequence
+# andes_plaform
+
+![[andes_platform.svg]]
+
+## sequence
 
 - 這個是 Andes CPU 的 power sequence, 需要注意的是他們要求中途一定要 CPU 進入 WFI
 	- CPU power off 前, PC 必須被記錄, 並進入 WFI
@@ -32,12 +36,12 @@
 
 - ![[system_management_unit.svg]]
 
-# pcs
+## pcs
 
 - ![[power_control_slot.svg]]
 	- 爲了設計的安全性, output 一律 register out
 
-# waveform
+## waveform
 
 ![[Pasted image 20251208191132.png]]
 - notice: 
@@ -69,9 +73,6 @@
 ]}
 ```
 
-# arch
-
-![[andes_platform.svg]]
 
 # soft_reset
 
