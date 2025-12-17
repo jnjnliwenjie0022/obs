@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "de/platform/platform/platform.md",
-                "mode": "source",
+                "file": "de/note.md",
+                "mode": "preview",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "platform"
+              "title": "note"
             }
           }
         ]
@@ -197,9 +197,11 @@
   },
   "active": "7913bc19109f5cb2",
   "lastOpenFiles": [
+    "Pasted image 20251210150334.png",
+    "Pasted image 20251210150354.png",
+    "de/platform/platform/platform.md",
     "de/platform/platform/andes_solution/ref/Mpcore_power_flow/SMU/~$CSMU100 Design Specification & Integration on AE350 v0.6.docx",
     "de/platform/platform/andes_solution/include/andes_platform.svg",
-    "de/platform/platform/platform.md",
     "de/platform/platform/arm_solution/arm_solution.md",
     "de/platform/platform/arm_solution/ref/arm_ethos-u85_npu_technical_reference_manual_102685_0000_05_en.pdf",
     "de/platform/gen_resetn/gen_resetn.md",
@@ -220,8 +222,6 @@
     "de/domain_cross/metastable_state.md",
     "de/domain_cross/cdc/code",
     "de/domain_cross/cdc/cdc_design/cdc_design.md",
-    "Pasted image 20251210150354.png",
-    "Pasted image 20251210150334.png",
     "de/platform/platform/andes_solution/include/power_control_slot.svg",
     "de/platform/platform/andes_solution/include/system_management_unit.svg",
     "de/design_spec/fctrl.md",
@@ -231,7 +231,6 @@
     "de/platform_clk_resetn_power_gen/gck/code/gck",
     "de/platform/gen_clk/code/clk_gen",
     "de/_unorganized/master/src/docs/轻松实现高速串行.pdf",
-    "de/_unorganized/master/src/docs/FPGA相关知识.pdf",
     "de/_unorganized/master/src/docs/CDC总结.md",
     "de/backend/backend.md",
     "de/backend/include/Pasted image 20251209135504.png",
