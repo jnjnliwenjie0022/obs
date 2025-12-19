@@ -11,16 +11,45 @@
             "id": "7913bc19109f5cb2",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "de/amba_axi/ref/IHI0022K_amba_axi_protocol_spec.pdf",
-                "page": 15,
-                "left": -6,
-                "top": 418,
-                "zoom": 2.393847559787393
+                "file": "de/platform/gen_clk/gen_clk.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
               },
-              "icon": "lucide-file-text",
-              "title": "IHI0022K_amba_axi_protocol_spec"
+              "icon": "lucide-file",
+              "title": "gen_clk"
+            }
+          },
+          {
+            "id": "6c813dd01e85813c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "de/domain_cross/cdc/cdc.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "cdc"
+            }
+          },
+          {
+            "id": "4eec65f5b41354c6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "de/arithmetic/booth.md",
+                "mode": "preview",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "booth"
             }
           }
         ]
@@ -96,7 +125,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "de/platform/platform/platform.md",
+                "file": "de/platform/gen_clk/gen_clk.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,7 +135,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for platform"
+              "title": "Backlinks for gen_clk"
             }
           },
           {
@@ -115,12 +144,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "de/platform/platform/platform.md",
+                "file": "de/platform/gen_clk/gen_clk.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from platform"
+              "title": "Outgoing links from gen_clk"
             }
           },
           {
@@ -144,13 +173,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "de/platform/platform/platform.md",
+                "file": "de/platform/gen_clk/gen_clk.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of platform"
+              "title": "Outline of gen_clk"
             }
           },
           {
@@ -173,8 +202,7 @@
               "title": "Source Control"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -198,25 +226,13 @@
   },
   "active": "7913bc19109f5cb2",
   "lastOpenFiles": [
-    "de/amba_axi/request_attribute.md",
-    "de/amba_axi/axi.md",
-    "de/amba_ahb/ahb.md",
-    "de/amba_axi/ref/IHI0022K_amba_axi_protocol_spec.pdf",
-    "de/amba_axi/ref/~$deShape_ATCBMC300_Design_Spec_V1.0.docx",
-    "de/platform/gen_clk/book/基于 BUFGMUX 与 DCM 的 FPGA 时钟电路设计.pdf",
-    "de/platform/gen_clk/book/CommIC_07.pdf",
-    "workflow/git/git.md",
-    "de/note.md",
-    "Pasted image 20251210150334.png",
-    "Pasted image 20251210150354.png",
     "de/platform/platform/platform.md",
-    "de/platform/platform/andes_solution/ref/Mpcore_power_flow/SMU/~$CSMU100 Design Specification & Integration on AE350 v0.6.docx",
     "de/platform/platform/andes_solution/include/andes_platform.svg",
-    "de/platform/platform/arm_solution/arm_solution.md",
-    "de/platform/platform/arm_solution/ref/arm_ethos-u85_npu_technical_reference_manual_102685_0000_05_en.pdf",
-    "de/platform/gen_resetn/gen_resetn.md",
+    "de/platform/gen_clk/book/基于 BUFGMUX 与 DCM 的 FPGA 时钟电路设计.pdf",
     "de/platform/gen_clk/gen_clk.md",
+    "de/platform/platform/andes_solution/include/gen.svg",
     "de/domain_cross/cdc/cdc.md",
+    "de/platform/platform/andes_solution/andes_solution.md",
     "de/arithmetic/booth.md",
     "de/arithmetic/divider.md",
     "de/domain_cross/domain_cross.md",
@@ -231,18 +247,30 @@
     "de/domain_cross/metastable_state.md",
     "de/domain_cross/cdc/code",
     "de/domain_cross/cdc/cdc_design/cdc_design.md",
+    "Pasted image 20251210150354.png",
+    "Pasted image 20251210150334.png",
     "de/platform/platform/andes_solution/include/power_control_slot.svg",
     "de/platform/platform/andes_solution/include/system_management_unit.svg",
     "de/design_spec/fctrl.md",
     "de/design_spec/fast_design.md",
     "de/domain_cross",
     "de/platform_clk_resetn_power_gen/cdc/clk_gen/clk_gen.md",
+    "de/platform_clk_resetn_power_gen/gck/code/gck",
+    "de/platform/gen_clk/code/clk_gen",
+    "de/_unorganized/master/src/docs/轻松实现高速串行.pdf",
+    "de/_unorganized/master/src/docs/FPGA相关知识.pdf",
+    "de/_unorganized/master/src/docs/FPGA&数字IC开发工程师笔试116题.pdf",
     "de/_unorganized/master/src/docs/CDC总结.md",
     "de/backend/backend.md",
-    "de/backend/include/Pasted image 20251209135504.png",
     "de/_unorganized/master/readme.md",
+    "de/platform/gen_resetn/gen_resetn.md",
     "de/cim/analysis.md",
     "de/power/genus/genus.md",
-    "de/power/sdpd/power.md"
+    "de/power/sdpd/power.md",
+    "de/power/sdpd/sdpd.md",
+    "conflict-files-obsidian-git.md",
+    "de/_unorganized/master/src/docs/面试题目总结.md",
+    "de/_unorganized/master/src/docs/逻辑问题汇总整理.md",
+    "de/_unorganized/master/src/docs/波形捕获率.md"
   ]
 }
