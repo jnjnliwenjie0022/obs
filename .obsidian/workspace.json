@@ -13,14 +13,14 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "de/platform/gen_clk/book/基于 BUFGMUX 与 DCM 的 FPGA 时钟电路设计.pdf",
-                "page": 1,
+                "file": "de/amba_axi/ref/IHI0022K_amba_axi_protocol_spec.pdf",
+                "page": 15,
                 "left": -6,
-                "top": 319,
-                "zoom": 2.394072779812506
+                "top": 418,
+                "zoom": 2.393847559787393
               },
               "icon": "lucide-file-text",
-              "title": "基于 BUFGMUX 与 DCM 的 FPGA 时钟电路设计"
+              "title": "IHI0022K_amba_axi_protocol_spec"
             }
           }
         ]
@@ -198,8 +198,13 @@
   },
   "active": "7913bc19109f5cb2",
   "lastOpenFiles": [
-    "de/platform/gen_clk/book/CommIC_07.pdf",
+    "de/amba_axi/request_attribute.md",
+    "de/amba_axi/axi.md",
+    "de/amba_ahb/ahb.md",
+    "de/amba_axi/ref/IHI0022K_amba_axi_protocol_spec.pdf",
+    "de/amba_axi/ref/~$deShape_ATCBMC300_Design_Spec_V1.0.docx",
     "de/platform/gen_clk/book/基于 BUFGMUX 与 DCM 的 FPGA 时钟电路设计.pdf",
+    "de/platform/gen_clk/book/CommIC_07.pdf",
     "workflow/git/git.md",
     "de/note.md",
     "Pasted image 20251210150334.png",
@@ -232,17 +237,12 @@
     "de/design_spec/fast_design.md",
     "de/domain_cross",
     "de/platform_clk_resetn_power_gen/cdc/clk_gen/clk_gen.md",
-    "de/platform_clk_resetn_power_gen/gck/code/gck",
-    "de/platform/gen_clk/code/clk_gen",
-    "de/_unorganized/master/src/docs/轻松实现高速串行.pdf",
     "de/_unorganized/master/src/docs/CDC总结.md",
     "de/backend/backend.md",
     "de/backend/include/Pasted image 20251209135504.png",
     "de/_unorganized/master/readme.md",
     "de/cim/analysis.md",
     "de/power/genus/genus.md",
-    "de/power/sdpd/power.md",
-    "de/power/sdpd/sdpd.md",
-    "conflict-files-obsidian-git.md"
+    "de/power/sdpd/power.md"
   ]
 }
