@@ -4,23 +4,23 @@
     "type": "split",
     "children": [
       {
-        "id": "ce15a0b9bc8350c4",
+        "id": "a9f0456738b162bc",
         "type": "tabs",
         "children": [
           {
-            "id": "a6572a297d12498e",
+            "id": "7913bc19109f5cb2",
             "type": "leaf",
             "state": {
               "type": "pdf",
               "state": {
-                "file": "de/platform/gen_clk/book/基于 BUFGMUX 与 DCM 的 FPGA 时钟电路设计.pdf",
-                "page": 1,
-                "left": -9,
-                "top": 846,
-                "zoom": 1.7161721716340177
+                "file": "de/amba_axi/ref/IHI0022K_amba_axi_protocol_spec.pdf",
+                "page": 44,
+                "left": -7,
+                "top": 452,
+                "zoom": 2.199819915467783
               },
               "icon": "lucide-file-text",
-              "title": "基于 BUFGMUX 与 DCM 的 FPGA 时钟电路设计"
+              "title": "IHI0022K_amba_axi_protocol_spec"
             }
           }
         ]
@@ -96,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "de/platform/gen_clk/gen_clk.md",
+                "file": "de/platform/platform/platform.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,7 +106,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for gen_clk"
+              "title": "Backlinks for platform"
             }
           },
           {
@@ -115,12 +115,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "de/platform/gen_clk/gen_clk.md",
+                "file": "de/platform/platform/platform.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from gen_clk"
+              "title": "Outgoing links from platform"
             }
           },
           {
@@ -144,13 +144,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "de/platform/gen_clk/gen_clk.md",
+                "file": "de/platform/platform/platform.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of gen_clk"
+              "title": "Outline of platform"
             }
           },
           {
@@ -173,7 +173,8 @@
               "title": "Source Control"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -195,52 +196,53 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "a6572a297d12498e",
+  "active": "35a470a2c390e07e",
   "lastOpenFiles": [
-    "de/platform/gck/gck.md",
     "de/platform/domain_cross/rdc/rdc.md",
+    "de/platform/domain_cross/rdc/books/Techniques to identify reset metastability issues due to soft resets.pdf",
+    "de/platform/domain_cross/rdc/include",
+    "de/platform/domain_cross/rdc/books",
+    "de/platform/domain_cross/rdc",
+    "de/platform/domain_cross/include/Pasted image 20251021022807.png",
+    "de/platform/domain_cross/include",
     "de/platform/domain_cross/domain_cross.md",
-    "de/platform/gen_clk/book/基于 BUFGMUX 与 DCM 的 FPGA 时钟电路设计.pdf",
-    "de/platform/gen_clk/book/CommIC_07.pdf",
-    "de/platform/gen_clk/gen_clk.md",
-    "de/platform/gen_resetn/gen_resetn.md",
+    "de/platform/domain_cross/cdc/ref/Ultra Low Cost Asynchronous Handshake Checker.pdf",
+    "de/platform/domain_cross/cdc/ref/SoC设计方法与实现_第3版.pdf",
+    "de/platform/domain_cross/cdc/code/atctlc2axi500/nds_package/run_test",
+    "de/platform/domain_cross/cdc/code/atctlc2axi500/nds_package/do_signoff_preconfig",
+    "de/platform/domain_cross/cdc/code/atctlc2axi500/nds_package/atctlc2axi500.release",
+    "de/platform/domain_cross/cdc/include/cdc_design_signal.svg",
+    "de/platform/domain_cross/cdc/include/Pasted image 20251115202803.png",
+    "de/platform/domain_cross/cdc/include/cdc_design.svg",
     "de/platform/domain_cross/cdc/cdc.md",
-    "de/arithmetic/booth.md",
+    "de/amba_axi/request_attribute.md",
+    "de/amba_axi/axi.md",
+    "de/amba_ahb/ahb.md",
+    "workflow/git/git.md",
+    "de/note.md",
+    "Pasted image 20251210150334.png",
+    "Pasted image 20251210150354.png",
     "de/platform/platform/platform.md",
     "de/platform/platform/andes_solution/include/andes_platform.svg",
-    "de/platform/platform/andes_solution/include/gen.svg",
-    "de/platform/platform/andes_solution/andes_solution.md",
+    "de/platform/platform/arm_solution/arm_solution.md",
+    "de/platform/gen_resetn/gen_resetn.md",
+    "de/platform/gen_clk/gen_clk.md",
+    "de/domain_cross/cdc/cdc.md",
+    "de/arithmetic/booth.md",
     "de/arithmetic/divider.md",
+    "de/domain_cross/domain_cross.md",
     "de/fpu/f16mac.md",
-    "de/platform/domain_cross/cdc/ref/SoC设计方法与实现_第3版.pdf",
-    "de/domain_cross/cdc/Untitled",
-    "de/platform/domain_cross/cdc/include/Pasted image 20251115202803.png",
-    "de/platform/domain_cross/cdc/include/cdc_design_signal.svg",
-    "de/platform/domain_cross/cdc/include/cdc_design.svg",
-    "de/platform/domain_cross/include/Pasted image 20251021022807.png",
+    "de/domain_cross/cdc/include/Pasted image 20251115202803.png",
+    "de/domain_cross/cdc/include/cdc_design_signal.svg",
+    "de/domain_cross/cdc/include/cdc_design.svg",
+    "de/domain_cross/rdc/rdc.md",
     "de/domain_cross/metastable_state.md",
-    "de/platform/domain_cross/cdc/code",
     "de/domain_cross/cdc/cdc_design/cdc_design.md",
-    "Pasted image 20251210150354.png",
-    "Pasted image 20251210150334.png",
-    "de/platform/platform/andes_solution/include/power_control_slot.svg",
-    "de/platform/platform/andes_solution/include/system_management_unit.svg",
     "de/design_spec/fctrl.md",
     "de/design_spec/fast_design.md",
-    "de/platform/domain_cross",
     "de/platform_clk_resetn_power_gen/cdc/clk_gen/clk_gen.md",
-    "de/platform_clk_resetn_power_gen/gck/code/gck",
-    "de/platform/gen_clk/code/clk_gen",
-    "de/_unorganized/master/src/docs/轻松实现高速串行.pdf",
-    "de/_unorganized/master/src/docs/FPGA相关知识.pdf",
     "de/_unorganized/master/src/docs/CDC总结.md",
     "de/backend/backend.md",
-    "de/_unorganized/master/readme.md",
-    "de/cim/analysis.md",
-    "de/power/genus/genus.md",
-    "de/power/sdpd/power.md",
-    "de/power/sdpd/sdpd.md",
-    "conflict-files-obsidian-git.md",
-    "de/_unorganized/master/src/docs/面试题目总结.md"
+    "de/_unorganized/master/readme.md"
   ]
 }
