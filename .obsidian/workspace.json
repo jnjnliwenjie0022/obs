@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "de/platform/gen_clk/gen_clk.md",
+                "file": "de/domain_cross/domain_cross.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "gen_clk"
+              "title": "domain_cross"
             }
           },
           {
@@ -227,9 +227,9 @@
   "active": "7913bc19109f5cb2",
   "lastOpenFiles": [
     "de/platform/platform/platform.md",
+    "de/platform/gen_clk/gen_clk.md",
     "de/platform/platform/andes_solution/include/andes_platform.svg",
     "de/platform/gen_clk/book/基于 BUFGMUX 与 DCM 的 FPGA 时钟电路设计.pdf",
-    "de/platform/gen_clk/gen_clk.md",
     "de/platform/platform/andes_solution/include/gen.svg",
     "de/domain_cross/cdc/cdc.md",
     "de/platform/platform/andes_solution/andes_solution.md",
