@@ -4,52 +4,23 @@
     "type": "split",
     "children": [
       {
-        "id": "a9f0456738b162bc",
+        "id": "ce15a0b9bc8350c4",
         "type": "tabs",
         "children": [
           {
-            "id": "7913bc19109f5cb2",
+            "id": "a6572a297d12498e",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "de/domain_cross/domain_cross.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
+                "file": "de/platform/gen_clk/book/基于 BUFGMUX 与 DCM 的 FPGA 时钟电路设计.pdf",
+                "page": 1,
+                "left": -9,
+                "top": 846,
+                "zoom": 1.7161721716340177
               },
-              "icon": "lucide-file",
-              "title": "domain_cross"
-            }
-          },
-          {
-            "id": "6c813dd01e85813c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "de/domain_cross/cdc/cdc.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "cdc"
-            }
-          },
-          {
-            "id": "4eec65f5b41354c6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "de/arithmetic/booth.md",
-                "mode": "preview",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "booth"
+              "icon": "lucide-file-text",
+              "title": "基于 BUFGMUX 与 DCM 的 FPGA 时钟电路设计"
             }
           }
         ]
@@ -224,28 +195,31 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "7913bc19109f5cb2",
+  "active": "a6572a297d12498e",
   "lastOpenFiles": [
-    "de/platform/platform/platform.md",
-    "de/platform/gen_clk/gen_clk.md",
-    "de/platform/platform/andes_solution/include/andes_platform.svg",
+    "de/platform/gck/gck.md",
+    "de/platform/domain_cross/rdc/rdc.md",
+    "de/platform/domain_cross/domain_cross.md",
     "de/platform/gen_clk/book/基于 BUFGMUX 与 DCM 的 FPGA 时钟电路设计.pdf",
-    "de/platform/platform/andes_solution/include/gen.svg",
-    "de/domain_cross/cdc/cdc.md",
-    "de/platform/platform/andes_solution/andes_solution.md",
+    "de/platform/gen_clk/book/CommIC_07.pdf",
+    "de/platform/gen_clk/gen_clk.md",
+    "de/platform/gen_resetn/gen_resetn.md",
+    "de/platform/domain_cross/cdc/cdc.md",
     "de/arithmetic/booth.md",
+    "de/platform/platform/platform.md",
+    "de/platform/platform/andes_solution/include/andes_platform.svg",
+    "de/platform/platform/andes_solution/include/gen.svg",
+    "de/platform/platform/andes_solution/andes_solution.md",
     "de/arithmetic/divider.md",
-    "de/domain_cross/domain_cross.md",
     "de/fpu/f16mac.md",
-    "de/domain_cross/cdc/ref/SoC设计方法与实现_第3版.pdf",
+    "de/platform/domain_cross/cdc/ref/SoC设计方法与实现_第3版.pdf",
     "de/domain_cross/cdc/Untitled",
-    "de/domain_cross/cdc/include/Pasted image 20251115202803.png",
-    "de/domain_cross/cdc/include/cdc_design_signal.svg",
-    "de/domain_cross/cdc/include/cdc_design.svg",
-    "de/domain_cross/include/Pasted image 20251021022807.png",
-    "de/domain_cross/rdc/rdc.md",
+    "de/platform/domain_cross/cdc/include/Pasted image 20251115202803.png",
+    "de/platform/domain_cross/cdc/include/cdc_design_signal.svg",
+    "de/platform/domain_cross/cdc/include/cdc_design.svg",
+    "de/platform/domain_cross/include/Pasted image 20251021022807.png",
     "de/domain_cross/metastable_state.md",
-    "de/domain_cross/cdc/code",
+    "de/platform/domain_cross/cdc/code",
     "de/domain_cross/cdc/cdc_design/cdc_design.md",
     "Pasted image 20251210150354.png",
     "Pasted image 20251210150334.png",
@@ -253,24 +227,20 @@
     "de/platform/platform/andes_solution/include/system_management_unit.svg",
     "de/design_spec/fctrl.md",
     "de/design_spec/fast_design.md",
-    "de/domain_cross",
+    "de/platform/domain_cross",
     "de/platform_clk_resetn_power_gen/cdc/clk_gen/clk_gen.md",
     "de/platform_clk_resetn_power_gen/gck/code/gck",
     "de/platform/gen_clk/code/clk_gen",
     "de/_unorganized/master/src/docs/轻松实现高速串行.pdf",
     "de/_unorganized/master/src/docs/FPGA相关知识.pdf",
-    "de/_unorganized/master/src/docs/FPGA&数字IC开发工程师笔试116题.pdf",
     "de/_unorganized/master/src/docs/CDC总结.md",
     "de/backend/backend.md",
     "de/_unorganized/master/readme.md",
-    "de/platform/gen_resetn/gen_resetn.md",
     "de/cim/analysis.md",
     "de/power/genus/genus.md",
     "de/power/sdpd/power.md",
     "de/power/sdpd/sdpd.md",
     "conflict-files-obsidian-git.md",
-    "de/_unorganized/master/src/docs/面试题目总结.md",
-    "de/_unorganized/master/src/docs/逻辑问题汇总整理.md",
-    "de/_unorganized/master/src/docs/波形捕获率.md"
+    "de/_unorganized/master/src/docs/面试题目总结.md"
   ]
 }
