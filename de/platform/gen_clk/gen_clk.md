@@ -1,3 +1,35 @@
+# notice #TODO 
+
+- 不需要高精度且是同相位的部分通常會在 subsystem 上處理
+- 注意事項:
+	- Duty Cycle 需要 50%
+	- Glitch Free
+- 常見實作方法
+	- 針對ASIC
+		- 需要高精度
+			- 先經過PLL
+		- 不需要高精度且是同相位: 
+			- 方法1: original_clk -> counter -> en -> register
+				- 可行且**推薦**
+				- 不用處理ICG
+				- 不用處理CDC
+				- 不用處理STA
+			- 方法2: original_clk -> counter -> clk -> register
+				- 不用處理ICG
+				- 不用處理CDC (derived clock)
+				- 要處理STA
+					- create_generated_clock
+					- ref: https://www.youtube.com/watch?v=wmyelwAOSIE
+	- 針對FPGA
+		- 需要高精度
+			- 先經過PLL/MMCM/DCM
+				- ref: https://digilent.com/blog/vcos-mmcms-plls-and-cmts-clocking-resources-on-fpga-boards/
+			- 再經過BUF
+		- 不需要高精度且是同相位: 
+			- 方法1: original_clk -> counter -> en -> register
+			- 方法2: original_clk -> counter -> clk -> 手動BUF -> clk -> register
+				- counter的clk結果需要經過BUF(**不要**用 LUT/FF 去當做“全片時鐘”的路徑：在 FPGA 中，如果你用一般邏輯產生新時鐘，路徑不走 global clock network，會導致 skew/jitter/無法 timing closure)
+
 # glitch
 
 - Glitch 對於 1 和 0 都有要求, 小於 cell 規範允許的最小寬度, 就是非法
@@ -65,65 +97,11 @@
 	- RTL-Simulation: 不需額外處理
 	- Gate-level Simulation: GCK 和 CLKOR CELL 被 replacement 之後, 一定需要吃SDF
 	- 結論:  可以
+- Johnson Counter
+	- ref: https://www.chipverify.com/verilog/verilog-johnson-counter
+- sample clock generator
+	- ref: [[sample_kv_clk_gen.v]]
 
-# aclkmux
-
-## concept
-
-- ![[Pasted image 20251020003416.png|500]]
-
-- 從圖中我們可以發現用 SR-NOR 的電路沒有{1,1}的輸出
-- ![[aclkmux_sr.svg]]
-## design
-
-- ref: https://aijishu.com/a/1060000000203564
-- ref: https://www.youtube.com/watch?v=KBeumQxSyZA
- - 目標:
-	- 找到 glitch 的 mux 電路 (主要)
-	- 處理 syncer
-	- 處理 gck
-	- 處理 tr tf
-	- 處理 50% duty cycle
-- 以下是 only mux waveform (錯誤)
-	- ref: https://www.eetimes.com/techniques-to-make-clock-switching-glitch-free/
-	- ![[Pasted image 20251020155456.png]]
-	- 結論: 只有 mux 一定有 glitch
-- 以下是 only gck waveform (錯誤)
-	- ![[Pasted image 20251020155026.png]]
-	- 結論: 只有 gck 也還是有glitch
-- 以下是 sync clock mux 架構圖
-	- ![[clkmux.svg]]
-	- 以下是 sync clk mux waveform (正確)
-		- ![[Pasted image 20251020155629.png]]
-	- SDC
-		- ref: https://zhuanlan.zhihu.com/p/25638298398
-		- ref: https://docs.amd.com/r/en-US/ug903-vivado-using-constraints/Multicycle-Paths
-		- SDC 很不好處理, 就SDC而言, 不是很推薦這個設計方式
-- 以下是 async clock mux 架構圖 (不論 sync 或是 async 都可以使用)
-	- ![[aclkmux.svg]]
-	- 以下是 async clk mux waveform (正確)
-		- ![[Pasted image 20251020155734.png]]
-	- SDC
-		- ref: https://blog.csdn.net/tbzj_2000/article/details/78775995
-		- ref: https://bbs.eetop.cn/thread-920953-1-1.html
-		- ref: https://cloud.tencent.com/developer/article/1819634
-		- 對於 Async 而言
-			- 不對 clkmux 約束, 因為是 async
-			- 不對頻率重新約束, 因為是 async
-			- set_clock_groups -asynchronous -name async_clk_group -group {get_clock clk0} -group {get_clock ck1}
-		- 對於 Sync 而言
-			- 對 clkmux 約束
-				- 對 clkmuxMethod 1:
-					- set_false_path -from [get_cells dff0 to [get_cells dff1]]
-					- set_false_path -from [get_cells dff1 to [get_cells dff2]]
-				- 對 clkmux Method 2:
-					- foreach_in_collection a [get_cells -hier * -filter "ref_name =~*mux_clk_gfree*"]
-					- set name [get_object_name $a]
-					- set_false_path -from [get_cells ${name}/diff0] -to [get_cell ${name}/diff1]
-					- set_false_path -from [get_cells ${name}/diff1] -to [get_cell ${name}/diff0]
-			- 對頻率重新約束, 因為 clock propagation 消失的緣故
-				- ref: https://www.sohu.com/a/359504187_99955608
-				- #REVIEW 
 # gen_fpga_clk
 
 - ref: [[基于 BUFGMUX 与 DCM 的 FPGA 时钟电路设计.pdf]]
@@ -187,44 +165,61 @@ mmcm1 ae350_fpga_clkgen (
 );
 ```
 
-# gen_asic_clk
+# clkmux
 
-- Johnson Counter
-	- ref: https://www.chipverify.com/verilog/verilog-johnson-counter
-- sample clock generator
-	- ref: [[sample_kv_clk_gen.v]]
+## concept
 
+- ![[Pasted image 20251020003416.png|500]]
 
+- 從圖中我們可以發現用 SR-NOR 的電路沒有{1,1}的輸出
+- ![[aclkmux_sr.svg]]
+## design
 
-
-# notice #TODO 
-
-- 不需要高精度且是同相位的部分通常會在 subsystem 上處理
-- 注意事項:
-	- Duty Cycle 需要 50%
-	- Glitch Free
-- 常見實作方法
-	- 針對ASIC
-		- 需要高精度
-			- 先經過PLL
-		- 不需要高精度且是同相位: 
-			- 方法1: original_clk -> counter -> en -> register
-				- 可行且**推薦**
-				- 不用處理ICG
-				- 不用處理CDC
-				- 不用處理STA
-			- 方法2: original_clk -> counter -> clk -> register
-				- 不用處理ICG
-				- 不用處理CDC (derived clock)
-				- 要處理STA
-					- create_generated_clock
-					- ref: https://www.youtube.com/watch?v=wmyelwAOSIE
-	- 針對FPGA
-		- 需要高精度
-			- 先經過PLL/MMCM/DCM
-				- ref: https://digilent.com/blog/vcos-mmcms-plls-and-cmts-clocking-resources-on-fpga-boards/
-			- 再經過BUF
-		- 不需要高精度且是同相位: 
-			- 方法1: original_clk -> counter -> en -> register
-			- 方法2: original_clk -> counter -> clk -> 手動BUF -> clk -> register
-				- counter的clk結果需要經過BUF(**不要**用 LUT/FF 去當做“全片時鐘”的路徑：在 FPGA 中，如果你用一般邏輯產生新時鐘，路徑不走 global clock network，會導致 skew/jitter/無法 timing closure)
+- ref: https://aijishu.com/a/1060000000203564
+- ref: https://www.youtube.com/watch?v=KBeumQxSyZA
+ - 目標:
+	- 找到 glitch 的 mux 電路 (主要)
+	- 處理 syncer
+	- 處理 gck
+	- 處理 tr tf
+	- 處理 50% duty cycle
+- 以下是 only mux waveform (錯誤)
+	- ref: https://www.eetimes.com/techniques-to-make-clock-switching-glitch-free/
+	- ![[Pasted image 20251020155456.png]]
+	- 結論: 只有 mux 一定有 glitch
+- 以下是 only gck waveform (錯誤)
+	- ![[Pasted image 20251020155026.png]]
+	- 結論: 只有 gck 也還是有glitch
+- 以下是 sync clock mux 架構圖
+	- ![[clkmux.svg]]
+	- 以下是 sync clk mux waveform (正確)
+		- ![[Pasted image 20251020155629.png]]
+	- SDC
+		- ref: https://zhuanlan.zhihu.com/p/25638298398
+		- ref: https://docs.amd.com/r/en-US/ug903-vivado-using-constraints/Multicycle-Paths
+		- SDC 很不好處理, 就SDC而言, 不是很推薦這個設計方式
+- 以下是 async clock mux 架構圖 (不論 sync 或是 async 都可以使用)
+	- ![[aclkmux.svg]]
+	- 以下是 async clk mux waveform (正確)
+		- ![[Pasted image 20251020155734.png]]
+	- SDC
+		- ref: https://blog.csdn.net/tbzj_2000/article/details/78775995
+		- ref: https://bbs.eetop.cn/thread-920953-1-1.html
+		- ref: https://cloud.tencent.com/developer/article/1819634
+		- 對於 Async 而言
+			- 不對 clkmux 約束, 因為是 async
+			- 不對頻率重新約束, 因為是 async
+			- set_clock_groups -asynchronous -name async_clk_group -group {get_clock clk0} -group {get_clock ck1}
+		- 對於 Sync 而言
+			- 對 clkmux 約束
+				- 對 clkmuxMethod 1:
+					- set_false_path -from [get_cells dff0 to [get_cells dff1]]
+					- set_false_path -from [get_cells dff1 to [get_cells dff2]]
+				- 對 clkmux Method 2:
+					- foreach_in_collection a [get_cells -hier * -filter "ref_name =~*mux_clk_gfree*"]
+					- set name [get_object_name $a]
+					- set_false_path -from [get_cells ${name}/diff0] -to [get_cell ${name}/diff1]
+					- set_false_path -from [get_cells ${name}/diff1] -to [get_cell ${name}/diff0]
+			- 對頻率重新約束, 因為 clock propagation 消失的緣故
+				- ref: https://www.sohu.com/a/359504187_99955608
+				- #REVIEW 

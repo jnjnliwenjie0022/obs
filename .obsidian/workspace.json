@@ -16,7 +16,7 @@
                 "file": "de/platform/gen_clk/book/基于 BUFGMUX 与 DCM 的 FPGA 时钟电路设计.pdf",
                 "page": 5,
                 "left": -6,
-                "top": 839,
+                "top": 808,
                 "zoom": 2.394072779812506
               },
               "icon": "lucide-file-text",
@@ -30,7 +30,7 @@
               "type": "markdown",
               "state": {
                 "file": "de/platform/gen_clk/gen_clk.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false,
                 "backlinks": false
               },
@@ -194,7 +194,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 346.5
+    "width": 346.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -211,10 +212,11 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "35a470a2c390e07e",
+  "active": "beb770ef6ac418ce",
   "lastOpenFiles": [
     "de/platform/gen_clk/book/基于 BUFGMUX 与 DCM 的 FPGA 时钟电路设计.pdf",
     "de/platform/gen_clk/book/~~$基于 BUFGMUX 与 DCM 的 FPGA 时钟电路设计.pdf",
+    "de/platform/gen_clk/gen_clk.md",
     "de/amba_axi/ref/IHI0022K_amba_axi_protocol_spec.pdf",
     "de/platform/domain_cross/rdc/rdc.md",
     "de/platform/domain_cross/rdc/books/Techniques to identify reset metastability issues due to soft resets.pdf",
@@ -226,7 +228,6 @@
     "de/platform/domain_cross/domain_cross.md",
     "de/platform/domain_cross/cdc/ref/Ultra Low Cost Asynchronous Handshake Checker.pdf",
     "de/platform/domain_cross/cdc/ref/SoC设计方法与实现_第3版.pdf",
-    "de/platform/domain_cross/cdc/code/atctlc2axi500/nds_package/run_test",
     "de/platform/domain_cross/cdc/include/cdc_design_signal.svg",
     "de/platform/domain_cross/cdc/include/Pasted image 20251115202803.png",
     "de/platform/domain_cross/cdc/include/cdc_design.svg",
@@ -242,7 +243,6 @@
     "de/platform/platform/andes_solution/include/andes_platform.svg",
     "de/platform/platform/arm_solution/arm_solution.md",
     "de/platform/gen_resetn/gen_resetn.md",
-    "de/platform/gen_clk/gen_clk.md",
     "de/domain_cross/cdc/cdc.md",
     "de/arithmetic/booth.md",
     "de/arithmetic/divider.md",
