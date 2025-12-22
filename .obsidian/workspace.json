@@ -15,7 +15,7 @@
               "state": {
                 "file": "de/platform/gen_clk/book/基于 BUFGMUX 与 DCM 的 FPGA 时钟电路设计.pdf",
                 "page": 5,
-                "left": -86,
+                "left": -4,
                 "top": 808,
                 "zoom": 2.394072779812506
               },
@@ -111,8 +111,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 506.5,
-    "collapsed": true
+    "width": 506.5
   },
   "right": {
     "id": "baf9c43aba40b294",
@@ -210,8 +209,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 346.5,
-    "collapsed": true
+    "width": 346.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -230,9 +228,12 @@
   },
   "active": "beb770ef6ac418ce",
   "lastOpenFiles": [
+    "de/platform/gen_clk/include/skew.svg",
+    "de/platform/gen_clk/gen_clk.md",
+    "Pasted image 20251210150334.png",
+    "Pasted image 20251210150354.png",
     "de/platform/gen_clk/book/基于 BUFGMUX 与 DCM 的 FPGA 时钟电路设计.pdf",
     "de/platform/gck/gck.md",
-    "de/platform/gen_clk/gen_clk.md",
     "de/platform/gen_clk/book/~~$基于 BUFGMUX 与 DCM 的 FPGA 时钟电路设计.pdf",
     "de/amba_axi/ref/IHI0022K_amba_axi_protocol_spec.pdf",
     "de/platform/domain_cross/rdc/rdc.md",
@@ -254,8 +255,6 @@
     "de/amba_ahb/ahb.md",
     "workflow/git/git.md",
     "de/note.md",
-    "Pasted image 20251210150334.png",
-    "Pasted image 20251210150354.png",
     "de/platform/platform/platform.md",
     "de/platform/platform/andes_solution/include/andes_platform.svg",
     "de/platform/platform/arm_solution/arm_solution.md",
@@ -267,7 +266,6 @@
     "de/fpu/f16mac.md",
     "de/domain_cross/cdc/include/Pasted image 20251115202803.png",
     "de/domain_cross/cdc/include/cdc_design_signal.svg",
-    "de/domain_cross/cdc/include/cdc_design.svg",
     "de/domain_cross/rdc/rdc.md",
     "de/domain_cross/metastable_state.md",
     "de/domain_cross/cdc/cdc_design/cdc_design.md",

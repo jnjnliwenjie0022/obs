@@ -1,4 +1,4 @@
-# notice #TODO 
+# concept
 
 - 通常會在 subsystem 和 platform 上處理
 - 注意事項:
@@ -27,10 +27,10 @@
 			- 再經過BUF, 因爲 FPGA 需要經過 BUF 來進入 GRM (General Route Matrix)
 		- 不需要高精度且是同相位: 
 			- 方法1: original_clk -> counter -> en -> register
-			- 方法2: original_clk -> counter -> clk -> BUF (manual) -> clk -> register
-				- counter的clk結果需要經過BUF(**不要**用 LUT/FF 去當做“全片時鐘”的路徑：在 FPGA 中，如果你用一般邏輯產生新時鐘，路徑不走GRM，會導致 skew/jitter/無法 timing closure)
+			- 方法2: original_clk -> counter -> clk -> BUF (manual) -> register
+				- counter的clk結果需要經過BUF(**不要**用 LUT/FF 去當做“全片時鐘”的路徑：在 FPGA 中，如果你用一般邏輯產生新時鐘，路徑不走 GRM，會導致 skew/jitter/無法 timing closure)
 
-# glitch
+## glitch
 
 - Glitch 對於 1 和 0 都有要求, 小於 cell 規範允許的最小寬度, 就是非法
 - 對於 Clock 而言, Glitch 是絕對致命的
@@ -38,6 +38,8 @@
 	- set_min_pulse_width -low 0.4 [get_clocks CLK]
 	- 在 RTL-level 實務設計上, Clock Glitch 的定義就是最快頻率的最小週期
 - 對於 Data 而言, Glitch 不是什麼大問題, 因為 Data 的 Glitch 問題可以被 setup time / hold time detect 到
+
+## skew
 
 # gen_asic_clk
 
