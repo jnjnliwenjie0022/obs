@@ -54,7 +54,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -175,13 +175,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "de/platform/gck/gck.md",
+                "file": "de/platform/gen_clk/gen_clk.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of gck"
+              "title": "Outline of gen_clk"
             }
           },
           {
@@ -227,10 +227,10 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "c4923aaf909232d5",
+  "active": "beb770ef6ac418ce",
   "lastOpenFiles": [
-    "de/platform/gen_clk/gen_clk.md",
     "de/platform/gck/gck.md",
+    "de/platform/gen_clk/gen_clk.md",
     "de/platform/gen_clk/book/基于 BUFGMUX 与 DCM 的 FPGA 时钟电路设计.pdf",
     "de/platform/gen_clk/book/~~$基于 BUFGMUX 与 DCM 的 FPGA 时钟电路设计.pdf",
     "de/amba_axi/ref/IHI0022K_amba_axi_protocol_spec.pdf",
