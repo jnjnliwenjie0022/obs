@@ -13,14 +13,14 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "de/amba_axi/ref/IHI0022K_amba_axi_protocol_spec.pdf",
-                "page": 44,
-                "left": -7,
-                "top": 452,
-                "zoom": 2.199819915467783
+                "file": "de/platform/gen_clk/book/基于 BUFGMUX 与 DCM 的 FPGA 时钟电路设计.pdf",
+                "page": 4,
+                "left": -6,
+                "top": 466,
+                "zoom": 2.394072779812506
               },
               "icon": "lucide-file-text",
-              "title": "IHI0022K_amba_axi_protocol_spec"
+              "title": "基于 BUFGMUX 与 DCM 的 FPGA 时钟电路设计"
             }
           }
         ]
@@ -196,8 +196,9 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "35a470a2c390e07e",
+  "active": "7913bc19109f5cb2",
   "lastOpenFiles": [
+    "de/amba_axi/ref/IHI0022K_amba_axi_protocol_spec.pdf",
     "de/platform/domain_cross/rdc/rdc.md",
     "de/platform/domain_cross/rdc/books/Techniques to identify reset metastability issues due to soft resets.pdf",
     "de/platform/domain_cross/rdc/include",
@@ -242,7 +243,6 @@
     "de/design_spec/fast_design.md",
     "de/platform_clk_resetn_power_gen/cdc/clk_gen/clk_gen.md",
     "de/_unorganized/master/src/docs/CDC总结.md",
-    "de/backend/backend.md",
-    "de/_unorganized/master/readme.md"
+    "de/backend/backend.md"
   ]
 }
