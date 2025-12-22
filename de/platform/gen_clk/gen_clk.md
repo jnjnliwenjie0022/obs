@@ -1,6 +1,6 @@
 # notice #TODO 
 
-- 不需要高精度且是同相位的部分通常會在 subsystem 上處理
+- 通常會在 subsystem 和 platform 上處理
 - 注意事項:
 	- Duty Cycle 需要 50%
 	- Glitch Free
@@ -22,7 +22,7 @@
 					- ref: https://www.youtube.com/watch?v=wmyelwAOSIE
 	- 針對FPGA
 		- 需要高精度
-			- 先經過PLL/MMCM/DCM
+			- 先經過MMCM/DCM
 				- ref: https://digilent.com/blog/vcos-mmcms-plls-and-cmts-clocking-resources-on-fpga-boards/
 			- 再經過BUF
 		- 不需要高精度且是同相位: 
