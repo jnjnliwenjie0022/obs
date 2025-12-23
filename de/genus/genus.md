@@ -1,0 +1,2 @@
+- ![[Pasted image 20251223144625.png]]
+- 如果 module 是 combination logic only 且 input 爲 constant, tool 會自動優化掉, 且這個 module 不會有 sdf 的描述
