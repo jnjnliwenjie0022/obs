@@ -194,6 +194,11 @@ endprimitive
 - ref: https://vocus.cc/article/6745bf43fd89780001828dad
 - ref: https://blog.csdn.net/Albert66666/article/details/141748849
 - ![[skew.svg|1000]]
+- ICG 特性
+	- 很容易產生負數的 Skew
+	- Placement 和 Routing 對 Skew 有很大的影響
+	- ICG 儘量接近 Sink DFF, 藉此減少 Skew
+	- 共用 ICG 可以減少 Area
 
 # glitch
 
