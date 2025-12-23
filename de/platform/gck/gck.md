@@ -194,7 +194,8 @@ endprimitive
 
 # glitch
 
-
+- 只要 CLK@A 和 CLK@B 有 delay 就會有 glitch 的問題發生, 解決方法是透過 APR 處理
+- ![[Pasted image 20251223114206.png]]
 
 # backend (TODO)
 
