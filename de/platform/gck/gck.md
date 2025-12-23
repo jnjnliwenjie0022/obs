@@ -216,3 +216,7 @@ endprimitive
 - 以下是Scan Chain的補充說明
 	- 中端或是後端會自新增 SE 和 SI 信號
 	- ![[Pasted image 20251017140317.png]]
+
+# CTS #TODO 
+
+- ref: https://blog.csdn.net/weixin_41464428/article/details/111400942

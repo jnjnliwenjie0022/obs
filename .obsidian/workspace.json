@@ -11,16 +11,15 @@
             "id": "7913bc19109f5cb2",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "de/platform/gen_clk/book/基于 BUFGMUX 与 DCM 的 FPGA 时钟电路设计.pdf",
-                "page": 3,
-                "left": -31,
-                "top": 614,
-                "zoom": 2.394072779812506
+                "file": "de/platform/gen_power/power_gating/power_gating.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
               },
-              "icon": "lucide-file-text",
-              "title": "基于 BUFGMUX 与 DCM 的 FPGA 时钟电路设计"
+              "icon": "lucide-file",
+              "title": "power_gating"
             }
           }
         ]
@@ -80,8 +79,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 506.5,
-    "collapsed": true
+    "width": 506.5
   },
   "right": {
     "id": "baf9c43aba40b294",
@@ -145,13 +143,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "de/platform/gen_clk/book/基于 BUFGMUX 与 DCM 的 FPGA 时钟电路设计.pdf",
+                "file": "de/platform/gen_power/power_gating/power_gating.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 基于 BUFGMUX 与 DCM 的 FPGA 时钟电路设计"
+              "title": "Outline of power_gating"
             }
           },
           {
@@ -196,14 +194,14 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "7913bc19109f5cb2",
+  "active": "35a470a2c390e07e",
   "lastOpenFiles": [
-    "de/genus/genus.md",
-    "Pasted image 20251223144625.png",
     "de/platform/gck/gck.md",
-    "de/genus",
-    "de/platform/gen_clk/book/基于 BUFGMUX 与 DCM 的 FPGA 时钟电路设计.pdf",
     "de/platform/gck/include/skew.svg",
+    "de/genus/genus.md",
+    "de/platform/gen_clk/book/基于 BUFGMUX 与 DCM 的 FPGA 时钟电路设计.pdf",
+    "Pasted image 20251223144625.png",
+    "de/genus",
     "Pasted image 20251210150334.png",
     "Pasted image 20251210150354.png",
     "de/platform/gck/include/Pasted image 20251223113827.png",
