@@ -208,7 +208,7 @@ endprimitive
 - 只要 CLK@A 和 CLK@B 有 delay 就會有 glitch 的問題發生, 解決方法是透過 APR 處理
 - ![[Pasted image 20251223114206.png]]
 
-# backend (TODO)
+# backend #TODO 
 
 - ref: https://vocus.cc/article/673c5345fd89780001e41b8d
 - 以下是STARC的DFT+GCK設計建議
@@ -217,6 +217,8 @@ endprimitive
 	- 中端或是後端會自新增 SE 和 SI 信號
 	- ![[Pasted image 20251017140317.png]]
 
-# CTS #TODO 
+# CTS
 
-- ref: https://blog.csdn.net/weixin_41464428/article/details/111400942
+- #TODO ref: https://blog.csdn.net/weixin_41464428/article/details/111400942
+- #TODO ref: https://aijishu.com/a/1060000000439299
+- #TODO ref: https://blog.csdn.net/weixin_37584728/article/details/144055456?spm=1001.2101.3001.4242.2&utm_relevant_index=3

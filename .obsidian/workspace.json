@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "de/platform/gen_power/power_gating/power_gating.md",
+                "file": "de/platform/gck/gck.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "power_gating"
+              "title": "gck"
             }
           }
         ]
@@ -75,11 +75,13 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 506.5
+    "width": 506.5,
+    "collapsed": true
   },
   "right": {
     "id": "baf9c43aba40b294",
@@ -143,13 +145,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "de/platform/gen_power/power_gating/power_gating.md",
+                "file": "de/platform/gck/gck.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of power_gating"
+              "title": "Outline of gck"
             }
           },
           {
@@ -194,8 +196,9 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "35a470a2c390e07e",
+  "active": "7913bc19109f5cb2",
   "lastOpenFiles": [
+    "de/platform/gen_power/power_gating/power_gating.md",
     "de/platform/gck/gck.md",
     "de/platform/gck/include/skew.svg",
     "de/genus/genus.md",
