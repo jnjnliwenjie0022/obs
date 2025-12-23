@@ -188,6 +188,9 @@ endprimitive
 
 # icg_skew
 
+- 用 capture and launch 來說明 DFF 和 ICG 的行爲會比較好統一
+	- hold time 的 buffer 要安插在 capture
+	- skew = Tcapture - Tlaunch
 - ref: https://vocus.cc/article/6745bf43fd89780001828dad
 - ref: https://blog.csdn.net/Albert66666/article/details/141748849
 - ![[skew.svg|1000]]
