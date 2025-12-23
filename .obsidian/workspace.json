@@ -14,37 +14,13 @@
               "type": "pdf",
               "state": {
                 "file": "de/platform/gen_clk/book/基于 BUFGMUX 与 DCM 的 FPGA 时钟电路设计.pdf",
-                "page": 5,
+                "page": 3,
                 "left": -4,
-                "top": 808,
+                "top": 614,
                 "zoom": 2.394072779812506
               },
               "icon": "lucide-file-text",
               "title": "基于 BUFGMUX 与 DCM 的 FPGA 时钟电路设计"
-            }
-          },
-          {
-            "id": "beb770ef6ac418ce",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "de/platform/gck/include/skew.svg"
-              },
-              "icon": "lucide-image",
-              "title": "skew"
-            }
-          },
-          {
-            "id": "cacbe885e0f548fc",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "de/platform/gck/include/skew.svg"
-              },
-              "icon": "lucide-image",
-              "title": "skew"
             }
           },
           {
@@ -54,7 +30,7 @@
               "type": "markdown",
               "state": {
                 "file": "de/platform/gck/gck.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false,
                 "backlinks": false
               },
@@ -184,13 +160,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "de/platform/gck/include/skew.svg",
+                "file": "de/platform/gck/gck.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of skew"
+              "title": "Outline of gck"
             }
           },
           {
@@ -235,18 +211,18 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "beb770ef6ac418ce",
+  "active": "c4923aaf909232d5",
   "lastOpenFiles": [
-    "Pasted image 20251210150334.png",
-    "Pasted image 20251210150354.png",
+    "de/platform/gen_clk/book/基于 BUFGMUX 与 DCM 的 FPGA 时钟电路设计.pdf",
     "de/platform/gck/gck.md",
     "de/platform/gck/include/skew.svg",
+    "Pasted image 20251210150334.png",
+    "Pasted image 20251210150354.png",
     "de/platform/gck/include/Pasted image 20251223113827.png",
     "de/platform/gck/include/Pasted image 20251223114206.png",
     "Pasted image 20251223113827 1.png",
     "de/platform/gck/include/gck_waveform.svg",
     "de/platform/gen_clk/gen_clk.md",
-    "de/platform/gen_clk/book/基于 BUFGMUX 与 DCM 的 FPGA 时钟电路设计.pdf",
     "de/platform/gen_clk/book/~~$基于 BUFGMUX 与 DCM 的 FPGA 时钟电路设计.pdf",
     "de/amba_axi/ref/IHI0022K_amba_axi_protocol_spec.pdf",
     "de/platform/domain_cross/rdc/rdc.md",
