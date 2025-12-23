@@ -185,9 +185,16 @@ endprimitive
 	- 結論: 在 gate-level simulation 中如果有**使用 ICG CELL 一定要吃 SDF** 
 		- ![[Pasted image 20251121154103.png]]
 
-# gck_skew
+
+# icg_skew
 
 - ref: https://vocus.cc/article/6745bf43fd89780001828dad
+- ref: https://blog.csdn.net/Albert66666/article/details/141748849
+- ![[skew.svg|1000]]
+
+# glitch
+
+
 
 # backend (TODO)
 
