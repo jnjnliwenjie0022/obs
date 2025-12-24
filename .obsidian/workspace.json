@@ -11,16 +11,15 @@
             "id": "a6572a297d12498e",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "de/platform/gen_clk/book/基于 BUFGMUX 与 DCM 的 FPGA 时钟电路设计.pdf",
-                "page": 1,
-                "left": -9,
-                "top": 592,
-                "zoom": 1.7161721716340177
+                "file": "de/design_spec/lint_rule.md",
+                "mode": "preview",
+                "source": false,
+                "backlinks": false
               },
-              "icon": "lucide-file-text",
-              "title": "基于 BUFGMUX 与 DCM 的 FPGA 时钟电路设计"
+              "icon": "lucide-file",
+              "title": "lint_rule"
             }
           }
         ]
@@ -195,13 +194,13 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "35a470a2c390e07e",
+  "active": "a6572a297d12498e",
   "lastOpenFiles": [
+    "de/platform/gen_clk/book/基于 BUFGMUX 与 DCM 的 FPGA 时钟电路设计.pdf",
     "de/platform/gen_clk/include/skew.svg",
     "de/platform/gck/gck.md",
     "de/platform/domain_cross/rdc/rdc.md",
     "de/platform/domain_cross/domain_cross.md",
-    "de/platform/gen_clk/book/基于 BUFGMUX 与 DCM 的 FPGA 时钟电路设计.pdf",
     "de/platform/gen_clk/book/CommIC_07.pdf",
     "de/platform/gen_clk/gen_clk.md",
     "de/platform/gen_resetn/gen_resetn.md",
@@ -225,7 +224,6 @@
     "Pasted image 20251210150354.png",
     "Pasted image 20251210150334.png",
     "de/platform/platform/andes_solution/include/power_control_slot.svg",
-    "de/platform/platform/andes_solution/include/system_management_unit.svg",
     "de/design_spec/fctrl.md",
     "de/design_spec/fast_design.md",
     "de/platform/domain_cross",
