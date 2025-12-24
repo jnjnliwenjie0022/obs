@@ -39,8 +39,6 @@
 	- 在 RTL-level 實務設計上, Clock Glitch 的定義就是最快頻率的最小週期
 - 對於 Data 而言, Glitch 不是什麼大問題, 因為 Data 的 Glitch 問題可以被 setup time / hold time detect 到
 
-## skew
-
 # gen_asic_clk
 
 - 合法的 clk 需要考慮到 frontend 和 backend
