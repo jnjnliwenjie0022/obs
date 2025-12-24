@@ -16,7 +16,7 @@
                 "file": "de/platform/platform/andes_solution/ref_andescore/AndesCore_AX27_DS163_V1.9.pdf",
                 "page": 1,
                 "left": -8,
-                "top": 796,
+                "top": 370,
                 "zoom": 1.9031862745098038
               },
               "icon": "lucide-file-text",
@@ -195,8 +195,9 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "7913bc19109f5cb2",
+  "active": "35a470a2c390e07e",
   "lastOpenFiles": [
+    "de/platform/platform/andes_solution/ref_andescore/AndesCore_AX46MPV_DS280_V0.2_Interim.pdf",
     "de/platform/gck/gck.md",
     "de/platform/gen_power/power_gating/power_gating.md",
     "de/platform/gck/include/skew.svg",
@@ -241,7 +242,6 @@
     "de/domain_cross/metastable_state.md",
     "de/domain_cross/cdc/cdc_design/cdc_design.md",
     "de/design_spec/fctrl.md",
-    "de/design_spec/fast_design.md",
-    "de/platform_clk_resetn_power_gen/cdc/clk_gen/clk_gen.md"
+    "de/design_spec/fast_design.md"
   ]
 }
