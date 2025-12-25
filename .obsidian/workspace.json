@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "de/platform/gen_power/power_gating/power_gating.md",
-                "mode": "source",
+                "file": "de/platform/gck/gck.md",
+                "mode": "preview",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "power_gating"
+              "title": "gck"
             }
           },
           {
@@ -207,8 +207,15 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "a6572a297d12498e",
+  "active": "463934e073eea783",
   "lastOpenFiles": [
+    "de/arbiter/arbiter.md",
+    "de/design_spec/ref/Andes_design_guide.md",
+    "de/platform/gen_power/power_gating/power_gating.md",
+    "de/platform/gen_power/power_sequence/power_sequence.md",
+    "Pasted image 20251225231854.png",
+    "Pasted image 20251225231416.png",
+    "Pasted image 20251225231257.png",
     "Pasted image 20251225230906.png",
     "de/platform/gck/gck.md",
     "de/platform/gck/reg/reg.md",
@@ -232,15 +239,11 @@
     "de/arithmetic/booth.md",
     "de/platform/platform/platform.md",
     "de/platform/platform/andes_solution/include/andes_platform.svg",
-    "de/platform/platform/andes_solution/include/gen.svg",
     "de/platform/platform/andes_solution/andes_solution.md",
     "de/arithmetic/divider.md",
     "de/fpu/f16mac.md",
     "de/platform/domain_cross/cdc/ref/SoC设计方法与实现_第3版.pdf",
     "de/domain_cross/cdc/Untitled",
-    "de/platform/domain_cross/cdc/include/Pasted image 20251115202803.png",
-    "de/platform/domain_cross/cdc/include/cdc_design_signal.svg",
-    "de/platform/domain_cross/cdc/include/cdc_design.svg",
     "de/domain_cross/metastable_state.md",
     "de/platform/domain_cross/cdc/code",
     "de/domain_cross/cdc/cdc_design/cdc_design.md",
@@ -251,9 +254,6 @@
     "de/platform_clk_resetn_power_gen/gck/code/gck",
     "de/platform/gen_clk/code/clk_gen",
     "de/_unorganized/master/src/docs/CDC总结.md",
-    "de/backend/backend.md",
-    "de/_unorganized/master/readme.md",
-    "de/cim/analysis.md",
-    "de/power/genus/genus.md"
+    "de/backend/backend.md"
   ]
 }

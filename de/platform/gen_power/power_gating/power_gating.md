@@ -1,6 +1,14 @@
-#TODO 
+
 - ref: https://www.cnblogs.com/-9-8/p/5487239.html
 - ref: https://www.slideshare.net/slideshow/12-low-power-techniques/9942225
-
-- coarse-grain
-- 
+- ref: https://www.techsimplifiedtv.in/2024/06/power-gating-in-cmos-technology-power.html
+- ISO/RR/AO/Level-Shifter
+	- ![[Pasted image 20251225231854.png]]
+- coarse-grain vs fine-grain
+	- ![[Pasted image 20251225231257.png]]
+	- ![[Pasted image 20251225231416.png]]
+	- coarse-grain:
+		- 面積小
+		- 主流設計
+	- fine-grain
+		- IR drop 好處理
