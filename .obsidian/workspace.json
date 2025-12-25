@@ -21,6 +21,16 @@
               "icon": "lucide-file",
               "title": "gck"
             }
+          },
+          {
+            "id": "31d16f9ebaa58d1c",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
           }
         ]
       }
@@ -194,8 +204,9 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "35a470a2c390e07e",
+  "active": "a6572a297d12498e",
   "lastOpenFiles": [
+    "de/platform/gck/gck.md",
     "de/design_spec/lint_rule.md",
     "conflict-files-obsidian-git.md",
     "de/platform/platform/andes_solution/ref_andescore/AndesCore_AX46MPV_DS280_V0.2_Interim.pdf",
@@ -206,7 +217,6 @@
     "Pasted image 20251223144625.png",
     "de/platform/gen_clk/book/基于 BUFGMUX 与 DCM 的 FPGA 时钟电路设计.pdf",
     "de/platform/gen_clk/include/skew.svg",
-    "de/platform/gck/gck.md",
     "de/platform/domain_cross/rdc/rdc.md",
     "de/platform/domain_cross/domain_cross.md",
     "de/platform/gen_clk/book/CommIC_07.pdf",
