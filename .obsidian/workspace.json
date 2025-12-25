@@ -26,14 +26,11 @@
             "id": "31d16f9ebaa58d1c",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "de/power/reg/reg.md",
-                "mode": "preview",
-                "source": false,
-                "backlinks": false
+                "file": "de/platform/gck/include/reg.svg"
               },
-              "icon": "lucide-file",
+              "icon": "lucide-image",
               "title": "reg"
             }
           }
@@ -209,10 +206,11 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "a6572a297d12498e",
+  "active": "35a470a2c390e07e",
   "lastOpenFiles": [
-    "de/power/reg/reg.md",
+    "de/platform/gck/reg/reg.md",
     "de/platform/gck/gck.md",
+    "de/platform/gck/include/reg.svg",
     "de/design_spec/lint_rule.md",
     "conflict-files-obsidian-git.md",
     "de/platform/platform/andes_solution/ref_andescore/AndesCore_AX46MPV_DS280_V0.2_Interim.pdf",
@@ -241,7 +239,6 @@
     "de/platform/domain_cross/cdc/include/Pasted image 20251115202803.png",
     "de/platform/domain_cross/cdc/include/cdc_design_signal.svg",
     "de/platform/domain_cross/cdc/include/cdc_design.svg",
-    "de/platform/domain_cross/include/Pasted image 20251021022807.png",
     "de/domain_cross/metastable_state.md",
     "de/platform/domain_cross/cdc/code",
     "de/domain_cross/cdc/cdc_design/cdc_design.md",
@@ -255,7 +252,6 @@
     "de/backend/backend.md",
     "de/_unorganized/master/readme.md",
     "de/cim/analysis.md",
-    "de/power/genus/genus.md",
-    "de/power/sdpd/power.md"
+    "de/power/genus/genus.md"
   ]
 }
