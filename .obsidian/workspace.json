@@ -4,34 +4,23 @@
     "type": "split",
     "children": [
       {
-        "id": "ce15a0b9bc8350c4",
+        "id": "a9f0456738b162bc",
         "type": "tabs",
         "children": [
           {
-            "id": "a6572a297d12498e",
+            "id": "7913bc19109f5cb2",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "de/platform/gen_power/power_gating/power_gating.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
+                "file": "de/platform/platform/andes_solution/ref_andescore/AndesCore_AX27_DS163_V1.9.pdf",
+                "page": 1,
+                "left": -8,
+                "top": 370,
+                "zoom": 1.9031862745098038
               },
-              "icon": "lucide-file",
-              "title": "power_gating"
-            }
-          },
-          {
-            "id": "31d16f9ebaa58d1c",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "de/platform/gck/include/reg.svg"
-              },
-              "icon": "lucide-image",
-              "title": "reg"
+              "icon": "lucide-file-text",
+              "title": "AndesCore_AX27_DS163_V1.9"
             }
           }
         ]
@@ -87,8 +76,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -108,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "de/platform/gen_clk/gen_clk.md",
+                "file": "de/platform/platform/platform.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +106,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for gen_clk"
+              "title": "Backlinks for platform"
             }
           },
           {
@@ -127,12 +115,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "de/platform/gen_clk/gen_clk.md",
+                "file": "de/platform/platform/platform.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from gen_clk"
+              "title": "Outgoing links from platform"
             }
           },
           {
@@ -156,13 +144,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "de/platform/gen_clk/gen_clk.md",
+                "file": "de/platform/platform/andes_solution/ref_andescore/AndesCore_AX27_DS163_V1.9.pdf",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of gen_clk"
+              "title": "Outline of AndesCore_AX27_DS163_V1.9"
             }
           },
           {
@@ -185,12 +173,12 @@
               "title": "Source Control"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 346.5,
-    "collapsed": true
+    "width": 346.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -207,53 +195,53 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "a6572a297d12498e",
+  "active": "35a470a2c390e07e",
   "lastOpenFiles": [
-    "Pasted image 20251225230906.png",
-    "de/platform/gck/gck.md",
-    "de/platform/gck/reg/reg.md",
     "de/platform/gck/include/reg.svg",
-    "de/design_spec/lint_rule.md",
-    "conflict-files-obsidian-git.md",
+    "Pasted image 20251225230906.png",
     "de/platform/platform/andes_solution/ref_andescore/AndesCore_AX46MPV_DS280_V0.2_Interim.pdf",
+    "de/platform/gck/gck.md",
+    "de/platform/gen_power/power_gating/power_gating.md",
     "de/platform/gck/include/skew.svg",
-    "de/platform/gck/include/Pasted image 20251223114206.png",
     "de/genus/genus.md",
-    "de/genus",
-    "Pasted image 20251223144625.png",
     "de/platform/gen_clk/book/基于 BUFGMUX 与 DCM 的 FPGA 时钟电路设计.pdf",
-    "de/platform/gen_clk/include/skew.svg",
-    "de/platform/domain_cross/rdc/rdc.md",
-    "de/platform/domain_cross/domain_cross.md",
-    "de/platform/gen_clk/book/CommIC_07.pdf",
+    "Pasted image 20251223144625.png",
+    "de/genus",
+    "Pasted image 20251210150334.png",
+    "Pasted image 20251210150354.png",
+    "de/platform/gck/include/Pasted image 20251223113827.png",
+    "de/platform/gck/include/Pasted image 20251223114206.png",
+    "Pasted image 20251223113827 1.png",
+    "de/platform/gck/include/gck_waveform.svg",
     "de/platform/gen_clk/gen_clk.md",
-    "de/platform/gen_resetn/gen_resetn.md",
+    "de/platform/gen_clk/book/~~$基于 BUFGMUX 与 DCM 的 FPGA 时钟电路设计.pdf",
+    "de/amba_axi/ref/IHI0022K_amba_axi_protocol_spec.pdf",
+    "de/platform/domain_cross/rdc/rdc.md",
+    "de/platform/domain_cross/rdc/books/Techniques to identify reset metastability issues due to soft resets.pdf",
+    "de/platform/domain_cross/rdc/include",
+    "de/platform/domain_cross/rdc/books",
+    "de/platform/domain_cross/rdc",
+    "de/platform/domain_cross/include/Pasted image 20251021022807.png",
+    "de/platform/domain_cross/include",
+    "de/platform/domain_cross/domain_cross.md",
     "de/platform/domain_cross/cdc/cdc.md",
-    "de/arithmetic/booth.md",
+    "de/amba_axi/request_attribute.md",
+    "de/amba_axi/axi.md",
+    "de/amba_ahb/ahb.md",
+    "workflow/git/git.md",
+    "de/note.md",
     "de/platform/platform/platform.md",
-    "de/platform/platform/andes_solution/include/andes_platform.svg",
-    "de/platform/platform/andes_solution/include/gen.svg",
-    "de/platform/platform/andes_solution/andes_solution.md",
+    "de/platform/platform/arm_solution/arm_solution.md",
+    "de/platform/gen_resetn/gen_resetn.md",
+    "de/domain_cross/cdc/cdc.md",
+    "de/arithmetic/booth.md",
     "de/arithmetic/divider.md",
+    "de/domain_cross/domain_cross.md",
     "de/fpu/f16mac.md",
-    "de/platform/domain_cross/cdc/ref/SoC设计方法与实现_第3版.pdf",
-    "de/domain_cross/cdc/Untitled",
-    "de/platform/domain_cross/cdc/include/Pasted image 20251115202803.png",
-    "de/platform/domain_cross/cdc/include/cdc_design_signal.svg",
-    "de/platform/domain_cross/cdc/include/cdc_design.svg",
+    "de/domain_cross/rdc/rdc.md",
     "de/domain_cross/metastable_state.md",
-    "de/platform/domain_cross/cdc/code",
     "de/domain_cross/cdc/cdc_design/cdc_design.md",
     "de/design_spec/fctrl.md",
-    "de/design_spec/fast_design.md",
-    "de/platform/domain_cross",
-    "de/platform_clk_resetn_power_gen/cdc/clk_gen/clk_gen.md",
-    "de/platform_clk_resetn_power_gen/gck/code/gck",
-    "de/platform/gen_clk/code/clk_gen",
-    "de/_unorganized/master/src/docs/CDC总结.md",
-    "de/backend/backend.md",
-    "de/_unorganized/master/readme.md",
-    "de/cim/analysis.md",
-    "de/power/genus/genus.md"
+    "de/design_spec/fast_design.md"
   ]
 }
