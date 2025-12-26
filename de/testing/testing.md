@@ -3,5 +3,12 @@
 
 # DFT
 
+- Ad Hoc DFT
+	- Rule1: Self-initialization or initialize from tester
+	- Rule2: disable internal clocks during test
+		- disable on-chip PLL in test mode
+		- enable external clock from tester
 - Internal Scan
-- 
+	- FF-Based: MUX
+- External Scan
+	- JTAG (IEEE1149.1)
