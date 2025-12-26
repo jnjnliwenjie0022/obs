@@ -1,4 +1,5 @@
 # uarch
+
 ## overall_uarch
 ![[axi4.0.svg]]
 ![[axi4.0_detail.svg]]
@@ -43,7 +44,7 @@ error_pending
 
 [[rambrg#exclusive]]
 
-## ref:
+## ref
 
 exclusive access in BMC:
 
@@ -54,3 +55,6 @@ exclusive access in SW and HW excluding BMC:
 [深入理解AMBA总线（十六）AXI设计的关键问题（一）-阿里云开发者社区 (aliyun.com)](https://developer.aliyun.com/article/1303336)
 
 [深入理解AMBA总线（十三）AXI原子访问机制和AXI响应 - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/642172790)
+
+# id
+

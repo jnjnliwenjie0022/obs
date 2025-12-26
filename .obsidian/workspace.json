@@ -13,14 +13,14 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "de/platform/platform/andes_solution/ref_andescore/AndesCore_AX27_DS163_V1.9.pdf",
-                "page": 1,
+                "file": "de/amba_axi/ref/IHI0022K_amba_axi_protocol_spec.pdf",
+                "page": 130,
                 "left": -8,
-                "top": 378,
-                "zoom": 1.9031862745098036
+                "top": 530,
+                "zoom": 1.9566554001841165
               },
               "icon": "lucide-file-text",
-              "title": "AndesCore_AX27_DS163_V1.9"
+              "title": "IHI0022K_amba_axi_protocol_spec"
             }
           }
         ]
@@ -144,13 +144,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "de/platform/platform/andes_solution/ref_andescore/AndesCore_AX27_DS163_V1.9.pdf",
+                "file": "de/amba_axi/ref/IHI0022K_amba_axi_protocol_spec.pdf",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of AndesCore_AX27_DS163_V1.9"
+              "title": "Outline of IHI0022K_amba_axi_protocol_spec"
             }
           },
           {
@@ -197,16 +197,19 @@
   },
   "active": "7913bc19109f5cb2",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
+    "de/amba_axi/ref/amba_axi4.pdf",
+    "de/amba_axi/axi.md",
+    "de/platform/gck/gck.md",
+    "de/platform/gen_power/power_gating/power_gating.md",
     "de/platform/platform/andes_solution/ref_andescore/AndesCore_AX27_DS163_V1.9.pdf",
+    "de/amba_axi/request_attribute.md",
+    "conflict-files-obsidian-git.md",
     "Pasted image 20251225231854.png",
     "Pasted image 20251225231416.png",
     "Pasted image 20251225231257.png",
     "de/platform/gck/include/reg.svg",
     "Pasted image 20251225230906.png",
     "de/platform/platform/andes_solution/ref_andescore/AndesCore_AX46MPV_DS280_V0.2_Interim.pdf",
-    "de/platform/gck/gck.md",
-    "de/platform/gen_power/power_gating/power_gating.md",
     "de/platform/gck/include/skew.svg",
     "de/genus/genus.md",
     "de/platform/gen_clk/book/基于 BUFGMUX 与 DCM 的 FPGA 时钟电路设计.pdf",
@@ -225,8 +228,6 @@
     "de/platform/domain_cross/rdc",
     "de/platform/domain_cross/domain_cross.md",
     "de/platform/domain_cross/cdc/cdc.md",
-    "de/amba_axi/request_attribute.md",
-    "de/amba_axi/axi.md",
     "de/amba_ahb/ahb.md",
     "workflow/git/git.md",
     "de/note.md",
