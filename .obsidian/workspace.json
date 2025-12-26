@@ -4,23 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "a9f0456738b162bc",
+        "id": "8be053f87a2b6b59",
         "type": "tabs",
         "children": [
           {
-            "id": "7913bc19109f5cb2",
+            "id": "7115f3570fc4162c",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "de/amba_axi/ref/IHI0022K_amba_axi_protocol_spec.pdf",
-                "page": 130,
-                "left": -8,
-                "top": 530,
-                "zoom": 1.9566554001841165
+                "file": "de/platform/gck/gck.md",
+                "mode": "preview",
+                "source": false,
+                "backlinks": false
               },
-              "icon": "lucide-file-text",
-              "title": "IHI0022K_amba_axi_protocol_spec"
+              "icon": "lucide-file",
+              "title": "gck"
             }
           }
         ]
@@ -76,7 +75,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -144,13 +144,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "de/amba_axi/ref/IHI0022K_amba_axi_protocol_spec.pdf",
+                "file": "de/platform/gck/gck.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of IHI0022K_amba_axi_protocol_spec"
+              "title": "Outline of gck"
             }
           },
           {
@@ -195,10 +195,11 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "7913bc19109f5cb2",
+  "active": "7115f3570fc4162c",
   "lastOpenFiles": [
-    "de/amba_axi/ref/amba_axi4.pdf",
     "de/amba_axi/axi.md",
+    "de/amba_axi/ref/amba_axi4.pdf",
+    "de/amba_axi/ref/IHI0022K_amba_axi_protocol_spec.pdf",
     "de/platform/gck/gck.md",
     "de/platform/gen_power/power_gating/power_gating.md",
     "de/platform/platform/andes_solution/ref_andescore/AndesCore_AX27_DS163_V1.9.pdf",
@@ -220,12 +221,10 @@
     "de/platform/gck/include/Pasted image 20251223113827.png",
     "de/platform/gen_clk/gen_clk.md",
     "de/platform/gen_clk/book/~~$基于 BUFGMUX 与 DCM 的 FPGA 时钟电路设计.pdf",
-    "de/amba_axi/ref/IHI0022K_amba_axi_protocol_spec.pdf",
     "de/platform/domain_cross/rdc/rdc.md",
     "de/platform/domain_cross/rdc/books/Techniques to identify reset metastability issues due to soft resets.pdf",
     "de/platform/domain_cross/rdc/include",
     "de/platform/domain_cross/rdc/books",
-    "de/platform/domain_cross/rdc",
     "de/platform/domain_cross/domain_cross.md",
     "de/platform/domain_cross/cdc/cdc.md",
     "de/amba_ahb/ahb.md",

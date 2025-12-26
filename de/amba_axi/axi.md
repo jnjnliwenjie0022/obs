@@ -58,3 +58,5 @@ exclusive access in SW and HW excluding BMC:
 
 # id
 
+![[amba_axi4.pdf#page=68&rect=71,496,584,735|amba_axi4, p.68]]
+
