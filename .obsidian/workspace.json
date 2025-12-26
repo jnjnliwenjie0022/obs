@@ -16,8 +16,8 @@
                 "file": "de/platform/platform/andes_solution/ref_andescore/AndesCore_AX27_DS163_V1.9.pdf",
                 "page": 1,
                 "left": -8,
-                "top": 370,
-                "zoom": 1.9031862745098038
+                "top": 378,
+                "zoom": 1.9031862745098036
               },
               "icon": "lucide-file-text",
               "title": "AndesCore_AX27_DS163_V1.9"
@@ -195,8 +195,13 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "35a470a2c390e07e",
+  "active": "7913bc19109f5cb2",
   "lastOpenFiles": [
+    "conflict-files-obsidian-git.md",
+    "de/platform/platform/andes_solution/ref_andescore/AndesCore_AX27_DS163_V1.9.pdf",
+    "Pasted image 20251225231854.png",
+    "Pasted image 20251225231416.png",
+    "Pasted image 20251225231257.png",
     "de/platform/gck/include/reg.svg",
     "Pasted image 20251225230906.png",
     "de/platform/platform/andes_solution/ref_andescore/AndesCore_AX46MPV_DS280_V0.2_Interim.pdf",
@@ -210,9 +215,6 @@
     "Pasted image 20251210150334.png",
     "Pasted image 20251210150354.png",
     "de/platform/gck/include/Pasted image 20251223113827.png",
-    "de/platform/gck/include/Pasted image 20251223114206.png",
-    "Pasted image 20251223113827 1.png",
-    "de/platform/gck/include/gck_waveform.svg",
     "de/platform/gen_clk/gen_clk.md",
     "de/platform/gen_clk/book/~~$基于 BUFGMUX 与 DCM 的 FPGA 时钟电路设计.pdf",
     "de/amba_axi/ref/IHI0022K_amba_axi_protocol_spec.pdf",
@@ -221,8 +223,6 @@
     "de/platform/domain_cross/rdc/include",
     "de/platform/domain_cross/rdc/books",
     "de/platform/domain_cross/rdc",
-    "de/platform/domain_cross/include/Pasted image 20251021022807.png",
-    "de/platform/domain_cross/include",
     "de/platform/domain_cross/domain_cross.md",
     "de/platform/domain_cross/cdc/cdc.md",
     "de/amba_axi/request_attribute.md",
@@ -241,7 +241,6 @@
     "de/domain_cross/rdc/rdc.md",
     "de/domain_cross/metastable_state.md",
     "de/domain_cross/cdc/cdc_design/cdc_design.md",
-    "de/design_spec/fctrl.md",
-    "de/design_spec/fast_design.md"
+    "de/design_spec/fctrl.md"
   ]
 }
