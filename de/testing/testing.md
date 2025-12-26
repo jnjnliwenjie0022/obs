@@ -2,3 +2,6 @@
 - ATPG: Automatic Test Pattern Generation (ATPG)
 
 # DFT
+
+- Internal Scan
+- 
