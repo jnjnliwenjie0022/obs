@@ -34,7 +34,7 @@
 	- pin overhead
 	- design overhead
 - test mode operation
-	- stuck-at fault testing (aka. basic scan): one pattern per scan
-	- delay fault testing: two pattern per scan
+	- stuck-at fault testing:
+	- transition fault testing:
 		- launch-on-shift
 		- launch-on-capture
