@@ -35,6 +35,10 @@
 	- design overhead
 - test mode operation
 	- stuck-at fault testing:
+		- stuck@0
+		- stuck@1
 	- transition fault testing:
+		- rise
+		- fall
 		- launch-on-shift
 		- launch-on-capture
