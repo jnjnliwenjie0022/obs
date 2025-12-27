@@ -13,9 +13,9 @@
 - External Scan
 	- JTAG (IEEE 1149.1)
 
-# SFF
+# internal_scan
 
-- main pin (SO DO can be share)
+- SFF main pin (SO DO can be shared)
 	- SI(Scan Input)
 	- SO(Scan Output)
 	- DI(Data Input)
