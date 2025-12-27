@@ -15,20 +15,27 @@
 
 # internal_scan
 
+- function
+	- normal mode
+	- test mode
+		- shift mode： shift in, shift out
+		- capture mode
 - SFF main pin (SO DO can be shared)
 	- SI(Scan Input)
 	- SO(Scan Output)
 	- DI(Data Input)
 	- DO(Data Output)
-- SFF function
-	- shift mode
-	- capture mode
-- circuit function
-	- normal mode
-	- test mode
+- SFF pros
+	- easy ATPG
 - SFF cons
 	- performance overhead for setup/hold time
 	- power overhead
 	- area overhead 5%~10%
 	- pin overhead
 	- design overhead
+- test mode operation
+	- stuck-at fault testing (aka. basic scan): one pattern per scan
+		- 
+	- delay fault testing: 
+		- two pattern per scan
+			- 
