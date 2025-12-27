@@ -27,5 +27,8 @@
 	- normal mode
 	- test mode
 - SFF cons
+	- performance overhead for setup/hold time
+	- power overhead
 	- area overhead 5%~10%
-	- 
+	- pin overhead
+	- design overhead
