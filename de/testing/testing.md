@@ -26,3 +26,7 @@
 - circuit function
 	- normal mode
 	- test mode
+- SFF pros and cons
+	- pros
+		- 
+	- cons
