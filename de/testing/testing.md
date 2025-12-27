@@ -26,7 +26,6 @@
 - circuit function
 	- normal mode
 	- test mode
-- SFF pros and cons
-	- pros
-		- 
-	- cons
+- SFF cons
+	- area overhead 5%~10%
+	- 
