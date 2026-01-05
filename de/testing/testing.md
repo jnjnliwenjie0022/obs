@@ -46,5 +46,6 @@
 		- launch-on-shift (LOS)
 			- cons: 無法測試 STR 和 STF
 		- launch-on-capture (LOC)
-			- pros: 最長用測試
+			- pros: 最常用測試
 		- ![[transition_fault.svg|1000]]
+	- 

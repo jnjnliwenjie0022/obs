@@ -21,8 +21,21 @@
               "icon": "lucide-file",
               "title": "testing"
             }
+          },
+          {
+            "id": "b0096d5dab5f08bb",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "de/testing/include/transition_fault.svg"
+              },
+              "icon": "lucide-image",
+              "title": "transition_fault"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -144,13 +157,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "de/testing/testing.md",
+                "file": "de/testing/include/transition_fault.svg",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of testing"
+              "title": "Outline of transition_fault"
             }
           },
           {
@@ -196,11 +209,11 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "8fe685bc9338904d",
+  "active": "b0096d5dab5f08bb",
   "lastOpenFiles": [
+    "de/testing/testing.md",
     "de/testing/include/transition_fault.svg",
     "de/testing/include/reg.svg",
-    "de/testing/testing.md",
     "de/platform/gck/gck.md",
     "de/testing/include",
     "de/platform/domain_cross/domain_cross.md",
@@ -226,7 +239,6 @@
     "de/genus",
     "Pasted image 20251210150334.png",
     "Pasted image 20251210150354.png",
-    "de/platform/gck/include/Pasted image 20251223113827.png",
     "de/platform/gen_clk/gen_clk.md",
     "de/platform/gen_clk/book/~~$基于 BUFGMUX 与 DCM 的 FPGA 时钟电路设计.pdf",
     "de/platform/domain_cross/rdc/rdc.md",
