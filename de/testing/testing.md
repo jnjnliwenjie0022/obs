@@ -18,18 +18,25 @@
 
 # internal_scan
 
-- ref: [Let’s talk about On-Chip Clock Controller! 2 | by Raghu Aratlakota | Medium](https://medium.com/@raghuel/lets-talk-about-occ-d9bcc39260cd)
 - method
 	- LSSD
-		- cons:
 		- pros:
+			- no clock skew
+			- popular for latch-based design
 	- Muxed D-scan
 		- cons:
+			- speed degradation
 		- pros:
+			- popular for FF-based design
 	- Clock scan
 		- cons:
+			- need extra clock routing for SCK
 		- pros:
+			- no speed degradation
+			- for advanced design
 # muxed_d_scan
+
+- ref: [Let’s talk about On-Chip Clock Controller! 2 | by Raghu Aratlakota | Medium](https://medium.com/@raghuel/lets-talk-about-occ-d9bcc39260cd)
 - function
 	- normal mode
 	- test mode
