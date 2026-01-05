@@ -21,21 +21,8 @@
               "icon": "lucide-file",
               "title": "testing"
             }
-          },
-          {
-            "id": "b0096d5dab5f08bb",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "de/testing/include/transition_fault.svg"
-              },
-              "icon": "lucide-image",
-              "title": "transition_fault"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -157,13 +144,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "de/testing/include/transition_fault.svg",
+                "file": "de/testing/testing.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of transition_fault"
+              "title": "Outline of testing"
             }
           },
           {
@@ -209,10 +196,10 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "b0096d5dab5f08bb",
+  "active": "8fe685bc9338904d",
   "lastOpenFiles": [
-    "de/testing/testing.md",
     "de/testing/include/transition_fault.svg",
+    "de/testing/testing.md",
     "de/testing/include/reg.svg",
     "de/platform/gck/gck.md",
     "de/testing/include",
