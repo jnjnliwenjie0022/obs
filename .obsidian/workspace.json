@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "de/testing/testing.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false,
                 "backlinks": false
               },
@@ -195,7 +195,7 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "35a470a2c390e07e",
+  "active": "8fe685bc9338904d",
   "lastOpenFiles": [
     "de/testing/include/transition_fault.svg",
     "de/testing/include/reg.svg",

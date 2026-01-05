@@ -15,6 +15,7 @@
 
 # internal_scan
 
+- ref: [Let’s talk about On-Chip Clock Controller! 2 | by Raghu Aratlakota | Medium](https://medium.com/@raghuel/lets-talk-about-occ-d9bcc39260cd)
 - function
 	- normal mode
 	- test mode
