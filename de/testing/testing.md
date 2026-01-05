@@ -1,5 +1,7 @@
 
 - ATPG: Automatic Test Pattern Generation (ATPG)
+- ATPG sees only comb. ckt. model
+	- Sequential circuit 無法使用 ATPG pattern，需要將 Sequential circuit 轉成 combination circuit 才能使用 ATPG pattern
 # DFT
 
 - ref: https://www.youtube.com/watch?v=FMhw3n7NqVM&list=PLvd8d-SyI7hjk_Ci0zpTqImAtpEjdK5JF&index=55
@@ -37,10 +39,11 @@
 - test mode operation
 	- stuck-at fault testing: SA (stuck@0 or stuck@1)
 	- delay fault testing: STR (slow to rise), STF (slow to fall), path delay, IDDQ
-		- ref: https://blog.csdn.net/Tranquil_ovo/article/details/151120747?spm=1001.2101.3001.6650.4&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7EYuanLiJiHua%7EPosition-4-151120747-blog-144903477.235%5Ev43%5Epc_blog_bottom_relevance_base3&utm_relevant_index=8
 		- launch-on-shift (LOS)
 			- cons: 無法測試 STR 和 STF
 		- launch-on-capture (LOC)
 			- pros: 最常用測試
 		- ![[transition_fault.svg|1000]]
-	- 
+
+# occ
+- ref: https://blog.csdn.net/Tranquil_ovo/article/details/151120747?spm=1001.2101.3001.6650.4&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7EYuanLiJiHua%7EPosition-4-151120747-blog-144903477.235%5Ev43%5Epc_blog_bottom_relevance_base3&utm_relevant_index=8
