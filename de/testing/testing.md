@@ -1,6 +1,7 @@
 
 - ATPG: Automatic Test Pattern Generation (ATPG)
 - ATPG sees only comb. ckt. model
+	- turns seq. ckt. to comb. ckt.
 	- Sequential circuit 無法使用 ATPG pattern，需要將 Sequential circuit 轉成 combination circuit 才能使用 ATPG pattern
 # DFT
 
@@ -40,10 +41,16 @@
 	- stuck-at fault testing: SA (stuck@0 or stuck@1)
 	- delay fault testing: STR (slow to rise), STF (slow to fall), path delay, IDDQ
 		- launch-on-shift (LOS)
-			- cons: 無法測試 STR 和 STF
+			- pros:
+				- turns seq. ckt. to comb. ckt. ATPG pattern 數量少
+			- cons: 
+				- bad FC (fault coverage) untestable due to structural dependency
 		- launch-on-capture (LOC)
-			- pros: 最常用測試
+			- pros:
+				- good FC 
+			- cons:
+				- turns seq. ckt. to comb. ckt. ATPG pattern 數量大
 		- ![[transition_fault.svg|1000]]
-
+		- 解決方案: 
 # occ
 - ref: https://blog.csdn.net/Tranquil_ovo/article/details/151120747?spm=1001.2101.3001.6650.4&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7EYuanLiJiHua%7EPosition-4-151120747-blog-144903477.235%5Ev43%5Epc_blog_bottom_relevance_base3&utm_relevant_index=8
