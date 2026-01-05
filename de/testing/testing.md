@@ -18,8 +18,13 @@
 - function
 	- normal mode
 	- test mode
-		- shift mode： shift in, shift out
-		- capture mode
+		- shift phase： SE = 1
+			- shift in
+			- shift out
+			- launch (option)
+		- capture phase: SE = 0
+			- launch (option)
+			- capture
 - SFF main pin (SO DO can be shared)
 	- SI(Scan Input)
 	- SO(Scan Output)
@@ -34,11 +39,7 @@
 	- pin overhead
 	- design overhead
 - test mode operation
-	- stuck-at fault testing:
-		- stuck@0
-		- stuck@1
-	- transition fault testing:
-		- rise
-		- fall
-		- launch-on-shift
-		- launch-on-capture
+	- stuck-at fault testing: stuck@0 or stuck@1
+	- transition fault testing: rise or fall
+		- launch-on-shift (LOS)
+		- launch-on-capture (LOC)
