@@ -3,6 +3,7 @@
 - ATPG sees only comb. ckt. model
 	- turns seq. ckt. to comb. ckt.
 	- Sequential circuit 無法使用 ATPG pattern，需要將 Sequential circuit 轉成 combination circuit 才能使用 ATPG pattern
+- external scan and internal scan 是用相同 EDA tool
 # DFT
 
 - DFT Rules
@@ -73,9 +74,13 @@
 				- turns seq. ckt. to comb. ckt. ATPG pattern 數量大
 		- Mix LOS and LOC: 先用 LOS 加速驗證，再用 LOC 收斂 FC
 		- ![[transition_fault.svg|1000]]
-			- AT-speed test (全速測試): 測試晶片在實際工作頻率下是否能正常運作，測試時脈往往是由晶片內部的PLL產生
+			- slow clock: from ATE
+			- fast clock: from PLL
+				- AT-speed test (全速測試): 測試晶片在實際工作頻率下是否能正常運作，測試時脈往往是由晶片內部的PLL產生
 # occ
 - ref: https://blog.csdn.net/Tranquil_ovo/article/details/151120747?spm=1001.2101.3001.6650.4&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7EYuanLiJiHua%7EPosition-4-151120747-blog-144903477.235%5Ev43%5Epc_blog_bottom_relevance_base3&utm_relevant_index=8
+- ref: https://medium.com/@raghuel/lets-talk-about-occ-d9bcc39260cd
+- occ 電路可以是 hardmacro by
 
 # scan_flow
 
