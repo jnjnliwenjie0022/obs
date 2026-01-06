@@ -17,7 +17,7 @@
 	- IEEE 1149.1 - Standard Test Access Port and Boundary-Scan Architecture
 		- P.S: JTAG 是實現 IEEE 1149.1 的介面
 			- JTAG 可以 access external scan，符合 IEEE 1149.1，無需其他電路設計
-			- JTAG 可以 access internal scan，但只作爲 transport，需要做其他非電路設計
+			- JTAG 可以 access internal scan，但只作爲 transport，需要做其他非電路設計，建議在 IEEE 1149.1 上引入 IEEE 1687，將 IEEE 1149.1 作爲external device，IEEE 1687 作爲
 
 # internal_scan
 ## scan_cell
