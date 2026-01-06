@@ -14,14 +14,14 @@
 - Internal Scan
 	- Scan chain insertion (aka. DFT insertion or DFT synthesis) in early 1970's \[Williams 73\]\[Eichelberger 77\]
 - External Scan
-	- IEEE 1149.1 - Standard Test Access Port and Boundary-Scan Architecture
-		- P.S: JTAG 是實現 IEEE 1149.1 的介面
-- IEEE 1149.1 and IEEE 1687
-	- JTAG 是界面，遵守 IEEE 1149.1 和 IEEE 1687
-	- IEEE 1149.1-2001 定義如何處理 external scan，對於其他的測試都被視爲 **transport module**
-	- IEEE 1149.1-2013 定義如何處理 external scan 和 internal scan，對於其他的測試都被視爲 **transport module**
-	- IEEE 1687 完全相容 IEEE 1149.1，定義如何處理 external scan 和 internal scan
-		- IEEE 1687 通常掛在 1149.1 的 TAP 之下，作為其中一個數據暫存器（TDR）來運作
+	- IEEE 1149.1-2013 - Standard Test Access Port and Boundary-Scan Architecture
+		- P.S: JTAG 是實現 IEEE 1149.1-2013 的介面
+		- P.S: 通常將 IEEE 1149.1-2013 視爲 **transport module**
+- IEEE 1149.1-2013 and IEEE 1687
+	- IEEE 1149.1-2013 通常用來處理 external scan，但可處理 internal scan
+	- IEEE 1687 通常用來處理 internal scan，但可處理 external scan
+	- IEEE 1687 完全相容 IEEE 1149.1-2013
+		- IEEE 1687 通常掛在 1149.1-2013 的 TAP 之下，作為其中一個數據暫存器（TDR）來運作
 		- IEEE 1687 技術核心是 SiB
 		- pin 一樣：TDI/TDO/TMS/TCK/TRST
 		- fsm 一樣：16
