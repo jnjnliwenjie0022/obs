@@ -11,12 +11,15 @@
             "id": "8fe685bc9338904d",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "de/testing/include/q3.svg"
+                "file": "de/testing/testing.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
               },
-              "icon": "lucide-image",
-              "title": "q3"
+              "icon": "lucide-file",
+              "title": "testing"
             }
           }
         ]
@@ -194,8 +197,9 @@
   },
   "active": "8fe685bc9338904d",
   "lastOpenFiles": [
-    "de/testing/testing.md",
+    "de/testing/include/q4.svg",
     "de/testing/include/q3.svg",
+    "de/testing/testing.md",
     "de/testing/include/q2.svg",
     "de/testing/include/q1.svg",
     "de/fpu/f16mac.md",
@@ -205,7 +209,6 @@
     "Pasted image 20251210150354.png",
     "Pasted image 20251223144625.png",
     "Pasted image 20251225230906.png",
-    "Pasted image 20251225231257.png",
     "de/testing/include/scan_flow.drawio",
     "de/platform/gck/gck.md",
     "de/testing/include",

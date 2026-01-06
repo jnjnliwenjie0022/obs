@@ -104,9 +104,11 @@
 			- less area overhead
 			- less timing overhead
 	- analysis:
-		- 
-
-
+		- ![[q3.svg]]
+- Q4: How to test DFT
+	- for FF-based scan chain
+	- for LSSD scan chain
+	- ![[q4.svg]]
 
 
 # 
