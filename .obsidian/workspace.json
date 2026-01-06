@@ -11,12 +11,15 @@
             "id": "8fe685bc9338904d",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "de/testing/include/q1.svg"
+                "file": "de/testing/testing.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
               },
-              "icon": "lucide-image",
-              "title": "q1"
+              "icon": "lucide-file",
+              "title": "testing"
             }
           }
         ]
@@ -194,8 +197,8 @@
   },
   "active": "8fe685bc9338904d",
   "lastOpenFiles": [
-    "de/testing/testing.md",
     "de/testing/include/q1.svg",
+    "de/testing/testing.md",
     "de/fpu/f16mac.md",
     "de/testing/include/transition_fault.svg",
     "de/testing/include/scan_chain_cross_clock_domain.svg",
