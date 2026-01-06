@@ -4,7 +4,7 @@
 	- turns seq. ckt. to comb. ckt.
 	- Sequential circuit 無法使用 ATPG pattern，需要將 Sequential circuit 轉成 combination circuit 才能使用 ATPG pattern
 - external scan and internal scan 是用相同 EDA tool
-# DFT
+# dft
 
 - DFT Rules
 	- Rule1: self-initialization or initialize from tester
@@ -15,7 +15,7 @@
 	- Scan chain insertion (aka. DFT insertion or DFT synthesis) in early 1970's \[Williams 73\]\[Eichelberger 77\]
 - External Scan
 	- IEEE 1149.1 - Standard Test Access Port and Boundary-Scan Architecture
-	- JTAG: JTAG 是實現 IEEE 1149.1 的介面
+		- P.S: JTAG 是實現 IEEE 1149.1 的介面, JTAG 可以 access internal and external scan 
 
 # scan_cell
 
@@ -118,3 +118,5 @@
 
 
 # scan_flow_for_external_scan
+
+- 遵守 IEEE 1149.1
