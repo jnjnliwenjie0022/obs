@@ -16,9 +16,11 @@
 - External Scan
 	- IEEE 1149.1 - Standard Test Access Port and Boundary-Scan Architecture
 		- P.S: JTAG 是實現 IEEE 1149.1 的介面
-			- JTAG 可以 access internal and external scan 
+			- JTAG 可以 access external scan，完全符合 IEEE 1149.1 的 SPEC
+			- JTAG 可以 access internal scan，但需要多一些非 IEEE 1149.1 的 SPEC 設計
 
-# scan_cell
+# internal_scan
+## scan_cell
 
 - 實際上, 所有 scan cell 都是 EDA 完成
 - scan cell
@@ -40,7 +42,7 @@
 		- pros:
 			- no speed degradation
 			- for advanced design
-# muxed_d_scan
+## muxed_d_scan
 
 - ref: [Let’s talk about On-Chip Clock Controller! 2 | by Raghu Aratlakota | Medium](https://medium.com/@raghuel/lets-talk-about-occ-d9bcc39260cd)
 - function
@@ -79,12 +81,12 @@
 			- slow clock: from ATE
 			- fast clock: from PLL
 				- AT-speed test (全速測試): 測試晶片在實際工作頻率下是否能正常運作，測試時脈往往是由晶片內部的PLL產生
-# occ #TODO 
+## occ #TODO 
 - ref: https://blog.csdn.net/Tranquil_ovo/article/details/151120747?spm=1001.2101.3001.6650.4&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7EYuanLiJiHua%7EPosition-4-151120747-blog-144903477.235%5Ev43%5Epc_blog_bottom_relevance_base3&utm_relevant_index=8
 - ref: https://medium.com/@raghuel/lets-talk-about-occ-d9bcc39260cd
 - occ 可以是 hard macro by EDA tool
 
-# scan_flow_for_internal_scan
+## scan_flow
 
 - ![[scan_flow.svg]]
 - DRC Rule
@@ -117,7 +119,5 @@
 	- for LSSD scan chain
 	- ![[q4.svg]]
 
-
-# scan_flow_for_external_scan
-
-- 遵守 IEEE 1149.1
+# external_scan
+## scan_flow
