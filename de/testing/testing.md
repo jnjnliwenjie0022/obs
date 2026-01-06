@@ -73,7 +73,7 @@
 				- turns seq. ckt. to comb. ckt. ATPG pattern 數量大
 		- Mix LOS and LOC: 先用 LOS 加速驗證，再用 LOC 收斂 FC
 		- ![[transition_fault.svg|1000]]
-			- AT-speed test (全速測試)
+			- AT-speed test (全速測試): 測試晶片在實際工作頻率下是否能正常運作，測試時脈往往是由晶片內部的PLL產生
 # occ
 - ref: https://blog.csdn.net/Tranquil_ovo/article/details/151120747?spm=1001.2101.3001.6650.4&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7EYuanLiJiHua%7EPosition-4-151120747-blog-144903477.235%5Ev43%5Epc_blog_bottom_relevance_base3&utm_relevant_index=8
 
