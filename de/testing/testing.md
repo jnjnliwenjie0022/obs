@@ -90,3 +90,5 @@
 		- solution: SE = 1, reset always 1, 需要多一個 OR Gate
 - scan chain cross clock domain
 	- ![[scan_chain_cross_clock_domain.svg]]
+
+# 
