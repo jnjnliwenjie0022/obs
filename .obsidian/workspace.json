@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "de/testing/testing.md",
+                "file": "de/fpu/f16mac.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "testing"
+              "title": "f16mac"
             }
           }
         ]
@@ -197,9 +197,9 @@
   },
   "active": "8fe685bc9338904d",
   "lastOpenFiles": [
+    "de/testing/testing.md",
     "de/testing/include/transition_fault.svg",
     "de/testing/include/scan_chain_cross_clock_domain.svg",
-    "de/testing/testing.md",
     "Pasted image 20251210150334.png",
     "Pasted image 20251210150354.png",
     "Pasted image 20251223144625.png",
@@ -208,7 +208,6 @@
     "Pasted image 20251225231416.png",
     "Pasted image 20251225231854.png",
     "Pasted image 20260106105013.png",
-    "Pasted image 20260106105218.png",
     "de/testing/include/scan_flow.drawio",
     "de/platform/gck/gck.md",
     "de/testing/include",
