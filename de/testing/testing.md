@@ -76,3 +76,10 @@
 # scan_flow
 
 - ![[scan_flow.svg]]
+- DRC Rule
+	- 要注意 tri-state
+		- solution:
+	- 要注意 bi-directional I/O ports
+		- solution: SE = 1, always  
+	- 要注意 ICG
+		- solution: SE = 1, clock always on
