@@ -23,7 +23,7 @@
 	- IEEE 1149.1-2013 通常用來處理 external scan，但可處理 internal scan
 	- IEEE 1687 通常用來處理 internal scan，但可處理 external scan
 	- IEEE 1687 完全相容 IEEE 1149.1-2013
-		- IEEE 1687 通常掛在 1149.1-2013 的 TAP 之下，作為其中一個數據暫存器 (TDR) 來運作
+		- IEEE 1687 通常掛在 1149.1-2013 的 TAP 之下, IEEE 1687 作為其中一個 Test Data Registor (TDR) 來運作, 1149.1-2013 作為其中一個 JTAG-style Test Access Port (TAP)
 		- IEEE 1687 技術核心是 SiB
 		- pin 一樣：TDI/TDO/TMS/TCK/TRST
 		- fsm 一樣：16
