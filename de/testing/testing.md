@@ -78,7 +78,7 @@
 			- slow clock: from ATE
 			- fast clock: from PLL
 				- AT-speed test (全速測試): 測試晶片在實際工作頻率下是否能正常運作，測試時脈往往是由晶片內部的PLL產生
-# occ
+# occ #TODO 
 - ref: https://blog.csdn.net/Tranquil_ovo/article/details/151120747?spm=1001.2101.3001.6650.4&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7EYuanLiJiHua%7EPosition-4-151120747-blog-144903477.235%5Ev43%5Epc_blog_bottom_relevance_base3&utm_relevant_index=8
 - ref: https://medium.com/@raghuel/lets-talk-about-occ-d9bcc39260cd
 - occ 可以是 hard macro by EDA tool

@@ -75,7 +75,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -197,9 +198,10 @@
   },
   "active": "8fe685bc9338904d",
   "lastOpenFiles": [
+    "de/platform/gck/gck.md",
+    "de/testing/testing.md",
     "de/testing/include/q4.svg",
     "de/testing/include/q3.svg",
-    "de/testing/testing.md",
     "de/testing/include/q2.svg",
     "de/testing/include/q1.svg",
     "de/fpu/f16mac.md",
@@ -210,7 +212,6 @@
     "Pasted image 20251223144625.png",
     "Pasted image 20251225230906.png",
     "de/testing/include/scan_flow.drawio",
-    "de/platform/gck/gck.md",
     "de/testing/include",
     "de/platform/domain_cross/domain_cross.md",
     "de/Test.md",
