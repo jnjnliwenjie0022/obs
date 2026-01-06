@@ -22,7 +22,8 @@
 	- IEEE 1149.1-2013 定義如何處理 external scan 和 internal scan
 	- IEEE 1687 完全相容 IEEE 1149.1，定義如何處理 external scan 和 internal scan
 		- pin 一樣：TDI/TDO/TMS/TCK/TRST
-		- fsm 一樣：
+		- fsm 一樣：16
+		- IEEE 1687 技術核心是 SiB
 
 
 # internal_scan
