@@ -93,9 +93,9 @@
 	- ![[scan_chain_cross_clock_domain.svg]]
 - Q1: How to save test Time?
 	- ![[q1.svg]]
-- Q2: How to save storage on ATE
+- Q2: How to save storage on ATE (Automatic Test Equipment)?
 	- ![[q2.svg]]
-- Q3: How to reduce overhead
+- Q3: How to reduce overhead?
 	- expectation: 
 	- solution: partial scan
 		- cons:
@@ -103,6 +103,8 @@
 		- pros:
 			- less area overhead
 			- less timing overhead
+	- analysis:
+		- 
 
 
 
