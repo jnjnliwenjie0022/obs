@@ -93,4 +93,5 @@
 	- ![[scan_chain_cross_clock_domain.svg]]
 - Q1: How to Save Test Time?
 	- ![[q1.svg]]
+- Q2: 
 # 
