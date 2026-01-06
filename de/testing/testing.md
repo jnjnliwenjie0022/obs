@@ -75,4 +75,4 @@
 
 # scan_flow
 
-- ![[Pasted image 20260106105218.png]]
+- ![[scan_flow.svg]]

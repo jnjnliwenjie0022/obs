@@ -79,8 +79,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 506.5,
-    "collapsed": true
+    "width": 506.5
   },
   "right": {
     "id": "baf9c43aba40b294",
@@ -196,8 +195,10 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "8fe685bc9338904d",
+  "active": "35a470a2c390e07e",
   "lastOpenFiles": [
+    "de/testing/include/scan_flow.svg",
+    "de/testing/include/scan_flow.drawio",
     "Pasted image 20260106105218.png",
     "Pasted image 20260106105013.png",
     "de/testing/include/transition_fault.svg",
@@ -226,11 +227,9 @@
     "de/platform/gen_clk/book/基于 BUFGMUX 与 DCM 的 FPGA 时钟电路设计.pdf",
     "Pasted image 20251223144625.png",
     "de/genus",
-    "Pasted image 20251210150334.png",
     "de/platform/gen_clk/gen_clk.md",
     "de/platform/gen_clk/book/~~$基于 BUFGMUX 与 DCM 的 FPGA 时钟电路设计.pdf",
     "de/platform/domain_cross/rdc/rdc.md",
-    "de/platform/domain_cross/rdc/books/Techniques to identify reset metastability issues due to soft resets.pdf",
     "de/platform/domain_cross/cdc/cdc.md",
     "de/amba_ahb/ahb.md",
     "workflow/git/git.md",
