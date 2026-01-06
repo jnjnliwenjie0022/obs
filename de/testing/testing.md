@@ -15,7 +15,8 @@
 	- Scan chain insertion (aka. DFT insertion or DFT synthesis) in early 1970's \[Williams 73\]\[Eichelberger 77\]
 - External Scan
 	- IEEE 1149.1 - Standard Test Access Port and Boundary-Scan Architecture
-		- P.S: JTAG 是實現 IEEE 1149.1 的介面, JTAG 可以 access internal and external scan 
+		- P.S: JTAG 是實現 IEEE 1149.1 的介面
+			- JTAG 可以 access internal and external scan 
 
 # scan_cell
 
