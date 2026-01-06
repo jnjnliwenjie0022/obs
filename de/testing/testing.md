@@ -1,11 +1,10 @@
-
+- ref: https://www.youtube.com/watch?v=FMhw3n7NqVM&list=PLvd8d-SyI7hjk_Ci0zpTqImAtpEjdK5JF&index=55
 - ATPG: Automatic Test Pattern Generation (ATPG)
 - ATPG sees only comb. ckt. model
 	- turns seq. ckt. to comb. ckt.
 	- Sequential circuit 無法使用 ATPG pattern，需要將 Sequential circuit 轉成 combination circuit 才能使用 ATPG pattern
 # DFT
 
-- ref: https://www.youtube.com/watch?v=FMhw3n7NqVM&list=PLvd8d-SyI7hjk_Ci0zpTqImAtpEjdK5JF&index=55
 - DFT Rules
 	- Rule1: self-initialization or initialize from tester
 	- Rule2: disable internal clocks during test
