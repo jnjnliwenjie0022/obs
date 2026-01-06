@@ -91,7 +91,20 @@
 		- solution: SE = 1, reset always 1, 需要多一個 OR Gate
 - scan chain cross clock domain
 	- ![[scan_chain_cross_clock_domain.svg]]
-- Q1: How to Save Test Time?
+- Q1: How to save test Time?
 	- ![[q1.svg]]
-- Q2: 
+- Q2: How to save storage on ATE
+	- ![[q2.svg]]
+- Q3: How to reduce overhead
+	- expectation: 
+	- solution: partial scan
+		- cons:
+			- lower FC
+		- pros:
+			- less area overhead
+			- less timing overhead
+
+
+
+
 # 

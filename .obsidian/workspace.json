@@ -197,8 +197,9 @@
   },
   "active": "8fe685bc9338904d",
   "lastOpenFiles": [
-    "de/testing/include/q1.svg",
+    "de/testing/include/q2.svg",
     "de/testing/testing.md",
+    "de/testing/include/q1.svg",
     "de/fpu/f16mac.md",
     "de/testing/include/transition_fault.svg",
     "de/testing/include/scan_chain_cross_clock_domain.svg",
@@ -208,7 +209,6 @@
     "Pasted image 20251225230906.png",
     "Pasted image 20251225231257.png",
     "Pasted image 20251225231416.png",
-    "Pasted image 20251225231854.png",
     "de/testing/include/scan_flow.drawio",
     "de/platform/gck/gck.md",
     "de/testing/include",
