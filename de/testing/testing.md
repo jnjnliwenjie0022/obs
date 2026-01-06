@@ -77,9 +77,11 @@
 
 - ![[scan_flow.svg]]
 - DRC Rule
-	- 要注意 tri-state
-		- solution:
+	- 要注意 tri-state bus
+		- solution: SE = 1, disable bus
 	- 要注意 bi-directional I/O ports
-		- solution: SE = 1, always  
+		- solution: SE = 1, always input pin
 	- 要注意 ICG
-		- solution: SE = 1, clock always on
+		- solution: SE = 1, clock always on, 需要多一個 OR Gate
+	- 要注意 reset
+		- solution: SE = 1, reset always 1, 需要多一個 OR Gate
