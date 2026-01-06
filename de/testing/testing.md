@@ -85,3 +85,5 @@
 		- solution: SE = 1, clock always on, 需要多一個 OR Gate
 	- 要注意 reset
 		- solution: SE = 1, reset always 1, 需要多一個 OR Gate
+- scan chain cross clock domain
+	- 
