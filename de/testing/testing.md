@@ -16,10 +16,14 @@
 - External Scan
 	- JTAG (IEEE 1149.1)
 
-# internal_scan
+# scan_cell
 
-- method
+- 實際上, 所有 scan cell 都是 EDA 完成
+- scan cell
 	- LSSD
+		- ref: https://blog.csdn.net/qq_16423857/article/details/136272862
+		- cons:
+			- need extra clock routing for SCK
 		- pros:
 			- no clock skew
 			- popular for latch-based design
@@ -86,4 +90,4 @@
 	- 要注意 reset
 		- solution: SE = 1, reset always 1, 需要多一個 OR Gate
 - scan chain cross clock domain
-	- 
+	- ![[scan_chain_cross_clock_domain.svg]]
