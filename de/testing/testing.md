@@ -14,7 +14,8 @@
 - Internal Scan
 	- Scan chain insertion (aka. DFT insertion or DFT synthesis) in early 1970's \[Williams 73\]\[Eichelberger 77\]
 - External Scan
-	- JTAG (IEEE 1149.1)
+	- IEEE 1149.1 - Standard Test Access Port and Boundary-Scan Architecture
+	- JTAG: JTAG 是實現 IEEE 1149.1 的介面
 
 # scan_cell
 
@@ -80,9 +81,9 @@
 # occ
 - ref: https://blog.csdn.net/Tranquil_ovo/article/details/151120747?spm=1001.2101.3001.6650.4&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7EYuanLiJiHua%7EPosition-4-151120747-blog-144903477.235%5Ev43%5Epc_blog_bottom_relevance_base3&utm_relevant_index=8
 - ref: https://medium.com/@raghuel/lets-talk-about-occ-d9bcc39260cd
-- occ 電路可以是 hardmacro by
+- occ 可以是 hard macro by EDA tool
 
-# scan_flow
+# scan_flow_for_internal_scan
 
 - ![[scan_flow.svg]]
 - DRC Rule
@@ -116,4 +117,4 @@
 	- ![[q4.svg]]
 
 
-# 
+# scan_flow_for_external_scan
