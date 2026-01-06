@@ -18,7 +18,7 @@
 		- P.S: JTAG 是實現 IEEE 1149.1 的介面
 - IEEE 1149.1 and IEEE 1687
 	- JTAG 是界面，遵守 IEEE 1149.1 和 IEEE 1687
-	- IEEE 1149.1 定義如何處理 external scan，因此 internal scan 需要另外設計電路
+	- IEEE 1149.1 只定義如何處理 external scan，對於其他的測試都被視爲 **transport module**
 	- IEEE 1149.1-2013 定義如何處理 external scan 和 internal scan
 	- IEEE 1687 完全相容 IEEE 1149.1，定義如何處理 external scan 和 internal scan
 		- pin 一樣：TDI/TDO/TMS/TCK/TRST

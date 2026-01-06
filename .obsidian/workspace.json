@@ -11,6 +11,22 @@
             "id": "a6572a297d12498e",
             "type": "leaf",
             "state": {
+              "type": "pdf",
+              "state": {
+                "file": "de/platform/platform/andes_solution/ref_andescore/AndesCore_AX46MPV_DS280_V0.2_Interim.pdf",
+                "page": 24,
+                "left": -6,
+                "top": 374,
+                "zoom": 2.4534313725490198
+              },
+              "icon": "lucide-file-text",
+              "title": "AndesCore_AX46MPV_DS280_V0.2_Interim"
+            }
+          },
+          {
+            "id": "31d16f9ebaa58d1c",
+            "type": "leaf",
+            "state": {
               "type": "markdown",
               "state": {
                 "file": "de/testing/testing.md",
@@ -21,20 +37,9 @@
               "icon": "lucide-file",
               "title": "testing"
             }
-          },
-          {
-            "id": "31d16f9ebaa58d1c",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "de/platform/gck/include/reg.svg"
-              },
-              "icon": "lucide-image",
-              "title": "reg"
-            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -91,8 +96,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 506.5,
-    "collapsed": true
+    "width": 506.5
   },
   "right": {
     "id": "baf9c43aba40b294",
@@ -207,8 +211,11 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "a6572a297d12498e",
+  "active": "31d16f9ebaa58d1c",
   "lastOpenFiles": [
+    "de/platform/platform/andes_solution/ref_andescore/AndesCore_AX46MPV_DS280_V0.2_Interim.pdf",
+    "de/platform/platform/andes_solution/ref_andescore/AndesCore_AX27_DS163_V1.9.pdf",
+    "de/testing/testing.md",
     "de/testing/include/scan_flow.svg",
     "de/testing/include/scan_chain_cross_clock_domain.svg",
     "de/testing/include/q4.svg",
@@ -218,7 +225,6 @@
     "de/testing/include/transition_fault.svg",
     "de/platform/gck/gck.md",
     "de/testing/include/reg.svg",
-    "de/testing/testing.md",
     "de/testing/include",
     "de/testing",
     "de/amba_axi/ref/amba_axi4.pdf",
@@ -228,11 +234,9 @@
     "de/platform/gen_power/power_sequence/power_sequence.md",
     "Pasted image 20251225231854.png",
     "Pasted image 20251225231416.png",
-    "Pasted image 20251225231257.png",
     "de/platform/gck/reg/reg.md",
     "de/design_spec/lint_rule.md",
     "conflict-files-obsidian-git.md",
-    "de/platform/platform/andes_solution/ref_andescore/AndesCore_AX46MPV_DS280_V0.2_Interim.pdf",
     "de/genus/genus.md",
     "de/genus",
     "de/platform/gen_clk/book/基于 BUFGMUX 与 DCM 的 FPGA 时钟电路设计.pdf",
