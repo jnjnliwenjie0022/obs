@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "de/power/sdpd/sdpd.md",
+                "file": "de/power/genus/genus.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "sdpd"
+              "title": "genus"
             }
           }
         ]
@@ -197,6 +197,7 @@
   },
   "active": "8fe685bc9338904d",
   "lastOpenFiles": [
+    "de/power/sdpd/sdpd.md",
     "de/power/sdpd/power.md",
     "de/platform/gen_power/power_gating/power_gating.md",
     "de/testing/testing.md",
@@ -241,7 +242,6 @@
     "de/domain_cross/cdc/cdc.md",
     "de/arithmetic/booth.md",
     "de/arithmetic/divider.md",
-    "de/domain_cross/domain_cross.md",
-    "de/domain_cross/rdc/rdc.md"
+    "de/domain_cross/domain_cross.md"
   ]
 }
