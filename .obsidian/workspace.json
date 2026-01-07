@@ -11,15 +11,12 @@
             "id": "31d16f9ebaa58d1c",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "de/testing/testing.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
+                "file": "de/testing/include/jtag_arch.svg"
               },
-              "icon": "lucide-file",
-              "title": "testing"
+              "icon": "lucide-image",
+              "title": "jtag_arch"
             }
           }
         ]
@@ -196,8 +193,8 @@
   },
   "active": "31d16f9ebaa58d1c",
   "lastOpenFiles": [
-    "de/platform/platform/andes_solution/ref_andescore/AndesCore_AX27_DS163_V1.9.pdf",
     "de/testing/testing.md",
+    "de/platform/platform/andes_solution/ref_andescore/AndesCore_AX27_DS163_V1.9.pdf",
     "de/platform/platform/andes_solution/ref_andescore/AndesCore_AX46MPV_DS280_V0.2_Interim.pdf",
     "de/testing/include/jtag_arch.svg",
     "de/testing/include/scan_flow.svg",
