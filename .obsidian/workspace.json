@@ -8,22 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "a6572a297d12498e",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "de/platform/platform/andes_solution/ref_andescore/AndesCore_AX46MPV_DS280_V0.2_Interim.pdf",
-                "page": 24,
-                "left": -6,
-                "top": 374,
-                "zoom": 2.4534313725490198
-              },
-              "icon": "lucide-file-text",
-              "title": "AndesCore_AX46MPV_DS280_V0.2_Interim"
-            }
-          },
-          {
             "id": "31d16f9ebaa58d1c",
             "type": "leaf",
             "state": {
@@ -38,8 +22,7 @@
               "title": "testing"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -213,10 +196,10 @@
   },
   "active": "31d16f9ebaa58d1c",
   "lastOpenFiles": [
-    "de/testing/include/jtag_arch.svg",
-    "de/platform/platform/andes_solution/ref_andescore/AndesCore_AX46MPV_DS280_V0.2_Interim.pdf",
     "de/platform/platform/andes_solution/ref_andescore/AndesCore_AX27_DS163_V1.9.pdf",
     "de/testing/testing.md",
+    "de/platform/platform/andes_solution/ref_andescore/AndesCore_AX46MPV_DS280_V0.2_Interim.pdf",
+    "de/testing/include/jtag_arch.svg",
     "de/testing/include/scan_flow.svg",
     "de/testing/include/scan_chain_cross_clock_domain.svg",
     "de/testing/include/q4.svg",
@@ -234,7 +217,6 @@
     "de/platform/gen_power/power_gating/power_gating.md",
     "de/platform/gen_power/power_sequence/power_sequence.md",
     "Pasted image 20251225231854.png",
-    "Pasted image 20251225231416.png",
     "de/platform/gck/reg/reg.md",
     "de/design_spec/lint_rule.md",
     "conflict-files-obsidian-git.md",
