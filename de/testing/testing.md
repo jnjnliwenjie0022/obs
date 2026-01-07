@@ -20,6 +20,7 @@
 		- P.S: JTAG 是實現 IEEE 1149.1-2013 的介面
 		- P.S: 通常將 IEEE 1149.1-2013 視爲 **transport module**
 - IEEE 1149.1-2013 and IEEE 1687
+	- #TODO ref: https://blog.csdn.net/Python_0011/article/details/154824998?spm=1001.2101.3001.4242.1&utm_relevant_index=2
 	- IEEE 1149.1-2013 通常用來處理 external scan，但可處理 internal scan
 	- IEEE 1687 通常用來處理 internal scan，但可處理 external scan
 	- IEEE 1687 完全相容 IEEE 1149.1-2013
