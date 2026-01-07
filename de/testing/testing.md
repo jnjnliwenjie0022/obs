@@ -131,3 +131,6 @@
 
 # external_scan
 ## arch
+ref：https://vlsitutorials.com/jtag-architecture-overview/
+ref：https://www.cnblogs.com/jihexiansheng/p/17645113.html
+ref：https://blog.csdn.net/qq_40178082/article/details/135156695
