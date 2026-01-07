@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "de/testing/testing.md",
+                "file": "de/power/sdpd/sdpd.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "testing"
+              "title": "sdpd"
             }
           }
         ]
@@ -197,11 +197,13 @@
   },
   "active": "8fe685bc9338904d",
   "lastOpenFiles": [
+    "de/power/sdpd/power.md",
+    "de/platform/gen_power/power_gating/power_gating.md",
+    "de/testing/testing.md",
     "de/testing/include/scan_flow.svg",
     "de/testing/include/scan_chain_cross_clock_domain.svg",
     "de/testing/include/transition_fault.svg",
     "de/testing/include/jtag_arch.svg",
-    "de/testing/testing.md",
     "de/platform/gck/gck.md",
     "de/testing/include/q4.svg",
     "de/testing/include/q3.svg",
@@ -210,7 +212,6 @@
     "de/fpu/f16mac.md",
     "Pasted image 20251210150334.png",
     "Pasted image 20251210150354.png",
-    "Pasted image 20251223144625.png",
     "de/testing/include/scan_flow.drawio",
     "de/testing/include",
     "de/platform/domain_cross/domain_cross.md",
@@ -220,7 +221,6 @@
     "de/amba_axi/axi.md",
     "de/amba_axi/ref/amba_axi4.pdf",
     "de/amba_axi/ref/IHI0022K_amba_axi_protocol_spec.pdf",
-    "de/platform/gen_power/power_gating/power_gating.md",
     "de/platform/platform/andes_solution/ref_andescore/AndesCore_AX27_DS163_V1.9.pdf",
     "de/amba_axi/request_attribute.md",
     "conflict-files-obsidian-git.md",
