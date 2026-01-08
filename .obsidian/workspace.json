@@ -194,14 +194,14 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "35a470a2c390e07e",
+  "active": "31d16f9ebaa58d1c",
   "lastOpenFiles": [
     "de/testing/book/ssya002c.pdf",
+    "de/testing/testing.md",
+    "de/testing/include/jtag_arch.svg",
     "de/testing/book",
     "de/testing/include/transition_fault.svg",
-    "de/testing/include/jtag_arch.svg",
     "de/testing/include/q1.svg",
-    "de/testing/testing.md",
     "de/platform/platform/andes_solution/ref_andescore/AndesCore_AX27_DS163_V1.9.pdf",
     "de/platform/platform/andes_solution/ref_andescore/AndesCore_AX46MPV_DS280_V0.2_Interim.pdf",
     "de/testing/include/scan_flow.svg",
@@ -236,7 +236,6 @@
     "de/platform/platform/andes_solution/andes_solution.md",
     "de/arithmetic/divider.md",
     "de/fpu/f16mac.md",
-    "de/platform/domain_cross/cdc/ref/SoC设计方法与实现_第3版.pdf",
     "de/domain_cross/metastable_state.md",
     "de/domain_cross/cdc/cdc_design/cdc_design.md",
     "de/design_spec/fctrl.md",

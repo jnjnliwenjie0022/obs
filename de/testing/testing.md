@@ -130,6 +130,9 @@
 	- ![[q4.svg]]
 
 # external_scan
+
+## ieee1149.1-1990
+
 ## arch
 - ref: https://vlsitutorials.com/jtag-architecture-overview/
 - ref: https://www.cnblogs.com/jihexiansheng/p/17645113.html
