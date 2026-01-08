@@ -4,22 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "ce15a0b9bc8350c4",
+        "id": "8be053f87a2b6b59",
         "type": "tabs",
         "children": [
           {
-            "id": "31d16f9ebaa58d1c",
+            "id": "8fe685bc9338904d",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "de/testing/testing.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
+                "file": "de/testing/include/jtag_arch.svg"
               },
-              "icon": "lucide-file",
-              "title": "testing"
+              "icon": "lucide-image",
+              "title": "jtag_arch"
             }
           }
         ]
@@ -95,7 +92,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "de/platform/gen_clk/gen_clk.md",
+                "file": "de/platform/platform/platform.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +102,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for gen_clk"
+              "title": "Backlinks for platform"
             }
           },
           {
@@ -114,12 +111,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "de/platform/gen_clk/gen_clk.md",
+                "file": "de/platform/platform/platform.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from gen_clk"
+              "title": "Outgoing links from platform"
             }
           },
           {
@@ -143,13 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "de/platform/gen_clk/gen_clk.md",
+                "file": "de/testing/testing.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of gen_clk"
+              "title": "Outline of testing"
             }
           },
           {
@@ -172,7 +169,8 @@
               "title": "Source Control"
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -194,52 +192,53 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "31d16f9ebaa58d1c",
+  "active": "8fe685bc9338904d",
   "lastOpenFiles": [
-    "de/testing/include/jtag_arch.svg",
     "de/testing/testing.md",
-    "de/platform/platform/andes_solution/ref_andescore/AndesCore_AX27_DS163_V1.9.pdf",
-    "de/platform/platform/andes_solution/ref_andescore/AndesCore_AX46MPV_DS280_V0.2_Interim.pdf",
+    "de/power/genus/genus.md",
+    "de/power/sdpd/sdpd.md",
+    "de/power/sdpd/power.md",
+    "de/platform/gen_power/power_gating/power_gating.md",
     "de/testing/include/scan_flow.svg",
     "de/testing/include/scan_chain_cross_clock_domain.svg",
+    "de/testing/include/transition_fault.svg",
+    "de/testing/include/jtag_arch.svg",
+    "de/platform/gck/gck.md",
     "de/testing/include/q4.svg",
     "de/testing/include/q3.svg",
     "de/testing/include/q2.svg",
     "de/testing/include/q1.svg",
-    "de/testing/include/transition_fault.svg",
-    "de/platform/gck/gck.md",
-    "de/testing/include/reg.svg",
-    "de/testing/include",
-    "de/testing",
-    "de/amba_axi/ref/amba_axi4.pdf",
-    "de/arbiter/arbiter.md",
-    "de/design_spec/ref/Andes_design_guide.md",
-    "de/platform/gen_power/power_gating/power_gating.md",
-    "de/platform/gen_power/power_sequence/power_sequence.md",
-    "Pasted image 20251225231854.png",
-    "de/platform/gck/reg/reg.md",
-    "de/design_spec/lint_rule.md",
-    "conflict-files-obsidian-git.md",
-    "de/genus/genus.md",
-    "de/genus",
-    "de/platform/gen_clk/book/基于 BUFGMUX 与 DCM 的 FPGA 时钟电路设计.pdf",
-    "de/platform/domain_cross/rdc/rdc.md",
-    "de/platform/domain_cross/domain_cross.md",
-    "de/platform/gen_clk/book/CommIC_07.pdf",
-    "de/platform/gen_clk/gen_clk.md",
-    "de/platform/gen_resetn/gen_resetn.md",
-    "de/platform/domain_cross/cdc/cdc.md",
-    "de/arithmetic/booth.md",
-    "de/platform/platform/platform.md",
-    "de/platform/platform/andes_solution/andes_solution.md",
-    "de/arithmetic/divider.md",
     "de/fpu/f16mac.md",
-    "de/platform/domain_cross/cdc/ref/SoC设计方法与实现_第3版.pdf",
-    "de/domain_cross/cdc/Untitled",
-    "de/domain_cross/metastable_state.md",
-    "de/domain_cross/cdc/cdc_design/cdc_design.md",
-    "de/design_spec/fctrl.md",
-    "de/design_spec/fast_design.md",
-    "de/platform_clk_resetn_power_gen/cdc/clk_gen/clk_gen.md"
+    "Pasted image 20251210150334.png",
+    "Pasted image 20251210150354.png",
+    "de/testing/include/scan_flow.drawio",
+    "de/testing/include",
+    "de/platform/domain_cross/domain_cross.md",
+    "de/Test.md",
+    "de/testing",
+    "de/_unorganized/cosim.md",
+    "de/amba_axi/axi.md",
+    "de/amba_axi/ref/amba_axi4.pdf",
+    "de/amba_axi/ref/IHI0022K_amba_axi_protocol_spec.pdf",
+    "de/platform/platform/andes_solution/ref_andescore/AndesCore_AX27_DS163_V1.9.pdf",
+    "de/amba_axi/request_attribute.md",
+    "conflict-files-obsidian-git.md",
+    "de/platform/platform/andes_solution/ref_andescore/AndesCore_AX46MPV_DS280_V0.2_Interim.pdf",
+    "de/genus/genus.md",
+    "de/platform/gen_clk/book/基于 BUFGMUX 与 DCM 的 FPGA 时钟电路设计.pdf",
+    "de/genus",
+    "de/platform/gen_clk/gen_clk.md",
+    "de/platform/gen_clk/book/~~$基于 BUFGMUX 与 DCM 的 FPGA 时钟电路设计.pdf",
+    "de/platform/domain_cross/rdc/rdc.md",
+    "de/platform/domain_cross/cdc/cdc.md",
+    "de/amba_ahb/ahb.md",
+    "workflow/git/git.md",
+    "de/note.md",
+    "de/platform/platform/platform.md",
+    "de/platform/platform/arm_solution/arm_solution.md",
+    "de/platform/gen_resetn/gen_resetn.md",
+    "de/domain_cross/cdc/cdc.md",
+    "de/arithmetic/booth.md",
+    "de/arithmetic/divider.md"
   ]
 }
