@@ -146,9 +146,7 @@
 		- reset: TRST
 	- 16 FSM
 	- JTAG operation
-		- test_logic_reset
-			- TMS = 11111...
-			- TRST = 0
+
 
 ## arch
 - ref: https://vlsitutorials.com/jtag-architecture-overview/
