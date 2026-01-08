@@ -193,8 +193,9 @@
   },
   "active": "31d16f9ebaa58d1c",
   "lastOpenFiles": [
-    "de/testing/testing.md",
+    "de/testing/include/q1.svg",
     "de/testing/include/jtag_arch.svg",
+    "de/testing/testing.md",
     "de/platform/platform/andes_solution/ref_andescore/AndesCore_AX27_DS163_V1.9.pdf",
     "de/platform/platform/andes_solution/ref_andescore/AndesCore_AX46MPV_DS280_V0.2_Interim.pdf",
     "de/testing/include/scan_flow.svg",
@@ -202,7 +203,6 @@
     "de/testing/include/q4.svg",
     "de/testing/include/q3.svg",
     "de/testing/include/q2.svg",
-    "de/testing/include/q1.svg",
     "de/testing/include/transition_fault.svg",
     "de/platform/gck/gck.md",
     "de/testing/include/reg.svg",
