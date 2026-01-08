@@ -11,12 +11,15 @@
             "id": "31d16f9ebaa58d1c",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "de/testing/include/jtag_arch.svg"
+                "file": "de/testing/testing.md",
+                "mode": "preview",
+                "source": false,
+                "backlinks": false
               },
-              "icon": "lucide-image",
-              "title": "jtag_arch"
+              "icon": "lucide-file",
+              "title": "testing"
             }
           }
         ]
@@ -193,8 +196,9 @@
   },
   "active": "31d16f9ebaa58d1c",
   "lastOpenFiles": [
-    "de/testing/include/q1.svg",
+    "de/testing/include/transition_fault.svg",
     "de/testing/include/jtag_arch.svg",
+    "de/testing/include/q1.svg",
     "de/testing/testing.md",
     "de/platform/platform/andes_solution/ref_andescore/AndesCore_AX27_DS163_V1.9.pdf",
     "de/platform/platform/andes_solution/ref_andescore/AndesCore_AX46MPV_DS280_V0.2_Interim.pdf",
@@ -203,7 +207,6 @@
     "de/testing/include/q4.svg",
     "de/testing/include/q3.svg",
     "de/testing/include/q2.svg",
-    "de/testing/include/transition_fault.svg",
     "de/platform/gck/gck.md",
     "de/testing/include/reg.svg",
     "de/testing/include",
