@@ -133,6 +133,23 @@
 
 ## ieee1149.1-1990
 
+- TAP (Test Access Port)
+	- TDI
+	- TDO
+	- TCK
+	- TMS
+	- TRST
+- TAP controller
+	- interface
+		- clock: TCK
+		- input: TMS
+		- reset: TRST
+	- 16 FSM
+	- JTAG operation
+		- test_logic_reset
+			- TMS = 11111...
+			- TRST = 0
+
 ## arch
 - ref: https://vlsitutorials.com/jtag-architecture-overview/
 - ref: https://www.cnblogs.com/jihexiansheng/p/17645113.html
