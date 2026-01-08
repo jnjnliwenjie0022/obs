@@ -11,12 +11,15 @@
             "id": "8fe685bc9338904d",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "de/testing/include/jtag_arch.svg"
+                "file": "de/testing/testing.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
               },
-              "icon": "lucide-image",
-              "title": "jtag_arch"
+              "icon": "lucide-file",
+              "title": "testing"
             }
           }
         ]
@@ -194,6 +197,7 @@
   },
   "active": "8fe685bc9338904d",
   "lastOpenFiles": [
+    "de/testing/include/jtag_arch.svg",
     "de/testing/testing.md",
     "de/power/genus/genus.md",
     "de/power/sdpd/sdpd.md",
@@ -202,7 +206,6 @@
     "de/testing/include/scan_flow.svg",
     "de/testing/include/scan_chain_cross_clock_domain.svg",
     "de/testing/include/transition_fault.svg",
-    "de/testing/include/jtag_arch.svg",
     "de/platform/gck/gck.md",
     "de/testing/include/q4.svg",
     "de/testing/include/q3.svg",
@@ -238,7 +241,6 @@
     "de/platform/platform/arm_solution/arm_solution.md",
     "de/platform/gen_resetn/gen_resetn.md",
     "de/domain_cross/cdc/cdc.md",
-    "de/arithmetic/booth.md",
-    "de/arithmetic/divider.md"
+    "de/arithmetic/booth.md"
   ]
 }
