@@ -11,12 +11,15 @@
             "id": "31d16f9ebaa58d1c",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "de/testing/include/reset.svg"
+                "file": "de/testing/testing.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
               },
-              "icon": "lucide-image",
-              "title": "reset"
+              "icon": "lucide-file",
+              "title": "testing"
             }
           }
         ]
@@ -193,8 +196,8 @@
   },
   "active": "31d16f9ebaa58d1c",
   "lastOpenFiles": [
-    "de/testing/testing.md",
     "de/testing/include/reset.svg",
+    "de/testing/testing.md",
     "de/testing/include/jtag_arch.svg",
     "de/testing/book/ssya002c.pdf",
     "de/testing/book",
