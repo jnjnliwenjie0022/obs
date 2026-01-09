@@ -147,7 +147,10 @@
 	- 16 FSM
 	- JTAG operation
 
+# boundary_scan_register
 
+- 有很多種實作方式, 通常
+- ref: https://blog.csdn.net/zhuangdk/article/details/121147801
 ## arch
 - ref: https://vlsitutorials.com/jtag-architecture-overview/
 - ref: https://www.youtube.com/watch?v=TDfrsI8GxSk&list=PLOuqbFqg3u02XNb3FZiQwKrx-MMU8OfPU&index=5
