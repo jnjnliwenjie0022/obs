@@ -11,12 +11,15 @@
             "id": "31d16f9ebaa58d1c",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "de/testing/include/jtap_ex1.svg"
+                "file": "de/testing/testing.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
               },
-              "icon": "lucide-image",
-              "title": "jtap_ex1"
+              "icon": "lucide-file",
+              "title": "testing"
             }
           },
           {
@@ -205,8 +208,8 @@
   },
   "active": "31d16f9ebaa58d1c",
   "lastOpenFiles": [
-    "de/testing/testing.md",
     "de/testing/include/jtap_ex1.svg",
+    "de/testing/testing.md",
     "Pasted image 20260110222214.png",
     "de/testing/include/bsc.svg",
     "de/testing/include/jtag_arch.svg",
