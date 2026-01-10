@@ -94,6 +94,7 @@
 ## occ #TODO 
 - ref: https://blog.csdn.net/Tranquil_ovo/article/details/151120747?spm=1001.2101.3001.6650.4&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7EYuanLiJiHua%7EPosition-4-151120747-blog-144903477.235%5Ev43%5Epc_blog_bottom_relevance_base3&utm_relevant_index=8
 - ref: https://medium.com/@raghuel/lets-talk-about-occ-d9bcc39260cd
+- ref: https://www.cnblogs.com/yilia-er/p/14200583.html
 - occ 可以是 hard macro by EDA tool
 
 ## scan_flow
@@ -177,3 +178,6 @@
 - ref: https://blog.csdn.net/qq_40178082/article/details/135156695
 - ref: https://blog.csdn.net/Python_0011/article/details/154824998?spm=1001.2101.3001.4242.1&utm_relevant_index=3
 - ref: https://blog.csdn.net/zhuangdk/article/details/121147801
+
+# ieee1687
+- ref: https://www.cnblogs.com/jihexiansheng/p/17645113.html
