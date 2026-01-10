@@ -147,6 +147,8 @@
 	- 16 FSM
 	- JTAG operation
 
+- JTAP boundary scan example
+- 
 ## boundary_scan_cell
 
 - 通常 EDA 實作 scan chain, BSDL 描述 pin 與 BSC 的關係, Techlib 會提供 BSC
