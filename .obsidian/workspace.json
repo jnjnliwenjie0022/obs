@@ -21,6 +21,18 @@
               "icon": "lucide-file",
               "title": "testing"
             }
+          },
+          {
+            "id": "7416fde39494636e",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "Pasted image 20260110222214.png"
+              },
+              "icon": "lucide-image",
+              "title": "Pasted image 20260110222214"
+            }
           }
         ]
       }
@@ -79,7 +91,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 506.5
+    "width": 506.5,
+    "collapsed": true
   },
   "right": {
     "id": "baf9c43aba40b294",
@@ -197,8 +210,8 @@
   "active": "31d16f9ebaa58d1c",
   "lastOpenFiles": [
     "Pasted image 20260110222214.png",
-    "de/testing/include/reset.svg",
     "de/testing/testing.md",
+    "de/testing/include/bsc.svg",
     "de/testing/include/jtag_arch.svg",
     "de/testing/book/ssya002c.pdf",
     "de/testing/book",
@@ -212,7 +225,6 @@
     "de/testing/include/q3.svg",
     "de/testing/include/q2.svg",
     "de/platform/gck/gck.md",
-    "de/testing/include/reg.svg",
     "de/testing/include",
     "de/testing",
     "de/amba_axi/ref/amba_axi4.pdf",

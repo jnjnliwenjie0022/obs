@@ -149,10 +149,11 @@
 
 ## boundary_scan_cell
 
-- 有很多種實作方式, 通常 EDA 實作 scan, Techlib 會提供 cell
+- 通常 EDA 實作 scan chain, BSDL 描述 pin 與 BSC 的關係, Techlib 會提供 BSC
 - ref: https://blog.csdn.net/zhuangdk/article/details/121147801
 - ref: https://vlsitutorials.com/jtag-data-registers/
-- ![[Pasted image 20260110222214.png]]
+- 以下是描述 sync bsc, async bsc 也差不多, 注意 clock 問題即可
+	- ![[bsc.svg]]
 ## arch
 - ref: https://vlsitutorials.com/jtag-architecture-overview/
 - ref: https://www.youtube.com/watch?v=TDfrsI8GxSk&list=PLOuqbFqg3u02XNb3FZiQwKrx-MMU8OfPU&index=5
