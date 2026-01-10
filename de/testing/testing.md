@@ -154,6 +154,12 @@
 	- BYPASS=1111...
 		- select bypass register
 		- ![[jtap_ex2.svg]]
+	- SAMPLE
+		- instruction code decided by designer
+		- take snapshot of system I/O pins
+	- PRELOAD
+		- instruction code decided by designer
+		- control system I/O pins
 ## boundary_scan_cell
 
 - 通常 EDA 實作 scan chain, BSDL 描述 pin 與 BSC 的關係, Techlib 會提供 BSC
