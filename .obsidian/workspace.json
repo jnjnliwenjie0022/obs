@@ -208,8 +208,9 @@
   },
   "active": "31d16f9ebaa58d1c",
   "lastOpenFiles": [
-    "de/testing/include/jtap_ex1.svg",
+    "de/testing/include/jtap_ex2.svg",
     "de/testing/testing.md",
+    "de/testing/include/jtap_ex1.svg",
     "Pasted image 20260110222214.png",
     "de/testing/include/bsc.svg",
     "de/testing/include/jtag_arch.svg",
@@ -222,7 +223,6 @@
     "de/testing/include/scan_flow.svg",
     "de/testing/include/scan_chain_cross_clock_domain.svg",
     "de/testing/include/q4.svg",
-    "de/testing/include/q3.svg",
     "de/platform/gck/gck.md",
     "de/testing/include",
     "de/testing",
