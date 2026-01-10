@@ -145,21 +145,24 @@
 		- input: TMS
 		- reset: TRST
 	- 16 FSM
-	- JTAG operation
-
-- JTAP boundary scan example
+- JTAG instruction example
 	- EXTEST=0000...
 		- select boundary-scan chain, external test
 		- ![[jtap_ex1.svg]]
 	- BYPASS=1111...
 		- select bypass register
 		- ![[jtap_ex2.svg]]
-	- SAMPLE
-		- instruction code decided by designer
+	- SAMPLE (instruction code decided by designer)
 		- take snapshot of system I/O pins
-	- PRELOAD
-		- instruction code decided by designer
+	- PRELOAD (instruction code decided by designer)
 		- control system I/O pins
+	- INTEST (instruction code decided by designer)
+		- select boundary-scan chain, internal test of system logic
+	- RUNBIST (instruction code decided by designer)
+		- select BIST (build-in self-test)
+	- IDCODE (instruction code decided by designer)
+		- select ID register
+	- User-Defined Instruction (instruction code decided by designer)
 ## boundary_scan_cell
 
 - 通常 EDA 實作 scan chain, BSDL 描述 pin 與 BSC 的關係, Techlib 會提供 BSC
