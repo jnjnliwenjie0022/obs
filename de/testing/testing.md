@@ -151,6 +151,7 @@
 
 - 有很多種實作方式, 通常 EDA 實作 scan, Techlib 會提供 cell
 - ref: https://blog.csdn.net/zhuangdk/article/details/121147801
+- ref: https://vlsitutorials.com/jtag-data-registers/
 - 
 ## arch
 - ref: https://vlsitutorials.com/jtag-architecture-overview/
