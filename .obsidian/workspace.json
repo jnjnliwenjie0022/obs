@@ -195,8 +195,9 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "35a470a2c390e07e",
+  "active": "8fe685bc9338904d",
   "lastOpenFiles": [
+    "de/testing/include/reset.svg",
     "de/testing/include/jtap_ex2.svg",
     "de/testing/include/jtap_ex1.svg",
     "de/testing/include/bsc.svg",
@@ -204,7 +205,6 @@
     "de/testing/include/transition_fault.svg",
     "de/testing/include/scan_flow.svg",
     "de/testing/include/scan_chain_cross_clock_domain.svg",
-    "de/testing/include/reset.svg",
     "de/testing/testing.md",
     "de/power/sdpd/power.md",
     "de/power/sdpd/sdpd.md",
