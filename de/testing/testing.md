@@ -174,7 +174,9 @@
 	- password: XXXX
 - 以下是描述 sync bsc, async bsc 也差不多, 注意 clock 問題即可
 	- ![[bsc.svg]]
-## arch #TODO
+## arch
+
+- ![[jtag_arch.svg]]
 - ref: https://vlsitutorials.com/jtag-architecture-overview/
 - ref: https://www.youtube.com/watch?v=TDfrsI8GxSk&list=PLOuqbFqg3u02XNb3FZiQwKrx-MMU8OfPU&index=5
 - ref: https://www.cnblogs.com/jihexiansheng/p/17645113.html
