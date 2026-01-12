@@ -148,7 +148,7 @@
 	- 16 FSM
 - JTAG instruction example
 	- EXTEST=0000...
-		- select boundary-scan chain, external test
+		- select boundary-scan chain, test off-chip circuits and board-level interconnection
 		- ![[jtap_ex1.svg]]
 	- BYPASS=1111...
 		- select bypass register
