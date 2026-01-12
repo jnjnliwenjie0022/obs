@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "2505482c3569db26",
+        "id": "ce15a0b9bc8350c4",
         "type": "tabs",
         "children": [
           {
-            "id": "51471b617783bd58",
+            "id": "31d16f9ebaa58d1c",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -23,19 +23,15 @@
             }
           },
           {
-            "id": "14feafa43b577a1f",
+            "id": "7416fde39494636e",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "image",
               "state": {
-                "file": "de/testing/book/jtag_boundary_scan.pdf",
-                "page": 1,
-                "left": -9,
-                "top": 544,
-                "zoom": 1.8333333333333333
+                "file": "Pasted image 20260110222214.png"
               },
-              "icon": "lucide-file-text",
-              "title": "jtag_boundary_scan"
+              "icon": "lucide-image",
+              "title": "Pasted image 20260110222214"
             }
           }
         ]
@@ -95,7 +91,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 506.5
+    "width": 506.5,
+    "collapsed": true
   },
   "right": {
     "id": "baf9c43aba40b294",
@@ -111,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "de/platform/platform/platform.md",
+                "file": "de/platform/gen_clk/gen_clk.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -121,7 +118,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for platform"
+              "title": "Backlinks for gen_clk"
             }
           },
           {
@@ -130,12 +127,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "de/platform/platform/platform.md",
+                "file": "de/platform/gen_clk/gen_clk.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from platform"
+              "title": "Outgoing links from gen_clk"
             }
           },
           {
@@ -159,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "de/testing/testing.md",
+                "file": "de/platform/gen_clk/gen_clk.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of testing"
+              "title": "Outline of gen_clk"
             }
           },
           {
@@ -188,12 +185,12 @@
               "title": "Source Control"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 346.5
+    "width": 346.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -210,52 +207,53 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "51471b617783bd58",
+  "active": "31d16f9ebaa58d1c",
   "lastOpenFiles": [
-    "de/testing/code/jtag/trunk/tap/doc/jtag.pdf",
-    "de/testing/testing.md",
-    "de/platform/gck/gck.md",
-    "de/testing/book/IEEE std 1149.1.pdf",
-    "de/testing/book/jtag_boundary_scan.pdf",
+    "de/testing/include/jtap_sample_preload.svg",
     "de/testing/include/jtap_runbist.svg",
-    "de/testing/include/jtag_arch.svg",
-    "de/testing/include/jtap_bypass.svg",
     "de/testing/include/jtap_intest.svg",
     "de/testing/include/jtap_extest.svg",
-    "de/testing/include/jtap_sample_preload.svg",
-    "de/testing/code/jtag/web_uploads/index.shtml",
-    "de/testing/code/jtag/web_uploads/Boundary-Scan Architecture.pdf",
-    "de/testing/code/jtag/web_uploads",
-    "de/testing/code/jtag/trunk/cells/rtl/verilog/OutputCell.v",
-    "de/testing/code/jtag/trunk/cells/rtl/verilog/InputCell.v",
-    "de/testing/code/jtag/trunk/cells/rtl/verilog/ControlCell.v",
-    "de/testing/code/jtag/trunk/cells/rtl/verilog/BiDirectionalCell.v",
-    "de/testing/include/reset.svg",
+    "de/testing/include/jtap_bypass.svg",
+    "de/testing/code/jtag/tags/rel_3/tap/rtl/verilog/tap_top.v",
+    "de/testing/code/jtag/tags/rel_3/tap/rtl/verilog/tap_defines.v",
+    "de/testing/code/jtag/tags/rel_4/tap/rtl/verilog/tap_top.v",
+    "de/testing/code/jtag/tags/rel_4/tap/rtl/verilog/tap_defines.v",
+    "de/testing/code/jtag/tags/rel_2/tap/rtl/verilog/tap_top.v",
+    "de/testing/code/jtag/tags/rel_2/tap/rtl/verilog/tap_defines.v",
+    "de/testing/code/jtag/tags/rel_5/tap/rtl/verilog/tap_defines.v",
+    "de/testing/code/jtag/tags/rel_5/tap/rtl/verilog/tap_top.v",
+    "de/testing/code/jtag/tags/rel_5/cells/rtl/verilog/OutputCell.v",
+    "de/testing/code/jtag/tags/rel_5/cells/rtl/verilog/InputCell.v",
     "de/testing/include/bsc.svg",
+    "de/testing/testing.md",
+    "de/testing/include/jtap_ex2.svg",
+    "de/testing/include/jtap_ex1.svg",
     "Pasted image 20260110222214.png",
+    "de/testing/include/jtag_arch.svg",
     "de/testing/include/transition_fault.svg",
-    "de/power/sdpd/power.md",
-    "de/power/sdpd/sdpd.md",
-    "de/power/genus/genus.md",
+    "de/platform/gck/gck.md",
+    "de/arbiter/arbiter.md",
+    "de/design_spec/ref/Andes_design_guide.md",
     "de/platform/gen_power/power_gating/power_gating.md",
-    "de/fpu/f16mac.md",
-    "de/platform/domain_cross/domain_cross.md",
-    "de/Test.md",
-    "de/_unorganized/cosim.md",
-    "de/amba_axi/axi.md",
-    "de/amba_axi/request_attribute.md",
+    "de/platform/gen_power/power_sequence/power_sequence.md",
+    "de/platform/gck/reg/reg.md",
+    "de/design_spec/lint_rule.md",
     "conflict-files-obsidian-git.md",
     "de/genus/genus.md",
-    "de/platform/gen_clk/gen_clk.md",
     "de/platform/domain_cross/rdc/rdc.md",
-    "de/platform/domain_cross/cdc/cdc.md",
-    "de/amba_ahb/ahb.md",
-    "workflow/git/git.md",
-    "de/note.md",
-    "de/platform/platform/platform.md",
-    "de/platform/platform/arm_solution/arm_solution.md",
+    "de/platform/domain_cross/domain_cross.md",
+    "de/platform/gen_clk/gen_clk.md",
     "de/platform/gen_resetn/gen_resetn.md",
-    "de/domain_cross/cdc/cdc.md",
-    "de/arithmetic/booth.md"
+    "de/platform/domain_cross/cdc/cdc.md",
+    "de/arithmetic/booth.md",
+    "de/platform/platform/platform.md",
+    "de/platform/platform/andes_solution/andes_solution.md",
+    "de/arithmetic/divider.md",
+    "de/fpu/f16mac.md",
+    "de/domain_cross/metastable_state.md",
+    "de/domain_cross/cdc/cdc_design/cdc_design.md",
+    "de/design_spec/fctrl.md",
+    "de/design_spec/fast_design.md",
+    "de/platform_clk_resetn_power_gen/cdc/clk_gen/clk_gen.md"
   ]
 }
