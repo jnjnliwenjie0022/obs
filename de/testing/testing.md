@@ -149,6 +149,7 @@
 - JTAG instruction example
 	- ref: [[de/testing/code/jtag/trunk/tap/doc/jtag.pdf#page=1|jtag, p.1]]
 	- ref: [[jtag_boundary_scan.pdf#page=1|270660359, p.1]]
+	- ref: https://www.youtube.com/watch?v=U2oBKMU33r0
 	- EXTEST (IR=0000...)
 		- ![[jtap_extest.svg]]
 	- BYPASS (IR=1111...)
