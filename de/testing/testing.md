@@ -148,13 +148,11 @@
 	- 16 FSM
 - JTAG instruction example
 	- EXTEST=0000...
-		- ![[jtap_ex1.svg]]
+		- ![[jtap_extest.svg]]
 	- BYPASS=1111...
-		- ![[jtap_ex2.svg]]
-	- SAMPLE (instruction code decided by designer)
-		- take snapshot of system I/O pins
-	- PRELOAD (instruction code decided by designer)
-		- control system I/O pins
+		- ![[jtap_bypass.svg]]
+	- SAMPLE / PRELOAD (instruction code decided by designer)
+		- ![[jtap_sample_preload.svg]]
 	- INTEST (instruction code decided by designer)
 		- select boundary-scan chain, internal test of system logic
 	- RUNBIST (instruction code decided by designer)
