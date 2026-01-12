@@ -147,16 +147,19 @@
 		- reset: TRST
 	- 16 FSM
 - JTAG instruction example
-	- EXTEST=0000...
+	- ref: [[de/testing/code/jtag/trunk/tap/doc/jtag.pdf#page=1|jtag, p.1]]
+	- ref: [[jtag_boundary_scan.pdf#page=1|270660359, p.1]]
+	- EXTEST (IR=0000...)
 		- ![[jtap_extest.svg]]
-	- BYPASS=1111...
+	- BYPASS (IR=1111...)
 		- ![[jtap_bypass.svg]]
-	- SAMPLE / PRELOAD (instruction code decided by designer)
+	- SAMPLE / PRELOAD (IR=0001)
 		- ![[jtap_sample_preload.svg]]
 	- INTEST (instruction code decided by designer)
 		- ![[jtap_intest.svg]]
 	- RUNBIST (instruction code decided by designer)
 		- select BIST (build-in self-test)
+		- ![[jtap_runbist.svg]]
 	- IDCODE (instruction code decided by designer)
 		- select ID register
 	- User-Defined Instruction (instruction code decided by designer)
