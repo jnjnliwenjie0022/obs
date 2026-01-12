@@ -195,8 +195,11 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "35a470a2c390e07e",
+  "active": "8fe685bc9338904d",
   "lastOpenFiles": [
+    "de/testing/code/jtag/web_uploads/index.shtml",
+    "de/testing/code/jtag/web_uploads/Boundary-Scan Architecture.pdf",
+    "de/testing/code/jtag/web_uploads",
     "de/testing/code/jtag/trunk/cells/rtl/verilog/OutputCell.v",
     "de/testing/code/jtag/trunk/cells/rtl/verilog/InputCell.v",
     "de/testing/code/jtag/trunk/cells/rtl/verilog/ControlCell.v",
@@ -205,9 +208,6 @@
     "de/testing/code/jtag/trunk/tap/rtl/verilog/tap_defines.v",
     "de/testing/code/jtag/trunk/tap/rtl/verilog/tap_top.v",
     "de/testing/code/jtag/trunk/tap/rtl/verilog",
-    "de/testing/code/jtag/trunk/cells/rtl/verilog",
-    "de/testing/code/jtag/trunk/tap/doc/src",
-    "de/testing/code/jtag/trunk/tap/doc/jtag.pdf",
     "de/testing/include/reset.svg",
     "de/testing/include/jtap_ex2.svg",
     "de/testing/include/jtap_ex1.svg",
