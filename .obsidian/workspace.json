@@ -14,10 +14,10 @@
               "type": "pdf",
               "state": {
                 "file": "de/testing/code/jtag/trunk/tap/doc/jtag.pdf",
-                "page": 1,
-                "left": -7,
-                "top": 796,
-                "zoom": 2.1568627450980395
+                "page": 19,
+                "left": -5,
+                "top": 800,
+                "zoom": 2.776960784313726
               },
               "icon": "lucide-file-text",
               "title": "jtag"
@@ -80,7 +80,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 506.5
+    "width": 506.5,
+    "collapsed": true
   },
   "right": {
     "id": "baf9c43aba40b294",
