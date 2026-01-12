@@ -28,15 +28,12 @@
             "id": "14feafa43b577a1f",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "de/testing/testing.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
+                "file": "de/testing/include/jtap_intest.svg"
               },
-              "icon": "lucide-file",
-              "title": "testing"
+              "icon": "lucide-image",
+              "title": "jtap_intest"
             }
           }
         ]
@@ -55,7 +52,7 @@
                 "file": "de/testing/code/jtag/trunk/tap/doc/jtag.pdf",
                 "page": 13,
                 "left": -4,
-                "top": 764,
+                "top": 344,
                 "zoom": 1.5
               },
               "icon": "lucide-file-text",
@@ -238,9 +235,10 @@
   },
   "active": "51471b617783bd58",
   "lastOpenFiles": [
+    "de/testing/include/jtap_intest.svg",
     "de/testing/testing.md",
-    "de/testing/code/jtag/trunk/tap/doc/jtag.pdf",
     "de/testing/book/270660359.pdf",
+    "de/testing/code/jtag/trunk/tap/doc/jtag.pdf",
     "de/testing/include/jtap_sample_preload.svg",
     "de/testing/code/jtag/web_uploads/index.shtml",
     "de/testing/code/jtag/web_uploads/Boundary-Scan Architecture.pdf",
@@ -261,7 +259,6 @@
     "de/power/sdpd/power.md",
     "de/power/sdpd/sdpd.md",
     "de/power/genus/genus.md",
-    "de/testing/include/jtag_arch.svg",
     "de/platform/gen_power/power_gating/power_gating.md",
     "de/platform/gck/gck.md",
     "de/fpu/f16mac.md",
