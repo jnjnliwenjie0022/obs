@@ -4,60 +4,48 @@
     "type": "split",
     "children": [
       {
-        "id": "f809b21f441d4aea",
-        "type": "split",
-        "dimension": 71.84703010577705,
+        "id": "2505482c3569db26",
+        "type": "tabs",
+        "dimension": 62.61187957689178,
         "children": [
           {
-            "id": "3ecee0151bb82ce1",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "14feafa43b577a1f",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "de/testing/testing.md",
-                    "mode": "source",
-                    "source": false,
-                    "backlinks": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "testing"
-                }
-              }
-            ]
+            "id": "51471b617783bd58",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "de/testing/book/270660359.pdf",
+                "page": 12,
+                "left": -53,
+                "top": 214,
+                "zoom": 1.2604166666666667
+              },
+              "icon": "lucide-file-text",
+              "title": "270660359"
+            }
           },
           {
-            "id": "8be053f87a2b6b59",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "51471b617783bd58",
-                "type": "leaf",
-                "state": {
-                  "type": "pdf",
-                  "state": {
-                    "file": "de/testing/book/270660359.pdf",
-                    "page": 13,
-                    "left": -12,
-                    "top": 449,
-                    "zoom": 1.2604166666666667
-                  },
-                  "icon": "lucide-file-text",
-                  "title": "270660359"
-                }
-              }
-            ]
+            "id": "14feafa43b577a1f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "de/testing/testing.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "testing"
+            }
           }
         ],
-        "direction": "horizontal"
+        "currentTab": 1
       },
       {
         "id": "84c36be7e775efd1",
         "type": "tabs",
-        "dimension": 28.15296989422295,
+        "dimension": 37.38812042310822,
         "children": [
           {
             "id": "8fe685bc9338904d",
@@ -68,7 +56,7 @@
                 "file": "de/testing/code/jtag/trunk/tap/doc/jtag.pdf",
                 "page": 13,
                 "left": -4,
-                "top": 224,
+                "top": 764,
                 "zoom": 1.5
               },
               "icon": "lucide-file-text",
@@ -132,7 +120,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 506.5
+    "width": 506.5,
+    "collapsed": true
   },
   "right": {
     "id": "baf9c43aba40b294",
@@ -250,9 +239,10 @@
   },
   "active": "14feafa43b577a1f",
   "lastOpenFiles": [
+    "de/testing/code/jtag/trunk/tap/doc/jtag.pdf",
     "de/testing/book/270660359.pdf",
     "de/testing/testing.md",
-    "de/testing/code/jtag/trunk/tap/doc/jtag.pdf",
+    "de/testing/include/jtap_sample.svg",
     "de/testing/code/jtag/web_uploads/index.shtml",
     "de/testing/code/jtag/web_uploads/Boundary-Scan Architecture.pdf",
     "de/testing/code/jtag/web_uploads",
@@ -275,7 +265,6 @@
     "de/testing/include/jtag_arch.svg",
     "de/platform/gen_power/power_gating/power_gating.md",
     "de/platform/gck/gck.md",
-    "de/testing/include/q4.svg",
     "de/fpu/f16mac.md",
     "de/platform/domain_cross/domain_cross.md",
     "de/Test.md",
