@@ -11,15 +11,16 @@
             "id": "e0f3202d74b16272",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "de/testing/testing.md",
-                "mode": "preview",
-                "source": false,
-                "backlinks": false
+                "file": "de/testing/book/IEEE 1687/HW_Post_Vote_r7_BW.pdf",
+                "page": 1,
+                "left": -6,
+                "top": 796,
+                "zoom": 2.4534313725490198
               },
-              "icon": "lucide-file",
-              "title": "testing"
+              "icon": "lucide-file-text",
+              "title": "HW_Post_Vote_r7_BW"
             }
           }
         ]
@@ -196,12 +197,12 @@
   },
   "active": "e0f3202d74b16272",
   "lastOpenFiles": [
+    "de/testing/book/IEEE 1687/1687_DT_sidebar7 (2).pdf",
+    "de/testing/testing.md",
     "de/testing/book/IEEE std 1149.1.pdf",
     "de/testing/book/IEEE 1687/HW_Post_Vote_r7_BW.pdf",
     "de/testing/book/IEEE 1687/IJTAG_ITC_Poster_2012_rev3.pdf",
-    "de/testing/book/IEEE 1687/1687_DT_sidebar7 (2).pdf",
     "de/testing/book/IEEE 1687",
-    "de/testing/testing.md",
     "Pasted image 20260110222214.png",
     "de/testing/include/jtap_sample_preload.svg",
     "de/testing/include/jtap_runbist.svg",
@@ -213,7 +214,6 @@
     "de/testing/code/jtag/tags/rel_4/tap/rtl/verilog/tap_top.v",
     "de/testing/code/jtag/tags/rel_4/tap/rtl/verilog/tap_defines.v",
     "de/testing/code/jtag/tags/rel_2/tap/rtl/verilog/tap_top.v",
-    "de/testing/code/jtag/tags/rel_2/tap/rtl/verilog/tap_defines.v",
     "de/testing/include/bsc.svg",
     "de/testing/include/jtap_ex2.svg",
     "de/testing/include/jtap_ex1.svg",
