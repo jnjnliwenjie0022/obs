@@ -168,7 +168,11 @@
 
 - 通常 EDA 實作 scan chain, BSDL 描述 pin 與 BSC 的關係, Techlib 會提供 BSC
 - ref: https://blog.csdn.net/zhuangdk/article/details/121147801
-- ref: https://vlsitutorials.com/jtag-data-registers/
+- ref: https://vlsitutorials.com/jtag-data-registers
+- ref: [JTAG边界扫描BSDL文件介绍 - 知乎](https://zhuanlan.zhihu.com/p/1950897307231981616)
+- ref: [Overview :: JTAG Test Access Port (TAP) :: OpenCores](https://opencores.org/projects/jtag)
+	- account: jnjn0022
+	- password: XXXX
 - 以下是描述 sync bsc, async bsc 也差不多, 注意 clock 問題即可
 	- ![[bsc.svg]]
 ## arch
