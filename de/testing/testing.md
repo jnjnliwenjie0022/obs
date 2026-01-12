@@ -154,7 +154,7 @@
 	- SAMPLE / PRELOAD (instruction code decided by designer)
 		- ![[jtap_sample_preload.svg]]
 	- INTEST (instruction code decided by designer)
-		- 
+		- ![[jtap_intest.svg]]
 	- RUNBIST (instruction code decided by designer)
 		- select BIST (build-in self-test)
 	- IDCODE (instruction code decided by designer)

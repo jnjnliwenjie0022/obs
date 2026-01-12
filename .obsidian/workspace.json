@@ -12,31 +12,32 @@
             "id": "51471b617783bd58",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "image",
               "state": {
-                "file": "de/testing/book/270660359.pdf",
-                "page": 14,
-                "left": -53,
-                "top": 96,
-                "zoom": 1.2604166666666667
+                "file": "de/testing/include/jtap_bypass.svg"
               },
-              "icon": "lucide-file-text",
-              "title": "270660359"
+              "icon": "lucide-image",
+              "title": "jtap_bypass"
             }
           },
           {
             "id": "14feafa43b577a1f",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "pdf",
               "state": {
-                "file": "de/testing/include/jtap_intest.svg"
+                "file": "de/testing/book/270660359.pdf",
+                "page": 15,
+                "left": -11,
+                "top": 65,
+                "zoom": 1.403125
               },
-              "icon": "lucide-image",
-              "title": "jtap_intest"
+              "icon": "lucide-file-text",
+              "title": "270660359"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "84c36be7e775efd1",
@@ -50,9 +51,9 @@
               "type": "pdf",
               "state": {
                 "file": "de/testing/code/jtag/trunk/tap/doc/jtag.pdf",
-                "page": 13,
+                "page": 14,
                 "left": -4,
-                "top": 344,
+                "top": 783,
                 "zoom": 1.5
               },
               "icon": "lucide-file-text",
@@ -233,11 +234,15 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "51471b617783bd58",
+  "active": "8fe685bc9338904d",
   "lastOpenFiles": [
-    "de/testing/include/jtap_intest.svg",
-    "de/testing/testing.md",
     "de/testing/book/270660359.pdf",
+    "de/testing/book/ssya002c.pdf",
+    "de/testing/include/jtap_intest.svg",
+    "de/testing/include/jtap_bypass.svg",
+    "de/testing/include/jtap_extest.svg",
+    "de/testing/include/jtag_arch.svg",
+    "de/testing/testing.md",
     "de/testing/code/jtag/trunk/tap/doc/jtag.pdf",
     "de/testing/include/jtap_sample_preload.svg",
     "de/testing/code/jtag/web_uploads/index.shtml",
@@ -249,13 +254,10 @@
     "de/testing/code/jtag/trunk/cells/rtl/verilog/BiDirectionalCell.v",
     "de/testing/code/jtag/trunk/tap/doc/src/jtag.doc",
     "de/testing/include/reset.svg",
-    "de/testing/include/jtap_bypass.svg",
-    "de/testing/include/jtap_extest.svg",
     "de/testing/include/bsc.svg",
     "Pasted image 20260110222214.png",
     "de/testing/include/transition_fault.svg",
     "de/testing/include/scan_flow.svg",
-    "de/testing/include/scan_chain_cross_clock_domain.svg",
     "de/power/sdpd/power.md",
     "de/power/sdpd/sdpd.md",
     "de/power/genus/genus.md",
