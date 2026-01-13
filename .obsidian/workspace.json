@@ -15,9 +15,9 @@
               "state": {
                 "file": "de/testing/book/IEEE 1149.1/IEEE std 1149.1.pdf",
                 "page": 27,
-                "left": 159,
-                "top": 480,
-                "zoom": 4.941599096226449
+                "left": 156,
+                "top": 475,
+                "zoom": 4.8
               },
               "icon": "lucide-file-text",
               "title": "IEEE std 1149.1"
@@ -27,19 +27,19 @@
             "id": "14feafa43b577a1f",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "de/testing/book/IEEE 1149.1/jtag_boundary_scan.pdf",
-                "page": 1,
-                "left": -9,
-                "top": 544,
-                "zoom": 1.8333333333333333
+                "file": "de/testing/testing.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
               },
-              "icon": "lucide-file-text",
-              "title": "jtag_boundary_scan"
+              "icon": "lucide-file",
+              "title": "testing"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -160,13 +160,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "de/testing/book/IEEE 1149.1/IEEE std 1149.1.pdf",
+                "file": "de/testing/testing.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of IEEE std 1149.1"
+              "title": "Outline of testing"
             }
           },
           {
@@ -212,12 +212,12 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "51471b617783bd58",
+  "active": "14feafa43b577a1f",
   "lastOpenFiles": [
     "de/testing/book/IEEE 1149.1/jtag_boundary_scan.pdf",
+    "de/testing/book/IEEE 1149.1/IEEE std 1149.1.pdf",
     "de/testing/code/jtag/trunk/tap/doc/jtag.pdf",
     "de/testing/book/IEEE 1687/~~$HW_Post_Vote_r7_BW.pdf",
-    "de/testing/book/IEEE 1149.1/IEEE std 1149.1.pdf",
     "de/testing/book/IEEE 1687/1687_DT_sidebar7 (2).pdf",
     "de/testing/book/IEEE 1687/HW_Post_Vote_r7_BW.pdf",
     "de/testing/book/IEEE 1687/IJTAG_ITC_Poster_2012_rev3.pdf",

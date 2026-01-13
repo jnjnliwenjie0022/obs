@@ -177,6 +177,7 @@
 	- ![[bsc.svg]]
 ## arch
 
+- 需要注意的是 IEEE 1149.1 沒有對 TDR interface 做定義, 建議使用 IEEE 1687
 - ![[jtag_arch.svg]]
 - ref: https://vlsitutorials.com/jtag-architecture-overview/
 - ref: https://www.youtube.com/watch?v=TDfrsI8GxSk&list=PLOuqbFqg3u02XNb3FZiQwKrx-MMU8OfPU&index=5
