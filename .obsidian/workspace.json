@@ -14,9 +14,9 @@
               "type": "pdf",
               "state": {
                 "file": "de/testing/book/IEEE 1687/1687_DT_sidebar7 (2).pdf",
-                "page": 1,
+                "page": 2,
                 "left": -7,
-                "top": 279,
+                "top": 716,
                 "zoom": 2.156862745098039
               },
               "icon": "lucide-file-text",
@@ -39,7 +39,8 @@
               "title": "jtag_boundary_scan"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -160,13 +161,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "de/testing/book/IEEE 1687/1687_DT_sidebar7 (2).pdf",
+                "file": "de/testing/book/IEEE 1149.1/jtag_boundary_scan.pdf",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 1687_DT_sidebar7 (2)"
+              "title": "Outline of jtag_boundary_scan"
             }
           },
           {
@@ -212,10 +213,10 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "51471b617783bd58",
+  "active": "14feafa43b577a1f",
   "lastOpenFiles": [
-    "de/testing/book/IEEE 1687/HW_Post_Vote_r7_BW.pdf",
     "de/testing/book/IEEE 1687/1687_DT_sidebar7 (2).pdf",
+    "de/testing/book/IEEE 1687/HW_Post_Vote_r7_BW.pdf",
     "de/testing/testing.md",
     "de/testing/include/transition_fault.svg",
     "de/testing/book/IEEE 1149.1/jtag_boundary_scan.pdf",
