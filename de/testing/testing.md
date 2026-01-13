@@ -129,7 +129,7 @@
 - TAP (Test Access Port)
 	- TDI
 	- TDO
-	- TCK
+	- TCK (from ATE)
 	- TMS
 	- TRST
 - TAP controller
