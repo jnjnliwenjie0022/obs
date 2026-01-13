@@ -15,19 +15,12 @@
 	- Scan chain insertion (aka. DFT insertion or DFT synthesis) in early 1970's \[Williams 73\]\[Eichelberger 77\]
 - External Scan
 	- IEEE 1149.1-2013 - Standard Test Access Port and Boundary-Scan Architecture
-		- #TODO ref: https://blog.csdn.net/kinjon/article/details/155233782?spm=1001.2101.3001.6650.2&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7EYuanLiJiHua%7ECtr-2-155233782-blog-121147801.235%5Ev43%5Epc_blog_bottom_relevance_base7&utm_relevant_index=5
-		- #TODO ref: https://blog.csdn.net/xuhe0206/article/details/125867462?spm=1001.2101.3001.6661.1&depth_1-utm_source=distribute.pc_relevant_t0.none-task-blog-2%7Edefault%7EBlogCommendFromBaidu%7EPaidSort-1-125867462-blog-121945432.235%5Ev43%5Epc_blog_bottom_relevance_base7&utm_relevant_index=1
-		- P.S: JTAG 是實現 IEEE 1149.1-2013 的介面
-		- P.S: 通常將 IEEE 1149.1-2013 視爲 **transport module**
-- IEEE 1149.1-2013 and IEEE 1687
-	- IEEE 1149.1-2013 通常用來處理 external scan，但可處理 internal scan
-	- IEEE 1687 通常用來處理 internal scan，但可處理 external scan
-	- IEEE 1687 完全相容 IEEE 1149.1-2013
-		- IEEE 1687 通常掛在 1149.1-2013 的 TAP 之下, IEEE 1687 作為其中一個 Test Data Registor (TDR) 來運作, 1149.1-2013 作為其中一個 JTAG-style Test Access Port (TAP)
-		- IEEE 1687 技術核心是 SiB
-		- pin 一樣：TDI/TDO/TMS/TCK/TRST
-		- fsm 一樣：16
-
+- IEEE 1149.1
+	- AKA: JTAG
+	- 可以視爲 transport module
+- IEEE 1687
+	- AKA: IJTAG
+	- 可以視爲 1149.1 在 TDR 上的 extension
 # internal_scan
 ## scan_cell
 
@@ -190,3 +183,13 @@
  - BIST (Built-In Self-Test)
 	 - MBIST for memory
 	 - LBIST for logic
+
+
+
+
+
+
+
+# Archive
+#TODO ref: https://blog.csdn.net/kinjon/article/details/155233782?spm=1001.2101.3001.6650.2&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7EYuanLiJiHua%7ECtr-2-155233782-blog-121147801.235%5Ev43%5Epc_blog_bottom_relevance_base7&utm_relevant_index=5
+#TODO ref: https://blog.csdn.net/xuhe0206/article/details/125867462?spm=1001.2101.3001.6661.1&depth_1-utm_source=distribute.pc_relevant_t0.none-task-blog-2%7Edefault%7EBlogCommendFromBaidu%7EPaidSort-1-125867462-blog-121945432.235%5Ev43%5Epc_blog_bottom_relevance_base7&utm_relevant_index=1
