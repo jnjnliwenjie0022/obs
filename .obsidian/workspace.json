@@ -39,8 +39,7 @@
               "title": "jtag_boundary_scan"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -161,13 +160,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "de/testing/book/IEEE 1149.1/jtag_boundary_scan.pdf",
+                "file": "de/testing/book/IEEE 1687/1687_DT_sidebar7 (2).pdf",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of jtag_boundary_scan"
+              "title": "Outline of 1687_DT_sidebar7 (2)"
             }
           },
           {
@@ -213,13 +212,13 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "14feafa43b577a1f",
+  "active": "51471b617783bd58",
   "lastOpenFiles": [
+    "de/testing/book/IEEE 1149.1/jtag_boundary_scan.pdf",
     "de/testing/book/IEEE 1687/1687_DT_sidebar7 (2).pdf",
     "de/testing/book/IEEE 1687/HW_Post_Vote_r7_BW.pdf",
     "de/testing/testing.md",
     "de/testing/include/transition_fault.svg",
-    "de/testing/book/IEEE 1149.1/jtag_boundary_scan.pdf",
     "de/testing/book/IEEE 1149.1",
     "de/testing/book/desginware/dw_bc_1.pdf",
     "de/testing/book/desginware",
