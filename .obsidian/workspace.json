@@ -152,12 +152,12 @@
               "title": "Outline of testing"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -174,7 +174,7 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "2af3795994deb845",
+  "active": "5892a17d8986f3db",
   "lastOpenFiles": [
     "conflict-files-obsidian-git.md",
     "de/testing/book/desginware/dw_bc_1.pdf",
