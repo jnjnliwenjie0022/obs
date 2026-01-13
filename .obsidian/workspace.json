@@ -13,14 +13,14 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "de/testing/book/IEEE 1149.1/IEEE std 1149.1.pdf",
-                "page": 1,
-                "left": 304,
-                "top": 498,
-                "zoom": 4.928315044181972
+                "file": "de/testing/code/jtag/trunk/tap/doc/jtag.pdf",
+                "page": 17,
+                "left": -7,
+                "top": 647,
+                "zoom": 2.156862745098039
               },
               "icon": "lucide-file-text",
-              "title": "IEEE std 1149.1"
+              "title": "jtag"
             }
           },
           {
@@ -160,13 +160,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "de/testing/book/IEEE 1149.1/IEEE std 1149.1.pdf",
+                "file": "de/testing/code/jtag/trunk/tap/doc/jtag.pdf",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of IEEE std 1149.1"
+              "title": "Outline of jtag"
             }
           },
           {
@@ -214,6 +214,7 @@
   },
   "active": "51471b617783bd58",
   "lastOpenFiles": [
+    "de/testing/book/IEEE 1149.1/IEEE std 1149.1.pdf",
     "de/testing/book/IEEE 1149.1/jtag_boundary_scan.pdf",
     "de/testing/book/IEEE 1687/1687_DT_sidebar7 (2).pdf",
     "de/testing/book/IEEE 1687/HW_Post_Vote_r7_BW.pdf",
