@@ -186,4 +186,9 @@
 - ref: https://blog.csdn.net/zhuangdk/article/details/121147801
 
 # ieee1687
+
 - ref: https://www.cnblogs.com/jihexiansheng/p/17645113.html
+# bist
+
+ - BIST (Built-In Self-Test)
+ - 
