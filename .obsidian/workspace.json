@@ -13,14 +13,14 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "de/testing/book/IEEE 1687/1687_DT_sidebar7 (2).pdf",
-                "page": 2,
-                "left": -7,
-                "top": 716,
-                "zoom": 2.156862745098039
+                "file": "de/testing/book/IEEE 1149.1/IEEE std 1149.1.pdf",
+                "page": 1,
+                "left": 304,
+                "top": 498,
+                "zoom": 4.928315044181972
               },
               "icon": "lucide-file-text",
-              "title": "1687_DT_sidebar7 (2)"
+              "title": "IEEE std 1149.1"
             }
           },
           {
@@ -160,13 +160,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "de/testing/book/IEEE 1687/1687_DT_sidebar7 (2).pdf",
+                "file": "de/testing/book/IEEE 1149.1/IEEE std 1149.1.pdf",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 1687_DT_sidebar7 (2)"
+              "title": "Outline of IEEE std 1149.1"
             }
           },
           {
@@ -217,6 +217,7 @@
     "de/testing/book/IEEE 1149.1/jtag_boundary_scan.pdf",
     "de/testing/book/IEEE 1687/1687_DT_sidebar7 (2).pdf",
     "de/testing/book/IEEE 1687/HW_Post_Vote_r7_BW.pdf",
+    "de/testing/book/IEEE 1687/IJTAG_ITC_Poster_2012_rev3.pdf",
     "de/testing/testing.md",
     "de/testing/include/transition_fault.svg",
     "de/testing/book/IEEE 1149.1",
@@ -224,7 +225,6 @@
     "de/testing/book/desginware",
     "de/testing/code/jtag/tags/arelease/ieee_1149.1_tap/Boundary-Scan_Architecture.pdf",
     "de/testing/code/jtag/trunk/tap/doc/jtag.pdf",
-    "de/testing/book/IEEE 1687/IJTAG_ITC_Poster_2012_rev3.pdf",
     "de/testing/book/IEEE 1687",
     "de/platform/gck/gck.md",
     "de/testing/include/jtap_runbist.svg",
