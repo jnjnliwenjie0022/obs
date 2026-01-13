@@ -95,8 +95,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 506.5,
-    "collapsed": true
+    "width": 506.5
   },
   "right": {
     "id": "baf9c43aba40b294",
@@ -214,12 +213,13 @@
   },
   "active": "51471b617783bd58",
   "lastOpenFiles": [
+    "de/testing/code/jtag/tags/arelease/ieee_1149.1_tap/Boundary-Scan_Architecture.pdf",
+    "de/testing/code/jtag/trunk/tap/doc/jtag.pdf",
+    "de/testing/testing.md",
     "de/testing/book/IEEE 1687/HW_Post_Vote_r7_BW.pdf",
     "de/testing/book/IEEE 1687/IJTAG_ITC_Poster_2012_rev3.pdf",
     "de/testing/book/IEEE 1687/1687_DT_sidebar7 (2).pdf",
     "de/testing/book/IEEE 1687",
-    "de/testing/code/jtag/trunk/tap/doc/jtag.pdf",
-    "de/testing/testing.md",
     "de/platform/gck/gck.md",
     "de/testing/book/IEEE std 1149.1.pdf",
     "de/testing/book/jtag_boundary_scan.pdf",
@@ -232,7 +232,6 @@
     "de/testing/code/jtag/web_uploads/index.shtml",
     "de/testing/code/jtag/web_uploads/Boundary-Scan Architecture.pdf",
     "de/testing/code/jtag/web_uploads",
-    "de/testing/code/jtag/trunk/cells/rtl/verilog/OutputCell.v",
     "de/testing/include/reset.svg",
     "de/testing/include/bsc.svg",
     "Pasted image 20260110222214.png",
