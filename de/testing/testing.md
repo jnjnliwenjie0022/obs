@@ -191,4 +191,5 @@
 # bist
 
  - BIST (Built-In Self-Test)
- - 
+	 - MBIST for memory
+	 - LBIST for logic
