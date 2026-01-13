@@ -13,14 +13,14 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "de/testing/book/IEEE 1687/HW_Post_Vote_r7_BW.pdf",
+                "file": "de/testing/book/IEEE 1687/1687_DT_sidebar7 (2).pdf",
                 "page": 1,
                 "left": -7,
-                "top": 796,
+                "top": 279,
                 "zoom": 2.156862745098039
               },
               "icon": "lucide-file-text",
-              "title": "HW_Post_Vote_r7_BW"
+              "title": "1687_DT_sidebar7 (2)"
             }
           },
           {
@@ -160,13 +160,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "de/testing/book/IEEE 1687/HW_Post_Vote_r7_BW.pdf",
+                "file": "de/testing/book/IEEE 1687/1687_DT_sidebar7 (2).pdf",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of HW_Post_Vote_r7_BW"
+              "title": "Outline of 1687_DT_sidebar7 (2)"
             }
           },
           {
@@ -214,6 +214,7 @@
   },
   "active": "51471b617783bd58",
   "lastOpenFiles": [
+    "de/testing/book/IEEE 1687/HW_Post_Vote_r7_BW.pdf",
     "de/testing/book/IEEE 1687/1687_DT_sidebar7 (2).pdf",
     "de/testing/testing.md",
     "de/testing/include/transition_fault.svg",
@@ -223,7 +224,6 @@
     "de/testing/book/desginware",
     "de/testing/code/jtag/tags/arelease/ieee_1149.1_tap/Boundary-Scan_Architecture.pdf",
     "de/testing/code/jtag/trunk/tap/doc/jtag.pdf",
-    "de/testing/book/IEEE 1687/HW_Post_Vote_r7_BW.pdf",
     "de/testing/book/IEEE 1687/IJTAG_ITC_Poster_2012_rev3.pdf",
     "de/testing/book/IEEE 1687",
     "de/platform/gck/gck.md",
