@@ -20,7 +20,6 @@
 		- P.S: JTAG 是實現 IEEE 1149.1-2013 的介面
 		- P.S: 通常將 IEEE 1149.1-2013 視爲 **transport module**
 - IEEE 1149.1-2013 and IEEE 1687
-	- #TODO ref: https://blog.csdn.net/Python_0011/article/details/154824998?spm=1001.2101.3001.4242.1&utm_relevant_index=2
 	- IEEE 1149.1-2013 通常用來處理 external scan，但可處理 internal scan
 	- IEEE 1687 通常用來處理 internal scan，但可處理 external scan
 	- IEEE 1687 完全相容 IEEE 1149.1-2013
@@ -177,18 +176,15 @@
 	- ![[bsc.svg]]
 ## arch
 
-- 需要注意的是 IEEE 1149.1 沒有對 TDR interface 做定義, 建議使用 IEEE 1687
-- ![[jtag_arch.svg]]
+- 需要注意的是 IEEE 1149.1 沒有對 TDR interface 做明確的定義, 所以使用 IEEE 1687 中的 type-B interface (compatible with IEEE 1149.1)
 - ref: https://vlsitutorials.com/jtag-architecture-overview/
-- ref: https://www.youtube.com/watch?v=TDfrsI8GxSk&list=PLOuqbFqg3u02XNb3FZiQwKrx-MMU8OfPU&index=5
-- ref: https://www.cnblogs.com/jihexiansheng/p/17645113.html
-- ref: https://blog.csdn.net/qq_40178082/article/details/135156695
-- ref: https://blog.csdn.net/Python_0011/article/details/154824998?spm=1001.2101.3001.4242.1&utm_relevant_index=3
 - ref: https://blog.csdn.net/zhuangdk/article/details/121147801
+- ![[jtag_arch.svg]] 
 
 # ieee1687
 
 - ref: https://www.cnblogs.com/jihexiansheng/p/17645113.html
+- ref: https://blog.csdn.net/qq_40178082/article/details/135156695
 # bist
 
  - BIST (Built-In Self-Test)
