@@ -183,8 +183,12 @@
 # bist
 
 - ref: https://www.youtube.com/watch?v=97FxTpjnnEk&list=PLvd8d-SyI7hjk_Ci0zpTqImAtpEjdK5JF&index=67
-- BIST (Built-In Self-Test)
-	 - MBIST for memory
-	 - LBIST for logic
+- BIST (Built-In Self Test)
+	 - MBIST for memory built-in self test
+	 - LBIST for logic built-in self test
+	 - advantage:
+		 - test at high speed clock 
+		 - test online
+		 - remove expensive tester
 # Archive
 - #TODO ref: https://zhuanlan.zhihu.com/p/488543739
