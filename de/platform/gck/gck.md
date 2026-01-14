@@ -225,9 +225,9 @@ endprimitive
 
 # testing
 
-- register 需要置換成
-	- 原本的 interface: CLK, D, Q
-	- 置換的 interface: SI, SE, CLK, D, Q
+- register 需要置換
+	- 之前的 interface: CLK, D, Q
+	- 之後的 interface: CLK, D, Q, SI, SE,
 
 	- ![[reg.svg|1000]]
 - gck 需要置換成
