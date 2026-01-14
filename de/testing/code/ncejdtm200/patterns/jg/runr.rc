@@ -1,0 +1,8 @@
+prolog_cmd = prepare_jg_script
+flist_dir = $PVC_LOCALDIR/andes_ip/soc/ncejdtm200/bench
+hdl_prolog_cmd = default_prepare_filelist ncejdtm200.f
+hdl_cmd = run_jg
+ref = off
+hdl_epilog_cmd = jg_summary result.csv > jg_summary.log
+epilog_cmd = jg_check_results
+soft_config =

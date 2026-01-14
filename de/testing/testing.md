@@ -172,6 +172,7 @@
 - 需要注意的是 IEEE 1149.1 沒有對 TDR interface 做明確的定義, 所以使用 IEEE 1687 中的 type-B interface (compatible with IEEE 1149.1)
 - ref: https://vlsitutorials.com/jtag-architecture-overview/
 - ref: https://blog.csdn.net/zhuangdk/article/details/121147801
+- ref: https://blog.csdn.net/kinjon/article/details/155233782?spm=1001.2101.3001.6650.2&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7EYuanLiJiHua%7ECtr-2-155233782-blog-121147801.235%5Ev43%5Epc_blog_bottom_relevance_base7&utm_relevant_index=5
 - ref: https://blog.csdn.net/xuhe0206/article/details/125867462?spm=1001.2101.3001.6661.1&depth_1-utm_source=distribute.pc_relevant_t0.none-task-blog-2%7Edefault%7EBlogCommendFromBaidu%7EPaidSort-1-125867462-blog-121945432.235%5Ev43%5Epc_blog_bottom_relevance_base7&utm_relevant_index=1
 - ![[jtag_arch.svg]] 
 
@@ -186,5 +187,4 @@
 	 - MBIST for memory
 	 - LBIST for logic
 # Archive
-- #TODO ref: https://blog.csdn.net/kinjon/article/details/155233782?spm=1001.2101.3001.6650.2&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7EYuanLiJiHua%7ECtr-2-155233782-blog-121147801.235%5Ev43%5Epc_blog_bottom_relevance_base7&utm_relevant_index=5
 - #TODO ref: https://zhuanlan.zhihu.com/p/488543739
