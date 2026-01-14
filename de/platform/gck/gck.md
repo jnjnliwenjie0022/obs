@@ -208,20 +208,11 @@ endprimitive
 - 只要 CLK@A 和 CLK@B 有 delay 就會有 glitch 的問題發生, 解決方法是透過 APR 處理
 - ![[Pasted image 20251223114206.png]]
 
-# backend #TODO 
+# CTS #TODO
 
-- ref: https://vocus.cc/article/673c5345fd89780001e41b8d
-- 以下是STARC的DFT+GCK設計建議
-	- ![[RTL Design Style Guide.pdf#page=247&rect=94,149,520,413|RTL Design Style Guide, p.247|500]]
-- 以下是Scan Chain的補充說明
-	- 中端或是後端會自新增 SE 和 SI 信號
-	- ![[Pasted image 20251017140317.png]]
-
-# CTS
-
-- #TODO ref: https://blog.csdn.net/weixin_41464428/article/details/111400942
-- #TODO ref: https://aijishu.com/a/1060000000439299
-- #TODO ref: https://blog.csdn.net/weixin_37584728/article/details/144055456?spm=1001.2101.3001.4242.2&utm_relevant_index=3
+- ref: https://blog.csdn.net/weixin_41464428/article/details/111400942
+- ref: https://aijishu.com/a/1060000000439299
+- ref: https://blog.csdn.net/weixin_37584728/article/details/144055456?spm=1001.2101.3001.4242.2&utm_relevant_index=3
 
 # testing
 
@@ -230,5 +221,5 @@ endprimitive
 	- 之後的 interface: CLK, D, Q, SI, SE,
 
 	- ![[reg.svg|1000]]
-- gck 需要置換
-	- 
+- gck 不用置換
+	- interface: EN, CLK_IN, SE, CLK_OUT
