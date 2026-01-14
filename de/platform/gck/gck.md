@@ -39,6 +39,7 @@ end
 	- APR layout 問題
 - RTL Simulation 用的 gck
 	- ![[gck.svg|500]]
+
  ```verilog
     always #10 clk = ~clk;
     initial begin
@@ -63,6 +64,10 @@ end
     wire clk_out = clk & latch_out;
 ////////////////////////////////////
 ```
+
+
+
+
 - DV實際結果:
 	- ![[Pasted image 20251018041246.png]]
 	- ![[gck_waveform.svg]]
@@ -223,7 +228,7 @@ endprimitive
 - #TODO ref: https://aijishu.com/a/1060000000439299
 - #TODO ref: https://blog.csdn.net/weixin_37584728/article/details/144055456?spm=1001.2101.3001.4242.2&utm_relevant_index=3
 
-# Test
+# testing
 
 
 - ![[reg.svg|1000]]
