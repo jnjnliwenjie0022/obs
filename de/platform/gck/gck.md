@@ -39,8 +39,7 @@ end
 	- APR layout 問題
 - RTL Simulation 用的 gck
 	- ![[gck.svg|500]]
-
- ```verilog
+```verilog
     always #10 clk = ~clk;
     initial begin
         {clk,rst_n} = 0;
@@ -64,10 +63,6 @@ end
     wire clk_out = clk & latch_out;
 ////////////////////////////////////
 ```
-
-
-
-
 - DV實際結果:
 	- ![[Pasted image 20251018041246.png]]
 	- ![[gck_waveform.svg]]
@@ -230,5 +225,10 @@ endprimitive
 
 # testing
 
+- register 需要置換成
+	- 原本的 interface: CLK, D, Q
+	- 置換的 interface: SI, SE, CLK, D, Q
 
-- ![[reg.svg|1000]]
+	- ![[reg.svg|1000]]
+- gck 需要置換成
+	- 
