@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "de/power/genus/genus.md",
+                "file": "c/c.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "genus"
+              "title": "c"
             }
           }
         ]
@@ -197,6 +197,7 @@
   },
   "active": "51471b617783bd58",
   "lastOpenFiles": [
+    "de/power/genus/genus.md",
     "de/ppa/evaluation.md",
     "de/ppa/spyglass.md",
     "de/ppa/upf.md",
@@ -211,7 +212,6 @@
     "de/Pasted image 20240606125937.png",
     "de/power/power_report.md",
     "de/power/power.md",
-    "de/power/genus/genus.md",
     "de/testing/code/jtag/tags/arelease/ieee_1149.1_tap/Boundary-Scan_Architecture.pdf",
     "de/testing/book/desginware/dw_bc_1.pdf",
     "de/testing/code/ncejdtm200/syn/ncejdtm200.sdc",
