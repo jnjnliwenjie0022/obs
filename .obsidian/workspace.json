@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "de/ppa/evaluation.md",
-                "mode": "preview",
+                "file": "todo/airoha.md",
+                "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "evaluation"
+              "title": "airoha"
             }
           }
         ]
@@ -197,6 +197,10 @@
   },
   "active": "51471b617783bd58",
   "lastOpenFiles": [
+    "todo",
+    "Pasted image 20260114145805.png",
+    "de/ppa/evaluation.md",
+    "todo/airoha.md",
     "de/ppa/spyglass.md",
     "de/ppa/timing.md",
     "de/Pasted image 20240606151606.png",
@@ -224,7 +228,6 @@
     "de/testing/include/jtap_intest.svg",
     "de/testing/include/jtap_extest.svg",
     "de/testing/include/jtap_sample_preload.svg",
-    "de/testing/include/reset.svg",
     "de/power/sdpd/power.md",
     "de/power/sdpd/sdpd.md",
     "de/platform/gen_power/power_gating/power_gating.md",
@@ -239,9 +242,6 @@
     "de/platform/domain_cross/rdc/rdc.md",
     "de/platform/domain_cross/cdc/cdc.md",
     "de/amba_ahb/ahb.md",
-    "workflow/git/git.md",
-    "de/note.md",
-    "de/platform/platform/platform.md",
-    "de/platform/platform/arm_solution/arm_solution.md"
+    "workflow/git/git.md"
   ]
 }

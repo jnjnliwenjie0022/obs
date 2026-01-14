@@ -1,0 +1,5 @@
+- ![[Pasted image 20260114145805.png]]
+- leakage power 基本上都不會差太多
+- dynamic power 在 clk tree 上需要 x1.3
+- 2方法沒有問題, 正確率很高
+- 1方法就是純粹的估計而已
