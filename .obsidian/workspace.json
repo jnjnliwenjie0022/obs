@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "de/testing/testing.md",
+                "file": "de/power/genus/genus.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "testing"
+              "title": "genus"
             }
           }
         ]
@@ -75,8 +75,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -196,21 +195,23 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "463934e073eea783",
+  "active": "51471b617783bd58",
   "lastOpenFiles": [
+    "de/ppa/evaluation.md",
+    "de/ppa/spyglass.md",
+    "de/ppa/upf.md",
+    "de/power/sdpd/power.md",
+    "de/testing/testing.md",
     "de/platform/gck/gck.md",
     "todo/airoha.md",
     "todo",
     "Pasted image 20260114145805.png",
-    "de/ppa/evaluation.md",
-    "de/ppa/spyglass.md",
     "de/ppa/timing.md",
     "de/Pasted image 20240606151606.png",
     "de/Pasted image 20240606125937.png",
     "de/power/power_report.md",
     "de/power/power.md",
     "de/power/genus/genus.md",
-    "de/testing/testing.md",
     "de/testing/code/jtag/tags/arelease/ieee_1149.1_tap/Boundary-Scan_Architecture.pdf",
     "de/testing/book/desginware/dw_bc_1.pdf",
     "de/testing/code/ncejdtm200/syn/ncejdtm200.sdc",
@@ -228,7 +229,6 @@
     "de/testing/include/jtap_intest.svg",
     "de/testing/include/jtap_extest.svg",
     "de/testing/include/jtap_sample_preload.svg",
-    "de/power/sdpd/power.md",
     "de/power/sdpd/sdpd.md",
     "de/platform/gen_power/power_gating/power_gating.md",
     "de/fpu/f16mac.md",
