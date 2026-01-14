@@ -181,7 +181,8 @@
 - ref: https://blog.csdn.net/qq_40178082/article/details/135156695
 # bist
 
- - BIST (Built-In Self-Test)
+- ref: https://www.youtube.com/watch?v=97FxTpjnnEk&list=PLvd8d-SyI7hjk_Ci0zpTqImAtpEjdK5JF&index=67
+- BIST (Built-In Self-Test)
 	 - MBIST for memory
 	 - LBIST for logic
 # Archive

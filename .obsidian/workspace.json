@@ -11,16 +11,15 @@
             "id": "51471b617783bd58",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "de/testing/book/IEEE 1149.1/IEEE std 1149.1.pdf",
-                "page": 27,
-                "left": 156,
-                "top": 475,
-                "zoom": 4.8
+                "file": "de/testing/testing.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
               },
-              "icon": "lucide-file-text",
-              "title": "IEEE std 1149.1"
+              "icon": "lucide-file",
+              "title": "testing"
             }
           },
           {
@@ -38,8 +37,7 @@
               "title": "gck"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -212,15 +210,15 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "14feafa43b577a1f",
+  "active": "51471b617783bd58",
   "lastOpenFiles": [
-    "de/testing/testing.md",
+    "de/testing/book/IEEE 1149.1/IEEE std 1149.1.pdf",
     "de/platform/gck/gck.md",
+    "de/testing/testing.md",
     "conflict-files-obsidian-git.md",
     "de/testing/book/An Introduction to Scan Test for Test Engineers.pdf",
     "de/testing/book/An Introduction to Scan Test for Test Engineers (Part 2 of 2).pdf",
     "de/testing/book/IEEE 1149.1/jtag_boundary_scan.pdf",
-    "de/testing/book/IEEE 1149.1/IEEE std 1149.1.pdf",
     "de/testing/code/jtag/trunk/tap/doc/jtag.pdf",
     "de/testing/book/IEEE 1687/~~$HW_Post_Vote_r7_BW.pdf",
     "de/testing/book/IEEE 1687/1687_DT_sidebar7 (2).pdf",
