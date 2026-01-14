@@ -1,25 +1,25 @@
 {
   "main": {
-    "id": "d88e07345dcfbe5d",
+    "id": "60026726af5d4882",
     "type": "split",
     "children": [
       {
-        "id": "2505482c3569db26",
+        "id": "bdb305d42845d569",
         "type": "tabs",
         "children": [
           {
-            "id": "51471b617783bd58",
+            "id": "2af3795994deb845",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "c/c.md",
+                "file": "de/testing/testing.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "c"
+              "title": "testing"
             }
           }
         ]
@@ -28,15 +28,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "46242b21f793c16c",
+    "id": "82818907448c0c1d",
     "type": "split",
     "children": [
       {
-        "id": "b6593a5454b0b3f1",
+        "id": "9bfaf0571bb73f7a",
         "type": "tabs",
         "children": [
           {
-            "id": "35a470a2c390e07e",
+            "id": "54fe4b6bc637e92d",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -49,12 +49,12 @@
             }
           },
           {
-            "id": "463934e073eea783",
+            "id": "2ffc00ddad7c59f0",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#TODO",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -66,7 +66,7 @@
             }
           },
           {
-            "id": "29a4d1998236b508",
+            "id": "8b690129b1df7dfa",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -79,23 +79,23 @@
       }
     ],
     "direction": "horizontal",
-    "width": 506.5
+    "width": 300
   },
   "right": {
-    "id": "baf9c43aba40b294",
+    "id": "fe7ee36e3efbc9c9",
     "type": "split",
     "children": [
       {
-        "id": "b953332f08472a84",
+        "id": "c251b068fa547a2f",
         "type": "tabs",
         "children": [
           {
-            "id": "67ef46447a2db9d8",
+            "id": "30a7bfdf804ac200",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "de/platform/platform/platform.md",
+                "file": "de/testing/testing.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,25 +105,25 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for platform"
+              "title": "Backlinks for testing"
             }
           },
           {
-            "id": "70b17e93822d19f9",
+            "id": "5e7bab804071eb83",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "de/platform/platform/platform.md",
+                "file": "de/testing/testing.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from platform"
+              "title": "Outgoing links from testing"
             }
           },
           {
-            "id": "a5478fab1b1933b6",
+            "id": "fe8c45008716a4d7",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -138,7 +138,7 @@
             }
           },
           {
-            "id": "0b8a8ade04f18b08",
+            "id": "5892a17d8986f3db",
             "type": "leaf",
             "state": {
               "type": "outline",
@@ -151,97 +151,43 @@
               "icon": "lucide-list",
               "title": "Outline of testing"
             }
-          },
-          {
-            "id": "eb0995a0769ace51",
-            "type": "leaf",
-            "state": {
-              "type": "git-history-view",
-              "state": {},
-              "icon": "history",
-              "title": "History"
-            }
-          },
-          {
-            "id": "b38429274462f125",
-            "type": "leaf",
-            "state": {
-              "type": "git-view",
-              "state": {},
-              "icon": "git-pull-request",
-              "title": "Source Control"
-            }
           }
         ],
         "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 346.5,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
-      "obsidian-git:Open Git source control": false,
-      "bases:Create new base": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
+      "bases:Create new base": false,
+      "obsidian-git:Open Git source control": false,
       "pdf-plus:PDF++: Toggle auto-copy": false,
       "pdf-plus:PDF++: Toggle auto-focus": false,
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "51471b617783bd58",
+  "active": "54fe4b6bc637e92d",
   "lastOpenFiles": [
-    "de/power/genus/genus.md",
-    "de/ppa/evaluation.md",
-    "de/ppa/spyglass.md",
-    "de/ppa/upf.md",
-    "de/power/sdpd/power.md",
-    "de/testing/testing.md",
-    "de/platform/gck/gck.md",
     "todo/airoha.md",
     "todo",
-    "Pasted image 20260114145805.png",
-    "de/ppa/timing.md",
-    "de/Pasted image 20240606151606.png",
-    "de/Pasted image 20240606125937.png",
-    "de/power/power_report.md",
-    "de/power/power.md",
-    "de/testing/code/jtag/tags/arelease/ieee_1149.1_tap/Boundary-Scan_Architecture.pdf",
-    "de/testing/book/desginware/dw_bc_1.pdf",
-    "de/testing/code/ncejdtm200/syn/ncejdtm200.sdc",
-    "de/testing/code/ncejdtm200/syn/flist.tcl",
-    "de/testing/code/ncejdtm200/syn",
     "de/testing/code/ncejdtm200/patterns/jg/cdc/runr.rc",
     "de/testing/code/ncejdtm200/patterns/jg/cdc/run.tcl",
-    "de/testing/code/ncejdtm200/patterns/jg/runr.rc",
     "de/testing/code/ncejdtm200/patterns/jg/cdc",
-    "conflict-files-obsidian-git.md",
-    "de/testing/include/transition_fault.svg",
-    "de/testing/include/jtap_runbist.svg",
-    "de/testing/include/jtag_arch.svg",
-    "de/testing/include/jtap_bypass.svg",
-    "de/testing/include/jtap_intest.svg",
-    "de/testing/include/jtap_extest.svg",
-    "de/testing/include/jtap_sample_preload.svg",
-    "de/power/sdpd/sdpd.md",
-    "de/platform/gen_power/power_gating/power_gating.md",
-    "de/fpu/f16mac.md",
-    "de/platform/domain_cross/domain_cross.md",
-    "de/Test.md",
-    "de/_unorganized/cosim.md",
-    "de/amba_axi/axi.md",
-    "de/amba_axi/request_attribute.md",
-    "de/genus/genus.md",
-    "de/platform/gen_clk/gen_clk.md",
-    "de/platform/domain_cross/rdc/rdc.md",
-    "de/platform/domain_cross/cdc/cdc.md",
-    "de/amba_ahb/ahb.md",
-    "workflow/git/git.md"
+    "de/testing/code/ncejdtm200/patterns/jg/runr.rc",
+    "de/testing/code/ncejdtm200/hdl/ncejdtm200_tap.v",
+    "de/testing/code/ncejdtm200/hdl/ncejdtm200_dmi.v",
+    "de/testing/code/ncejdtm200/hdl/ncejdtm200.v",
+    "de/testing/code/ncejdtm200/syn/ncejdtm200.sdc",
+    "de/testing/code/ncejdtm200/syn/flist.tcl",
+    "Pasted image 20260114145805.png",
+    "conflict-files-obsidian-git.md"
   ]
 }
