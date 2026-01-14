@@ -37,9 +37,21 @@
               "icon": "lucide-file",
               "title": "testing"
             }
+          },
+          {
+            "id": "bd3a771638fc2d52",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.11.4"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.11.4"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -212,7 +224,7 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "14feafa43b577a1f",
+  "active": "bd3a771638fc2d52",
   "lastOpenFiles": [
     "de/testing/book/IEEE 1149.1/jtag_boundary_scan.pdf",
     "de/testing/book/IEEE 1149.1/IEEE std 1149.1.pdf",
