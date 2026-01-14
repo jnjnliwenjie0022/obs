@@ -230,5 +230,5 @@ endprimitive
 	- 之後的 interface: CLK, D, Q, SI, SE,
 
 	- ![[reg.svg|1000]]
-- gck 需要置換成
+- gck 需要置換
 	- 
