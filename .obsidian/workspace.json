@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "de/testing/testing.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false,
                 "backlinks": false
               },
@@ -174,8 +174,14 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "54fe4b6bc637e92d",
+  "active": "2af3795994deb845",
   "lastOpenFiles": [
+    "de/verification_spec/verification_spec.md",
+    "de/testing/testing.md",
+    "de/testing/include/reg.svg",
+    "de/testing/include/scan_chain_cross_clock_domain.svg",
+    "de/testing/include/scan_flow.svg",
+    "de/testing/include/transition_fault.svg",
     "todo/airoha.md",
     "todo",
     "de/testing/code/ncejdtm200/patterns/jg/cdc/runr.rc",
