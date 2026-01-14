@@ -176,7 +176,7 @@
 - ref: https://blog.csdn.net/xuhe0206/article/details/125867462?spm=1001.2101.3001.6661.1&depth_1-utm_source=distribute.pc_relevant_t0.none-task-blog-2%7Edefault%7EBlogCommendFromBaidu%7EPaidSort-1-125867462-blog-121945432.235%5Ev43%5Epc_blog_bottom_relevance_base7&utm_relevant_index=1
 - ![[jtag_arch.svg]] 
 
-# ieee1687 #TODO 
+# ieee1687
 
 - ref: https://www.cnblogs.com/jihexiansheng/p/17645113.html
 - ref: https://blog.csdn.net/qq_40178082/article/details/135156695
