@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "todo/Untitled.md",
+                "file": "de/testing/testing.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Untitled"
+              "title": "testing"
             }
           }
         ]
@@ -143,13 +143,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "todo/Untitled.md",
+                "file": "de/testing/testing.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Untitled"
+              "title": "Outline of testing"
             }
           }
         ],
@@ -174,12 +174,12 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "54fe4b6bc637e92d",
+  "active": "2af3795994deb845",
   "lastOpenFiles": [
+    "todo/memory_macro.md",
     "todo/ts1n28hpcpuhdlvtb16x32m1sbsod_170a_ssg0p81v0p81vm40c.v",
     "Pasted image 20260115220628.png",
     "todo/airoha.md",
-    "todo/Untitled.md",
     "de/genus/genus.md",
     "de/testing/testing.md",
     "Pasted image 20260115121752.png",
@@ -197,7 +197,6 @@
     "de/testing/code/ncejdtm200/hdl/ncejdtm200_dmi.v",
     "de/testing/code/ncejdtm200/hdl/ncejdtm200.v",
     "de/testing/code/ncejdtm200/syn/ncejdtm200.sdc",
-    "de/testing/code/ncejdtm200/syn/flist.tcl",
     "Pasted image 20260114145805.png",
     "conflict-files-obsidian-git.md"
   ]
