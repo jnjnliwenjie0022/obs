@@ -87,6 +87,7 @@
 - ref: https://blog.csdn.net/Tranquil_ovo/article/details/151120747?spm=1001.2101.3001.6650.4&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7EYuanLiJiHua%7EPosition-4-151120747-blog-144903477.235%5Ev43%5Epc_blog_bottom_relevance_base3&utm_relevant_index=8
 - ref: https://medium.com/@raghuel/lets-talk-about-occ-d9bcc39260cd
 - ref: https://www.cnblogs.com/yilia-er/p/14200583.html
+- ref: https://www.youtube.com/watch?v=svrInoMmnrM
 - occ 可以是 hard macro by EDA tool
 
 ## scan_flow
@@ -180,13 +181,15 @@
 
 - ref: https://www.cnblogs.com/jihexiansheng/p/17645113.html
 - ref: https://blog.csdn.net/qq_40178082/article/details/135156695
-# bist
+# bist #TODO 
 
 - ref: https://www.youtube.com/watch?v=97FxTpjnnEk&list=PLvd8d-SyI7hjk_Ci0zpTqImAtpEjdK5JF&index=67
 - BIST (Built-In Self Test)
-	- advantage: test at high speed clock and online
+	- advantage:
+		- 
 	- MBIST for memory built-in self test
 	- LBIST for logic built-in self test
+	- ![[Pasted image 20260115121752.png|500]]
 
 # Archive
 - #TODO ref: https://zhuanlan.zhihu.com/p/488543739

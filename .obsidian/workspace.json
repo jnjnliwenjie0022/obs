@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "de/testing/testing.md",
+                "file": "de/platform/gck/gck.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "testing"
+              "title": "gck"
             }
           }
         ]
@@ -75,7 +75,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -197,13 +198,14 @@
   },
   "active": "51471b617783bd58",
   "lastOpenFiles": [
+    "de/testing/testing.md",
+    "Pasted image 20260115121752.png",
     "c/c.md",
     "de/power/genus/genus.md",
     "de/ppa/evaluation.md",
     "de/ppa/spyglass.md",
     "de/ppa/upf.md",
     "de/power/sdpd/power.md",
-    "de/testing/testing.md",
     "de/platform/gck/gck.md",
     "todo/airoha.md",
     "todo",
@@ -229,7 +231,6 @@
     "de/testing/include/jtap_bypass.svg",
     "de/testing/include/jtap_intest.svg",
     "de/testing/include/jtap_extest.svg",
-    "de/testing/include/jtap_sample_preload.svg",
     "de/power/sdpd/sdpd.md",
     "de/platform/gen_power/power_gating/power_gating.md",
     "de/fpu/f16mac.md",
@@ -241,7 +242,6 @@
     "de/genus/genus.md",
     "de/platform/gen_clk/gen_clk.md",
     "de/platform/domain_cross/rdc/rdc.md",
-    "de/platform/domain_cross/cdc/cdc.md",
-    "de/amba_ahb/ahb.md"
+    "de/platform/domain_cross/cdc/cdc.md"
   ]
 }
