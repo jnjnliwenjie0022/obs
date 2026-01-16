@@ -201,7 +201,12 @@
 # arch
 
 - ![[Pasted image 20260115121752.png|500]]
-- fe
+- TPG
+
+	- ROM
+	- algorithm
+	- counter
+
 
 
 # Archive
