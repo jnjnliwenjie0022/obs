@@ -11,15 +11,12 @@
             "id": "51471b617783bd58",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "de/techlib/memory_macro.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
+                "file": "Pasted image 20260115220628.png"
               },
-              "icon": "lucide-file",
-              "title": "memory_macro"
+              "icon": "lucide-image",
+              "title": "Pasted image 20260115220628"
             }
           }
         ]
@@ -195,8 +192,13 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "35a470a2c390e07e",
+  "active": "51471b617783bd58",
   "lastOpenFiles": [
+    "Pasted image 20260115121752.png",
+    "Pasted image 20260115220628.png",
+    "de/techlib/memory_macro.md",
+    "de/techlib/include/memory_macro.svg",
+    "de/techlib/include",
     "de/techlib/code",
     "de/power/sdpd/sdpd.md",
     "de/techlib/Untitled.md",
@@ -205,10 +207,7 @@
     "de/testing/testing.md",
     "conflict-files-obsidian-git.md",
     "de/techlib/code/ts1n28hpcpuhdlvtb16x32m1sbsod_170a_ssg0p81v0p81vm40c.v",
-    "de/techlib/memory_macro.md",
-    "Pasted image 20260115220628.png",
     "de/platform/gck/gck.md",
-    "Pasted image 20260115121752.png",
     "c/c.md",
     "de/ppa/evaluation.md",
     "de/ppa/spyglass.md",
@@ -227,13 +226,10 @@
     "de/testing/code/ncejdtm200/syn/ncejdtm200.sdc",
     "de/testing/code/ncejdtm200/syn/flist.tcl",
     "de/testing/code/ncejdtm200/syn",
-    "de/testing/code/ncejdtm200/patterns/jg/cdc/runr.rc",
-    "de/testing/code/ncejdtm200/patterns/jg/cdc/run.tcl",
     "de/testing/include/transition_fault.svg",
     "de/testing/include/jtap_runbist.svg",
     "de/testing/include/jtag_arch.svg",
     "de/testing/include/jtap_bypass.svg",
-    "de/testing/include/jtap_intest.svg",
     "de/platform/gen_power/power_gating/power_gating.md",
     "de/fpu/f16mac.md",
     "de/platform/domain_cross/domain_cross.md",
