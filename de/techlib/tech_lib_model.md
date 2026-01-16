@@ -1,5 +1,5 @@
 - TSMC memory model
 	- ![[memory_macro.svg]]
-	- 會有 unknown value
-	- 會 check timing 且導致
+	- 會 check timing 且導致 unknown value
 - TSMC cell model
+	- 不會 check timing 且不導致 unknown value

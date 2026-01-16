@@ -11,15 +11,12 @@
             "id": "51471b617783bd58",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "de/techlib/tech_lib_model.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
+                "file": "de/techlib/include/memory_macro.svg"
               },
-              "icon": "lucide-file",
-              "title": "tech_lib_model"
+              "icon": "lucide-image",
+              "title": "memory_macro"
             }
           }
         ]
@@ -197,9 +194,10 @@
   },
   "active": "51471b617783bd58",
   "lastOpenFiles": [
-    "de/techlib/code/tcbn28hpcplusbwp35p140.v",
-    "de/techlib/include/memory_macro.svg",
     "de/techlib/tech_lib_model.md",
+    "de/techlib/include/memory_macro.svg",
+    "de/testing/testing.md",
+    "de/techlib/code/tcbn28hpcplusbwp35p140.v",
     "Pasted image 20260115220628.png",
     "Pasted image 20260115121752.png",
     "dv/sv/sv_rule.md",
@@ -209,7 +207,6 @@
     "de/techlib/Untitled.md",
     "de/techlib",
     "de/power/genus/genus.md",
-    "de/testing/testing.md",
     "conflict-files-obsidian-git.md",
     "de/techlib/code/ts1n28hpcpuhdlvtb16x32m1sbsod_170a_ssg0p81v0p81vm40c.v",
     "de/platform/gck/gck.md",
@@ -230,7 +227,6 @@
     "de/testing/book/desginware/dw_bc_1.pdf",
     "de/testing/code/ncejdtm200/syn/ncejdtm200.sdc",
     "de/testing/code/ncejdtm200/syn/flist.tcl",
-    "de/testing/code/ncejdtm200/syn",
     "de/testing/include/transition_fault.svg",
     "de/testing/include/jtap_runbist.svg",
     "de/testing/include/jtag_arch.svg",
