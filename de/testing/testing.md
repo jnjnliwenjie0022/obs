@@ -198,7 +198,11 @@
 			- solution: mixed BIST + ATE
 	- MBIST for memory built-in self test
 	- LBIST for logic built-in self test
-	- ![[Pasted image 20260115121752.png|500]]
+# arch
+
+- ![[Pasted image 20260115121752.png|500]]
+- fe
+
 
 # Archive
 - #TODO ref: https://zhuanlan.zhihu.com/p/488543739
