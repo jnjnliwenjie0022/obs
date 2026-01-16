@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "de/power/sdpd/sdpd.md",
+                "file": "de/techlib/memory_macro.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "sdpd"
+              "title": "memory_macro"
             }
           }
         ]
@@ -195,13 +195,17 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "51471b617783bd58",
+  "active": "35a470a2c390e07e",
   "lastOpenFiles": [
+    "de/techlib/code",
+    "de/power/sdpd/sdpd.md",
+    "de/techlib/Untitled.md",
+    "de/techlib",
     "de/power/genus/genus.md",
     "de/testing/testing.md",
     "conflict-files-obsidian-git.md",
-    "todo/ts1n28hpcpuhdlvtb16x32m1sbsod_170a_ssg0p81v0p81vm40c.v",
-    "todo/memory_macro.md",
+    "de/techlib/code/ts1n28hpcpuhdlvtb16x32m1sbsod_170a_ssg0p81v0p81vm40c.v",
+    "de/techlib/memory_macro.md",
     "Pasted image 20260115220628.png",
     "de/platform/gck/gck.md",
     "Pasted image 20260115121752.png",
@@ -225,13 +229,11 @@
     "de/testing/code/ncejdtm200/syn",
     "de/testing/code/ncejdtm200/patterns/jg/cdc/runr.rc",
     "de/testing/code/ncejdtm200/patterns/jg/cdc/run.tcl",
-    "de/testing/code/ncejdtm200/patterns/jg/runr.rc",
     "de/testing/include/transition_fault.svg",
     "de/testing/include/jtap_runbist.svg",
     "de/testing/include/jtag_arch.svg",
     "de/testing/include/jtap_bypass.svg",
     "de/testing/include/jtap_intest.svg",
-    "de/power/sdpd/sdpd.md",
     "de/platform/gen_power/power_gating/power_gating.md",
     "de/fpu/f16mac.md",
     "de/platform/domain_cross/domain_cross.md",
@@ -240,7 +242,6 @@
     "de/amba_axi/axi.md",
     "de/amba_axi/request_attribute.md",
     "de/genus/genus.md",
-    "de/platform/gen_clk/gen_clk.md",
-    "de/platform/domain_cross/rdc/rdc.md"
+    "de/platform/gen_clk/gen_clk.md"
   ]
 }
