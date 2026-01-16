@@ -186,7 +186,16 @@
 - ref: https://www.youtube.com/watch?v=97FxTpjnnEk&list=PLvd8d-SyI7hjk_Ci0zpTqImAtpEjdK5JF&index=67
 - BIST (Built-In Self Test)
 	- advantage:
-		- 
+		- lower ATE cost: 
+			- smaller test pattern storage
+			- fewer DFT pins
+			- slower ATE clock
+		- faster test speed
+	- disadvantage:
+		- area overhead
+		- performance overhead
+		- lower FC: random test patterns not as good as ATPG patterns
+			- solution: mixed BIST + ATE
 	- MBIST for memory built-in self test
 	- LBIST for logic built-in self test
 	- ![[Pasted image 20260115121752.png|500]]
