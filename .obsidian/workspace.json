@@ -75,8 +75,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -196,7 +195,7 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "51471b617783bd58",
+  "active": "35a470a2c390e07e",
   "lastOpenFiles": [
     "de/platform/gck/gck.md",
     "de/testing/testing.md",
