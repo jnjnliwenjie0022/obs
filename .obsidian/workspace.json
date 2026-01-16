@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "dv/sv/sv_rule.md",
-                "mode": "preview",
+                "file": "de/techlib/techlib.md",
+                "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "sv_rule"
+              "title": "techlib"
             }
           }
         ]
@@ -197,10 +197,11 @@
   },
   "active": "51471b617783bd58",
   "lastOpenFiles": [
+    "de/techlib/include/memory_macro.svg",
+    "de/techlib/techlib.md",
     "Pasted image 20260115220628.png",
     "Pasted image 20260115121752.png",
-    "de/techlib/memory_macro.md",
-    "de/techlib/include/memory_macro.svg",
+    "dv/sv/sv_rule.md",
     "de/techlib/include",
     "de/techlib/code",
     "de/power/sdpd/sdpd.md",
@@ -240,7 +241,6 @@
     "de/_unorganized/cosim.md",
     "de/amba_axi/axi.md",
     "de/amba_axi/request_attribute.md",
-    "de/genus/genus.md",
-    "de/platform/gen_clk/gen_clk.md"
+    "de/genus/genus.md"
   ]
 }
