@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "de/techlib/techlib.md",
+                "file": "de/techlib/tech_lib_model.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "techlib"
+              "title": "tech_lib_model"
             }
           }
         ]
@@ -197,8 +197,9 @@
   },
   "active": "51471b617783bd58",
   "lastOpenFiles": [
+    "de/techlib/code/tcbn28hpcplusbwp35p140.v",
     "de/techlib/include/memory_macro.svg",
-    "de/techlib/techlib.md",
+    "de/techlib/tech_lib_model.md",
     "Pasted image 20260115220628.png",
     "Pasted image 20260115121752.png",
     "dv/sv/sv_rule.md",
