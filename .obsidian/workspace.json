@@ -37,8 +37,7 @@
               "title": "spyglass"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -193,8 +192,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 346.5,
-    "collapsed": true
+    "width": 346.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -211,11 +209,11 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "3e379876259357e0",
+  "active": "51471b617783bd58",
   "lastOpenFiles": [
+    "de/ppa/spyglass.md",
     "de/testing/testing.md",
     "de/testing/include/occ.svg",
-    "de/ppa/spyglass.md",
     "de/ppa/evaluation.md",
     "de/ppa/timing.md",
     "de/ppa/upf.md",
