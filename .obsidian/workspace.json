@@ -227,6 +227,7 @@
   },
   "active": "51471b617783bd58",
   "lastOpenFiles": [
+    "de/design_spec/ref/05C16500",
     "de/design_spec/ref/47B80500",
     "de/design_spec/ref/~$linting table.xlsx",
     "de/design_spec/ref/2CB7F400",
@@ -252,7 +253,6 @@
     "de/fpga",
     "de/ppa/spyglass.md",
     "dv/sv/ref/Nonblocking Assignments in Verilog Synthesis Coding Styles That Kill.pdf",
-    "dv/sv/ref/full_case parallel_case, the Evil Twins of Verilog.pdf",
     "dv/sw/ld.md",
     "de/platform/gen_clk/gen_clk.md",
     "de/platform/gen_clk/include/clkmux.svg",
