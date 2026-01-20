@@ -228,6 +228,8 @@
   },
   "active": "51471b617783bd58",
   "lastOpenFiles": [
+    "de/design_spec/ref/2CB7F400",
+    "de/design_spec/ref/EA86F400",
     "de/design_spec/ref/ACC4F400",
     "de/design_spec/ref/~$linting table.xlsx",
     "de/design_spec/ref/linting table.xlsx",
@@ -262,9 +264,7 @@
     "de/compression/compression.md",
     "de/genus/genus.md",
     "de/techlib/tech_lib_model.md",
-    "de/techlib/code/tcbn28hpcplusbwp35p140.v",
     "dv/sv/sv_rule.md",
-    "de/techlib/include",
     "de/power/sdpd/sdpd.md",
     "de/techlib/Untitled.md",
     "de/power/genus/genus.md",
