@@ -44,7 +44,7 @@
               "type": "markdown",
               "state": {
                 "file": "de/testing/testing.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false,
                 "backlinks": false
               },
@@ -228,8 +228,9 @@
   "active": "eea5bed6476794a7",
   "lastOpenFiles": [
     "de/platform/gen_clk/gen_clk.md",
-    "de/platform/gen_clk/include/clkmux.svg",
+    "de/testing/book/IEEE 1149.1/IEEESTD.2001.92950.pdf",
     "de/testing/testing.md",
+    "de/platform/gen_clk/include/clkmux.svg",
     "de/ppa/spyglass.md",
     "de/testing/include/occ.svg",
     "de/ppa/evaluation.md",
@@ -264,14 +265,12 @@
     "de/testing/code/jtag/tags/arelease/ieee_1149.1_tap/Boundary-Scan_Architecture.pdf",
     "de/testing/book/desginware/dw_bc_1.pdf",
     "de/testing/code/ncejdtm200/syn/ncejdtm200.sdc",
-    "de/testing/code/ncejdtm200/syn/flist.tcl",
     "de/testing/include/transition_fault.svg",
     "de/testing/include/jtap_runbist.svg",
     "de/platform/gen_power/power_gating/power_gating.md",
     "de/fpu/f16mac.md",
     "de/platform/domain_cross/domain_cross.md",
     "de/Test.md",
-    "de/_unorganized/cosim.md",
-    "de/amba_axi/axi.md"
+    "de/_unorganized/cosim.md"
   ]
 }
