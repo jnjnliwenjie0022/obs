@@ -44,17 +44,16 @@
               "type": "pdf",
               "state": {
                 "file": "dv/sv/ref/Verilog Nonblocking Assignments With Delays, Myths & Mysteries.pdf",
-                "page": 5,
+                "page": 7,
                 "left": -9,
-                "top": 719,
+                "top": 778,
                 "zoom": 1.6887254901960784
               },
               "icon": "lucide-file-text",
               "title": "Verilog Nonblocking Assignments With Delays, Myths & Mysteries"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -111,7 +110,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 541.5
+    "width": 541.5,
+    "collapsed": true
   },
   "right": {
     "id": "baf9c43aba40b294",
@@ -175,13 +175,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "dv/sv/ref/Verilog Nonblocking Assignments With Delays, Myths & Mysteries.pdf",
+                "file": "de/testing/testing.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Verilog Nonblocking Assignments With Delays, Myths & Mysteries"
+              "title": "Outline of testing"
             }
           },
           {
@@ -226,8 +226,10 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "35a470a2c390e07e",
+  "active": "51471b617783bd58",
   "lastOpenFiles": [
+    "de/ppa/spyglass.md",
+    "dv/sv/ref/Verilog Nonblocking Assignments With Delays, Myths & Mysteries.pdf",
     "dv/sv/ref/Nonblocking Assignments in Verilog Synthesis Coding Styles That Kill.pdf",
     "dv/sv/ref/full_case parallel_case, the Evil Twins of Verilog.pdf",
     "dv/sw/ld.md",
@@ -235,7 +237,6 @@
     "de/platform/gen_clk/gen_clk.md",
     "de/testing/book/IEEE 1149.1/IEEESTD.2001.92950.pdf",
     "de/platform/gen_clk/include/clkmux.svg",
-    "de/ppa/spyglass.md",
     "de/testing/include/occ.svg",
     "de/ppa/evaluation.md",
     "de/ppa/timing.md",
@@ -266,8 +267,6 @@
     "de/Pasted image 20240606125937.png",
     "de/power/power_report.md",
     "de/power/power.md",
-    "de/testing/code/jtag/tags/arelease/ieee_1149.1_tap/Boundary-Scan_Architecture.pdf",
-    "de/testing/book/desginware/dw_bc_1.pdf",
     "de/testing/include/transition_fault.svg",
     "de/testing/include/jtap_runbist.svg",
     "de/platform/gen_power/power_gating/power_gating.md",
