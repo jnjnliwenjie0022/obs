@@ -110,8 +110,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 541.5,
-    "collapsed": true
+    "width": 541.5
   },
   "right": {
     "id": "baf9c43aba40b294",
@@ -228,10 +227,10 @@
   },
   "active": "51471b617783bd58",
   "lastOpenFiles": [
+    "de/design_spec/ref/~$linting table.xlsx",
     "de/design_spec/ref/2CB7F400",
     "de/design_spec/ref/EA86F400",
     "de/design_spec/ref/ACC4F400",
-    "de/design_spec/ref/~$linting table.xlsx",
     "de/design_spec/ref/linting table.xlsx",
     "de/design_spec/fast_design.md",
     "dv/sv/ref/Verilog Nonblocking Assignments With Delays, Myths & Mysteries.pdf",
