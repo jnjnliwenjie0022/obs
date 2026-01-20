@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "de/testing/testing.md",
-                "mode": "preview",
+                "file": "de/adpll/adpll.md",
+                "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "testing"
+              "title": "adpll"
             }
           }
         ]
@@ -54,7 +54,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#TODO",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -75,7 +75,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -143,13 +144,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "de/testing/testing.md",
+                "file": "de/adpll/adpll.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of testing"
+              "title": "Outline of adpll"
             }
           }
         ],
@@ -177,6 +178,10 @@
   },
   "active": "2af3795994deb845",
   "lastOpenFiles": [
+    "de/testing/testing.md",
+    "de/platform/gck/gck.md",
+    "de/adpll/adpll.md",
+    "de/adpll",
     "de/testing/include/jtap_sample_preload.svg",
     "de/testing/include/occ.svg",
     "conflict-files-obsidian-git.md",
@@ -186,7 +191,6 @@
     "de/design_spec/ref/linting table.xlsx",
     "Pasted image 20260120163717.png",
     "Pasted image 20260120163549.png",
-    "de/testing/testing.md",
     "de/techlib/tech_lib_model.md",
     "de/techlib/include/memory_macro.svg",
     "de/techlib/include",
@@ -203,7 +207,6 @@
     "de/verification_spec/verification_spec.md",
     "de/testing/include/reg.svg",
     "de/testing/include/scan_chain_cross_clock_domain.svg",
-    "de/testing/include/scan_flow.svg",
-    "todo"
+    "de/testing/include/scan_flow.svg"
   ]
 }

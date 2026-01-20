@@ -91,10 +91,20 @@
 - ref: https://www.youtube.com/watch?v=FkZ0lX5BYuI
 - ref: https://medium.com/@raghuel/lets-talk-about-occ-d9bcc39260cd
 - ref: https://www.cnblogs.com/yilia-er/p/14200583.html
+- 以下架構只是概念圖
 
 - ![[occ.svg|1000]]
 	- scan_en panout 非常大, 需要做 syncer, N = 2
 	- scan_en transaction time 非常大, 需要給予一個 delay, 使 scan_en 穩定, N >> 2
+
+| FF2 | FF1 | FF0 | FF2 & ~FF0    | FF1 & ~FF0    |
+| --- | --- | --- | ------------- | ------------- |
+| 0   | 0   | 0   | 0             | 0             |
+| 1   | 0   | 0   | 1             | 0             |
+| 1   | 1   | 0   | 1             | 1             |
+| 1   | 1   | 1   | 0             | 0             |
+|     |     |     | 2 pluse (LOC) | 1 pluse (LOS) |
+
 ## scan_flow
 
 - ![[scan_flow.svg]]
