@@ -110,7 +110,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 541.5
+    "width": 541.5,
+    "collapsed": true
   },
   "right": {
     "id": "baf9c43aba40b294",
@@ -225,8 +226,9 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "35a470a2c390e07e",
+  "active": "51471b617783bd58",
   "lastOpenFiles": [
+    "de/design_spec/ref/ACC4F400",
     "de/design_spec/ref/~$linting table.xlsx",
     "de/design_spec/ref/linting table.xlsx",
     "de/design_spec/fast_design.md",
@@ -263,7 +265,6 @@
     "de/techlib/code/tcbn28hpcplusbwp35p140.v",
     "dv/sv/sv_rule.md",
     "de/techlib/include",
-    "de/techlib/code",
     "de/power/sdpd/sdpd.md",
     "de/techlib/Untitled.md",
     "de/power/genus/genus.md",
