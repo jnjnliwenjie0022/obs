@@ -1,25 +1,56 @@
 {
   "main": {
-    "id": "60026726af5d4882",
+    "id": "d88e07345dcfbe5d",
     "type": "split",
     "children": [
       {
-        "id": "bdb305d42845d569",
+        "id": "2505482c3569db26",
         "type": "tabs",
         "children": [
           {
-            "id": "2af3795994deb845",
+            "id": "51471b617783bd58",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "de/adpll/adpll.md",
-                "mode": "source",
+                "file": "de/design_spec/lint_rule.md",
+                "mode": "preview",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "adpll"
+              "title": "lint_rule"
+            }
+          },
+          {
+            "id": "3e379876259357e0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "de/ppa/spyglass.md",
+                "mode": "preview",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "spyglass"
+            }
+          },
+          {
+            "id": "eea5bed6476794a7",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "dv/sv/ref/Verilog Nonblocking Assignments With Delays, Myths & Mysteries.pdf",
+                "page": 7,
+                "left": -9,
+                "top": 778,
+                "zoom": 1.6887254901960784
+              },
+              "icon": "lucide-file-text",
+              "title": "Verilog Nonblocking Assignments With Delays, Myths & Mysteries"
             }
           }
         ]
@@ -28,15 +59,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "82818907448c0c1d",
+    "id": "46242b21f793c16c",
     "type": "split",
     "children": [
       {
-        "id": "9bfaf0571bb73f7a",
+        "id": "b6593a5454b0b3f1",
         "type": "tabs",
         "children": [
           {
-            "id": "54fe4b6bc637e92d",
+            "id": "35a470a2c390e07e",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -49,7 +80,7 @@
             }
           },
           {
-            "id": "2ffc00ddad7c59f0",
+            "id": "463934e073eea783",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -66,7 +97,7 @@
             }
           },
           {
-            "id": "8b690129b1df7dfa",
+            "id": "29a4d1998236b508",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -75,28 +106,28 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 541.5,
+    "collapsed": true
   },
   "right": {
-    "id": "fe7ee36e3efbc9c9",
+    "id": "baf9c43aba40b294",
     "type": "split",
     "children": [
       {
-        "id": "c251b068fa547a2f",
+        "id": "b953332f08472a84",
         "type": "tabs",
         "children": [
           {
-            "id": "30a7bfdf804ac200",
+            "id": "67ef46447a2db9d8",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "de/testing/testing.md",
+                "file": "de/platform/platform/platform.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,25 +137,25 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for testing"
+              "title": "Backlinks for platform"
             }
           },
           {
-            "id": "5e7bab804071eb83",
+            "id": "70b17e93822d19f9",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "de/testing/testing.md",
+                "file": "de/platform/platform/platform.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from testing"
+              "title": "Outgoing links from platform"
             }
           },
           {
-            "id": "fe8c45008716a4d7",
+            "id": "a5478fab1b1933b6",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -139,18 +170,38 @@
             }
           },
           {
-            "id": "5892a17d8986f3db",
+            "id": "0b8a8ade04f18b08",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "de/adpll/adpll.md",
+                "file": "de/design_spec/lint_rule.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of adpll"
+              "title": "Outline of lint_rule"
+            }
+          },
+          {
+            "id": "eb0995a0769ace51",
+            "type": "leaf",
+            "state": {
+              "type": "git-history-view",
+              "state": {},
+              "icon": "history",
+              "title": "History"
+            }
+          },
+          {
+            "id": "b38429274462f125",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
             }
           }
         ],
@@ -158,55 +209,71 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
+    "width": 346.5,
     "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
+      "obsidian-git:Open Git source control": false,
+      "bases:Create new base": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "bases:Create new base": false,
-      "obsidian-git:Open Git source control": false,
       "pdf-plus:PDF++: Toggle auto-copy": false,
       "pdf-plus:PDF++: Toggle auto-focus": false,
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "2af3795994deb845",
+  "active": "51471b617783bd58",
   "lastOpenFiles": [
-    "de/testing/testing.md",
-    "de/platform/gck/gck.md",
     "de/adpll/adpll.md",
     "de/adpll",
-    "de/testing/include/jtap_sample_preload.svg",
-    "de/testing/include/occ.svg",
-    "conflict-files-obsidian-git.md",
-    "de/testing/book/IEEE 1149.1/IEEESTD.2001.92950.pdf",
-    "de/fpga/fpga.md",
-    "de/fpga",
+    "de/design_spec/ref/05C16500",
+    "de/design_spec/ref/47B80500",
+    "de/design_spec/ref/~$linting table.xlsx",
+    "de/design_spec/ref/2CB7F400",
+    "de/design_spec/ref/EA86F400",
+    "de/design_spec/ref/ACC4F400",
     "de/design_spec/ref/linting table.xlsx",
+    "de/design_spec/fast_design.md",
+    "dv/sv/ref/Verilog Nonblocking Assignments With Delays, Myths & Mysteries.pdf",
+    "de/design_spec/rule.md",
+    "de/design_spec/verilog.md",
+    "de/design_spec/lint_rule.md",
+    "de/design_spec/include/fctrl.svg",
+    "de/design_spec/include_verilog/Pasted image 20241127162031.png",
+    "de/design_spec/include_verilog/Pasted image 20240307155712.png",
+    "de/design_spec/include_lint_rule/Pasted image 20250822152347.png",
+    "de/design_spec/include_lint_rule/Pasted image 20250821132202.png",
+    "de/design_spec/include_lint_rule/Pasted image 20250804133458.png",
+    "de/fpga/fpga.md",
     "Pasted image 20260120163717.png",
     "Pasted image 20260120163549.png",
-    "de/techlib/tech_lib_model.md",
-    "de/techlib/include/memory_macro.svg",
-    "de/techlib/include",
-    "de/techlib/code/ts1n28hpcpuhdlvtb16x32m1sbsod_170a_ssg0p81v0p81vm40c.v",
-    "de/techlib/code/tcbn28hpcplusbwp35p140.v",
-    "de/techlib/code",
-    "de/techlib",
-    "todo/memory_macro.md",
-    "todo/ts1n28hpcpuhdlvtb16x32m1sbsod_170a_ssg0p81v0p81vm40c.v",
-    "Pasted image 20260115220628.png",
-    "todo/airoha.md",
+    "de/testing/testing.md",
+    "de/fpga/include",
+    "de/ppa/spyglass.md",
+    "dv/sw/ld.md",
+    "de/platform/gen_clk/gen_clk.md",
+    "de/platform/gen_clk/include/clkmux.svg",
+    "de/testing/include/occ.svg",
+    "de/ppa/evaluation.md",
+    "de/ppa/timing.md",
+    "de/ppa/upf.md",
+    "de/compression/compression.md",
     "de/genus/genus.md",
-    "Pasted image 20260115121752.png",
-    "de/verification_spec/verification_spec.md",
-    "de/testing/include/reg.svg",
-    "de/testing/include/scan_chain_cross_clock_domain.svg",
-    "de/testing/include/scan_flow.svg"
+    "de/techlib/tech_lib_model.md",
+    "dv/sv/sv_rule.md",
+    "de/power/sdpd/sdpd.md",
+    "de/techlib/Untitled.md",
+    "de/power/genus/genus.md",
+    "conflict-files-obsidian-git.md",
+    "de/platform/gck/gck.md",
+    "c/c.md",
+    "de/power/sdpd/power.md",
+    "todo/airoha.md",
+    "de/power/power_report.md"
   ]
 }
