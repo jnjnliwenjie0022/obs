@@ -227,6 +227,7 @@
   },
   "active": "51471b617783bd58",
   "lastOpenFiles": [
+    "de/design_spec/ref/47B80500",
     "de/design_spec/ref/~$linting table.xlsx",
     "de/design_spec/ref/2CB7F400",
     "de/design_spec/ref/EA86F400",
@@ -254,7 +255,6 @@
     "dv/sv/ref/full_case parallel_case, the Evil Twins of Verilog.pdf",
     "dv/sw/ld.md",
     "de/platform/gen_clk/gen_clk.md",
-    "de/testing/book/IEEE 1149.1/IEEESTD.2001.92950.pdf",
     "de/platform/gen_clk/include/clkmux.svg",
     "de/testing/include/occ.svg",
     "de/ppa/evaluation.md",
