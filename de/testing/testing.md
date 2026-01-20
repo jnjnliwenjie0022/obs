@@ -1,4 +1,5 @@
 - ref: https://www.youtube.com/watch?v=FMhw3n7NqVM&list=PLvd8d-SyI7hjk_Ci0zpTqImAtpEjdK5JF&index=55
+- ref: https://www.bilibili.com/video/BV1GLpTexERg/?spm_id_from=333.788.videopod.sections&vd_source=f76f557f57240715b93f4a11fcca6119
 - ATPG: Automatic Test Pattern Generation (ATPG)
 - ATPG sees only comb. ckt. model
 	- turns seq. ckt. to comb. ckt.
@@ -83,13 +84,17 @@
 			- slow clock: from ATE
 			- fast clock: from PLL
 				- AT-speed test (全速測試): 測試晶片在實際工作頻率下是否能正常運作，測試時脈往往是由晶片內部的PLL產生
-## occ #TODO 
+## occ
+
+- ref: https://www.youtube.com/watch?v=svrInoMmnrM
 - ref: https://blog.csdn.net/Tranquil_ovo/article/details/151120747?spm=1001.2101.3001.6650.4&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7EYuanLiJiHua%7EPosition-4-151120747-blog-144903477.235%5Ev43%5Epc_blog_bottom_relevance_base3&utm_relevant_index=8
+- ref: https://www.youtube.com/watch?v=FkZ0lX5BYuI
 - ref: https://medium.com/@raghuel/lets-talk-about-occ-d9bcc39260cd
 - ref: https://www.cnblogs.com/yilia-er/p/14200583.html
-- ref: https://www.youtube.com/watch?v=svrInoMmnrM
-- occ 可以是 hard macro by EDA tool
 
+- ![[occ.svg|1000]]
+	- scan_en panout 非常大, 需要做 syncer, N = 2
+	- scan_en transaction time 非常大, 需要給予一個 delay, 使 scan_en 穩定, N >> 2
 ## scan_flow
 
 - ![[scan_flow.svg]]
