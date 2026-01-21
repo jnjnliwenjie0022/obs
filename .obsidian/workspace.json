@@ -45,15 +45,16 @@
               "state": {
                 "file": "dv/sv/ref/Verilog Nonblocking Assignments With Delays, Myths & Mysteries.pdf",
                 "page": 7,
-                "left": -9,
-                "top": 778,
-                "zoom": 1.6887254901960784
+                "left": -5,
+                "top": 782,
+                "zoom": 2.7769607843137254
               },
               "icon": "lucide-file-text",
               "title": "Verilog Nonblocking Assignments With Delays, Myths & Mysteries"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -175,13 +176,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "de/design_spec/lint_rule.md",
+                "file": "dv/sv/ref/Verilog Nonblocking Assignments With Delays, Myths & Mysteries.pdf",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of lint_rule"
+              "title": "Outline of Verilog Nonblocking Assignments With Delays, Myths & Mysteries"
             }
           },
           {
@@ -227,8 +228,11 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "51471b617783bd58",
+  "active": "eea5bed6476794a7",
   "lastOpenFiles": [
+    "de/ppa/spyglass.md",
+    "de/design_spec/lint_rule.md",
+    "dv/sv/ref/Verilog Nonblocking Assignments With Delays, Myths & Mysteries.pdf",
     "de/adpll/adpll.md",
     "de/adpll",
     "de/design_spec/ref/05C16500",
@@ -239,10 +243,8 @@
     "de/design_spec/ref/ACC4F400",
     "de/design_spec/ref/linting table.xlsx",
     "de/design_spec/fast_design.md",
-    "dv/sv/ref/Verilog Nonblocking Assignments With Delays, Myths & Mysteries.pdf",
     "de/design_spec/rule.md",
     "de/design_spec/verilog.md",
-    "de/design_spec/lint_rule.md",
     "de/design_spec/include/fctrl.svg",
     "de/design_spec/include_verilog/Pasted image 20241127162031.png",
     "de/design_spec/include_verilog/Pasted image 20240307155712.png",
@@ -254,7 +256,6 @@
     "Pasted image 20260120163549.png",
     "de/testing/testing.md",
     "de/fpga/include",
-    "de/ppa/spyglass.md",
     "dv/sw/ld.md",
     "de/platform/gen_clk/gen_clk.md",
     "de/platform/gen_clk/include/clkmux.svg",
@@ -273,7 +274,6 @@
     "de/platform/gck/gck.md",
     "c/c.md",
     "de/power/sdpd/power.md",
-    "todo/airoha.md",
-    "de/power/power_report.md"
+    "todo/airoha.md"
   ]
 }
