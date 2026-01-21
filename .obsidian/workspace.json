@@ -41,16 +41,15 @@
             "id": "eea5bed6476794a7",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "dv/sv/ref/Verilog Nonblocking Assignments With Delays, Myths & Mysteries.pdf",
-                "page": 7,
-                "left": -5,
-                "top": 782,
-                "zoom": 2.7769607843137254
+                "file": "de/adpll/adpll.md",
+                "mode": "preview",
+                "source": false,
+                "backlinks": false
               },
-              "icon": "lucide-file-text",
-              "title": "Verilog Nonblocking Assignments With Delays, Myths & Mysteries"
+              "icon": "lucide-file",
+              "title": "adpll"
             }
           }
         ],
@@ -111,8 +110,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 541.5,
-    "collapsed": true
+    "width": 541.5
   },
   "right": {
     "id": "baf9c43aba40b294",
@@ -176,13 +174,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "dv/sv/ref/Verilog Nonblocking Assignments With Delays, Myths & Mysteries.pdf",
+                "file": "de/adpll/adpll.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Verilog Nonblocking Assignments With Delays, Myths & Mysteries"
+              "title": "Outline of adpll"
             }
           },
           {
@@ -230,9 +228,9 @@
   },
   "active": "eea5bed6476794a7",
   "lastOpenFiles": [
+    "dv/sv/ref/Verilog Nonblocking Assignments With Delays, Myths & Mysteries.pdf",
     "de/ppa/spyglass.md",
     "de/design_spec/lint_rule.md",
-    "dv/sv/ref/Verilog Nonblocking Assignments With Delays, Myths & Mysteries.pdf",
     "de/adpll/adpll.md",
     "de/adpll",
     "de/design_spec/ref/05C16500",
