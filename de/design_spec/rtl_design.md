@@ -25,7 +25,7 @@ always @(posedge clk) begin
 		mem[wr_index] <= wr_data;
 end
 ```
--  
+- 以下會造成很嚴重的 internal power consumption 
 ```verilog
 always @(posedge clk) begin
 	if (wr)
