@@ -13,5 +13,5 @@
 
 |      | barrel shift | normal shift |
 | ---- | ------------ | ------------ |
-| Freq |              | 799.361 MHz  |
-| Area |              |              |
+| Freq | 793.651 MHz  | 799.361 MHz  |
+| Area | 36128        | 36451        |
