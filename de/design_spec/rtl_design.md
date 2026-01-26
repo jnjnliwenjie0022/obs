@@ -25,12 +25,12 @@ always @(posedge clk) begin
 		mem[wr_index] <= wr_data;
 end
 ```
-- 以下會造成很嚴重的 internal power consumption 
+- 以下不會合成GCK, 會造成很嚴重的 internal power consumption
 ```verilog
 always @(posedge clk) begin
 	if (wr)
 		mem[wr_index] <= wr_data;
 	else
-		mem[wr_index] <= wr_data;
+		mem[wr_index] <= mem[wr_index];
 end
 ```
