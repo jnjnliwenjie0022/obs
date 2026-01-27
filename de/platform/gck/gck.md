@@ -223,3 +223,10 @@ endprimitive
 	- ![[reg.svg|1000]]
 - gck 不用置換
 	- interface: EN, CLK_IN, SE, CLK_OUT
+
+
+
+
+
+- ![[Pasted image 20260127193018.png|1000]]
+- 

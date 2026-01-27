@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "de/platform/gck/gck.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false,
                 "backlinks": false
               },
@@ -227,6 +227,7 @@
   },
   "active": "51471b617783bd58",
   "lastOpenFiles": [
+    "Pasted image 20260127193018.png",
     "de/design_spec/lint_rule.md",
     "de/testing/include/ae350_andla_integration.drawio",
     "de/ppa/spyglass.md",
