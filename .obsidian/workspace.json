@@ -23,6 +23,18 @@
             }
           },
           {
+            "id": "1c369e6a9879ed41",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "de/platform/gck/include/tsmc_gck.svg"
+              },
+              "icon": "lucide-image",
+              "title": "tsmc_gck"
+            }
+          },
+          {
             "id": "d7310e77d6f2d225",
             "type": "leaf",
             "state": {
@@ -64,7 +76,8 @@
               "title": "power"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -237,7 +250,7 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "51471b617783bd58",
+  "active": "1c369e6a9879ed41",
   "lastOpenFiles": [
     "de/platform/gck/include/tsmc_gck.svg",
     "de/platform/gck/include/skew.svg",
