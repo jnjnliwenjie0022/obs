@@ -21,8 +21,21 @@
               "icon": "lucide-file",
               "title": "adpll"
             }
+          },
+          {
+            "id": "49793bf2339563d9",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.11.5"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.11.5"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -176,7 +189,7 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "2af3795994deb845",
+  "active": "49793bf2339563d9",
   "lastOpenFiles": [
     "de/platform/gck/gck.md",
     "de/testing/testing.md",
