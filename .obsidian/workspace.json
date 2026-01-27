@@ -58,13 +58,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "de/design_spec/rtl_design.md",
+                "file": "de/ppa/evaluation.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "rtl_design"
+              "title": "evaluation"
             }
           }
         ],
@@ -189,13 +189,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "de/design_spec/rtl_design.md",
+                "file": "de/ppa/evaluation.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of rtl_design"
+              "title": "Outline of evaluation"
             }
           },
           {
@@ -243,8 +243,15 @@
   },
   "active": "e5056e3b78060aea",
   "lastOpenFiles": [
-    "de/design_spec/rule.md",
+    "de/ppa/spyglass.md",
+    "de/ppa/timing.md",
+    "de/ppa/upf.md",
+    "de/ram/ram.md",
+    "de/power/genus/genus.md",
+    "de/power/sdpd/power.md",
+    "de/power/sdpd/sdpd.md",
     "de/design_spec/rtl_design.md",
+    "de/design_spec/rule.md",
     "de/fpga/fpga.md",
     "de/format.md",
     "de/lut.md",
@@ -253,7 +260,6 @@
     "de/design_spec/verilog.md",
     "de/adpll/adpll.md",
     "dv/sv/ref/Verilog Nonblocking Assignments With Delays, Myths & Mysteries.pdf",
-    "de/ppa/spyglass.md",
     "de/adpll",
     "de/design_spec/ref/05C16500",
     "de/design_spec/ref/47B80500",
@@ -277,17 +283,11 @@
     "de/platform/gen_clk/include/clkmux.svg",
     "de/testing/include/occ.svg",
     "de/ppa/evaluation.md",
-    "de/ppa/timing.md",
-    "de/ppa/upf.md",
     "de/compression/compression.md",
     "de/genus/genus.md",
     "de/techlib/tech_lib_model.md",
     "dv/sv/sv_rule.md",
-    "de/power/sdpd/sdpd.md",
     "de/techlib/Untitled.md",
-    "de/power/genus/genus.md",
-    "conflict-files-obsidian-git.md",
-    "de/platform/gck/gck.md",
-    "c/c.md"
+    "conflict-files-obsidian-git.md"
   ]
 }
