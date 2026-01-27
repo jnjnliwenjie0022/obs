@@ -227,6 +227,7 @@
   },
   "active": "51471b617783bd58",
   "lastOpenFiles": [
+    "de/testing/include/ae350_andla_integration.drawio",
     "de/ppa/spyglass.md",
     "de/power/sdpd/power.md",
     "de/fpga/fpga.md",
@@ -271,7 +272,6 @@
     "de/testing/include/occ.svg",
     "de/genus/genus.md",
     "de/techlib/tech_lib_model.md",
-    "dv/sv/sv_rule.md",
-    "de/techlib/Untitled.md"
+    "dv/sv/sv_rule.md"
   ]
 }
