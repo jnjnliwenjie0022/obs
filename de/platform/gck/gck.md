@@ -70,6 +70,8 @@ end
 ```verilog
   CKLNQOPTMAD4BWP30P140 RC_CGIC_INST(.E (enable), .CP (ck_in), .TE(test), .Q (ck_out));
 ```
+	
+- ![[tsmc_gck.svg]]
 
 ```verilog
 module CKLNQOPTMAD4BWP30P140 (TE, E, CP, Q);
@@ -182,7 +184,7 @@ endprimitive
 	- ![[Pasted image 20251018043644.png]]
 	- 這個才是我們想要的行爲
 		- ![[Pasted image 20251018045341.png]]
-	- 結論: 在 gate-level simulation 中如果有**使用 ICG CELL 一定要吃 SDF** 
+	- 結論: 在 gate-level simulation 中如果有**使用 ICG CELL 建議要吃 SDF** 
 		- ![[Pasted image 20251121154103.png]]
 
 

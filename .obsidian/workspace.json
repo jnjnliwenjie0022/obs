@@ -23,6 +23,18 @@
             }
           },
           {
+            "id": "d7310e77d6f2d225",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "de/platform/gck/include/tsmc_gck.svg"
+              },
+              "icon": "lucide-image",
+              "title": "tsmc_gck"
+            }
+          },
+          {
             "id": "3e379876259357e0",
             "type": "leaf",
             "state": {
@@ -227,6 +239,9 @@
   },
   "active": "51471b617783bd58",
   "lastOpenFiles": [
+    "de/platform/gck/include/tsmc_gck.svg",
+    "de/platform/gck/include/skew.svg",
+    "de/platform/gck/gck.md",
     "Pasted image 20260127193018.png",
     "de/design_spec/lint_rule.md",
     "de/testing/include/ae350_andla_integration.drawio",
@@ -268,10 +283,7 @@
     "de/testing/testing.md",
     "dv/sw/ld.md",
     "de/platform/gen_clk/gen_clk.md",
-    "de/platform/gen_clk/include/clkmux.svg",
-    "de/testing/include/occ.svg",
     "de/genus/genus.md",
-    "de/techlib/tech_lib_model.md",
-    "dv/sv/sv_rule.md"
+    "de/techlib/tech_lib_model.md"
   ]
 }
