@@ -1,25 +1,25 @@
 {
   "main": {
-    "id": "60026726af5d4882",
+    "id": "d88e07345dcfbe5d",
     "type": "split",
     "children": [
       {
-        "id": "bdb305d42845d569",
+        "id": "3f14bf3f8f29f4b8",
         "type": "tabs",
         "children": [
           {
-            "id": "49793bf2339563d9",
+            "id": "5f9a3eee0aa52431",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "de/platform/gck/gck.md",
-                "mode": "source",
+                "file": "de/ram/ram.md",
+                "mode": "preview",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "gck"
+              "title": "ram"
             }
           }
         ]
@@ -28,15 +28,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "82818907448c0c1d",
+    "id": "46242b21f793c16c",
     "type": "split",
     "children": [
       {
-        "id": "9bfaf0571bb73f7a",
+        "id": "b6593a5454b0b3f1",
         "type": "tabs",
         "children": [
           {
-            "id": "54fe4b6bc637e92d",
+            "id": "35a470a2c390e07e",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -49,7 +49,7 @@
             }
           },
           {
-            "id": "2ffc00ddad7c59f0",
+            "id": "463934e073eea783",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -66,7 +66,7 @@
             }
           },
           {
-            "id": "8b690129b1df7dfa",
+            "id": "29a4d1998236b508",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -79,23 +79,23 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 541.5
   },
   "right": {
-    "id": "fe7ee36e3efbc9c9",
+    "id": "baf9c43aba40b294",
     "type": "split",
     "children": [
       {
-        "id": "c251b068fa547a2f",
+        "id": "b953332f08472a84",
         "type": "tabs",
         "children": [
           {
-            "id": "30a7bfdf804ac200",
+            "id": "67ef46447a2db9d8",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "de/testing/testing.md",
+                "file": "de/platform/platform/platform.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,25 +105,25 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for testing"
+              "title": "Backlinks for platform"
             }
           },
           {
-            "id": "5e7bab804071eb83",
+            "id": "70b17e93822d19f9",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "de/testing/testing.md",
+                "file": "de/platform/platform/platform.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from testing"
+              "title": "Outgoing links from platform"
             }
           },
           {
-            "id": "fe8c45008716a4d7",
+            "id": "a5478fab1b1933b6",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -138,18 +138,38 @@
             }
           },
           {
-            "id": "5892a17d8986f3db",
+            "id": "0b8a8ade04f18b08",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "de/adpll/adpll.md",
+                "file": "de/ram/ram.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of adpll"
+              "title": "Outline of ram"
+            }
+          },
+          {
+            "id": "eb0995a0769ace51",
+            "type": "leaf",
+            "state": {
+              "type": "git-history-view",
+              "state": {},
+              "icon": "history",
+              "title": "History"
+            }
+          },
+          {
+            "id": "b38429274462f125",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
             }
           }
         ],
@@ -157,56 +177,70 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 346.5
   },
   "left-ribbon": {
     "hiddenItems": {
+      "obsidian-git:Open Git source control": false,
+      "bases:Create new base": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "bases:Create new base": false,
-      "obsidian-git:Open Git source control": false,
       "pdf-plus:PDF++: Toggle auto-copy": false,
       "pdf-plus:PDF++: Toggle auto-focus": false,
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "49793bf2339563d9",
+  "active": "5f9a3eee0aa52431",
   "lastOpenFiles": [
-    "de/adpll/adpll.md",
-    "de/platform/gck/gck.md",
     "de/platform/gck/ref/lsli-event-q.pdf",
     "de/platform/gck/ref",
-    "de/ram/ref/~$SRAM PPA analysis_500MHz.pptx",
-    "de/ram/ref/SRAM_PPA_analysis_500MHz.xlsx",
-    "de/ram/ref/SRAM PPA analysis_500MHz.pptx",
-    "de/ram/ref",
+    "de/power/sdpd/power.md",
+    "de/ppa/spyglass.md",
+    "de/platform/gck/gck.md",
     "de/platform/gck/include/specify.svg",
+    "de/power/sdpd/sdpd.md",
     "de/platform/gck/code/specify/vip/riu_top.sv",
     "de/platform/gck/code/specify/vip/riu.sv",
     "de/platform/gck/code/specify/vip",
     "de/platform/gck/code/specify/run_batch.tcl",
-    "conflict-files-obsidian-git.md",
+    "de/platform/gck/code/specify/pattern.txt",
+    "de/platform/gck/code/specify/flist",
+    "de/platform/gck/code/specify/02",
+    "de/platform/gck/code/specify/01",
+    "de/platform/gck/code/specify",
     "de/platform/gck/include/tsmc_gck.svg",
-    "de/design_spec/rtl_design.md",
+    "de/ram/ram.md",
+    "de/ppa/upf.md",
+    "de/ppa/timing.md",
+    "de/ppa/evaluation.md",
+    "de/platform/gck/include/skew.svg",
     "Pasted image 20260127193018.png",
-    "de/testing/testing.md",
-    "de/testing/include/jtap_sample_preload.svg",
-    "de/testing/include/occ.svg",
+    "de/design_spec/lint_rule.md",
     "de/fpga/fpga.md",
-    "Pasted image 20260120163717.png",
-    "Pasted image 20260120163549.png",
-    "de/techlib/tech_lib_model.md",
-    "de/techlib/include/memory_macro.svg",
-    "todo/memory_macro.md",
-    "Pasted image 20260115220628.png",
-    "todo/airoha.md",
+    "de/compression/compression.md",
+    "de/storge/ddr.md",
+    "de/power/genus/genus.md",
+    "de/design_spec/rtl_design.md",
+    "de/design_spec/rule.md",
+    "de/format.md",
+    "de/lut.md",
+    "de/note.md",
+    "de/design_spec/verilog.md",
+    "de/adpll/adpll.md",
+    "de/design_spec/include/fctrl.svg",
+    "de/design_spec/include_verilog/Pasted image 20241127162031.png",
+    "de/design_spec/include_verilog/Pasted image 20240307155712.png",
+    "de/design_spec/include_lint_rule/Pasted image 20250822152347.png",
+    "de/design_spec/include_lint_rule/Pasted image 20250821132202.png",
+    "de/design_spec/include_lint_rule/Pasted image 20250804133458.png",
+    "de/testing/testing.md",
+    "dv/sw/ld.md",
+    "de/platform/gen_clk/gen_clk.md",
     "de/genus/genus.md",
-    "Pasted image 20260115121752.png",
-    "de/verification_spec/verification_spec.md"
+    "de/techlib/tech_lib_model.md"
   ]
 }
