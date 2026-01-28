@@ -85,6 +85,7 @@ end
 ## specify
 
 - ref: [[de/platform/gck/code/specify/vip/riu_top.sv|riu_top]]
+- ref: [[lsli-event-q.pdf]]
 - ![[specify.svg]]
 
 # icg_skew
@@ -124,10 +125,3 @@ end
 	- ![[reg.svg|1000]]
 - gck 不用置換
 	- interface: EN, CLK_IN, SE, CLK_OUT
-
-
-
-
-
-- ![[Pasted image 20260127193018.png|1000]]
-- 
