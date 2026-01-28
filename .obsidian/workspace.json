@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "de/ram/ram.md",
+                "file": "de/power/sdpd/sdpd.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "ram"
+              "title": "sdpd"
             }
           },
           {
@@ -251,6 +251,8 @@
   },
   "active": "51471b617783bd58",
   "lastOpenFiles": [
+    "de/power/sdpd/power.md",
+    "de/ram/ram.md",
     "de/ram/ref/~$SRAM PPA analysis_500MHz.pptx",
     "de/ram/ref/SRAM PPA analysis_500MHz.pptx",
     "de/ram/ref/SRAM_PPA_analysis_500MHz.xlsx",
@@ -267,11 +269,9 @@
     "Pasted image 20260127193018.png",
     "de/design_spec/lint_rule.md",
     "de/testing/include/ae350_andla_integration.drawio",
-    "de/power/sdpd/power.md",
     "de/fpga/fpga.md",
     "de/compression/compression.md",
     "de/storge/ddr.md",
-    "de/ram/ram.md",
     "de/power/genus/genus.md",
     "de/power/sdpd/sdpd.md",
     "de/design_spec/rtl_design.md",
@@ -284,7 +284,6 @@
     "dv/sv/ref/Verilog Nonblocking Assignments With Delays, Myths & Mysteries.pdf",
     "de/adpll",
     "de/design_spec/ref/05C16500",
-    "de/design_spec/ref/47B80500",
     "de/design_spec/include/fctrl.svg",
     "de/design_spec/include_verilog/Pasted image 20241127162031.png",
     "de/design_spec/include_verilog/Pasted image 20240307155712.png",
