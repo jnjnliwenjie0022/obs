@@ -84,9 +84,8 @@ end
 
 ## specify
 
-```verilog
-
-```
+- ref: [[de/platform/gck/code/specify/vip/riu_top.sv|riu_top]]
+- ![[specify.svg]]
 
 # icg_skew
 

@@ -1,0 +1,30 @@
+-uvm
+-licqueue
+-uvmhome CDNS-1.2
++access+wrc
++UVM_VERDI_TRACE
++UVM_TR_RECORD
++UVM_LOG_RECORD
+//+UVM_CONFIG_DB_TRACE
+//+UVM_PHASE_TRACE
+//+UVM_OBJECTION_TRACE
++UVM_VERBOSITY=UVM_HIGH
++UVM_TESTNAME=based_test
++uvm_set_config_int=*,recording_detail,400
+-input run_batch.tcl
+
+//-gui -linedebug -uvmlinedebug
+//-sysv c_mdu.cpp
+//+svseed=random
+
+// Top-Level Testbench
+./vip/riu_top.sv
+
+// UVC pkg
+// ***
+
+// UVC Files
+-incdir /NOBACKUP/atcpcw10/jasonli/my_uvm/my_array 
+
+// DUT Files
+-v ./vip/riu.sv
