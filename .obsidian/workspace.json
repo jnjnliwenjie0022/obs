@@ -4,67 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "2505482c3569db26",
+        "id": "3f14bf3f8f29f4b8",
         "type": "tabs",
         "children": [
           {
-            "id": "51471b617783bd58",
+            "id": "5f9a3eee0aa52431",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "de/platform/gck/gck.md",
+                "file": "de/ram/ram.md",
                 "mode": "preview",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "gck"
-            }
-          },
-          {
-            "id": "1c369e6a9879ed41",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "de/platform/gck/gck.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "gck"
-            }
-          },
-          {
-            "id": "3e379876259357e0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "de/ppa/spyglass.md",
-                "mode": "preview",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "spyglass"
-            }
-          },
-          {
-            "id": "e5056e3b78060aea",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "de/power/sdpd/power.md",
-                "mode": "preview",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "power"
+              "title": "ram"
             }
           }
         ]
@@ -188,13 +143,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "de/platform/gck/gck.md",
+                "file": "de/ram/ram.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of gck"
+              "title": "Outline of ram"
             }
           },
           {
@@ -239,12 +194,13 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "51471b617783bd58",
+  "active": "5f9a3eee0aa52431",
   "lastOpenFiles": [
-    "de/platform/gck/include/specify.svg",
-    "de/power/sdpd/sdpd.md",
+    "de/power/sdpd/power.md",
     "de/ppa/spyglass.md",
     "de/platform/gck/gck.md",
+    "de/platform/gck/include/specify.svg",
+    "de/power/sdpd/sdpd.md",
     "de/platform/gck/code/specify/vip/riu_top.sv",
     "de/platform/gck/code/specify/vip/riu.sv",
     "de/platform/gck/code/specify/vip",
@@ -255,7 +211,6 @@
     "de/platform/gck/code/specify/01",
     "de/platform/gck/code/specify",
     "de/platform/gck/include/tsmc_gck.svg",
-    "de/power/sdpd/power.md",
     "de/ram/ref/ppt9365.tmp",
     "de/ram/ram.md",
     "de/ppa/upf.md",
