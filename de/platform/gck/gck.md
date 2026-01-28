@@ -85,6 +85,7 @@ end
 ## specify
 
 - ref: [[de/platform/gck/code/specify/vip/riu_top.sv|riu_top]]
+- ref: https://www.cnblogs.com/-9-8/p/5862117.html
 - ref: [[lsli-event-q.pdf]]
 - ![[specify.svg]]
 
